@@ -2,7 +2,7 @@ function footer() {
     return (
       <footer>
         <div class="wrapper">
-          <p className='footer-p'>Free-Hit is an open-source project and we welcome contributions from anyone who is<br/> interested. Please feel free to use the following link to contribute and help make it even more attractive.</p> 
+          <p className='footer-p'>FreeHit is an open-source project and we welcome contributions from anyone who is<br/> interested. Please feel free to use the following link to contribute and help make it even more attractive.</p> 
           <nav class="footer-nav">
             <a href="https://github.com/JasonDsouza212/Free-Hit" target="_blank" rel="noopener noreferrer">
               <button>Github repo</button><br/>
