@@ -69,10 +69,10 @@ npm install
 
 ```json
 {
-    productName: "< App_Name >",
-    category: "remote | resume | tweet | code | tools",
-    image: "< Image-Url >", #use short url [bitly.com]
-    link:"< Link_to_the_website >"
+    "productName": "< App_Name >",
+    "category": "remote | resume | tweet | code | tools",
+    "image": "< Image-Url >", #use short url [bitly.com]
+    "link":"< Link_to_the_website >"
 },
 ```
 
