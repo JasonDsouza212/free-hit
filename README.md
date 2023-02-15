@@ -1,70 +1,23 @@
-# Getting Started with Create React App
+<div id="header" align="center">
+  <img src="https://i.pinimg.com/originals/36/cd/3c/36cd3c19e02cee10f936b450a8b804f5.jpg"/><br>
+    <h1> Free-Hit </h1>
+    <p><strong><em>"Your search ends here 🔍"</em></strong></p>
+    <!-- to change tagline if necessary -->
+    </div> <br>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Welcome to Free-Hit
 
-## Available Scripts
++ As we all prefer open-source software for our daily use, it can be difficult to find tools that are specific to our needs. This is where we come in  **Free-Hit.**
++ Free-Hit is a tool used to search for open-source projects that are both free and helpful for our needs
++ Although Free-Hit is a powerful tool to search for open-source projects, we recognize that it is still evolving. It will take time for us to add all the projects and additional content that our users want. That's why we encourage contributions from anyone interested in making Free-Hit even more attractive and useful. If you're a developer or a tech enthusiast, you can help us create a better experience for everyone
++ Free-Hit is more than just a tool to find open-source apps. It's also a treasure store of useful content that can help you in many ways. For example, we have curated a list of remote hiring websites that can help you find your dream job from the comfort of your home. But that's not all – we have big plans for the future. We are working hard to add more useful content that can make your life easier and more productive. Stay tuned for updates!
 
-In the project directory, you can run:
+<div id="centertext" align="center">
+    <h3>Free-Hit can be used by anyone, from casual internet users to professionals!</h3>
+</div>
 
-### `npm start`
+# 🎥 Project Overview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+You can check out the live project [here](jasondsouza212.github.io/Free-Hit/)
+## Screen-Shot
+![](https://i.pinimg.com/originals/36/cd/3c/36cd3c19e02cee10f936b450a8b804f5.jpg)
