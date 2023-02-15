@@ -1,5 +1,5 @@
 <div id="header" align="center">
-  <img src="https://i.pinimg.com/originals/36/cd/3c/36cd3c19e02cee10f936b450a8b804f5.jpg"/><br>
+  <img  src="https://github.com/JasonDsouza212/Free-Hit/blob/main/src/images/Free-Hit-SS.png?raw=true"/><br>
     <h1> Free-Hit </h1>
     <p><strong><em>"Your search ends here 🔍"</em></strong></p>
     <!-- to change tagline if necessary -->
@@ -19,5 +19,84 @@
 # 🎥 Project Overview
 
 You can check out the live project [here](jasondsouza212.github.io/Free-Hit/)
-## Screen-Shot
-![](https://i.pinimg.com/originals/36/cd/3c/36cd3c19e02cee10f936b450a8b804f5.jpg)
+
+# 🪛 Want to contribute?
+
+We welcome you to join us! **Free-Hit** is an open-source project, and we are excited to hear your thoughts and ideas.
+
+## 💡Getting Started
+
+Found a bug? Accessibility issue? Or do you want to add an new tool to our database? Then go right ahead and create an issue.
+
+
+### Tech Stack
+
+This project uses:
+
+- [React](https://reactjs.org/)
+
+### Prerequisites
+
+Before installation, you need to have the following:
+
+- [Node](https://nodejs.org) installed
+- Basic knowledge of [Git](https://git-scm.com/)
+
+
+
+## STAR THE REPO
+### How to Contribute to this repository
+
+1. Fork the repository (Click the Fork button in the top right of this page,
+   click your Profile Image)
+2. Clone the forked repository to your local machine.
+
+```markdown
+git clone https://github.com/your-username/JasonDsouza212/free-hit.git
+```
+
+3. change the present working directory
+
+```markdown
+cd free-hit
+```
+4. Open CMD in your current directory and install npm packages using command.
+```markdown
+npm install
+```
+
+5. To add new tool :
+
+```json
+{
+    productName: "< App_Name >",
+    category: "remote | resume | tweet | code | tools",
+    image: "< Image-Url >", #use short url [bitly.com]
+    link:"< Link_to_the_website >"
+},
+```
+
+6. Make changes in the project. Add, Commit and push the project using following commands:
+
+> Add all files 
+```markdown
+git add . 
+```
+> Commit the changes
+```markdown
+git commit -m "Write Your commit Message" 
+```
+> Push the branch
+```markdown
+git push 
+```
+
+### NOTE
+
+- Make Sure you commit your changes in a new branch.
+- Make Sure you Give proper name to your files describing the addition.
+- Also Make Sure you comment your code wherever necessary.
+
+<div align="center">
+Show some ❤️ by starring this awesome repository!
+</div>
