@@ -71,10 +71,11 @@ npm install
 {
     "productName": "< App_Name >",
     "category": "remote | resume | tweet | code | tools",
-    "image": "< Image-Url >", #use short url [bitly.com]
+    "image": "< Image-Url >",
     "link":"< Link_to_the_website >"
 },
 ```
+To ensure that your URLs are short, it is recommended to use bitly.com for URL shortening. 
 
 6. Make changes in the project. Add, Commit and push the project using following commands:
 
