@@ -51,12 +51,12 @@ button.background-button:hover:after {
   margin: 20px;
 }
 
-.button-wrapper:nth-child(2) a {
+.button-wrapper:nth-child(2) button {
   -webkit-filter: hue-rotate(36deg);
   filter: hue-rotate(36deg);
 }
 
-.button-wrapper:nth-child(3) a {
+.button-wrapper:nth-child(3) button {
   -webkit-filter: hue-rotate(72deg);
   filter: hue-rotate(72deg);
 }
