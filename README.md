@@ -1,104 +1,70 @@
-<div id="header" align="center">
-  <img  src="https://github.com/JasonDsouza212/Free-Hit/blob/main/src/images/Free-Hit-SS.png?raw=true"/><br>
-    <h1> Free-Hit </h1>
-    <p><strong><em>"Your search ends here 🔍"</em></strong></p>
-    <!-- to change tagline if necessary -->
-    </div> <br>
+# Getting Started with Create React App
 
-# Welcome to Free-Hit
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-+ As we all prefer open-source softwares for our daily use, it can be difficult to find tools that are specific to our needs. This is where  **Free-Hit** comes in.
-+ Free-Hit is a tool used to search for open-source projects that are both free and helpful for our needs
-+ Although Free-Hit is a powerful tool to search for open-source projects, we recognize that it is still evolving. It will take time for us to add all the projects,resources and additional content that our users want. That's why, we encourage contributions from everyone interested in making Free-Hit even more attractive and useful.
-+ If you're a developer or a tech enthusiast, you can help us create a better experience for everyone.
-+ Free-Hit is more than just a tool to find open-source apps. It's also a treasure of useful content that can help you in many ways. For example, we have curated a list of remote hiring websites that can help you find your dream job from the comfort of your home. But that's not all – we have big plans for the future. We are working hard to add more useful content that can make your life easier and more productive. 
-+ Stay tuned for updates!
+## Available Scripts
 
-<div id="centertext" align="center">
-    <h3>Free-Hit can be used by anyone, from casual internet users to professionals!</h3>
-</div>
+In the project directory, you can run:
 
-# 🎥 Project Overview
+### `npm start`
 
-You can check out the live project [here](jasondsouza212.github.io/Free-Hit/)
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-# 🪛 Want to contribute?
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-We welcome you to join us! 
-+ **Free-Hit** is an open-source project, and we are excited to hear your thoughts and ideas.
-+ Fork this repository,add your contributions and submit a PR.
-+ Found a bug? Accessibility issue? Or do you want to add a new tool to our database? Then go right ahead and create an issue.
+### `npm test`
 
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### Tech Stack
+### `npm run build`
 
-This project uses:
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-- [React](https://reactjs.org/)
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-### Prerequisites
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-Before installation, you need to have the following:
+### `npm run eject`
 
-- [Node](https://nodejs.org) installed
-- Basic knowledge of [Git](https://git-scm.com/)
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-## STAR THE REPO
-### How to Contribute to this repository
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-1. Fork the repository (Click the Fork button in the top right of this page,
-   click your Profile Image)
-2. Clone the forked repository to your local machine.
+## Learn More
 
-```markdown
-git clone https://github.com/your-username/JasonDsouza212/free-hit.git
-```
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-3. change the present working directory
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-```markdown
-cd free-hit
-```
-4. Open CMD in your current directory and install npm packages using command.
-```markdown
-npm install
-```
+### Code Splitting
 
-5. To add new tool :
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-```json
-{
-    "productName": "< App_Name >",
-    "category": "remote | resume | tweet | code | tools",
-    "image": "< Image-Url >",
-    "link":"< Link_to_the_website >"
-},
-```
-To ensure that your URLs are short, it is recommended to use bitly.com for URL shortening. 
+### Analyzing the Bundle Size
 
-6. Make changes in the project. Add, Commit and push the project using following commands:
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-> Add all files 
-```markdown
-git add . 
-```
-> Commit the changes
-```markdown
-git commit -m "Write Your commit Message" 
-```
-> Push the branch
-```markdown
-git push 
-```
+### Making a Progressive Web App
 
-### NOTE
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-- Make Sure you commit your changes in a new branch.
-- Make Sure you Give proper name to your files describing the addition.
-- Also Make Sure you comment your code wherever necessary.
+### Advanced Configuration
 
-<div align="center">
-Show some ❤️ by starring this awesome repository!
-</div>
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

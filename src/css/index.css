@@ -51,52 +51,52 @@ button.background-button:hover:after {
   margin: 20px;
 }
 
-.button-wrapper:nth-child(2) button {
+.button-wrapper:nth-child(2) a {
   -webkit-filter: hue-rotate(36deg);
   filter: hue-rotate(36deg);
 }
 
-.button-wrapper:nth-child(3) button {
+.button-wrapper:nth-child(3) a {
   -webkit-filter: hue-rotate(72deg);
   filter: hue-rotate(72deg);
 }
 
-.button-wrapper:nth-child(4) button{
+.button-wrapper:nth-child(4) {
   -webkit-filter: hue-rotate(108deg);
   filter: hue-rotate(108deg);
 }
 
-.button-wrapper:nth-child(5) button{
+.button-wrapper:nth-child(5) {
   -webkit-filter: hue-rotate(144deg);
   filter: hue-rotate(144deg);
 }
 
-.button-wrapper:nth-child(6) button {
+.button-wrapper:nth-child(6) {
   -webkit-filter: hue-rotate(180deg);
   filter: hue-rotate(180deg);
 }
 
-.button-wrapper:nth-child(7) button{
+.button-wrapper:nth-child(7) {
   -webkit-filter: hue-rotate(216deg);
   filter: hue-rotate(216deg);
 }
 
-.button-wrapper:nth-child(8) button {
-  -webkit-filter: hue-rotate(230deg);
+.button-wrapper:nth-child(8) {
+  -webkit-filter: hue-rotate(216deg);
   filter: hue-rotate(216deg);
 }
 
-.button-wrapper:nth-child(9) button{
+.button-wrapper:nth-child(9) {
   -webkit-filter: hue-rotate(252deg);
   filter: hue-rotate(252deg);
 }
 
-.button-wrapper:nth-child(7) button {
+.button-wrapper:nth-child(7) {
   -webkit-filter: hue-rotate(288deg);
   filter: hue-rotate(288deg);
 }
 
-.button-wrapper:nth-child(8) button{
+.button-wrapper:nth-child(8) {
   -webkit-filter: hue-rotate(324deg);
   filter: hue-rotate(324deg);
 }
