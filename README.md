@@ -103,7 +103,7 @@ git push
 Show some ❤️ by starring this awesome repository!
 </div>
 
-###contributors
-<a href="https://github.com/withfig/autocomplete/graphs/contributors">
-  <img alt="Grid of profile icons of the 200+ contributors" src="https://contrib.rocks/image?repo=withfig/autocomplete" />
+## ✨ Contributors
+<a href="https://github.com/JasonDsouza212/free-hit/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=JasonDsouza212/free-hit" />
 </a>
