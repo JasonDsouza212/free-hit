@@ -192,6 +192,12 @@ export const products = {
         image: "https://gprm.itsvg.in/logo.png",
         link:"https://gprm.itsvg.in/"
       },
+      {
+        productName: "Hired.com",
+        category: "remote",
+        image: "https://bit.ly/3EjH1up",
+        link:"https://hired.com/"
+      },
     
     ],
   };
