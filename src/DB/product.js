@@ -211,5 +211,11 @@ export const products = {
       image: "https://jsonlint.com/favicon.ico",
       link: "https://jsonlint.com",
     },
+    {
+      productName: "Figma.com",
+      category: "tools",
+      image: "https://static.figma.com/app/icon/1/favicon.png",
+      link: "https://www.figma.com/",
+    },
   ],
 };
