@@ -88,6 +88,14 @@ git add .
 ```markdown
 git commit -m "Write Your commit Message" 
 ```
+> Create a new branch
+```diff
+git branch -M <your-name>
+```
+> Set upstream command to create a PR
+```diff
+git remote add upstream https://github.com/JasonDsouza212/free-hit.git
+```
 > Push the branch
 ```markdown
 git push 
