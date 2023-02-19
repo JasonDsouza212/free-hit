@@ -66,7 +66,8 @@ cd free-hit
 npm install
 ```
 
-5. To add new tool :
+5. Add new tool :
+> Go to DB folder >  `product.js` & add your code 
 
 ```
 {
