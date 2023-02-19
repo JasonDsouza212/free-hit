@@ -50,7 +50,6 @@ function Card() {
                                     <a href={product.link} target="_blank" rel="noopener noreferrer">
                                       <button>Website</button>
                                     </a>
-                                   
                                   </div>
                                 </div>
                               </div>

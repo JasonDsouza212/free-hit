@@ -2,6 +2,10 @@ body {
   text-align: center;
 }
 
+button {
+  cursor: pointer;
+}
+
 
 /* Navigation  */
 button.background-button {
