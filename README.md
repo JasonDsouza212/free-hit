@@ -104,6 +104,6 @@ Show some ❤️ by starring this awesome repository!
 </div>
 
 ## ✨ Contributors
-<a href="https://github.com/JasonDsouza212/free-hit/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=JasonDsouza212/free-hit" />
+<a href="https://github.com/jasondsouza212/free-hit/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=jasondsouza212/free-hit" />
 </a>
