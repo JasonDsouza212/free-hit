@@ -232,5 +232,17 @@ export const products = {
       image: "https://www.futurepedia.io/futurepedia-small.svg",
       link: "https://www.futurepedia.io/",
     },
+    {
+      productName: "jsonformatter",
+      category: "tools",
+      image: "https://jsonformatter.org/img/favicon.png",
+      link: "https://jsonformatter.org/",
+    },
+    {
+      productName: "jsonformatter",
+      category: "tools",
+      image: "https://jscompress.com/icons/favicon.ico",
+      link: "https://jscompress.com/",
+    },
   ],
 };
