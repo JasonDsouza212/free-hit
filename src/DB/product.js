@@ -45,7 +45,8 @@ export const products = {
     {
       productName: "Remotive",
       category: "remote",
-      image: "https://bit.ly/3K2VfDE",
+      image:
+        "https://remotive.com/remotive_website_layout/static/src/img/favicon.ico",
       link: "https://remotive.com/",
     },
     {
@@ -63,7 +64,8 @@ export const products = {
     {
       productName: "Remote.co",
       category: "remote",
-      image: "https://bit.ly/3HVXbLn",
+      image:
+        "https://remoteco.s3.amazonaws.com/wp-content/uploads/2017/02/retina_favicon_32.png",
       link: "https://remote.co/",
     },
     {
@@ -81,7 +83,8 @@ export const products = {
     {
       productName: "Skip The Drive",
       category: "remote",
-      image: "https://bit.ly/3HW49jn",
+      image:
+        "https://skipthedrive.b-cdn.net/wp-content/uploads/2023/02/favicon_32c.png",
       link: "https://www.skipthedrive.com/",
     },
     {
@@ -93,7 +96,7 @@ export const products = {
     {
       productName: "Working No Mads",
       category: "remote",
-      image: "https://bit.ly/40TNpC3",
+      image: "https://www.workingnomads.com/static/jobs/assets/favicon.ico",
       link: "https://www.workingnomads.com/",
     },
     {
@@ -153,8 +156,9 @@ export const products = {
     {
       productName: "Wordtune",
       category: "tools",
-      image: "https://bit.ly/3E2LWzK",
-      link: "https://bit.ly/3YJCngT",
+      image:
+        "https://uploads-ssl.webflow.com/5f7e0f9d75fee6f6f546df46/62c18c97efce291098cf0656_Favicon.png",
+      link: "https://www.wordtune.com/",
     },
     {
       productName: "Code Pen",
@@ -165,7 +169,7 @@ export const products = {
     {
       productName: "Toptal",
       category: "remote",
-      image: "https://bit.ly/3JZ7C3z",
+      image: "https://frontier-assets.toptal.com/c4a9fd60eec9d204fb7d.png",
       link: "https://www.toptal.com/",
     },
     {
