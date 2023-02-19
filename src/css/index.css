@@ -18,6 +18,7 @@ button.background-button {
   color: #333;
   background-color: #232427;
   border: none;
+  cursor: pointer;
 }
 
 button.background-button {
@@ -110,6 +111,7 @@ button.background-button:hover:after {
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+
 }
 
 body {
@@ -120,6 +122,8 @@ body {
   min-height: 80vh;
   background: #232427;
 }
+
+
 
 body .container {
   display: flex;
@@ -143,6 +147,7 @@ body .container .card {
 }
 
 body .container .card:nth-child(1) .box .content button {
+
   background: #00803a;
   border: none;
 }
@@ -168,9 +173,11 @@ body .container .card .box {
   align-items: center;
   overflow: hidden;
   transition: 0.5s;
+
 }
 
 body .container .card .box:hover {
+
   transform: translateY(-15px);
 }
 
@@ -185,6 +192,7 @@ body .container .card .box:before {
 }
 
 body .container .card .box .content {
+
   padding: 20px;
   text-align: center;
 }
@@ -233,6 +241,7 @@ body .container .card .box .content button:hover {
 }
 
 .card-image {
+
   width: 60px;
   height: 60px;
   border-radius: 100px;
