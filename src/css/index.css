@@ -12,12 +12,17 @@ button.background-button {
   background-size: 100% 100%;
   font-family: "luckiest guy";
   font-size: 25px;
-  font-weight:600;
+  font-weight: 600;
   margin-bottom: 10px;
   text-decoration: none;
   color: #333;
-  background-color:#232427 ;
+  background-color: #232427;
   border: none;
+
+}
+
+button {
+  cursor: pointer;
 }
 
 button.background-button {
@@ -104,11 +109,13 @@ button.background-button:hover:after {
 
 /* Card  */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;800&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+
 }
 
 body {
@@ -119,6 +126,8 @@ body {
   min-height: 80vh;
   background: #232427;
 }
+
+
 
 body .container {
   display: flex;
@@ -142,6 +151,7 @@ body .container .card {
 }
 
 body .container .card:nth-child(1) .box .content button {
+
   background: #00803a;
   border: none;
 }
@@ -167,9 +177,11 @@ body .container .card .box {
   align-items: center;
   overflow: hidden;
   transition: 0.5s;
+
 }
 
 body .container .card .box:hover {
+
   transform: translateY(-15px);
 }
 
@@ -184,6 +196,7 @@ body .container .card .box:before {
 }
 
 body .container .card .box .content {
+
   padding: 20px;
   text-align: center;
 }
@@ -197,7 +210,7 @@ body .container .card .box .content h2 {
 }
 
 body .container .card .box .content h3 {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   color: #fff;
   z-index: 1;
   transition: 0.5s;
@@ -231,9 +244,10 @@ body .container .card .box .content button:hover {
   color: #000;
 }
 
-.card-image{
-  width: 100px;
-  height: 100px;
+.card-image {
+
+  width: 60px;
+  height: 60px;
   border-radius: 100px;
 }
 
@@ -255,7 +269,7 @@ strong {
 }
 
 footer {
-  background:#0f0d0d;
+  background: #0f0d0d;
   display: table;
   width: 100%;
   height: 8rem;
@@ -275,10 +289,10 @@ footer p {
   letter-spacing: .025rem;
   margin-bottom: 1.5rem;
   display: block;
-  font-size:medium;
+  font-size: medium;
 }
 
-.footer-p{
+.footer-p {
   color: white;
   margin-bottom: 0;
 }
@@ -297,5 +311,3 @@ footer p {
   color: #f26896;
   transition: color .15s ease-in-out;
 }
-
-

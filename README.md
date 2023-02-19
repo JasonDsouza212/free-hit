@@ -20,7 +20,7 @@
 
 # 🎥 Project Overview
 
-You can check out the live project [here](jasondsouza212.github.io/Free-Hit/)
+You can check out the live project [here](https://jasondsouza212.github.io/free-hit/)
 
 # 🪛 Want to contribute?
 
@@ -66,7 +66,8 @@ cd free-hit
 npm install
 ```
 
-5. To add new tool :
+5. Add new tool :
+> Go to DB folder >  `product.js` & add your code 
 
 ```
 {
@@ -87,6 +88,14 @@ git add .
 > Commit the changes
 ```markdown
 git commit -m "Write Your commit Message" 
+```
+> Create a new branch
+```diff
+git branch -M <your-name>
+```
+> Set upstream command to create a PR
+```diff
+git remote add upstream https://github.com/JasonDsouza212/free-hit.git
 ```
 > Push the branch
 ```markdown
