@@ -18,6 +18,10 @@ button.background-button {
   color: #333;
   background-color: #232427;
   border: none;
+
+}
+
+button {
   cursor: pointer;
 }
 
