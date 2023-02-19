@@ -102,3 +102,8 @@ git push
 <div align="center">
 Show some ❤️ by starring this awesome repository!
 </div>
+
+## ✨ Contributors
+<a href="https://github.com/JasonDsouza212/free-hit/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=JasonDsouza212/free-hit" />
+</a>

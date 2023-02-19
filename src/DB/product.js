@@ -25,6 +25,12 @@ export const products = {
         link:"https://bitly.com/"
       },
       {
+        productName: "Contributors image generator",
+        category: "tools",
+        image: "https://bit.ly/3Z1Fz7L",
+        link:"https://contrib.rocks/"
+      },
+      {
         productName: "Remote OK",
         category: "remote",
         image: "https://bit.ly/3RQAMDP",
