@@ -1,5 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { products } from "../DB/product";
+
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
+
 function Card() {
   const [category, setCategory] = useState("all");
 
@@ -73,10 +77,11 @@ function Card() {
                     <div class="card">
                       <div class="box">
                         <div class="content">
-                          <img
+                          <LazyLoadImage
                             className="card-image"
                             src={product.image}
                             alt={product.productName}
+                            effect={'blur'}
                           />
                           <h3>{product.productName.toUpperCase()}</h3>
                           <a
