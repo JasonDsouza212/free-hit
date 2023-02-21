@@ -19,9 +19,9 @@ export const products = {
       link: "https://poet.so/",
     },
     {
-      productName: "Bitly [Url_shortner]",
+      productName: "Bitly",
       category: "tools",
-      image: "https://bit.ly/3xnfdRH",
+      image: "https://bit.ly/41c8N5A",
       link: "https://bitly.com/",
     },
     {
@@ -237,12 +237,6 @@ export const products = {
       category: "tools",
       image: "https://jsonformatter.org/img/favicon.png",
       link: "https://jsonformatter.org/",
-    },
-    {
-      productName: "jsonformatter",
-      category: "tools",
-      image: "https://jscompress.com/icons/favicon.ico",
-      link: "https://jscompress.com/",
     },
   ],
 };
