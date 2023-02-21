@@ -45,7 +45,8 @@ export const products = {
     {
       productName: "Remotive",
       category: "remote",
-      image: "https://bit.ly/3K2VfDE",
+      image:
+        "https://remotive.com/remotive_website_layout/static/src/img/favicon.ico",
       link: "https://remotive.com/",
     },
     {
@@ -63,7 +64,8 @@ export const products = {
     {
       productName: "Remote.co",
       category: "remote",
-      image: "https://bit.ly/3HVXbLn",
+      image:
+        "https://remoteco.s3.amazonaws.com/wp-content/uploads/2017/02/retina_favicon_32.png",
       link: "https://remote.co/",
     },
     {
@@ -81,7 +83,8 @@ export const products = {
     {
       productName: "Skip The Drive",
       category: "remote",
-      image: "https://bit.ly/3HW49jn",
+      image:
+        "https://skipthedrive.b-cdn.net/wp-content/uploads/2023/02/favicon_32c.png",
       link: "https://www.skipthedrive.com/",
     },
     {
@@ -93,7 +96,7 @@ export const products = {
     {
       productName: "Working No Mads",
       category: "remote",
-      image: "https://bit.ly/40TNpC3",
+      image: "https://www.workingnomads.com/static/jobs/assets/favicon.ico",
       link: "https://www.workingnomads.com/",
     },
     {
@@ -153,8 +156,9 @@ export const products = {
     {
       productName: "Wordtune",
       category: "tools",
-      image: "https://bit.ly/3E2LWzK",
-      link: "https://bit.ly/3YJCngT",
+      image:
+        "https://uploads-ssl.webflow.com/5f7e0f9d75fee6f6f546df46/62c18c97efce291098cf0656_Favicon.png",
+      link: "https://www.wordtune.com/",
     },
     {
       productName: "Code Pen",
@@ -165,7 +169,7 @@ export const products = {
     {
       productName: "Toptal",
       category: "remote",
-      image: "https://bit.ly/3JZ7C3z",
+      image: "https://frontier-assets.toptal.com/c4a9fd60eec9d204fb7d.png",
       link: "https://www.toptal.com/",
     },
     {
@@ -177,8 +181,7 @@ export const products = {
     {
       productName: "Up Work",
       category: "remote",
-      image:
-        "data:image/png;base64,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",
+      image: "https://www.upwork.com/favicon.ico",
       link: "https://www.upwork.com/",
     },
     {
@@ -216,6 +219,30 @@ export const products = {
       category: "tools",
       image: "https://static.figma.com/app/icon/1/favicon.png",
       link: "https://www.figma.com/",
+    },
+    {
+      productName: "smalldev",
+      category: "tools",
+      image: "https://smalldev.tools/favicon.png",
+      link: "https://smalldev.tools",
+    },
+    {
+      productName: "futurepedia",
+      category: "tools",
+      image: "https://www.futurepedia.io/futurepedia-small.svg",
+      link: "https://www.futurepedia.io/",
+    },
+    {
+      productName: "jsonformatter",
+      category: "tools",
+      image: "https://jsonformatter.org/img/favicon.png",
+      link: "https://jsonformatter.org/",
+    },
+    {
+      productName: "jsonformatter",
+      category: "tools",
+      image: "https://jscompress.com/icons/favicon.ico",
+      link: "https://jscompress.com/",
     },
   ],
 };
