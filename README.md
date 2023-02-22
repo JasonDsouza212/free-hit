@@ -50,6 +50,7 @@ Before installation, you need to have the following:
 
 1. Fork the repository (Click the Fork button in the top right of this page,
    click your Profile Image)
+   
 2. Clone the forked repository to your local machine.
 
 ```markdown
@@ -61,9 +62,15 @@ git clone https://github.com/your-username/JasonDsouza212/free-hit.git
 ```markdown
 cd free-hit
 ```
+
 4. Open CMD in your current directory and install npm packages using command.
+
 ```markdown
-npm install
+npm ci
+```
+Or
+```markdown
+npm clean-install
 ```
 
 5. Add new tool :
@@ -77,6 +84,7 @@ npm install
     link: "< Link_to_the_website >"
 },
 ```
+
 To ensure that your URLs are short, it is recommended to use bitly.com for URL shortening. 
 
 6. Make changes in the project. Add, Commit and push the project using following commands:
