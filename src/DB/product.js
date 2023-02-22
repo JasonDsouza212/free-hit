@@ -239,10 +239,28 @@ export const products = {
       link: "https://jsonformatter.org/",
     },
     {
-      productName: "jsonformatter",
-      category: "tools",
-      image: "https://jscompress.com/icons/favicon.ico",
-      link: "https://jscompress.com/",
+      productName: "Kick Resume",
+      category: "resume",
+      image: "https://bit.ly/3Slt9FG",
+      link: "https://www.kickresume.com/en/",
+    },
+    {
+      productName: "ResumeMaker.AI",
+      category: "resume",
+      image: "https://bit.ly/3XNlQHP",
+      link: "https://resumaker.ai/",
+    },
+    {
+      productName: "Resumai",
+      category: "resume",
+      image: "https://bit.ly/3IKg8SK",
+      link: "https://www.resumai.com/",
+    },
+    {
+      productName: "Rezi.AI",
+      category: "resume",
+      image: "https://bit.ly/41lWvYv",
+      link: "https://www.rezi.ai/",
     },
   ],
 };
