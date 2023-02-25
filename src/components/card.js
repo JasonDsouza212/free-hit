@@ -67,6 +67,14 @@ function Card() {
               title="Useful Tools"
             ></button>
           </div>
+          <div class="button-wrapper">
+            <button
+              rel="noopener noreferrer"
+              class="background-button"
+              onClick={() => filterProduct("ethical")}
+              title="Ethical Hacking"
+            ></button>
+          </div>
         </div>
         <div id="products">
           <div class="container">

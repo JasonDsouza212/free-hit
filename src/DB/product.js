@@ -262,5 +262,85 @@ export const products = {
       image: "https://bit.ly/41lWvYv",
       link: "https://www.rezi.ai/",
     },
+    // abhishek contribution
+    // Ethical Hacking section
+    {
+      productName: "Bugcrowd",
+      category: "ethical",
+      image: "https://bit.ly/3xQvqz9",
+      link: "https://www.bugcrowd.com/",
+    },
+    {
+      productName: "Hackthisiste",
+      category: "ethical",
+      image: "https://bit.ly/3xQRwl9",
+      link: "https://www.hackthissite.org/",
+    },
+    {
+      productName: "Hackerone",
+      category: "ethical",
+      image: "https://bit.ly/3KEJMdE",
+      link: "https://hackerone.com/",
+    },
+    {
+      productName: "m0chan",
+      category: "ethical",
+      image: "https://bit.ly/3Y3S0Pz",
+      link: "https://m0chan.github.io/",
+    },
+    {
+      productName: "Hacker101",
+      category: "ethical",
+      image: "https://bit.ly/3IpQ5iu",
+      link: "https://www.hacker101.com/",
+    },
+    {
+      productName: "Tryhackme",
+      category: "ethical",
+      image: "https://bit.ly/3SsfjS2",
+      link: "https://tryhackme.com/",
+    },
+    {
+      productName: "cve mitre",
+      category: "ethical",
+      image: "https://bit.ly/3SwuV6V",
+      link: "https://cve.mitre.org/",
+    },
+    {
+      productName: "Hackthebox",
+      category: "ethical",
+      image: "https://bit.ly/3ZdEtGk",
+      link: "https://www.hackthebox.com/",
+    },
+    {
+      productName: "owasp",
+      category: "ethical",
+      image: "https://bit.ly/3m4MVcC",
+      link: "https://owasp.org/",
+    },
+    {
+      productName: "crackstation",
+      category: "ethical",
+      image: "https://bit.ly/3ITIKZZ",
+      link: "https://crackstation.net/",
+    },
+    {
+      productName: "owasp cheetsheet",
+      category: "ethical",
+      image: "https://bit.ly/3KzvhI7",
+      link: "https://cheatsheetseries.owasp.org/",
+    },
+    {
+      productName: "Cryptohack",
+      category: "ethical",
+      image: "https://bit.ly/3Z0vQiB",
+      link: "https://cryptohack.org/",
+    },
+    {
+      productName: "OSINT Framework",
+      category: "ethical",
+      image: "",
+      link: "https://osintframework.com/",
+    }
   ],
 };
