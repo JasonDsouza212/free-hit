@@ -262,8 +262,6 @@ export const products = {
       image: "https://bit.ly/41lWvYv",
       link: "https://www.rezi.ai/",
     },
-    // abhishek contribution
-    // Ethical Hacking section
     {
       productName: "Bugcrowd",
       category: "ethical",
