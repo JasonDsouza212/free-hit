@@ -251,6 +251,40 @@ body .container .card .box .content button:hover {
   border-radius: 100px;
 }
 
+/* Modal */
+/* Styles for the modal overlay */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Styles for the modal content */
+.modal-content {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  padding: 16px;
+  position: relative;
+}
+
+/* Styles for the close button */
+.close-button {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  border: none;
+  background-color: transparent;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
 
 /* Footer  */
 .title-bar {
