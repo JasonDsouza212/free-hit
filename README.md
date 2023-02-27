@@ -1,5 +1,5 @@
 <div id="header" align="center">
-  <img  src="https://bit.ly/3xVMcNC"/><br>
+  <img  src="https://github.com/JasonDsouza212/free-hit/blob/main/src/images/Free-Hit-ss.png?raw=true"/><br>
     <h1> Free-Hit </h1>
     <p><strong><em>"Your search ends here 🔍"</em></strong></p>
     <!-- to change tagline if necessary -->
