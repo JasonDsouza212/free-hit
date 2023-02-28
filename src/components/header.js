@@ -4,12 +4,20 @@ function header() {
       <h1>🔥 FREE-HIT</h1>
       <ul className="nav-links">
         <li>
-          <a href="https://github.com/JasonDsouza212/free-hit" target="_blank">
+          <a
+            href="https://github.com/JasonDsouza212/free-hit"
+            target="_blank"
+            rel="noreferrer"
+          >
             😎 GitHub
           </a>
         </li>
         <li>
-          <a href="https://github.com/JasonDsouza212" target="_blank">
+          <a
+            href="https://github.com/JasonDsouza212"
+            target="_blank"
+            rel="noreferrer"
+          >
             🐦 Twitter
           </a>
         </li>

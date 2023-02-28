@@ -8,6 +8,7 @@ function footer() {
             href="https://github.com/JasonDsouza212"
             target="_blank"
             className="footer-link"
+            rel="noreferrer"
           >
             {""} Jason Dsouza
           </a>
