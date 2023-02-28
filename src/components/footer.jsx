@@ -1,7 +1,7 @@
 function footer() {
   return (
     <footer>
-      <div class="wrapper">
+      <div className="wrapper">
         <p>
           Crafted with ❤️ by
           <a
