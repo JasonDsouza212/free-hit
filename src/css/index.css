@@ -42,6 +42,10 @@ a {
 }
 
 
+p {
+  color: #fff;
+}
+
 /* Filter section */
 .filter-section {
   display: flex;
