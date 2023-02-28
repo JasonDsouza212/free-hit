@@ -42,7 +42,8 @@ a {
 }
 
 
-p {
+p,
+.nav-link {
   color: #fff;
 }
 
