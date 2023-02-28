@@ -20,7 +20,7 @@ function Card() {
         <div className="filter-section">
           <button
             rel="noopener noreferrer"
-            class="background-button"
+            className="background-button"
             onClick={() => filterProduct("all")}
           >
             😉 All
@@ -28,7 +28,7 @@ function Card() {
 
           <button
             rel="noopener noreferrer"
-            class="background-button"
+            className="background-button"
             onClick={() => filterProduct("remote")}
           >
             🤯 Remote Jobs
@@ -36,7 +36,7 @@ function Card() {
 
           <button
             rel="noopener noreferrer"
-            class="background-button"
+            className="background-button"
             onClick={() => filterProduct("resume")}
           >
             😎 Resume Builder
@@ -44,7 +44,7 @@ function Card() {
 
           <button
             rel="noopener noreferrer"
-            class="background-button"
+            className="background-button"
             onClick={() => filterProduct("tweet")}
           >
             🤩 Tweet to Image
@@ -52,7 +52,7 @@ function Card() {
 
           <button
             rel="noopener noreferrer"
-            class="background-button"
+            className="background-button"
             onClick={() => filterProduct("code")}
           >
             🦾 Code to Image
@@ -60,7 +60,7 @@ function Card() {
 
           <button
             rel="noopener noreferrer"
-            class="background-button"
+            className="background-button"
             onClick={() => filterProduct("ethical")}
           >
             😍 Ethical Hacking
@@ -68,7 +68,7 @@ function Card() {
 
           <button
             rel="noopener noreferrer"
-            class="background-button"
+            className="background-button"
             onClick={() => filterProduct("tools")}
           >
             🛠️ Useful Tools
@@ -76,14 +76,14 @@ function Card() {
         </div>
       </header>
       <div id="products">
-        <div class="container">
+        <div className="container">
           {products.data.map((product, index) => {
             if (category === "all" || category === product.category) {
               return (
                 <div key={index}>
-                  <div class="card">
-                    <div class="box">
-                      <div class="content">
+                  <div className="card">
+                    <div className="box">
+                      <div className="content">
                         <img
                           className="card-image"
                           src={product.image}
