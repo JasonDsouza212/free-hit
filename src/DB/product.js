@@ -19,7 +19,7 @@ export const products = {
       link: "https://poet.so/",
     },
     {
-      productName: "Bitly [Url_shortner]",
+      productName: "Bitly",
       category: "tools",
       image: "https://bit.ly/3xnfdRH",
       link: "https://bitly.com/",
