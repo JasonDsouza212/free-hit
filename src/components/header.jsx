@@ -15,7 +15,7 @@ function header() {
         </li>
         <li>
           <a
-            href="https://github.com/JasonDsouza212"
+            href="https://twitter.com/_Jason_Dsouza"
             target="_blank"
             rel="noreferrer"
             className="nav-link"
