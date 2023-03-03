@@ -16,7 +16,7 @@ a {
 
 /* Buttons */
 
-.website-link-btn,
+
 .background-button {
   background-color: #fff;
   color: #000;
@@ -28,13 +28,19 @@ a {
   cursor: pointer;
 }
 
+.website-link-btn {
+  width: 5rem;
+  background-color: #fff;
+  padding: .2rem;
+  color: #000;
+  border-radius: .3rem;
+}
 
 .background-button:hover,
 .website-link-btn:hover {
   background-color: #232427;
   color: #fff;
-
-
+  border: 2px solid #fff;
 }
 
 .content .website-link-btn {
