@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import { products } from "../DB/product";
-
 import "react-lazy-load-image-component/src/effects/blur.css";
 
 function Card() {
@@ -91,13 +90,12 @@ function Card() {
                         />
                         <h3>{product.productName}</h3>
                         <a
+                          className="website-link-btn"
                           href={product.link}
                           target="_blank"
                           rel="noopener noreferrer"
                         >
-                          <button className="website-link-btn">
-                            ↗️ Website
-                          </button>
+                          ↗️ Website
                         </a>
                       </div>
                     </div>
