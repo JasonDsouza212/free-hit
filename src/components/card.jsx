@@ -76,7 +76,7 @@ function Card() {
         </div>
       </header>
       <div id="products">
-        <div className="container">
+        <div className="section">
           {products.data.map((product, index) => {
             if (category === "all" || category === product.category) {
               return (
@@ -96,7 +96,7 @@ function Card() {
                           rel="noopener noreferrer"
                         >
                           <button className="website-link-btn">
-                            ↗️ Website
+                            Website
                           </button>
                         </a>
                       </div>

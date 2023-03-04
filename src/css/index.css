@@ -42,7 +42,6 @@ a {
   transform: translateY(4px);
 }
 
-
 /* .background-button:hover,
 .website-link-btn:hover {
   background-color: #232427;
@@ -73,7 +72,7 @@ p,
 
 /* Products, cards, contents */
 #products,
-body .container {
+body .section {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -84,12 +83,12 @@ body .container {
   margin-block: 5rem;
 }
 
-body .container {
+body .section {
   max-width: 2000px;
 
 }
 
-body .container .card {
+body .section .card {
   cursor: pointer;
   position: relative;
   min-width: 320px;
@@ -102,7 +101,7 @@ body .container .card {
 
 
 
-body .container .card .box {
+body .section .card .box {
   position: absolute;
   top: 20px;
   left: 20px;
@@ -117,11 +116,11 @@ body .container .card .box {
   transition: .5s
 }
 
-body .container .card .box:hover {
+body .section .card .box:hover {
   transform: translateY(-15px)
 }
 
-body .container .card .box:before {
+body .section .card .box:before {
   content: "";
   position: absolute;
   top: 0;
@@ -131,12 +130,12 @@ body .container .card .box:before {
   background: rgba(255, 255, 255, .03)
 }
 
-body .container .card .box .content {
+body .section .card .box .content {
   padding: 20px;
   text-align: center
 }
 
-body .container .card .box .content h3 {
+body .section .card .box .content h3 {
   font-size: 1.2rem;
   color: #fff;
   z-index: 1;
@@ -157,7 +156,6 @@ body .container .card .box .content h3 {
   padding-left: 2rem;
   padding-right: 2rem;
 }
-
 
 /* Footer */
 footer {
