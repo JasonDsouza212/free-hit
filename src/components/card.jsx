@@ -23,7 +23,7 @@ function Card() {
             className="background-button"
             onClick={() => filterProduct("all")}
           >
-            😉 All
+            All
           </button>
 
           <button
@@ -31,7 +31,7 @@ function Card() {
             className="background-button"
             onClick={() => filterProduct("remote")}
           >
-            🤯 Remote Jobs
+            Remote Jobs
           </button>
 
           <button
@@ -39,7 +39,7 @@ function Card() {
             className="background-button"
             onClick={() => filterProduct("resume")}
           >
-            😎 Resume Builder
+            Resume Builder
           </button>
 
           <button
@@ -47,7 +47,7 @@ function Card() {
             className="background-button"
             onClick={() => filterProduct("tweet")}
           >
-            🤩 Tweet to Image
+            Tweet to Image
           </button>
 
           <button
@@ -55,7 +55,7 @@ function Card() {
             className="background-button"
             onClick={() => filterProduct("code")}
           >
-            🦾 Code to Image
+            Code to Image
           </button>
 
           <button
@@ -63,7 +63,7 @@ function Card() {
             className="background-button"
             onClick={() => filterProduct("ethical")}
           >
-            😍 Ethical Hacking
+            Ethical Hacking
           </button>
 
           <button
@@ -71,7 +71,7 @@ function Card() {
             className="background-button"
             onClick={() => filterProduct("tools")}
           >
-            🛠️ Useful Tools
+            Useful Tools
           </button>
         </div>
       </header>

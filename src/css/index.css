@@ -21,21 +21,35 @@ a {
   background-color: #fff;
   color: #000;
   width: 9.5rem;
-  height: 2rem;
+  height: 3rem;
+  font-size: 1rem;
   border: none;
   border-radius: 8px;
   border: 2px solid #ffffff;
   cursor: pointer;
 }
-
-
 .background-button:hover,
+.website-link-btn:hover {
+  background-color: #fff;
+  transform: translateY(4px);
+
+}
+
+.background-button:active,
+.website-link-btn:active {
+  background-color: #fff;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
+/* .background-button:hover,
 .website-link-btn:hover {
   background-color: #232427;
   color: #fff;
 
 
-}
+} */
 
 .content .website-link-btn {
   cursor: pointer;
@@ -137,22 +151,13 @@ body .container .card .box .content h3 {
 }
 
 /* Header Title */
-.nav-links,
-.title-bar {
+
+.nav-wrapper {
   background-color: #5432c5;
-  color: #fff;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-evenly;
-  gap: 1rem;
-  font-size: 1.2rem;
-  font-weight: 500;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
-.nav-links li a:hover {
-  color: #232427;
-}
 
 /* Footer */
 footer {
