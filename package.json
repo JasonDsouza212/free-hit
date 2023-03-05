@@ -42,5 +42,16 @@
   },
   "devDependencies": {
     "gh-pages": "^5.0.0"
+  },
+  "description": "<div id=\"header\" align=\"center\">   <img src=\"https://i.ibb.co/2S6j5P3/Screenshot-from-2023-03-03-12-16-06.png\" alt=\"home page of the website\"<br>     <h1> Free-Hit </h1>     <p><strong><em>\"Your search ends here 🔍\"</em></strong></p>     <!-- to change tagline if necessary -->     </div> <br>",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jyotirmoydotdev/free-hit.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jyotirmoydotdev/free-hit/issues"
   }
 }

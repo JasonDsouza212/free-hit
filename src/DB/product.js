@@ -520,5 +520,17 @@ export const products = {
       image: "https://bit.ly/3ZnKUX1",
       link: "https://yandex.com/",
     },
+    {
+      productName: "Hardhat",
+      category: "tools",
+      image: "https://bit.ly/3Ym6BWz",
+      link: "https://hardhat.org",
+    },
+    {
+      productName: "Truffle",
+      category: "tools",
+      image: "https://bit.ly/3ISKRMp",
+      link: "https://trufflesuite.com",
+    },
   ],
 };
