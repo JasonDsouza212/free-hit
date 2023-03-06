@@ -34,7 +34,7 @@ export const products = {
       productName: "Remote OK",
       category: "remote",
       image: "https://bit.ly/3RQAMDP",
-      link: "hhttps://remoteok.com/",
+      link: "https://remoteok.com/",
     },
     {
       productName: "Angel.co",
