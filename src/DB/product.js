@@ -34,7 +34,7 @@ export const products = {
       productName: "Remote OK",
       category: "remote",
       image: "https://bit.ly/3RQAMDP",
-      link: "hhttps://remoteok.com/",
+      link: "https://remoteok.com/",
     },
     {
       productName: "Angel.co",
@@ -404,7 +404,7 @@ export const products = {
       productName: "Device Shots",
       category: "web",
       image: "https://bit.ly/3m8mQta",
-      link: "http://deviceshots.com/",
+      link: "https://deviceshots.com/",
     },
     {
       productName: "Collors",
@@ -519,6 +519,18 @@ export const products = {
       category: "tools",
       image: "https://bit.ly/3ZnKUX1",
       link: "https://yandex.com/",
+    },
+    {
+      productName: "Hardhat",
+      category: "tools",
+      image: "https://bit.ly/3Ym6BWz",
+      link: "https://hardhat.org",
+    },
+    {
+      productName: "Truffle",
+      category: "tools",
+      image: "https://bit.ly/3ISKRMp",
+      link: "https://trufflesuite.com",
     },
   ],
 };
