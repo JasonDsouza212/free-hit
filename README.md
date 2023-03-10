@@ -1,5 +1,5 @@
 <div id="header" align="center">
-  <img src="https://i.ibb.co/2S6j5P3/Screenshot-from-2023-03-03-12-16-06.png" alt="home page of the website"<br>
+  <img src="https://i.ibb.co/kB8J5gy/Screenshot-2023-03-10-4-21-07-PM.png" alt="home page of the website"<br>
     <h1> Free-Hit </h1>
     <p><strong><em>"Your search ends here 🔍"</em></strong></p>
     <!-- to change tagline if necessary -->
@@ -81,7 +81,8 @@ npm clean-install
     productName: "< App_Name >",
     category: "remote | resume | tweet | code | tools",
     image: "< Image-Url >",
-    link: "< Link_to_the_website >"
+    link: "< Link_to_the_website >",
+    description: "< Description of product >"
 },
 ```
 
