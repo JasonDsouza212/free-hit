@@ -73,36 +73,36 @@ function Card() {
           </button>
         </div>
       </header>
-      <div class="card_wrapper">
-        <div class="cols">
+      <div className="card_wrapper">
+        <div className="cols">
           {products.data.map((product, index) => {
-          if (category === "all" || category === product.category) {
+            if (category === "all" || category === product.category) {
               return (
-                  <div className="col" key={index}>
-                    <div className="container">				
-                        <div className="front">					
-                            <div className="inner">
-                                <span>
-                                  <img 
-                                  className="card_image"
-                                  src={product.image}
-                                  alt={product.productName} 
-                                  />
-                                </span>
-                                <p>{product.productName}</p>              
-                            </div>
-                        </div>
-                        <div className="back">
-                            <div className="inner">     
-                                <h3>{product.productName}</h3><br/>              
-                                <p>{product.description}</p><br/>
-                                <a 
-                                href={product.link}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                >Visit</a>
-                            </div>
-                        </div>
+                <div className="col" key={index}>
+                  <div className="container">
+                    <div className="front">
+                      <div className="inner">
+                        <span>
+                          <img
+                            className="card_image"
+                            src={product.image}
+                            alt={product.productName}
+                          />
+                        </span>
+                        <p>{product.productName}</p>
+                      </div>
+                    </div>
+                    <div className="back">
+                      <div className="inner">
+                        <h3>{product.productName}</h3><br />
+                        <p>{product.description}</p><br />
+                        <a
+                          href={product.link}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >Visit</a>
+                      </div>
+                    </div>
                   </div>
                 </div>
               );
