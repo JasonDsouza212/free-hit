@@ -90,7 +90,7 @@ p,
   transition: transform 1s cubic-bezier(.4, .2, .2, 1);
   backface-visibility: hidden;
   text-align: center;
-  min-height: 300px;
+  min-height: 320px;
   min-width: 220px;
   height: auto;
   border-radius: 10px;
@@ -131,7 +131,7 @@ p,
 
 .inner {
   transform: translateY(-50%) translateZ(60px) scale(.94);
-  top: 53%;
+  top: 50%;
   position: absolute;
   left: 0;
   width: 100%;
@@ -172,13 +172,16 @@ p,
 }
 
 .inner a {
+  background-color: #fff;
+  padding: .5rem;
   text-decoration: none;
   color: rgb(179, 39, 255);
   font-weight: bold;
+  border-radius: .5rem;
 }
 
 .inner a:hover {
-  color: #fff;
+  color: #000;
   transition: all .3s;
 }
 

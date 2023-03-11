@@ -100,7 +100,7 @@ function Card() {
                           href={product.link}
                           target="_blank"
                           rel="noopener noreferrer"
-                        >Visit</a>
+                        >Visit Website</a>
                       </div>
                     </div>
                   </div>
