@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;800&display=swap");
 
+html{
+  background-color: #232427
+}
+
 *,
 a {
   margin: 0;
@@ -28,19 +32,15 @@ a {
   cursor: pointer;
 }
 
-
 .background-button:hover,
 .website-link-btn:hover {
   background-color: #232427;
   color: #fff;
-
-
 }
 
 .content .website-link-btn {
   cursor: pointer;
 }
-
 
 p,
 .nav-link {
@@ -58,83 +58,130 @@ p,
 }
 
 /* Products, cards, contents */
-#products,
-body .container {
+
+
+.cols {
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-wrap: wrap;
-}
-
-#products {
-  margin-block: 5rem;
-}
-
-body .container {
-  max-width: 2000px;
-
-}
-
-body .container .card {
-  cursor: pointer;
-  position: relative;
-  min-width: 320px;
-  height: 380px;
-  box-shadow: inset 5px 5px 5px rgba(0, 0, 0, .2), inset -5px -5px 15px rgba(255, 255, 255, .1), 5px 5px 15px rgba(0, 0, 0, .3), -5px -5px 15px rgba(255, 255, 255, .1);
-  border-radius: 15px;
-  margin: 30px;
-  transition: .5s
-}
-
-
-
-body .container .card .box {
-  position: absolute;
-  top: 20px;
-  left: 20px;
-  right: 20px;
-  bottom: 20px;
-  background: #2a2b2f;
-  border-radius: 15px;
-  display: flex;
   justify-content: center;
-  align-items: center;
-  overflow: hidden;
-  transition: .5s
 }
 
-body .container .card .box:hover {
-  transform: translateY(-15px)
+.col {
+  width: calc(20% - 2rem);
+  margin: .7rem;
+  cursor: pointer;
 }
 
-body .container .card .box:before {
-  content: "";
+.container {
+  transform-style: preserve-3d;
+  perspective: 1000px;
+}
+
+.card_image{
+  border-radius: 70%;
+  width: 70px;
+  height: 70px;
+}
+
+.front,
+.back {
+  background-size: cover;
+  background-position: center;
+  transition: transform 1s cubic-bezier(.4, .2, .2, 1);
+  backface-visibility: hidden;
+  text-align: center;
+  min-height: 230px;
+  min-width: 220px;
+  height: auto;
+  border-radius: 10px;
+  color: #000;
+  font-size: 1rem;
+}
+
+.back {
+  background-color: #121212;
+}
+
+.front:after {
   position: absolute;
   top: 0;
   left: 0;
-  width: 50%;
+  z-index: 0;
+  width: 100%;
   height: 100%;
-  background: rgba(255, 255, 255, .03)
+  content: '';
+  display: block;
+  opacity: 1;
+  background-color: #121212;
+  backface-visibility: hidden;
+  border-radius: 10px;
 }
 
-body .container .card .box .content {
-  padding: 20px;
-  text-align: center
+.container:hover .front,
+.container:hover .back {
+  transition: transform 1.2s cubic-bezier(.4, .2, .2, 1);
 }
 
-body .container .card .box .content h3 {
-  font-size: 1.2rem;
-  color: #fff;
+.back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.inner {
+  transform: translateY(-50%) translateZ(60px) scale(.94);
+  top: 53%;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  padding: 2rem;
+  box-sizing: border-box;
+  outline: 1px solid transparent;
+  perspective: inherit;
   z-index: 1;
-  transition: .5s;
-  margin-bottom: 15px
+  color:white;
 }
 
-.card-image {
-  width: 60px;
-  height: 60px;
-  border-radius: 100px
+.container .back {
+  transform: rotateY(180deg);
+  transform-style: preserve-3d;
 }
+
+.container .front {
+  transform: rotateY(0deg);
+  transform-style: preserve-3d;
+}
+
+.container:hover .back {
+  transform: rotateY(0deg);
+  transform-style: preserve-3d;
+}
+
+.container:hover .front {
+  transform: rotateY(-180deg);
+  transform-style: preserve-3d;
+}
+
+.front .inner p {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+  color: #f4f7f1;
+  text-align: center;
+  position: relative;
+}
+
+.inner a {
+  text-decoration: none;
+  color: rgb(179, 39, 255);
+  font-weight: bold;
+}
+
+.inner a:hover {
+  color: #fff;
+  transition: all .3s;
+}
+
 
 /* Header Title */
 .nav-links,
@@ -170,4 +217,36 @@ footer {
   justify-content: center;
   margin-top: 2rem;
   font-size: 1.2rem;
+}
+
+
+/* Media query */
+@media screen and (max-width: 68rem) {
+  .col {
+    width: calc(33.333333% - 4rem);
+  }
+  .front,
+  .back {
+    min-height: 340px;
+  }
+}
+
+@media screen and (max-width: 52rem) {
+  .col {
+    width: calc(45% - 2rem);
+  }
+  .front,
+  .back {
+    min-height: 340px;
+  }
+}
+
+@media screen and (max-width: 38rem) {
+  .col {
+    width: 60%;
+  }
+  .front,
+.back {
+  min-height: 340px;
+}
 }
