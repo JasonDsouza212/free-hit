@@ -86,7 +86,8 @@ npm clean-install
 },
 ```
 
-To ensure that your URLs are short, it is recommended to use bitly.com for URL shortening. 
+- To ensure that your URLs are short, it is recommended to use bitly.com for URL shortening.
+- Description should not exceed 10-12 words
 
 6. Make changes in the project. Add, Commit and push the project using following commands:
 
