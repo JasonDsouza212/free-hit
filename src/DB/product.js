@@ -620,5 +620,12 @@ export const products = {
       link: "https://trufflesuite.com",
       description:"Ethereum development framework for building decentralized applications (dApps).",
     },
+    {
+      productName: "CodeGreeper",
+      category: "tools",
+      image: "https://www.grepper.com/images/logo_colors_small.png",
+      link: "https://www.codegrepper.com",
+      description:"Chrome extension that generate code snippets on search .",
+    },
   ],
 };
