@@ -67,6 +67,14 @@ function Card() {
           <button
             rel="noopener noreferrer"
             className="background-button"
+            onClick={() => filterProduct("movies")}
+          >
+            🎥 Movies | Series
+          </button>
+
+          <button
+            rel="noopener noreferrer"
+            className="background-button"
             onClick={() => filterProduct("tools")}
           >
             🛠️ Useful Tools

@@ -98,8 +98,8 @@ footer {
   background-size: cover;
   background-position: center;
   transition: transform 1s cubic-bezier(0.4, 0.2, 0.2, 1);
-  min-height: 320px;
-  min-width: 220px;
+  min-height: 290px;
+  min-width: 190px;
   height: auto;
   color: #000;
   font-size: 1rem;

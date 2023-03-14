@@ -627,5 +627,33 @@ export const products = {
       link: "https://www.codegrepper.com",
       description:"Chrome extension that generate code snippets on search .",
     },
+    {
+      productName: "Zoro.to",
+      category: "movies",
+      image: "https://bit.ly/3l7SXcm",
+      link: "https://zoro.to/",
+      description:"Website to stream your favorite anime for free",
+    },
+    {
+      productName: "Soap2Day",
+      category: "movies",
+      image: "https://bit.ly/429nzdU",
+      link: "https://www.codegrepper.com",
+      description:"Stream movies freely",
+    },
+    {
+      productName: "Moviesmod",
+      category: "movies",
+      image: "https://bit.ly/3ZMrGen",
+      link: "https://moviesmod.co/",
+      description:"Download HD quality movies and series",
+    },
+    {
+      productName: "Download Hub",
+      category: "movies",
+      image: "https://bit.ly/3laDFTY",
+      link: "https://downloadhub.desi/",
+      description:"Download HD quality movies and series",
+    },
   ],
 };
