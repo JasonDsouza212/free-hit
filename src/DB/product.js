@@ -655,5 +655,12 @@ export const products = {
       link: "https://downloadhub.desi/",
       description:"Download HD quality movies and series",
     },
+    {
+      productName: "9animetv",
+      category: "movies",
+      image: "https://bit.ly/3yHAxlC",
+      link: "https://9animetv.to/",
+      description:"Website to stream your favorite anime for free",
+    },
   ],
 };
