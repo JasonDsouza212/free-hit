@@ -285,7 +285,7 @@ export const products = {
       description:"Online resume builder and career advice platform.",
     },
     {
-      productName: "ResumeMaker.AI",
+      productName: "Resume Maker.AI",
       category: "resume",
       image: "https://bit.ly/3XNlQHP",
       link: "https://resumaker.ai/",
