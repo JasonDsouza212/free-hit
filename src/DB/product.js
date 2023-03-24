@@ -628,6 +628,27 @@ export const products = {
       description:"Chrome extension that generate code snippets on search .",
     },
     {
+      productName: "Notion",
+      category: "tools",
+      image: "https://upload.wikimedia.org/wikipedia/commons/4/45/Notion_app_logo.png",
+      link: "https://notion.so/",
+      description:"Productivity tool for everything you need.",
+    },
+    {
+      productName: "ILovePDF",
+      category: "tools",
+      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Ilovepdf.svg/2321px-Ilovepdf.svg.png",
+      link: "https://www.ilovepdf.com/",
+      description:"Every tool you need to use PDFs, at your fingertips.",
+    },
+    {
+      productName: "Pogolinks",
+      category: "movies",
+      image: "https://www.filepicker.io/api/file/Lz9P2z6bSSePg0jHWVhP?filename=name.png",
+      link: "https://pogolinks.world/",
+      description:"Website to download latest movies and webseries",
+    },
+    {
       productName: "Zoro.to",
       category: "movies",
       image: "https://bit.ly/3l7SXcm",
