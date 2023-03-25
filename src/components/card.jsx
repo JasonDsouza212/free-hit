@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { products } from "../DB/product";
+import  products  from "../DB/product.json";
 
 function Card() {
   const [category, setCategory] = useState("all");
@@ -83,7 +83,7 @@ function Card() {
       </header>
       <div className="card_wrapper">
         <div className="cols">
-          {products.data.map((product, index) => {
+          {products.map((product, index) => {
           return (category === "all" || category === product.category) ? (
             <div className="col" key={index}>
               <div className="container">
