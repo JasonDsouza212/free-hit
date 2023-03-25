@@ -1,687 +1,683 @@
-export const products = {
-  data: [
-    {
-      productName: "Flow CV",
-      category: "resume",
-      image: "https://bit.ly/3YnFYBJ",
-      link: "https://flowcv.com/",
-      description:"A tool that is used to create beautiful resumes"
-    },
-    {
-      productName: "Reactive Resume",
-      category: "resume",
-      image: "https://bit.ly/3YKPTRr",
-      link: "https://rxresu.me/",
-      description:"Reactive Resume is an open-source, customizable resume builder that uses React.js."
-    },
-    {
-      productName: "Poet.so",
-      category: "tweet",
-      image: "https://bit.ly/3IiqJUM",
-      link: "https://poet.so/",
-      description:"Simple, customizable portfolio website builder for developers and creatives."
-    },
-    {
-      productName: "Bitly",
-      category: "tools",
-      image: "https://bit.ly/3xnfdRH",
-      link: "https://bitly.com/",
-      description:"URL shortening and link management platform."
-    },
-    {
-      productName: "Contrib Rocks",
-      category: "tools",
-      image: "https://bit.ly/3Z1Fz7L",
-      link: "https://contrib.rocks/",
-      description:"Contributors Image Generator"
-    },
-    {
-      productName: "Remote OK",
-      category: "remote",
-      image: "https://bit.ly/3RQAMDP",
-      link: "https://remoteok.com/",
-      description:"Job board for remote jobs in tech and other fields."
-    },
-    {
-      productName: "Angel.co",
-      category: "remote",
-      image: "https://bit.ly/3E48AHM",
-      link: "https://angel.co/",
-      description:"Job board and networking platform for startups and investors."
-    },
-    {
-      productName: "Remotive",
-      category: "remote",
-      image:
-        "https://remotive.com/remotive_website_layout/static/src/img/favicon.ico",
-      link: "https://remotive.com/",
-      description:"Remote job board and community for remote workers and employers."
-    },
-    {
-      productName: "Himalayas",
-      category: "remote",
-      image: "https://bit.ly/3RXjh4H",
-      link: "https://himalayas.app/",
-      description:"Himalayas is a job board for remote workers."
-    },
-    {
-      productName: "We Work Remotely",
-      category: "remote",
-      image: "https://bit.ly/3jSH49u",
-      link: "https://weworkremotely.com/",
-      description:"Remote job board for a variety of industries and positions."
-    },
-    {
-      productName: "Remote.co",
-      category: "remote",
-      image:
-        "https://remoteco.s3.amazonaws.com/wp-content/uploads/2017/02/retina_favicon_32.png",
-      link: "https://remote.co/",
-      description:"Remote job board and resource for remote job seekers and employers."
-    },
-    {
-      productName: "JustRemote",
-      category: "remote",
-      image: "https://bit.ly/3I28PEK",
-      link: "https://justremote.co/",
-      description:"Job board for remote jobs in a variety of industries and positions."
-    },
-    {
-      productName: "Arc.dev",
-      category: "remote",
-      image: "https://bit.ly/3Yq5Lcp",
-      link: "https://arc.dev/",
-      description:"Platform for hiring and managing remote developers and engineers."
-    },
-    {
-      productName: "Skip The Drive",
-      category: "remote",
-      image:
-        "https://skipthedrive.b-cdn.net/wp-content/uploads/2023/02/favicon_32c.png",
-      link: "https://www.skipthedrive.com/",
-      description:"SkipTheDrive is a remote job board that lists work-from-home jobs."
-    },
-    {
-      productName: "Jobspresso",
-      category: "remote",
-      image: "https://bit.ly/3HTbQqE",
-      link: "https://jobspresso.co/",
-      description:"Remote job listings for digital nomads."
-    },
-    {
-      productName: "Working No Mads",
-      category: "remote",
-      image: "https://www.workingnomads.com/static/jobs/assets/favicon.ico",
-      link: "https://www.workingnomads.com/",
-      description:" Remote job board featuring a range of remote jobs across various industries."
-    },
-    {
-      productName: "Pika Style",
-      category: "tweet",
-      image: "https://bit.ly/3jQ6g0b",
-      link: "https://pika.style/templates/tweet-image",
-      description:" A web design tool for creating and customizing design systems."
-    },
-    {
-      productName: "Code Beautify",
-      category: "code",
-      image: "https://bit.ly/3xhLeL2",
-      link: "https://codebeautify.org/code-to-image-converter",
-      description:"Online tool for formatting and beautifying code."
-    },
-    {
-      productName: "Carbon Now",
-      category: "code",
-      image: "https://bit.ly/3YIet5A",
-      link: "https://carbon.now.sh/",
-      description:"Online tool for creating and sharing beautiful code snippets."
-    },
-    {
-      productName: "Ray.so",
-      category: "code",
-      image: "https://bit.ly/40HNhpc",
-      link: "https://ray.so/",
-      description:"Online tool for creating and sharing beautiful and customizable code."
-    },
-    {
-      productName: "100L5",
-      category: "code",
-      image: "https://bit.ly/40N3r0C",
-      link: "https://10015.io/tools/code-to-image-converter",
-      description:"Platform for generating interactive digital experiences using visual scripting."
-    },
-    {
-      productName: "ReadMe Generator",
-      category: "tools",
-      image: "https://bit.ly/3IjJ97J",
-      link: "https://github-profile-readme-generator-47w21mt0m-rahuldkjain.vercel.app/",
-      description:"Automated tool for generating project README files."
-    },
-    {
-      productName: "LeetHub",
-      category: "tools",
-      image: "https://bit.ly/3lv6L0h",
-      link: "https://chrome.google.com/webstore/detail/leethub/aciombdipochlnkbpcbgdpjffcfdbggi?hl=en",
-      description:"A browser extension for GitHub"
-    },
-    {
-      productName: "AdBlock",
-      category: "tools",
-      image: "https://bit.ly/3K3rqmo",
-      link: "https://chrome.google.com/webstore/detail/adblock-%E2%80%94-best-ad-blocker/gighmmpiobklfepjocnamgkkbiglidom",
-      description:"A popular ad-blocking browser extension."
-    },
-    {
-      productName: "Grammarly",
-      category: "tools",
-      image: "https://bit.ly/3xg1goX",
-      link: "https://app.grammarly.com/",
-      description:"Writing assistance tool"
-    },
-    {
-      productName: "Wordtune",
-      category: "tools",
-      image:
-        "https://uploads-ssl.webflow.com/5f7e0f9d75fee6f6f546df46/62c18c97efce291098cf0656_Favicon.png",
-      link: "https://www.wordtune.com/",
-      description:"AI-powered writing tool."
-    },
-    {
-      productName: "Code Pen",
-      category: "tools",
-      image: "https://bit.ly/2I9FxYw",
-      link: "https://codepen.io/",
-      description:"Front-end web development and code sharing."
-    },
-    {
-      productName: "Toptal",
-      category: "remote",
-      image: "https://frontier-assets.toptal.com/c4a9fd60eec9d204fb7d.png",
-      link: "https://www.toptal.com/",
-      description:"Freelance talent marketplace."
-    },
-    {
-      productName: "DevSnap",
-      category: "remote",
-      image: "https://bit.ly/3JXDA02",
-      link: "https://devsnap.me/",
-      description:"Tech news aggregator and developer resources website."
-    },
-    {
-      productName: "Up Work",
-      category: "remote",
-      image: "https://www.upwork.com/favicon.ico",
-      link: "https://www.upwork.com/",
-      description:"Freelance job marketplace connecting businesses with remote freelancers."
-    },
-    {
-      productName: "PNGWING",
-      category: "tools",
-      image: "https://bit.ly/3xgMy0L",
-      link: "https://www.pngwing.com/",
-      description:"Online platform for downloading high-quality PNG images and clipart."
-    },
-    {
-      productName: "Readme.so",
-      category: "tools",
-      image: "https://readme.so/readme.png",
-      link: "https://readme.so/editor",
-      description:"Free README templates to make your project stand out."
-    },
-    {
-      productName: "GPRM [Readme]",
-      category: "tools",
-      image: "https://gprm.itsvg.in/logo.png",
-      link: "https://gprm.itsvg.in/",
-      description:"Customizable README file for GitHub projects."
-    },
-    {
-      productName: "Hired.com",
-      category: "remote",
-      image: "https://bit.ly/3EjH1up",
-      link: "https://hired.com/",
-      description:"Talent marketplace connecting businesses with top tech talent."
-    },
-    {
-      productName: "Jsonlint.com",
-      category: "tools",
-      image: "https://jsonlint.com/favicon.ico",
-      link: "https://jsonlint.com",
-      description:"Online JSON validator and formatter."
-    },
-    {
-      productName: "Figma.com",
-      category: "tools",
-      image: "https://static.figma.com/app/icon/1/favicon.png",
-      link: "https://www.figma.com/",
-      description:" Online design and prototyping tool."
-    },
-    {
-      productName: "smalldev",
-      category: "tools",
-      image: "https://smalldev.tools/favicon.png",
-      link: "https://smalldev.tools",
-      description:"Online platform for finding and hiring remote developers."
-    },
-    {
-      productName: "futurepedia",
-      category: "tools",
-      image: "https://www.futurepedia.io/futurepedia-small.svg",
-      link: "https://www.futurepedia.io/",
-      description:"Wiki and community for the Back to the Future franchise."
-    },
-    {
-      productName: "jsonformatter",
-      category: "tools",
-      image: "https://jsonformatter.org/img/favicon.png",
-      link: "https://jsonformatter.org/",
-      description:"Online JSON formatter and validator."
-    },
-    {
-      productName: "Kick Resume",
-      category: "resume",
-      image: "https://bit.ly/3Slt9FG",
-      link: "https://www.kickresume.com/en/",
-      description:"Online resume builder and career advice platform."
-    },
-    {
-      productName: "Resume Maker.AI",
-      category: "resume",
-      image: "https://bit.ly/3XNlQHP",
-      link: "https://resumaker.ai/",
-      description:"AI-powered online resume builder."
-    },
-    {
-      productName: "Resumai",
-      category: "resume",
-      image: "https://bit.ly/3IKg8SK",
-      link: "https://www.resumai.com/",
-      description:"AI-powered online resume builder with personalized feedback and analysis."
-    },
-    {
-      productName: "Rezi.AI",
-      category: "resume",
-      image: "https://bit.ly/41lWvYv",
-      link: "https://www.rezi.ai/",
-      description:"Online resume and cover letter builder with AI-powered keyword optimization."
-    },
-    {
-      productName: "Bugcrowd",
-      category: "ethical",
-      image: "https://bit.ly/3xQvqz9",
-      link: "https://www.bugcrowd.com/",
-      description:"Crowdsourced security testing platform for finding and fixing security vulnerabilities."
-    },
-    {
-      productName: "Hackthisiste",
-      category: "ethical",
-      image: "https://bit.ly/3ZYDXMm",
-      link: "https://www.hackthissite.org/",
-      description:"Online security and hacking challenge website for educational purposes."
-    },
-    {
-      productName: "Hackerone",
-      category: "ethical",
-      image: "https://bit.ly/3KEJMdE",
-      link: "https://hackerone.com/",
-      description:"Platform for managing and incentivizing vulnerability disclosure programs."
-    },
-    {
-      productName: "m0chan",
-      category: "ethical",
-      image: "https://bit.ly/3Y3S0Pz",
-      link: "https://m0chan.github.io/",
-      description:"Cybersecurity blog and resource hub."
-    },
-    {
-      productName: "Hacker101",
-      category: "ethical",
-      image: "https://bit.ly/3IpQ5iu",
-      link: "https://www.hacker101.com/",
-      description:"Free online training platform for web security and bug bounty hunting."
-    },
-    {
-      productName: "Tryhackme",
-      category: "ethical",
-      image: "https://bit.ly/3SsfjS2",
-      link: "https://tryhackme.com/",
-      description:"Online platform for learning and practicing cybersecurity skills through interactive labs and challenges."
-    },
-    {
-      productName: "cve mitre",
-      category: "ethical",
-      image: "https://bit.ly/3SwuV6V",
-      link: "https://cve.mitre.org/",
-      description:"Cybersecurity vulnerability dictionary and resource hub."
-    },
-    {
-      productName: "Hackthebox",
-      category: "ethical",
-      image: "https://bit.ly/3ZdEtGk",
-      link: "https://www.hackthebox.com/",
-      description:"Online platform for learning and practicing ethical hacking skills."
-    },
-    {
-      productName: "owasp",
-      category: "ethical",
-      image: "https://bit.ly/3m4MVcC",
-      link: "https://owasp.org/",
-      description:"Community-driven organization focused on improving software security."
-    },
-    {
-      productName: "crackstation",
-      category: "ethical",
-      image: "https://bit.ly/3ITIKZZ",
-      link: "https://crackstation.net/",
-      description:"Online password cracking and recovery service."
-    },
-    {
-      productName: "owasp cheetsheet",
-      category: "ethical",
-      image: "https://bit.ly/3KzvhI7",
-      link: "https://cheatsheetseries.owasp.org/",
-      description:"Practical guide to software security best practices."
-    },
-    {
-      productName: "Cryptohack",
-      category: "ethical",
-      image: "https://bit.ly/3Z0vQiB",
-      link: "https://cryptohack.org/",
-      description:"Online platform for learning and practicing cryptography skills."
-    },
-    {
-      productName: "OSINT Framework",
-      category: "ethical",
-      image: "",
-      link: "https://osintframework.com/",
-      description:"Comprehensive resource hub for open-source intelligence"
-    },
-    {
-      productName: "Colorhunt",
-      category: "web",
-      image: "https://bit.ly/3Kz550h",
-      link: "https://colorhunt.co/",
-      description:"Color inspiration and palette generator tool for designers."
-    },
-    {
-      productName: "Sitepoint",
-      category: "web",
-      image: "https://bit.ly/3IyNvXB",
-      link: "https://www.sitepoint.com/",
-      description:"Online platform for web development and design tutorials."
-    },
-    {
-      productName: "css tricks",
-      category: "web",
-      image: "https://bit.ly/3kt5mal",
-      link: "https://css-tricks.com/",
-      description:"Online resource for web designers and developers to learn and share CSS tricks and tips."
-    },
-    {
-      productName: "web designer Depot",
-      category: "web",
-      image: "https://bit.ly/3KBrji4",
-      link: "https://www.webdesignerdepot.com/",
-      description:"Online resource for web design news, tips, and tutorials."
-    },
-    {
-      productName: "Themeforest",
-      category: "web",
-      image: "https://bit.ly/3m0ZW6N",
-      link: "https://themeforest.net/",
-      description:"Online marketplace for buying and selling website templates and themes."
-    },
-    {
-      productName: "CSS Gradient",
-      category: "web",
-      image: "https://bit.ly/3EGBUV9",
-      link: "https://cssgradient.io/",
-      description:"Collection of CSS gradients for web designers and developers."
-    },
-    {
-      productName: "Get Waves",
-      category: "web",
-      image: "https://bit.ly/3IUfGSg",
-      link: "https://getwaves.io/",
-      description:"SVG wave generator for web design backgrounds."
-    },
-    {
-      productName: "CodeSandBox",
-      category: "web",
-      image: "https://bit.ly/3KESoB0",
-      link: "https://codesandbox.io/",
-      description:"Online code editor and developer collaboration platform."
-    },
-    {
-      productName: "Mesh Gradient",
-      category: "web",
-      image: "https://bit.ly/3KUNHDt",
-      link: "https://products.ls.graphics/mesh-gradients/",
-      description:"Gradient mesh generator for creating unique and dynamic design backgrounds."
-    },
-    {
-      productName: "Illustrations",
-      category: "web",
-      image: "https://bit.ly/3ZhaVra",
-      link: "https://www.freepik.com/vectors/illustrations",
-      description:"Library of free illustrations for web design and graphic design projects."
-    },
-    {
-      productName: "Device Shots",
-      category: "web",
-      image: "https://bit.ly/3m8mQta",
-      link: "https://deviceshots.com/",
-      description:"Online tool for generating device mockups for website and app design."
-    },
-    {
-      productName: "Collors",
-      category: "web",
-      image: "https://bit.ly/3kq0zq4",
-      link: "https://coolors.co/",
-      description:"Collection of color palettes for web design and graphic design."
-    },
-    {
-      productName: "Dev Docs",
-      category: "web",
-      image: "https://bit.ly/3StX6TY",
-      link: "https://devdocs.io/",
-      description:"Comprehensive documentation hub for web development technologies and tools."
-    },
-    {
-      productName: "Splide js",
-      category: "web",
-      image: "https://bit.ly/3StX6TY",
-      link: "https://splidejs.com/",
-      description:"Lightweight, flexible, and responsive slider and carousel plugin for JavaScript."
-    },
-    {
-      productName: "babel js",
-      category: "web",
-      image: "https://bit.ly/3xPrHBY",
-      link: "https://babeljs.io/",
-      description:"JavaScript compiler that transforms modern JavaScript code into backward-compatible versions."
-    },
-    {
-      productName: "js fiddle",
-      category: "web",
-      image: "https://bit.ly/3ktrJwk",
-      link: "https://jsfiddle.net/",
-      description:"Online playground for testing, sharing, and collaborating on web code snippets."
-    },
-    {
-      productName: "box-shadow",
-      category: "web",
-      image: "https://bit.ly/3ITuAIg",
-      link: "https://box-shadow.dev/",
-      description:"Online tool for generating box shadow CSS code."
-    },
-    {
-      productName: "unminify",
-      category: "web",
-      image: "https://bit.ly/3Y32LSi",
-      link: "https://unminify.com/",
-      description:"Online tool for unminifying minified JavaScript, CSS, and HTML code."
-    },
-    {
-      productName: "flaticon",
-      category: "web",
-      image: "https://bit.ly/3ktuJZG",
-      link: "https://www.flaticon.com/",
-      description:"Collection of free vector icons for web design and graphic design."
-    },
-    {
-      productName: "veed",
-      category: "tools",
-      image: "https://bit.ly/3ZDEfbJ",
-      link: "https://www.veed.io/",
-      description:"Online video editing and creation platform."
-    },
-    {
-      productName: "tiny cloud",
-      category: "tools",
-      image: "https://bit.ly/3Z4tv68",
-      link: "https://www.tiny.cloud/",
-      description:"Cloud-based rich text editor and content creation platform."
-    },
-    {
-      productName: "news api",
-      category: "tools",
-      image: "https://bit.ly/3xSWwG8",
-      link: "https://newsapi.org/account",
-      description:"API for accessing and searching news articles from around the world."
-    },
-    {
-      productName: "wetransfer",
-      category: "tools",
-      image: "https://bit.ly/3krko0a",
-      link: "https://wetransfer.com/",
-      description:"Online file transfer and sharing service."
-    },
-    {
-      productName: "photopea",
-      category: "tools",
-      image: "https://bit.ly/3YZGSVi",
-      link: "https://www.photopea.com/",
-      description:"Online image editor with support for various file formats and advanced editing features."
-    },
-    {
-      productName: "theuselessweb",
-      category: "tools",
-      image: "https://bit.ly/3Z1kMBI",
-      link: "https://theuselessweb.com/",
-      description:"Website that randomly takes you to other random, quirky, and amusing websites."
-    },
-    {
-      productName: "imgbb",
-      category: "tools",
-      image: "https://bit.ly/3KCM6BJ",
-      link: "https://imgbb.com/",
-      description:"Free image hosting and sharing service."
-    },
-    {
-      productName: "avatars dicebear",
-      category: "tools",
-      image: "https://bit.ly/3Y01SKi",
-      link: "https://avatars.dicebear.com/",
-      description:"Customizable and fun avatar generator for developers and designers."
-    },
-    {
-      productName: "pfpmaker",
-      category: "tools",
-      image: "https://bit.ly/3ZmRM7m",
-      link: "https://pfpmaker.com/",
-      description:"Profile picture generator with customizable designs and templates."
-    },
-    {
-      productName: "jwt",
-      category: "tools",
-      image: "https://bit.ly/3XWzjx3",
-      link: "https://jwt.io/",
-      description:"JSON Web Tokens for authentication and authorization in web applications."
-    },
-    {
-      productName: "yandex",
-      category: "tools",
-      image: "https://bit.ly/3ZnKUX1",
-      link: "https://yandex.com/",
-      description:"Russian multinational technology company that offers internet-related services and products."
-    },
-    {
-      productName: "Hardhat",
-      category: "tools",
-      image: "https://bit.ly/3Ym6BWz",
-      link: "https://hardhat.org",
-      description:"Ethereum development environment for building and testing smart contracts."
-    },
-    {
-      productName: "Truffle",
-      category: "tools",
-      image: "https://bit.ly/3ISKRMp",
-      link: "https://trufflesuite.com",
-      description:"Ethereum development framework for building decentralized applications (dApps)."
-    },
-    {
-      productName: "CodeGreeper",
-      category: "tools",
-      image: "https://www.grepper.com/images/logo_colors_small.png",
-      link: "https://www.codegrepper.com",
-      description:"Chrome extension that generate code snippets on search ."
-    },
-    {
-      productName: "Notion",
-      category: "tools",
-      image: "https://t.ly/_eHX",
-      link: "https://notion.so/",
-      description:"Productivity tool for everything you need."
-    },
-    {
-      productName: "ILovePDF",
-      category: "tools",
-      image: "https://t.ly/Ep_z",
-      link: "https://www.ilovepdf.com/",
-      description:"Every tool you need to use PDFs, at your fingertips."
-    },
-    {
-      productName: "Pogolinks",
-      category: "movies",
-      image: "https://t.ly/8g29",
-      link: "https://pogolinks.world/",
-      description:"Website to download latest movies and webseries"
-    },
-    {
-      productName: "Zoro.to",
-      category: "movies",
-      image: "https://bit.ly/3l7SXcm",
-      link: "https://zoro.to/",
-      description:"Website to stream your favorite anime for free"
-    },
-    {
-      productName: "Soap2Day",
-      category: "movies",
-      image: "https://bit.ly/429nzdU",
-      link: "https://www.codegrepper.com",
-      description:"Stream movies freely"
-    },
-    {
-      productName: "Moviesmod",
-      category: "movies",
-      image: "https://bit.ly/3ZMrGen",
-      link: "https://moviesmod.co/",
-      description:"Download HD quality movies and series"
-    },
-    {
-      productName: "Download Hub",
-      category: "movies",
-      image: "https://bit.ly/3laDFTY",
-      link: "https://downloadhub.desi/",
-      description:"Download HD quality movies and series"
-    },
-    {
-      productName: "9animetv",
-      category: "movies",
-      image: "https://bit.ly/3yHAxlC",
-      link: "https://9animetv.to/",
-      description:"Website to stream your favorite anime for free"
-    },
-  ],
-};
+[{
+ 
+        "productName": "Flow CV",
+        "category": "resume",
+        "image": "https://bit.ly/3YnFYBJ",
+        "link": "https://flowcv.com/",
+        "description": "A tool that is used to create beautiful resumes"
+      },
+      {
+        "productName": "Reactive Resume",
+        "category": "resume",
+        "image": "https://bit.ly/3YKPTRr",
+        "link": "https://rxresu.me/",
+        "description": "Reactive Resume is an open-source, customizable resume builder that uses React.js."
+      },
+      {
+        "productName": "Poet.so",
+        "category": "tweet",
+        "image": "https://bit.ly/3IiqJUM",
+        "link": "https://poet.so/",
+        "description": "Simple, customizable portfolio website builder for developers and creatives."
+      },
+      {
+        "productName": "Bitly",
+        "category": "tools",
+        "image": "https://bit.ly/3xnfdRH",
+        "link": "https://bitly.com/",
+        "description": "URL shortening and "
+      },
+      {
+        "productName": "Contrib Rocks",
+        "category": "tools",
+        "image": "https://bit.ly/3Z1Fz7L",
+        "link": "https://contrib.rocks/",
+        "description": "Contributors "
+      },
+      {
+        "productName": "Remote OK",
+        "category": "remote",
+        "image": "https://bit.ly/3RQAMDP",
+        "link": "https://remoteok.com/",
+        "description": "Job board for remote jobs in tech and other fields."
+      },
+      {
+        "productName": "Angel.co",
+        "category": "remote",
+        "image": "https://bit.ly/3E48AHM",
+        "link": "https://angel.co/",
+        "description": "Job board and networking platform for startups and investors."
+      },
+      {
+        "productName": "Remotive",
+        "category": "remote",
+        "image": "https://remotive.com/remotive_website_layout/static/src/img/favicon.ico",
+        "link": "https://remotive.com/",
+        "description": "Remote job board and community for remote workers and employers."
+      },
+      {
+        "productName": "Himalayas",
+        "category": "remote",
+        "image": "https://bit.ly/3RXjh4H",
+        "link": "https://himalayas.app/",
+        "description": "Himalayas is a job board for remote workers."
+      },
+      {
+        "productName": "We Work Remotely",
+        "category": "remote",
+        "image": "https://bit.ly/3jSH49u",
+        "link": "https://weworkremotely.com/",
+        "description": "Remote job board for a variety of industries and positions."
+      },
+      {
+        "productName": "Remote.co",
+        "category": "remote",
+        "image": "https://remoteco.s3.amazonaws.com/wp-content/uploads/2017/02/retina_favicon_32.png",
+        "link": "https://remote.co/",
+        "description": "Remote job board and resource for remote job seekers and employers."
+      },
+      {
+        "productName": "JustRemote",
+        "category": "remote",
+        "image": "https://bit.ly/3I28PEK",
+        "link": "https://justremote.co/",
+        "description": "Job board for remote jobs in a variety of industries and positions."
+      },
+      {
+        "productName": "Arc.dev",
+        "category": "remote",
+        "image": "https://bit.ly/3Yq5Lcp",
+        "link": "https://arc.dev/",
+        "description": "Platform for hiring and managing remote developers and engineers."
+      },
+      {
+        "productName": "Skip The Drive",
+        "category": "remote",
+        "image": "https://skipthedrive.b-cdn.net/wp-content/uploads/2023/02/favicon_32c.png",
+        "link": "https://www.skipthedrive.com/",
+        "description": "SkipTheDrive is a remote job board that lists work-from-home jobs."
+      },
+      {
+        "productName": "Jobspresso",
+        "category": "remote",
+        "image": "https://bit.ly/3HTbQqE",
+        "link": "https://jobspresso.co/",
+        "description": "Remote job listings for digital nomads."
+      },
+      {
+        "productName": "Working No Mads",
+        "category": "remote",
+        "image": "https://www.workingnomads.com/static/jobs/assets/favicon.ico",
+        "link": "https://www.workingnomads.com/",
+        "description": " Remote job board featuring a range of remote jobs across various industries."
+      },
+      {
+        "productName": "Pika Style",
+        "category": "tweet",
+        "image": "https://bit.ly/3jQ6g0b",
+        "link": "https://pika.style/templates/tweet-",
+        "description": " A web design tool for creating and customizing design systems."
+      },
+      {
+        "productName": "Code Beautify",
+        "category": "code",
+        "image": "https://bit.ly/3xhLeL2",
+        "link": "https://codebeautify.org/code-to-",
+        "description": "Online tool for formatting and beautifying code."
+      },
+      {
+        "productName": "Carbon Now",
+        "category": "code",
+        "image": "https://bit.ly/3YIet5A",
+        "link": "https://carbon.now.sh/",
+        "description": "Online tool for creating and sharing beautiful code snippets."
+      },
+      {
+        "productName": "Ray.so",
+        "category": "code",
+        "image": "https://bit.ly/40HNhpc",
+        "link": "https://ray.so/",
+        "description": "Online tool for creating and sharing beautiful and customizable code."
+      },
+      {
+        "productName": "100L5",
+        "category": "code",
+        "image": "https://bit.ly/40N3r0C",
+        "link": "https://10015.io/tools/code-to-",
+        "description": "Platform for generating interactive digital experiences using visual scripting."
+      },
+      {
+        "productName": "ReadMe Generator",
+        "category": "tools",
+        "image": "https://bit.ly/3IjJ97J",
+        "link": "https://github-profile-readme-generator-47w21mt0m-rahuldkjain.vercel.app/",
+        "description": "Automated tool for generating project README files."
+      },
+      {
+        "productName": "LeetHub",
+        "category": "tools",
+        "image": "https://bit.ly/3lv6L0h",
+        "link": "https://chrome.google.com/webstore/detail/leethub/aciombdipochlnkbpcbgdpjffcfdbggi?hl=en",
+        "description": "A browser extension for GitHub"
+      },
+      {
+        "productName": "AdBlock",
+        "category": "tools",
+        "image": "https://bit.ly/3K3rqmo",
+        "link": "https://chrome.google.com/webstore/detail/adblock-%E2%80%94-best-ad-blocker/gighmmpiobklfepjocnamgkkbiglidom",
+        "description": "A popular ad-blocking browser extension."
+      },
+      {
+        "productName": "Grammarly",
+        "category": "tools",
+        "image": "https://bit.ly/3xg1goX",
+        "link": "https://app.grammarly.com/",
+        "description": "Writing assistance tool"
+      },
+      {
+        "productName": "Wordtune",
+        "category": "tools",
+        "image": "https://uploads-ssl.webflow.com/5f7e0f9d75fee6f6f546df46/62c18c97efce291098cf0656_Favicon.png",
+        "link": "https://www.wordtune.com/",
+        "description": "AI-powered writing tool."
+      },
+      {
+        "productName": "Code Pen",
+        "category": "tools",
+        "image": "https://bit.ly/2I9FxYw",
+        "link": "https://codepen.io/",
+        "description": "Front-end web development and code sharing."
+      },
+      {
+        "productName": "Toptal",
+        "category": "remote",
+        "image": "https://frontier-assets.toptal.com/c4a9fd60eec9d204fb7d.png",
+        "link": "https://www.toptal.com/",
+        "description": "Freelance talent marketplace."
+      },
+      {
+        "productName": "DevSnap",
+        "category": "remote",
+        "image": "https://bit.ly/3JXDA02",
+        "link": "https://devsnap.me/",
+        "description": "Tech news aggregator and developer resources website."
+      },
+      {
+        "productName": "Up Work",
+        "category": "remote",
+        "image": "https://www.upwork.com/favicon.ico",
+        "link": "https://www.upwork.com/",
+        "description": "Freelance job marketplace connecting businesses with remote freelancers."
+      },
+      {
+        "productName": "PNGWING",
+        "category": "tools",
+        "image": "https://bit.ly/3xgMy0L",
+        "link": "https://www.pngwing.com/",
+        "description": "Online platform for downloading high-quality PNG "
+      },
+      {
+        "productName": "Readme.so",
+        "category": "tools",
+        "image": "https://readme.so/readme.png",
+        "link": "https://readme.so/editor",
+        "description": "Free README templates to make your project stand out."
+      },
+      {
+        "productName": "GPRM [Readme]",
+        "category": "tools",
+        "image": "https://gprm.itsvg.in/logo.png",
+        "link": "https://gprm.itsvg.in/",
+        "description": "Customizable README file for GitHub projects."
+      },
+      {
+        "productName": "Hired.com",
+        "category": "remote",
+        "image": "https://bit.ly/3EjH1up",
+        "link": "https://hired.com/",
+        "description": "Talent marketplace connecting businesses with top tech talent."
+      },
+      {
+        "productName": "Jsonlint.com",
+        "category": "tools",
+        "image": "https://jsonlint.com/favicon.ico",
+        "link": "https://jsonlint.com",
+        "description": "Online JSON validator and formatter."
+      },
+      {
+        "productName": "Figma.com",
+        "category": "tools",
+        "image": "https://static.figma.com/app/icon/1/favicon.png",
+        "link": "https://www.figma.com/",
+        "description": " Online design and prototyping tool."
+      },
+      {
+        "productName": "smalldev",
+        "category": "tools",
+        "image": "https://smalldev.tools/favicon.png",
+        "link": "https://smalldev.tools",
+        "description": "Online platform for finding and hiring remote developers."
+      },
+      {
+        "productName": "futurepedia",
+        "category": "tools",
+        "image": "https://www.futurepedia.io/futurepedia-small.svg",
+        "link": "https://www.futurepedia.io/",
+        "description": "Wiki and community for the Back to the Future franchise."
+      },
+      {
+        "productName": "jsonformatter",
+        "category": "tools",
+        "image": "https://jsonformatter.org/img/favicon.png",
+        "link": "https://jsonformatter.org/",
+        "description": "Online JSON formatter and validator."
+      },
+      {
+        "productName": "Kick Resume",
+        "category": "resume",
+        "image": "https://bit.ly/3Slt9FG",
+        "link": "https://www.kickresume.com/en/",
+        "description": "Online resume builder and career advice platform."
+      },
+      {
+        "productName": "Resume Maker.AI",
+        "category": "resume",
+        "image": "https://bit.ly/3XNlQHP",
+        "link": "https://resumaker.ai/",
+        "description": "AI-powered online resume builder."
+      },
+      {
+        "productName": "Resumai",
+        "category": "resume",
+        "image": "https://bit.ly/3IKg8SK",
+        "link": "https://www.resumai.com/",
+        "description": "AI-powered online resume builder with personalized feedback and analysis."
+      },
+      {
+        "productName": "Rezi.AI",
+        "category": "resume",
+        "image": "https://bit.ly/41lWvYv",
+        "link": "https://www.rezi.ai/",
+        "description": "Online resume and cover letter builder with AI-powered keyword optimization."
+      },
+      {
+        "productName": "Bugcrowd",
+        "category": "ethical",
+        "image": "https://bit.ly/3xQvqz9",
+        "link": "https://www.bugcrowd.com/",
+        "description": "Crowdsourced security testing platform for finding and fixing security vulnerabilities."
+      },
+      {
+        "productName": "Hackthisiste",
+        "category": "ethical",
+        "image": "https://bit.ly/3ZYDXMm",
+        "link": "https://www.hackthissite.org/",
+        "description": "Online security and hacking challenge website for educational purposes."
+      },
+      {
+        "productName": "Hackerone",
+        "category": "ethical",
+        "image": "https://bit.ly/3KEJMdE",
+        "link": "https://hackerone.com/",
+        "description": "Platform for managing and incentivizing vulnerability disclosure programs."
+      },
+      {
+        "productName": "m0chan",
+        "category": "ethical",
+        "image": "https://bit.ly/3Y3S0Pz",
+        "link": "https://m0chan.github.io/",
+        "description": "Cybersecurity blog and resource hub."
+      },
+      {
+        "productName": "Hacker101",
+        "category": "ethical",
+        "image": "https://bit.ly/3IpQ5iu",
+        "link": "https://www.hacker101.com/",
+        "description": "Free online training platform for web security and bug bounty hunting."
+      },
+      {
+        "productName": "Tryhackme",
+        "category": "ethical",
+        "image": "https://bit.ly/3SsfjS2",
+        "link": "https://tryhackme.com/",
+        "description": "Online platform for learning and practicing cybersecurity skills through interactive labs and challenges."
+      },
+      {
+        "productName": "cve mitre",
+        "category": "ethical",
+        "image": "https://bit.ly/3SwuV6V",
+        "link": "https://cve.mitre.org/",
+        "description": "Cybersecurity vulnerability dictionary and resource hub."
+      },
+      {
+        "productName": "Hackthebox",
+        "category": "ethical",
+        "image": "https://bit.ly/3ZdEtGk",
+        "link": "https://www.hackthebox.com/",
+        "description": "Online platform for learning and practicing ethical hacking skills."
+      },
+      {
+        "productName": "owasp",
+        "category": "ethical",
+        "image": "https://bit.ly/3m4MVcC",
+        "link": "https://owasp.org/",
+        "description": "Community-driven organization focused on improving software security."
+      },
+      {
+        "productName": "crackstation",
+        "category": "ethical",
+        "image": "https://bit.ly/3ITIKZZ",
+        "link": "https://crackstation.net/",
+        "description": "Online password cracking and recovery service."
+      },
+      {
+        "productName": "owasp cheetsheet",
+        "category": "ethical",
+        "image": "https://bit.ly/3KzvhI7",
+        "link": "https://cheatsheetseries.owasp.org/",
+        "description": "Practical guide to software security best practices."
+      },
+      {
+        "productName": "Cryptohack",
+        "category": "ethical",
+        "image": "https://bit.ly/3Z0vQiB",
+        "link": "https://cryptohack.org/",
+        "description": "Online platform for learning and practicing cryptography skills."
+      },
+      {
+        "productName": "OSINT Framework",
+        "category": "ethical",
+        "image": "",
+        "link": "https://osintframework.com/",
+        "description": "Comprehensive resource hub for open-source intelligence"
+      },
+      {
+        "productName": "Colorhunt",
+        "category": "web",
+        "image": "https://bit.ly/3Kz550h",
+        "link": "https://colorhunt.co/",
+        "description": "Color inspiration and palette generator tool for designers."
+      },
+      {
+        "productName": "Sitepoint",
+        "category": "web",
+        "image": "https://bit.ly/3IyNvXB",
+        "link": "https://www.sitepoint.com/",
+        "description": "Online platform for web development and design tutorials."
+      },
+      {
+        "productName": "css tricks",
+        "category": "web",
+        "image": "https://bit.ly/3kt5mal",
+        "link": "https://css-tricks.com/",
+        "description": "Online resource for web designers and developers to learn and share CSS tricks and tips."
+      },
+      {
+        "productName": "web designer Depot",
+        "category": "web",
+        "image": "https://bit.ly/3KBrji4",
+        "link": "https://www.webdesignerdepot.com/",
+        "description": "Online resource for web design news, tips, and tutorials."
+      },
+      {
+        "productName": "Themeforest",
+        "category": "web",
+        "image": "https://bit.ly/3m0ZW6N",
+        "link": "https://themeforest.net/",
+        "description": "Online marketplace for buying and selling website templates and themes."
+      },
+      {
+        "productName": "CSS Gradient",
+        "category": "web",
+        "image": "https://bit.ly/3EGBUV9",
+        "link": "https://cssgradient.io/",
+        "description": "Collection of CSS gradients for web designers and developers."
+      },
+      {
+        "productName": "Get Waves",
+        "category": "web",
+        "image": "https://bit.ly/3IUfGSg",
+        "link": "https://getwaves.io/",
+        "description": "SVG wave generator for web design backgrounds."
+      },
+      {
+        "productName": "CodeSandBox",
+        "category": "web",
+        "image": "https://bit.ly/3KESoB0",
+        "link": "https://codesandbox.io/",
+        "description": "Online code editor and developer collaboration platform."
+      },
+      {
+        "productName": "Mesh Gradient",
+        "category": "web",
+        "image": "https://bit.ly/3KUNHDt",
+        "link": "https://products.ls.graphics/mesh-gradients/",
+        "description": "Gradient mesh generator for creating unique and dynamic design backgrounds."
+      },
+      {
+        "productName": "Illustrations",
+        "category": "web",
+        "image": "https://bit.ly/3ZhaVra",
+        "link": "https://www.freepik.com/vectors/illustrations",
+        "description": "Library of free illustrations for web design and graphic design projects."
+      },
+      {
+        "productName": "Device Shots",
+        "category": "web",
+        "image": "https://bit.ly/3m8mQta",
+        "link": "https://deviceshots.com/",
+        "description": "Online tool for generating device mockups for website and app design."
+      },
+      {
+        "productName": "Collors",
+        "category": "web",
+        "image": "https://bit.ly/3kq0zq4",
+        "link": "https://coolors.co/",
+        "description": "Collection of color palettes for web design and graphic design."
+      },
+      {
+        "productName": "Dev Docs",
+        "category": "web",
+        "image": "https://bit.ly/3StX6TY",
+        "link": "https://devdocs.io/",
+        "description": "Comprehensive documentation hub for web development technologies and tools."
+      },
+      {
+        "productName": "Splide js",
+        "category": "web",
+        "image": "https://bit.ly/3StX6TY",
+        "link": "https://splidejs.com/",
+        "description": "Lightweight, flexible, and responsive slider and carousel plugin for JavaScript."
+      },
+      {
+        "productName": "babel js",
+        "category": "web",
+        "image": "https://bit.ly/3xPrHBY",
+        "link": "https://babeljs.io/",
+        "description": "JavaScript compiler that transforms modern JavaScript code into backward-compatible versions."
+      },
+      {
+        "productName": "js fiddle",
+        "category": "web",
+        "image": "https://bit.ly/3ktrJwk",
+        "link": "https://jsfiddle.net/",
+        "description": "Online playground for testing, sharing, and collaborating on web code snippets."
+      },
+      {
+        "productName": "box-shadow",
+        "category": "web",
+        "image": "https://bit.ly/3ITuAIg",
+        "link": "https://box-shadow.dev/",
+        "description": "Online tool for generating box shadow CSS code."
+      },
+      {
+        "productName": "unminify",
+        "category": "web",
+        "image": "https://bit.ly/3Y32LSi",
+        "link": "https://unminify.com/",
+        "description": "Online tool for unminifying minified JavaScript, CSS, and HTML code."
+      },
+      {
+        "productName": "flaticon",
+        "category": "web",
+        "image": "https://bit.ly/3ktuJZG",
+        "link": "https://www.flaticon.com/",
+        "description": "Collection of free vector icons for web design and graphic design."
+      },
+      {
+        "productName": "veed",
+        "category": "tools",
+        "image": "https://bit.ly/3ZDEfbJ",
+        "link": "https://www.veed.io/",
+        "description": "Online video editing and creation platform."
+      },
+      {
+        "productName": "tiny cloud",
+        "category": "tools",
+        "image": "https://bit.ly/3Z4tv68",
+        "link": "https://www.tiny.cloud/",
+        "description": "Cloud-based rich text editor and content creation platform."
+      },
+      {
+        "productName": "news api",
+        "category": "tools",
+        "image": "https://bit.ly/3xSWwG8",
+        "link": "https://newsapi.org/account",
+        "description": "API for accessing and searching news articles from around the world."
+      },
+      {
+        "productName": "wetransfer",
+        "category": "tools",
+        "image": "https://bit.ly/3krko0a",
+        "link": "https://wetransfer.com/",
+        "description": "Online file transfer and sharing service."
+      },
+      {
+        "productName": "photopea",
+        "category": "tools",
+        "image": "https://bit.ly/3YZGSVi",
+        "link": "https://www.photopea.com/",
+        "description": "Online "
+      },
+      {
+        "productName": "theuselessweb",
+        "category": "tools",
+        "image": "https://bit.ly/3Z1kMBI",
+        "link": "https://theuselessweb.com/",
+        "description": "Website that randomly takes you to other random, quirky, and amusing websites."
+      },
+      {
+        "productName": "imgbb",
+        "category": "tools",
+        "image": "https://bit.ly/3KCM6BJ",
+        "link": "https://imgbb.com/",
+        "description": "Free "
+      },
+      {
+        "productName": "avatars dicebear",
+        "category": "tools",
+        "image": "https://bit.ly/3Y01SKi",
+        "link": "https://avatars.dicebear.com/",
+        "description": "Customizable and fun avatar generator for developers and designers."
+      },
+      {
+        "productName": "pfpmaker",
+        "category": "tools",
+        "image": "https://bit.ly/3ZmRM7m",
+        "link": "https://pfpmaker.com/",
+        "description": "Profile picture generator with customizable designs and templates."
+      },
+      {
+        "productName": "jwt",
+        "category": "tools",
+        "image": "https://bit.ly/3XWzjx3",
+        "link": "https://jwt.io/",
+        "description": "JSON Web Tokens for authentication and authorization in web applications."
+      },
+      {
+        "productName": "yandex",
+        "category": "tools",
+        "image": "https://bit.ly/3ZnKUX1",
+        "link": "https://yandex.com/",
+        "description": "Russian multinational technology company that offers internet-related services and products."
+      },
+      {
+        "productName": "Hardhat",
+        "category": "tools",
+        "image": "https://bit.ly/3Ym6BWz",
+        "link": "https://hardhat.org",
+        "description": "Ethereum development environment for building and testing smart contracts."
+      },
+      {
+        "productName": "Truffle",
+        "category": "tools",
+        "image": "https://bit.ly/3ISKRMp",
+        "link": "https://trufflesuite.com",
+        "description": "Ethereum development framework for building decentralized applications (dApps)."
+      },
+      {
+        "productName": "CodeGreeper",
+        "category": "tools",
+        "image": "https://www.grepper.com/",
+        "link": "https://www.codegrepper.com",
+        "description": "Chrome extension that generate code snippets on search ."
+      },
+      {
+        "productName": "Notion",
+        "category": "tools",
+        "image": "https://t.ly/_eHX",
+        "link": "https://notion.so/",
+        "description": "Productivity tool for everything you need."
+      },
+      {
+        "productName": "ILovePDF",
+        "category": "tools",
+        "image": "https://t.ly/Ep_z",
+        "link": "https://www.ilovepdf.com/",
+        "description": "Every tool you need to use PDFs, at your fingertips."
+      },
+      {
+        "productName": "Pogo",
+        "category": "movies",
+        "image": "https://t.ly/8g29",
+        "link": "https://pogo",
+        "description": "Website to download latest movies and webseries"
+      },
+      {
+        "productName": "Zoro.to",
+        "category": "movies",
+        "image": "https://bit.ly/3l7SXcm",
+        "link": "https://zoro.to/",
+        "description": "Website to stream your favorite anime for free"
+      },
+      {
+        "productName": "Soap2Day",
+        "category": "movies",
+        "image": "https://bit.ly/429nzdU",
+        "link": "https://www.codegrepper.com",
+        "description": "Stream movies freely"
+      },
+      {
+        "productName": "Moviesmod",
+        "category": "movies",
+        "image": "https://bit.ly/3ZMrGen",
+        "link": "https://moviesmod.co/",
+        "description": "Download HD quality movies and series"
+      },
+      {
+        "productName": "Download Hub",
+        "category": "movies",
+        "image": "https://bit.ly/3laDFTY",
+        "link": "https://downloadhub.desi/",
+        "description": "Download HD quality movies and series"
+      },
+      {
+        "productName": "9animetv",
+        "category": "movies",
+        "image": "https://bit.ly/3yHAxlC",
+        "link": "https://9animetv.to/",
+        "description": "Website to stream your favorite anime for free"
+      }
+    
+  
+]
