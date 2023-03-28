@@ -45,78 +45,9 @@ Before installation, you need to have the following:
 
 
 
-## STAR THE REPO
-### How to Contribute to this repository
+## Follow the link below to contribute to Free-Hit
+[Contribution Documents](./CONTRIBUTING.md)
 
-1. Fork the repository (Click the Fork button in the top right of this page,
-   click your Profile Image)
-   
-2. Clone the forked repository to your local machine.
-
-```markdown
-git clone https://github.com/your-username/JasonDsouza212/free-hit.git
-```
-
-3. change the present working directory
-
-```markdown
-cd free-hit
-```
-
-4. Open CMD in your current directory and install npm packages using command.
-
-```markdown
-npm ci
-```
-Or
-```markdown
-npm clean-install
-```
-
-5. Add new tool :
-> Go to DB folder >  `product.js` & add your code 
-
-```
-{
-    productName: "< App_Name >",
-    category: "remote | resume | tweet | code | tools",
-    image: "< Image-Url >",
-    link: "< Link_to_the_website >",
-    description: "< Description of product >"
-},
-```
-
-- To ensure that your URLs are short, it is recommended to use bitly.com for URL shortening.
-- Description should not exceed 10-12 words
-
-6. Make changes in the project. Add, Commit and push the project using following commands:
-
-> Add all files 
-```markdown
-git add . 
-```
-> Commit the changes
-```markdown
-git commit -m "Write Your commit Message" 
-```
-> Create a new branch
-```diff
-git branch -M <your-name>
-```
-> Set upstream command to create a PR
-```diff
-git remote add upstream https://github.com/JasonDsouza212/free-hit.git
-```
-> Push the branch
-```markdown
-git push 
-```
-
-### NOTE
-
-- Make Sure you commit your changes in a new branch.
-- Make Sure you Give proper name to your files describing the addition.
-- Also Make Sure you comment your code wherever necessary.
 
 <div align="center">
 Show some ❤️ by starring this awesome repository!
