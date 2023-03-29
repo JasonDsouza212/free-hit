@@ -637,6 +637,97 @@
         "description": "Every tool you need to use PDFs, at your fingertips."
       },
       {
+        "productName": "ColorPick Eyedropper",
+        "category": "extensions",
+        "image": "https://bit.ly/3lNJ3N9",
+        "link": "http://bit.ly/3LZLQNT",
+        "description": "A zoomed eyedropper & color chooser tool that allows you to select color values from webpages and more."
+      },
+      {
+        "productName": "GoFullPage - Full Page Screen Capture",
+        "category": "extensions",
+        "image": "https://bit.ly/3KgAEeA",
+        "link": "http://bit.ly/40K4cXr",
+        "description": "Capture a screenshot of your current page in entirety and reliably—without requesting any extra permissions."
+      },
+      {
+        "productName": "JSON Viewer Pro",
+        "category": "extensions",
+        "image": "https://bit.ly/3LZPKq1",
+        "link": "http://bit.ly/3TOtEJf",
+        "description": "Beautify Json in Browser, visualize tree, collapse, text highlighting."
+      },
+      {
+        "productName": "Pesticide for Chrome",
+        "category": "extensions",
+        "image": "https://bit.ly/40pIfxc",
+        "link": "http://bit.ly/3zygQNT",
+        "description": "This extension inserts the Pesticide CSS into the current page, outlining each element to better see placement on the page."
+      },
+      {
+        "productName": "Picture-in-Picture Extension (by Google)",
+        "category": "extensions",
+        "image": "https://bit.ly/40LXj8b",
+        "link": "http://bit.ly/3lPZngy",
+        "description": "Watch video using Picture-in-Picture. Works on all websites, watch netflix, youtube, cricket and many more, while doing another work."
+      },
+      {
+        "productName": "Responsive Tester",
+        "category": "extensions",
+        "image": "https://bit.ly/42RAhi3",
+        "link": "http://bit.ly/40pKccY",
+        "description": "Test responsive web designs or mobile pages and see if it is mobile friendly."
+      },
+      {
+        "productName": "Responsive Viewer",
+        "category": "extensions",
+        "image": "https://bit.ly/3TUIw92",
+        "link": "http://bit.ly/40sgLai",
+        "description": "Test multiple screens at once for web designs or mobile pages, Responsive design tester."
+      },
+      {
+        "productName": "Temp Mail - Disposable Temporary Email",
+        "category": "extensions",
+        "image": "https://bit.ly/42RCaeD",
+        "link": "http://bit.ly/40qQZTD",
+        "description": "Temporary disposable email address. Protect your email from spam, bots and phishing with TempMail."
+      },
+      {
+        "productName": "Web Developer",
+        "category": "extensions",
+        "image": "https://bit.ly/3nv8lAj",
+        "link": "https://bit.ly/3TRJeUk",
+        "description": "Adds a toolbar button with various web developer tools. Remove Javascript, css styles, apis and many for testing."
+      },
+      {
+        "productName": "META SEO inspector",
+        "category": "extensions",
+        "image": "https://bit.ly/411vfhh",
+        "link": "http://bit.ly/3JUCLTU",
+        "description": "Easily inspect the meta data found inside web pages, find issues and get advices to fix them."
+      },
+      {
+        "productName": "React Developer Tools",
+        "category": "extensions",
+        "image": "https://bit.ly/43031Fo",
+        "link": "http://bit.ly/3LZceHK",
+        "description": "Adds React debugging tools to the Chrome Developer Tools. Created from revision 28ce1c171 on 3/22/2023."
+      },
+      {
+        "productName": "Moesif Origin & CORS Changer",
+        "category": "extensions",
+        "image": "https://bit.ly/3LZR6RD",
+        "link": "http://bit.ly/3LZFLBl",
+        "description": "This plugin allows you to send cross-domain requests. You can also override Request Origin and CORS headers."
+      },
+      {
+        "productName": "Wappalyzer - Technology profiler",
+        "category": "extensions",
+        "image": "https://bit.ly/3G1QPtL",
+        "link": "http://bit.ly/3G0OoYB",
+        "description": "Identify Tech Stack or Web technologies used in any website."
+      },
+      {
         "productName": "Pogo",
         "category": "movies",
         "image": "https://t.ly/8g29",
