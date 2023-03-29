@@ -182,6 +182,22 @@ footer {
   margin-top: 2rem;
   font-size: 1.2rem;
 }
+
+.footer {
+  background-color: black;
+  border-top: 0.5px solid #ddd;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-size: 20px;
+}
+
+.footer-link {
+  color: #0092cc;
+}
+
 @media screen and (max-width: 68rem) {
   .col {
     width: calc(33.333333% - 4rem);
