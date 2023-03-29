@@ -681,11 +681,23 @@
       {
         "productName": "MoviesNation",
         "category": "movies",
-        "image": "bit.ly/3Zn3s9F",
+        "image": "https://bit.ly/3Zn3s9F",
         "link": "https://moviesnation.mx/",
         "description": "Website to download US and Korean shows and movies"
+      },
+      {
+        "productName": "GPT Zero",
+        "category": "tools",
+        "image": "https://bit.ly/3FZ3cXw",
+        "link": "https://gptzero.me/",
+        "description": "An AI tool can be used to check for plagiarism and determine whether a sentence was written by a human or an AI program."
+      },
+      {
+        "productName": "ChatGPT",
+        "category": "tools",
+        "image": "https://bit.ly/40DElQS",
+        "link": "https://chat.openai.com/",
+        "description": "a language model AI program for generating human-like text responses"
       }
 
-    
-  
 ]
