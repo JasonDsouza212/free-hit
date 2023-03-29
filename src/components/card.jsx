@@ -79,6 +79,13 @@ function Card() {
           >
             🛠️ Useful Tools
           </button>
+          <button
+            rel="noopener noreferrer"
+            className="background-button"
+            onClick={() => filterProduct("extensions")}
+          >
+            🛠️ Useful Extensions
+          </button>
         </div>
       </header>
       <div className="card_wrapper">
