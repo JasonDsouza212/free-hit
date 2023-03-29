@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import  products  from "../DB/product.json";
+import products from "../DB/product.json";
 
 function Card() {
   const [category, setCategory] = useState("all");
@@ -75,6 +75,14 @@ function Card() {
           <button
             rel="noopener noreferrer"
             className="background-button"
+            onClick={() => filterProduct("extensions")}
+          >
+            🛠️ Useful Extensions
+          </button>
+
+          <button
+            rel="noopener noreferrer"
+            className="background-button"
             onClick={() => filterProduct("tools")}
           >
             🛠️ Useful Tools
@@ -84,35 +92,35 @@ function Card() {
       <div className="card_wrapper">
         <div className="cols">
           {products.map((product, index) => {
-          return (category === "all" || category === product.category) ? (
-            <div className="col" key={index}>
-              <div className="container">
-                <div className="front">
-                  <div className="inner">
-                    <span>
-                      <img
-                        className="card_image"
-                        src={product.image}
-                        alt={product.productName}
-                      />
-                    </span>
-                    <p>{product.productName}</p>
+            return (category === "all" || category === product.category) ? (
+              <div className="col" key={index}>
+                <div className="container">
+                  <div className="front">
+                    <div className="inner">
+                      <span>
+                        <img
+                          className="card_image"
+                          src={product.image}
+                          alt={product.productName}
+                        />
+                      </span>
+                      <p>{product.productName}</p>
+                    </div>
                   </div>
-                </div>
-                <div className="back">
-                  <div className="inner">
-                    <h3>{product.productName}</h3><br />
-                    <p>{product.description}</p><br />
-                    <a
-                      href={product.link}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >Visit Website</a>
+                  <div className="back">
+                    <div className="inner">
+                      <h3>{product.productName}</h3><br />
+                      <p>{product.description}</p><br />
+                      <a
+                        href={product.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >Visit Website</a>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-          ) : null;
+            ) : null;
           })}
         </div>
       </div>
