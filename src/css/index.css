@@ -1,8 +1,5 @@
 @import url(https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;800&display=swap);
-.col,
-.content .website-link-btn {
-  cursor: pointer;
-}
+
 *,
 .inner,
 a {
