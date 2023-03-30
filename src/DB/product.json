@@ -252,21 +252,21 @@
     "description": " Online design and prototyping tool."
   },
   {
-    "productName": "smalldev",
+    "productName": "SmallDev",
     "category": "tools",
     "image": "https://smalldev.tools/favicon.png",
     "link": "https://smalldev.tools",
     "description": "FREE tools for developers like encoder/decoder, HTML/CSS/Javascript formatters, minifiers, fake or test data generators & much more."
   },
   {
-    "productName": "futurepedia",
+    "productName": "Futurepedia",
     "category": "tools",
     "image": "https://www.futurepedia.io/futurepedia-small.svg",
     "link": "https://www.futurepedia.io/",
     "description": "Wiki and community for the Back to the Future franchise."
   },
   {
-    "productName": "jsonformatter",
+    "productName": "JSON Formatter",
     "category": "tools",
     "image": "https://jsonformatter.org/img/favicon.png",
     "link": "https://jsonformatter.org/",
@@ -343,7 +343,7 @@
     "description": "Online platform for learning and practicing cybersecurity skills through interactive labs and challenges."
   },
   {
-    "productName": "cve mitre",
+    "productName": "CVE-MITRE",
     "category": "ethical",
     "image": "https://bit.ly/3SwuV6V",
     "link": "https://cve.mitre.org/",
@@ -357,21 +357,21 @@
     "description": "Online platform for learning and practicing ethical hacking skills."
   },
   {
-    "productName": "owasp",
+    "productName": "OWASP",
     "category": "ethical",
     "image": "https://bit.ly/3m4MVcC",
     "link": "https://owasp.org/",
     "description": "Community-driven organization focused on improving software security."
   },
   {
-    "productName": "crackstation",
+    "productName": "CrackStation",
     "category": "ethical",
     "image": "https://bit.ly/3ITIKZZ",
     "link": "https://crackstation.net/",
     "description": "Online password cracking and recovery service."
   },
   {
-    "productName": "owasp cheetsheet",
+    "productName": "OWASP Cheat Sheet",
     "category": "ethical",
     "image": "https://bit.ly/3KzvhI7",
     "link": "https://cheatsheetseries.owasp.org/",
@@ -406,14 +406,14 @@
     "description": "Online platform for web development and design tutorials."
   },
   {
-    "productName": "css tricks",
+    "productName": "CSS-Tricks",
     "category": "web",
     "image": "https://bit.ly/3kt5mal",
     "link": "https://css-tricks.com/",
     "description": "Online resource for web designers and developers to learn and share CSS tricks and tips."
   },
   {
-    "productName": "web designer Depot",
+    "productName": "Webdesigner Depot",
     "category": "web",
     "image": "https://bit.ly/3KBrji4",
     "link": "https://www.webdesignerdepot.com/",
@@ -490,14 +490,14 @@
     "description": "Lightweight, flexible, and responsive slider and carousel plugin for JavaScript."
   },
   {
-    "productName": "babel js",
+    "productName": "Babel.js",
     "category": "web",
     "image": "https://bit.ly/3xPrHBY",
     "link": "https://babeljs.io/",
     "description": "JavaScript compiler that transforms modern JavaScript code into backward-compatible versions."
   },
   {
-    "productName": "js fiddle",
+    "productName": "JSFiddle",
     "category": "web",
     "image": "https://bit.ly/3ktrJwk",
     "link": "https://jsfiddle.net/",
@@ -511,91 +511,91 @@
     "description": "Online tool for generating box shadow CSS code."
   },
   {
-    "productName": "unminify",
+    "productName": "Unminify",
     "category": "web",
     "image": "https://bit.ly/3Y32LSi",
     "link": "https://unminify.com/",
     "description": "Online tool for unminifying minified JavaScript, CSS, and HTML code."
   },
   {
-    "productName": "flaticon",
+    "productName": "Flaticon",
     "category": "web",
     "image": "https://bit.ly/3ktuJZG",
     "link": "https://www.flaticon.com/",
     "description": "Collection of free vector icons for web design and graphic design."
   },
   {
-    "productName": "veed",
+    "productName": "VEED",
     "category": "tools",
     "image": "https://bit.ly/3ZDEfbJ",
     "link": "https://www.veed.io/",
     "description": "Online video editing and creation platform."
   },
   {
-    "productName": "tiny cloud",
+    "productName": "TinyMCE",
     "category": "tools",
     "image": "https://bit.ly/3Z4tv68",
     "link": "https://www.tiny.cloud/",
     "description": "Cloud-based rich text editor and content creation platform."
   },
   {
-    "productName": "news api",
+    "productName": "News API",
     "category": "tools",
     "image": "https://bit.ly/3xSWwG8",
     "link": "https://newsapi.org/account",
     "description": "API for accessing and searching news articles from around the world."
   },
   {
-    "productName": "wetransfer",
+    "productName": "WeTransfer",
     "category": "tools",
     "image": "https://bit.ly/3krko0a",
     "link": "https://wetransfer.com/",
     "description": "Online file transfer and sharing service."
   },
   {
-    "productName": "photopea",
+    "productName": "Photopea",
     "category": "tools",
     "image": "https://bit.ly/3YZGSVi",
     "link": "https://www.photopea.com/",
     "description": "Online "
   },
   {
-    "productName": "theuselessweb",
+    "productName": "The Useless Web",
     "category": "tools",
     "image": "https://bit.ly/3Z1kMBI",
     "link": "https://theuselessweb.com/",
     "description": "Website that randomly takes you to other random, quirky, and amusing websites."
   },
   {
-    "productName": "imgbb",
+    "productName": "ImgBB",
     "category": "tools",
     "image": "https://bit.ly/3KCM6BJ",
     "link": "https://imgbb.com/",
     "description": "Free "
   },
   {
-    "productName": "avatars dicebear",
+    "productName": "Avatars DiceBear",
     "category": "tools",
     "image": "https://bit.ly/3Y01SKi",
     "link": "https://avatars.dicebear.com/",
     "description": "Customizable and fun avatar generator for developers and designers."
   },
   {
-    "productName": "pfpmaker",
+    "productName": "PFPmaker",
     "category": "tools",
     "image": "https://bit.ly/3ZmRM7m",
     "link": "https://pfpmaker.com/",
     "description": "Profile picture generator with customizable designs and templates."
   },
   {
-    "productName": "jwt",
+    "productName": "JSON Web Tokens",
     "category": "tools",
     "image": "https://bit.ly/3XWzjx3",
     "link": "https://jwt.io/",
     "description": "JSON Web Tokens for authentication and authorization in web applications."
   },
   {
-    "productName": "yandex",
+    "productName": "Yandex",
     "category": "tools",
     "image": "https://bit.ly/3ZnKUX1",
     "link": "https://yandex.com/",
