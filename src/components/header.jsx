@@ -1,3 +1,6 @@
+import TWITTER from "../images/twitter-circled.png";
+import GITHUB from "../images/github-circled.png";
+
 function header() {
   return (
     <header className="title-bar">
@@ -10,7 +13,7 @@ function header() {
             target="_blank"
             rel="noreferrer"
           >
-            😎 GitHub
+            <img className="header-img" src= {GITHUB}/>
           </a>
         </li>
         <li>
@@ -20,7 +23,7 @@ function header() {
             rel="noreferrer"
             className="nav-link"
           >
-            🐦 Twitter
+            <img className="header-img" src= {TWITTER}/>
           </a>
         </li>
       </ul>

@@ -40,10 +40,17 @@ a {
   cursor: pointer;
   transition: border-color 0.25s;
 }
+.header-button{
+  background-color: #5432c5;
+}
 .background-button:hover,
 .website-link-btn:hover {
   background-color:#f4f7f1;
   color: #232427;
+}
+
+.header-img {
+  margin : 0.5rem 0 0 0;
 }
 .nav-link,
 p {
