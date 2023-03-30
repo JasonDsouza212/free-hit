@@ -793,7 +793,7 @@
     {
         "productName": "FitText.js",
         "category": "tools",
-        "image": "bit.ly/3M1UhIP",
+        "image": "https://bit.ly/3M1UhIP",
         "link": "http://fittextjs.com/",
         "description": "FitText.js is a jQuery plug-in to make headline web type responsive to the design and the device"
     }
