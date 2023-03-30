@@ -29,18 +29,21 @@ a {
 }
 .background-button,
 .website-link-btn {
-  background-color: #fff;
-  color: #000;
-  width: 9.5rem;
-  height: 2rem;
-  border: 2px solid #fff;
+  color: #f4f7f1;
   border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #232427;
   cursor: pointer;
+  transition: border-color 0.25s;
 }
 .background-button:hover,
 .website-link-btn:hover {
-  background-color: #232427;
-  color: #fff;
+  background-color:#f4f7f1;
+  color: #232427;
 }
 .nav-link,
 p {
