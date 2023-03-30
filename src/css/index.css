@@ -29,27 +29,31 @@ a {
 }
 .background-button,
 .website-link-btn {
-  color: #f4f7f1;
+  color: #232427;
   border-radius: 8px;
-  border: 1px solid transparent;
+  border: 1px solid greenyellow;
   padding: 0.6em 1.2em;
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #232427;
+  background-color: #f4f7f1;
   cursor: pointer;
   transition: border-color 0.25s;
 }
 .header-button{
+    height: 30px;
+    width: 30px;
   background-color: #5432c5;
 }
 .background-button:hover,
 .website-link-btn:hover {
-  background-color:#f4f7f1;
-  color: #232427;
+  background-color: #232427;
+  color: #f4f7f1;
 }
 
 .header-img {
+  height: 48px;
+  width: 48px;
   margin : 0.5rem 0 0 0;
 }
 .nav-link,
