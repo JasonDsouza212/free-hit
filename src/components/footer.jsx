@@ -1,13 +1,13 @@
 function footer() {
   return (
-    <div class="footer">
+    <div className="footer">
       <div>
         <p>
           Crafted with ❤️ by
           <a
             href="https://github.com/JasonDsouza212"
             target="_blank"
-            class="footer-link"
+            className="footer-link"
             rel="noreferrer"
           >
             {" "}

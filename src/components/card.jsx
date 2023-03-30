@@ -92,7 +92,7 @@ function Card() {
       <div className="card_wrapper">
         <div className="cols">
           {products.map((product, index) => {
-            return (category === "all" || category === product.category) ? (
+            return category === "all" || category === product.category ? (
               <div className="col" key={index}>
                 <div className="container">
                   <div className="front">
@@ -109,13 +109,17 @@ function Card() {
                   </div>
                   <div className="back">
                     <div className="inner">
-                      <h3>{product.productName}</h3><br />
-                      <p>{product.description}</p><br />
+                      <h3>{product.productName}</h3>
+                      <br />
+                      <p>{product.description}</p>
+                      <br />
                       <a
                         href={product.link}
                         target="_blank"
                         rel="noopener noreferrer"
-                      >Visit Website</a>
+                      >
+                        Visit Website
+                      </a>
                     </div>
                   </div>
                 </div>
