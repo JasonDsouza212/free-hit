@@ -22,25 +22,21 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "preinstall": "npx only-allow pnpm",
-    "precommit": "lint-staged"
+    "precommit": "lint-staged",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\""
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
-  "lint-staged": {
-    "*.js": [
-      "prettier --write",
-      "git add"
-    ]
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
+"husky": {
+  "hooks": {
+    "pre-commit": "lint-staged"
+  }
+},
+"lint-staged": {
+  "*.{js,jsx,ts,tsx,json,md}": [
+    "pnpm run format",
+    "git add"
+  ]
+},
+
   "browserslist": {
     "production": [
       ">0.2%",
