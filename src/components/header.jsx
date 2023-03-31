@@ -13,7 +13,7 @@ function header() {
             target="_blank"
             rel="noreferrer"
           >
-            <img className="header-img" src= {GITHUB}/>
+            <img className="header-img github" src= {GITHUB}/>
           </a>
         </li>
         <li>
@@ -23,7 +23,7 @@ function header() {
             rel="noreferrer"
             className="nav-link"
           >
-            <img className="header-img" src= {TWITTER}/>
+            <img className="header-img twitter" src= {TWITTER}/>
           </a>
         </li>
       </ul>
