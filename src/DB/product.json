@@ -154,13 +154,6 @@
     "description": "Automated tool for generating project README files."
   },
   {
-    "productName": "Wordtune",
-    "category": "tools",
-    "image": "https://uploads-ssl.webflow.com/5f7e0f9d75fee6f6f546df46/62c18c97efce291098cf0656_Favicon.png",
-    "link": "https://www.wordtune.com/",
-    "description": "AI-powered writing tool."
-  },
-  {
     "productName": "Code Pen",
     "category": "tools",
     "image": "https://bit.ly/2I9FxYw",
@@ -712,6 +705,13 @@
     "image": "https://bit.ly/3xg1goX",
     "link": "https://app.grammarly.com/",
     "description": "Writing assistance tool"
+  },
+  {
+    "productName": "Wordtune",
+    "category": "tools",
+    "image": "https://uploads-ssl.webflow.com/5f7e0f9d75fee6f6f546df46/62c18c97efce291098cf0656_Favicon.png",
+    "link": "https://chrome.google.com/webstore/detail/wordtune-ai-powered-writi/nllcnknpjnininklegdoijpljgdjkijc",
+    "description": "AI-powered writing tool."
   },
   {
     "productName": "AdBlock",
