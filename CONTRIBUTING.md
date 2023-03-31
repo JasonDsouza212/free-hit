@@ -39,7 +39,7 @@ git clone https://github.com/your-username/JasonDsouza212/free-hit.git
 cd free-hit
 ```
 
-4. Open CMD in your current directory and install npm packages using command.
+4. Open CMD in your current directory and install pnpm packages using command.
 
 ```markdown
 pnpm i
