@@ -1,16 +1,16 @@
-import React, { useState, useEffect } from "react";
-import products from "../DB/product.json";
+import React, { useState, useEffect } from 'react'
+import products from '../DB/product.json'
 
 function Card() {
-  const [category, setCategory] = useState("all");
+  const [category, setCategory] = useState('all')
 
   function filterProduct(value) {
-    setCategory(value);
+    setCategory(value)
   }
 
   useEffect(() => {
-    setCategory("all");
-  }, []);
+    setCategory('all')
+  }, [])
 
   return (
     <div className="App">
@@ -19,7 +19,7 @@ function Card() {
           <button
             rel="noopener noreferrer"
             className="background-button"
-            onClick={() => filterProduct("all")}
+            onClick={() => filterProduct('all')}
           >
             😉 All
           </button>
@@ -27,7 +27,7 @@ function Card() {
           <button
             rel="noopener noreferrer"
             className="background-button"
-            onClick={() => filterProduct("remote")}
+            onClick={() => filterProduct('remote')}
           >
             🤯 Remote Jobs
           </button>
@@ -35,7 +35,7 @@ function Card() {
           <button
             rel="noopener noreferrer"
             className="background-button"
-            onClick={() => filterProduct("resume")}
+            onClick={() => filterProduct('resume')}
           >
             😎 Resume Builder
           </button>
@@ -43,7 +43,7 @@ function Card() {
           <button
             rel="noopener noreferrer"
             className="background-button"
-            onClick={() => filterProduct("tweet")}
+            onClick={() => filterProduct('tweet')}
           >
             🤩 Tweet to Image
           </button>
@@ -51,7 +51,7 @@ function Card() {
           <button
             rel="noopener noreferrer"
             className="background-button"
-            onClick={() => filterProduct("code")}
+            onClick={() => filterProduct('code')}
           >
             🦾 Code to Image
           </button>
@@ -59,7 +59,7 @@ function Card() {
           <button
             rel="noopener noreferrer"
             className="background-button"
-            onClick={() => filterProduct("ethical")}
+            onClick={() => filterProduct('ethical')}
           >
             😍 Ethical Hacking
           </button>
@@ -67,7 +67,7 @@ function Card() {
           <button
             rel="noopener noreferrer"
             className="background-button"
-            onClick={() => filterProduct("movies")}
+            onClick={() => filterProduct('movies')}
           >
             🎥 Movies | Series
           </button>
@@ -75,7 +75,7 @@ function Card() {
           <button
             rel="noopener noreferrer"
             className="background-button"
-            onClick={() => filterProduct("extensions")}
+            onClick={() => filterProduct('extensions')}
           >
             🛠️ Useful Extensions
           </button>
@@ -83,7 +83,7 @@ function Card() {
           <button
             rel="noopener noreferrer"
             className="background-button"
-            onClick={() => filterProduct("tools")}
+            onClick={() => filterProduct('tools')}
           >
             🛠️ Useful Tools
           </button>
@@ -92,7 +92,7 @@ function Card() {
       <div className="card_wrapper">
         <div className="cols">
           {products.map((product, index) => {
-            return (category === "all" || category === product.category) ? (
+            return category === 'all' || category === product.category ? (
               <div className="col" key={index}>
                 <div className="container">
                   <div className="front">
@@ -109,23 +109,27 @@ function Card() {
                   </div>
                   <div className="back">
                     <div className="inner">
-                      <h3>{product.productName}</h3><br />
-                      <p>{product.description}</p><br />
+                      <h3>{product.productName}</h3>
+                      <br />
+                      <p>{product.description}</p>
+                      <br />
                       <a
                         href={product.link}
                         target="_blank"
                         rel="noopener noreferrer"
-                      >Visit Website</a>
+                      >
+                        Visit Website
+                      </a>
                     </div>
                   </div>
                 </div>
               </div>
-            ) : null;
+            ) : null
           })}
         </div>
       </div>
     </div>
-  );
+  )
 }
 
-export default Card;
+export default Card

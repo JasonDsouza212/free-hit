@@ -19,7 +19,7 @@ jobs:
         uses: actions/checkout@v3
       
       - name: Install and build
-        run: npm install && npm run build
+        run: pnpm install && pnpm run build
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
