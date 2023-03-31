@@ -22,15 +22,12 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "preinstall": "npx only-allow pnpm",
-    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
-    "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
-
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\""
   },
   "husky": {
     "hooks": {
-      "pre-commit": "pnpm run format",
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"  
-
+      "pre-commit": "pnpm run format"
+  
     }
   },
   "browserslist": {
