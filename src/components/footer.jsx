@@ -10,12 +10,12 @@ function footer() {
             className="footer-link"
             rel="noreferrer"
           >
-            {""} Jason Dsouza
+            {''} Jason Dsouza
           </a>
         </p>
       </div>
     </footer>
-  );
+  )
 }
 
-export default footer;
+export default footer
