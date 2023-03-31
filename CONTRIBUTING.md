@@ -42,12 +42,13 @@ cd free-hit
 4. Open CMD in your current directory and install npm packages using command.
 
 ```markdown
-npm ci
+pnpm i
 ```
-Or
-```markdown
-npm clean-install
-```
+ > Run it locally using 
+
+ ```
+ pnpm start
+ ```
 
 5. Add new tool :
 > Go to DB folder >  `product.js` & add your code 
