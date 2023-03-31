@@ -27,7 +27,6 @@
   "husky": {
     "hooks": {
       "pre-commit": "pnpm run format"
-  
     }
   },
   "browserslist": {
