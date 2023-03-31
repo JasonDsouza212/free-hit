@@ -25,18 +25,16 @@
     "precommit": "lint-staged",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\""
   },
-"husky": {
-  "hooks": {
-    "pre-commit": "lint-staged"
-  }
-},
-"lint-staged": {
-  "*.{js,jsx,ts,tsx,json,md}": [
-    "pnpm run format",
-    "git add"
-  ]
-},
-
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx,json,md}": [
+      "pnpm run format"
+    ]
+  },
   "browserslist": {
     "production": [
       ">0.2%",
