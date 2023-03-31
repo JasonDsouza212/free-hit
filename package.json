@@ -42,12 +42,8 @@
     ]
   },
   "devDependencies": {
-    "@commitlint/cli": "^17.5.1",
-    "@commitlint/config-conventional": "^17.4.4",
-    "commit": "^0.0.4",
     "gh-pages": "^5.0.0",
     "husky": "^8.0.3",
-    "lint-staged": "^13.2.0",
     "prettier": "^2.8.7"
   }
 }
