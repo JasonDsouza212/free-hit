@@ -1,16 +1,38 @@
-import React, { useState, useEffect } from "react";
-import products from "../DB/product.json";
+import React, { useState, useEffect } from 'react'
+import products from '../DB/product.json'
 
 function Card() {
-  const [category, setCategory] = useState("all");
+  const [category, setCategory] = useState('all')
 
   function filterProduct(value) {
     setCategory(value);
+    filteredButtonSelected(value);
   }
 
+
+  async function filteredButtonSelected(value) {
+    const button = document.querySelectorAll('.category-select');
+    // Remove the "background-button-selected" class everytime the button is clicked at start to clear old selection
+    button.forEach((i) => {
+        i.classList.remove('background-button-selected');
+    });
+    let cnt = -1;
+    // Add the "background-button-selected" class to individual the button when it is clicked
+    button.forEach((i) => {
+        let selected = '';
+        selected = i.getAttribute('productcategory');
+        cnt++;
+        if (value === selected) {
+            button[cnt].classList.add('background-button-selected');
+            return;
+        }
+    });
+  }
+
+
   useEffect(() => {
-    setCategory("all");
-  }, []);
+    setCategory('all')
+  }, [])
 
   return (
     <div className="App">
@@ -18,7 +40,8 @@ function Card() {
         <div className="filter-section">
           <button
             rel="noopener noreferrer"
-            className="background-button"
+            className="category-select background-button"
+            productcategory = "all"
             onClick={() => filterProduct("all")}
           >
             😉 All
@@ -26,7 +49,8 @@ function Card() {
 
           <button
             rel="noopener noreferrer"
-            className="background-button"
+            className="category-select background-button"
+            productcategory = "remote"
             onClick={() => filterProduct("remote")}
           >
             🤯 Remote Jobs
@@ -34,7 +58,8 @@ function Card() {
 
           <button
             rel="noopener noreferrer"
-            className="background-button"
+            className="category-select background-button"
+            productcategory = "resume"
             onClick={() => filterProduct("resume")}
           >
             😎 Resume Builder
@@ -42,7 +67,8 @@ function Card() {
 
           <button
             rel="noopener noreferrer"
-            className="background-button"
+            className="category-select background-button"
+            productcategory = "tweet"
             onClick={() => filterProduct("tweet")}
           >
             🤩 Tweet to Image
@@ -50,7 +76,8 @@ function Card() {
 
           <button
             rel="noopener noreferrer"
-            className="background-button"
+            className="category-select background-button"
+            productcategory = "code"
             onClick={() => filterProduct("code")}
           >
             🦾 Code to Image
@@ -58,7 +85,8 @@ function Card() {
 
           <button
             rel="noopener noreferrer"
-            className="background-button"
+            className="category-select background-button"
+            productcategory = "ethical"
             onClick={() => filterProduct("ethical")}
           >
             😍 Ethical Hacking
@@ -66,7 +94,8 @@ function Card() {
 
           <button
             rel="noopener noreferrer"
-            className="background-button"
+            className="category-select background-button"
+            productcategory = "movies"
             onClick={() => filterProduct("movies")}
           >
             🎥 Movies | Series
@@ -74,7 +103,8 @@ function Card() {
 
           <button
             rel="noopener noreferrer"
-            className="background-button"
+            className="category-select background-button"
+            productcategory = "extensions"
             onClick={() => filterProduct("extensions")}
           >
             🛠️ Useful Extensions
@@ -82,7 +112,8 @@ function Card() {
 
           <button
             rel="noopener noreferrer"
-            className="background-button"
+            className="category-select background-button"
+            productcategory = "tools"
             onClick={() => filterProduct("tools")}
           >
             🛠️ Useful Tools
@@ -92,7 +123,7 @@ function Card() {
       <div className="card_wrapper">
         <div className="cols">
           {products.map((product, index) => {
-            return (category === "all" || category === product.category) ? (
+            return category === 'all' || category === product.category ? (
               <div className="col" key={index}>
                 <div className="container">
                   <div className="front">
@@ -109,23 +140,27 @@ function Card() {
                   </div>
                   <div className="back">
                     <div className="inner">
-                      <h3>{product.productName}</h3><br />
-                      <p>{product.description}</p><br />
+                      <h3>{product.productName}</h3>
+                      <br />
+                      <p>{product.description}</p>
+                      <br />
                       <a
                         href={product.link}
                         target="_blank"
                         rel="noopener noreferrer"
-                      >Visit Website</a>
+                      >
+                        Visit Website
+                      </a>
                     </div>
                   </div>
                 </div>
               </div>
-            ) : null;
+            ) : null
           })}
         </div>
       </div>
     </div>
-  );
+  )
 }
 
-export default Card;
+export default Card

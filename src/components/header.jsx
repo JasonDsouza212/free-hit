@@ -28,7 +28,7 @@ function header() {
         </li>
       </ul>
     </header>
-  );
+  )
 }
 
-export default header;
+export default header

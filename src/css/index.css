@@ -56,6 +56,12 @@ a {
   width: 48px;
   margin : 0.5rem 0 0 0;
 }
+
+.background-button-selected {
+  background-color: #232427;
+  color: #fff;
+}
+
 .nav-link,
 p {
   color: #fff;
