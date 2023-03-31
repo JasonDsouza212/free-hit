@@ -17,7 +17,10 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-      
+
+      - name: Install pnpm
+        run: npm install -g pnpm
+
       - name: Install and build
         run: pnpm install && pnpm run build
 
@@ -25,5 +28,6 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: gh-pages
-          folder: build # The folder the action should deploy. 
+          folder: build # The folder the action should deploy.
+
        
