@@ -42,6 +42,12 @@ a {
   background-color: #232427;
   color: #fff;
 }
+
+.background-button-selected {
+  background-color: #232427;
+  color: #fff;
+}
+
 .nav-link,
 p {
   color: #fff;
