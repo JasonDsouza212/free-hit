@@ -154,27 +154,6 @@
     "description": "Automated tool for generating project README files."
   },
   {
-    "productName": "LeetHub",
-    "category": "tools",
-    "image": "https://bit.ly/3lv6L0h",
-    "link": "https://chrome.google.com/webstore/detail/leethub/aciombdipochlnkbpcbgdpjffcfdbggi?hl=en",
-    "description": "A browser extension for GitHub"
-  },
-  {
-    "productName": "AdBlock",
-    "category": "tools",
-    "image": "https://bit.ly/3K3rqmo",
-    "link": "https://chrome.google.com/webstore/detail/adblock-%E2%80%94-best-ad-blocker/gighmmpiobklfepjocnamgkkbiglidom",
-    "description": "A popular ad-blocking browser extension."
-  },
-  {
-    "productName": "Grammarly",
-    "category": "tools",
-    "image": "https://bit.ly/3xg1goX",
-    "link": "https://app.grammarly.com/",
-    "description": "Writing assistance tool"
-  },
-  {
     "productName": "Wordtune",
     "category": "tools",
     "image": "https://uploads-ssl.webflow.com/5f7e0f9d75fee6f6f546df46/62c18c97efce291098cf0656_Favicon.png",
@@ -719,6 +698,27 @@
     "image": "https://bit.ly/3LZR6RD",
     "link": "http://bit.ly/3LZFLBl",
     "description": "This plugin allows you to send cross-domain requests."
+  },
+  {
+    "productName": "LeetHub",
+    "category": "extensions",
+    "image": "https://bit.ly/3lv6L0h",
+    "link": "https://chrome.google.com/webstore/detail/leethub/aciombdipochlnkbpcbgdpjffcfdbggi?hl=en",
+    "description": "Integrate leetcode submission to GitHub"
+  },
+  {
+    "productName": "Grammarly",
+    "category": "extensions",
+    "image": "https://bit.ly/3xg1goX",
+    "link": "https://app.grammarly.com/",
+    "description": "Writing assistance tool"
+  },
+  {
+    "productName": "AdBlock",
+    "category": "extensions",
+    "image": "https://bit.ly/3K3rqmo",
+    "link": "https://chrome.google.com/webstore/detail/adblock-%E2%80%94-best-ad-blocker/gighmmpiobklfepjocnamgkkbiglidom",
+    "description": "A popular ad-blocking browser extension."
   },
   {
     "productName": "Wappalyzer",
