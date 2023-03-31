@@ -29,11 +29,11 @@ You can check out the live project [here](https://jasondsouza212.github.io/free-
 
 # 🪛 Want to contribute?
 
-**We welcome you to join us!**
-+ **Free-Hit** is an open-source project, and we are excited to hear your thoughts and ideas.
-+ Fork this repository,add your contributions and submit a PR.
-+ **Found a bug? Accessibility issue? Or do you want to add a new tool to our database?** Then go right ahead and create an issue.
+We welcome you to join us!
 
+- **Free-Hit** is an open-source project, and we are excited to hear your thoughts and ideas.
+- Fork this repository,add your contributions and submit a PR.
+- Found a bug? Accessibility issue? Or do you want to add a new tool to our database? Then go right ahead and create an issue.
 
 # 🛠️ Tech Stack
 
@@ -47,13 +47,11 @@ Before installation, you need to have installed/knowledge of the following:
 ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
 ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
 
-
-
 ## 🤝 Contributing
 Follow the link to contribute to Free-Hit - [CONTRIBUTING.md](./CONTRIBUTING.md)
 
-
 ## ✨ Contributors
+
 <a href="https://github.com/jasondsouza212/free-hit/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=jasondsouza212/free-hit" />
 </a>
