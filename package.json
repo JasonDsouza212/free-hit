@@ -7,7 +7,7 @@
   "scripts": {
     "predeploy": "pnpm run build",
     "deploy": "gh-pages -d build",
-    "dev": "vite",
+    "start": "vite",
     "build": "vite build",
     "preview": "vite preview",
     "preinstall": "npx only-allow pnpm",
