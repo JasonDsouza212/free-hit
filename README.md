@@ -1,7 +1,7 @@
 <div id="header" align="center">
     <h1>🔥 Free-Hit </h1>
     <h3><strong><em>Your search ends here 🔍</em></strong></h3>
-  <img src="https://i.ibb.co/kB8J5gy/Screenshot-2023-03-10-4-21-07-PM.png" alt="home page of the website"<br>
+  <img src="https://user-images.githubusercontent.com/74404894/229354288-7fcaf0db-920a-49cd-929c-e1f5580a10c9.png" alt="home page of the website"><br>
     <!-- to change tagline if necessary -->
     </div> <br>
 
@@ -39,7 +39,9 @@ We welcome you to join us!
 
 This project uses: <br><br>
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-
+![PNPM](https://img.shields.io/badge/pnpm-%2320232a.svg?style=for-the-badge&logo=pnpm&logoColor=%2361DAFB)
+![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
+![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
 ## Prerequisites
 
 Before installation, you need to have installed/knowledge of the following:
