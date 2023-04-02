@@ -1,7 +1,7 @@
 <div id="header" align="center">
     <h1>🔥 Free-Hit </h1>
     <h3><strong><em>Your search ends here 🔍</em></strong></h3>
-  <img src="https://i.ibb.co/kB8J5gy/Screenshot-2023-03-10-4-21-07-PM.png" alt="home page of the website"<br>
+  <img src="https://user-images.githubusercontent.com/88284372/229340283-b9f74f44-d41c-4690-a6c1-f93333b61e9e.png" alt="home page of the website"<br>
     <!-- to change tagline if necessary -->
     </div> <br>
 
