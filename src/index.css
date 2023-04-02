@@ -111,7 +111,7 @@ footer {
   z-index: 0;
   width: 100%;
   height: 100%;
-  content: "";
+  content: '';
   display: block;
   opacity: 1;
 }
@@ -175,12 +175,19 @@ footer {
 .nav-links li a:hover {
   color: #232427;
 }
-footer {
-  background: #0f0d0d;
-  height: 8rem;
-  padding: 1rem;
-  font-family: Arial, sans-serif;
-  font-size: 0.875rem;
+.footer {
+  background-color: black;
+  border-top: 0.5px solid #ddd;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-size: 20px;
+}
+
+.footer-link {
+  color: #0092cc;
 }
 .wrapper {
   display: flex;
