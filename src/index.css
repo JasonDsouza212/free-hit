@@ -177,12 +177,11 @@ footer {
 }
 .footer {
   background-color: black;
-  border-top: 0.5px solid #ddd;
   padding-top: 20px;
   padding-bottom: 20px;
   text-align: center;
-  padding-left: 40px;
-  padding-right: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
   font-size: 20px;
 }
 
