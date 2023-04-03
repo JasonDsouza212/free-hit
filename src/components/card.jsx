@@ -142,7 +142,7 @@ const Card = () => {
                                         <div className="inner">
                                             <h3>{product.productName}</h3>
                                             <br />
-                                            <p>{product.description}</p>
+                                            <p className='truncate'>{product.description}</p>
                                             <br />
                                             <a
                                                 href={product.link}
