@@ -7,6 +7,13 @@
     "description": "A tool that is used to create beautiful resumes"
   },
   {
+    "productName": "Wonsulting",
+    "category": "resume",
+    "image": "https://bit.ly/40BbkWu",
+    "link": "https://www.wonsulting.ai/",
+    "description": "A great website to generate resumes & cover letters"
+  },
+  {
     "productName": "Reactive Resume",
     "category": "resume",
     "image": "https://bit.ly/3YKPTRr",
