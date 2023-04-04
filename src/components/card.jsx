@@ -77,10 +77,10 @@ const Card = () => {
                     <button
                         rel="noopener noreferrer"
                         className="category-select background-button"
-                        productcategory="code"
-                        onClick={() => filterProduct("code")}
+                        productcategory="ai"
+                        onClick={() => filterProduct("ai")}
                     >
-                        🦾 Code to Image
+                        🦾 AI
                     </button>
 
                     <button

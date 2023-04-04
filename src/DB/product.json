@@ -8,7 +8,7 @@
   },
   {
     "productName": "Wonsulting",
-    "category": "resume",
+    "category": "ai",
     "image": "https://bit.ly/40BbkWu",
     "link": "https://www.wonsulting.ai/",
     "description": "A great website to generate resumes & cover letters"
@@ -127,28 +127,28 @@
   },
   {
     "productName": "Code Beautify",
-    "category": "code",
+    "category": "tools",
     "image": "https://bit.ly/3xhLeL2",
     "link": "https://codebeautify.org/code-to-",
     "description": "Online tool for formatting and beautifying code."
   },
   {
     "productName": "Carbon Now",
-    "category": "code",
+    "category": "tools",
     "image": "https://bit.ly/3YIet5A",
     "link": "https://carbon.now.sh/",
     "description": "Online tool for creating and sharing beautiful code snippets."
   },
   {
     "productName": "Ray.so",
-    "category": "code",
+    "category": "tools",
     "image": "https://bit.ly/40HNhpc",
     "link": "https://ray.so/",
     "description": "Online tool for creating and sharing beautiful and customizable code."
   },
   {
     "productName": "100L5",
-    "category": "code",
+    "category": "tools",
     "image": "https://bit.ly/40N3r0C",
     "link": "https://10015.io/tools/code-to-",
     "description": "Platform for generating interactive digital experiences using visual scripting."
@@ -785,16 +785,23 @@
   },
   {
     "productName": "GPT Zero",
-    "category": "tools",
+    "category": "ai",
     "image": "https://bit.ly/3FZ3cXw",
     "link": "https://gptzero.me/",
     "description": "An AI tool can be used to check for plagiarism and determine whether a sentence was written by a human or an AI program."
   },
   {
     "productName": "ChatGPT",
-    "category": "tools",
+    "category": "ai",
     "image": "https://bit.ly/40DElQS",
     "link": "https://chat.openai.com/",
     "description": "a language model AI program for generating human-like text responses"
+  },
+  {
+    "productName": "Blackbox",
+    "category": "ai",
+    "image": "https://rb.gy/s26e",
+    "link": "https://www.useblackbox.io/",
+    "description": "BLACKBOX is your AI-Powered Coding Assistant so you can {Code} 10X Faster and Better"
   }
 ]
