@@ -25,7 +25,7 @@
 
 # 🎥 Project Overview
 
-You can check out the live project [here](https://jasondsouza212.github.io/free-hit/)
+You can check out the live project [here](https://free-hit.vercel.app/)
 
 # 🪛 Want to contribute?
 

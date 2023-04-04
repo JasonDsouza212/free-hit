@@ -6,18 +6,21 @@ We welcome you to join us!
 - Fork this repository,add your contributions and submit a PR.
 - Found a bug? Accessibility issue? Or do you want to add a new tool to our database? Then go right ahead and create an issue.
 
-### Tech Stack
+# 🛠️ Tech Stack
 
-This project uses:
+This project uses: <br><br>
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![PNPM](https://img.shields.io/badge/pnpm-%2320232a.svg?style=for-the-badge&logo=pnpm&logoColor=%2361DAFB)
+![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
+![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
 
-- [React](https://reactjs.org/)
+## Prerequisites
 
-### Prerequisites
+Before installation, you need to have installed/knowledge of the following:
+<br><br>
+![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
 
-Before installation, you need to have the following:
-
-- [Node](https://nodejs.org) installed
-- Basic knowledge of [Git](https://git-scm.com/)
 
 ## STAR THE REPO
 
@@ -37,7 +40,7 @@ git clone https://github.com/your-username/JasonDsouza212/free-hit.git
 cd free-hit
 ```
 
-4. Open CMD in your current directory and install pnpm packages using command.
+4. Open CMD in your current directory and install pnpm packages using command.[If pnpm is not installed, you can install it by clicking on this link to [pnpm](https://pnpm.io/installation)]
 
 ```markdown
 pnpm i
@@ -50,20 +53,20 @@ pnpm start
 ```
 
 5. Add new tool :
-   > Go to DB folder > `product.js` & add your code
+   > Go to **src > DB > `product.json`** & add your code
 
 ```
 {
     productName: "< App_Name >",
-    category: "remote | resume | tweet | code | tools",
+    category: "remote | resume | tweet | ai | ethical | movies | extensions | tools",
     image: "< Image-Url >",
     link: "< Link_to_the_website >",
     description: "< Description of product >"
 },
 ```
 
-- To ensure that your URLs are short, it is recommended to use bitly.com for URL shortening.
-- Description should not exceed 10-12 words
+- To ensure that your URLs are short, it is recommended to use **[bitly](https://bitly.com/)** for URL shortening.
+- Description should not exceed **10-12 words**
 
 6. Make changes in the project. Add, Commit and push the project using following commands:
 
