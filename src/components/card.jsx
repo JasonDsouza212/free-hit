@@ -80,7 +80,7 @@ const Card = () => {
                         productcategory="ai"
                         onClick={() => filterProduct("ai")}
                     >
-                        🦾 AI
+                        🤖 AI
                     </button>
 
                     <button
