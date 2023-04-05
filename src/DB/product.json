@@ -226,7 +226,7 @@
   {
     "productName": "Figma.com",
     "category": "tools",
-    "image": "https://static.figma.com/app/icon/1/favicon.png",
+    "image": "https://bit.ly/3zBVwqF",
     "link": "https://www.figma.com/",
     "description": " Online design and prototyping tool."
   },
@@ -247,7 +247,7 @@
   {
     "productName": "jsonformatter",
     "category": "tools",
-    "image": "https://jsonformatter.org/img/favicon.png",
+    "image": "https://bit.ly/3zybQZn",
     "link": "https://jsonformatter.org/",
     "description": "Online JSON formatter and validator."
   },
@@ -296,7 +296,7 @@
   {
     "productName": "Hackerone",
     "category": "ethical",
-    "image": "https://bit.ly/3KEJMdE",
+    "image": "https://bit.ly/3m2i7tn",
     "link": "https://hackerone.com/",
     "description": "Platform for managing and incentivizing vulnerability disclosure programs."
   },
@@ -310,7 +310,7 @@
   {
     "productName": "Hacker101",
     "category": "ethical",
-    "image": "https://bit.ly/3IpQ5iu",
+    "image": "https://bit.ly/3UeTiXB",
     "link": "https://www.hacker101.com/",
     "description": "Free online training platform for web security and bug bounty hunting."
   },
@@ -324,28 +324,28 @@
   {
     "productName": "cve mitre",
     "category": "ethical",
-    "image": "https://bit.ly/3SwuV6V",
+    "image": "https://bit.ly/3KBvpGK",
     "link": "https://cve.mitre.org/",
     "description": "Cybersecurity vulnerability dictionary and resource hub."
   },
   {
     "productName": "Hackthebox",
     "category": "ethical",
-    "image": "https://bit.ly/3ZdEtGk",
+    "image": "https://bit.ly/439I9va",
     "link": "https://www.hackthebox.com/",
     "description": "Online platform for learning and practicing ethical hacking skills."
   },
   {
     "productName": "owasp",
     "category": "ethical",
-    "image": "https://bit.ly/3m4MVcC",
+    "image": "https://bit.ly/3nNdJ1O",
     "link": "https://owasp.org/",
     "description": "Community-driven organization focused on improving software security."
   },
   {
     "productName": "crackstation",
     "category": "ethical",
-    "image": "https://bit.ly/3ITIKZZ",
+    "image": "https://bit.ly/3ZDAgv3",
     "link": "https://crackstation.net/",
     "description": "Online password cracking and recovery service."
   },
@@ -366,7 +366,7 @@
   {
     "productName": "OSINT Framework",
     "category": "ethical",
-    "image": "",
+    "image": "https://bit.ly/3zwmZKr",
     "link": "https://osintframework.com/",
     "description": "Comprehensive resource hub for open-source intelligence"
   },
@@ -506,7 +506,7 @@
   {
     "productName": "veed",
     "category": "tools",
-    "image": "https://bit.ly/3ZDEfbJ",
+    "image": "https://bit.ly/3nOHL5n",
     "link": "https://www.veed.io/",
     "description": "Online video editing and creation platform."
   },
@@ -527,7 +527,7 @@
   {
     "productName": "wetransfer",
     "category": "tools",
-    "image": "https://bit.ly/3krko0a",
+    "image": "https://bit.ly/3MilDu4",
     "link": "https://wetransfer.com/",
     "description": "Online file transfer and sharing service."
   },
@@ -548,21 +548,21 @@
   {
     "productName": "imgbb",
     "category": "tools",
-    "image": "https://bit.ly/3KCM6BJ",
+    "image": "https://bit.ly/3UaIbyR",
     "link": "https://imgbb.com/",
     "description": "Free "
   },
   {
     "productName": "avatars dicebear",
     "category": "tools",
-    "image": "https://bit.ly/3Y01SKi",
+    "image": "https://bit.ly/42ZBkfI",
     "link": "https://avatars.dicebear.com/",
     "description": "Customizable and fun avatar generator for developers and designers."
   },
   {
     "productName": "pfpmaker",
     "category": "tools",
-    "image": "https://bit.ly/3ZmRM7m",
+    "image": "https://bit.ly/3K4xppa",
     "link": "https://pfpmaker.com/",
     "description": "Profile picture generator with customizable designs and templates."
   },
@@ -597,7 +597,7 @@
   {
     "productName": "CodeGreeper",
     "category": "tools",
-    "image": "https://www.grepper.com/",
+    "image": "https://bit.ly/3KzNjJJ",
     "link": "https://www.codegrepper.com",
     "description": "Chrome extension that generate code snippets on search ."
   },
@@ -765,8 +765,8 @@
   {
     "productName": "Download Hub",
     "category": "movies",
-    "image": "https://bit.ly/3laDFTY",
-    "link": "https://downloadhub.desi/",
+    "image": "https://bit.ly/3Kd6eIZ",
+    "link": "https://downloadhub.health/",
     "description": "Download HD quality movies and series"
   },
   {
@@ -803,5 +803,12 @@
     "image": "https://rb.gy/s26e",
     "link": "https://www.useblackbox.io/",
     "description": "BLACKBOX is your AI-Powered Coding Assistant so you can {Code} 10X Faster and Better"
+  },
+  {
+    "productName": "Big Ω",
+    "category": "extensions",
+    "image": "https://shutr.bz/3Kz9GiB",
+    "link": "https://bit.ly/435pBfH",
+    "description": "Enhance Leetcode experience with company tags like premium version"
   }
 ]

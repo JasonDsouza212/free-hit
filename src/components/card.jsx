@@ -107,7 +107,7 @@ const Card = () => {
                         productcategory="extensions"
                         onClick={() => filterProduct("extensions")}
                     >
-                        🛠️ Useful Extensions
+                        🔌 Useful Extensions
                     </button>
 
                     <button

@@ -3,7 +3,7 @@ import React from "react"
 const Header = () => {
     return (
         <header className="title-bar">
-            <h1>🔥 FREE-HIT</h1>
+            <h1>FREE-HIT</h1>
             <ul className="nav-links">
                 <li>
                     <a
@@ -12,17 +12,7 @@ const Header = () => {
                         target="_blank"
                         rel="noreferrer"
                     >
-                        😎 GitHub
-                    </a>
-                </li>
-                <li>
-                    <a
-                        href="https://twitter.com/_Jason_Dsouza"
-                        target="_blank"
-                        rel="noreferrer"
-                        className="nav-link"
-                    >
-                        🐦 Twitter
+                         About
                     </a>
                 </li>
             </ul>
