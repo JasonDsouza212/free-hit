@@ -1,0 +1,146 @@
+.filter-section {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  background-color: #232427;
+  margin-block: 3rem;
+}
+
+.background-button {
+  background-color: #fff;
+  color: #000;
+  width: 9.5rem;
+  height: 2rem;
+  border: 2px solid #fff;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.background-button:hover {
+  background-color: #232427;
+  color: #fff;
+}
+
+.background-button-selected {
+  background-color: #232427;
+  color: #fff;
+}
+
+.cols {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.col {
+  width: calc(20% - 2rem);
+  margin: 0.7rem;
+}
+
+.container {
+  transform-style: preserve-3d;
+  perspective: 1000px;
+}
+
+.container .front {
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
+    rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
+    rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.container:hover .back,
+.container:hover .front {
+  transition: transform 1.2s cubic-bezier(0.4, 0.2, 0.2, 1);
+}
+
+.container .back {
+  transform: rotateY(180deg);
+  transform-style: preserve-3d;
+}
+
+.container .front,
+.container:hover .back {
+  transform: rotateY(0);
+  transform-style: preserve-3d;
+}
+
+.container:hover .front {
+  transform: rotateY(-180deg);
+  transform-style: preserve-3d;
+}
+
+.back,
+.front:after {
+  top: 0;
+  background-color: #121212;
+  position: absolute;
+  left: 0;
+}
+
+.back,
+.front,
+.front:after {
+  backface-visibility: hidden;
+  border-radius: 10px;
+}
+
+.back,
+.front {
+  background-size: cover;
+  background-position: center;
+  transition: transform 1s cubic-bezier(0.4, 0.2, 0.2, 1);
+  min-height: 290px;
+  min-width: 190px;
+  height: auto;
+  color: #000;
+  font-size: 1rem;
+}
+
+.front:after {
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  content: '';
+  display: block;
+  opacity: 1;
+}
+
+.front .inner p {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+  color: #f4f7f1;
+  position: relative;
+}
+
+.inner a {
+  background-color: #fff;
+  padding: 0.5rem;
+  color: #b327ff;
+  font-weight: 700;
+  border-radius: 0.5rem;
+}
+
+.inner a:hover {
+  color: #000;
+  transition: 0.3s;
+}
+
+.inner {
+  transform: translateY(-50%) translateZ(60px) scale(0.94);
+  top: 50%;
+  position: absolute;
+  left: 0;
+  padding: 2rem;
+  outline: transparent solid 1px;
+  perspective: inherit;
+  z-index: 1;
+  color: #fff;
+}
+
+.card_image {
+  border-radius: 70%;
+  width: 70px;
+  height: 70px;
+}

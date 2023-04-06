@@ -1,0 +1,92 @@
+@import 'header.css';
+@import 'card.css';
+@import 'footer.css';
+
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;800&display=swap);
+
+*,
+.inner,
+a {
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+*,
+a {
+  margin: 0;
+  padding: 0;
+  font-family: Poppins, sans-serif;
+  list-style: none;
+}
+
+#root,
+html {
+  background-color: #232427;
+}
+
+h1 {
+  display: flex;
+  align-items: center;
+}
+
+h1 img {
+  margin-right: 0.5rem;
+}
+
+.back,
+.front,
+.front .inner p,
+footer {
+  text-align: center;
+}
+
+.fot-link,
+p {
+  color: #fff;
+}
+
+.back,
+.inner,
+footer {
+  width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .fot-links {
+    flex-direction: column;
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 68rem) {
+  .col {
+    width: calc(33.333333% - 4rem);
+  }
+  .back,
+  .front {
+    min-height: 340px;
+  }
+}
+
+@media screen and (max-width: 52rem) {
+  .col {
+    width: calc(45% - 2rem);
+  }
+  .back,
+  .front {
+    min-height: 340px;
+  }
+}
+
+@media screen and (max-width: 38rem) {
+  .col {
+    width: 60%;
+  }
+  .back,
+  .front {
+    min-height: 340px;
+  }
+  input[type="text"] {
+    margin-bottom: 15px;
+  }
+}

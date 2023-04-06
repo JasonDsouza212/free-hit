@@ -1,23 +1,25 @@
-import React from "react"
+import React from "react";
+import freehitlogo from '../images/freehitLogo.png';
 
-const Header = () => {
-    return (
-        <header className="title-bar">
-            <h1>FREE-HIT</h1>
-            <ul className="nav-links">
-                <li>
-                    <a
-                        className="nav-link"
-                        href="https://github.com/JasonDsouza212/free-hit"
-                        target="_blank"
-                        rel="noreferrer"
-                    >
-                         About
-                    </a>
-                </li>
-            </ul>
-        </header>
-    )
-}
+const Header = ({ searchTerm, setSearchTerm }) => {
+  return (
+    <header className="title-bar">
+      <h1>
+        <img className="logo" src={freehitlogo} alt="My Image" />
+        FREE-HIT
+      </h1>
+      <ul className="hnav-links">
+        <li>
+          <input
+            type="text"
+            placeholder="Search for a tool..."
+            value={searchTerm}
+            onChange={(e) => setSearchTerm(e.target.value)}
+          />
+        </li>
+      </ul>
+    </header>
+  );
+};
 
-export default Header
+export default Header;
