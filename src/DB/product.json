@@ -1,5 +1,12 @@
 [
   {
+    "productName": "Dev Resources",
+    "category": "tools",
+    "image": "https://bit.ly/3MxAlNU",
+    "link": "https://devresourc.es/",
+    "description": "A collaborative list of resources for developers"
+  },
+  {
     "productName": "Flow CV",
     "category": "resume",
     "image": "https://bit.ly/3YnFYBJ",
