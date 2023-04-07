@@ -37,11 +37,17 @@ function App() {
     setCategory('all');
   }, []);
 
-  const filteredProducts = products.filter((product) => {
-    if (!searchTerm) return true;
-    const regex = new RegExp(searchTerm, 'gi');
-    return product.productName.match(regex) || product.description.match(regex);
-  });
+  const filteredProducts = products
+    .filter((product) => {
+      if (!searchTerm) return true;
+      const regex = new RegExp(searchTerm, 'gi');
+      return product.productName.match(regex) || product.description.match(regex);
+    })
+    .sort((a, b) => {
+      const nameA = a.productName.toUpperCase();
+      const nameB = b.productName.toUpperCase();
+        return nameA < nameB ? -1 : 1;
+    });
 
   return (
     <>
