@@ -32,3 +32,22 @@ input[type="text"]:focus {
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
   transform: scale(1);
 }
+
+.sort-button {
+  background-color: #fff;
+  color: #5432c5;
+  border: none;
+  border-radius: 7px;
+  padding: 0.45rem;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-left: 10px;
+}
+
+.sort-button:hover {
+  background-color: #232427;
+  color: #fff;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+}

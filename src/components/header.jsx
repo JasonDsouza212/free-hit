@@ -1,7 +1,7 @@
 import React from "react";
 import freehitlogo from '../images/freehitLogo.png';
 
-const Header = ({ searchTerm, setSearchTerm }) => {
+const Header = ({ searchTerm, setSearchTerm, setSortOrder, sortOrder }) => {
   return (
     <header className="title-bar">
       <h1>
@@ -16,6 +16,9 @@ const Header = ({ searchTerm, setSearchTerm }) => {
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
           />
+                          <button className="sort-button" onClick={() => setSortOrder(sortOrder === 'asc' ? 'desc' : 'asc')}>
+          Sort {sortOrder === 'asc' ? 'A-Z ⬇️' : 'Z-A ⬆️'}
+      </button>
         </li>
       </ul>
     </header>

@@ -8,6 +8,7 @@ function App() {
 
   const [category, setCategory] = useState('all');
   const [searchTerm, setSearchTerm] = useState('');
+   const [sortOrder, setSortOrder] = useState('asc');
 
   function filterProduct(value) {
     setCategory(value);
@@ -46,7 +47,11 @@ function App() {
     .sort((a, b) => {
       const nameA = a.productName.toUpperCase();
       const nameB = b.productName.toUpperCase();
+      if (sortOrder === 'asc') {
         return nameA < nameB ? -1 : 1;
+      } else {
+        return nameA > nameB ? -1 : 1;
+      }
     });
 
   return (
@@ -54,6 +59,8 @@ function App() {
       <Header
         searchTerm={searchTerm}
         setSearchTerm={setSearchTerm}
+        setSortOrder={setSortOrder} 
+        sortOrder={sortOrder}
       />
       <Card
         filterProduct={filterProduct}
