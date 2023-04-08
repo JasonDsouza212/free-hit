@@ -1,4 +1,4 @@
-const Card = ({ filterProduct, filteredProducts, searchTerm ,setSearchTerm, category}) => {
+const Card = ({ filterProduct, filteredProducts, length, category}) => {
     return (
       <div className="App">
         <header>
@@ -86,6 +86,9 @@ const Card = ({ filterProduct, filteredProducts, searchTerm ,setSearchTerm, cate
           </div>
         </header>
         <div className="card_wrapper">
+        {length == 0 ? (
+          <p className="no-results">Sorry, no tools available for this search term.</p>
+        ) : (
           <div className="cols">
             {filteredProducts.map((product, index) => {
               return category === 'all' || category === product.category ? (
@@ -123,10 +126,10 @@ const Card = ({ filterProduct, filteredProducts, searchTerm ,setSearchTerm, cate
               ) : null;
             })}
           </div>
+        )}
         </div>
       </div>
     );
   };
-  
   export default Card;
   

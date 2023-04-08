@@ -55,13 +55,14 @@ function App() {
         searchTerm={searchTerm}
         setSearchTerm={setSearchTerm}
       />
-      <Card
-        filterProduct={filterProduct}
-        filteredProducts={filteredProducts}
-        searchTerm={searchTerm}
-        setSearchTerm={setSearchTerm}
-        category={category}
-      />
+        <Card
+          filterProduct={filterProduct}
+          filteredProducts={filteredProducts}
+          searchTerm={searchTerm}
+          setSearchTerm={setSearchTerm}
+          category={category}
+          length={filteredProducts.length}
+        />
       <Footer />
     </>
   );

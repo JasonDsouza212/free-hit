@@ -144,3 +144,24 @@
   width: 70px;
   height: 70px;
 }
+
+.no-results {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  color: #fffcfc;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+@media screen and (min-width: 768px) {
+  .no-results {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .no-results {
+    font-size: 2.5rem;
+  }
+}
