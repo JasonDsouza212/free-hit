@@ -7,6 +7,13 @@
     "description": "A collaborative list of resources for developers"
   },
   {
+    "productName": "Font Awesome",
+    "category": "tools",
+    "image": "https://bit.ly/3UoicnQ",
+    "link": "https://fontawesome.com/",
+    "description": "Internet's icon library and toolkit, used by millions of designers, developers, and content creators"
+  },
+  {
     "productName": "Flow CV",
     "category": "resume",
     "image": "https://bit.ly/3YnFYBJ",
