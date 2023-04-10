@@ -9,7 +9,7 @@ const Footer = () => {
         <p>
           Crafted with ❤️ by
           <a
-            href="https://github.com/JasonDsouza212"
+            href="https://github.com/JasonDsouza212/free-hit"
             target="_blank"
             className="footer-link"
             rel="noreferrer"
