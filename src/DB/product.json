@@ -122,14 +122,14 @@
     "productName": "Pika Style",
     "category": "tweet",
     "image": "https://bit.ly/3jQ6g0b",
-    "link": "https://pika.style/templates/tweet-",
+    "link": "https://pika.style/templates/tweet-image",
     "description": "Turn your tweets into cool images."
   },
   {
     "productName": "Code Beautify",
     "category": "tools",
     "image": "https://bit.ly/3xhLeL2",
-    "link": "https://codebeautify.org/code-to-",
+    "link": "https://codebeautify.org/",
     "description": "Online tool for formatting and beautifying code."
   },
   {
@@ -150,7 +150,7 @@
     "productName": "100L5",
     "category": "tools",
     "image": "https://bit.ly/40N3r0C",
-    "link": "https://10015.io/tools/code-to-",
+    "link": "https://10015.io/",
     "description": "Platform for generating interactive digital experiences using visual scripting."
   },
   {
@@ -734,13 +734,7 @@
     "link": "http://bit.ly/3G0OoYB",
     "description": "Identify Tech Stack or Web technologies used in any website."
   },
-  {
-    "productName": "Pogo",
-    "category": "movies",
-    "image": "https://t.ly/8g29",
-    "link": "https://pogo",
-    "description": "Website to download latest movies and webseries"
-  },
+
   {
     "productName": "Zoro.to",
     "category": "movies",
@@ -748,13 +742,7 @@
     "link": "https://zoro.to/",
     "description": "Website to stream your favorite anime for free"
   },
-  {
-    "productName": "Soap2Day",
-    "category": "movies",
-    "image": "https://bit.ly/429nzdU",
-    "link": "https://soap2day.to/",
-    "description": "Stream movies freely"
-  },
+
   {
     "productName": "Moviesmod",
     "category": "movies",
