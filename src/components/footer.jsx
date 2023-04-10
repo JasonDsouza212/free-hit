@@ -1,4 +1,6 @@
 import React from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGithub, faTwitter } from '@fortawesome/free-brands-svg-icons'
 
 const Footer = () => {
   return (
@@ -25,22 +27,23 @@ const Footer = () => {
             rel="noreferrer"
             className="fot-link"
           >
-            🐈‍⬛ GitHub
+            <FontAwesomeIcon icon={faGithub} style={{ color: '#fff' }} /> GitHub
           </a>
         </li>
         <li>
           <a
-            href="https://github.com/JasonDsouza212/free-hit"
+            href="https://twitter.com/JasonDsouza212"
             target="_blank"
             rel="noreferrer"
             className="fot-link"
           >
-            🐦 Twitter
+            <FontAwesomeIcon icon={faTwitter} style={{ color: '#fff' }} />{' '}
+            Twitter
           </a>
         </li>
       </ul>
     </div>
-  );
-};
+  )
+}
 
 export default Footer
