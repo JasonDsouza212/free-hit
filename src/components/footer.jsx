@@ -27,7 +27,7 @@ const Footer = () => {
             rel="noreferrer"
             className="fot-link"
           >
-            <FontAwesomeIcon icon={faGithub} style={{ color: '#fff' }} /> 
+            <FontAwesomeIcon className='footer-icons' icon={faGithub} style={{ color: '#fff' }} /> 
             GitHub
           </a>
         </li>
@@ -38,7 +38,7 @@ const Footer = () => {
             rel="noreferrer"
             className="fot-link"
           >
-            <FontAwesomeIcon icon={faTwitter} style={{ color: '#fff' }} />{' '}
+            <FontAwesomeIcon className='footer-icons' icon={faTwitter} style={{ color: '#fff' }} />
             Twitter
           </a>
         </li>
