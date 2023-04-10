@@ -32,7 +32,7 @@ const Footer = () => {
         </li>
         <li>
           <a
-            href="https://twitter.com/JasonDsouza212"
+            href="https://twitter.com/_Jason_Dsouza"
             target="_blank"
             rel="noreferrer"
             className="fot-link"
