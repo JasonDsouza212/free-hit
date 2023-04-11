@@ -742,6 +742,48 @@
     "description": "A popular ad-blocking browser extension."
   },
   {
+    "productName": "Text Blaze",
+    "category": "extensions",
+    "image": "https://lh3.googleusercontent.com/iCQO7yxKPsoAiDzaX00nWICmeba4Fj4t7ZCDzgHuWy_qU97aGTzxlju1WjdudTkQRM4Iz7ofusYXeuqesfpgZiHoeA=w128-h128-e365-rj-sc0x00ffffff",
+    "link": "https://chrome.google.com/webstore/detail/text-blaze/idgadaccgipmpannjkmfddolnnhmeklj",
+    "description": "Create Text shortcuts and templates."
+  },
+  {
+    "productName": "What Font",
+    "category": "extensions",
+    "image": "https://lh3.googleusercontent.com/qrvzzCG9OBYxVI4IHz7SVIPx9NgDtr4YMCzvg_dsFAbPo6b1o1NGWy5OHQCB27MQ8lyv9P8qhloNdxtpyYwpgsC8Qw=w128-h128-e365-rj-sc0x00ffffff",
+    "link": "https://chrome.google.com/webstore/detail/what-font-find-font/acpcapnaopbhbelhmbbmppghilclpkep/related",
+    "description": "Find what fonts used on a website."
+  },
+  {
+    "productName": "Black Box",
+    "category": "extensions",
+    "image": "https://lh3.googleusercontent.com/q5uwqkllozidCFMBRQX2-wq8n6OjVM_ZKojN_pHWiwL8N84tx7AZwdBwO4GgFjs9K4qXGJUKBVd8RS9l8aDeowXb4A=w128-h128-e365-rj-sc0x00ffffff",
+    "link": "https://chrome.google.com/webstore/detail/blackbox-code-search-auto/mcgbeeipkmelnpldkobichboakdfaeon",
+    "description": "Fastest Way to Copy Text from Videos & Images."
+  },
+  {
+    "productName": "Keepa",
+    "category": "extensions",
+    "image": "https://lh3.googleusercontent.com/zUc7eHFi6dIRS4Mednn9Q1aOZEP9lhjxXiMkAddWOc7pSEH5Xw4lbGpXdyCrZvfuL1IpN0FwFHwl5wX4WJtCbJXIbw=w128-h128-e365-rj-sc0x00ffffff",
+    "link": "https://chrome.google.com/webstore/detail/keepa-amazon-price-tracke/neebplgakaahbhdphmkckjjcegoiijjo",
+    "description": "Amazon Price tracker, get alerts for low price."
+  },
+  {
+    "productName": "Screenity",
+    "category": "extensions",
+    "image": "https://lh3.googleusercontent.com/xmxP2xn5EzAfFMw7oLzFwuqcrxZ5nwix6eqD8N_TLg3PeDtKfPLdDOavKRqizfs7ip6hAzsYCEEuUo6F9MMevQo=w128-h128-e365-rj-sc0x00ffffff",
+    "link": "https://chrome.google.com/webstore/detail/screenity-screen-recorder/kbbdabhdfibnancpjfhlkhafgdilcnji",
+    "description": "Screen Recorder & Annotation Tool."
+  },
+  {
+    "productName": "Link to Text",
+    "category": "extensions",
+    "image": "https://lh3.googleusercontent.com/gzBfjC7ELxkc9qQzzQ-182huodAGmrt2DtFsusok6BkoCuCbKM2nz_5duNUzSPBwxABDHY8KhiBlcoENKrcPOm9FWg=w128-h128-e365-rj-sc0x00ffffff",
+    "link": "https://chrome.google.com/webstore/detail/link-to-text-fragment/pbcodcjpfjdpcineamnnmbkkmkdpajjg",
+    "description": "Link and share a particular text fragment on a website."
+  },
+  {
     "productName": "Wappalyzer",
     "category": "extensions",
     "image": "https://bit.ly/3G1QPtL",
