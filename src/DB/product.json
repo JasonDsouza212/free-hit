@@ -630,6 +630,13 @@
     "description": "Every tool you need to use PDFs, at your fingertips."
   },
   {
+    "productName": "PDF Drive",
+    "category": "tools",
+    "image": "https://bit.ly/40Xhh00",
+    "link": "https://www.pdfdrive.com/",
+    "description": "PDF Drive is a search engine for downloading PDF files and books."
+  },
+  {
     "productName": "ColorPick Eyedropper",
     "category": "extensions",
     "image": "https://bit.ly/3lNJ3N9",
