@@ -880,5 +880,12 @@
     "image": "https://shutr.bz/3Kz9GiB",
     "link": "https://bit.ly/435pBfH",
     "description": "Enhance Leetcode experience with company tags like premium version"
+  },
+   {
+    "productName": "Scribe",
+    "category": "ai",
+    "image": "https://assets-global.website-files.com/615f415173b71a5211e28de7/616cf0290dd54fb6f054435b_WFFavicon.png",
+    "link": "https://scribehow.com/",
+    "description": "Automatically creates a how-to guide, complete with screenshots, instructions and clicks."
   }
 ]
