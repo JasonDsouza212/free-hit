@@ -881,11 +881,30 @@
     "link": "https://bit.ly/435pBfH",
     "description": "Enhance Leetcode experience with company tags like premium version"
   },
+
   {
     "productName": "Krisp Ai",
     "category": "ai",
     "image": "https://krisp.ai/wp-content/uploads/2023/03/cropped-favicon-32x32.png",
     "link": "https://krisp.ai",
     "description": "Krisp improves the productivity of online meetings with its AI-powered Voice Clarity and Meeting Assistant."
+},
+
+  {
+    "productName": "Beatoven",
+    "category": "ai",
+    "image": "https://www.beatoven.ai/favicon1.ico",
+    "link": "https://www.beatoven.ai",
+    "description": "Create customisable royalty free music that elevates your story"
+    },
+
+   {
+    "productName": "Scribe",
+    "category": "ai",
+    "image": "https://assets-global.website-files.com/615f415173b71a5211e28de7/616cf0290dd54fb6f054435b_WFFavicon.png",
+    "link": "https://scribehow.com/",
+    "description": "Automatically creates a how-to guide, complete with screenshots, instructions and clicks."
+
+
   }
 ]
