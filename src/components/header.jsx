@@ -1,5 +1,5 @@
-import React from "react";
-import freehitlogo from '../images/freehitLogo.png';
+import React from 'react'
+import freehitlogo from '../images/freehitLogo.png'
 
 const Header = ({ searchTerm, setSearchTerm }) => {
   return (
@@ -12,14 +12,14 @@ const Header = ({ searchTerm, setSearchTerm }) => {
         <li>
           <input
             type="text"
-            placeholder="Search for a tool..."
+            placeholder=" Search for a tool or category..."
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
           />
         </li>
       </ul>
     </header>
-  );
-};
+  )
+}
 
-export default Header;
+export default Header
