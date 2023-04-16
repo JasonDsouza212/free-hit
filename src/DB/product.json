@@ -888,7 +888,7 @@
     "image": "https://krisp.ai/wp-content/uploads/2023/03/cropped-favicon-32x32.png",
     "link": "https://krisp.ai",
     "description": "Krisp improves the productivity of online meetings with its AI-powered Voice Clarity and Meeting Assistant."
-},
+  },
 
   {
     "productName": "Beatoven",
@@ -896,15 +896,37 @@
     "image": "https://www.beatoven.ai/favicon1.ico",
     "link": "https://www.beatoven.ai",
     "description": "Create customisable royalty free music that elevates your story"
-    },
+  },
 
-   {
+  {
     "productName": "Scribe",
     "category": "ai",
     "image": "https://assets-global.website-files.com/615f415173b71a5211e28de7/616cf0290dd54fb6f054435b_WFFavicon.png",
     "link": "https://scribehow.com/",
     "description": "Automatically creates a how-to guide, complete with screenshots, instructions and clicks."
+  },
 
+  {
+    "productName": "Ask Your PDF",
+    "category": "ai",
+    "image": "https://bit.ly/3GOyO2y",
+    "link": "https://askyourpdf.com/",
+    "description": "Discover a new level of PDF interaction with our gateway for dynamic and intelligent conversations."
+  },
 
+  {
+    "productName": "Tome",
+    "category": "ai",
+    "image": "https://bit.ly/3UGT63J",
+    "link": "https://beta.tome.app/",
+    "description": "Tome helps people tell great stories."
+  },
+
+  {
+    "productName": "CharGPT-sidebar",
+    "category": "extensions",
+    "image": "https://bit.ly/41aJCAb",
+    "link": "https://chrome.google.com/webstore/detail/chatgpt-sidebar-support-g/difoiogjjojoaoomphldepapgpbgkhkb",
+    "description": "Select any text,  explain it, translate it, summarize it or rewrite it, do anything with the ChatGPT Sidebar!"
   }
 ]
