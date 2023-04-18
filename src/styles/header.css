@@ -17,18 +17,18 @@
   margin: 0 10px;
 }
 
-input[type="text"] {
+input[type='text'] {
   padding: 0.45rem;
   border-radius: 7px;
   border: none;
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
   font-size: 1rem;
   outline: none;
-  width: 270px;
+  width: 280px;
   transition: all 0.3s ease;
 }
 
-input[type="text"]:focus {
+input[type='text']:focus {
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
   transform: scale(1);
 }
