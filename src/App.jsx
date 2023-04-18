@@ -3,6 +3,7 @@ import Header from './components/header'
 import Card from './components/card'
 import Footer from './components/footer'
 import products from './DB/product.json'
+import BackToTopButton from './components/BackToTop'
 
 function App() {
   const [category, setCategory] = useState('all')
@@ -64,6 +65,7 @@ function App() {
         length={filteredProducts.length}
       />
       <Footer />
+      <BackToTopButton />
     </>
   )
 }
