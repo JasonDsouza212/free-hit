@@ -1,5 +1,5 @@
 import Button from "./Button";
-import { All, ResumeBuilder, Hacker, AI, TweettoImage, Movies, Extensions, Tools, Jobs } from "./Icons";
+import { All, ResumeBuilder, Hacker, AI, Movies, Extensions, Tools, Jobs } from "./Icons";
 
 
 const ButtonLinks = [
@@ -23,36 +23,30 @@ const ButtonLinks = [
   },
   {
     id: 4,
-    name: 'Tweet to Image',
-    category: 'tweet',
-    icon: <TweettoImage />
-  },
-  {
-    id: 5,
     name: 'AI',
     category: 'ai',
     icon: <AI />
   },
   {
-    id: 6,
+    id: 5,
     name: 'Ethical Hacking',
     category: 'ethical',
     icon: <Hacker />
   },
   {
-    id: 7,
+    id: 6,
     name: 'Movies | Series',
     category: 'movies',
     icon: <Movies />
   },
   {
-    id: 8,
+    id: 7,
     name: 'Useful Extensions',
     category: 'extensions',
     icon: <Extensions />
   },
   {
-    id: 9,
+    id: 8,
     name: 'Useful Tools',
     category: 'tools',
     icon: <Tools />
