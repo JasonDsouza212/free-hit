@@ -1,6 +1,20 @@
-import React from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGithub, faTwitter } from '@fortawesome/free-brands-svg-icons'
+import { GitHub, Twitter } from './Icons'
+
+
+const footerLinks = [
+  {
+    id: 1,
+    link: "",
+    name: "GitHub",
+    icon: <GitHub />,
+  },
+  {
+    id: 2,
+    link: "",
+    name: "Twitter",
+    icon: <Twitter />,
+  },
+]
 
 const Footer = () => {
   return (
@@ -20,28 +34,19 @@ const Footer = () => {
         </p>
       </div>
       <ul className="fot-links">
-        <li>
-          <a
-            href="https://github.com/JasonDsouza212"
-            target="_blank"
-            rel="noreferrer"
-            className="fot-link"
-          >
-            <FontAwesomeIcon className='footer-icons' icon={faGithub} style={{ color: '#fff' }} /> 
-            GitHub
-          </a>
-        </li>
-        <li>
-          <a
-            href="https://twitter.com/_Jason_Dsouza"
-            target="_blank"
-            rel="noreferrer"
-            className="fot-link"
-          >
-            <FontAwesomeIcon className='footer-icons' icon={faTwitter} style={{ color: '#fff' }} />
-            Twitter
-          </a>
-        </li>
+        {footerLinks.map(({ id, link, name, icon }) => (
+          <li key={id}>
+            <a
+              href={link}
+              target="_blank"
+              rel="noreferrer"
+              className="fot-link"
+            >
+              {icon}
+              {name}
+            </a>
+          </li>
+        ))}
       </ul>
     </div>
   )

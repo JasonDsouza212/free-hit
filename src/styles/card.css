@@ -15,6 +15,10 @@
   border: 2px solid #fff;
   border-radius: 8px;
   cursor: pointer;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  gap: .5rem;
 }
 
 .background-button:hover {
@@ -25,6 +29,9 @@
 .background-button-selected {
   background-color: #232427;
   color: #fff;
+}
+.background-button-selected .icons, .background-button:hover .icons{
+  fill:white
 }
 
 .cols {

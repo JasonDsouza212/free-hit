@@ -12,6 +12,12 @@
   color: #0092cc;
 }
 
+.fot-links li a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.4rem;
+}
 .fot-links li a:hover {
   color: #0092cc;
 }
@@ -33,7 +39,7 @@
   font-size: 16px;
 }
 
-.footer-icons{
+.footer-icons {
   margin-right: 0.3rem;
   height: 18px;
   width: 20px;

@@ -1,91 +1,75 @@
-const Card = ({ filterProduct, filteredProducts, length, category}) => {
-    return (
-      <div className="App">
-        <header>
-          <div className="filter-section">
-            <button
-              rel="noopener noreferrer"
-              className="category-select background-button"
-              productcategory="all"
-              onClick={() => filterProduct("all")}
-            >
-              😉 All
-            </button>
-  
-            <button
-              rel="noopener noreferrer"
-              className="category-select background-button"
-              productcategory="remote"
-              onClick={() => filterProduct("remote")}
-            >
-              🤯 Remote Jobs
-            </button>
-  
-            <button
-              rel="noopener noreferrer"
-              className="category-select background-button"
-              productcategory="resume"
-              onClick={() => filterProduct("resume")}
-            >
-              😎 Resume Builder
-            </button>
-  
-            <button
-              rel="noopener noreferrer"
-              className="category-select background-button"
-              productcategory="tweet"
-              onClick={() => filterProduct("tweet")}
-            >
-              🤩 Tweet to Image
-            </button>
-  
-            <button
-              rel="noopener noreferrer"
-              className="category-select background-button"
-              productcategory="ai"
-              onClick={() => filterProduct("ai")}
-            >
-              🤖 AI
-            </button>
-  
-            <button
-              rel="noopener noreferrer"
-              className="category-select background-button"
-              productcategory="ethical"
-              onClick={() => filterProduct("ethical")}
-            >
-              😍 Ethical Hacking
-            </button>
-  
-            <button
-              rel="noopener noreferrer"
-              className="category-select background-button"
-              productcategory="movies"
-              onClick={() => filterProduct("movies")}
-            >
-              🎥 Movies | Series
-            </button>
-  
-            <button
-              rel="noopener noreferrer"
-              className="category-select background-button"
-              productcategory="extensions"
-              onClick={() => filterProduct("extensions")}
-            >
-              🔌 Useful Extensions
-            </button>
-  
-            <button
-              rel="noopener noreferrer"
-              className="category-select background-button"
-              productcategory="tools"
-              onClick={() => filterProduct("tools")}
-            >
-              🛠️ Useful Tools
-            </button>
-          </div>
-        </header>
-        <div className="card_wrapper">
+import Button from "./Button";
+import { All, ResumeBuilder, Hacker, AI, TweettoImage, Movies, Extensions, Tools, Jobs } from "./Icons";
+
+
+const ButtonLinks = [
+  {
+    id: 1,
+    name: 'All',
+    category: 'all',
+    icon: <All />
+  },
+  {
+    id: 2,
+    name: 'Remote Jobs',
+    category: 'remote',
+    icon: <Jobs />
+  },
+  {
+    id: 3,
+    name: 'Resume Builder',
+    category: 'resume',
+    icon: <ResumeBuilder />
+  },
+  {
+    id: 4,
+    name: 'Tweet to Image',
+    category: 'tweet',
+    icon: <TweettoImage />
+  },
+  {
+    id: 5,
+    name: 'AI',
+    category: 'ai',
+    icon: <AI />
+  },
+  {
+    id: 6,
+    name: 'Ethical Hacking',
+    category: 'ethical',
+    icon: <Hacker />
+  },
+  {
+    id: 7,
+    name: 'Movies | Series',
+    category: 'movies',
+    icon: <Movies />
+  },
+  {
+    id: 8,
+    name: 'Useful Extensions',
+    category: 'extensions',
+    icon: <Extensions />
+  },
+  {
+    id: 9,
+    name: 'Useful Tools',
+    category: 'tools',
+    icon: <Tools />
+  },
+]
+
+const Card = ({ filterProduct, filteredProducts, length, category }) => {
+  return (
+    <div className="App">
+      <header>
+        <div className="filter-section">
+          {ButtonLinks.map(buttonLink =>
+            <Button key={buttonLink.id} button={buttonLink} filterProduct={filterProduct} />
+          )}
+        </div>
+      </header>
+      <div className="card_wrapper">
         {length == 0 ? (
           <p className="no-results">Sorry, no tools available for this search term.</p>
         ) : (
@@ -127,9 +111,8 @@ const Card = ({ filterProduct, filteredProducts, length, category}) => {
             })}
           </div>
         )}
-        </div>
       </div>
-    );
-  };
-  export default Card;
-  
+    </div>
+  );
+};
+export default Card;
