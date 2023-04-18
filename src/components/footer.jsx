@@ -1,5 +1,21 @@
 import { GitHub, Twitter } from './Icons'
 
+
+const footerLinks = [
+  {
+    id: 1,
+    link: "",
+    name: "GitHub",
+    icon: <GitHub />,
+  },
+  {
+    id: 2,
+    link: "",
+    name: "Twitter",
+    icon: <Twitter />,
+  },
+]
+
 const Footer = () => {
   return (
     <div className="footer">
@@ -18,7 +34,7 @@ const Footer = () => {
         </p>
       </div>
       <ul className="fot-links">
-        {FooterLinks.map(({ id, link, name, icon }) => (
+        {footerLinks.map(({ id, link, name, icon }) => (
           <li key={id}>
             <a
               href={link}
@@ -37,19 +53,3 @@ const Footer = () => {
 }
 
 export default Footer
-
-
-const FooterLinks = [
-  {
-    id: 1,
-    link: "",
-    name: "GitHub",
-    icon: <GitHub />,
-  },
-  {
-    id: 2,
-    link: "",
-    name: "Twitter",
-    icon: <Twitter />,
-  },
-]
