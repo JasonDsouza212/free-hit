@@ -1,0 +1,30 @@
+.transition-before {
+  transform: translateY(-100vh);
+  transition: all;
+  transition-delay: 100ms;
+  transition-duration: 500ms;
+}
+
+.transition-after{
+  transform: translateY(0);
+}
+
+.backButton {
+  position: fixed;
+  z-index: 50;
+  bottom: 0.5rem;
+  right: 0.5rem;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 9999px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  color: white;
+  background-color: #5432c5;
+}
+
+.backButton-initial:hover {
+  transform: scale(1.08);
+}
