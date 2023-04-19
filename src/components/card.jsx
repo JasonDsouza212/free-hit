@@ -55,7 +55,7 @@ const ButtonLinks = [
 
 const Card = ({ filterProduct, filteredProducts, length, category }) => {
   return (
-    <div name="App" className="App">
+    <div className="App">
       <header>
         <div className="filter-section">
           {ButtonLinks.map(buttonLink =>
