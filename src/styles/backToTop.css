@@ -1,19 +1,19 @@
 .transition-before {
   transform: translateY(-100vh);
-  transition: all;
-  transition-delay: 100ms;
-  transition-duration: 500ms;
 }
 
-.transition-after{
+.transition-after {
   transform: translateY(0);
 }
 
-.backButton {
+.backToTopButton {
   position: fixed;
   z-index: 50;
-  bottom: 0.5rem;
-  right: 0.5rem;
+  bottom: 1rem;
+  right: 1rem;
+  transition: all;
+  transition-delay: 100ms;
+  transition-duration: 500ms;
   width: 2rem;
   height: 2rem;
   border-radius: 9999px;
@@ -25,6 +25,6 @@
   background-color: #5432c5;
 }
 
-.backButton-initial:hover {
-  transform: scale(1.08);
+.transition-after:hover {
+  transform: scale(1.1);
 }
