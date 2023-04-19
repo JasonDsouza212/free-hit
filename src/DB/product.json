@@ -36,7 +36,7 @@
   },
   {
     "productName": "Poet.so",
-    "category": "tweet",
+    "category": "tools",
     "image": "https://bit.ly/3IiqJUM",
     "link": "https://poet.so/",
     "description": "Capture and share Twitter posts as beautiful images."
@@ -134,7 +134,7 @@
   },
   {
     "productName": "Pika Style",
-    "category": "tweet",
+    "category": "tools",
     "image": "https://bit.ly/3jQ6g0b",
     "link": "https://pika.style/templates/tweet-image",
     "description": "Turn your tweets into cool images."
