@@ -14,8 +14,8 @@
   transition: all;
   transition-delay: 100ms;
   transition-duration: 500ms;
-  width: 2rem;
-  height: 2rem;
+  width: 2.5rem;
+  height: 2.5rem;
   border-radius: 9999px;
   display: flex;
   justify-content: center;
@@ -27,4 +27,11 @@
 
 .transition-after:hover {
   transform: scale(1.1);
+}
+
+@media (min-width: 768px) {
+  .backToTopButton {
+    width: 3rem;
+    height: 3rem;
+  }
 }
