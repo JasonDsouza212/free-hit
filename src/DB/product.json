@@ -923,10 +923,35 @@
   },
 
   {
-    "productName": "CharGPT-sidebar",
+    "productName": "ChatGPT-sidebar",
     "category": "extensions",
     "image": "https://bit.ly/41aJCAb",
     "link": "https://chrome.google.com/webstore/detail/chatgpt-sidebar-support-g/difoiogjjojoaoomphldepapgpbgkhkb",
     "description": "Select any text,  explain it, translate it, summarize it or rewrite it, do anything with the ChatGPT Sidebar!"
+  },
+
+  {
+    "productName": "Super Normal",
+    "category": "ai",
+    "image": "https://bit.ly/43HiSJ7",
+    "link": "https://supernormal.com/",
+    "description":"Supernormal helps you create amazing meeting notes without lifting a finger"
+  },
+
+  {
+  "productName": "Magical",
+  "category": "ai",
+  "image": "https://bit.ly/43JO3na",
+  "link": "https://magical.so/",
+  "description": "Magical Manage meetings, scheduling, and notes directly from browser tabs"
+  },
+
+  {
+  "productName": "Removal",
+  "category": "ai",
+  "image": "https://bit.ly/3LdhLK2",
+  "link": "https://removal.ai/",
+  "description": "Remove Background From Image for Free Using Artificial Intelligence"
   }
+
 ]
