@@ -3,7 +3,7 @@ import freehitlogo from '../images/freehitLogo.png'
 
 const Header = ({ searchTerm, setSearchTerm }) => {
   return (
-    <header className="title-bar">
+    <header className="title-bar" name="Top">
       <h1>
         <img className="logo" src={freehitlogo} alt="My Image" />
         FREE-HIT
