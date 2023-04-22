@@ -976,6 +976,15 @@
     "image": "https://bit.ly/3USMSOn",
     "link": "https://bit.ly/3KTEuJP",
     "description": "Merlin is a ChatGPT Assistant for All Websites"
+  },
+
+  {
+    "productName": "Emojipedia",
+    "category": "tools",
+    "image": "https://bit.ly/3UXQDBY",
+    "link": "https://emojipedia.org/",
+    "description": "A place of collections of Emoji"
+
   }
   
 ]
