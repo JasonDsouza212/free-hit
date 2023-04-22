@@ -952,6 +952,30 @@
   "image": "https://bit.ly/3LdhLK2",
   "link": "https://removal.ai/",
   "description": "Remove Background From Image for Free Using Artificial Intelligence"
-  }
+  },
 
+  {
+    "productName": "Friday",
+    "category": "tools",
+    "image":"https://bit.ly/41J2PZC",
+    "link":"https://friday.app/",
+    "description": "Optimize your business with top-rated software tools"
+  },
+
+  {
+    "productName": "Ideasai",
+    "category":"ai",
+    "image": "https://bit.ly/41KHsqT",
+    "link": "https://ideasai.com/",
+    "description": "This platform helps you find the best ideas to start your startup"
+  },
+
+  {
+    "productName": "Merlin",
+    "category": "extensions",
+    "image": "https://bit.ly/3USMSOn",
+    "link": "https://bit.ly/3KTEuJP",
+    "description": "Merlin is a ChatGPT Assistant for All Websites"
+  }
+  
 ]
