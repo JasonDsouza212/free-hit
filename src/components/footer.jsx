@@ -1,7 +1,7 @@
 import { GitHub, Twitter } from './Icons'
 
 
-const footerLinks = [
+export const footerLinks = [
   {
     id: 1,
     link: "",

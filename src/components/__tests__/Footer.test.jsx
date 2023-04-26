@@ -53,4 +53,27 @@ describe('Footer', () => {
     expect(linkElement.getAttribute('href')).not.toBeNull()
     expect(linkElement.getAttribute('href')).length.greaterThan(5)
   })
+
+  test('contains an unordered list with anchor element as the child of the listitems', () => {
+    const user = userEvent.setup()
+
+    render(<Footer />)
+
+    const listElement = screen.getByRole('list')
+    expect(listElement).toBeInTheDocument()
+
+    const allListitemElements = screen.getAllByRole('listitem')
+    expect(allListitemElements).toHaveLength(footerLinks.length)
+
+    /* 
+    number of children of listitem : 1
+    which is the anchor element : a
+
+    check if listitem contains an anchor element
+    */
+    allListitemElements.forEach((listItem) => {
+      expect(listItem.childNodes[0].tagName.toLowerCase()).toBe('a')
+      expect(listItem.children.length).toBe(1)
+    })
+  })
 })
