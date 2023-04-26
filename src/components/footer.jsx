@@ -1,17 +1,16 @@
 import { GitHub, Twitter } from './Icons'
 
-
 const footerLinks = [
   {
     id: 1,
-    link: "",
-    name: "GitHub",
+    link: '',
+    name: 'GitHub',
     icon: <GitHub />,
   },
   {
     id: 2,
-    link: "",
-    name: "Twitter",
+    link: '',
+    name: 'Twitter',
     icon: <Twitter />,
   },
 ]

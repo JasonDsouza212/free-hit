@@ -1,55 +1,64 @@
-import Button from "./Button";
-import { All, ResumeBuilder, Hacker, AI, Movies, Extensions, Tools, Jobs } from "./Icons";
-import LazyLoad from "react-lazyload"
+import Button from './Button'
+import {
+  All,
+  ResumeBuilder,
+  Hacker,
+  AI,
+  Movies,
+  Extensions,
+  Tools,
+  Jobs,
+} from './Icons'
+import LazyLoad from 'react-lazyload'
 
 const ButtonLinks = [
   {
     id: 1,
     name: 'All',
     category: 'all',
-    icon: <All />
+    icon: <All />,
   },
   {
     id: 2,
     name: 'Remote Jobs',
     category: 'remote',
-    icon: <Jobs />
+    icon: <Jobs />,
   },
   {
     id: 3,
     name: 'Resume Builder',
     category: 'resume',
-    icon: <ResumeBuilder />
+    icon: <ResumeBuilder />,
   },
   {
     id: 4,
     name: 'AI',
     category: 'ai',
-    icon: <AI />
+    icon: <AI />,
   },
   {
     id: 5,
     name: 'Ethical Hacking',
     category: 'ethical',
-    icon: <Hacker />
+    icon: <Hacker />,
   },
   {
     id: 6,
     name: 'Movies | Series',
     category: 'movies',
-    icon: <Movies />
+    icon: <Movies />,
   },
   {
     id: 7,
     name: 'Useful Extensions',
     category: 'extensions',
-    icon: <Extensions />
+    icon: <Extensions />,
   },
   {
     id: 8,
     name: 'Useful Tools',
     category: 'tools',
-    icon: <Tools />
+    icon: <Tools />,
   },
 ]
 
@@ -58,14 +67,20 @@ const Card = ({ filterProduct, filteredProducts, length, category }) => {
     <div className="App">
       <header>
         <div className="filter-section">
-          {ButtonLinks.map(buttonLink =>
-            <Button key={buttonLink.id} button={buttonLink} filterProduct={filterProduct} />
-          )}
+          {ButtonLinks.map((buttonLink) => (
+            <Button
+              key={buttonLink.id}
+              button={buttonLink}
+              filterProduct={filterProduct}
+            />
+          ))}
         </div>
       </header>
       <div className="card_wrapper">
         {length == 0 ? (
-          <p className="no-results">Sorry, no tools available for this search term.</p>
+          <p className="no-results">
+            Sorry, no tools available for this search term.
+          </p>
         ) : (
           <div className="cols">
             {filteredProducts.map((product, index) => {
@@ -103,12 +118,12 @@ const Card = ({ filterProduct, filteredProducts, length, category }) => {
                     </div>
                   </div>
                 </div>
-              ) : null;
+              ) : null
             })}
           </div>
         )}
       </div>
     </div>
-  );
-};
-export default Card;
+  )
+}
+export default Card
