@@ -2,6 +2,7 @@ import Button from "./Button";
 import { All, ResumeBuilder, Hacker, AI, Movies, Extensions, Tools, Jobs } from "./Icons";
 import LazyLoad from "react-lazyload"
 
+import blankImg from '../images/blankImg.jpg'
 const ButtonLinks = [
   {
     id: 1,
@@ -78,7 +79,7 @@ const Card = ({ filterProduct, filteredProducts, length, category }) => {
                           <LazyLoad height={100}>
                             <img
                               className="card_image"
-                              src={product.image}
+                              src={product.image || blankImg}
                               alt={product.productName}
                             />
                           </LazyLoad>
