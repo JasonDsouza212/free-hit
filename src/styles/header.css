@@ -8,8 +8,8 @@
 }
 
 .logo {
-  height: 40px;
-  width: 40px;
+  height: 60px;
+  width: 60px;
   display: block;
 }
 
@@ -21,7 +21,7 @@ input[type='text'] {
   outline: none;
   border-radius: 30px;
   padding: 15px;
-  width: 100%;
+  width: 90%;
   margin: 1rem 0;
   background-image:linear-gradient(to right,#000C40, #0F2027,#2C5364) ;
 }
@@ -52,6 +52,7 @@ input[type='text']:focus {
 }
 .name{
   font-family: monospace;
+  font-size: 1.5rem;
 }
 
 @media screen and (max-width: 768px) {
@@ -69,5 +70,12 @@ input[type='text']:focus {
     justify-content: center;
     gap: 1rem;
     margin-top: 10px;
+  }
+  .logo{
+    height: 40px;
+    width: 40px;
+  }
+  .name{
+    font-size: 1.2rem;
   }
 }
