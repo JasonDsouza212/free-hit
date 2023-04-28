@@ -935,36 +935,36 @@
     "category": "ai",
     "image": "https://bit.ly/43HiSJ7",
     "link": "https://supernormal.com/",
-    "description":"Supernormal helps you create amazing meeting notes without lifting a finger"
+    "description": "Supernormal helps you create amazing meeting notes without lifting a finger"
   },
 
   {
-  "productName": "Magical",
-  "category": "ai",
-  "image": "https://bit.ly/43JO3na",
-  "link": "https://magical.so/",
-  "description": "Magical Manage meetings, scheduling, and notes directly from browser tabs"
+    "productName": "Magical",
+    "category": "ai",
+    "image": "https://bit.ly/43JO3na",
+    "link": "https://magical.so/",
+    "description": "Magical Manage meetings, scheduling, and notes directly from browser tabs"
   },
 
   {
-  "productName": "Removal",
-  "category": "ai",
-  "image": "https://bit.ly/3LdhLK2",
-  "link": "https://removal.ai/",
-  "description": "Remove Background From Image for Free Using Artificial Intelligence"
+    "productName": "Removal",
+    "category": "ai",
+    "image": "https://bit.ly/3LdhLK2",
+    "link": "https://removal.ai/",
+    "description": "Remove Background From Image for Free Using Artificial Intelligence"
   },
 
   {
     "productName": "Friday",
     "category": "tools",
-    "image":"https://bit.ly/41J2PZC",
-    "link":"https://friday.app/",
+    "image": "https://bit.ly/41J2PZC",
+    "link": "https://friday.app/",
     "description": "Optimize your business with top-rated software tools"
   },
 
   {
     "productName": "Ideasai",
-    "category":"ai",
+    "category": "ai",
     "image": "https://bit.ly/41KHsqT",
     "link": "https://ideasai.com/",
     "description": "This platform helps you find the best ideas to start your startup"
@@ -984,7 +984,19 @@
     "image": "https://bit.ly/3UXQDBY",
     "link": "https://emojipedia.org/",
     "description": "A place of collections of Emoji"
-
+  },
+  {
+    "productName": "Redux DevTools",
+    "category": "extensions",
+    "image": "https://bit.ly/41NgP54",
+    "link": "https://bit.ly/3ncMNbU",
+    "description": "Redux DevTools for debugging application's state changes."
+  },
+  {
+    "productName": "MetaMask",
+    "category": "extensions",
+    "image": "https://bit.ly/423Iw9p",
+    "link": "https://bit.ly/421AAp4",
+    "description": "taMask is an extension for accessing Ethereum enabled distributed applications, or \"Dapps\" in your browser!"
   }
-  
 ]
