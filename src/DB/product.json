@@ -46,14 +46,14 @@
     "category": "tools",
     "image": "https://bit.ly/3xnfdRH",
     "link": "https://bitly.com/",
-    "description": "URL shortening and "
+    "description": " URL shortening and Generate QR Codes"
   },
   {
     "productName": "Contrib Rocks",
     "category": "tools",
     "image": "https://bit.ly/3Z1Fz7L",
     "link": "https://contrib.rocks/",
-    "description": "Contributors "
+    "description": "Generate an image of contributors to keep your README.md in sync"
   },
   {
     "productName": "Remote OK",
@@ -829,7 +829,7 @@
     "productName": "Moviesmod",
     "category": "movies",
     "image": "https://bit.ly/3ZMrGen",
-    "link": "https://moviesmod.co/",
+    "link": "https://moviesmod.net.in/",
     "description": "Download HD quality movies and series"
   },
   {
