@@ -36,6 +36,8 @@ const Header = ({
           </div>
           {filteredSuggestions.length > 0 && (
             <ul className="hnav-suggestionbar">
+              {/* This shows as a list of suggestions based on the search term
+               */}
               {filteredSuggestions.map((suggestion) => (
                 <li
                   key={suggestion}

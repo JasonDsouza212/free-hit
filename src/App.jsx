@@ -40,10 +40,14 @@ function App() {
   }
 
   useEffect(() => {
+    // Checks if the search term have a word
     if (searchTerm.length > 1) {
+      // This filters out the names that starts with the given search term.
       const filterNames = productNames.filter((productName) =>
         productName.toLowerCase().startsWith(searchTerm.toLowerCase())
       )
+
+      // the array containing the filtered words gets sorted.
       const sortedProductNames = filterNames.sort()
       setFilteredSuggestions(sortedProductNames)
       setShowSuggestions(filteredSuggestions.length > 0)
