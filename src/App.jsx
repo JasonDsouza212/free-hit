@@ -8,6 +8,12 @@ import BackToTopButton from './components/BackToTop'
 function App() {
   const [category, setCategory] = useState('all')
   const [searchTerm, setSearchTerm] = useState('')
+  const [productNames, setProductNames] = useState(
+    products?.map((product) => product.productName) || []
+  )
+
+  const [showSuggestions, setShowSuggestions] = useState(false)
+  const [filteredSuggestions, setFilteredSuggestions] = useState([])
 
   function filterProduct(value) {
     setCategory(value)
@@ -34,6 +40,19 @@ function App() {
   }
 
   useEffect(() => {
+    if (searchTerm.length > 1) {
+      const filterNames = productNames.filter((productName) =>
+        productName.toLowerCase().startsWith(searchTerm.toLowerCase())
+      )
+      const sortedProductNames = filterNames.sort()
+      setFilteredSuggestions(sortedProductNames)
+      setShowSuggestions(filteredSuggestions.length > 0)
+    } else {
+      setFilteredSuggestions([])
+    }
+  }, [searchTerm, productNames])
+
+  useEffect(() => {
     setCategory('all')
   }, [])
 
@@ -55,7 +74,12 @@ function App() {
 
   return (
     <>
-      <Header searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
+      <Header
+        searchTerm={searchTerm}
+        setSearchTerm={setSearchTerm}
+        showSuggestions={showSuggestions}
+        filteredSuggestions={filteredSuggestions}
+      />
       <Card
         filterProduct={filterProduct}
         filteredProducts={filteredProducts}

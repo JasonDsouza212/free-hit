@@ -1007,7 +1007,7 @@
     "link": "https://www.chaijs.com/",
     "description": "Chai is a BDD / TDD assertion library for node"
   },
-  
+
   {
     "productName": "Mochajs",
     "category": "tools",

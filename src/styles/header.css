@@ -17,6 +17,25 @@
   margin: 0 10px;
 }
 
+.hnav-link {
+  position: relative;
+}
+
+.hnav-suggestionbar {
+  position: absolute;
+  width: 100%;
+  background: #fff;
+  color: #000;
+  border-radius: 5px;
+  padding: 10px;
+  border: 1px solid #000;
+  z-index: 100;
+}
+
+.hnav-suggestion {
+  cursor: pointer;
+}
+
 input[type='text'] {
   padding: 0.45rem;
   border-radius: 7px;
@@ -31,4 +50,33 @@ input[type='text'] {
 input[type='text']:focus {
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
   transform: scale(1);
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  width: 16px;
+  height: 16px;
+  opacity: 0.3;
+  color: #000;
+  cursor: pointer;
+}
+.close:hover {
+  opacity: 1;
+}
+.close:before,
+.close:after {
+  position: absolute;
+  left: 15px;
+  content: ' ';
+  height: 16px;
+  width: 2px;
+  background-color: #333;
+}
+.close:before {
+  transform: rotate(45deg);
+}
+.close:after {
+  transform: rotate(-45deg);
 }
