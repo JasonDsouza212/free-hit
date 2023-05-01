@@ -1,12 +1,7 @@
 import React from 'react'
 import freehitlogo from '../images/freehitLogo.png'
 
-const Header = ({
-  searchTerm,
-  setSearchTerm,
-  showSuggestions,
-  filteredSuggestions,
-}) => {
+const Header = ({ searchTerm, setSearchTerm, filteredSuggestions }) => {
   const handleSuggestionClick = (value) => {
     setSearchTerm(value)
   }

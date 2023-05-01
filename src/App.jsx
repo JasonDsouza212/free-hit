@@ -11,8 +11,6 @@ function App() {
   const [productNames, setProductNames] = useState(
     products?.map((product) => product.productName) || []
   )
-
-  const [showSuggestions, setShowSuggestions] = useState(false)
   const [filteredSuggestions, setFilteredSuggestions] = useState([])
 
   function filterProduct(value) {
@@ -50,7 +48,6 @@ function App() {
       // the array containing the filtered words gets sorted.
       const sortedProductNames = filterNames.sort()
       setFilteredSuggestions(sortedProductNames)
-      setShowSuggestions(filteredSuggestions.length > 0)
     } else {
       setFilteredSuggestions([])
     }
@@ -81,7 +78,6 @@ function App() {
       <Header
         searchTerm={searchTerm}
         setSearchTerm={setSearchTerm}
-        showSuggestions={showSuggestions}
         filteredSuggestions={filteredSuggestions}
       />
       <Card
