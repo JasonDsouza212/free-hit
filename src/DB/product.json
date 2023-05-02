@@ -935,36 +935,36 @@
     "category": "ai",
     "image": "https://bit.ly/43HiSJ7",
     "link": "https://supernormal.com/",
-    "description":"Supernormal helps you create amazing meeting notes without lifting a finger"
+    "description": "Supernormal helps you create amazing meeting notes without lifting a finger"
   },
 
   {
-  "productName": "Magical",
-  "category": "ai",
-  "image": "https://bit.ly/43JO3na",
-  "link": "https://magical.so/",
-  "description": "Magical Manage meetings, scheduling, and notes directly from browser tabs"
+    "productName": "Magical",
+    "category": "ai",
+    "image": "https://bit.ly/43JO3na",
+    "link": "https://magical.so/",
+    "description": "Magical Manage meetings, scheduling, and notes directly from browser tabs"
   },
 
   {
-  "productName": "Removal",
-  "category": "ai",
-  "image": "https://bit.ly/3LdhLK2",
-  "link": "https://removal.ai/",
-  "description": "Remove Background From Image for Free Using Artificial Intelligence"
+    "productName": "Removal",
+    "category": "ai",
+    "image": "https://bit.ly/3LdhLK2",
+    "link": "https://removal.ai/",
+    "description": "Remove Background From Image for Free Using Artificial Intelligence"
   },
 
   {
     "productName": "Friday",
     "category": "tools",
-    "image":"https://bit.ly/41J2PZC",
-    "link":"https://friday.app/",
+    "image": "https://bit.ly/41J2PZC",
+    "link": "https://friday.app/",
     "description": "Optimize your business with top-rated software tools"
   },
 
   {
     "productName": "Ideasai",
-    "category":"ai",
+    "category": "ai",
     "image": "https://bit.ly/41KHsqT",
     "link": "https://ideasai.com/",
     "description": "This platform helps you find the best ideas to start your startup"
@@ -984,7 +984,6 @@
     "image": "https://bit.ly/3UXQDBY",
     "link": "https://emojipedia.org/",
     "description": "A place of collections of Emoji"
-
   },
 
   {
@@ -994,7 +993,7 @@
     "link": "https://www.chaijs.com/",
     "description": "Chai is a BDD / TDD assertion library for node"
   },
-  
+
   {
     "productName": "Mochajs",
     "category": "tools",
@@ -1017,6 +1016,13 @@
     "image": "https://cdn3.vectorstock.com/i/1000x1000/13/17/initial-og-logo-vector-29031317.jpg",
     "link": "https://www.opengraph.xyz/",
     "description": "Free Meta Tag Generator and preview all Open Graph meta tags in one place"
-  }
+  },
   
+  {
+    "productName": "Testing Playground",
+    "category": "extensions",
+    "image": "https://rb.gy/yd6kd",
+    "link": "https://rb.gy/x7tcl",
+    "description": "Helps you find the best queries when testing a React application."
+  }
 ]
