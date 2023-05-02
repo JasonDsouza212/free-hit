@@ -1030,5 +1030,15 @@
     "image": "https://cdn3.vectorstock.com/i/1000x1000/13/17/initial-og-logo-vector-29031317.jpg",
     "link": "https://www.opengraph.xyz/",
     "description": "Free Meta Tag Generator and preview all Open Graph meta tags in one place"
+
+  },
+  
+  {
+    "productName": "Testing Playground",
+    "category": "extensions",
+    "image": "https://rb.gy/yd6kd",
+    "link": "https://rb.gy/x7tcl",
+    "description": "Helps you find the best queries when testing a React application."
+
   }
 ]
