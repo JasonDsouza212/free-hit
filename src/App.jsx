@@ -57,10 +57,13 @@ function App() {
     setCategory('all')
   }, [])
 
+  function escapeRegExp(str) {
+    return str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') // $& means the whole matched string
+  }
   const filteredProducts = products
     .filter((product) => {
       if (!searchTerm) return true
-      const regex = new RegExp(searchTerm.trim(), 'gi')
+      const regex = new RegExp(escapeRegExp(searchTerm.trim()), 'gi')
       return (
         product.productName.match(regex) ||
         product.description.match(regex) ||
