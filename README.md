@@ -8,14 +8,14 @@
 # 🙌 Welcome to Free-Hit
 
 - As we all prefer open-source softwares for our daily use, it can be difficult to find tools that are specific to our needs. This is where **Free-Hit** comes in.
-- Free-Hit is a tool used to search for open-source projects that are both free and helpful for our needs
-- Although Free-Hit is a powerful tool to search for open-source projects, we recognize that it is still evolving. It will take time for us to add all the projects,resources and additional content that our users want.
+- Free-Hit is a tool used to search for Free tools that are helpful for our needs
+- Although Free-Hit is a powerful tool to search for Free tools, we recognize that it is still evolving. It will take time for us to add all the projects,resources and additional content that our users want.
 - That's why, we encourage contributions from everyone interested in making Free-Hit even more attractive and useful.
 
 # 🚀 About
 
 - If you're a developer or a tech enthusiast, you can help us create a better experience for everyone.
-- Free-Hit is more than just a tool to find open-source apps. It's also a treasure of useful content that can help you in many ways.
+- Free-Hit is more than just a tool to find Free tools. It's also a treasure of useful content that can help you in many ways.
 - For example, we have curated a list of remote hiring websites that can help you find your dream job from the comfort of your home.
 - But that's not all – we have big plans for the future. We are working hard to add more useful content that can make your life easier and more productive.
 - Stay tuned for updates!
