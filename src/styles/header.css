@@ -80,3 +80,9 @@ input[type='text']:focus {
 .close:after {
   transform: rotate(-45deg);
 }
+.diplay-none{
+  display: none;
+}
+.diplay-block{
+  display: block;
+}
