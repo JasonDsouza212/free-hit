@@ -17,22 +17,7 @@
     "productName": "Flow CV",
     "category": "resume",
     "image": "https://bit.ly/3YnFYBJ",
-    "link": "https://flowcv.com/",
-    "description": "A tool that is used to create beautiful resumes"
-  },
-  {
-    "productName": "Wonsulting",
-    "category": "ai",
-    "image": "https://bit.ly/40BbkWu",
-    "link": "https://www.wonsulting.ai/",
-    "description": "A great website to generate resumes & cover letters"
-  },
-  {
-    "productName": "Reactive Resume",
-    "category": "resume",
-    "image": "https://bit.ly/3YKPTRr",
-    "link": "https://rxresu.me/",
-    "description": "Reactive Resume is an open-source, customizable resume builder that uses React.js."
+    "link": "https://flowcv.com/", uses React.js."
   },
   {
     "productName": "Poet.so",
@@ -1048,5 +1033,13 @@
     "image": "https://rb.gy/fpi1n",
     "link": "https://rb.gy/o9zip",
     "description": "Accelerate your writing in the browser using AI"
+  },
+  
+  {
+    "productName": "RemixIcon",
+    "category": "tools",
+    "image": "https://img.stackshare.io/service/11002/remixicon-padd.png",
+    "link": "https://remixicon.com/",
+    "description": "Neutral-Style system symbols"
   }
 ]
