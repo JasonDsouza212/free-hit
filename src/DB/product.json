@@ -985,6 +985,20 @@
     "link": "https://emojipedia.org/",
     "description": "A place of collections of Emoji"
   },
+  {
+    "productName": "Redux DevTools",
+    "category": "extensions",
+    "image": "https://bit.ly/41NgP54",
+    "link": "https://bit.ly/3ncMNbU",
+    "description": "Redux DevTools for debugging application's state changes."
+  },
+  {
+    "productName": "MetaMask",
+    "category": "extensions",
+    "image": "https://bit.ly/423Iw9p",
+    "link": "https://bit.ly/421AAp4",
+    "description": "taMask is an extension for accessing Ethereum enabled distributed applications, or \"Dapps\" in your browser!"
+  },
 
   {
     "productName": "Chaijs",
@@ -1016,6 +1030,7 @@
     "image": "https://cdn3.vectorstock.com/i/1000x1000/13/17/initial-og-logo-vector-29031317.jpg",
     "link": "https://www.opengraph.xyz/",
     "description": "Free Meta Tag Generator and preview all Open Graph meta tags in one place"
+
   },
   
   {
