@@ -1071,5 +1071,16 @@
     "image": "https://rb.gy/9qugc",
     "link": "https://rb.gy/afqj9",
     "description": "Chrome leading extension to capture, edit and share videos in seconds."
-  }
+  },
+  
+  {
+    productName: "Midjourney",
+    category: "AI",
+    image: " https://www.midjourney.com/showcase/top/ ",
+    link: " https://www.midjourney.com/home/?callbackUrl=%2Fapp%2F ",
+    description: " AI Midjourney is a text-to-image tool"
+},
+  
+  
+   
 ]
