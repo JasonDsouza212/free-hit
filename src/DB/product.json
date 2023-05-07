@@ -973,6 +973,20 @@
     "description": "A place of collections of Emoji"
   },
   {
+    "productName": "Redux DevTools",
+    "category": "extensions",
+    "image": "https://bit.ly/41NgP54",
+    "link": "https://bit.ly/3ncMNbU",
+    "description": "Redux DevTools for debugging application's state changes."
+  },
+  {
+    "productName": "MetaMask",
+    "category": "extensions",
+    "image": "https://bit.ly/423Iw9p",
+    "link": "https://bit.ly/421AAp4",
+    "description": "taMask is an extension for accessing Ethereum enabled distributed applications, or \"Dapps\" in your browser!"
+  },
+  {
     "productName": "Chaijs",
     "category": "tools",
     "image": "shorturl.at/yzKQ2",
@@ -999,6 +1013,7 @@
     "image": "https://cdn3.vectorstock.com/i/1000x1000/13/17/initial-og-logo-vector-29031317.jpg",
     "link": "https://www.opengraph.xyz/",
     "description": "Free Meta Tag Generator and preview all Open Graph meta tags in one place"
+
   },
   {
     "productName": "Testing Playground",
@@ -1034,5 +1049,13 @@
     "image": "https://rb.gy/fpi1n",
     "link": "https://rb.gy/o9zip",
     "description": "Accelerate your writing in the browser using AI"
+  },
+
+  {
+    "productName": "Screencastify",
+    "category": "extensions",
+    "image": "https://rb.gy/9qugc",
+    "link": "https://rb.gy/afqj9",
+    "description": "Chrome leading extension to capture, edit and share videos in seconds."
   }
 ]
