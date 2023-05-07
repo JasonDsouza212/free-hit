@@ -8,6 +8,10 @@ import BackToTopButton from './components/BackToTop'
 function App() {
   const [category, setCategory] = useState('all')
   const [searchTerm, setSearchTerm] = useState('')
+  const [productNames, setProductNames] = useState(
+    products?.map((product) => product.productName) || []
+  )
+  const [filteredSuggestions, setFilteredSuggestions] = useState([])
 
   function filterProduct(value) {
     setCategory(value)
@@ -34,13 +38,32 @@ function App() {
   }
 
   useEffect(() => {
+    // Checks if the search term have a word
+    if (searchTerm.length > 1) {
+      // This filters out the names that starts with the given search term.
+      const filterNames = productNames.filter((productName) =>
+        productName.toLowerCase().startsWith(searchTerm.toLowerCase())
+      )
+
+      // the array containing the filtered words gets sorted.
+      const sortedProductNames = filterNames.sort()
+      setFilteredSuggestions(sortedProductNames)
+    } else {
+      setFilteredSuggestions([])
+    }
+  }, [searchTerm, productNames])
+
+  useEffect(() => {
     setCategory('all')
   }, [])
 
+  function escapeRegExp(str) {
+    return str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') // $& means the whole matched string
+  }
   const filteredProducts = products
     .filter((product) => {
       if (!searchTerm) return true
-      const regex = new RegExp(searchTerm.trim(), 'gi')
+      const regex = new RegExp(escapeRegExp(searchTerm.trim()), 'gi')
       return (
         product.productName.match(regex) ||
         product.description.match(regex) ||
@@ -55,7 +78,11 @@ function App() {
 
   return (
     <>
-      <Header searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
+      <Header
+        searchTerm={searchTerm}
+        setSearchTerm={setSearchTerm}
+        filteredSuggestions={filteredSuggestions}
+      />
       <Card
         filterProduct={filterProduct}
         filteredProducts={filteredProducts}
