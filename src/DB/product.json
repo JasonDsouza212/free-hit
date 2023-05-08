@@ -881,7 +881,6 @@
     "link": "https://bit.ly/435pBfH",
     "description": "Enhance Leetcode experience with company tags like premium version"
   },
-
   {
     "productName": "Krisp Ai",
     "category": "ai",
@@ -889,7 +888,6 @@
     "link": "https://krisp.ai",
     "description": "Krisp improves the productivity of online meetings with its AI-powered Voice Clarity and Meeting Assistant."
   },
-
   {
     "productName": "Beatoven",
     "category": "ai",
@@ -897,7 +895,6 @@
     "link": "https://www.beatoven.ai",
     "description": "Create customisable royalty free music that elevates your story"
   },
-
   {
     "productName": "Scribe",
     "category": "ai",
@@ -905,7 +902,6 @@
     "link": "https://scribehow.com/",
     "description": "Automatically creates a how-to guide, complete with screenshots, instructions and clicks."
   },
-
   {
     "productName": "Ask Your PDF",
     "category": "ai",
@@ -913,7 +909,6 @@
     "link": "https://askyourpdf.com/",
     "description": "Discover a new level of PDF interaction with our gateway for dynamic and intelligent conversations."
   },
-
   {
     "productName": "Tome",
     "category": "ai",
@@ -921,7 +916,6 @@
     "link": "https://beta.tome.app/",
     "description": "Tome helps people tell great stories."
   },
-
   {
     "productName": "ChatGPT-sidebar",
     "category": "extensions",
@@ -929,7 +923,6 @@
     "link": "https://chrome.google.com/webstore/detail/chatgpt-sidebar-support-g/difoiogjjojoaoomphldepapgpbgkhkb",
     "description": "Select any text,  explain it, translate it, summarize it or rewrite it, do anything with the ChatGPT Sidebar!"
   },
-
   {
     "productName": "Super Normal",
     "category": "ai",
@@ -937,7 +930,6 @@
     "link": "https://supernormal.com/",
     "description": "Supernormal helps you create amazing meeting notes without lifting a finger"
   },
-
   {
     "productName": "Magical",
     "category": "ai",
@@ -945,7 +937,6 @@
     "link": "https://magical.so/",
     "description": "Magical Manage meetings, scheduling, and notes directly from browser tabs"
   },
-
   {
     "productName": "Removal",
     "category": "ai",
@@ -953,7 +944,6 @@
     "link": "https://removal.ai/",
     "description": "Remove Background From Image for Free Using Artificial Intelligence"
   },
-
   {
     "productName": "Friday",
     "category": "tools",
@@ -961,7 +951,6 @@
     "link": "https://friday.app/",
     "description": "Optimize your business with top-rated software tools"
   },
-
   {
     "productName": "Ideasai",
     "category": "ai",
@@ -969,7 +958,6 @@
     "link": "https://ideasai.com/",
     "description": "This platform helps you find the best ideas to start your startup"
   },
-
   {
     "productName": "Merlin",
     "category": "extensions",
@@ -977,7 +965,6 @@
     "link": "https://bit.ly/3KTEuJP",
     "description": "Merlin is a ChatGPT Assistant for All Websites"
   },
-
   {
     "productName": "Emojipedia",
     "category": "tools",
@@ -999,7 +986,6 @@
     "link": "https://bit.ly/421AAp4",
     "description": "taMask is an extension for accessing Ethereum enabled distributed applications, or \"Dapps\" in your browser!"
   },
-
   {
     "productName": "Chaijs",
     "category": "tools",
@@ -1007,7 +993,6 @@
     "link": "https://www.chaijs.com/",
     "description": "Chai is a BDD / TDD assertion library for node"
   },
-
   {
     "productName": "Mochajs",
     "category": "tools",
@@ -1015,7 +1000,6 @@
     "link": "https://mochajs.org/",
     "description": "Mocha is a feature-rich JavaScript test framework"
   },
-
   {
     "productName": "Chai matchers",
     "category": "tools",
@@ -1023,7 +1007,6 @@
     "link": "https://ethereum-waffle.readthedocs.io/en/latest/matchers.html",
     "description": "A set of sweet chai matchers, makes your test easy to write and read. "
   },
-
   {
     "productName": "OpenGraph",
     "category": "tools",
@@ -1032,7 +1015,6 @@
     "description": "Free Meta Tag Generator and preview all Open Graph meta tags in one place"
 
   },
-  
   {
     "productName": "Testing Playground",
     "category": "extensions",
@@ -1040,15 +1022,13 @@
     "link": "https://rb.gy/x7tcl",
     "description": "Helps you find the best queries when testing a React application."
   },
-
- {
+  {
     "productName": "unDraw",
     "category": "tools",
     "image": "https://bit.ly/3LqjzOT",
     "link": "https://undraw.co/",
     "description": "Create better designed websites, products and applications"
   },
-
   {
     "productName": "Link Save",
     "category": "extensions",
@@ -1056,7 +1036,13 @@
     "link": "https://rb.gy/w7yaw",
     "description": "Save the links of all open tabs to read later"
   },
-
+  {
+    "productName": "Gamma AI",
+    "category": "ai",
+    "image": "https://ik.imagekit.io/aifinder/logos/gamma.webp",
+    "link": "https://gamma.app/",
+    "description": "A new medium for Presenting ideas which convert into presentation"
+  },
   {
     "productName": "Compose AI",
     "category": "extensions",
