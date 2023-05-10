@@ -1,174 +1,105 @@
-.filter-section {
-  display: flex;
+/* card css start */
+.grid {
+  padding: 20px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, auto));
+  align-items: start;
   justify-content: center;
-  flex-wrap: wrap;
-  gap: 1rem;
-  background-color: #232427;
-  margin-block: 3rem;
+  gap: 1rem 2rem;
+  text-align: center;
+  margin-top: 1rem;
+  min-height: 55vh;
+  text-align: center;
 }
 
-.background-button {
-  background-color: #fff;
-  color: #000;
-  width: 9.5rem;
-  height: 2rem;
-  border: 2px solid #fff;
-  border-radius: 8px;
-  cursor: pointer;
-  display: flex; 
-  justify-content: center;
-  align-items: center;
-  gap: .5rem;
+.grid > article {
+  position: relative;
+  height: 220px;
+  max-width: 350px;
+  border: 1px solid var(--primary-black);
+  box-shadow: 8px 8px 2px 0px var(--primary-black);
+  background-color: var(--primary-white);
+  padding: 10px 0px;
+  border-radius: 20px;
 }
 
-.background-button:hover {
-  background-color: #232427;
-  color: #fff;
+.grid > article:hover {
+  box-shadow: 6px 6px 0px 0px var(--primary-black);
 }
 
-.background-button-selected {
-  background-color: #232427;
-  color: #fff;
-}
-.background-button-selected .icons, .background-button:hover .icons{
-  fill:white
-}
-
-.cols {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.col {
-  width: calc(20% - 2rem);
-  margin: 0.7rem;
-}
-
-.container {
-  transform-style: preserve-3d;
-  perspective: 1000px;
-}
-
-.container .front {
-  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
-    rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
-    rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-}
-
-.container:hover .back,
-.container:hover .front {
-  transition: transform 1.2s cubic-bezier(0.4, 0.2, 0.2, 1);
-}
-
-.container .back {
-  transform: rotateY(180deg);
-  transform-style: preserve-3d;
-}
-
-.container .front,
-.container:hover .back {
-  transform: rotateY(0);
-  transform-style: preserve-3d;
-}
-
-.container:hover .front {
-  transform: rotateY(-180deg);
-  transform-style: preserve-3d;
-}
-
-.back,
-.front:after {
-  top: 0;
-  background-color: #121212;
-  position: absolute;
-  left: 0;
-}
-
-.back,
-.front,
-.front:after {
-  backface-visibility: hidden;
+img {
+  width: 40px;
+  height: 40px;
   border-radius: 10px;
 }
 
-.back,
-.front {
-  background-size: cover;
-  background-position: center;
-  transition: transform 1s cubic-bezier(0.4, 0.2, 0.2, 1);
-  min-height: 290px;
-  min-width: 190px;
-  height: auto;
-  color: #000;
-  font-size: 1rem;
-}
-
-.front:after {
-  z-index: 0;
-  width: 100%;
-  height: 100%;
-  content: '';
-  display: block;
-  opacity: 1;
-}
-
-.front .inner p {
-  font-size: 1.6rem;
-  margin-bottom: 1rem;
-  color: #f4f7f1;
-  position: relative;
-}
-
-.inner a {
-  background-color: #fff;
-  padding: 0.5rem;
-  color: #b327ff;
-  font-weight: 700;
-  border-radius: 0.5rem;
-}
-
-.inner a:hover {
-  color: #000;
-  transition: 0.3s;
-}
-
-.inner {
-  transform: translateY(-50%) translateZ(60px) scale(0.94);
-  top: 50%;
+.grid > article .btn-cont {
   position: absolute;
+  bottom: 20px;
   left: 0;
-  padding: 2rem;
-  outline: transparent solid 1px;
-  perspective: inherit;
-  z-index: 1;
-  color: #fff;
+  right: 0;
 }
 
-.card_image {
-  border-radius: 70%;
-  width: 70px;
-  height: 70px;
+.grid .text {
+  padding: 0px 30px 0px 30px;
+  color: #000000;
+  font-size: 18px;
+}
+
+.grid .text p {
+  margin-top: 5px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.grid .text h3 {
+  text-align: left;
+  position: relative;
+  right: 10px;
+}
+
+h3 .card-title {
+  color: #000;
+  text-align: left;
+  position: relative;
+  bottom: 12px;
+  font-size: 22px;
+  left: 6px;
+}
+
+.btn-cont button {
+  background-color: var(--primary-black);
+  padding: 8px 25px;
+  border-radius: 8px;
+  margin: 2px;
+}
+
+.btn-cont button a {
+  text-decoration: none;
+  color: var(--primary-white);
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Open Sans";
+}
+
+.btn-cont button i {
+  position: relative;
+  top: 3px;
+  margin-left: 5px;
+}
+
+.btn-cont button:hover {
+  transform: scale(1.05);
 }
 
 .no-results {
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: bold;
   text-align: center;
-  color: #fffcfc;
-  margin-top: 2rem;
+  color: #1f1e1e;
+  padding-top: 5rem;
   margin-bottom: 2rem;
+  text-transform: uppercase;
+  min-height: 55vh;
 }
-
-@media screen and (min-width: 768px) {
-  .no-results {
-    font-size: 2rem;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .no-results {
-    font-size: 2.5rem;
-  }
-}
+/* card end */

@@ -1,46 +1,76 @@
-.footer {
-  background-color: black;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  text-align: center;
-  padding-left: 10px;
-  padding-right: 10px;
-  font-size: 20px;
+/* ===================footer  */
+  
+footer{
+  background: #1a1919;
+  height: auto;
+  font-family: "Open Sans";
+  padding-top: 40px;
+  color: var(--primary-white);
 }
-
-.footer-link {
-  color: #0092cc;
-}
-
-.fot-links li a {
+.footer-content{
   display: flex;
-  justify-content: center;
   align-items: center;
-  gap: 0.4rem;
-}
-.fot-links li a:hover {
-  color: #0092cc;
-}
-
-.fot-links {
-  display: flex;
   justify-content: center;
-  list-style: none;
-  padding-left: 0;
-}
+  flex-direction: column;
+  text-align: center;
 
-.fot-links li {
+}
+.footer-content h3{
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 3rem;
+}
+.footer-content p{
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 16px;
+  font-weight: 400;
+}
+.socials{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0rem 0 1rem 0;
+}
+.socials li{
   margin: 0 10px;
 }
-
-.fot-link {
-  color: #fff;
+.socials a{
   text-decoration: none;
-  font-size: 16px;
+  color: #fff;
+}
+.socials a i{
+  font-size: 1.1rem;
+  transition: color .4s ease;
 }
 
-.footer-icons {
-  margin-right: 0.3rem;
-  height: 18px;
-  width: 20px;
+.socials a:hover i{
+  color: aqua;
+}
+
+.footer-bottom{
+  background: #0e0d0d;
+  padding-top: 20px;
+  text-align: center;
+}
+.footer-bottom p{
+  font-size: 18px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+}
+.footer-bottom span{
+  text-transform: uppercase;
+  opacity: .4;
+  font-weight: 200;
+}
+.footer-bottom ul{
+margin: 0;
+}
+.footer-bottom a{
+ text-decoration: none;
+ color: var(--primary-white);
+ font-size: 20px;
 }

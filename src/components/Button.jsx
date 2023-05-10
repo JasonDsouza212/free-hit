@@ -1,17 +1,14 @@
-import React from 'react'
+import React from 'react';
 
 const Button = ({ button: { category, name, icon }, filterProduct }) => {
-    return (
-        <button
-            rel="noopener noreferrer"
-            className="category-select background-button"
-            productcategory={category}
-            onClick={() => filterProduct(category)}
-        >
-            <span>{icon}</span>
-            <span>{name}</span>
-        </button>
-    )
-}
+  return (
+    <li>
+      <a onClick={() => filterProduct(category)}>
+        <i className={icon}></i>
+        {name}
+      </a>
+    </li>
+  );
+};
 
-export default Button
+export default Button;
