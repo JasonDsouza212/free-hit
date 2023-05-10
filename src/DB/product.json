@@ -1013,7 +1013,6 @@
     "image": "https://cdn3.vectorstock.com/i/1000x1000/13/17/initial-og-logo-vector-29031317.jpg",
     "link": "https://www.opengraph.xyz/",
     "description": "Free Meta Tag Generator and preview all Open Graph meta tags in one place"
-
   },
   {
     "productName": "Testing Playground",
@@ -1050,12 +1049,18 @@
     "link": "https://rb.gy/o9zip",
     "description": "Accelerate your writing in the browser using AI"
   },
-
   {
     "productName": "Screencastify",
     "category": "extensions",
     "image": "https://rb.gy/9qugc",
     "link": "https://rb.gy/afqj9",
     "description": "Chrome leading extension to capture, edit and share videos in seconds."
+  },
+  {
+    "productName": "FuturePedia",
+    "category": "tools",
+    "image": "https://lh3.googleusercontent.com/6BwC_hPD3FCXzQgp9GhXBXfOyw8soVBqyZE-NPa6RvwXLAMDVkbpnS97tr67eFCo-KIugX92yPzUGtOhQ4BOP5pLnMB4hNfNaPhKvcuL",
+    "link": "https://www.futurepedia.io/",
+    "description": "THE LARGEST AI TOOLS DIRECTORY, UPDATED DAILY"
   }
 ]
