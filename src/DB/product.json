@@ -1064,5 +1064,13 @@
     "image": "https://bit.ly/44V3RnV",
     "link": "https://remixicon.com/",
     "description": "Open-source neutral-style system icons."
+  },
+
+  {
+    "productName": "CSS Peeper",
+    "category": "extensions",
+    "image": "https://rb.gy/r2if4",
+    "link": "https://rb.gy/muo7f",
+    "description": "Extract CSS and build beautiful styleguides."
   }
 ]
