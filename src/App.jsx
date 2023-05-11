@@ -15,11 +15,14 @@ const LOCAL_STORAGE_KEY = 'freehit.bookmarks';
 function App() {
   const [category, setCategory] = useState('all');
   const [searchTerm, setSearchTerm] = useState('');
+
+  // all products 
   const [productNames, setProductNames] = useState(
     products?.map((product) => product.productName) || []
   );
-
   const [filteredSuggestions, setFilteredSuggestions] = useState([]);
+
+   // all Bookmarks 
   const [bookmarkfiltersuggestions, setBookmarkfiltersuggestions] = useState([]);
   const [bookmarks, setBookmarks] = useState([]);
 
@@ -27,13 +30,13 @@ function App() {
     bookmarks?.map((bookmark) => bookmark.productName) || []
   );
 
-
-
+  
   function filterProduct(value) {
     setCategory(value);
     filteredButtonSelected(value);
   }
 
+  // initial Storage
   useEffect(() => {
     const bookmarkJson = localStorage.getItem(LOCAL_STORAGE_KEY);
     if (bookmarkJson != null) setBookmarks(JSON.parse(bookmarkJson));
@@ -44,6 +47,8 @@ function App() {
     localStorage.setItem(LOCAL_STORAGE_KEY, JSON.stringify(bookmarks));
   }, [bookmarks]);
 
+
+  // Add bookmark 
   function handelBookmarkAdd(bookmark) {
     const newBookmark = {
       "productName": bookmark.productName,
@@ -54,10 +59,6 @@ function App() {
     };
     setBookmarks([...bookmarks, newBookmark]);
   }
-
-  useEffect(() => {
-    console.log(bookmarks);
-  }, [bookmarks]);
   
   async function filteredButtonSelected(value) {
     const button = document.querySelectorAll('.category-select');
@@ -78,6 +79,7 @@ function App() {
     });
   }
   
+  // Search filter methods
   useEffect(() => {
     // Checks if the search term have a word
     if (searchTerm.length > 1) {
@@ -108,6 +110,7 @@ function App() {
     return str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'); // $& means the whole matched string
   }
   
+  // filtering methods 
   const filteredProducts = products
     .filter((product) => {
       if (!searchTerm) return true;
@@ -140,10 +143,12 @@ function App() {
       return nameA < nameB ? -1 : 1;
     });
   
+  // Remove Bookmark  
   function deleteres(product) {
     setBookmarks(bookmarks.filter((res) => res.productName !== product.productName));
   }  
 
+  // values to pass to context hook s
   const toolContextValue={
     filterProduct,
     filteredProducts,

@@ -6,7 +6,7 @@
   grid-template-columns: repeat(auto-fit, minmax(320px, auto));
   align-items: start;
   justify-content: center;
-  gap: 1rem 2rem;
+  gap: 1rem 1rem;
   text-align: center;
   margin-top: 1rem;
   min-height: 55vh;

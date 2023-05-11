@@ -506,6 +506,10 @@
   .search_box {
     width: 220px;
   }
+
+  .backToTopButton {
+    right: 2rem;
+  }
 }
 
 /* ===============================380 media query */
@@ -633,7 +637,7 @@
     position: fixed;
     z-index: 50;
     bottom: 3rem;
-    right: 6rem;
+    right: 4rem;
   }
   
   .grid > article {

@@ -1,29 +1,15 @@
-import React,{useContext} from 'react';
-import { FaSearch } from 'react-icons/fa';
 import freehitlogo from '../images/free-logo.png';
 import TwitterButton from './message/twitterbutton';
-import { ToolContext } from '../App';
 
 const Aboutnav = () => {
-  const {
-    searchTerm,
-    setSearchTerm,
-    filteredSuggestions,
-    filterProduct
-  }=useContext(ToolContext)
+  const msg= `Hey guys, I found a cool project!
 
-  const handleSuggestionClick = (value) => {
-    document.getElementById('serch-suggestions').classList.add('diplay-none');
-    setSearchTerm(value);
-  };
-
-  const handleChageInInput = (event) => {
-    setSearchTerm(event.target.value);
-    let targetElem = document.getElementById('serch-suggestions');
-    if (filteredSuggestions.length > 0 && targetElem.className.includes('diplay-none')) {
-      targetElem.classList.remove('diplay-none');
-    }
-  };
+Check out Free-Hit🏏, an open-source App for discovering free and helpful tools that cater to our needs
+    
+It's a one-stop solution for finding amazing resources
+   
+Don't forget to give it a⭐️and explore it on GitHub 
+https://github.com/JasonDsouza212/free-hit`
 
   return (
     <nav className="navbar">
@@ -38,7 +24,7 @@ const Aboutnav = () => {
             <ul className="list-items">
               <li><a href="/"><i class="ri-home-4-fill"></i>Home</a></li>
               <li><a href="/bookmarks"><i class="ri-bookmark-fill"></i>Bookmarks</a></li>
-              <li><TwitterButton message="Check out this awesome post! #ReactJS" /></li>
+              <li><TwitterButton message={msg} /></li>
             </ul>
           </nav>
         </div>

@@ -31,7 +31,7 @@
   font-size: 32px;
   font-weight: 550;
   position: relative;
-  top: 30%;
+  top: 10%;
   font-family: 'Josefin Slab', serif;
 }
 
@@ -56,7 +56,7 @@
 }
 
 .about p button:hover a {
-  color: #000;
+  color: var(--primary-black);
 }
 
 .about img {

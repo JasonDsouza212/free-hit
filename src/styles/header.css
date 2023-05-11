@@ -119,7 +119,7 @@ nav{
 .pages-sidebar li a:hover{
  background-color: #f2f2f2;
  border-radius: 10px;
- color: #222;
+ color: var(--primary-black);
 }
 
 .pages-sidebar li a{
@@ -251,8 +251,6 @@ background-color: var(--primary-black);
     right: 0px;
     border-radius: 50%;
 }
-
-
 
 .search_box .btn.btn_common .fas{
 position: absolute;
