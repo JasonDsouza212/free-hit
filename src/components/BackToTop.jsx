@@ -19,8 +19,8 @@ const BackToTopButton = () => {
 
     return (
         <Link onClick={handleScroll} to="Top" smooth duration={500}>
-            <div className={` ${!btnVisiblity ?"transition-before": "transition-after"} backToTopButton`}>
-                <i class="ri-arrow-up-s-line"></i>
+            <div className={` ${!btnVisiblity ? "transition-before" : "transition-after"} backToTopButton`}>
+                <i className="ri-arrow-up-s-line"></i>
             </div>
         </Link>
     )

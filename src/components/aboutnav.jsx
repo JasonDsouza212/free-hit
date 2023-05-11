@@ -2,7 +2,7 @@ import freehitlogo from '../images/free-logo.png';
 import TwitterButton from './message/twitterbutton';
 
 const Aboutnav = () => {
-  const msg= `Hey guys, I found a cool project!
+  const msg = `Hey guys, I found a cool project!
 
 Check out Free-Hit🏏, an open-source App for discovering free and helpful tools that cater to our needs
     
@@ -22,8 +22,8 @@ https://github.com/JasonDsouza212/free-hit`
           </label>
           <nav id="sidebar">
             <ul className="list-items">
-              <li><a href="/"><i class="ri-home-4-fill"></i>Home</a></li>
-              <li><a href="/bookmarks"><i class="ri-bookmark-fill"></i>Bookmarks</a></li>
+              <li><a href="/"><i classname="ri-home-4-fill"></i>Home</a></li>
+              <li><a href="/bookmarks"><i classname="ri-bookmark-fill"></i>Bookmarks</a></li>
               <li><TwitterButton message={msg} /></li>
             </ul>
           </nav>

@@ -1013,7 +1013,6 @@
     "image": "https://ogp.me/logo.png",
     "link": "https://www.opengraph.xyz/",
     "description": "Free Meta Tag Generator and preview all Open Graph meta tags in one place"
-
   },
   {
     "productName": "Testing Playground",
@@ -1050,7 +1049,6 @@
     "link": "https://rb.gy/o9zip",
     "description": "Accelerate your writing in the browser using AI"
   },
-
   {
     "productName": "Screencastify",
     "category": "extensions",
@@ -1072,14 +1070,13 @@
     "link": "https://rb.gy/muo7f",
     "description": "Extract CSS and build beautiful styleguides."
   },
-   {
+  {
     "productName": "I2Symbol",
     "category": "tools",
     "image": "https://bit.ly/3LIdEVo",
     "link": "https://www.i2symbol.com/",
     "description": "Website with loads of symbols, smileys, emojis, stickers to choose from."
   },
-
   {
     "productName": "Clear Cache",
     "category": "extensions",
