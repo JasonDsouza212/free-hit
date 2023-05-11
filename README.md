@@ -1,7 +1,7 @@
 <div id="header" align="center">
     <h1>🔥 Free-Hit </h1>
     <h3><strong><em>Your search ends here 🔍</em></strong></h3>
-  <img src="https://user-images.githubusercontent.com/97371915/230788547-134fdc3f-6e30-4c3d-affa-ade0a572e294.png" alt="home page of the website"><br>
+  <img src="https://github.com/JasonDsouza212/free-hit/assets/88102392/7d3f8704-6220-470c-addb-3f3cb28789db" alt="home page of the website"><br>
     <!-- to change tagline if necessary -->
     </div> <br>
 
