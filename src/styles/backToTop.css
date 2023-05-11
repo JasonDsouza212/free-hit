@@ -22,7 +22,10 @@
   align-items: center;
   cursor: pointer;
   color: white;
-  background-color: #5432c5;
+  background-color: #1f1f1f;
+}
+.backToTopButton i{
+  font-size: 24px;
 }
 
 .transition-after:hover {

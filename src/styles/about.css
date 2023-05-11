@@ -1,0 +1,72 @@
+/* ======================about start */
+
+.about {
+  display: grid;
+  justify-content: center;
+  margin: 100px 100px;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+.about .ab1 {
+  display: flex;
+  margin-bottom: 40px;
+}
+
+.about .ab1 p {
+  margin-right: 100px;
+  font-size: 32px;
+  font-weight: 550;
+  position: relative;
+  top: 30%;
+  font-family: 'Josefin Slab', serif;
+}
+
+.about .ab2 {
+  display: flex;
+}
+
+.about .ab2 p {
+  margin-left: 100px;
+  font-size: 32px;
+  font-weight: 550;
+  position: relative;
+  top: 10%;
+  font-family: 'Josefin Slab', serif;
+}
+
+.about p button {
+  background-color: var(--primary-black);
+  padding: 8px 25px;
+}
+
+.about p button a {
+  text-decoration: none;
+  color: var(--primary-white);
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'Josefin Slab', serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+.about p button:hover {
+  background-color: var(--primary-white);
+  padding: 8px 25px;
+  transition: all 0.3s ease-out;
+}
+
+.about p button:hover a {
+  color: var(--primary-black);
+}
+
+.about img {
+  width: 400px;
+  height: 400px;
+}
+
+.bold {
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+/* about end */

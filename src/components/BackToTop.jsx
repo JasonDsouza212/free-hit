@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react'
-import { ArrowUp } from "./Icons"
 import { Link } from 'react-scroll'
 
 const BackToTopButton = () => {
@@ -21,7 +20,7 @@ const BackToTopButton = () => {
     return (
         <Link onClick={handleScroll} to="Top" smooth duration={500}>
             <div className={` ${!btnVisiblity ?"transition-before": "transition-after"} backToTopButton`}>
-                <ArrowUp />
+                <i class="ri-arrow-up-s-line"></i>
             </div>
         </Link>
     )
