@@ -1,18 +1,13 @@
-import React,{useContext} from 'react';
-import Header from "./header";
-import { ToolContext } from '../App';
-
+import React, { useContext } from 'react'
+import Header from './header'
+import { ToolContext } from '../App'
 
 const BookMarks = ({ length }) => {
-
-  const {
-    category,
-    bookmarkfilteredProducts,
-    deleteres
-  }=useContext(ToolContext)
+  const { category, bookmarkfilteredProducts, deleteres } =
+    useContext(ToolContext)
   return (
     <>
-      <Header/>
+      <Header />
       <div className="card-container">
         {length === 0 ? (
           <p className="no-results">Sorry, no BookMarks to Show</p>
@@ -28,18 +23,26 @@ const BookMarks = ({ length }) => {
                     </h3>
                     <p>{product.description}</p>
                     <div className="btn-cont">
-                      <button><a target="_blank" href={product.link}>Visit</a></button>
-                      <button onClick={() => deleteres(product)}><a href="#">Delete <i className="ri-bookmark-fill"></i></a></button>
+                      <button>
+                        <a target="_blank" href={product.link}>
+                          Visit
+                        </a>
+                      </button>
+                      <button onClick={() => deleteres(product)}>
+                        <a href="#">
+                          Delete <i className="ri-bookmark-fill"></i>
+                        </a>
+                      </button>
                     </div>
                   </div>
                 </article>
-              ) : null;
+              ) : null
             })}
           </main>
         )}
       </div>
     </>
-  );
-};
+  )
+}
 
-export default BookMarks;
+export default BookMarks
