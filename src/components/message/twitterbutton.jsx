@@ -1,16 +1,18 @@
-import React from 'react';
+import React from 'react'
 
 const TwitterButton = ({ message }) => {
   const handleClick = () => {
-    const twitterUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(message)}`;
-    window.open(twitterUrl, '_blank');
-  };
+    const twitterUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(
+      message
+    )}`
+    window.open(twitterUrl, '_blank')
+  }
 
   return (
     <a href="#" onClick={handleClick}>
       <i classname="ri-twitter-fill"></i> Share it
     </a>
-  );
-};
+  )
+}
 
-export default TwitterButton;
+export default TwitterButton
