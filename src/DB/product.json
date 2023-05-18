@@ -1141,11 +1141,17 @@
     "description": "Combines the power of AI and human creativity to help create content."
   },
   {
-
     "productName": "Fontshare",
     "category": "tools",
     "image": "https://bit.ly/41yNIl3",
     "link": "https://www.fontshare.com/",
     "description": "A growing collection of professional grade fonts that are 100% free for personal and commercial use."
-  }  
+  },
+  {
+    "productName": "Url Shortener",
+    "category": "extensions",
+    "image": "https://rb.gy/v7iil",
+    "link": "https://rb.gy/wgfdz",
+    "description": "The quickest and easiest way to shorten URLs in your browser."
+  }
 ]
