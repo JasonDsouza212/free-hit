@@ -20,6 +20,13 @@
     "link": "https://flowcv.com/",
     "description": "A tool that is used to create beautiful resumes"
   },
+  { 
+    "productName": "Awesome Screen Capture And Recorder",
+    "category": "tools",
+    "image": "https://ibb.co/5h1yDpv",
+    "link": "https://www.awesomescreenshot.com/",
+    "description": "A tool that is used to capture customize screenshot and screen recorder"
+    },
   {
     "productName": "Wonsulting",
     "category": "ai",
@@ -1120,11 +1127,25 @@
     "description": "Helps you create stunning presentations in minutes."
   },
   {
+    "productName": "OneTab",
+    "category": "extensions",
+    "image": "https://bit.ly/3BsSmX2",
+    "link": "https://bit.ly/3Ocgoxe",
+    "description": "OneTab convert all of your tabs into a list and saves them"
+  },
+  {
     "productName": "Writesonic",
     "category": "ai",
     "image": "https://rb.gy/fvwkd",
     "link": "https://writesonic.com/",
     "description": "Combines the power of AI and human creativity to help create content."
+  },
+  {
+    "productName": "Fontshare",
+    "category": "tools",
+    "image": "https://bit.ly/41yNIl3",
+    "link": "https://www.fontshare.com/",
+    "description": "A growing collection of professional grade fonts that are 100% free for personal and commercial use."
   },
   {
     "productName": "Url Shortener",
