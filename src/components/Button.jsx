@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 
 const Button = ({ button: { category, name, icon }, filterProduct }) => {
   return (
@@ -8,7 +8,7 @@ const Button = ({ button: { category, name, icon }, filterProduct }) => {
         {name}
       </a>
     </li>
-  );
-};
+  )
+}
 
-export default Button;
+export default Button

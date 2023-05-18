@@ -20,6 +20,13 @@
     "link": "https://flowcv.com/",
     "description": "A tool that is used to create beautiful resumes"
   },
+  { 
+    "productName": "Awesome Screen Capture And Recorder",
+    "category": "tools",
+    "image": "https://ibb.co/5h1yDpv",
+    "link": "https://www.awesomescreenshot.com/",
+    "description": "A tool that is used to capture customize screenshot and screen recorder"
+    },
   {
     "productName": "Wonsulting",
     "category": "ai",
@@ -1106,6 +1113,28 @@
     "description": "Craft engaging posts with AI, schedule effortlessly and watch your followers grow."
   },
   {
+    "productName": "tl;dv",
+    "category": "ai",
+    "image": "https://rb.gy/n2l6w",
+    "link": "https://tldv.io/",
+    "description": "AI-Powered Meeting Recorder for Zoom and Google Meet."
+  },
+  {
+    "productName": "Beautiful AI",
+    "category": "ai",
+    "image": "https://rb.gy/fcnrr",
+    "link": "https://www.beautiful.ai/",
+    "description": "Helps you create stunning presentations in minutes."
+  },
+  {
+    "productName": "Writesonic",
+    "category": "ai",
+    "image": "https://rb.gy/fvwkd",
+    "link": "https://writesonic.com/",
+    "description": "Combines the power of AI and human creativity to help create content."
+  },
+  {
+
     "productName": "Fontshare",
     "category": "tools",
     "image": "https://bit.ly/41yNIl3",
