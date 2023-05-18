@@ -20,6 +20,13 @@
     "link": "https://flowcv.com/",
     "description": "A tool that is used to create beautiful resumes"
   },
+  { 
+    "productName": "Awesome Screen Capture And Recorder",
+    "category": "tools",
+    "image": "https://ibb.co/5h1yDpv",
+    "link": "https://www.awesomescreenshot.com/",
+    "description": "A tool that is used to capture customize screenshot and screen recorder"
+    },
   {
     "productName": "Wonsulting",
     "category": "ai",
