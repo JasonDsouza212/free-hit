@@ -1,3 +1,6 @@
+import React, { useContext, useState } from 'react';
+import { ToolContext } from './App';
+
 const ButtonLinks = [
   {
     id: 1,
@@ -47,6 +50,33 @@ const ButtonLinks = [
     category: 'tools',
     icon: 'ri-tools-fill',
   },
-]
+];
 
+const Categories = () => {
+  const { filterProduct } = useContext(ToolContext);
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const handleMenuClick = (category) => {
+    filterProduct(category);
+    setIsMenuOpen(false); // Close the side menu
+  };
+
+  return (
+    <>
+      <button onClick={() => setIsMenuOpen(!isMenuOpen)}>Open/Close Menu</button>
+      {isMenuOpen && (
+        <ul className="side-menu">
+          {ButtonLinks.map((button) => (
+            <li key={button.id} onClick={() => handleMenuClick(button.category)}>
+              <i className={button.icon}></i>
+              {button.name}
+            </li>
+          ))}
+        </ul>
+      )}
+    </>
+  );
+};
+
+export default Categories;
 export default ButtonLinks
