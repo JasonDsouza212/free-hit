@@ -20,13 +20,13 @@
     "link": "https://flowcv.com/",
     "description": "A tool that is used to create beautiful resumes"
   },
-  { 
+  {
     "productName": "Awesome Screen Capture And Recorder",
     "category": "tools",
     "image": "https://ibb.co/5h1yDpv",
     "link": "https://www.awesomescreenshot.com/",
     "description": "A tool that is used to capture customize screenshot and screen recorder"
-    },
+  },
   {
     "productName": "Wonsulting",
     "category": "ai",
@@ -1153,5 +1153,12 @@
     "image": "https://rb.gy/v7iil",
     "link": "https://rb.gy/wgfdz",
     "description": "The quickest and easiest way to shorten URLs in your browser."
+  },
+  {
+    "productName": "IT - TOOLS",
+    "category": "tools",
+    "image": "https://t.ly/iNPq",
+    "link": "https://it-tools.tech/",
+    "description": "Handy Tools for developers"
   }
 ]
