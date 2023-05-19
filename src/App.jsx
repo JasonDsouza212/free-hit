@@ -8,15 +8,15 @@ import BookMarks from './components/bookmarks';
 import BackToTopButton from './components/BackToTop';
 import Commonpage from './components/Commonpage';
 
-const ToolContext = createContext()
-const LOCAL_STORAGE_KEY = 'freehit.bookmarks'
+const ToolContext = createContext();
+const LOCAL_STORAGE_KEY = 'freehit.bookmarks';
 
 function App() {
   const [category, setCategory] = useState('all');
   const [searchTerm, setSearchTerm] = useState('');
-  const [sideMenuOpen, setSideMenuOpen] = useState(false); // State for side menu
+  const [isMenuOpen, setIsMenuOpen] = useState(false); // Add isMenuOpen state
 
-  // all products
+    // all products
   const [productNames, setProductNames] = useState(
     products?.map((product) => product.productName) || []
   );
@@ -167,18 +167,8 @@ function App() {
 
   return (
     <>
-      <ToolContext.Provider value={toolContextValue} >
+      <ToolContext.Provider value={toolContextValue}>
         <Routes>
-    <div className={`side-menu ${sideMenuOpen ? 'open' : ''}`}>
-  <ul>
-    <li onClick={() => filterProduct('all')}>All</li>
-    <li onClick={() => filterProduct('category1')}>Category 1</li>
-    <li onClick={() => filterProduct('category2')}>Category 2</li>
-    <li onClick={() => filterProduct('category3')}>Category 3</li>
-    {/* Add more categories as needed */}
-  </ul>
-</div>
-
           <Route path="/" element={<Card length={filteredProducts.length} />} />
           <Route path="/about" element={<About />} />
           <Route
@@ -187,12 +177,13 @@ function App() {
           />
           <Route path="*" element={<Commonpage />} />
         </Routes>
+        <Categories isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} /> {/* Pass isMenuOpen and setIsMenuOpen */}
         <Footer />
         <BackToTopButton />
       </ToolContext.Provider>
     </>
-  )
+  );
 }
 
-export default App
-export { ToolContext }
+export default App;
+export { ToolContext };
