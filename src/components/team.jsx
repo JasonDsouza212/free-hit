@@ -13,7 +13,7 @@ const Team = () => {
       <div className="team-content">
         <div className="box">
           <img src={con1} />
-          <h3>Abshiek k</h3>
+          <h3>Abhishek K</h3>
           <h5>Designer</h5>
           <div className="icons">
             <a href="https://twitter.com/bobsstwt">
