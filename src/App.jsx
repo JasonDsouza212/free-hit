@@ -1,49 +1,53 @@
-import React, { useState, useEffect, createContext } from 'react'
-import { Route, Routes } from 'react-router-dom'
-import Card from './components/card'
-import Footer from './components/footer'
-import About from './components/about'
-import products from './DB/product.json'
-import BookMarks from './components/bookmarks'
-import BackToTopButton from './components/BackToTop'
-import Commonpage from './components/Commonpage'
+import React, { useState, useEffect, createContext } from 'react';
+import { Route, Routes } from 'react-router-dom';
+import Card from './components/card';
+import Footer from './components/footer';
+import About from './components/about';
+import products from './DB/product.json';
+import BookMarks from './components/bookmarks';
+import BackToTopButton from './components/BackToTop';
+import Commonpage from './components/Commonpage';
 
 const ToolContext = createContext()
 const LOCAL_STORAGE_KEY = 'freehit.bookmarks'
 
 function App() {
-  const [category, setCategory] = useState('all')
-  const [searchTerm, setSearchTerm] = useState('')
+  const [category, setCategory] = useState('all');
+  const [searchTerm, setSearchTerm] = useState('');
+  const [sideMenuOpen, setSideMenuOpen] = useState(false); // State for side menu
 
   // all products
   const [productNames, setProductNames] = useState(
     products?.map((product) => product.productName) || []
-  )
-  const [filteredSuggestions, setFilteredSuggestions] = useState([])
+  );
+  const [filteredSuggestions, setFilteredSuggestions] = useState([]);
 
   // all Bookmarks
-  const [bookmarkfiltersuggestions, setBookmarkfiltersuggestions] = useState([])
-  const [bookmarks, setBookmarks] = useState([])
+  const [bookmarkfiltersuggestions, setBookmarkfiltersuggestions] = useState([]);
+  const [bookmarks, setBookmarks] = useState([]);
 
   const [boomarkNames, setBookmarkNames] = useState(
     bookmarks?.map((bookmark) => bookmark.productName) || []
-  )
+  );
 
   function filterProduct(value) {
-    setCategory(value)
-    filteredButtonSelected(value)
+    setCategory(value);
+    filteredButtonSelected(value);
+
+    // Close the side menu by updating the state
+    setSideMenuOpen(false);
   }
 
   // initial Storage
   useEffect(() => {
-    const bookmarkJson = localStorage.getItem(LOCAL_STORAGE_KEY)
-    if (bookmarkJson != null) setBookmarks(JSON.parse(bookmarkJson))
-    else setBookmarks([])
-  }, [])
+    const bookmarkJson = localStorage.getItem(LOCAL_STORAGE_KEY);
+    if (bookmarkJson != null) setBookmarks(JSON.parse(bookmarkJson));
+    else setBookmarks([]);
+  }, []);
 
   useEffect(() => {
-    localStorage.setItem(LOCAL_STORAGE_KEY, JSON.stringify(bookmarks))
-  }, [bookmarks])
+    localStorage.setItem(LOCAL_STORAGE_KEY, JSON.stringify(bookmarks));
+  }, [bookmarks]);
 
   // Add bookmark
   function handelBookmarkAdd(bookmark) {
@@ -163,7 +167,7 @@ function App() {
 
   return (
     <>
-      <ToolContext.Provider value={toolContextValue}>
+      <ToolContext.Provider value={toolContextValue} 
         <Routes>
           <Route path="/" element={<Card length={filteredProducts.length} />} />
           <Route path="/about" element={<About />} />
