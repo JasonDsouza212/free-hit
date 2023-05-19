@@ -167,7 +167,7 @@ function App() {
 
   return (
     <>
-      <ToolContext.Provider value={toolContextValue} 
+      <ToolContext.Provider value={toolContextValue} >
         <Routes>
           <Route path="/" element={<Card length={filteredProducts.length} />} />
           <Route path="/about" element={<About />} />
