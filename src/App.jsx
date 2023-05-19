@@ -169,6 +169,16 @@ function App() {
     <>
       <ToolContext.Provider value={toolContextValue} >
         <Routes>
+    <div className={`side-menu ${sideMenuOpen ? 'open' : ''}`}>
+  <ul>
+    <li onClick={() => filterProduct('all')}>All</li>
+    <li onClick={() => filterProduct('category1')}>Category 1</li>
+    <li onClick={() => filterProduct('category2')}>Category 2</li>
+    <li onClick={() => filterProduct('category3')}>Category 3</li>
+    {/* Add more categories as needed */}
+  </ul>
+</div>
+
           <Route path="/" element={<Card length={filteredProducts.length} />} />
           <Route path="/about" element={<About />} />
           <Route
