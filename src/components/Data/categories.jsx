@@ -78,5 +78,4 @@ const Categories = () => {
   );
 };
 
-export default Categories;
-export default ButtonLinks
+export { Categories, ButtonLinks };
