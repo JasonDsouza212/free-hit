@@ -1160,5 +1160,12 @@
     "image": "https://t.ly/iNPq",
     "link": "https://it-tools.tech/",
     "description": "Handy Tools for developers"
+  },
+  {
+    "productName": "daily.dev",
+    "category": "tools",
+    "image": "https://bit.ly/3MnJzKZ",
+    "link": "https://app.daily.dev/",
+    "description": "It is a professional network for developers to learn, collaborate, and grow together."
   }
 ]
