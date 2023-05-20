@@ -1167,5 +1167,12 @@
     "image": "https://bit.ly/3MnJzKZ",
     "link": "https://app.daily.dev/",
     "description": "It is a professional network for developers to learn, collaborate, and grow together."
+  },
+  {
+    "productName": "Tab Colorizer",
+    "category": "extensions",
+    "image": "https://rb.gy/zx7r2",
+    "link": "https://rb.gy/wgsql",
+    "description": "Helps you customize your browser's tab icon."
   }
 ]
