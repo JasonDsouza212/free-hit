@@ -171,6 +171,9 @@ nav{
 #sidebar .list-items li a i{
   margin-right: 20px;
 }
+#sidebar .list-items li a:hover{
+  cursor: pointer;
+}
 #sidebar .list-items .icons{
   width: 100%;
   height: 40px;
