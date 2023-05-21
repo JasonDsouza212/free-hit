@@ -31,11 +31,13 @@ const Card = ({ length }) => {
                     </h3>
                     <p>{product.description}</p>
                     <div className="btn-cont">
-                      <button>
-                        <a target="_blank" href={product.link}>
-                          Visit
-                        </a>
-                      </button>
+                      <a target="_blank" href={product.link}>
+                        <button className='visit'>
+                          <font color="white" size="4">
+                            Visit
+                          </font>
+                        </button>
+                      </a>
                       {bookmarkfilteredProducts.some(
                         (obj) => obj['productName'] === product.productName
                       ) ? (
@@ -45,9 +47,13 @@ const Card = ({ length }) => {
                           </a>
                         </button>
                       ) : (
-                        <button onClick={() => handelBookmarkAdd(product)}>
-                          <a href="#">Bookmark</a>
-                        </button>
+                        <a href="#">
+                          <button className='bookmark' onClick={() => handelBookmarkAdd(product)}>
+                            <font color="white" size="4">
+                              Bookmark
+                            </font>
+                          </button>
+                        </a>
                       )}
                     </div>
                   </div>
