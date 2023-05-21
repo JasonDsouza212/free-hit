@@ -23,7 +23,7 @@
   {
     "productName": "Awesome Screen Capture And Recorder",
     "category": "tools",
-    "image": "https://ibb.co/5h1yDpv",
+    "image": "https://avatars.slack-edge.com/2019-03-29/593781862471_95d3bb4cccb9b58821be_512.png",
     "link": "https://www.awesomescreenshot.com/",
     "description": "A tool that is used to capture customize screenshot and screen recorder"
   },
@@ -991,7 +991,7 @@
     "category": "extensions",
     "image": "https://bit.ly/423Iw9p",
     "link": "https://bit.ly/421AAp4",
-    "description": "taMask is an extension for accessing Ethereum enabled distributed applications, or \"Dapps\" in your browser!"
+    "description": "MetaMask is an extension for accessing Ethereum enabled distributed applications in your browser!"
   },
   {
     "productName": "Chaijs",
@@ -1167,5 +1167,19 @@
     "image": "https://t.ly/UbE1",
     "link": "https://www.scamadviser.com/",
     "description": "Free website to check and sort out reliable websites from shady ones."
+  },
+  {
+    "productName": "daily.dev",
+    "category": "tools",
+    "image": "https://bit.ly/3MnJzKZ",
+    "link": "https://app.daily.dev/",
+    "description": "It is a professional network for developers to learn, collaborate, and grow together."
+  },
+  {
+    "productName": "Tab Colorizer",
+    "category": "extensions",
+    "image": "https://rb.gy/zx7r2",
+    "link": "https://rb.gy/wgsql",
+    "description": "Helps you customize your browser's tab icon."
   }
 ]
