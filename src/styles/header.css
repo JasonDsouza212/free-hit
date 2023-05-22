@@ -25,12 +25,19 @@ nav{
 }
 
 .nav-container{
-   display: flex;
+    display: flex;
     font-size: 28px;
     font-weight: bold;
     float: left;
     color: var(--primary-black);
     text-transform: uppercase;
+}
+
+@media screen and (max-width: 360px) {
+    .nav-container{
+      float: left;
+      width: 100vw;
+    }
 }
 
 /* side navbar start */
