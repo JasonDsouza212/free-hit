@@ -38,12 +38,12 @@ const Header = () => {
               <ul className="pages-sidebar">
                 <li>
                   <a href="/">
-                    <i className="ri-home-4-fill"></i>Home
+                    <i className="ri-home-4-fill"></i> Home
                   </a>
                 </li>
                 <li>
                   <a href="/bookmarks">
-                    <i className="ri-bookmark-fill"></i>Bookmark
+                    <i className="ri-bookmark-fill"></i> Bookmark
                   </a>
                 </li>
               </ul>
