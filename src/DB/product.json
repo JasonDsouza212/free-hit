@@ -980,6 +980,13 @@
     "description": "A place of collections of Emoji"
   },
   {
+    "productName": "CleanVoice",
+    "category" : "tools",
+    "image" : "https://ibb.co/6BmfNWm",
+    "link" : "https://cleanvoice.ai/",
+    "description" : "Automatically edit your podcast episodes"
+  },
+  {
     "productName": "Redux DevTools",
     "category": "extensions",
     "image": "https://bit.ly/41NgP54",
