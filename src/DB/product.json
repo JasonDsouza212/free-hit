@@ -1195,5 +1195,12 @@
     "image": "https://bit.ly/3q2BHaA",
     "link": "https://bit.ly/3On29FU",
     "description": "AI Text to Speech Solution for Personal, Commercial, and Educational Use."
+  },
+  {
+    "productName": "BugReplay",
+    "category": "extensions",
+    "image": "https://rb.gy/njt4s",
+    "link": "https://rb.gy/k7ghv",
+    "description": "Record your screen synced with network traffic and javascript errors."
   }
 ]
