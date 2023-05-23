@@ -1,0 +1,29 @@
+.list {
+  display: flex;
+  /* align-items: center; */
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 100%;
+  padding: 50px 400px 20px;
+  gap: 20px;
+}
+
+.list article {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  border: 2px solid var(--primary-black);
+  border-radius: 8px;
+  gap: 20px;
+}
+
+.list .image .card-img {
+  width: 80px;
+  height: auto;
+}
+
+.list article .text {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
