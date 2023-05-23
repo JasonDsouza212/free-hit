@@ -26,7 +26,7 @@ const ListView = () => {
               <div className="btn-cont">
                 <a target="_blank" href={product.link}>
                   <button className="visit">
-                    <font color="white" size="4">
+                    <font color="white" size="3">
                       Visit
                     </font>
                   </button>
@@ -45,7 +45,7 @@ const ListView = () => {
                       className="bookmark"
                       onClick={() => handelBookmarkAdd(product)}
                     >
-                      <font color="white" size="4">
+                      <font color="white" size="3">
                         Bookmark
                       </font>
                     </button>
