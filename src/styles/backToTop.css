@@ -1,9 +1,13 @@
 .transition-before {
-  transform: translateY(-100vh);
+  transform: translateY(10vh);
+  /* transform: translateX(10vh);
+    transform: translate3d(10vh, 10vh, 0); */
 }
 
 .transition-after {
   transform: translateY(0);
+  /* transform: translateX(0);
+  transform: translate3d(0, 0, 0); */
 }
 
 .backToTopButton {
@@ -24,7 +28,7 @@
   color: white;
   background-color: #1f1f1f;
 }
-.backToTopButton i{
+.backToTopButton i {
   font-size: 24px;
 }
 

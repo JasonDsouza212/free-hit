@@ -1,7 +1,12 @@
 /* card css start */
+.card-container {
+  min-height: 78.7vh;
+}
+
 .grid {
   padding: 20px;
   width: 100%;
+  min-height: 55vh;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, auto));
   align-items: start;
@@ -9,7 +14,6 @@
   gap: 1rem 1rem;
   text-align: center;
   margin-top: 1rem;
-  min-height: 55vh;
   text-align: center;
 }
 
@@ -79,7 +83,7 @@ h3 .card-title {
   color: var(--primary-white);
   font-size: 16px;
   font-weight: 600;
-  font-family: "Open Sans";
+  font-family: 'Open Sans';
 }
 
 .btn-cont button i {
@@ -92,11 +96,11 @@ h3 .card-title {
   transform: scale(1.05);
 }
 
-.bookmark{
+.bookmark {
   cursor: pointer;
 }
 
-.visit{
+.visit {
   cursor: pointer;
 }
 

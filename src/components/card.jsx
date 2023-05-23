@@ -32,7 +32,7 @@ const Card = ({ length }) => {
                     <p>{product.description}</p>
                     <div className="btn-cont">
                       <a target="_blank" href={product.link}>
-                        <button className='visit'>
+                        <button className="visit">
                           <font color="white" size="4">
                             Visit
                           </font>
@@ -48,7 +48,10 @@ const Card = ({ length }) => {
                         </button>
                       ) : (
                         <a href="#">
-                          <button className='bookmark' onClick={() => handelBookmarkAdd(product)}>
+                          <button
+                            className="bookmark"
+                            onClick={() => handelBookmarkAdd(product)}
+                          >
                             <font color="white" size="4">
                               Bookmark
                             </font>

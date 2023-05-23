@@ -4,10 +4,17 @@ import freehitlogo from '../images/free-logo.png'
 import Button from './Button'
 import ButtonLinks from './Data/categories'
 import { ToolContext } from '../App'
+import { Link } from 'react-router-dom'
 
 const Header = () => {
-  const { searchTerm, setSearchTerm, filteredSuggestions, filterProduct } =
-    useContext(ToolContext)
+  const {
+    searchTerm,
+    setSearchTerm,
+    filteredSuggestions,
+    filterProduct,
+    isMenuActive,
+    setIsMenuActive,
+  } = useContext(ToolContext)
   const handleSuggestionClick = (value) => {
     document.getElementById('serch-suggestions').classList.add('diplay-none')
     setSearchTerm(value)
@@ -33,39 +40,42 @@ const Header = () => {
             <i className="fa ri-menu-fill"></i>
             <i className="fa ri-close-line"></i>
           </label>
-          <nav id="sidebar">
-            <div className="title">
-              <ul className="pages-sidebar">
-                <li>
-                  <a href="/">
-                    <i className="ri-home-4-fill"></i> Home
-                  </a>
-                </li>
-                <li>
-                  <a href="/bookmarks">
-                    <i className="ri-bookmark-fill"></i> Bookmark
-                  </a>
-                </li>
+          {isMenuActive && (
+            <nav id="sidebar">
+              <div className="title">
+                <ul className="pages-sidebar">
+                  <li>
+                    <Link to="/">
+                      <i className="ri-home-4-fill"></i> Home
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/bookmarks">
+                      <i className="ri-bookmark-fill"></i> Bookmark
+                    </Link>
+                  </li>
+                </ul>
+              </div>
+              <ul className="list-items">
+                {ButtonLinks.map((buttonLink) => (
+                  <Button
+                    key={buttonLink.id}
+                    button={buttonLink}
+                    filterProduct={filterProduct}
+                    setIsMenuActive={setIsMenuActive}
+                  />
+                ))}
               </ul>
-            </div>
-            <ul className="list-items">
-              {ButtonLinks.map((buttonLink) => (
-                <Button
-                  key={buttonLink.id}
-                  button={buttonLink}
-                  filterProduct={filterProduct}
-                />
-              ))}
-            </ul>
-          </nav>
+            </nav>
+          )}
         </div>
         <h1 className="Free-Hit">
-          <a href="/about">
+          <Link to="/about">
             <img className="free-logo" src={freehitlogo} alt="" />
-          </a>
-          <a className="free-word" href="/about">
+          </Link>
+          <Link to="/about" className="free-word">
             Free-Hit
-          </a>
+          </Link>
         </h1>
       </div>
       <div className="container">
@@ -85,7 +95,7 @@ const Header = () => {
               }}
             />
           )}
-          <div className="btn btn_common">
+          <div className="">
             <i className="fas fa-search">
               <FaSearch />
             </i>
@@ -108,10 +118,10 @@ const Header = () => {
       </div>
       <ul className="pages">
         <li>
-          <a href="/">Home</a>
+          <Link to="/">Home</Link>
         </li>
         <li>
-          <a href="/bookmarks">Bookmarks</a>
+          <Link to="/bookmarks">Bookmarks</Link>
         </li>
       </ul>
     </nav>
