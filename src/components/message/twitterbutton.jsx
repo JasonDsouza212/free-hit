@@ -10,7 +10,7 @@ const TwitterButton = ({ message }) => {
 
   return (
     <a href="#" onClick={handleClick}>
-      <i classname="ri-twitter-fill"></i> Share it
+      <i className="ri-twitter-fill"></i> Share it
     </a>
   )
 }

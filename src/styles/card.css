@@ -92,6 +92,14 @@ h3 .card-title {
   transform: scale(1.05);
 }
 
+.bookmark{
+  cursor: pointer;
+}
+
+.visit{
+  cursor: pointer;
+}
+
 .no-results {
   font-size: 2rem;
   font-weight: bold;

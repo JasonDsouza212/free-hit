@@ -364,7 +364,7 @@
   .search_box {
     width: 260px;
     top: 7px;
-    right: 100px;
+    right: 0px;
     margin: 0px 0px;
   }
 
@@ -387,13 +387,13 @@
 /* ===============================500 media query */
 @media screen and (max-width: 500px) {
   .container {
-    left: 200px;
+    left: 38%;
   }
 
   .search_box {
     width: 280px;
     top: 7px;
-    right: 40px;
+    right: 0px;
     margin: 0px 0px;
   }
 
@@ -408,6 +408,9 @@
 
 /* ===============================450 media query */
 @media screen and (max-width: 450px) {
+  .container {
+    left: 42%;
+  }
   .about {
     padding-left: 0px;
     padding-right: 0px;
@@ -454,7 +457,7 @@
   .search_box {
     width: 240px;
     top: 7px;
-    right: 30px;
+    right: 0px;
     margin: 0px 0px;
   }
 
@@ -474,10 +477,14 @@
 
 /* ===============================420px media uiry */
 @media screen and (max-width: 420px) {
+  .container {
+    left: 40%;
+  }
+
   .search_box {
     width: 240px;
     top: 7px;
-    right: 40px;
+    right: 0px;
     margin: 0px 0px;
   }
 
@@ -514,10 +521,18 @@
 
 /* ===============================380 media query */
 @media screen and (max-width: 380px) {
+  .container {
+    left: 35%;
+  }
+
+  .Free-Hit {
+    right: 70%;
+  }
+
   .search_box {
     width: 230px;
     top: 7px;
-    right: 65px;
+    right: 0px;
     margin: 0px 0px;
   }
   
@@ -608,7 +623,7 @@
     position: fixed;
     z-index: 50;
     bottom: 3rem;
-    right: 6rem;
+    right: 1.5rem;
   }
   
   .transition-before {
@@ -618,14 +633,21 @@
 
 /* ===============================350 media query */
 @media screen and (max-width: 350px) {
+  .container {
+    left: 35%;
+  }
   .navbar {
     width: 100vw;
   }
   
+  .Free-Hit {
+    right: 68%;
+  }
+
   .search_box {
-    width: 220px;
+    width: 205px;
     top: 7px;
-    right: 90px;
+    right: 0px;
     margin: 0px 0px;
   }
   
@@ -637,7 +659,7 @@
     position: fixed;
     z-index: 50;
     bottom: 3rem;
-    right: 4rem;
+    right: 1rem;
   }
   
   .grid > article {

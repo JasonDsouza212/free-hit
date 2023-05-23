@@ -21,21 +21,22 @@ https://github.com/JasonDsouza212/free-hit`
             <i className="fa ri-close-line"></i>
           </label>
           <nav id="sidebar">
-            <ul className="list-items">
-              <li>
-                <a href="/">
-                  <i classname="ri-home-4-fill"></i>Home
-                </a>
-              </li>
-              <li>
-                <a href="/bookmarks">
-                  <i classname="ri-bookmark-fill"></i>Bookmarks
-                </a>
-              </li>
-              <li>
-                <TwitterButton message={msg} />
-              </li>
-            </ul>
+          <ul className="list-items">
+            <li>
+              <a href="/">
+                <i className="ri-home-4-fill"></i> Home
+              </a>
+            </li>
+            <li>
+              <a href="/bookmarks">
+                <i className="ri-bookmark-fill"></i> Bookmarks
+              </a>
+            </li>
+            <li>
+              <TwitterButton message={msg} />
+            </li>
+          </ul>
+
           </nav>
         </div>
         <h1 className="Free-Hit">
