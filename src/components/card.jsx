@@ -33,6 +33,7 @@ const Card = ({ length }) => {
                 justifyContent: 'flex-end',
                 width: '90%',
                 gap: 12,
+                marginTop: 20,
               }}
             >
               <BsFillGridFill

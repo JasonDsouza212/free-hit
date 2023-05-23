@@ -4,8 +4,9 @@
   justify-content: flex-start;
   flex-direction: column;
   width: 100%;
-  padding: 50px 200px 20px;
   gap: 25px;
+  padding: 5px 15px;
+  margin-top: 25px;
 }
 
 .list article {
@@ -46,4 +47,11 @@
   align-items: center;
   justify-content: flex-end;
   width: 100%;
+}
+
+@media (min-width: 768px) {
+  .list {
+    padding: 50px 200px 20px;
+    margin-top: -15px;
+  }
 }
