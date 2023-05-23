@@ -15,6 +15,7 @@ const LOCAL_STORAGE_KEY = 'freehit.bookmarks'
 function App() {
   const [category, setCategory] = useState('all')
   const [searchTerm, setSearchTerm] = useState('')
+  const [gridView, setGridView] = useState(true)
 
   // all products
   const [productNames, setProductNames] = useState(
@@ -165,6 +166,8 @@ function App() {
     bookmarkfilteredProducts,
     isMenuActive,
     setIsMenuActive,
+    gridView,
+    setGridView,
   }
 
   return (
