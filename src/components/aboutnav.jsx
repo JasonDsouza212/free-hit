@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import freehitlogo from '../images/free-logo.png'
 import TwitterButton from './message/twitterbutton'
 
@@ -21,39 +22,38 @@ https://github.com/JasonDsouza212/free-hit`
             <i className="fa ri-close-line"></i>
           </label>
           <nav id="sidebar">
-          <ul className="list-items">
-            <li>
-              <a href="/">
-                <i className="ri-home-4-fill"></i> Home
-              </a>
-            </li>
-            <li>
-              <a href="/bookmarks">
-                <i className="ri-bookmark-fill"></i> Bookmarks
-              </a>
-            </li>
-            <li>
-              <TwitterButton message={msg} />
-            </li>
-          </ul>
-
+            <ul className="list-items">
+              <li>
+                <Link to="/">
+                  <i className="ri-home-4-fill"></i> Home
+                </Link>
+              </li>
+              <li>
+                <Link to="/bookmarks">
+                  <i className="ri-bookmark-fill"></i> Bookmarks
+                </Link>
+              </li>
+              <li>
+                <TwitterButton message={msg} />
+              </li>
+            </ul>
           </nav>
         </div>
         <h1 className="Free-Hit">
-          <a href="/about">
+          <Link to="/about">
             <img className="free-logo" src={freehitlogo} alt="" />
-          </a>
-          <a className="free-word " href="/about">
+          </Link>
+          <Link className="free-word " to="/about">
             Free-Hit
-          </a>
+          </Link>
         </h1>
       </div>
       <ul className="pages">
         <li>
-          <a href="/">Home</a>
+          <Link to="/">Home</Link>
         </li>
         <li>
-          <a href="/bookmarks">Bookmarks</a>
+          <Link to="/bookmarks">Bookmarks</Link>
         </li>
       </ul>
     </nav>

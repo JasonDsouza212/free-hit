@@ -982,7 +982,7 @@
   {
     "productName": "CleanVoice",
     "category" : "tools",
-    "image" : "https://ibb.co/6BmfNWm",
+    "image" : "https://cdn-1.webcatalog.io/catalog/cleanvoice/cleanvoice-icon-filled-256.webp?v=1675595285424",
     "link" : "https://cleanvoice.ai/",
     "description" : "Automatically edit your podcast episodes"
   },
@@ -1003,7 +1003,7 @@
   {
     "productName": "Chaijs",
     "category": "tools",
-    "image": "shorturl.at/yzKQ2",
+    "image": "https://cdn.icon-icons.com/icons2/2699/PNG/512/chaijs_logo_icon_168435.png",
     "link": "https://www.chaijs.com/",
     "description": "Chai is a BDD / TDD assertion library for node"
   },
