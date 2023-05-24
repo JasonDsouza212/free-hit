@@ -1,6 +1,9 @@
 import Header from './header'
 import React, { useContext } from 'react'
 import { ToolContext } from '../App'
+import GridView from './Card/GridView'
+import ListView from './Card/ListView'
+import { BsFillGridFill, BsListUl } from 'react-icons/bs'
 
 const Card = ({ length }) => {
   const {
@@ -9,58 +12,30 @@ const Card = ({ length }) => {
     handelBookmarkAdd,
     bookmarkfilteredProducts,
     deleteres,
+    gridView,
+    setGridView,
   } = useContext(ToolContext)
 
   return (
     <>
       <Header />
+      <div className="card_view">
+        <BsFillGridFill onClick={() => setGridView(true)} size={22} />
+        <BsListUl
+          onClick={() => setGridView(false)}
+          size={28}
+          color="#212121"
+        />
+      </div>
       <div className="card-container">
         {length == 0 ? (
           <p className="no-results">
             Sorry, no tools available for this search term
           </p>
+        ) : gridView ? (
+          <GridView />
         ) : (
-          <main className="grid">
-            {filteredProducts.map((product, index) => {
-              return category === 'all' || category === product.category ? (
-                <article key={index}>
-                  <div className="text">
-                    <h3>
-                      <img className="card-img" src={product.image} alt="" />
-                      <span className="card-title">{product.productName}</span>
-                    </h3>
-                    <p>{product.description}</p>
-                    <div className="btn-cont">
-                      <a target="_blank" href={product.link}>
-                        <button className='visit'>
-                          <font color="white" size="4">
-                            Visit
-                          </font>
-                        </button>
-                      </a>
-                      {bookmarkfilteredProducts.some(
-                        (obj) => obj['productName'] === product.productName
-                      ) ? (
-                        <button onClick={() => deleteres(product)}>
-                          <a href="#">
-                            Delete<i className="ri-bookmark-fill"></i>
-                          </a>
-                        </button>
-                      ) : (
-                        <a href="#">
-                          <button className='bookmark' onClick={() => handelBookmarkAdd(product)}>
-                            <font color="white" size="4">
-                              Bookmark
-                            </font>
-                          </button>
-                        </a>
-                      )}
-                    </div>
-                  </div>
-                </article>
-              ) : null
-            })}
-          </main>
+          <ListView />
         )}
       </div>
     </>

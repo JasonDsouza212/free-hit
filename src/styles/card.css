@@ -1,3 +1,23 @@
+/* Card View CSS */
+.card_view {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.card_view svg {
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .card_view {
+    margin-top: 0;
+  }
+}
+
 /* card css start */
 .grid {
   padding: 20px;
@@ -79,7 +99,7 @@ h3 .card-title {
   color: var(--primary-white);
   font-size: 16px;
   font-weight: 600;
-  font-family: "Open Sans";
+  font-family: 'Open Sans';
 }
 
 .btn-cont button i {
@@ -92,11 +112,11 @@ h3 .card-title {
   transform: scale(1.05);
 }
 
-.bookmark{
+.bookmark {
   cursor: pointer;
 }
 
-.visit{
+.visit {
   cursor: pointer;
 }
 
