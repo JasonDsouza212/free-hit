@@ -13,6 +13,13 @@
     "link": "https://fontawesome.com/",
     "description": "Internet's icon library and toolkit, used by millions of designers, developers, and content creators"
   },
+   {
+    "productName": "ChatGPT Writer",
+    "category": "tools",
+    "image": "https://ibb.co/fGNMdTk",
+    "link": "https://chatgptwriter.ai/",
+    "description": "Write emails & messages, fix grammar mistakes, rephrase text, change writing tone, summarize text, and much more using ChatGPT AI."
+  },
   {
     "productName": "Flow CV",
     "category": "resume",
