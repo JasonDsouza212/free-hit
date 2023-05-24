@@ -25,14 +25,14 @@ const Card = ({ length }) => {
               return category === 'all' || category === product.category ? (
                 <article key={index}>
                   <div className="text">
-                    <h3>
+                    <div className="card-head">
                       <img className="card-img" src={product.image} alt="" />
-                      <span className="card-title">{product.productName}</span>
-                    </h3>
+                      <h3 className="card-title">{product.productName}</h3>
+                    </div>
                     <p>{product.description}</p>
                     <div className="btn-cont">
                       <a target="_blank" href={product.link}>
-                        <button className='visit'>
+                        <button className="visit">
                           <font color="white" size="4">
                             Visit
                           </font>
@@ -48,7 +48,10 @@ const Card = ({ length }) => {
                         </button>
                       ) : (
                         <a href="#">
-                          <button className='bookmark' onClick={() => handelBookmarkAdd(product)}>
+                          <button
+                            className="bookmark"
+                            onClick={() => handelBookmarkAdd(product)}
+                          >
                             <font color="white" size="4">
                               Bookmark
                             </font>
