@@ -7,14 +7,8 @@ import { ToolContext } from '../App'
 import { Link } from 'react-router-dom'
 
 const Header = () => {
-  const {
-    searchTerm,
-    setSearchTerm,
-    filteredSuggestions,
-    filterProduct,
-    isMenuActive,
-    setIsMenuActive,
-  } = useContext(ToolContext)
+  const { searchTerm, setSearchTerm, filteredSuggestions, filterProduct } =
+    useContext(ToolContext)
   const handleSuggestionClick = (value) => {
     document.getElementById('serch-suggestions').classList.add('diplay-none')
     setSearchTerm(value)

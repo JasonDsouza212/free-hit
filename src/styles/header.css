@@ -247,9 +247,8 @@ nav {
   padding: 10px 20px;
   border-radius: 100px;
   font-size: 18px;
-  background-color: var(--primary-white);
-  border: 2px solid var(--primary-black);
-  letter-spacing: 0.4px;
+  background-color: var(--primary-black);
+  color: var(--primary-white);
 }
 
 .search_box .btn {
@@ -268,7 +267,7 @@ nav {
   right: 10px;
   top: 45%;
   transform: translate(-50%, -50%);
-  color: var(--primary-black);
+  color: var(--primary-white);
   font-size: 20px;
 }
 
