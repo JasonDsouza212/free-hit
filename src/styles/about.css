@@ -3,7 +3,7 @@
 .about {
   display: grid;
   justify-content: center;
-  margin: 100px 100px;
+  margin: 100px;
   padding-left: 150px;
   padding-right: 150px;
 }
@@ -45,8 +45,7 @@
   color: var(--primary-white);
   font-size: 20px;
   font-weight: 500;
-  font-family: 'Josefin Slab', serif;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Josefin Slab', serif, 'Roboto', sans-serif;
 }
 
 .about p button:hover {

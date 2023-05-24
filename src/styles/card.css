@@ -20,7 +20,7 @@
   border: 1px solid var(--primary-black);
   box-shadow: 8px 8px 2px 0px var(--primary-black);
   background-color: var(--primary-white);
-  padding: 10px 0px;
+  padding: 10px;
   border-radius: 20px;
 }
 
@@ -42,7 +42,7 @@ img {
 }
 
 .grid .text {
-  padding: 0px 30px 0px 30px;
+  padding: 0px 30px;
   color: #000000;
   font-size: 18px;
 }
@@ -58,7 +58,7 @@ img {
   right: 10px;
 }
 
-h3 .card-title {
+h3.card-title {
   color: #000;
   text-align: left;
   position: relative;
@@ -92,11 +92,11 @@ h3 .card-title {
   transform: scale(1.05);
 }
 
-.bookmark{
+.bookmark {
   cursor: pointer;
 }
 
-.visit{
+.visit {
   cursor: pointer;
 }
 
