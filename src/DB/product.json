@@ -13,12 +13,26 @@
     "link": "https://fontawesome.com/",
     "description": "Internet's icon library and toolkit, used by millions of designers, developers, and content creators"
   },
+   {
+    "productName": "ChatGPT Writer",
+    "category": "tools",
+    "image": "https://ibb.co/fGNMdTk",
+    "link": "https://chatgptwriter.ai/",
+    "description": "Write emails & messages, fix grammar mistakes, rephrase text, change writing tone, summarize text."
+  },
   {
     "productName": "Flow CV",
     "category": "resume",
     "image": "https://bit.ly/3YnFYBJ",
     "link": "https://flowcv.com/",
     "description": "A tool that is used to create beautiful resumes"
+  },
+   {
+    "productName": "Screen Recorder",
+    "category": "tools",
+    "image": "https://shorturl.at/nBJQY",
+    "link": "https://scre.io/",
+    "description": "Record a video from the camera or capture it from the screen"
   },
   {
     "productName": "Awesome Screen Capture And Recorder",
@@ -68,6 +82,13 @@
     "image": "https://bit.ly/3RQAMDP",
     "link": "https://remoteok.com/",
     "description": "Job board for remote jobs in tech and other fields."
+  },
+   {
+    "productName": "Audio Enhancer",
+    "category": "tools",
+    "image": "https://shorturl.at/uxGQ3",
+    "link": "https://shorturl.at/AILW3",
+    "description": "Remove noise from voice recordings with speech enhancement"
   },
   {
     "productName": "Angel.co",
@@ -1202,5 +1223,34 @@
     "image": "https://rb.gy/njt4s",
     "link": "https://rb.gy/k7ghv",
     "description": "Record your screen synced with network traffic and javascript errors."
-  }
+  },
+  {
+
+    "productName": "Enhancer For Youtube",
+    "category": "extensions",
+    "image": "https://rb.gy/o9zuj",
+    "link": "https://rb.gy/wspao",
+    "description": "Enhance the YouTube viewing experience by ad blocking, adjustable video playback speed, dark mode, customizable themes"
+  },
+  {
+    "productName": "PDF24",
+    "category": "tools",
+    "image": "https://bit.ly/3MQDCYu",
+    "link": "https://bit.ly/45sK1jN",
+    "description": "One stop solution for all your pdf problems."
+  },
+  {
+    "productName": "Volume Booster",
+    "category": "extensions",
+    "image": "https://rb.gy/27sfy",
+    "link": "https://rb.gy/c3tnu",
+    "description": "Volume Booster helps boost video or music volume sound! Increase volume and bass booster, equalizer."
+  },
+  {
+    "productName": "Showwcase",
+    "category": "tools",
+    "image": "https://bit.ly/45lMQTX",
+    "link": "https://bit.ly/424VRh7",
+    "description": "Showwcase helps developers connect, build communities, and gain access to new opportunities."
+}
 ]
