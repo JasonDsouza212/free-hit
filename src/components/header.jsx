@@ -40,34 +40,31 @@ const Header = () => {
             <i className="fa ri-menu-fill"></i>
             <i className="fa ri-close-line"></i>
           </label>
-          {isMenuActive && (
-            <nav id="sidebar">
-              <div className="title">
-                <ul className="pages-sidebar">
-                  <li>
-                    <Link to="/">
-                      <i className="ri-home-4-fill"></i> Home
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="/bookmarks">
-                      <i className="ri-bookmark-fill"></i> Bookmark
-                    </Link>
-                  </li>
-                </ul>
-              </div>
-              <ul className="list-items">
-                {ButtonLinks.map((buttonLink) => (
-                  <Button
-                    key={buttonLink.id}
-                    button={buttonLink}
-                    filterProduct={filterProduct}
-                    setIsMenuActive={setIsMenuActive}
-                  />
-                ))}
+          <nav id="sidebar">
+            <div className="title">
+              <ul className="pages-sidebar">
+                <li>
+                  <Link to="/">
+                    <i className="ri-home-4-fill"></i> Home
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/bookmarks">
+                    <i className="ri-bookmark-fill"></i> Bookmark
+                  </Link>
+                </li>
               </ul>
-            </nav>
-          )}
+            </div>
+            <ul className="list-items">
+              {ButtonLinks.map((buttonLink) => (
+                <Button
+                  key={buttonLink.id}
+                  button={buttonLink}
+                  filterProduct={filterProduct}
+                />
+              ))}
+            </ul>
+          </nav>
         </div>
         <h1 className="Free-Hit">
           <Link to="/about">

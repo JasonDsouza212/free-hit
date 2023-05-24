@@ -7,7 +7,6 @@ import products from './DB/product.json'
 import BookMarks from './components/bookmarks'
 import BackToTopButton from './components/BackToTop'
 import Commonpage from './components/Commonpage'
-import FooterNew from './components/FooterNew'
 
 const ToolContext = createContext()
 const LOCAL_STORAGE_KEY = 'freehit.bookmarks'
@@ -180,8 +179,7 @@ function App() {
           />
           <Route path="*" element={<Commonpage />} />
         </Routes>
-        {/* <Footer /> */}
-        <FooterNew />
+        <Footer />
         <BackToTopButton />
       </ToolContext.Provider>
     </>
