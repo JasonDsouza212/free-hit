@@ -1,4 +1,10 @@
 /* card css start */
+.card-head {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
 .grid {
   padding: 20px;
   width: 100%;
@@ -79,7 +85,7 @@ h3 .card-title {
   color: var(--primary-white);
   font-size: 16px;
   font-weight: 600;
-  font-family: "Open Sans";
+  font-family: 'Open Sans';
 }
 
 .btn-cont button i {
@@ -92,11 +98,11 @@ h3 .card-title {
   transform: scale(1.05);
 }
 
-.bookmark{
+.bookmark {
   cursor: pointer;
 }
 
-.visit{
+.visit {
   cursor: pointer;
 }
 
