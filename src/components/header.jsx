@@ -114,6 +114,9 @@ const Header = () => {
         <li>
           <Link to="/bookmarks">Bookmarks</Link>
         </li>
+        <li>
+          <a href="/about">About</a>
+        </li>
       </ul>
     </nav>
   )
