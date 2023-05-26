@@ -33,11 +33,6 @@ https://github.com/JasonDsouza212/free-hit`
               </a>
             </li>
             <li>
-              <a href="/about">
-                <i className="ri-bookmark-fill"></i> About
-              </a>
-            </li>
-            <li>
               <TwitterButton message={msg} />
             </li>
           </ul>
@@ -58,6 +53,9 @@ https://github.com/JasonDsouza212/free-hit`
         </li>
         <li>
           <a href="/bookmarks">Bookmarks</a>
+        </li>
+        <li>
+          <a href="/about">About</a>
         </li>
       </ul>
     </nav>
