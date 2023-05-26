@@ -1,4 +1,8 @@
 const Footer = () => {
+  // gettin year dynamically
+  const date = new Date();
+  const year = date.getFullYear();
+  console.log(year);
   return (
     <footer>
       <div className="footer-content">
@@ -37,7 +41,7 @@ const Footer = () => {
       </div>
       <div className="footer-bottom">
         <p>
-          copyright &copy;2023 <b>Free-Hit</b>
+          copyright &copy;{year} <b>Free-Hit</b>
           <br />
           Maintained by{' '}
           <span className="maintainer">

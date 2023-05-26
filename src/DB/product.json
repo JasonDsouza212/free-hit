@@ -16,7 +16,7 @@
   {
     "productName": "ChatGPT Writer",
     "category": "tools",
-    "image": "https://ibb.co/fGNMdTk",
+    "image": "https://is.gd/ay5HYZ",
     "link": "https://chatgptwriter.ai/",
     "description": "Write emails & messages, fix grammar mistakes, rephrase text, change writing tone, summarize text."
   },
@@ -282,7 +282,7 @@
   {
     "productName": "futurepedia",
     "category": "tools",
-    "image": "https://www.futurepedia.io/futurepedia-small.svg",
+    "image": "https://is.gd/qAYeL2",
     "link": "https://www.futurepedia.io/",
     "description": "Wiki and community for the Back to the Future franchise."
   },
@@ -1006,6 +1006,7 @@
     "image": "https://ibb.co/6BmfNWm",
     "link": "https://cleanvoice.ai/",
     "description": "Automatically edit your podcast episodes"
+
   },
   {
     "productName": "Redux DevTools",
@@ -1024,7 +1025,7 @@
   {
     "productName": "Chaijs",
     "category": "tools",
-    "image": "shorturl.at/yzKQ2",
+    "image": "https://is.gd/UcyQiZ",
     "link": "https://www.chaijs.com/",
     "description": "Chai is a BDD / TDD assertion library for node"
   },
@@ -1059,7 +1060,7 @@
   {
     "productName": "unDraw",
     "category": "tools",
-    "image": "https://bit.ly/3LqjzOT",
+    "image": "https://is.gd/VQBVZP",
     "link": "https://undraw.co/",
     "description": "Create better designed websites, products and applications"
   },
@@ -1094,7 +1095,7 @@
   {
     "productName": "FuturePedia",
     "category": "tools",
-    "image": " https://bit.ly/42M17ar",
+    "image": "https://is.gd/qAYeL2",
     "link": "https://www.futurepedia.io/",
     "description": "THE LARGEST AI TOOLS DIRECTORY, UPDATED DAILY"
   },
@@ -1185,7 +1186,7 @@
   {
     "productName": "IT - TOOLS",
     "category": "tools",
-    "image": "https://t.ly/iNPq",
+    "image": "https://is.gd/ejPslc",
     "link": "https://it-tools.tech/",
     "description": "Handy Tools for developers"
   },
@@ -1248,7 +1249,7 @@
   {
     "productName": "Showwcase",
     "category": "tools",
-    "image": "https://bit.ly/45lMQTX",
+    "image": "https://is.gd/3ITVcB",
     "link": "https://bit.ly/424VRh7",
     "description": "Showwcase helps developers connect, build communities, and gain access to new opportunities."
   },
@@ -1258,5 +1259,49 @@
     "image": "https://rb.gy/zc62y",
     "link": "https://rb.gy/18vlo",
     "description": "Lets you download web pages as PDF in one click."
-  }
+  
+},
+{
+  "productName": "Fatkun",
+  "category": "tools",
+  "image": "https://bit.ly/43mbOkf",
+  "link": "https://bit.ly/3OzgP4V",
+  "description": "Fatkun helps users download all pictures on the page with one click."
+},
+{
+    "productName": "Stack Overflow",
+    "category": "tools",
+    "image": "https://bit.ly/3oyl7Pa",
+    "link": "https://bit.ly/43s8OTh",
+    "description": "Stack Overflow is a question and answer website for programmers. It is the flagship site of the Stack Exchange Network."
+},
+{
+    "productName": "Linkedin",
+    "category": "remote",
+    "image": "https://bit.ly/43gXwRY",
+    "link": "https://bit.ly/427YkYr",
+    "description": "LinkedIn is a business and employment-focused social media platform that works through websites and mobile apps."
+},
+{
+  "productName": "Reduce Images",
+  "category": "tools",
+  "image": "https://bit.ly/43oj2En",
+  "link": "https://bit.ly/45xxiN6",
+  "description": "Reduce Images is a website for resizing of various size photos that required during various forms filling."
+},
+{
+  "productName": "CSS Shadows",
+  "category": "tools",
+  "image": "https://bit.ly/3MA7PtJ",
+  "link": "https://bit.ly/3BVJM3j",
+  "description": "Gives custom CSS shadow designs to users to reduce time and give a lot of ideas "
+},
+ {
+  "productName": "SD moviespoint",
+  "category": "movies",
+  "image": "https://bit.ly/3WyaTei",
+  "link": "https://bit.ly/3BTxMiW",
+  "description": "Download all latest Movies from here free."
+}
+
 ]
