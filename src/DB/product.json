@@ -13,7 +13,7 @@
     "link": "https://fontawesome.com/",
     "description": "Internet's icon library and toolkit, used by millions of designers, developers, and content creators"
   },
-   {
+  {
     "productName": "ChatGPT Writer",
     "category": "tools",
     "image": "https://is.gd/ay5HYZ",
@@ -27,7 +27,7 @@
     "link": "https://flowcv.com/",
     "description": "A tool that is used to create beautiful resumes"
   },
-   {
+  {
     "productName": "Screen Recorder",
     "category": "tools",
     "image": "https://shorturl.at/nBJQY",
@@ -83,7 +83,7 @@
     "link": "https://remoteok.com/",
     "description": "Job board for remote jobs in tech and other fields."
   },
-   {
+  {
     "productName": "Audio Enhancer",
     "category": "tools",
     "image": "https://shorturl.at/uxGQ3",
@@ -1002,10 +1002,11 @@
   },
   {
     "productName": "CleanVoice",
-    "category" : "tools",
-    "image" : "https://is.gd/9hmFCc",
-    "link" : "https://cleanvoice.ai/",
-    "description" : "Automatically edit your podcast episodes"
+    "category": "tools",
+    "image": "https://ibb.co/6BmfNWm",
+    "link": "https://cleanvoice.ai/",
+    "description": "Automatically edit your podcast episodes"
+
   },
   {
     "productName": "Redux DevTools",
@@ -1225,7 +1226,6 @@
     "description": "Record your screen synced with network traffic and javascript errors."
   },
   {
-
     "productName": "Enhancer For Youtube",
     "category": "extensions",
     "image": "https://rb.gy/o9zuj",
@@ -1252,6 +1252,14 @@
     "image": "https://is.gd/3ITVcB",
     "link": "https://bit.ly/424VRh7",
     "description": "Showwcase helps developers connect, build communities, and gain access to new opportunities."
+  },
+  {
+    "productName": "Save as PDF",
+    "category": "extensions",
+    "image": "https://rb.gy/zc62y",
+    "link": "https://rb.gy/18vlo",
+    "description": "Lets you download web pages as PDF in one click."
+  
 },
 {
   "productName": "Fatkun",
@@ -1287,11 +1295,13 @@
   "image": "https://bit.ly/3MA7PtJ",
   "link": "https://bit.ly/3BVJM3j",
   "description": "Gives custom CSS shadow designs to users to reduce time and give a lot of ideas "
-},{
+},
+ {
   "productName": "SD moviespoint",
   "category": "movies",
   "image": "https://bit.ly/3WyaTei",
   "link": "https://bit.ly/3BTxMiW",
   "description": "Download all latest Movies from here free."
 }
+
 ]
