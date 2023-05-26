@@ -16,7 +16,7 @@
    {
     "productName": "ChatGPT Writer",
     "category": "tools",
-    "image": "https://shorturl.at/yQXZ4",
+    "image": "https://is.gd/ay5HYZ",
     "link": "https://chatgptwriter.ai/",
     "description": "Write emails & messages, fix grammar mistakes, rephrase text, change writing tone, summarize text."
   },
@@ -282,7 +282,7 @@
   {
     "productName": "futurepedia",
     "category": "tools",
-    "image": "https://shorturl.at/ipDSU",
+    "image": "https://is.gd/qAYeL2",
     "link": "https://www.futurepedia.io/",
     "description": "Wiki and community for the Back to the Future franchise."
   },
@@ -1003,7 +1003,7 @@
   {
     "productName": "CleanVoice",
     "category" : "tools",
-    "image" : "https://cdn-1.webcatalog.io/catalog/cleanvoice/cleanvoice-icon-filled-256.webp?v=1675595285424",
+    "image" : "https://is.gd/9hmFCc",
     "link" : "https://cleanvoice.ai/",
     "description" : "Automatically edit your podcast episodes"
   },
@@ -1024,7 +1024,7 @@
   {
     "productName": "Chaijs",
     "category": "tools",
-    "image": "https://cdn.icon-icons.com/icons2/2699/PNG/512/chaijs_logo_icon_168435.png",
+    "image": "https://is.gd/UcyQiZ",
     "link": "https://www.chaijs.com/",
     "description": "Chai is a BDD / TDD assertion library for node"
   },
@@ -1059,7 +1059,7 @@
   {
     "productName": "unDraw",
     "category": "tools",
-    "image": "https://shorturl.at/flr47",
+    "image": "https://is.gd/VQBVZP",
     "link": "https://undraw.co/",
     "description": "Create better designed websites, products and applications"
   },
@@ -1094,7 +1094,7 @@
   {
     "productName": "FuturePedia",
     "category": "tools",
-    "image": " https://bit.ly/42M17ar",
+    "image": "https://is.gd/qAYeL2",
     "link": "https://www.futurepedia.io/",
     "description": "THE LARGEST AI TOOLS DIRECTORY, UPDATED DAILY"
   },
@@ -1185,7 +1185,7 @@
   {
     "productName": "IT - TOOLS",
     "category": "tools",
-    "image": "https://shorturl.at/xDOP9",
+    "image": "https://is.gd/ejPslc",
     "link": "https://it-tools.tech/",
     "description": "Handy Tools for developers"
   },
@@ -1249,7 +1249,7 @@
   {
     "productName": "Showwcase",
     "category": "tools",
-    "image": "https://shorturl.at/mEKU8",
+    "image": "https://is.gd/3ITVcB",
     "link": "https://bit.ly/424VRh7",
     "description": "Showwcase helps developers connect, build communities, and gain access to new opportunities."
 },
@@ -1273,5 +1273,25 @@
     "image": "https://bit.ly/43gXwRY",
     "link": "https://bit.ly/427YkYr",
     "description": "LinkedIn is a business and employment-focused social media platform that works through websites and mobile apps."
+},
+{
+  "productName": "Reduce Images",
+  "category": "tools",
+  "image": "https://bit.ly/43oj2En",
+  "link": "https://bit.ly/45xxiN6",
+  "description": "Reduce Images is a website for resizing of various size photos that required during various forms filling."
+},
+{
+  "productName": "CSS Shadows",
+  "category": "tools",
+  "image": "https://bit.ly/3MA7PtJ",
+  "link": "https://bit.ly/3BVJM3j",
+  "description": "Gives custom CSS shadow designs to users to reduce time and give a lot of ideas "
+},{
+  "productName": "SD moviespoint",
+  "category": "movies",
+  "image": "https://bit.ly/3WyaTei",
+  "link": "https://bit.ly/3BTxMiW",
+  "description": "Download all latest Movies from here free."
 }
 ]
