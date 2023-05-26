@@ -1,6 +1,6 @@
 /* Card View CSS */
 .card_view {
-  width: 90%;
+  width: 95%;
   display: flex;
   align-items: center;
   justify-content: flex-end;
@@ -14,7 +14,7 @@
 
 @media (min-width: 768px) {
   .card_view {
-    margin-top: 0;
+    margin-top: 20px;
   }
 }
 
