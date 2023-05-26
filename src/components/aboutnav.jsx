@@ -39,10 +39,10 @@ https://github.com/JasonDsouza212/free-hit`
           </nav>
         </div>
         <h1 className="Free-Hit">
-          <a href="/about">
+          <a href="/">
             <img className="free-logo" src={freehitlogo} alt="" />
           </a>
-          <a className="free-word " href="/about">
+          <a className="free-word " href="/">
             Free-Hit
           </a>
         </h1>
