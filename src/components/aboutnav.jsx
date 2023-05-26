@@ -33,10 +33,14 @@ https://github.com/JasonDsouza212/free-hit`
               </a>
             </li>
             <li>
+              <a href="/about">
+                <i className="ri-bookmark-fill"></i> About
+              </a>
+            </li>
+            <li>
               <TwitterButton message={msg} />
             </li>
           </ul>
-
           </nav>
         </div>
         <h1 className="Free-Hit">
