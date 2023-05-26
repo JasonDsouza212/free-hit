@@ -36,7 +36,6 @@ https://github.com/JasonDsouza212/free-hit`
               <TwitterButton message={msg} />
             </li>
           </ul>
-
           </nav>
         </div>
         <h1 className="Free-Hit">
