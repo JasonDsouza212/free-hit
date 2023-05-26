@@ -39,7 +39,7 @@
 }
 
 .list .text p {
-  max-width: 600px;
+  max-width: 100%;
 }
 
 .list .btn-cont {
@@ -51,7 +51,28 @@
 
 @media (min-width: 768px) {
   .list {
-    padding: 50px 200px 20px;
+    padding: 50px 20px 20px;
+    margin-top: -15px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .list {
+    padding: 50px 50px 20px;
+    margin-top: -15px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .list {
+    padding: 50px 80px 20px;
+    margin-top: -15px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .list {
+    padding: 50px 120px 20px;
     margin-top: -15px;
   }
 }
