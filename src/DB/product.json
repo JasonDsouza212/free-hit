@@ -585,7 +585,7 @@
     "category": "tools",
     "image": "https://bit.ly/3YZGSVi",
     "link": "https://www.photopea.com/",
-    "description": "Online "
+    "description": "Free online editor supporting PSD, XCF, Sketch, XD, and CDR formats.(Adobe Photoshop, GIMP, Sketch App, Adobe XD, corelDRAW) "
   },
   {
     "productName": "theuselessweb",
@@ -1344,6 +1344,12 @@
   "image": "https://shorturl.at/bovAS",
   "link": "https://www.usertesting.com/",
   "description": "Testing platform where you can get your app tested and take feedback from real user."
+},
+{
+  "productName": "Boxicons",
+  "category": "tools",
+  "image": "https://i.ibb.co/tC1BtcR/boxicons-png.jpg",
+  "link": "https://boxicons.com/",
+  "description": "Simple Open Source icons carefully crafted for designers & developers."
 }
-
 ]

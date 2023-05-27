@@ -35,10 +35,7 @@ const Card = ({ length }) => {
         ) : gridView ? (
           <GridView />
         ) : (
-
           <ListView />
-
-         
         )}
       </div>
     </>
