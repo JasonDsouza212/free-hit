@@ -30,10 +30,12 @@
   background-color: var(--primary-white);
   padding: 10px 0px;
   border-radius: 20px;
+  transition: all 0.3s;
 }
 
 .grid > article:hover {
   box-shadow: 6px 6px 0px 0px var(--primary-black);
+  transform: scale(1.02);
 }
 
 img {
@@ -96,11 +98,16 @@ h3 .card-title {
   background-color: var(--primary-black);
   padding: 8px 25px;
   border-radius: 8px;
+
   margin: -5px;
   
   margin-left: 40px;
 /* position: absolute;
 left: 50%; */
+
+  margin: 2px;
+  transition: all 0.3s ease;
+
 }
 
 .btn-cont button a {

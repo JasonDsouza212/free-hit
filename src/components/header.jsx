@@ -113,6 +113,9 @@ const Header = () => {
         <li>
           <a href="/bookmarks">Bookmarks</a>
         </li>
+        <li>
+          <a href="/about">About</a>
+        </li>
       </ul>
     </nav>
   )

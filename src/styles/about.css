@@ -26,7 +26,12 @@
 
 .about .ab2 {
   display: flex;
+
   text-shadow:  2px 1px 3px rgba(0, 0, 0, 0.245)
+
+  
+  margin-bottom: 100px;
+
 }
 
 .about .ab2 p {
