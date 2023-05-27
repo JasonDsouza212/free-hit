@@ -1268,13 +1268,6 @@
   
 },
 {
-  "productName": "Fatkun",
-  "category": "tools",
-  "image": "https://bit.ly/43mbOkf",
-  "link": "https://bit.ly/3OzgP4V",
-  "description": "Fatkun helps users download all pictures on the page with one click."
-},
-{
     "productName": "Stack Overflow",
     "category": "tools",
     "image": "https://bit.ly/3oyl7Pa",
@@ -1316,27 +1309,6 @@
     "link":"https://piped.kavin.rocks",
     "description":"An alternative privacy-friendly YouTube frontend which is efficient by design."
   
-},
-{
-  "productName": "Reduce Images",
-  "category": "tools",
-  "image": "https://bit.ly/43oj2En",
-  "link": "https://bit.ly/45xxiN6",
-  "description": "Reduce Images is a website for resizing of various size photos that required during various forms filling."
-},
-{
-  "productName": "CSS Shadows",
-  "category": "tools",
-  "image": "https://bit.ly/3MA7PtJ",
-  "link": "https://bit.ly/3BVJM3j",
-  "description": "Gives custom CSS shadow designs to users to reduce time and give a lot of ideas "
-},
- {
-  "productName": "SD moviespoint",
-  "category": "movies",
-  "image": "https://bit.ly/3WyaTei",
-  "link": "https://bit.ly/3BTxMiW",
-  "description": "Download all latest Movies from here free."
 },
 {
   "productName": "UserTesting",
