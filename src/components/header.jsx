@@ -4,8 +4,11 @@ import freehitlogo from '../images/free-logo.png'
 import Button from './Button'
 import ButtonLinks from './Data/categories'
 import { ToolContext } from '../App'
+import { useLocation } from 'react-router-dom'
 
 const Header = () => {
+  const location = useLocation()
+  console.log(location)
   const { searchTerm, setSearchTerm, filteredSuggestions, filterProduct } =
     useContext(ToolContext)
   const handleSuggestionClick = (value) => {
@@ -68,7 +71,9 @@ const Header = () => {
           </a>
         </h1>
       </div>
-      <div className="container">
+      {
+        location.pathname != "/about" && 
+        <div className="container">
         <div className="search_box">
           <input
             type="text"
@@ -76,7 +81,7 @@ const Header = () => {
             placeholder="search for the tools..."
             value={searchTerm}
             onChange={(e) => handleChageInInput(e)}
-          />
+            />
           {searchTerm.length > 0 && (
             <div
               className="close"
@@ -96,9 +101,9 @@ const Header = () => {
             {/* This shows as a list of suggestions based on the search term */}
             {filteredSuggestions.map((suggestion) => (
               <li
-                key={suggestion}
-                onClick={() => handleSuggestionClick(suggestion)}
-                className="hnav-suggestion"
+              key={suggestion}
+              onClick={() => handleSuggestionClick(suggestion)}
+              className="hnav-suggestion"
               >
                 {suggestion}
               </li>
@@ -106,6 +111,7 @@ const Header = () => {
           </ul>
         )}
       </div>
+      }
       <ul className="pages">
         <li>
           <a href="/">Home</a>
