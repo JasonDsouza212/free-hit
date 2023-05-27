@@ -6,33 +6,36 @@
   margin: 100px 100px;
   padding-left: 150px;
   padding-right: 150px;
+ 
 }
 
 .about .ab1 {
   display: flex;
   margin-bottom: 40px;
+  text-shadow:  2px 1px 3px rgba(0, 0, 0, 0.245);
 }
 
 .about .ab1 p {
   margin-right: 100px;
   font-size: 32px;
-  font-weight: 550;
+  font-weight: 500;
   position: relative;
   top: 30%;
-  font-family: 'Josefin Slab', serif;
+  font-family: sans-serif;
 }
 
 .about .ab2 {
   display: flex;
+  text-shadow:  2px 1px 3px rgba(0, 0, 0, 0.245)
 }
 
 .about .ab2 p {
   margin-left: 100px;
   font-size: 32px;
-  font-weight: 550;
+  font-weight: 50;
   position: relative;
   top: 10%;
-  font-family: 'Josefin Slab', serif;
+  font-family: sans-serif;
 }
 
 .about p button {
@@ -45,8 +48,9 @@
   color: var(--primary-white);
   font-size: 20px;
   font-weight: 500;
-  font-family: 'Josefin Slab', serif;
+  /* font-family: 'Josefin Slab', serif; */
   font-family: 'Roboto', sans-serif;
+  
 }
 
 .about p button:hover {

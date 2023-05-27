@@ -1,13 +1,13 @@
 :root {
   --primary-white: #F1F1EF;
-  --primary-black: #373530;
+  --primary-black: #3a3831;
 }
 
 *{
     margin:0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Space Grotesk', sans-serif;
+    font-family:  sans-serif;
 }
 
 body{
@@ -27,10 +27,15 @@ nav{
 .nav-container{
     display: flex;
     font-size: 28px;
-    font-weight: bold;
+    font-weight: 500;
     float: left;
-    color: var(--primary-black);
+    letter-spacing: 1px;
+    font-family: 'Open Sans' ;
+    text-shadow: 5px 6px 8px rgba(11, 12, 12, 0.274);
+    
+    /* color: var(--primary-black); */
     text-transform: uppercase;
+   ;
 }
 
 @media screen and (max-width: 360px) {
@@ -296,6 +301,8 @@ font-size: 20px;
     text-decoration: none;
     padding: 0px 20px;
     color: var(--primary-black); 
+    letter-spacing: 2px;
+    text-shadow: 4px 5px 9px rgba(0, 0, 0, 0.286);
 }
 
 .pages li a:hover {
