@@ -38,7 +38,7 @@ You can check out the live project [here](https://free-hit.vercel.app/)
   <tr>
     <td align="center">
       <a href="https://github.com/JasonDsouza212">
-        <img alt="priyankarpal" src="https://github.com/JasonDsouza212.png" width="100px;" style="border-radius: 20px;">
+        <img alt="JasonDsouza212" src="https://github.com/JasonDsouza212.png" width="100px;" style="border-radius: 20px;">
         <br>
         <sub>
           <b>
