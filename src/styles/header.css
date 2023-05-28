@@ -362,9 +362,10 @@ font-size: 20px;
   cursor: pointer;
 }
 
-.diplay-none{
+.diplay-none {
   display: none;
 }
-.diplay-block{
+
+.diplay-block {
   display: block;
 }

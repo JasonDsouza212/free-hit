@@ -1,28 +1,50 @@
-import React, { useContext } from 'react'
-import { FaSearch } from 'react-icons/fa'
-import freehitlogo from '../images/free-logo.png'
-import Button from './Button'
-import ButtonLinks from './Data/categories'
-import { ToolContext } from '../App'
+import React, { useContext, useEffect } from 'react';
+import { FaSearch } from 'react-icons/fa';
+import freehitlogo from '../images/free-logo.png';
+import Button from './Button';
+import ButtonLinks from './Data/categories';
+import { ToolContext } from '../App';
 
 const Header = () => {
   const { searchTerm, setSearchTerm, filteredSuggestions, filterProduct } =
-    useContext(ToolContext)
+    useContext(ToolContext);
+
   const handleSuggestionClick = (value) => {
-    document.getElementById('serch-suggestions').classList.add('diplay-none')
-    setSearchTerm(value)
-  }
+    document.getElementById('search-suggestions').classList.add('diplay-none');
+    setSearchTerm(value);
+  };
 
   const handleChageInInput = (event) => {
-    setSearchTerm(event.target.value)
-    let targetElem = document.getElementById('serch-suggestions')
+    setSearchTerm(event.target.value);
+    let targetElem = document.getElementById('search-suggestions');
     if (
       filteredSuggestions.length > 0 &&
       targetElem.className.includes('diplay-none')
     ) {
-      targetElem.classList.remove('diplay-none')
+      targetElem.classList.remove('diplay-none');
     }
-  }
+  };
+
+  useEffect(() => {
+    const closeSidebar = () => {
+      document.getElementById('btn').checked = false;
+    };
+
+    const handleDocumentClick = (event) => {
+      const target = event.target;
+      const sidebar = document.getElementById('sidebar');
+
+      if (target.id !== 'btn' && !sidebar.contains(target)) {
+        closeSidebar();
+      }
+    };
+
+    document.addEventListener('click', handleDocumentClick);
+
+    return () => {
+      document.removeEventListener('click', handleDocumentClick);
+    };
+  }, []);
 
   return (
     <nav className="navbar">
@@ -81,7 +103,7 @@ const Header = () => {
             <div
               className="close"
               onClick={() => {
-                setSearchTerm('')
+                setSearchTerm('');
               }}
             />
           )}
@@ -92,7 +114,7 @@ const Header = () => {
           </div>
         </div>
         {filteredSuggestions.length > 0 && (
-          <ul className="hnav-suggestionbar" id="serch-suggestions">
+          <ul className="hnav-suggestionbar" id="search-suggestions">
             {/* This shows as a list of suggestions based on the search term */}
             {filteredSuggestions.map((suggestion) => (
               <li
@@ -118,7 +140,7 @@ const Header = () => {
         </li>
       </ul>
     </nav>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;
