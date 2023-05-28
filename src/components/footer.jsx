@@ -2,7 +2,6 @@ const Footer = () => {
   // gettin year dynamically
   const date = new Date();
   const year = date.getFullYear();
-  console.log(year);
   return (
     <footer>
       <div className="footer-content">
