@@ -585,7 +585,7 @@
     "category": "tools",
     "image": "https://bit.ly/3YZGSVi",
     "link": "https://www.photopea.com/",
-    "description": "Online "
+    "description": "Free online editor supporting PSD, XCF, Sketch, XD, and CDR formats.(Adobe Photoshop, GIMP, Sketch App, Adobe XD, corelDRAW) "
   },
   {
     "productName": "theuselessweb",
@@ -1268,13 +1268,6 @@
   
 },
 {
-  "productName": "Fatkun",
-  "category": "tools",
-  "image": "https://bit.ly/43mbOkf",
-  "link": "https://bit.ly/3OzgP4V",
-  "description": "Fatkun helps users download all pictures on the page with one click."
-},
-{
     "productName": "Stack Overflow",
     "category": "tools",
     "image": "https://bit.ly/3oyl7Pa",
@@ -1318,32 +1311,17 @@
   
 },
 {
-  "productName": "Reduce Images",
-  "category": "tools",
-  "image": "https://bit.ly/43oj2En",
-  "link": "https://bit.ly/45xxiN6",
-  "description": "Reduce Images is a website for resizing of various size photos that required during various forms filling."
-},
-{
-  "productName": "CSS Shadows",
-  "category": "tools",
-  "image": "https://bit.ly/3MA7PtJ",
-  "link": "https://bit.ly/3BVJM3j",
-  "description": "Gives custom CSS shadow designs to users to reduce time and give a lot of ideas "
-},
- {
-  "productName": "SD moviespoint",
-  "category": "movies",
-  "image": "https://bit.ly/3WyaTei",
-  "link": "https://bit.ly/3BTxMiW",
-  "description": "Download all latest Movies from here free."
-},
-{
   "productName": "UserTesting",
   "category": "tools",
   "image": "https://shorturl.at/bovAS",
   "link": "https://www.usertesting.com/",
   "description": "Testing platform where you can get your app tested and take feedback from real user."
+},
+{
+  "productName": "Boxicons",
+  "category": "tools",
+  "image": "https://i.ibb.co/tC1BtcR/boxicons-png.jpg",
+  "link": "https://boxicons.com/",
+  "description": "Simple Open Source icons carefully crafted for designers & developers."
 }
-
 ]
