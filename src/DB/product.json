@@ -1323,5 +1323,12 @@
   "image": "https://i.ibb.co/tC1BtcR/boxicons-png.jpg",
   "link": "https://boxicons.com/",
   "description": "Simple Open Source icons carefully crafted for designers & developers."
+},
+{
+  "productName": "Bootstrap Icons",
+  "category": "tools",
+  "image": "https://rb.gy/swae5",
+  "link": "https://icons.getbootstrap.com/",
+  "description": "Free, high quality, open source icon library with over 1,800 icons."
 }
 ]
