@@ -6,6 +6,22 @@
 @import 'backToTop.css';
 @import 'commonpage.css';
 
+:root {
+  --primary-white: #f1f1ef;
+  --primary-black: #373530;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+body {
+  background-color: var(--primary-white);
+}
+
 /* ===============================1560 media query */
 @media screen and (max-width: 1560px) {
   .about {
@@ -182,7 +198,7 @@
   }
 
   .free-logo {
-    margin-left: 15px;
+    /* margin-left: 15px; */
     bottom: 10px;
   }
 
@@ -250,7 +266,12 @@
 
 /* ===============================700 media query */
 @media screen and (max-width: 700px) {
-  .Free-Hit .free-word {
+  .Free-Hit a:first-child {
+    position: relative;
+    top: 12px;
+  }
+
+  .free-word {
     display: none;
   }
 
@@ -499,11 +520,13 @@
   }
 
   .Free-Hit {
-    right: 260px;
+    right: 200px;
   }
 
   .free-logo {
-    top: 10px;
+    position: relative;
+    left: -12px;
+    top: 4px;
     width: 40px;
     height: 40px;
   }

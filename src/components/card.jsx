@@ -4,6 +4,7 @@ import { ToolContext } from '../App'
 import GridView from './Card/GridView'
 import ListView from './Card/ListView'
 import { BsFillGridFill, BsListUl } from 'react-icons/bs'
+import '../styles/card.css'
 
 const Card = ({ length }) => {
   const {
@@ -17,7 +18,7 @@ const Card = ({ length }) => {
   } = useContext(ToolContext)
 
   return (
-    <>
+    <div className="card_container">
       <Header />
       <div className="card_view">
         <BsFillGridFill onClick={() => setGridView(true)} size={22} />
@@ -35,13 +36,10 @@ const Card = ({ length }) => {
         ) : gridView ? (
           <GridView />
         ) : (
-
           <ListView />
-
-         
         )}
       </div>
-    </>
+    </div>
   )
 }
 

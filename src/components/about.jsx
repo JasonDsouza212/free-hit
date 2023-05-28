@@ -5,7 +5,7 @@ import Aboutnav from './aboutnav'
 
 const About = () => {
   return (
-    <>
+    <div className="about_container">
       <Aboutnav />
       <section className="about">
         <div className="ab1">
@@ -44,7 +44,7 @@ const About = () => {
         </div>
       </section>
       <Team />
-    </>
+    </div>
   )
 }
 

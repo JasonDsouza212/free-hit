@@ -19,7 +19,7 @@ nav {
   line-height: 70px;
   border-bottom: 2px solid var(--primary-black);
   position: sticky;
-  top: 0px;
+  top: 0;
   left: 0;
   z-index: 999;
   background-color: var(--primary-white);
@@ -44,9 +44,9 @@ nav {
 /* side navbar start */
 .wrapper {
   height: 100%;
-  width: 300px;
+  width: 80px;
   position: relative;
-  top: -50px;
+  top: -48px;
 }
 .wrapper .menu-btn {
   position: relative;
@@ -251,6 +251,10 @@ nav {
   color: var(--primary-white);
 }
 
+.search_box .input::placeholder {
+  color: rgba(128, 128, 128, 0.8);
+}
+
 .search_box .btn {
   position: absolute;
   width: 60px;
@@ -265,7 +269,7 @@ nav {
 .search_box .fas {
   position: absolute;
   right: 10px;
-  top: 45%;
+  top: 40%;
   transform: translate(-50%, -50%);
   color: var(--primary-white);
   font-size: 20px;
@@ -310,22 +314,23 @@ nav {
 /* ================================  Free-Hit logo*/
 
 .Free-Hit {
-  position: relative;
   right: 220px;
   font-weight: lighters;
+  display: flex;
+  align-items: center;
 }
 
 .free-logo {
-  position: relative;
   top: 6px;
   width: 45px;
   height: 45px;
   margin-right: 10px;
 }
 
-.Free-Hit a {
+.Free-Hit .free-word {
   text-decoration: none;
   color: var(--primary-black);
+  font-size: 40px;
 }
 
 /* ================================  Free-Hit logo end*/

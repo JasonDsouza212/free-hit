@@ -15,10 +15,10 @@ const GridView = () => {
         return category === 'all' || category === product.category ? (
           <article key={index}>
             <div className="text">
-              <h3>
+              <div className="text_top">
                 <img className="card-img" src={product.image} alt="" />
-                <span className="card-title">{product.productName}</span>
-              </h3>
+                <h3 className="card-title">{product.productName}</h3>
+              </div>
               <p>{product.description}</p>
               <div className="btn-cont">
                 <a target="_blank" href={product.link}>

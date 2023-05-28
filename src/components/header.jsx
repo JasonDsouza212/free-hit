@@ -60,14 +60,14 @@ const Header = () => {
             </ul>
           </nav>
         </div>
-        <h1 className="Free-Hit">
+        <div className="Free-Hit">
           <Link to="/about">
             <img className="free-logo" src={freehitlogo} alt="" />
           </Link>
           <Link to="/about" className="free-word">
             Free-Hit
           </Link>
-        </h1>
+        </div>
       </div>
       <div className="container">
         <div className="search_box">

@@ -1,4 +1,24 @@
+:root {
+  --primary-white: #f1f1ef;
+  --primary-black: #373530;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+body {
+  background-color: var(--primary-white);
+}
+
 /* Card View CSS */
+.card_container {
+  background-color: var(--primary-white);
+}
+
 .card_view {
   width: 95%;
   display: flex;
@@ -69,28 +89,31 @@ img {
 }
 
 .grid .text p {
-  margin-top: 5px;
+  margin-top: 10px;
+  line-height: 21px;
   font-family: 'Roboto', sans-serif;
 }
 
-.grid .text h3 {
-  text-align: left;
+.grid .text .text_top {
   position: relative;
   right: 10px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
 }
 
-h3 .card-title {
+.text_top .card-title {
   color: #000;
-  text-align: left;
-  position: relative;
   bottom: 12px;
   font-size: 22px;
   left: 6px;
+  font-weight: 600;
 }
 
 .btn-cont button {
   background-color: var(--primary-black);
-  padding: 8px 20px;
+  padding: 7px 22px;
   border-radius: 8px;
   margin: 2px;
 }

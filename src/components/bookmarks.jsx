@@ -6,7 +6,7 @@ const BookMarks = ({ length }) => {
   const { category, bookmarkfilteredProducts, deleteres } =
     useContext(ToolContext)
   return (
-    <>
+    <div className="card_container">
       <Header />
       <div className="card-container">
         {length === 0 ? (
@@ -17,10 +17,10 @@ const BookMarks = ({ length }) => {
               return category === 'all' || category === product.category ? (
                 <article>
                   <div className="text">
-                    <h3>
+                    <div className="text_top">
                       <img className="card-img" src={product.image} alt="" />
-                      <span className="card-title">{product.productName}</span>
-                    </h3>
+                      <h3 className="card-title">{product.productName}</h3>
+                    </div>
                     <p>{product.description}</p>
                     <div className="btn-cont">
                       <button>
@@ -41,7 +41,7 @@ const BookMarks = ({ length }) => {
           </main>
         )}
       </div>
-    </>
+    </div>
   )
 }
 
