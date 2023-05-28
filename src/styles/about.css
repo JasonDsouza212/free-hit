@@ -24,6 +24,8 @@
 
 .about .ab2 {
   display: flex;
+  
+  margin-bottom: 100px;
 }
 
 .about .ab2 p {
