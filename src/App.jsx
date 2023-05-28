@@ -7,6 +7,7 @@ import products from './DB/product.json'
 import BookMarks from './components/bookmarks'
 import BackToTopButton from './components/BackToTop'
 import Commonpage from './components/Commonpage'
+import Community from './components/Community'
 
 const ToolContext = createContext()
 const LOCAL_STORAGE_KEY = 'freehit.bookmarks'
@@ -171,6 +172,7 @@ function App() {
             path="/bookmarks"
             element={<BookMarks length={bookmarkfilteredProducts.length} />}
           />
+          <Route path="/community" element={<Community />} />
           <Route path="*" element={<Commonpage />} />
         </Routes>
         <Footer />

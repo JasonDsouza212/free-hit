@@ -9,7 +9,6 @@ import TwitterButton from './message/twitterbutton'
 import {NavLink} from "react-router-dom"
 
 const Header = () => {
-
   const msg = `Hey guys, I found a cool project!
 Check out Free-Hit🏏, an open-source App for discovering free and helpful tools that cater to our needs
 It's a one-stop solution for finding amazing resources
@@ -44,52 +43,51 @@ https://github.com/JasonDsouza212/free-hit`
             <i className="fa ri-menu-fill"></i>
             <i className="fa ri-close-line"></i>
           </label>
-          {
-            location.pathname == "/about" ?
-              <nav id="sidebar">
-                <ul className="list-items">
-                  <li>
-                    <NavLink to="/">
-                      <i className="ri-home-4-fill"></i> Home
-                    </NavLink>
-                  </li>
-                  <li>
-                    <NavLink to="/bookmarks">
-                      <i className="ri-bookmark-fill"></i> Bookmarks
-                    </NavLink>
-                  </li>
-                  <li>
-                    <TwitterButton message={msg} />
-                  </li>
-                </ul>
-              </nav>
-              :
-              <nav id="sidebar">
-                <div className="title">
-                  <ul className="pages-sidebar">
-                    <li>
-                      <NavLink to="/">
-                        <i className="ri-home-4-fill"></i> Home
-                      </NavLink>
-                    </li>
-                    <li>
-                      <NavLink to="/bookmarks">
-                        <i className="ri-bookmark-fill"></i> Bookmark
-                      </NavLink>
-                    </li>
-                  </ul>
-                </div>
-                <ul className="list-items">
-                  {ButtonLinks.map((buttonLink) => (
-                    <Button
-                      key={buttonLink.id}
-                      button={buttonLink}
-                      filterProduct={filterProduct}
-                    />
-                  ))}
-                </ul>
-              </nav>
-          }
+          {location.pathname == '/about' ?
+            (<nav id="sidebar">
+              <ul className="list-items">
+                <li>
+                  <NavLink to="/">
+                    <i className="ri-home-4-fill"></i> Home
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink to="/bookmarks">
+                    <i className="ri-bookmark-fill"></i> Bookmarks
+                  </NavLink>
+                </li>
+                <li>
+                  <TwitterButton message={msg} />
+                </li>
+              </ul>
+            </nav>
+          ) :(
+          <nav id="sidebar">
+            <div className="title">
+              <ul className="pages-sidebar">
+                <li>
+                  <NavLink to="/">
+                    <i className="ri-home-4-fill"></i> Home
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink to="/bookmarks">
+                    <i className="ri-bookmark-fill"></i> Bookmark
+                  </NavLink>
+                </li>
+              </ul>
+            </div>
+            <ul className="list-items">
+              {ButtonLinks.map((buttonLink) => (
+                <Button
+                  key={buttonLink.id}
+                  button={buttonLink}
+                  filterProduct={filterProduct}
+                />
+              ))}
+            </ul>
+          </nav>
+          )}
         </div>
         <h1 className="Free-Hit">
           <NavLink to="/about">
@@ -100,47 +98,47 @@ https://github.com/JasonDsouza212/free-hit`
           </NavLink>
         </h1>
       </div>
-      {
-        location.pathname != "/about" &&
-        <div className="container">
-          <div className="search_box">
-            <input
-              type="text"
-              className="input"
-              placeholder="search for the tools..."
-              value={searchTerm}
-              onChange={(e) => handleChageInInput(e)}
-            />
-            {searchTerm.length > 0 && (
-              <div
-                className="close"
-                onClick={() => {
-                  setSearchTerm('')
-                }}
+      {location.pathname != '/about' ||
+        (location.pathname != '/community' && (
+          <div className="container">
+            <div className="search_box">
+              <input
+                type="text"
+                className="input"
+                placeholder="search for the tools..."
+                value={searchTerm}
+                onChange={(e) => handleChageInInput(e)}
               />
-            )}
-            <div className="btn btn_common">
-              <i className="fas fa-search">
-                <FaSearch />
-              </i>
+              {searchTerm.length > 0 && (
+                <div
+                  className="close"
+                  onClick={() => {
+                    setSearchTerm('')
+                  }}
+                />
+              )}
+              <div className="btn btn_common">
+                <i className="fas fa-search">
+                  <FaSearch />
+                </i>
+              </div>
             </div>
+            {filteredSuggestions.length > 0 && (
+              <ul className="hnav-suggestionbar" id="serch-suggestions">
+                {/* This shows as a list of suggestions based on the search term */}
+                {filteredSuggestions.map((suggestion) => (
+                  <li
+                    key={suggestion}
+                    onClick={() => handleSuggestionClick(suggestion)}
+                    className="hnav-suggestion"
+                  >
+                    {suggestion}
+                  </li>
+                ))}
+              </ul>
+            )}
           </div>
-          {filteredSuggestions.length > 0 && (
-            <ul className="hnav-suggestionbar" id="serch-suggestions">
-              {/* This shows as a list of suggestions based on the search term */}
-              {filteredSuggestions.map((suggestion) => (
-                <li
-                  key={suggestion}
-                  onClick={() => handleSuggestionClick(suggestion)}
-                  className="hnav-suggestion"
-                >
-                  {suggestion}
-                </li>
-              ))}
-            </ul>
-          )}
-        </div>
-      }
+        ))}
       <ul className="pages">
         <li>
           <NavLink to="/">Home</NavLink>

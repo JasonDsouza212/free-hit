@@ -5,20 +5,18 @@
 @import 'footer.css';
 @import 'backToTop.css';
 @import 'commonpage.css';
+@import 'community.css';
 
 /* width */
 ::-webkit-scrollbar {
   width: 15px;
 }
 
-
- 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: var(--primary-black); 
+  background: var(--primary-black);
   border-radius: 7px;
 }
-
 
 /* ===============================1560 media query */
 @media screen and (max-width: 1560px) {
@@ -108,7 +106,6 @@
   }
 }
 
-
 /* ===============================1070px media query */
 @media screen and (max-width: 1070px) {
   .container {
@@ -165,7 +162,6 @@
     position: relative;
     top: 10%;
   }
-
 }
 
 /* ===============================900px media query */
@@ -345,13 +341,13 @@
 
   .about .ab2 p {
     margin-left: 0px;
-    font-size: 28px;;
+    font-size: 28px;
     top: 0%;
     padding: 40px;
   }
 
   .about .ab2 img {
-    margin-top:  0px;
+    margin-top: 0px;
     margin-left: 15%;
     order: 2;
     top: 0px;
@@ -549,7 +545,7 @@
     right: 0px;
     margin: 0px 0px;
   }
-  
+
   .search_box .input {
     position: absolute;
     width: 100%;
@@ -559,7 +555,7 @@
     font-size: 18px;
     background-color: var(--primary-black);
   }
-  
+
   .search_box .btn {
     position: absolute;
     width: 60px;
@@ -570,20 +566,20 @@
     right: 0px;
     border-radius: 50%;
   }
-  
+
   .about {
     position: relative;
     top: -60px;
   }
-  
+
   .about .ab1 {
     display: flex;
   }
-  
+
   .about .ab2 {
     margin-right: 0px;
   }
-  
+
   .about .ab1 p {
     margin-right: 0px;
     font-size: 24px;
@@ -591,14 +587,14 @@
     padding-left: 40px;
     padding-right: 40px;
   }
-  
+
   .about .ab1 img {
     margin-top: 50px;
     margin-left: 5%;
     height: 330px;
     width: 330px;
   }
-  
+
   .about .ab2 p {
     margin-left: 0px;
     font-size: 24px;
@@ -607,39 +603,39 @@
     padding-left: 40px;
     padding-right: 40px;
   }
-  
+
   .about .ab2 img {
     margin-top: 0px;
     margin-left: 5%;
     order: 2;
   }
-  
+
   .about img {
     width: 400px;
     height: 400px;
   }
-  
+
   .team-content {
     margin-left: 20px;
     grid-template-columns: repeat(1, minmax(280px, 300px));
   }
-  
+
   .center h1 {
     font-size: 40px;
   }
-  
+
   .grid {
     grid-template-columns: repeat(auto-fit, minmax(280px, auto));
     gap: 1rem;
   }
-  
+
   .backToTopButton {
     position: fixed;
     z-index: 50;
     bottom: 3rem;
     right: 1.5rem;
   }
-  
+
   .transition-before {
     transform: translateY(-110vh);
   }
@@ -653,7 +649,7 @@
   .navbar {
     width: 100vw;
   }
-  
+
   .Free-Hit {
     right: 68%;
   }
@@ -664,22 +660,22 @@
     right: 0px;
     margin: 0px 0px;
   }
-  
+
   .grid {
     padding: 5px;
   }
-  
+
   .backToTopButton {
     position: fixed;
     z-index: 50;
     bottom: 3rem;
     right: 1rem;
   }
-  
+
   .grid > article {
     height: 230px;
   }
-  
+
   .transition-before {
     transform: translateY(-120vh);
   }

@@ -464,7 +464,7 @@
   {
     "productName": "CodeSandBox",
     "category": "web",
-    "image": "https://bit.ly/3KESoB0",
+    "image": "https://www.saashub.com/images/app/service_logos/9/ae995212f366/large.png?1528180811",
     "link": "https://codesandbox.io/",
     "description": "Online code editor and developer collaboration platform."
   },
@@ -585,7 +585,7 @@
     "category": "tools",
     "image": "https://bit.ly/3YZGSVi",
     "link": "https://www.photopea.com/",
-    "description": "Online "
+    "description": "Free online editor supporting PSD, XCF, Sketch, XD, and CDR formats.(Adobe Photoshop, GIMP, Sketch App, Adobe XD, corelDRAW) "
   },
   {
     "productName": "theuselessweb",
@@ -1003,7 +1003,7 @@
   {
     "productName": "CleanVoice",
     "category": "tools",
-    "image": "https://ibb.co/6BmfNWm",
+    "image": "https://s3-eu-west-1.amazonaws.com/tpd/logos/613f6a30dc3b50001d3e4f61/0x0.png",
     "link": "https://cleanvoice.ai/",
     "description": "Automatically edit your podcast episodes"
   },
@@ -1225,6 +1225,13 @@
     "description": "Record your screen synced with network traffic and javascript errors."
   },
   {
+    "productName": "Google Translate",
+    "category": "extensions",
+    "image": "https://rb.gy/ysdw5",
+    "link": "https://rb.gy/td69u",
+    "description": "Click the translate icon whenever you want to translate the page you're visiting."
+  },
+  {
     "productName": "Enhancer For Youtube",
     "category": "extensions",
     "image": "https://rb.gy/o9zuj",
@@ -1266,13 +1273,6 @@
     "link": "https://rb.gy/18vlo",
     "description": "Lets you download web pages as PDF in one click."
   
-},
-{
-  "productName": "Fatkun",
-  "category": "tools",
-  "image": "https://bit.ly/43mbOkf",
-  "link": "https://bit.ly/3OzgP4V",
-  "description": "Fatkun helps users download all pictures on the page with one click."
 },
 {
     "productName": "Stack Overflow",
@@ -1318,27 +1318,6 @@
   
 },
 {
-  "productName": "Reduce Images",
-  "category": "tools",
-  "image": "https://bit.ly/43oj2En",
-  "link": "https://bit.ly/45xxiN6",
-  "description": "Reduce Images is a website for resizing of various size photos that required during various forms filling."
-},
-{
-  "productName": "CSS Shadows",
-  "category": "tools",
-  "image": "https://bit.ly/3MA7PtJ",
-  "link": "https://bit.ly/3BVJM3j",
-  "description": "Gives custom CSS shadow designs to users to reduce time and give a lot of ideas "
-},
- {
-  "productName": "SD moviespoint",
-  "category": "movies",
-  "image": "https://bit.ly/3WyaTei",
-  "link": "https://bit.ly/3BTxMiW",
-  "description": "Download all latest Movies from here free."
-},
-{
   "productName": "UserTesting",
   "category": "tools",
   "image": "https://shorturl.at/bovAS",
@@ -1351,5 +1330,12 @@
   "image": "https://i.ibb.co/tC1BtcR/boxicons-png.jpg",
   "link": "https://boxicons.com/",
   "description": "Simple Open Source icons carefully crafted for designers & developers."
+},
+{
+  "productName": "Bootstrap Icons",
+  "category": "tools",
+  "image": "https://rb.gy/swae5",
+  "link": "https://icons.getbootstrap.com/",
+  "description": "Free, high quality, open source icon library with over 1,800 icons."
 }
 ]
