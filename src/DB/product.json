@@ -13,7 +13,7 @@
     "link": "https://fontawesome.com/",
     "description": "Internet's icon library and toolkit, used by millions of designers, developers, and content creators"
   },
-   {
+  {
     "productName": "ChatGPT Writer",
     "category": "tools",
     "image": "https://is.gd/ay5HYZ",
@@ -27,7 +27,7 @@
     "link": "https://flowcv.com/",
     "description": "A tool that is used to create beautiful resumes"
   },
-   {
+  {
     "productName": "Screen Recorder",
     "category": "tools",
     "image": "https://shorturl.at/nBJQY",
@@ -83,7 +83,7 @@
     "link": "https://remoteok.com/",
     "description": "Job board for remote jobs in tech and other fields."
   },
-   {
+  {
     "productName": "Audio Enhancer",
     "category": "tools",
     "image": "https://shorturl.at/uxGQ3",
@@ -585,7 +585,7 @@
     "category": "tools",
     "image": "https://bit.ly/3YZGSVi",
     "link": "https://www.photopea.com/",
-    "description": "Online "
+    "description": "Free online editor supporting PSD, XCF, Sketch, XD, and CDR formats.(Adobe Photoshop, GIMP, Sketch App, Adobe XD, corelDRAW) "
   },
   {
     "productName": "theuselessweb",
@@ -1002,10 +1002,10 @@
   },
   {
     "productName": "CleanVoice",
-    "category" : "tools",
-    "image" : "https://is.gd/9hmFCc",
-    "link" : "https://cleanvoice.ai/",
-    "description" : "Automatically edit your podcast episodes"
+    "category": "tools",
+    "image": "https://ibb.co/6BmfNWm",
+    "link": "https://cleanvoice.ai/",
+    "description": "Automatically edit your podcast episodes"
   },
   {
     "productName": "Redux DevTools",
@@ -1225,7 +1225,6 @@
     "description": "Record your screen synced with network traffic and javascript errors."
   },
   {
-
     "productName": "Enhancer For Youtube",
     "category": "extensions",
     "image": "https://rb.gy/o9zuj",
@@ -1252,6 +1251,21 @@
     "image": "https://is.gd/3ITVcB",
     "link": "https://bit.ly/424VRh7",
     "description": "Showwcase helps developers connect, build communities, and gain access to new opportunities."
+  },
+  {
+    "productName": "Fatkun",
+    "category": "tools",
+    "image": "https://bit.ly/43mbOkf",
+    "link": "https://bit.ly/3OzgP4V",
+    "description": "Fatkun helps users download all pictures on the page with one click."
+  },
+  {
+    "productName": "Save as PDF",
+    "category": "extensions",
+    "image": "https://rb.gy/zc62y",
+    "link": "https://rb.gy/18vlo",
+    "description": "Lets you download web pages as PDF in one click."
+  
 },
 {
   "productName": "Fatkun",
@@ -1266,13 +1280,42 @@
     "image": "https://bit.ly/3oyl7Pa",
     "link": "https://bit.ly/43s8OTh",
     "description": "Stack Overflow is a question and answer website for programmers. It is the flagship site of the Stack Exchange Network."
-},
-{
+  },
+  {
     "productName": "Linkedin",
     "category": "remote",
     "image": "https://bit.ly/43gXwRY",
     "link": "https://bit.ly/427YkYr",
     "description": "LinkedIn is a business and employment-focused social media platform that works through websites and mobile apps."
+  },
+  {
+    "productName": "Reduce Images",
+    "category": "tools",
+    "image": "https://bit.ly/43oj2En",
+    "link": "https://bit.ly/45xxiN6",
+    "description": "Reduce Images is a website for resizing of various size photos that required during various forms filling."
+  },
+  {
+    "productName": "CSS Shadows",
+    "category": "tools",
+    "image": "https://bit.ly/3MA7PtJ",
+    "link": "https://bit.ly/3BVJM3j",
+    "description": "Gives custom CSS shadow designs to users to reduce time and give a lot of ideas "
+  },
+  {
+    "productName": "SD moviespoint",
+    "category": "movies",
+    "image": "https://bit.ly/3WyaTei",
+    "link": "https://bit.ly/3BTxMiW",
+    "description": "Download all latest Movies from here free."
+  },
+  {
+    "productName": "Piped",
+    "category":"remote",
+    "image":"https://bit.ly/45zisFw",
+    "link":"https://piped.kavin.rocks",
+    "description":"An alternative privacy-friendly YouTube frontend which is efficient by design."
+  
 },
 {
   "productName": "Reduce Images",
@@ -1287,11 +1330,26 @@
   "image": "https://bit.ly/3MA7PtJ",
   "link": "https://bit.ly/3BVJM3j",
   "description": "Gives custom CSS shadow designs to users to reduce time and give a lot of ideas "
-},{
+},
+ {
   "productName": "SD moviespoint",
   "category": "movies",
   "image": "https://bit.ly/3WyaTei",
   "link": "https://bit.ly/3BTxMiW",
   "description": "Download all latest Movies from here free."
+},
+{
+  "productName": "UserTesting",
+  "category": "tools",
+  "image": "https://shorturl.at/bovAS",
+  "link": "https://www.usertesting.com/",
+  "description": "Testing platform where you can get your app tested and take feedback from real user."
+},
+{
+  "productName": "Boxicons",
+  "category": "tools",
+  "image": "https://i.ibb.co/tC1BtcR/boxicons-png.jpg",
+  "link": "https://boxicons.com/",
+  "description": "Simple Open Source icons carefully crafted for designers & developers."
 }
 ]

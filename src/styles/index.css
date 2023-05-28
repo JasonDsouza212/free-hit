@@ -11,6 +11,18 @@
   --primary-black: #373530;
 }
 
+/* width */
+::-webkit-scrollbar {
+  width: 15px;
+  background-color: var(--primary-white);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--primary-black);
+  border-radius: 7px;
+}
+
 * {
   margin: 0;
   padding: 0;

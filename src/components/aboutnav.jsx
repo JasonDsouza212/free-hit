@@ -22,6 +22,7 @@ https://github.com/JasonDsouza212/free-hit`
             <i className="fa ri-close-line"></i>
           </label>
           <nav id="sidebar">
+
             <ul className="list-items">
               <li>
                 <Link to="/">
@@ -37,6 +38,7 @@ https://github.com/JasonDsouza212/free-hit`
                 <TwitterButton message={msg} />
               </li>
             </ul>
+
           </nav>
         </div>
         <h1 className="Free-Hit">
