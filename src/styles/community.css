@@ -1,3 +1,8 @@
+.contributor-heading {
+  text-align: center;
+  margin-top: 2%;
+  font-size: 3rem;
+}
 .loading {
   flex: auto;
   justify-content: center;
@@ -10,19 +15,20 @@
   list-style: none;
   margin: 0 auto;
   padding: 0;
-  width: 80%;
+  width: 100%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   grid-gap: 3rem;
   margin-bottom: 5rem;
+  margin-top: 4rem;
 }
 .contributors-list .contributor-anchor {
   display: block;
-  width: 160px;
-  height: 160px;
-  border-radius: 160px;
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
   overflow: hidden;
   transition: all 0.16s ease-in-out;
 }
@@ -35,7 +41,7 @@
 }
 
 .contributors-list .contributor-anchor .contributor-image {
-  width: 160px;
+  width: 100px;
   height: auto;
   filter: grayscale(100%);
 }
@@ -51,13 +57,13 @@
   }
 
   .contributors-list .contributor-anchor {
-    width: 120px;
-    height: 120px;
-    border-radius: 120px;
+    width: 90px;
+    height: 90px;
+    border-radius: 90px;
   }
 
   .contributors-list .contributor-anchor .contributor-image {
-    width: 120px;
+    width: 90px;
   }
 }
 
