@@ -1,7 +1,7 @@
 import Header from './header'
 import React, { useContext } from 'react'
 import { ToolContext } from '../App'
-import noresultimg from '../images/sad-face.png'
+import noresultimg from '../images/sad-face-2.png'
 
 const Card = ({ length }) => {
   const {
