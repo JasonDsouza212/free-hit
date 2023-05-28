@@ -46,12 +46,12 @@ const Card = ({ length }) => {
                         (obj) => obj['productName'] === product.productName
                       ) ? (
                         <button onClick={() => deleteres(product)}>
-                          <a href="#">
+                          <font color="white" size="3">
                             Delete<i className="ri-bookmark-fill"></i>
-                          </a>
+                          </font>
                         </button>
                       ) : (
-                        <a href="#">
+                        
                           <button
                             className="bookmark"
                             onClick={() => handelBookmarkAdd(product)}
@@ -60,7 +60,7 @@ const Card = ({ length }) => {
                               Bookmark
                             </font>
                           </button>
-                        </a>
+                        
                       )}
                     </div>
                   </div>
