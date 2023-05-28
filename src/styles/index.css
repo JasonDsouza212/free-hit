@@ -367,7 +367,7 @@
   }
 
   .team-content {
-    grid-template-columns: repeat(2, minmax(200px, 250px));
+    grid-template-columns: repeat(1, minmax(200px, 250px));
   }
 
   .about {
@@ -485,7 +485,7 @@
   }
 
   .center h1 {
-    font-size: 46px;
+    font-size: 1.5rem;
   }
 }
 
@@ -625,7 +625,7 @@
   }
   
   .center h1 {
-    font-size: 40px;
+    font-size: 1.3em;
   }
   
   .grid {
