@@ -1,5 +1,5 @@
 
-import React, { useContext } from 'react'
+import React, { useContext,useState,useEffect } from 'react'
 import Header from './header'
 import { ToolContext } from '../App'
 import noresultimg from '../images/sad-face.png'
