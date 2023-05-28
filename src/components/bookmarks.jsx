@@ -1,6 +1,9 @@
-import React, { useContext, useEffect, useState } from 'react';
-import Header from './header';
-import { ToolContext } from '../App';
+
+import React, { useContext,useState,useEffect } from 'react'
+import Header from './header'
+import { ToolContext } from '../App'
+import noresultimg from '../images/sad-face.png'
+
 
 const BookMarks = ({ length }) => {
   const [flag, setFlag] = useState(false);
@@ -19,13 +22,12 @@ const BookMarks = ({ length }) => {
       <Header />
       <div className="card-container">
         {length === 0 ? (
-          category === 'all' ? (
-            <p className="no-results">Please bookmark something to begin</p>
-          ) : (
-            <p className="no-results">
-              There aren't bookmarks from {category} section
-            </p>
-          )
+
+          <div className='not-found-wrapper'>
+          <p className="no-results">Sorry, no BookMarks in sight!</p>
+          <img class="not-found-img" src={noresultimg} alt=""/>
+          </div>
+
         ) : (
           <>
             {flag ? (
