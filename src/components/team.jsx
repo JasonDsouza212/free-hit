@@ -16,13 +16,13 @@ const Team = () => {
           <h3>Abhishek K</h3>
           <h5>Designer</h5>
           <div className="icons">
-            <a href="https://twitter.com/bobsstwt">
+            <a href="https://twitter.com/bobsstwt" target='_blank'>
               <i className="ri-twitter-fill"></i>
             </a>
-            <a href="https://github.com/bobbyy16">
+            <a href="https://github.com/bobbyy16" target='_blank'>
               <i className="ri-github-fill"></i>
             </a>
-            <a href="https://www.linkedin.com/in/abhishek-k-7597771ba/">
+            <a href="https://www.linkedin.com/in/abhishek-k-7597771ba/" target='_blank'>
               <i className="ri-linkedin-fill"></i>
             </a>
           </div>
@@ -33,13 +33,13 @@ const Team = () => {
           <h3>Priyankar</h3>
           <h5>Developer</h5>
           <div className="icons">
-            <a href="https://twitter.com/Priyankarpal">
+            <a href="https://twitter.com/Priyankarpal" target='_blank'>
               <i className="ri-twitter-fill"></i>
             </a>
-            <a href="https://github.com/priyankarpal">
+            <a href="https://github.com/priyankarpal" target='_blank'>
               <i className="ri-github-fill"></i>
             </a>
-            <a href="https://www.linkedin.com/in/priyankarpal/">
+            <a href="https://www.linkedin.com/in/priyankarpal/" target='_blank'>
               <i className="ri-linkedin-fill"></i>
             </a>
           </div>
@@ -50,13 +50,13 @@ const Team = () => {
           <h3>Jason Dsouza</h3>
           <h5>Developer</h5>
           <div className="icons">
-            <a href="https://twitter.com/_Jason_Dsouza">
+            <a href="https://twitter.com/_Jason_Dsouza" target='_blank'>
               <i className="ri-twitter-fill"></i>
             </a>
-            <a href="http://github.com/JasonDsouza212">
+            <a href="http://github.com/JasonDsouza212" target='_blank'>
               <i className="ri-github-fill"></i>
             </a>
-            <a href="https://www.linkedin.com/in/jason-dsouza-130b421ba/">
+            <a href="https://www.linkedin.com/in/jason-dsouza-130b421ba/" target='_blank'>
               <i className="ri-linkedin-fill"></i>
             </a>
           </div>
@@ -67,7 +67,7 @@ const Team = () => {
           <h3> Open-Source</h3>
           <h5>Community</h5>
           <div className="icons">
-            <a href="https://github.com/JasonDsouza212/free-hit/graphs/contributors">
+            <a href="https://github.com/JasonDsouza212/free-hit/graphs/contributors" target='_blank'>
               <i className="ri-github-fill"></i>
             </a>
           </div>

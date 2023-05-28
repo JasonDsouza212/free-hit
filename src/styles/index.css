@@ -6,6 +6,20 @@
 @import 'backToTop.css';
 @import 'commonpage.css';
 
+/* width */
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--primary-black); 
+  border-radius: 7px;
+}
+
+
 /* ===============================1560 media query */
 @media screen and (max-width: 1560px) {
   .about {

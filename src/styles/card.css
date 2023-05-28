@@ -1,4 +1,10 @@
 /* card css start */
+.card-head {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
 .grid {
   padding: 20px;
   width: 100%;
@@ -22,10 +28,12 @@
   background-color: var(--primary-white);
   padding: 10px 0px;
   border-radius: 20px;
+  transition: all 0.3s;
 }
 
 .grid > article:hover {
   box-shadow: 6px 6px 0px 0px var(--primary-black);
+  transform: scale(1.02);
 }
 
 img {
@@ -72,6 +80,7 @@ h3 .card-title {
   padding: 8px 25px;
   border-radius: 8px;
   margin: 2px;
+  transition: all 0.3s ease;
 }
 
 .btn-cont button a {
@@ -79,7 +88,7 @@ h3 .card-title {
   color: var(--primary-white);
   font-size: 16px;
   font-weight: 600;
-  font-family: "Open Sans";
+  font-family: 'Open Sans';
 }
 
 .btn-cont button i {
@@ -92,11 +101,11 @@ h3 .card-title {
   transform: scale(1.05);
 }
 
-.bookmark{
+.bookmark {
   cursor: pointer;
 }
 
-.visit{
+.visit {
   cursor: pointer;
 }
 
