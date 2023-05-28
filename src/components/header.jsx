@@ -6,6 +6,7 @@ import ButtonLinks from './Data/categories'
 import { ToolContext } from '../App'
 import { useLocation } from 'react-router-dom'
 import TwitterButton from './message/twitterbutton'
+import {NavLink} from "react-router-dom"
 
 const Header = () => {
 
@@ -48,14 +49,14 @@ https://github.com/JasonDsouza212/free-hit`
               <nav id="sidebar">
                 <ul className="list-items">
                   <li>
-                    <a href="/">
+                    <NavLink to="/">
                       <i className="ri-home-4-fill"></i> Home
-                    </a>
+                    </NavLink>
                   </li>
                   <li>
-                    <a href="/bookmarks">
+                    <NavLink to="/bookmarks">
                       <i className="ri-bookmark-fill"></i> Bookmarks
-                    </a>
+                    </NavLink>
                   </li>
                   <li>
                     <TwitterButton message={msg} />
@@ -67,14 +68,14 @@ https://github.com/JasonDsouza212/free-hit`
                 <div className="title">
                   <ul className="pages-sidebar">
                     <li>
-                      <a href="/">
+                      <NavLink to="/">
                         <i className="ri-home-4-fill"></i> Home
-                      </a>
+                      </NavLink>
                     </li>
                     <li>
-                      <a href="/bookmarks">
+                      <NavLink to="/bookmarks">
                         <i className="ri-bookmark-fill"></i> Bookmark
-                      </a>
+                      </NavLink>
                     </li>
                   </ul>
                 </div>
@@ -91,12 +92,12 @@ https://github.com/JasonDsouza212/free-hit`
           }
         </div>
         <h1 className="Free-Hit">
-          <a href="/about">
+          <NavLink to="/about">
             <img className="free-logo" src={freehitlogo} alt="" />
-          </a>
-          <a className="free-word" href="/about">
+          </NavLink>
+          <NavLink className="free-word" to="/about">
             Free-Hit
-          </a>
+          </NavLink>
         </h1>
       </div>
       {
@@ -142,13 +143,13 @@ https://github.com/JasonDsouza212/free-hit`
       }
       <ul className="pages">
         <li>
-          <a href="/">Home</a>
+          <NavLink to="/">Home</NavLink>
         </li>
         <li>
-          <a href="/bookmarks">Bookmarks</a>
+          <NavLink to="/bookmarks">Bookmarks</NavLink>
         </li>
         <li>
-          <a href="/about">About</a>
+          <NavLink to="/about">About</NavLink>
         </li>
       </ul>
     </nav>
