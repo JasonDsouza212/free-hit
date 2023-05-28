@@ -111,9 +111,22 @@ h3 .card-title {
   font-weight: bold;
   text-align: center;
   color: #1f1e1e;
-  padding-top: 5rem;
+  padding-top: 2rem;
   margin-bottom: 2rem;
   text-transform: uppercase;
-  min-height: 55vh;
+  min-height: 12vh;
+}
+
+.not-found-img{
+  width:13rem;
+  height:15em;
+  
+}
+
+.not-found-wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width:100%;
 }
 /* card end */

@@ -1,6 +1,8 @@
 import React, { useContext } from 'react'
 import Header from './header'
 import { ToolContext } from '../App'
+import noresultimg from '../images/sad-face-2.png'
+
 
 const BookMarks = ({ length }) => {
   const { category, bookmarkfilteredProducts, deleteres } =
@@ -10,7 +12,10 @@ const BookMarks = ({ length }) => {
       <Header />
       <div className="card-container">
         {length === 0 ? (
-          <p className="no-results">Sorry, no BookMarks to Show</p>
+          <div className='not-found-wrapper'>
+          <p className="no-results">Sorry, no BookMarks in sight!</p>
+          <img class="not-found-img" src={noresultimg} alt=""/>
+          </div>
         ) : (
           <main className="grid">
             {bookmarkfilteredProducts.map((product) => {
