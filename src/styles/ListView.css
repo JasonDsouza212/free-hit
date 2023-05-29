@@ -91,6 +91,18 @@
   }
 }
 
+@media (max-width: 750px) {
+  .accordion_btn .card-title {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 660px) {
+  .accordion_btn .card-title {
+    font-size: 16px;
+  }
+}
+
 @media (min-width: 768px) {
   .list {
     padding: 50px 20px 20px;
