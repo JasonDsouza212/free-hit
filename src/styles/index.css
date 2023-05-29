@@ -5,6 +5,12 @@
 @import 'footer.css';
 @import 'backToTop.css';
 @import 'commonpage.css';
+@import 'community.css';
+
+:root {
+  --primary-white: #f1f1ef;
+  --primary-black: #373530;
+}
 
 :root {
   --primary-white: #f1f1ef;
@@ -17,10 +23,10 @@
   background-color: var(--primary-white);
 }
 
-/* Handle */
 ::-webkit-scrollbar-thumb {
   background: var(--primary-black);
-  border-radius: 7px;
+  background: var(--primary-black);
+  background: var(--primary-black);
 }
 
 * {

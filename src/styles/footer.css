@@ -19,7 +19,15 @@ footer {
   font-weight: 400;
   text-transform: capitalize;
   line-height: 3rem;
+  display: flex;
+  align-items: center;
 }
+.footer-content h3 img {
+  width: 45px;
+  height: 45px;
+  margin-right: 10px;
+}
+
 .footer-content p {
   max-width: 500px;
   margin: 10px auto;

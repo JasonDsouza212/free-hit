@@ -1,12 +1,13 @@
 import banner1 from '../images/designer-desk-2 1.png'
 import banner2 from '../images/business-presentation-1 1.png'
 import Team from './team'
-import Aboutnav from './aboutnav'
+import Header from './header'
 
 const About = () => {
   return (
-    <div className="about_container">
-      <Aboutnav />
+    <>
+      {/* <Aboutnav /> */}
+      <Header />
       <section className="about">
         <div className="ab1">
           <p>
@@ -44,7 +45,7 @@ const About = () => {
         </div>
       </section>
       <Team />
-    </div>
+    </>
   )
 }
 

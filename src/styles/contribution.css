@@ -37,6 +37,7 @@
   border-radius: 15px;
   transition: all 0.38s ease;
   border: 4px solid rgb(55, 55, 55);
+  cursor: pointer;
 }
 .box h3 {
   font-size: 23px;

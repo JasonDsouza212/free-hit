@@ -297,6 +297,7 @@ nav {
 }
 
 .pages li a  {
+  margin: 3px;
     text-decoration: none;
     padding: 0px 20px;
     color: var(--primary-black); 
@@ -304,6 +305,13 @@ nav {
 }
 
 .pages li a:hover {
+  padding: 3px 20px;
+  color: var(--primary-white);
+  background-color: var(--primary-black);
+  border-radius: 10px;
+  
+}
+.pages li a.active {
   padding: 3px 20px;
   color: var(--primary-white);
   background-color: var(--primary-black);

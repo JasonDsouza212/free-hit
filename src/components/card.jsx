@@ -1,6 +1,7 @@
 import Header from './header'
 import React, { Fragment, useContext } from 'react'
 import { ToolContext } from '../App'
+import noresultimg from '../images/sad-face-2.png'
 import GridView from './Card/GridView'
 import ListView from './Card/ListView'
 import { BsFillGridFill, BsListUl } from 'react-icons/bs'
@@ -30,9 +31,12 @@ const Card = ({ length }) => {
       </div>
       <div className="card-container">
         {length == 0 ? (
-          <p className="no-results">
-            Sorry, no tools available for this search term
-          </p>
+          <div className="not-found-wrapper">
+            <p className="no-results">
+              Sorry, our toolbox seems empty for this search term!
+            </p>
+            <img class="not-found-img" src={noresultimg} alt="" />
+          </div>
         ) : gridView ? (
           <GridView />
         ) : (
