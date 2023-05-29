@@ -6,6 +6,7 @@ import ButtonLinks from './Data/categories'
 import { ToolContext } from '../App'
 import { useLocation } from 'react-router-dom'
 import TwitterButton from './message/twitterbutton'
+import {NavLink} from "react-router-dom"
 
 const Header = () => {
   const msg = `Hey guys, I found a cool project!
@@ -46,107 +47,107 @@ https://github.com/JasonDsouza212/free-hit`
             <nav id="sidebar">
               <ul className="list-items">
                 <li>
-                  <a href="/">
+                  <NavLink to="/">
                     <i className="ri-home-4-fill"></i> Home
-                  </a>
+                  </NavLink>
                 </li>
                 <li>
-                  <a href="/bookmarks">
+                  <NavLink to="/bookmarks">
                     <i className="ri-bookmark-fill"></i> Bookmarks
-                  </a>
+                  </NavLink>
                 </li>
                 <li>
                   <TwitterButton message={msg} />
                 </li>
               </ul>
             </nav>
-          ) : (
-            <nav id="sidebar">
-              <div className="title">
-                <ul className="pages-sidebar">
-                  <li>
-                    <a href="/">
-                      <i className="ri-home-4-fill"></i> Home
-                    </a>
-                  </li>
-                  <li>
-                    <a href="/bookmarks">
-                      <i className="ri-bookmark-fill"></i> Bookmark
-                    </a>
-                  </li>
-                </ul>
-              </div>
-              <ul className="list-items">
-                {ButtonLinks.map((buttonLink) => (
-                  <Button
-                    key={buttonLink.id}
-                    button={buttonLink}
-                    filterProduct={filterProduct}
-                  />
-                ))}
+          ) :(
+          <nav id="sidebar">
+            <div className="title">
+              <ul className="pages-sidebar">
+                <li>
+                  <NavLink to="/">
+                    <i className="ri-home-4-fill"></i> Home
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink to="/bookmarks">
+                    <i className="ri-bookmark-fill"></i> Bookmark
+                  </NavLink>
+                </li>
               </ul>
-            </nav>
+            </div>
+            <ul className="list-items">
+              {ButtonLinks.map((buttonLink) => (
+                <Button
+                  key={buttonLink.id}
+                  button={buttonLink}
+                  filterProduct={filterProduct}
+                />
+              ))}
+            </ul>
+          </nav>
           )}
         </div>
         <h1 className="Free-Hit">
-          <a href="/about">
+          <NavLink to="/about">
             <img className="free-logo" src={freehitlogo} alt="" />
-          </a>
-          <a className="free-word" href="/about">
+          </NavLink>
+          <NavLink className="free-word" to="/about">
             Free-Hit
-          </a>
+          </NavLink>
         </h1>
       </div>
-      {location.pathname !== '/about' && location.pathname !== '/contributions' && (
-        <div className="container">
-          <div className="search_box">
-            <input
-              type="text"
-              className="input"
-              placeholder="search for the tools..."
-              value={searchTerm}
-              onChange={(e) => handleChageInInput(e)}
-            />
-            {searchTerm.length > 0 && (
-              <div
-                className="close"
-                onClick={() => {
-                  setSearchTerm('');
-                }}
+      {location.pathname !== '/about' &&
+        (location.pathname !== '/community' && (
+          <div className="container">
+            <div className="search_box">
+              <input
+                type="text"
+                className="input"
+                placeholder="search for the tools..."
+                value={searchTerm}
+                onChange={(e) => handleChageInInput(e)}
               />
-            )}
-            <div className="btn btn_common">
-              <i className="fas fa-search">
-                <FaSearch />
-              </i>
+              {searchTerm.length > 0 && (
+                <div
+                  className="close"
+                  onClick={() => {
+                    setSearchTerm('')
+                  }}
+                />
+              )}
+              <div className="btn btn_common">
+                <i className="fas fa-search">
+                  <FaSearch />
+                </i>
+              </div>
             </div>
+            {filteredSuggestions.length > 0 && (
+              <ul className="hnav-suggestionbar" id="serch-suggestions">
+                {/* This shows as a list of suggestions based on the search term */}
+                {filteredSuggestions.map((suggestion) => (
+                  <li
+                    key={suggestion}
+                    onClick={() => handleSuggestionClick(suggestion)}
+                    className="hnav-suggestion"
+                  >
+                    {suggestion}
+                  </li>
+                ))}
+              </ul>
+            )}
           </div>
-          {filteredSuggestions.length > 0 && (
-            <ul className="hnav-suggestionbar" id="serch-suggestions">
-              {/* This shows as a list of suggestions based on the search term */}
-              {filteredSuggestions.map((suggestion) => (
-                <li
-                  key={suggestion}
-                  onClick={() => handleSuggestionClick(suggestion)}
-                  className="hnav-suggestion"
-                >
-                  {suggestion}
-                </li>
-              ))}
-            </ul>
-          )}
-        </div>
-      )}
-  
+        ))}
       <ul className="pages">
         <li>
-          <a href="/">Home</a>
+          <NavLink to="/">Home</NavLink>
         </li>
         <li>
-          <a href="/bookmarks">Bookmarks</a>
+          <NavLink to="/bookmarks">Bookmarks</NavLink>
         </li>
         <li>
-          <a href="/about">About</a>
+          <NavLink to="/about">About</NavLink>
         </li>
       </ul>
     </nav>
