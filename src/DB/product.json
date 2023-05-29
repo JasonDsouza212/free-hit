@@ -1337,5 +1337,12 @@
   "image": "https://rb.gy/swae5",
   "link": "https://icons.getbootstrap.com/",
   "description": "Free, high quality, open source icon library with over 1,800 icons."
+},
+{
+  "productName": "Material UI",
+  "category": "tools",
+  "image": "https://mui.com/static/logo.png",
+  "link": "https://mui.com/",
+  "description": "MUI offers a comprehensive suite of UI tools to help you ship new features faster."
 }
 ]
