@@ -27,7 +27,8 @@
 
 .list .image .card-img {
   width: 80px;
-  height: auto;
+  height: 80px;
+  object-fit: contain;
 }
 
 .list article .text {
