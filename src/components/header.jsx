@@ -98,47 +98,47 @@ https://github.com/JasonDsouza212/free-hit`
           </NavLink>
         </h1>
       </div>
-      {location.pathname != '/about' &&
-        (location.pathname != '/community' && (
-          <div className="container">
-            <div className="search_box">
-              <input
-                type="text"
-                className="input"
-                placeholder="search for the tools..."
-                value={searchTerm}
-                onChange={(e) => handleChageInInput(e)}
+      {location.pathname !== '/about' && location.pathname !== '/contributions' && (
+        <div className="container">
+          <div className="search_box">
+            <input
+              type="text"
+              className="input"
+              placeholder="search for the tools..."
+              value={searchTerm}
+              onChange={(e) => handleChageInInput(e)}
+            />
+            {searchTerm.length > 0 && (
+              <div
+                className="close"
+                onClick={() => {
+                  setSearchTerm('');
+                }}
               />
-              {searchTerm.length > 0 && (
-                <div
-                  className="close"
-                  onClick={() => {
-                    setSearchTerm('')
-                  }}
-                />
-              )}
-              <div className="btn btn_common">
-                <i className="fas fa-search">
-                  <FaSearch />
-                </i>
-              </div>
-            </div>
-            {filteredSuggestions.length > 0 && (
-              <ul className="hnav-suggestionbar" id="serch-suggestions">
-                {/* This shows as a list of suggestions based on the search term */}
-                {filteredSuggestions.map((suggestion) => (
-                  <li
-                    key={suggestion}
-                    onClick={() => handleSuggestionClick(suggestion)}
-                    className="hnav-suggestion"
-                  >
-                    {suggestion}
-                  </li>
-                ))}
-              </ul>
             )}
+            <div className="btn btn_common">
+              <i className="fas fa-search">
+                <FaSearch />
+              </i>
+            </div>
           </div>
-        ))}
+          {filteredSuggestions.length > 0 && (
+            <ul className="hnav-suggestionbar" id="serch-suggestions">
+              {/* This shows as a list of suggestions based on the search term */}
+              {filteredSuggestions.map((suggestion) => (
+                <li
+                  key={suggestion}
+                  onClick={() => handleSuggestionClick(suggestion)}
+                  className="hnav-suggestion"
+                >
+                  {suggestion}
+                </li>
+              ))}
+            </ul>
+          )}
+        </div>
+      )}
+  
       <ul className="pages">
         <li>
           <NavLink to="/">Home</NavLink>
@@ -151,7 +151,7 @@ https://github.com/JasonDsouza212/free-hit`
         </li>
       </ul>
     </nav>
-  )
-}
+  );
+}  
 
 export default Header
