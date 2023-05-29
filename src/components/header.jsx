@@ -43,8 +43,8 @@ https://github.com/JasonDsouza212/free-hit`
             <i className="fa ri-menu-fill"></i>
             <i className="fa ri-close-line"></i>
           </label>
-          {location.pathname == '/about' ?
-            (<nav id="sidebar">
+          {location.pathname === '/about' ? (
+            <nav id="sidebar">
               <ul className="list-items">
                 <li>
                   <NavLink to="/">
@@ -98,8 +98,8 @@ https://github.com/JasonDsouza212/free-hit`
           </NavLink>
         </h1>
       </div>
-      {location.pathname != '/about' &&
-        (location.pathname != '/community' && (
+      {location.pathname !== '/about' &&
+        (location.pathname !== '/community' && (
           <div className="container">
             <div className="search_box">
               <input
@@ -151,7 +151,7 @@ https://github.com/JasonDsouza212/free-hit`
         </li>
       </ul>
     </nav>
-  )
-}
+  );
+}  
 
 export default Header
