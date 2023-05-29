@@ -21,6 +21,13 @@ footer{
   text-transform: capitalize;
   line-height: 3rem;
 }
+.footer-content h3 img{
+  position: relative;
+  top: 13px;
+  width: 45px;
+  height: 45px;
+  margin-right: 10px;
+}
 .footer-content p{
   max-width: 500px;
   margin: 10px auto;
