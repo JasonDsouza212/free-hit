@@ -50,6 +50,35 @@ You can check out the live project [here](https://free-hit.vercel.app/)
     </td> 
   </tr>
 </table>
+<h1 align=center> Project Mentors </h1>
+<table align=center>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/uday03meh">
+        <img alt="hariketsheth" src="https://github.com/uday03meh.png" width="100px;" style="border-radius: 20px;">
+        <br>
+        <sub>
+          <b>
+              Uday Mehtani
+          </b>
+        </sub>
+      </a>
+      <br>
+    </td>
+    <td align="center">
+      <a href="https://github.com/VenomFate-619">
+        <img alt="swapnilgarg7" src="https://github.com/VenomFate-619.png" width="100px;" style="border-radius: 20px;">
+        <br>
+        <sub>
+          <b>
+              Syed Aman Ali
+          </b>
+        </sub>
+      </a>
+      <br>
+    </td>
+  </tr>
+</table>
 
 <h1 align="center"> For GSSOC'23 Contributors ❤️</h1>
 <ul>
