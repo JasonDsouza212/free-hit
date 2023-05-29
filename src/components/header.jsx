@@ -98,7 +98,7 @@ https://github.com/JasonDsouza212/free-hit`
           </NavLink>
         </h1>
       </div>
-      {location.pathname != '/about' ||
+      {location.pathname != '/about' &&
         (location.pathname != '/community' && (
           <div className="container">
             <div className="search_box">
