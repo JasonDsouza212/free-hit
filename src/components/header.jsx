@@ -1,4 +1,4 @@
-import React, { useContext } from 'react'
+import React, { useContext, useEffect, useRef } from 'react'
 import { FaSearch } from 'react-icons/fa'
 import freehitlogo from '../images/free-logo.png'
 import Button from './Button'
@@ -16,11 +16,28 @@ Don't forget to give it a⭐️and explore it on GitHub
 https://github.com/JasonDsouza212/free-hit`
 
   const location = useLocation()
+
+  const sideNavRef = useRef(null);
+
   const { searchTerm, setSearchTerm, filteredSuggestions, filterProduct } =
     useContext(ToolContext)
   const handleSuggestionClick = (value) => {
     document.getElementById('serch-suggestions').classList.add('diplay-none')
     setSearchTerm(value)
+  }
+
+  useEffect(()=>{
+    document.addEventListener('mousedown',handleClickOutside);
+
+    return ()=>{
+      document.removeEventListener('mousedown',handleClickOutside);
+    }
+  })
+
+  function handleClickOutside(event){
+    if(sideNavRef.current && !sideNavRef.current.contains(event.target)){
+      document.getElementById("btn").checked = false;
+    }
   }
 
   const handleChageInInput = (event) => {
@@ -36,7 +53,7 @@ https://github.com/JasonDsouza212/free-hit`
 
   return (
     <nav className="navbar">
-      <div className="nav-container">
+      <div className="nav-container" ref={sideNavRef}>
         <div className="wrapper">
           <input type="checkbox" id="btn" hidden />
           <label htmlFor="btn" className="menu-btn">
