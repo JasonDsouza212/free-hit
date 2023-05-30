@@ -288,7 +288,8 @@ font-size: 20px;
 .pages li{
     display: inline-block;
     font-style: normal;
-    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
     color: var(--primary-black);
 }
 
