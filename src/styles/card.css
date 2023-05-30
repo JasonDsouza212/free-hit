@@ -111,11 +111,13 @@ img {
   font-size: 22px;
   left: 6px;
   font-weight: 600;
+  line-height: 24px;
+  text-align: left;
 }
 
 .btn-cont button {
   background-color: var(--primary-black);
-  padding: 7px 22px;
+  padding: 7px 25px;
   border-radius: 8px;
   margin: 2px;
   transition: all 0.3s ease;
@@ -158,16 +160,15 @@ img {
   min-height: 12vh;
 }
 
-.not-found-img{
-  width:13rem;
-  height:15em;
-  
+.not-found-img {
+  width: 13rem;
+  height: 15em;
 }
 
-.not-found-wrapper{
+.not-found-wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width:100%;
+  width: 100%;
 }
 /* card end */

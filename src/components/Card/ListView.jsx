@@ -29,9 +29,10 @@ const ListView = () => {
             boxShadow={'8px 8px 2px 0px #373530'}
             border={'1px solid #373530'}
             key={index}
+            className="accordion_item"
           >
             <AccordionButton>
-              <Box padding={1} py={2} flex="1" className="image">
+              <Box padding={1} py={'3px'} flex="1" className="image">
                 <img className="card-img" src={product.image} alt="" />
                 <div className="accordion_btn">
                   <h3 className="card-title">{product.productName}</h3>
@@ -68,7 +69,7 @@ const ListView = () => {
               </Box>
               <AccordionIcon as={BsChevronDown} size={5} fontWeight={'bold'} />
             </AccordionButton>
-            <AccordionPanel>
+            <AccordionPanel py={2} pt={0}>
               <div className="text">
                 <div className="accordion_panel">
                   <p>{product.description}</p>
