@@ -289,11 +289,12 @@ nav {
   right: 40px;
 }
 
-.pages li {
-  display: inline-block;
-  font-style: normal;
-  font-size: 26px;
-  color: var(--primary-black);
+.pages li{
+    display: inline-block;
+    font-style: normal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    color: var(--primary-black);
 }
 
 .pages li a  {
