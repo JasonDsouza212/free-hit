@@ -1,4 +1,4 @@
-import React, { useContext } from 'react'
+import React, { useContext, useEffect, useRef } from 'react'
 import { FaSearch } from 'react-icons/fa'
 import freehitlogo from '../images/free-logo.png'
 import Button from './Button'
@@ -6,6 +6,7 @@ import ButtonLinks from './Data/categories'
 import { ToolContext } from '../App'
 import { useLocation } from 'react-router-dom'
 import TwitterButton from './message/twitterbutton'
+import {NavLink} from "react-router-dom"
 
 const Header = () => {
   const msg = `Hey guys, I found a cool project!
@@ -15,11 +16,28 @@ Don't forget to give it a⭐️and explore it on GitHub
 https://github.com/JasonDsouza212/free-hit`
 
   const location = useLocation()
+
+  const sideNavRef = useRef(null);
+
   const { searchTerm, setSearchTerm, filteredSuggestions, filterProduct } =
     useContext(ToolContext)
   const handleSuggestionClick = (value) => {
     document.getElementById('serch-suggestions').classList.add('diplay-none')
     setSearchTerm(value)
+  }
+
+  useEffect(()=>{
+    document.addEventListener('mousedown',handleClickOutside);
+
+    return ()=>{
+      document.removeEventListener('mousedown',handleClickOutside);
+    }
+  })
+
+  function handleClickOutside(event){
+    if(sideNavRef.current && !sideNavRef.current.contains(event.target)){
+      document.getElementById("btn").checked = false;
+    }
   }
 
   const handleChageInInput = (event) => {
@@ -35,70 +53,70 @@ https://github.com/JasonDsouza212/free-hit`
 
   return (
     <nav className="navbar">
-      <div className="nav-container">
+      <div className="nav-container" ref={sideNavRef}>
         <div className="wrapper">
           <input type="checkbox" id="btn" hidden />
           <label htmlFor="btn" className="menu-btn">
             <i className="fa ri-menu-fill"></i>
             <i className="fa ri-close-line"></i>
           </label>
-          {location.pathname == '/about' ? (
+          {location.pathname === '/about' ? (
             <nav id="sidebar">
               <ul className="list-items">
                 <li>
-                  <a href="/">
+                  <NavLink to="/">
                     <i className="ri-home-4-fill"></i> Home
-                  </a>
+                  </NavLink>
                 </li>
                 <li>
-                  <a href="/bookmarks">
+                  <NavLink to="/bookmarks">
                     <i className="ri-bookmark-fill"></i> Bookmarks
-                  </a>
+                  </NavLink>
                 </li>
                 <li>
                   <TwitterButton message={msg} />
                 </li>
               </ul>
             </nav>
-          ) : (
-            <nav id="sidebar">
-              <div className="title">
-                <ul className="pages-sidebar">
-                  <li>
-                    <a href="/">
-                      <i className="ri-home-4-fill"></i> Home
-                    </a>
-                  </li>
-                  <li>
-                    <a href="/bookmarks">
-                      <i className="ri-bookmark-fill"></i> Bookmark
-                    </a>
-                  </li>
-                </ul>
-              </div>
-              <ul className="list-items">
-                {ButtonLinks.map((buttonLink) => (
-                  <Button
-                    key={buttonLink.id}
-                    button={buttonLink}
-                    filterProduct={filterProduct}
-                  />
-                ))}
+          ) :(
+          <nav id="sidebar">
+            <div className="title">
+              <ul className="pages-sidebar">
+                <li>
+                  <NavLink to="/">
+                    <i className="ri-home-4-fill"></i> Home
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink to="/bookmarks">
+                    <i className="ri-bookmark-fill"></i> Bookmark
+                  </NavLink>
+                </li>
               </ul>
-            </nav>
+            </div>
+            <ul className="list-items">
+              {ButtonLinks.map((buttonLink) => (
+                <Button
+                  key={buttonLink.id}
+                  button={buttonLink}
+                  filterProduct={filterProduct}
+                />
+              ))}
+            </ul>
+          </nav>
           )}
         </div>
         <h1 className="Free-Hit">
-          <a href="/about">
+          <NavLink to="/about">
             <img className="free-logo" src={freehitlogo} alt="" />
-          </a>
-          <a className="free-word" href="/about">
+          </NavLink>
+          <NavLink className="free-word" to="/about">
             Free-Hit
-          </a>
+          </NavLink>
         </h1>
       </div>
-      {location.pathname != '/about' ||
-        (location.pathname != '/community' && (
+      {location.pathname !== '/about' &&
+        (location.pathname !== '/community' && (
           <div className="container">
             <div className="search_box">
               <input
@@ -140,17 +158,17 @@ https://github.com/JasonDsouza212/free-hit`
         ))}
       <ul className="pages">
         <li>
-          <a href="/">Home</a>
+          <NavLink to="/">Home</NavLink>
         </li>
         <li>
-          <a href="/bookmarks">Bookmarks</a>
+          <NavLink to="/bookmarks">Bookmarks</NavLink>
         </li>
         <li>
-          <a href="/about">About</a>
+          <NavLink to="/about">About</NavLink>
         </li>
       </ul>
     </nav>
-  )
-}
+  );
+}  
 
 export default Header
