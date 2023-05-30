@@ -6,9 +6,11 @@ import ButtonLinks from './Data/categories'
 import { ToolContext } from '../App'
 import { useLocation } from 'react-router-dom'
 import TwitterButton from './message/twitterbutton'
-import {NavLink} from "react-router-dom"
+import { NavLink, useSearchParams } from "react-router-dom"
 
 const Header = () => {
+  const [searchParams] = useSearchParams()
+  const filter = searchParams.get('filter') || "all"
   const msg = `Hey guys, I found a cool project!
 Check out Free-Hit🏏, an open-source App for discovering free and helpful tools that cater to our needs
 It's a one-stop solution for finding amazing resources
@@ -19,23 +21,23 @@ https://github.com/JasonDsouza212/free-hit`
 
   const sideNavRef = useRef(null);
 
-  const { searchTerm, setSearchTerm, filteredSuggestions, filterProduct } =
+  const { searchTerm, setSearchTerm, filteredSuggestions } =
     useContext(ToolContext)
   const handleSuggestionClick = (value) => {
     document.getElementById('serch-suggestions').classList.add('diplay-none')
     setSearchTerm(value)
   }
 
-  useEffect(()=>{
-    document.addEventListener('mousedown',handleClickOutside);
+  useEffect(() => {
+    document.addEventListener('mousedown', handleClickOutside);
 
-    return ()=>{
-      document.removeEventListener('mousedown',handleClickOutside);
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
     }
   })
 
-  function handleClickOutside(event){
-    if(sideNavRef.current && !sideNavRef.current.contains(event.target)){
+  function handleClickOutside(event) {
+    if (sideNavRef.current && !sideNavRef.current.contains(event.target)) {
       document.getElementById("btn").checked = false;
     }
   }
@@ -78,32 +80,37 @@ https://github.com/JasonDsouza212/free-hit`
                 </li>
               </ul>
             </nav>
-          ) :(
-          <nav id="sidebar">
-            <div className="title">
-              <ul className="pages-sidebar">
-                <li>
-                  <NavLink to="/">
-                    <i className="ri-home-4-fill"></i> Home
-                  </NavLink>
-                </li>
-                <li>
-                  <NavLink to="/bookmarks">
-                    <i className="ri-bookmark-fill"></i> Bookmark
-                  </NavLink>
-                </li>
+          ) : (
+            <nav id="sidebar">
+              <div className="title">
+                <ul className="pages-sidebar">
+                  <li>
+                    <NavLink to="/">
+                      <i className="ri-home-4-fill"></i> Home
+                    </NavLink>
+                  </li>
+                  <li>
+                    <NavLink to="/bookmarks">
+                      <i className="ri-bookmark-fill"></i> Bookmark
+                    </NavLink>
+                  </li>
+                </ul>
+              </div>
+              <ul className="list-items">
+                {ButtonLinks.map((buttonLink) => (
+                  <li
+                    key={buttonLink.id}
+                    className={buttonLink.category == filter ? "active-filter" : ""}
+                  >
+                    <NavLink
+                      to={`?filter=${buttonLink.category}`}
+                    >
+                      {buttonLink.name}
+                    </NavLink>
+                  </li>
+                ))}
               </ul>
-            </div>
-            <ul className="list-items">
-              {ButtonLinks.map((buttonLink) => (
-                <Button
-                  key={buttonLink.id}
-                  button={buttonLink}
-                  filterProduct={filterProduct}
-                />
-              ))}
-            </ul>
-          </nav>
+            </nav>
           )}
         </div>
         <h1 className="Free-Hit">
@@ -169,6 +176,6 @@ https://github.com/JasonDsouza212/free-hit`
       </ul>
     </nav>
   );
-}  
+}
 
 export default Header

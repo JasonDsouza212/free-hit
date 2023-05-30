@@ -163,6 +163,11 @@ nav{
   border-bottom: 1px solid transparent;
   box-shadow: 0 0px 10px 3px #222;
 }
+.active-filter {
+  border-top: 1px solid transparent;
+  border-bottom: 1px solid transparent;
+  box-shadow: 0 0px 10px 3px #222;
+}
 #sidebar .list-items li:first-child{
   border-top: none;
 }

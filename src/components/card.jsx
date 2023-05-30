@@ -2,15 +2,18 @@ import Header from './header'
 import React, { useContext } from 'react'
 import { ToolContext } from '../App'
 import noresultimg from '../images/sad-face-2.png'
+import { useSearchParams } from 'react-router-dom'
 
 const Card = ({ length }) => {
   const {
     filteredProducts,
-    category,
     handelBookmarkAdd,
     bookmarkfilteredProducts,
     deleteres,
   } = useContext(ToolContext)
+
+  const [searchParams, ] = useSearchParams()
+  const filter = searchParams.get("filter") || "all"
 
   return (
     <>
@@ -26,7 +29,7 @@ const Card = ({ length }) => {
         ) : (
           <main className="grid">
             {filteredProducts.map((product, index) => {
-              return category === 'all' || category === product.category ? (
+              return filter === 'all' || filter === product.category ? (
                 <article key={index}>
                   <div className="text">
                     <div className="card-head">
