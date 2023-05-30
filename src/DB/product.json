@@ -7,6 +7,13 @@
     "description": "A collaborative list of resources for developers"
   },
   {
+    "productName": "ABBYY FineReader",
+    "category": "tools",
+    "image": "https://play-lh.googleusercontent.com/zJlf2WjGqSATNfkEJAAsuFTS5s7WthKAiULxk2FPPwwpVi-7EKMyvrSA8CLsgUTXzQ",
+    "link": "https://pdf.abbyy.com/",
+    "description": "Offers powerful OCR capabilities to transform scanned documents into editable files with high accuracy."
+  },
+  {
     "productName": "Smallpdf",
     "category": "tools",
     "image": "https://play-lh.googleusercontent.com/6rZArbkYpvNYuTnlcPh3U8KRP4cii_Leptqx_rspIJuYKXeCeHikP2ZPcHhZKicaQeI",
