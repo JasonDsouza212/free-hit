@@ -3,11 +3,12 @@
   --primary-black: #373530;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Space Grotesk', sans-serif;
+*{
+   max-width: 100%;
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Space Grotesk', sans-serif;
 }
 
 body {

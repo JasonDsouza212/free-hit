@@ -7,6 +7,13 @@
     "description": "A collaborative list of resources for developers"
   },
   {
+    "productName": "Smallpdf",
+    "category": "tools",
+    "image": "https://play-lh.googleusercontent.com/6rZArbkYpvNYuTnlcPh3U8KRP4cii_Leptqx_rspIJuYKXeCeHikP2ZPcHhZKicaQeI",
+    "link": "https://smallpdf.com/",
+    "description": " Online platform that offers a range of tools for working with PDF files, including conversion and editing."
+  },
+  {
     "productName": "Font Awesome",
     "category": "tools",
     "image": "https://bit.ly/3UoicnQ",
@@ -1344,5 +1351,12 @@
   "image": "https://mui.com/static/logo.png",
   "link": "https://mui.com/",
   "description": "MUI offers a comprehensive suite of UI tools to help you ship new features faster."
-}
+},
+{
+   "productName": "Cataz",
+   "category": "movies",
+   "image": "https://bit.ly/45EQRTq",
+   "link": "https://cataz.net/",
+   "description": "Best websites to stream your favourite series online"
+ }
 ]
