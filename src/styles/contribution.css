@@ -81,11 +81,9 @@
 }
 @media(max-width: 1240px){
     .team{
-        width: 100%;
-        height: auto;
         padding: 90px 6%;
-        margin-top: 0px;
         padding-top: 0;
+        padding-bottom: 0;
     }
     .center h1{
         font-size: 3.5rem;
