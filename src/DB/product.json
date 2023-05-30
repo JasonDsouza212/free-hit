@@ -1358,5 +1358,12 @@
   "image": "https://mui.com/static/logo.png",
   "link": "https://mui.com/",
   "description": "MUI offers a comprehensive suite of UI tools to help you ship new features faster."
-}
+},
+{
+   "productName": "Cataz",
+   "category": "movies",
+   "image": "https://bit.ly/45EQRTq",
+   "link": "https://cataz.net/",
+   "description": "Best websites to stream your favourite series online"
+ }
 ]
