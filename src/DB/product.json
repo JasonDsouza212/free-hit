@@ -1365,5 +1365,19 @@
    "image": "https://bit.ly/45EQRTq",
    "link": "https://cataz.net/",
    "description": "Best websites to stream your favourite series online"
+ },
+ {
+  "productName": "UnLighthouse",
+  "category": "tools",
+  "image": "https://bit.ly/3MGIY7t",
+  "description": "Like Lighthouse, but it scans every single page",
+  "link": "https://unlighthouse.dev"
+ },
+ {
+  "productName": "Regexr",
+  "category": "tools",
+  "image": "https://bit.ly/3qjRyl9",
+  "description": "Regexr is an online tool to learn, build, & test Regular Expressions.",
+  "link": "https://regexr.com/"
  }
 ]
