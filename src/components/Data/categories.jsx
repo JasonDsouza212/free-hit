@@ -43,6 +43,12 @@ const ButtonLinks = [
   },
   {
     id: 8,
+    name: 'UI Design',
+    category: 'UI',
+    icon: 'ri-tools-fill',
+  },
+  {
+    id: 9,
     name: 'Useful Tools',
     category: 'tools',
     icon: 'ri-tools-fill',
