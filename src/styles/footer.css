@@ -1,83 +1,85 @@
 /* ===================footer  */
-  
-footer{
+
+footer {
   background: #1a1919;
   height: auto;
-  font-family: "Open Sans";
+  font-family: 'Open Sans';
   padding-top: 40px;
   color: var(--primary-white);
 }
-.footer-content{
+.footer-content {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   text-align: center;
-
 }
-.footer-content h3{
+.footer-content h3 {
   font-size: 1.8rem;
   font-weight: 400;
   text-transform: capitalize;
   line-height: 3rem;
+  display: flex;
+  align-items: center;
 }
-.footer-content h3 img{
-  position: relative;
-  top: 13px;
+.footer-content h3 img {
   width: 45px;
   height: 45px;
   margin-right: 10px;
 }
-.footer-content p{
+
+.footer-content p {
   max-width: 500px;
   margin: 10px auto;
   line-height: 28px;
   font-size: 16px;
   font-weight: 400;
 }
-.socials{
+.socials {
   list-style: none;
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 0rem 0 1rem 0;
 }
-.socials li{
+.socials li {
   margin: 0 10px;
 }
-.socials a{
+.socials a {
   text-decoration: none;
   color: #fff;
 }
-.socials a i{
+.socials a i {
   font-size: 1.1rem;
-  transition: color .4s ease;
+  transition: color 0.4s ease;
 }
 
-.socials a:hover i{
+.socials a:hover i {
   color: aqua;
 }
 
-.footer-bottom{
+.footer-bottom {
   background: #0e0d0d;
   padding-top: 20px;
   text-align: center;
+  padding-bottom: 0;
 }
-.footer-bottom p{
+.footer-bottom p {
   font-size: 18px;
   word-spacing: 2px;
   text-transform: capitalize;
+  line-height: 20px;
 }
-.footer-bottom span{
+.footer-bottom span {
   text-transform: uppercase;
-  opacity: .4;
+  opacity: 0.4;
   font-weight: 200;
 }
-.footer-bottom ul{
-margin: 0;
+.footer-bottom ul {
+  margin: 0;
 }
-.footer-bottom a{
- text-decoration: none;
- color: var(--primary-white);
- font-size: 20px;
+.footer-bottom a {
+  text-decoration: none;
+  color: var(--primary-white);
+  font-size: 20px;
 }

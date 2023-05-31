@@ -1,0 +1,148 @@
+.list {
+  display: flex;
+  /* align-items: center; */
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 100%;
+  gap: 20px;
+  padding: 5px 15px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.list article {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  border: 2px solid var(--primary-black);
+  border-radius: 8px;
+  gap: 0px;
+  box-shadow: 8px 8px 2px 0px var(--primary-black);
+}
+
+.list article:hover {
+  box-shadow: 6px 6px 0px 0px var(--primary-black);
+  transform: scale(1.02);
+}
+
+.image {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.list .image .card-img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+}
+
+.list article .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.accordion_btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 92%;
+}
+
+.list .card-title {
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  /* margin-bottom: 20px; */
+  /* width: ; */
+  width: inherit;
+  text-align: left;
+}
+
+.list .text p {
+  max-width: 100%;
+  width: inherit;
+}
+
+.list .btn-cont {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.accordion_panel .btn-cont {
+  display: none;
+}
+
+.accordion_panel {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media (max-width: 560px) {
+  .list .btn-cont {
+    justify-content: center;
+  }
+
+  .accordion_btn .btn-cont {
+    display: none;
+  }
+
+  .accordion_panel {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .accordion_panel p {
+    text-align: center;
+  }
+
+  .accordion_panel .btn-cont {
+    display: flex;
+  }
+}
+
+@media (max-width: 750px) {
+  .accordion_btn .card-title {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 660px) {
+  .accordion_btn .card-title {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 768px) {
+  .list {
+    padding: 50px 20px 20px;
+    margin-top: -15px;
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .list {
+    padding: 50px 50px 20px;
+    margin-top: -15px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .list {
+    padding: 50px 80px 20px;
+    margin-top: -15px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .list {
+    padding: 50px 120px 20px;
+    margin-top: -15px;
+  }
+}

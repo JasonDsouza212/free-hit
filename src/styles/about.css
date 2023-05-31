@@ -1,4 +1,23 @@
+:root {
+  --primary-white: #f1f1ef;
+  --primary-black: #373530;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+body {
+  background-color: var(--primary-white);
+}
+
 /* ======================about start */
+.about_container {
+  background-color: var(--primary-white);
+}
 
 .about {
   display: grid;
@@ -18,13 +37,14 @@
   font-size: 32px;
   font-weight: 550;
   position: relative;
+  line-height: 33px;
   top: 30%;
   font-family: 'Josefin Slab', serif;
 }
 
 .about .ab2 {
   display: flex;
-  
+
   margin-bottom: 100px;
 }
 
@@ -34,12 +54,14 @@
   font-weight: 550;
   position: relative;
   top: 10%;
+  line-height: 33px;
   font-family: 'Josefin Slab', serif;
 }
 
 .about p button {
   background-color: var(--primary-black);
-  padding: 8px 25px;
+  padding: 6px 25px;
+  border: 2px solid var(--primary-black);
 }
 
 .about p button a {
@@ -53,7 +75,6 @@
 
 .about p button:hover {
   background-color: var(--primary-white);
-  padding: 8px 25px;
   transition: all 0.3s ease-out;
 }
 

@@ -15,6 +15,7 @@ const LOCAL_STORAGE_KEY = 'freehit.bookmarks'
 function App() {
   const [category, setCategory] = useState('all')
   const [searchTerm, setSearchTerm] = useState('')
+  const [gridView, setGridView] = useState(true)
 
   // all products
   const [productNames, setProductNames] = useState(
@@ -25,6 +26,9 @@ function App() {
   // all Bookmarks
   const [bookmarkfiltersuggestions, setBookmarkfiltersuggestions] = useState([])
   const [bookmarks, setBookmarks] = useState([])
+
+  // for menu bar close and open
+  const [isMenuActive, setIsMenuActive] = useState(true)
 
   const [boomarkNames, setBookmarkNames] = useState(
     bookmarks?.map((bookmark) => bookmark.productName) || []
@@ -160,6 +164,8 @@ function App() {
     deleteres,
     filteredSuggestions,
     bookmarkfilteredProducts,
+    gridView,
+    setGridView,
   }
 
   return (

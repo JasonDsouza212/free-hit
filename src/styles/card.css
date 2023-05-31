@@ -1,13 +1,49 @@
-/* card css start */
-.card-head {
-  display: flex;
-  gap: 20px;
-  align-items: center;
+:root {
+  --primary-white: #f1f1ef;
+  --primary-black: #373530;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+body {
+  background-color: var(--primary-white);
+}
+
+/* Card View CSS */
+.card_container {
+  background-color: var(--primary-white);
+}
+
+.card_view {
+  width: 95%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.card_view svg {
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .card_view {
+    margin-top: 20px;
+  }
+}
+
+/* card css start */
 
 .grid {
   padding: 20px;
   width: 100%;
+  min-height: 55vh;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, auto));
   align-items: start;
@@ -15,7 +51,6 @@
   gap: 1rem 1rem;
   text-align: center;
   margin-top: 1rem;
-  min-height: 55vh;
   text-align: center;
 }
 
@@ -56,28 +91,33 @@ img {
 }
 
 .grid .text p {
-  margin-top: 5px;
+  margin-top: 2px;
+  line-height: 20px;
   font-family: 'Roboto', sans-serif;
 }
 
-.grid .text h3 {
-  text-align: left;
+.grid .text .text_top {
   position: relative;
   right: 10px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
 }
 
-h3 .card-title {
+.text_top .card-title {
   color: #000;
-  text-align: left;
-  position: relative;
   bottom: 12px;
   font-size: 22px;
   left: 6px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
 }
 
 .btn-cont button {
   background-color: var(--primary-black);
-  padding: 8px 25px;
+  padding: 7px 25px;
   border-radius: 8px;
   margin: 2px;
   transition: all 0.3s ease;
@@ -120,16 +160,15 @@ h3 .card-title {
   min-height: 12vh;
 }
 
-.not-found-img{
-  width:13rem;
-  height:15em;
-  
+.not-found-img {
+  width: 13rem;
+  height: 15em;
 }
 
-.not-found-wrapper{
+.not-found-wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width:100%;
+  width: 100%;
 }
 /* card end */

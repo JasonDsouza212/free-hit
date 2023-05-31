@@ -5,7 +5,7 @@ import Header from './header'
 
 const About = () => {
   return (
-    <>
+    <div className="about_container">
       {/* <Aboutnav /> */}
       <Header />
       <section className="about">
@@ -45,7 +45,7 @@ const About = () => {
         </div>
       </section>
       <Team />
-    </>
+    </div>
   )
 }
 

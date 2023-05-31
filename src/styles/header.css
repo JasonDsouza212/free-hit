@@ -1,5 +1,5 @@
 :root {
-  --primary-white: #F1F1EF;
+  --primary-white: #f1f1ef;
   --primary-black: #373530;
 }
 
@@ -11,44 +11,45 @@
     font-family: 'Space Grotesk', sans-serif;
 }
 
-body{
-    background-color: var(--primary-white);
+body {
+  background-color: var(--primary-white);
 }
 
-nav{
-    height: 70px;
-    line-height: 70px;
-    border-bottom: 2px solid var(--primary-black);
-    position:sticky;
-    top: 0px;
-    z-index: 999;
-    background-color: var(--primary-white);
+nav {
+  height: 70px;
+  line-height: 70px;
+  border-bottom: 2px solid var(--primary-black);
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  background-color: var(--primary-white);
 }
 
-.nav-container{
-    display: flex;
-    font-size: 28px;
-    font-weight: bold;
-    float: left;
-    color: var(--primary-black);
-    text-transform: uppercase;
+.nav-container {
+  display: flex;
+  font-size: 28px;
+  font-weight: bold;
+  float: left;
+  color: var(--primary-black);
+  text-transform: uppercase;
 }
 
 @media screen and (max-width: 360px) {
-    .nav-container{
-      float: left;
-      width: 100vw;
-    }
+  .nav-container {
+    float: left;
+    width: 100vw;
+  }
 }
 
 /* side navbar start */
-.wrapper{
+.wrapper {
   height: 100%;
-  width: 300px;
+  width: 80px;
   position: relative;
-  top: -50px;
+  top: -48px;
 }
-.wrapper .menu-btn{
+.wrapper .menu-btn {
   position: relative;
   left: 20px;
   top: 60px;
@@ -65,23 +66,23 @@ nav{
   justify-content: center;
 }
 
-.wrapper .menu-btn i{
+.wrapper .menu-btn i {
   position: absolute;
   font-size: 24px;
   transition: all 0.3s ease;
 }
-.wrapper .menu-btn i.ri-close-line{
+.wrapper .menu-btn i.ri-close-line {
   opacity: 0;
 }
-#btn:checked ~ .menu-btn i.ri-close-line{
+#btn:checked ~ .menu-btn i.ri-close-line {
   opacity: 1;
   transform: rotate(-180deg);
 }
-#btn:checked ~ .menu-btn i.ri-menu-fill{
+#btn:checked ~ .menu-btn i.ri-menu-fill {
   opacity: 0;
   transform: rotate(180deg);
 }
-#sidebar{
+#sidebar {
   position: fixed;
   background: #404040;
   top: 70px;
@@ -89,7 +90,7 @@ nav{
   width: 270px;
   left: -270px;
   transition: all 0.3s ease;
-  overflow-y:auto;
+  overflow-y: auto;
   z-index: 999;
 }
 
@@ -102,11 +103,11 @@ nav{
   border-radius: 10px;
 }
 
-#btn:checked ~ #sidebar{
+#btn:checked ~ #sidebar {
   left: 0;
 }
 
-#sidebar .title{
+#sidebar .title {
   line-height: 65px;
   text-align: center;
   background: #333;
@@ -116,7 +117,7 @@ nav{
   border-bottom: 1px solid #222;
 }
 
-.pages-sidebar{
+.pages-sidebar {
   list-style: none;
   display: flex;
   gap: 0.3em;
@@ -124,50 +125,50 @@ nav{
   left: 2px;
 }
 
-.pages-sidebar li a:hover{
- background-color: #f2f2f2;
- border-radius: 10px;
- color: var(--primary-black);
+.pages-sidebar li a:hover {
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  color: var(--primary-black);
 }
 
-.pages-sidebar li a{
-  color:#f2f2f2 ;
+.pages-sidebar li a {
+  color: #f2f2f2;
   text-decoration: none;
   font-size: 16px;
   padding: 10px;
 }
 
-.pages-sidebar li a i{
- margin-right: 4px;
- position: relative;
- top:4px;
- font-size: 22px;
+.pages-sidebar li a i {
+  margin-right: 4px;
+  position: relative;
+  top: 4px;
+  font-size: 22px;
 }
 
-#sidebar .list-items{
+#sidebar .list-items {
   position: relative;
   background: #404040;
   width: 100%;
-  height: 100%;
+  /* height: 100%; */
   list-style: none;
 }
 
-#sidebar .list-items li{
+#sidebar .list-items li a {
   padding-left: 40px;
   line-height: 50px;
-  border-top: 1px solid rgba(255,255,255,0.1);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
   border-bottom: 1px solid #333;
   transition: all 0.3s ease;
 }
-#sidebar .list-items li:hover{
+#sidebar .list-items li a:hover {
   border-top: 1px solid transparent;
   border-bottom: 1px solid transparent;
   box-shadow: 0 0px 10px 3px #222;
 }
-#sidebar .list-items li:first-child{
+#sidebar .list-items li:first-child {
   border-top: none;
 }
-#sidebar .list-items li a{
+#sidebar .list-items li a {
   color: var(--primary-white);
   text-decoration: none;
   font-size: 18px;
@@ -176,13 +177,13 @@ nav{
   width: 100%;
   display: block;
 }
-#sidebar .list-items li a i{
+#sidebar .list-items li i {
   margin-right: 20px;
 }
-#sidebar .list-items li a:hover{
+#sidebar .list-items li:hover {
   cursor: pointer;
 }
-#sidebar .list-items .icons{
+#sidebar .list-items .icons {
   width: 100%;
   height: 40px;
   text-align: center;
@@ -193,7 +194,7 @@ nav{
   align-items: center;
   justify-content: center;
 }
-#sidebar .list-items .icons a{
+#sidebar .list-items .icons a {
   height: 100%;
   width: 40px;
   display: block;
@@ -205,74 +206,77 @@ nav{
   border: 1px solid var(--primary-black);
   transition: all 0.3s ease;
 }
-#sidebar .list-items .icons a:hover{
+#sidebar .list-items .icons a:hover {
   background: var(--primary-white);
 }
-.list-items .icons a:first-child{
+.list-items .icons a:first-child {
   margin-left: 0px;
 }
 /* sidebar ends  */
 
-
 /* search box start */
 
-.container{
+.container {
   float: right;
   position: relative;
   top: 5px;
 }
 
-.container .input{
-border: 0;
-color: var(--primary-white);
+.container .input {
+  border: 0;
+  color: var(--primary-black);
 }
 
-.search_wrap{
-position: relative;
-
+.search_wrap {
+  position: relative;
 }
 
-.search_box{
-position: relative;
-display: inline-block;
-width: 300px;
-height: 60px;
-top: 7px;
-right: 10px;
-margin: 0px auto;
+.search_box {
+  position: relative;
+  display: inline-block;
+  width: 300px;
+  height: 60px;
+  top: 7px;
+  right: 10px;
+  margin: 0px auto;
 }
 
-.search_box .input{
-position: absolute;
-width: 100%;
-height: 80%;
-padding: 10px 20px;
-border-radius: 100px;
-font-size: 18px;
-background-color: var(--primary-black);
+.search_box .input {
+  position: absolute;
+  width: 100%;
+  height: 80%;
+  padding: 10px 20px;
+  border-radius: 100px;
+  font-size: 18px;
+  background-color: var(--primary-black);
+  color: var(--primary-white);
 }
 
- .search_box .btn{
-    position: absolute;
-    width: 60px;
-    height: 80%;
-    background: var(--primary-black);
-    z-index: 1;
-    cursor: pointer;
-    right: 0px;
-    border-radius: 50%;
+.search_box .input::placeholder {
+  color: rgba(128, 128, 128, 0.8);
 }
 
-.search_box .btn.btn_common .fas{
-position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-50%,-50%);
-color: var(--primary-white);
-font-size: 20px;
+.search_box .btn {
+  position: absolute;
+  width: 60px;
+  height: 80%;
+  background: var(--primary-black);
+  z-index: 1;
+  cursor: pointer;
+  right: 0px;
+  border-radius: 50%;
 }
 
-.search_wrap.search_wrap_3 .search_box .input{
+.search_box .fas {
+  position: absolute;
+  right: 10px;
+  top: 40%;
+  transform: translate(-50%, -50%);
+  color: var(--primary-white);
+  font-size: 20px;
+}
+
+.search_wrap.search_wrap_3 .search_box .input {
   padding-right: 80px;
   border-radius: 50px;
 }
@@ -280,10 +284,10 @@ font-size: 20px;
 /* search box end */
 
 /* nav pages start  */
-.pages{
-    float: right;
-    position: relative;
-    right: 40px;
+.pages {
+  float: right;
+  position: relative;
+  right: 40px;
 }
 
 .pages li{
@@ -318,29 +322,29 @@ font-size: 20px;
 }
 /* nav pages end  */
 
+/* ================================  Free-Hit logo*/
 
-/* ================================  Free-Hit logo*/ 
+.Free-Hit {
+  right: 220px;
+  font-weight: lighters;
+  display: flex;
+  align-items: center;
+}
 
-  .Free-Hit{
-    position: relative;
-    right: 220px;
-    font-weight: lighters;
-  }
-   
-.free-logo{
-  position: relative;
+.free-logo {
   top: 6px;
   width: 45px;
   height: 45px;
   margin-right: 10px;
 }
 
-.Free-Hit a{
+.Free-Hit .free-word {
   text-decoration: none;
   color: var(--primary-black);
+  font-size: 40px;
 }
 
-/* ================================  Free-Hit logo end*/ 
+/* ================================  Free-Hit logo end*/
 
 .hnav-link {
   position: relative;
@@ -348,7 +352,7 @@ font-size: 20px;
 
 .hnav-suggestionbar {
   position: absolute;
-  top:62%;
+  top: 62%;
   width: 80%;
   background: #353535;
   color: #ffffff;
@@ -358,11 +362,11 @@ font-size: 20px;
   z-index: 100;
   line-height: 40px;
 }
-.hnav-suggestionbar li{
+.hnav-suggestionbar li {
   list-style: none;
   padding-left: 10px;
 }
-.hnav-suggestionbar li:hover{
+.hnav-suggestionbar li:hover {
   background-color: rgb(255, 255, 255);
   color: #000;
   border-radius: 5px;
@@ -372,9 +376,9 @@ font-size: 20px;
   cursor: pointer;
 }
 
-.diplay-none{
+.diplay-none {
   display: none;
 }
-.diplay-block{
+.diplay-block {
   display: block;
 }

@@ -6,7 +6,7 @@ import ButtonLinks from './Data/categories'
 import { ToolContext } from '../App'
 import { useLocation } from 'react-router-dom'
 import TwitterButton from './message/twitterbutton'
-import {NavLink} from "react-router-dom"
+import { NavLink } from 'react-router-dom'
 
 const Header = () => {
   const msg = `Hey guys, I found a cool project!
@@ -17,7 +17,7 @@ https://github.com/JasonDsouza212/free-hit`
 
   const location = useLocation()
 
-  const sideNavRef = useRef(null);
+  const sideNavRef = useRef(null)
 
   const { searchTerm, setSearchTerm, filteredSuggestions, filterProduct } =
     useContext(ToolContext)
@@ -26,17 +26,17 @@ https://github.com/JasonDsouza212/free-hit`
     setSearchTerm(value)
   }
 
-  useEffect(()=>{
-    document.addEventListener('mousedown',handleClickOutside);
+  useEffect(() => {
+    document.addEventListener('mousedown', handleClickOutside)
 
-    return ()=>{
-      document.removeEventListener('mousedown',handleClickOutside);
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside)
     }
   })
 
-  function handleClickOutside(event){
-    if(sideNavRef.current && !sideNavRef.current.contains(event.target)){
-      document.getElementById("btn").checked = false;
+  function handleClickOutside(event) {
+    if (sideNavRef.current && !sideNavRef.current.contains(event.target)) {
+      document.getElementById('btn').checked = false
     }
   }
 
@@ -78,32 +78,32 @@ https://github.com/JasonDsouza212/free-hit`
                 </li>
               </ul>
             </nav>
-          ) :(
-          <nav id="sidebar">
-            <div className="title">
-              <ul className="pages-sidebar">
-                <li>
-                  <NavLink to="/">
-                    <i className="ri-home-4-fill"></i> Home
-                  </NavLink>
-                </li>
-                <li>
-                  <NavLink to="/bookmarks">
-                    <i className="ri-bookmark-fill"></i> Bookmark
-                  </NavLink>
-                </li>
+          ) : (
+            <nav id="sidebar">
+              <div className="title">
+                <ul className="pages-sidebar">
+                  <li>
+                    <NavLink to="/">
+                      <i className="ri-home-4-fill"></i> Home
+                    </NavLink>
+                  </li>
+                  <li>
+                    <NavLink to="/bookmarks">
+                      <i className="ri-bookmark-fill"></i> Bookmark
+                    </NavLink>
+                  </li>
+                </ul>
+              </div>
+              <ul className="list-items">
+                {ButtonLinks.map((buttonLink) => (
+                  <Button
+                    key={buttonLink.id}
+                    button={buttonLink}
+                    filterProduct={filterProduct}
+                  />
+                ))}
               </ul>
-            </div>
-            <ul className="list-items">
-              {ButtonLinks.map((buttonLink) => (
-                <Button
-                  key={buttonLink.id}
-                  button={buttonLink}
-                  filterProduct={filterProduct}
-                />
-              ))}
-            </ul>
-          </nav>
+            </nav>
           )}
         </div>
         <h1 className="Free-Hit">
@@ -115,47 +115,46 @@ https://github.com/JasonDsouza212/free-hit`
           </NavLink>
         </h1>
       </div>
-      {location.pathname !== '/about' &&
-        (location.pathname !== '/community' && (
-          <div className="container">
-            <div className="search_box">
-              <input
-                type="text"
-                className="input"
-                placeholder="search for the tools..."
-                value={searchTerm}
-                onChange={(e) => handleChageInInput(e)}
+      {location.pathname !== '/about' && location.pathname !== '/community' && (
+        <div className="container">
+          <div className="search_box">
+            <input
+              type="text"
+              className="input"
+              placeholder="search for the tools..."
+              value={searchTerm}
+              onChange={(e) => handleChageInInput(e)}
+            />
+            {searchTerm.length > 0 && (
+              <div
+                className="close"
+                onClick={() => {
+                  setSearchTerm('')
+                }}
               />
-              {searchTerm.length > 0 && (
-                <div
-                  className="close"
-                  onClick={() => {
-                    setSearchTerm('')
-                  }}
-                />
-              )}
-              <div className="btn btn_common">
-                <i className="fas fa-search">
-                  <FaSearch />
-                </i>
-              </div>
-            </div>
-            {filteredSuggestions.length > 0 && (
-              <ul className="hnav-suggestionbar" id="serch-suggestions">
-                {/* This shows as a list of suggestions based on the search term */}
-                {filteredSuggestions.map((suggestion) => (
-                  <li
-                    key={suggestion}
-                    onClick={() => handleSuggestionClick(suggestion)}
-                    className="hnav-suggestion"
-                  >
-                    {suggestion}
-                  </li>
-                ))}
-              </ul>
             )}
+            <div className="btn btn_common">
+              <i className="fas fa-search">
+                <FaSearch />
+              </i>
+            </div>
           </div>
-        ))}
+          {filteredSuggestions.length > 0 && (
+            <ul className="hnav-suggestionbar" id="serch-suggestions">
+              {/* This shows as a list of suggestions based on the search term */}
+              {filteredSuggestions.map((suggestion) => (
+                <li
+                  key={suggestion}
+                  onClick={() => handleSuggestionClick(suggestion)}
+                  className="hnav-suggestion"
+                >
+                  {suggestion}
+                </li>
+              ))}
+            </ul>
+          )}
+        </div>
+      )}
       <ul className="pages">
         <li>
           <NavLink to="/">Home</NavLink>
@@ -168,7 +167,7 @@ https://github.com/JasonDsouza212/free-hit`
         </li>
       </ul>
     </nav>
-  );
-}  
+  )
+}
 
 export default Header
