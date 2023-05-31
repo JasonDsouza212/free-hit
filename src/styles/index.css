@@ -90,8 +90,8 @@
   }
 }
 
-/* ===============================1300 media query */
-@media screen and (max-width: 1300px) {
+/* ===============================1320 media query */
+@media screen and (max-width: 1320px) {
   .pages {
     display: none;
   }
