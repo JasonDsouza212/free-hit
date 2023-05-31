@@ -1379,5 +1379,68 @@
   "image": "https://bit.ly/3qjRyl9",
   "description": "Regexr is an online tool to learn, build, & test Regular Expressions.",
   "link": "https://regexr.com/"
- }
+ },
+  {
+  "productName": "Unblast UI  Templates",
+  "category": "UI",
+  "image": "https://unblast.com/wp-content/themes/unblast-beta/images/unblast.svg",
+  "link": "https://unblast.com/templates/ui-ux/",
+  "description": "Unblast is happy to offer you a rich collection of amazing UI templates to help you get up and running with you next website or app"
+},
+  {
+  "productName": "UI Design Daily",
+  "category": "UI",
+  "image": "https://uidesigndaily.com/public/img/uidesigndaily-logo.svg",
+  "link": "https://uidesigndaily.com/",
+  "description": "UI Design Daily to be able to share these designs with anybody who is interested in using them."
+},
+{
+  "productName": "Previewed Mockups",
+  "category": "UI",
+  "image": "https://previewed.app/icons/icon-144x144.png?v=8043bde14bd901d7dcad11ae9873ce68",
+  "link": "https://previewed.app/mockups",
+  "description": "UI Design Mockups Available 2d & 3D"
+},
+{
+  "productName": "UI : Muzli Collections",
+  "category": "UI",
+  "image": "https://muz.li/favicon.ico",
+  "link": "https://search.muz.li/inspiration/profile-page/",
+  "description": "Profile Page screen design inspiration"
+},
+{
+  "productName": "Dashboard UI Kit 3.0",
+  "category": "UI",
+  "image": "https://cdn-icons-png.flaticon.com/128/5629/5629341.png",
+  "link": "https://dashboard-ui.com/",
+  "description": "The first and largest design kit for web apps and dashboards developed in React."
+},
+{
+  "productName": "UI Kit : figma, XD, etc",
+  "category": "UI",
+  "image": "https://freebiesui.com/wp-content/uploads/2017/02/2x-logo-freebiesui.png",
+  "link": "https://freebiesui.com/",
+  "description": "UI Kits avaiable in various format like figma, Xd, PSD, AI etc."
+},
+{
+  "productName": "3D Icons",
+  "category": "UI",
+  "image": "https://www.3dicons.com/vectoricons/logo/logoVectorIconsMixer.png",
+  "link": "https://www.3dicons.com/",
+  "description": "3D icons & 3D characters in high 4K resolution"
+},
+{
+  "productName": "6.5 M+ Design Assets",
+  "category": "UI",
+  "image": "https://cdna.iconscout.com/img/iconscout-logo.color.e58b57b.svg",
+  "link": "https://iconscout.com/",
+  "description": "Curated SVGs, Vector Icons, Illustrations, 3D Graphics, and Lottie Animations."
+},
+{
+  "productName": "Design Junction ",
+  "category": "UI",
+  "image": "https://designjunction.xyz/_next/image?url=%2F_next%2Fstatic%2Fimage%2Fpublic%2Flogo.2dabffd899576c5fa3398358e1cfc23c.svg&w=64&q=75",
+  "link": "https://designjunction.xyz/",
+  "description": "Design Junction is a one-stop resource library for Designers and Creatives."
+}
 ]
