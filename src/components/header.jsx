@@ -107,7 +107,7 @@ https://github.com/JasonDsouza212/free-hit`
           )}
         </div>
         <h1 className="Free-Hit">
-          <NavLink to="/about">
+          <NavLink to="/">
             <img className="free-logo" src={freehitlogo} alt="" />
           </NavLink>
           <NavLink className="free-word" to="/about">
