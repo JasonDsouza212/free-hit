@@ -112,15 +112,62 @@ function App() {
     return str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') // $& means the whole matched string
   }
 
+  function levenshteinDistance(s1, s2) {
+    const m = s1.length;
+    const n = s2.length;
+
+    // Create a matrix of size (m+1) x (n+1)
+    const dp = new Array(m + 1).fill(null).map(() => new Array(n + 1).fill(0));
+
+    // Initialize the first row and column
+    for (let i = 0; i <= m; i++) {
+      dp[i][0] = 0;
+    }
+
+    for (let j = 0; j <= n; j++) {
+      dp[0][j] = 0;
+    }
+
+    // Calculate the Levenshtein distance
+    for (let i = 1; i <= m; i++) {
+      for (let j = 1; j <= n; j++) {
+        if (s1[i - 1] === s2[j - 1]) {
+          dp[i][j] = dp[i - 1][j - 1] + 1;
+        } else {
+          dp[i][j] = Math.max(dp[i - 1][j], dp[i][j - 1]);
+        }
+      }
+    }
+    console.log(dp[m][n])
+    return Math.max(m, n) - dp[m][n];
+  }
+
+  function fuzzySearch(searchTerm, target) {
+    searchTerm = searchTerm.toLowerCase();
+    target = target.toLowerCase();
+    console.log(searchTerm)
+    console.log(target)
+
+    const distance = levenshteinDistance(searchTerm, target);
+    console.log(distance)
+
+    const similarity = 1 - distance / Math.max(searchTerm.length, target.length);
+    console.log(similarity)
+    return similarity > 0.5; // Adjust the similarity threshold as needed
+  }
   // filtering methods
   const filteredProducts = products
     .filter((product) => {
       if (!searchTerm) return true
       const regex = new RegExp(escapeRegExp(searchTerm.trim()), 'gi')
-      return (
-        product.productName.match(regex) ||
+      console.log(fuzzySearch(searchTerm, product.productName))
+      var found = product.productName.match(regex) ||
         product.description.match(regex) ||
         product.category.match(regex)
+      if (found) return found;
+      if (!found) found = found || fuzzySearch(searchTerm, product.productName);
+      return (
+        found
       )
     })
     .sort((a, b) => {
@@ -133,10 +180,13 @@ function App() {
     .filter((bookmark) => {
       if (!searchTerm) return true
       const regex = new RegExp(escapeRegExp(searchTerm.trim()), 'gi')
-      return (
-        bookmark.productName.match(regex) ||
+      var found = bookmark.productName.match(regex) ||
         bookmark.description.match(regex) ||
         bookmark.category.match(regex)
+      if (found) return found;
+      if (!found) found = found || fuzzySearch(searchTerm, bookmark.productName)
+      return (
+        found
       )
     })
     .sort((a, b) => {
