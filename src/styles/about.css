@@ -1,24 +1,20 @@
 /* ======================about start */
+body{
+  margin: 0%;
+  padding:0%;
+}
 .mhead{
   font-size: 60px;
   margin-top: 20px;
 margin-left: 560px;
   width: 300px;
   text-align: center;
-  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
-  /* padding-bottom: 20px; */
   font-family: 'Josefin Slab', serif;
 font-weight: bolder;
-text-shadow: 2px 8px 6px gray;
-  transition: all 1s ease;
-}
-.mhead:hover{
-  transform: scale(1.1);
+text-shadow: 2px 2px 6px gray;
 }
 .about {
   display: grid;
-  justify-content: center;
-  margin: 100px 100px;
   padding-left: 150px;
   padding-right: 150px;
 }
@@ -27,20 +23,22 @@ text-shadow: 2px 8px 6px gray;
   display: flex;
   margin-bottom: 40px;
 }
-
+.ab1 {
+  margin-top: 0px;
+  padding-top: 0px;
+}
 
 .about .ab1 p {
   margin-right: 100px;
   font-size: 32px;
   /* font-weight: 550; */
   position: relative;
-  top: 30%;
+  top: 10%;
   font-family: 'Josefin Slab', serif;
 }
 
 .about .ab2 {
   display: flex;
-  
   margin-bottom: 100px;
 }
 
@@ -68,33 +66,26 @@ text-shadow: 2px 8px 6px gray;
   font-family: 'Roboto', sans-serif;
 }
 
-.about p button:hover {
-  /* background-color: var(--primary-white); */
-  background-image: linear-gradient(to right, #DECBA4, #3E5151);
+.about p button :hover  {
+  background-color: var(--primary-white);
+  color: black;
   padding: 8px 25px;
   border: none;
   font-weight: bolder;
   transition: all 0.3s ease-out;
-  /* box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px; */
-  /* box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset; */
-  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+ 
+   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
 
 .about img {
   width: 400px;
   height: 400px;
-  /* box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px; */
-  /* box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
-   */
    transition: all 1s ease;
    margin-top: 15px;
    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
 }
-.about img:hover{
-  transform: scale(0.8);
-  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px; 
-}
+
 .bold {
   font-size: 40px;
   font-weight: bolder;
