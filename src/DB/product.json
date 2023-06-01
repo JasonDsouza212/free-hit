@@ -1379,5 +1379,68 @@
   "image": "https://bit.ly/3qjRyl9",
   "description": "Regexr is an online tool to learn, build, & test Regular Expressions.",
   "link": "https://regexr.com/"
- }
+ },
+  {
+  "productName": "Unblast UI  Templates",
+  "category": "UI",
+  "image": "https://bit.ly/3qlij8V",
+  "link": "https://bit.ly/3C51MZ3",
+  "description": "Unblast is happy to offer you a rich collection of amazing UI templates."
+},
+  {
+  "productName": "UI Design Daily",
+  "category": "UI",
+  "image": "https://bit.ly/3WOEP6c",
+  "link": "https://bit.ly/45F3IVF",
+  "description": "UI Design Daily to be able to share these designs with anybody who is interested in using them."
+},
+{
+  "productName": "Previewed Mockups",
+  "category": "UI",
+  "image": "https://bit.ly/3qoFyP5",
+  "link": "https://bit.ly/42iAj0C",
+  "description": "UI Design Mockups Available 2d & 3D"
+},
+{
+  "productName": "UI : Muzli Collections",
+  "category": "UI",
+  "image": "https://bit.ly/42h8JRq",
+  "link": "https://bit.ly/3IOltZ2",
+  "description": "Profile Page screen design inspiration"
+},
+{
+  "productName": "Dashboard UI Kit 3.0",
+  "category": "UI",
+  "image": "https://bit.ly/3N2secf",
+  "link": "https://bit.ly/3N4lGK9",
+  "description": "The first and largest design kit for web apps and dashboards developed in React."
+},
+{
+  "productName": "UI Kit : figma, XD, etc",
+  "category": "UI",
+  "image": "https://bit.ly/45COMri",
+  "link": "https://bit.ly/45BOgd8",
+  "description": "UI Kits avaiable in various format like figma, Xd, PSD, AI etc."
+},
+{
+  "productName": "3D Icons",
+  "category": "UI",
+  "image": "https://bit.ly/43yR9th",
+  "link": "https://bit.ly/43dBe3H",
+  "description": "3D icons & 3D characters in high 4K resolution"
+},
+{
+  "productName": "6.5 M+ Design Assets",
+  "category": "UI",
+  "image": "https://bit.ly/3C47pH3",
+  "link": "https://bit.ly/3P5Hman",
+  "description": "Curated SVGs, Vector Icons, Illustrations, 3D Graphics, and Lottie Animations."
+},
+{
+  "productName": "Design Junction ",
+  "category": "UI",
+  "image": "https://bit.ly/3IKfowL",
+  "link": "https://bit.ly/3WFi2tq",
+  "description": "Design Junction is a one-stop resource library for Designers and Creatives."
+}
 ]
