@@ -1,7 +1,17 @@
 .errorImage{
     display: block;
-    margin-left: 30%;
-    height:40%;
-    width:40%;
+
+    height:60%;
+    width:60%;
     cursor: pointer;
+    margin-top: 5%;
+   margin-bottom: 5%;
+}
+.errorBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    height: 100vh;
+    width:100%;
 }
