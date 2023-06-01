@@ -1,5 +1,7 @@
-.errormessage{
-    text-align: center;
-    margin:10%;
-    color: black;
+.errorImage{
+    display: block;
+    margin-left: 30%;
+    height:40%;
+    width:40%;
+    cursor: pointer;
 }

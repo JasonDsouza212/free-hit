@@ -1,15 +1,12 @@
 import Header from './header'
-
+import errorimg from '../images/errorimg.png'
+import { useNavigate } from 'react-router-dom'
 const Commonpage = () => {
+  const navigate=useNavigate();
   return (
     <>
       <Header />
-      <div className="errormessage">
-        <h1>
-          404 <br />
-          page not found
-        </h1>
-      </div>
+        <img className='errorImage' src={errorimg} alt="error Image" onClick={()=>{navigate(-1)}}></img>
     </>
   )
 }
