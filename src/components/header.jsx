@@ -1,7 +1,6 @@
 import React, { useContext, useEffect, useRef } from 'react'
 import { FaSearch } from 'react-icons/fa'
 import freehitlogo from '../images/free-logo.png'
-import Button from './Button'
 import ButtonLinks from './Data/categories'
 import { ToolContext } from '../App'
 import { useLocation } from 'react-router-dom'
@@ -19,7 +18,7 @@ https://github.com/JasonDsouza212/free-hit`
 
   const location = useLocation()
 
-  const sideNavRef = useRef(null);
+  const sideNavRef = useRef(null)
 
   const { searchTerm, setSearchTerm, filteredSuggestions } =
     useContext(ToolContext)
@@ -122,47 +121,46 @@ https://github.com/JasonDsouza212/free-hit`
           </NavLink>
         </h1>
       </div>
-      {location.pathname !== '/about' &&
-        (location.pathname !== '/community' && (
-          <div className="container">
-            <div className="search_box">
-              <input
-                type="text"
-                className="input"
-                placeholder="search for the tools..."
-                value={searchTerm}
-                onChange={(e) => handleChageInInput(e)}
+      {location.pathname !== '/about' && location.pathname !== '/community' && (
+        <div className="container">
+          <div className="search_box">
+            <input
+              type="text"
+              className="input"
+              placeholder="search for the tools..."
+              value={searchTerm}
+              onChange={(e) => handleChageInInput(e)}
+            />
+            {searchTerm.length > 0 && (
+              <div
+                className="close"
+                onClick={() => {
+                  setSearchTerm('')
+                }}
               />
-              {searchTerm.length > 0 && (
-                <div
-                  className="close"
-                  onClick={() => {
-                    setSearchTerm('')
-                  }}
-                />
-              )}
-              <div className="btn btn_common">
-                <i className="fas fa-search">
-                  <FaSearch />
-                </i>
-              </div>
-            </div>
-            {filteredSuggestions.length > 0 && (
-              <ul className="hnav-suggestionbar" id="serch-suggestions">
-                {/* This shows as a list of suggestions based on the search term */}
-                {filteredSuggestions.map((suggestion) => (
-                  <li
-                    key={suggestion}
-                    onClick={() => handleSuggestionClick(suggestion)}
-                    className="hnav-suggestion"
-                  >
-                    {suggestion}
-                  </li>
-                ))}
-              </ul>
             )}
+            <div className="btn btn_common">
+              <i className="fas fa-search">
+                <FaSearch />
+              </i>
+            </div>
           </div>
-        ))}
+          {filteredSuggestions.length > 0 && (
+            <ul className="hnav-suggestionbar" id="serch-suggestions">
+              {/* This shows as a list of suggestions based on the search term */}
+              {filteredSuggestions.map((suggestion) => (
+                <li
+                  key={suggestion}
+                  onClick={() => handleSuggestionClick(suggestion)}
+                  className="hnav-suggestion"
+                >
+                  {suggestion}
+                </li>
+              ))}
+            </ul>
+          )}
+        </div>
+      )}
       <ul className="pages">
         <li>
           <NavLink to="/">Home</NavLink>

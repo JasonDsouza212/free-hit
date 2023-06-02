@@ -1,12 +1,22 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import { Link } from 'react-router-dom'
+import { ToolContext } from '../App'
 
 const Button = ({ button: { category, name, icon }, filterProduct }) => {
+  const { setIsMenuActive } = useContext(ToolContext)
   return (
     <li>
-      <a onClick={() => filterProduct(category)}>
+      <Link
+        onClick={() => {
+          filterProduct(category)
+          // setIsMenuActive(false)
+        }}
+      >
+        {/* <a onClick={() => filterProduct(category)}> */}
         <i className={icon}></i>
         {name}
-      </a>
+        {/* </a> */}
+      </Link>
     </li>
   )
 }
