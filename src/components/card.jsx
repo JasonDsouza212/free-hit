@@ -6,17 +6,20 @@ import GridView from './Card/GridView'
 import ListView from './Card/ListView'
 import { BsFillGridFill, BsListUl } from 'react-icons/bs'
 import '../styles/card.css'
+import { useSearchParams } from 'react-router-dom'
 
 const Card = ({ length }) => {
   const {
     filteredProducts,
-    category,
     handelBookmarkAdd,
     bookmarkfilteredProducts,
     deleteres,
     gridView,
     setGridView,
   } = useContext(ToolContext)
+
+  const [searchParams, ] = useSearchParams()
+  const filter = searchParams.get("filter") || "all"
 
   return (
     <div className="card_container">
@@ -38,9 +41,9 @@ const Card = ({ length }) => {
             <img class="not-found-img" src={noresultimg} alt="" />
           </div>
         ) : gridView ? (
-          <GridView />
+          <GridView category={filter}/>
         ) : (
-          <ListView />
+          <ListView category={filter} />
         )}
       </div>
     </div>

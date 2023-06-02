@@ -13,7 +13,6 @@ const ToolContext = createContext()
 const LOCAL_STORAGE_KEY = 'freehit.bookmarks'
 
 function App() {
-  const [category, setCategory] = useState('all')
   const [searchTerm, setSearchTerm] = useState('')
   const [gridView, setGridView] = useState(true)
 
@@ -24,7 +23,6 @@ function App() {
   const [filteredSuggestions, setFilteredSuggestions] = useState([])
 
   // all Bookmarks
-  const [bookmarkfiltersuggestions, setBookmarkfiltersuggestions] = useState([])
   const [bookmarks, setBookmarks] = useState([])
 
   // for menu bar close and open
@@ -33,11 +31,6 @@ function App() {
   const [boomarkNames, setBookmarkNames] = useState(
     bookmarks?.map((bookmark) => bookmark.productName) || []
   )
-
-  function filterProduct(value) {
-    setCategory(value)
-    filteredButtonSelected(value)
-  }
 
   // initial Storage
   useEffect(() => {
@@ -62,25 +55,6 @@ function App() {
     setBookmarks([...bookmarks, newBookmark])
   }
 
-  async function filteredButtonSelected(value) {
-    const button = document.querySelectorAll('.category-select')
-    // Remove the "background-button-selected" class everytime the button is clicked at start to clear old selection
-    button.forEach((i) => {
-      i.classList.remove('background-button-selected')
-    })
-    let cnt = -1
-    // Add the "background-button-selected" class to individual the button when it is clicked
-    button.forEach((i) => {
-      let selected = ''
-      selected = i.getAttribute('productcategory')
-      cnt++
-      if (value === selected) {
-        button[cnt].classList.add('background-button-selected')
-        return
-      }
-    })
-  }
-
   // Search filter methods
   useEffect(() => {
     // Checks if the search term have a word
@@ -89,24 +63,14 @@ function App() {
       const filterNames = productNames.filter((productName) =>
         productName.toLowerCase().startsWith(searchTerm.toLowerCase())
       )
-      const filterBookmarks = boomarkNames.filter((bookmarkname) =>
-        bookmarkname.toLowerCase().startsWith(searchTerm.toLowerCase())
-      )
 
       // the array containing the filtered words gets sorted.
       const sortedProductNames = filterNames.sort()
-      const sortedbookmarks = filterBookmarks.sort()
-      setBookmarkfiltersuggestions(sortedbookmarks)
       setFilteredSuggestions(sortedProductNames)
     } else {
-      setBookmarkfiltersuggestions([])
       setFilteredSuggestions([])
     }
   }, [searchTerm, productNames, boomarkNames])
-
-  useEffect(() => {
-    setCategory('all')
-  }, [])
 
   function escapeRegExp(str) {
     return str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') // $& means the whole matched string
@@ -204,11 +168,9 @@ function App() {
 
   // values to pass to context hook s
   const toolContextValue = {
-    filterProduct,
     filteredProducts,
     searchTerm,
     setSearchTerm,
-    category,
     handelBookmarkAdd,
     bookmarks,
     deleteres,

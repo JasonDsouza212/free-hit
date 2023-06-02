@@ -1,10 +1,9 @@
 import { useContext } from 'react'
 import { ToolContext } from '../../App'
 
-const GridView = () => {
+const GridView = ({category}) => {
   const {
     filteredProducts,
-    category,
     handelBookmarkAdd,
     bookmarkfilteredProducts,
     deleteres,

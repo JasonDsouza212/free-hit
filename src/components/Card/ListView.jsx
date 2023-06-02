@@ -12,10 +12,9 @@ import {
 
 import { BsChevronDown } from 'react-icons/bs'
 
-const ListView = () => {
+const ListView = ({category}) => {
   const {
     filteredProducts,
-    category,
     handelBookmarkAdd,
     bookmarkfilteredProducts,
     deleteres,
