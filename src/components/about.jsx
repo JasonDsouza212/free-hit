@@ -8,7 +8,6 @@ const About = () => {
     <>
       {/* <Aboutnav /> */}
       <Header />
-      <h1 className="mhead">About Us</h1>
       <section className="about">
         <div className="ab1">
           <p>

@@ -3,16 +3,6 @@ body{
   margin: 0%;
   padding:0%;
 }
-.mhead{
-  font-size: 60px;
-  margin-top: 20px;
-margin-left: 560px;
-  width: 300px;
-  text-align: center;
-  font-family: 'Josefin Slab', serif;
-font-weight: bolder;
-text-shadow: 2px 2px 6px gray;
-}
 .about {
   display: grid;
   padding-left: 150px;
@@ -24,10 +14,13 @@ text-shadow: 2px 2px 6px gray;
   margin-bottom: 40px;
 }
 .ab1 {
-  margin-top: 0px;
+  margin-top: -30px;
   padding-top: 0px;
+  margin-bottom: 0px;
 }
-
+.ab2{
+  margin-top: -70px;
+}
 .about .ab1 p {
   margin-right: 100px;
   font-size: 32px;
@@ -73,8 +66,7 @@ text-shadow: 2px 2px 6px gray;
   border: none;
   font-weight: bolder;
   transition: all 0.3s ease-out;
- 
-   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 8px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
 
@@ -83,7 +75,6 @@ text-shadow: 2px 2px 6px gray;
   height: 400px;
    transition: all 1s ease;
    margin-top: 15px;
-   box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
 }
 
 .bold {
