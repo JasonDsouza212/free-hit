@@ -1,4 +1,5 @@
 import Header from '../components/Navbar'
+import "../styles/NotFound.css"
 
 const NotFound = () => {
   return (

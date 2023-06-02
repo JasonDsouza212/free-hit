@@ -1,4 +1,5 @@
 import freehitlogo from '../assets/footer-logo.png'
+import "../styles/Footer.css"
 
 const Footer = () => {
   // gettin year dynamically

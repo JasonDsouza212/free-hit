@@ -2,6 +2,7 @@ import banner1 from '../assets/designer-desk-2.png'
 import banner2 from '../assets/business-presentation-1.png'
 import Team from '../components/Team'
 import Header from '../components/Navbar'
+import "../styles/About.css"
 
 const About = () => {
   return (

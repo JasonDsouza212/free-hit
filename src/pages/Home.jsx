@@ -5,7 +5,7 @@ import noresultimg from '../assets/sad-face-2.png'
 import GridView from '../components/Card/GridView'
 import ListView from '../components/Card/ListView'
 import { BsFillGridFill, BsListUl } from 'react-icons/bs'
-import '../styles/card.css'
+import '../styles/Home.css'
 import { useSearchParams } from 'react-router-dom'
 
 const Card = ({ length }) => {
