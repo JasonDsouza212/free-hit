@@ -127,7 +127,7 @@ https://github.com/JasonDsouza212/free-hit`
             <input
               type="text"
               className="input"
-              placeholder="search for the tools..."
+              placeholder="Search..."
               value={searchTerm}
               onChange={(e) => handleChageInInput(e)}
             />

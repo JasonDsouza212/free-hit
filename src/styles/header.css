@@ -38,7 +38,6 @@ nav {
 @media screen and (max-width: 360px) {
   .nav-container {
     float: left;
-    width: 100vw;
   }
 }
 
@@ -229,7 +228,7 @@ nav {
 .container {
   float: right;
   position: relative;
-  top: 5px;
+  top: 3px;
 }
 
 .container .input {
@@ -247,8 +246,7 @@ nav {
   width: 300px;
   height: 60px;
   top: 7px;
-  right: 10px;
-  margin: 0px auto;
+  right: 10%;
 }
 
 .search_box .input {
@@ -297,7 +295,7 @@ nav {
 .pages {
   float: right;
   position: relative;
-  right: 40px;
+  right: 60px;
 }
 
 .pages li{
