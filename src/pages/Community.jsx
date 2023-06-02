@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import Header from './header'
+import Header from '../components/Navbar'
 
 function Community() {
   const [contributors, setContributors] = useState([])
