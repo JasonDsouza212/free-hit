@@ -1,25 +1,18 @@
 import React, { useContext, useEffect, useRef } from 'react'
 import { FaSearch } from 'react-icons/fa'
-import freehitlogo from '../images/free-logo.png'
-import ButtonLinks from './Data/categories'
+import freehitlogo from '../assets/free-logo.png'
+import ButtonLinks from '../utils/data/categories'
 import { ToolContext } from '../App'
 import { useLocation } from 'react-router-dom'
-import TwitterButton from './message/twitterbutton'
+import TwitterButton from './TwitterButton'
 import { NavLink, useSearchParams } from "react-router-dom"
+import { msg } from '../utils/data/message'
 
 const Header = () => {
   const [searchParams] = useSearchParams()
   const filter = searchParams.get('filter') || "all"
-  const msg = `Hey guys, I found a cool project!
-Check out Free-Hit🏏, an open-source App for discovering free and helpful tools that cater to our needs
-It's a one-stop solution for finding amazing resources
-Don't forget to give it a⭐️and explore it on GitHub 
-https://github.com/JasonDsouza212/free-hit`
-
   const location = useLocation()
-
   const sideNavRef = useRef(null)
-
   const { searchTerm, setSearchTerm, filteredSuggestions } =
     useContext(ToolContext)
   const handleSuggestionClick = (value) => {

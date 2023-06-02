@@ -1,9 +1,8 @@
 import React, { useContext, useState, useEffect } from 'react'
-import Header from './header'
+import Header from '../components/Navbar'
 import { ToolContext } from '../App'
-import noresultimg from '../images/sad-face.png'
+import noresultimg from '../assets/sad-face.png'
 import { useSearchParams } from 'react-router-dom'
-
 
 const BookMarks = ({ length }) => {
   const [flag, setFlag] = useState(false);

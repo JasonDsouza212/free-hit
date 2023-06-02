@@ -1,6 +1,6 @@
-import Header from './header'
+import Header from '../components/Navbar'
 
-const Commonpage = () => {
+const NotFound = () => {
   return (
     <>
       <Header />
@@ -14,4 +14,4 @@ const Commonpage = () => {
   )
 }
 
-export default Commonpage
+export default NotFound
