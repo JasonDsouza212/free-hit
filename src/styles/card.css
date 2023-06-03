@@ -91,7 +91,7 @@ img {
 }
 
 .grid .text p {
-  margin-top: 2px;
+  margin-top: 11px;
   line-height: 20px;
   font-family: 'Roboto', sans-serif;
 }
@@ -102,6 +102,7 @@ img {
   display: flex;
   align-items: center;
   text-align: center;
+  justify-content: center;
   gap: 10px;
 }
 
