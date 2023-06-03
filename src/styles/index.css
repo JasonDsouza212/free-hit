@@ -1,11 +1,11 @@
 @import 'header.css';
-@import 'card.css';
-@import 'about.css';
-@import 'contribution.css';
-@import 'footer.css';
-@import 'backToTop.css';
-@import 'commonpage.css';
-@import 'community.css';
+@import 'Home.css';
+@import 'About.css';
+@import 'Team.css';
+@import 'Footer.css';
+@import 'BackToTop.css';
+@import 'NotFound.css';
+@import 'Community.css';
 
 :root {
   --primary-white: #f1f1ef;
@@ -130,7 +130,6 @@ body {
 
 /* ===============================1070px media query */
 @media screen and (max-width: 1070px) {
-
   .search_wrap .search_box .input {
     width: 58%;
     font-size: 16px;
@@ -163,7 +162,6 @@ body {
   .grid {
     grid-template-columns: repeat(auto-fit, minmax(300px, auto));
   }
-
 }
 
 /* ===============================1000px media query */
@@ -179,7 +177,7 @@ body {
 }
 
 /* ===============================900px media query */
-@media screen and (max-width: 900px) {  
+@media screen and (max-width: 900px) {
   .team-content {
     grid-template-columns: repeat(2, minmax(130px, auto));
   }
@@ -228,7 +226,7 @@ body {
 /* ===============================750 media query */
 @media screen and (max-width: 750px) {
   .search_box {
-    width: 200px  ;
+    width: 200px;
   }
 
   .Free-Hit {
@@ -298,7 +296,7 @@ body {
     grid-template-columns: repeat(auto-fit, minmax(280px, auto));
   }
 
-  .nav-container{
+  .nav-container {
     padding-top: 2px;
   }
 }
@@ -366,7 +364,7 @@ body {
 
   .team-content {
     grid-template-columns: repeat(1, minmax(200px, 250px));
-    padding:0 25%
+    padding: 0 25%;
   }
 
   .about {
@@ -392,7 +390,6 @@ body {
 
 /* ===============================500 media query */
 @media screen and (max-width: 500px) {
-
   .Free-Hit {
     right: 240px;
   }
@@ -403,10 +400,10 @@ body {
 
   .about .ab1 img {
     margin-left: 5%;
-}
+  }
 
   .about .ab2 img {
-      margin-left: 5%;
+    margin-left: 5%;
   }
 }
 
@@ -458,7 +455,7 @@ body {
   .team-content {
     margin-left: 25px;
     grid-template-columns: repeat(1, minmax(300px, 320px));
-    padding:0;
+    padding: 0;
   }
 
   .team-content {
@@ -472,11 +469,10 @@ body {
 
 /* ===============================420px media query */
 @media screen and (max-width: 420px) {
-
   .team-content {
     margin-left: 40px;
     grid-template-columns: repeat(1, minmax(300px, 320px));
-    padding:0;
+    padding: 0;
   }
 
   .wrapper .menu-btn {
@@ -500,32 +496,29 @@ body {
 
   .search_box {
     height: 52px;
-    top:11px
+    top: 11px;
   }
 
   .backToTopButton {
     right: 2rem;
   }
 
-  .nav-container{
+  .nav-container {
     padding-top: 0;
   }
-
 }
 
 /* ===============================395 media query */
 
 @media screen and (max-width: 395px) {
-
   .team-content {
     margin-left: 8%;
-    padding:0;
+    padding: 0;
   }
 }
 
 /* ===============================380 media query */
 @media screen and (max-width: 380px) {
-
   .Free-Hit {
     right: 70%;
   }
@@ -601,7 +594,7 @@ body {
   .team-content {
     margin-left: 8%;
     grid-template-columns: repeat(1, minmax(280px, 300px));
-    padding:0;
+    padding: 0;
   }
 
   .center h1 {
