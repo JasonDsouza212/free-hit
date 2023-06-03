@@ -7,6 +7,7 @@ import { useLocation } from 'react-router-dom'
 import TwitterButton from './TwitterButton'
 import { NavLink, useSearchParams } from "react-router-dom"
 import { msg } from '../utils/data/message'
+import "../styles/header.css"
 
 const Header = () => {
   const [searchParams] = useSearchParams()
