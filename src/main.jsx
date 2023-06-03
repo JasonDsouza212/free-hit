@@ -4,6 +4,7 @@ import App from './App'
 import '../src/styles/index.css'
 import { BrowserRouter } from 'react-router-dom'
 import { ChakraProvider } from '@chakra-ui/react'
+import Feedback from './components/Feedback/Feedback'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <ChakraProvider>
