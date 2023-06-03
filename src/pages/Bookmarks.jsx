@@ -3,37 +3,30 @@ import Header from '../components/Navbar'
 import { ToolContext } from '../App'
 import noresultimg from '../assets/sad-face.png'
 import { useSearchParams } from 'react-router-dom'
+import filterProducts from '../utils/filter/filter_products'
 
 const BookMarks = ({ length }) => {
-  const [flag, setFlag] = useState(false);
   const { bookmarkfilteredProducts, deleteres } =
     useContext(ToolContext);
   const [searchParams] = useSearchParams()
-  const category = searchParams.get('filter') || "all"
-
-  useEffect(() => {
-    const hasBookmark = bookmarkfilteredProducts.some(
-      (product) => category === 'all' || category === product.category
-    )
-    setFlag(hasBookmark)
-  }, [category, bookmarkfilteredProducts])
+  let filters = searchParams.getAll('filters').length > 0 ? searchParams.getAll('filters') : ["all"]
+  filters = filters[0].split(",")
+  const currentProjects = filterProducts(bookmarkfilteredProducts, filters)
 
   return (
     <div className="card_container">
       <Header />
       <div className="card-container">
-        {length === 0 ? (
-
+        {currentProjects.length === 0 ? (
           <div className="not-found-wrapper">
             <p className="no-results">Sorry, no BookMarks in sight!</p>
             <img className="not-found-img" src={noresultimg} alt="" />
           </div>
         ) : (
           <>
-            {flag ? (
+            {bookmarkfilteredProducts.length > 0 ? (
               <main className="grid">
-                {bookmarkfilteredProducts.map((product) => {
-                  return category === 'all' || category === product.category ? (
+                {currentProjects.map((product) => (
                     <article>
                       <div className="text">
                         <div className="text_top">
@@ -59,14 +52,11 @@ const BookMarks = ({ length }) => {
                         </div>
                       </div>
                     </article>
-                  ) : null
-                })}
+                  ))}
               </main>
             ) : (
               <p className="no-results">
-                {category === 'all'
-                  ? 'There are no bookmarks'
-                  : `There aren't bookmarks from ${category} section`}
+                  There are no bookmarks
               </p>
             )}
           </>

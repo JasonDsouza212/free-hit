@@ -10,8 +10,9 @@ import { msg } from '../utils/data/message'
 import "../styles/header.css"
 
 const Header = () => {
-  const [searchParams] = useSearchParams()
-  const filter = searchParams.get('filter') || "all"
+  const [searchParams, setSearchParams] = useSearchParams()
+  let filters = searchParams.getAll('filters').length > 0 ? searchParams.getAll('filters') : ["all"]
+  filters = filters[0].split(",")
   const location = useLocation()
   const sideNavRef = useRef(null)
   const { searchTerm, setSearchTerm, filteredSuggestions } =
@@ -44,6 +45,27 @@ const Header = () => {
     ) {
       targetElem.classList.remove('diplay-none')
     }
+  }
+  
+  const handleAddFilter = (filter) => {
+    filter = filter.toLowerCase();
+    console.log("running")
+    setSearchParams(prevParams => {
+      let options = prevParams.getAll('filters') || []
+      if (options.length > 0) {
+        options = options[0].split(",")
+      }
+      if (options.includes(filter)) {
+        if (options.length > 1) {
+          prevParams.set('filters', [...options].filter(f => f != filter))
+        } else {
+          prevParams.delete('filters')
+        }
+      } else {
+        prevParams.set('filters', [...prevParams.getAll("filters"), filter])
+      }
+      return prevParams
+    })
   }
 
   return (
@@ -92,15 +114,15 @@ const Header = () => {
               <ul className="list-items">
                 {ButtonLinks.map((buttonLink) => (
                   <li
-                    key={buttonLink.id}
-                    className={buttonLink.category == filter ? "active-filter" : ""}
+                  key={buttonLink.id}
+                  className={filters.includes(buttonLink.category.toLocaleLowerCase()) ? "active-filter" : ""}
+                >
+                  <button
+                    onClick={() => {handleAddFilter(buttonLink.category)}}
                   >
-                    <NavLink
-                      to={`?filter=${buttonLink.category}`}
-                    >
-                      {buttonLink.name}
-                    </NavLink>
-                  </li>
+                    {buttonLink.name}
+                  </button>
+                </li>
                 ))}
               </ul>
             </nav>
