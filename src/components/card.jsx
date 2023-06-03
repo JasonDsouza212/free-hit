@@ -18,8 +18,8 @@ const Card = ({ length }) => {
     setGridView,
   } = useContext(ToolContext)
 
-  const [searchParams, ] = useSearchParams()
-  const filter = searchParams.get("filter") || "all"
+  const [searchParams] = useSearchParams()
+  const filter = searchParams.get('filter') || 'all'
 
   return (
     <div className="card_container">
@@ -41,7 +41,7 @@ const Card = ({ length }) => {
             <img class="not-found-img" src={noresultimg} alt="" />
           </div>
         ) : gridView ? (
-          <GridView category={filter}/>
+          <GridView category={filter} />
         ) : (
           <ListView category={filter} />
         )}

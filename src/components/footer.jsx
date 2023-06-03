@@ -2,13 +2,13 @@ import freehitlogo from '../images/footer-logo.png'
 
 const Footer = () => {
   // gettin year dynamically
-  const date = new Date();
-  const year = date.getFullYear();
+  const date = new Date()
+  const year = date.getFullYear()
   return (
     <footer>
       <div className="footer-content">
         <h3>
-         <img className="free-logo-footer"  src={freehitlogo} alt="-" />
+          <img className="free-logo-footer" src={freehitlogo} alt="-" />
           <b>FREE-HIT</b>
         </h3>
         <p>

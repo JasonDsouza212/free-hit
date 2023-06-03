@@ -5,11 +5,11 @@ import ButtonLinks from './Data/categories'
 import { ToolContext } from '../App'
 import { useLocation } from 'react-router-dom'
 import TwitterButton from './message/twitterbutton'
-import { NavLink, useSearchParams } from "react-router-dom"
+import { NavLink, useSearchParams } from 'react-router-dom'
 
 const Header = () => {
   const [searchParams] = useSearchParams()
-  const filter = searchParams.get('filter') || "all"
+  const filter = searchParams.get('filter') || 'all'
   const msg = `Hey guys, I found a cool project!
 Check out Free-Hit🏏, an open-source App for discovering free and helpful tools that cater to our needs
 It's a one-stop solution for finding amazing resources
@@ -28,16 +28,16 @@ https://github.com/JasonDsouza212/free-hit`
   }
 
   useEffect(() => {
-    document.addEventListener('mousedown', handleClickOutside);
+    document.addEventListener('mousedown', handleClickOutside)
 
     return () => {
-      document.removeEventListener('mousedown', handleClickOutside);
+      document.removeEventListener('mousedown', handleClickOutside)
     }
   })
 
   function handleClickOutside(event) {
     if (sideNavRef.current && !sideNavRef.current.contains(event.target)) {
-      document.getElementById("btn").checked = false;
+      document.getElementById('btn').checked = false
     }
   }
 
@@ -99,11 +99,11 @@ https://github.com/JasonDsouza212/free-hit`
                 {ButtonLinks.map((buttonLink) => (
                   <li
                     key={buttonLink.id}
-                    className={buttonLink.category == filter ? "active-filter" : ""}
+                    className={
+                      buttonLink.category == filter ? 'active-filter' : ''
+                    }
                   >
-                    <NavLink
-                      to={`?filter=${buttonLink.category}`}
-                    >
+                    <NavLink to={`?filter=${buttonLink.category}`}>
                       {buttonLink.name}
                     </NavLink>
                   </li>
@@ -173,7 +173,7 @@ https://github.com/JasonDsouza212/free-hit`
         </li>
       </ul>
     </nav>
-  );
+  )
 }
 
 export default Header
