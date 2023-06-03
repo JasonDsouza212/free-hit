@@ -7,6 +7,8 @@ import products from './DB/product.json'
 import BookMarks from './components/bookmarks'
 import BackToTopButton from './components/BackToTop'
 import Commonpage from './components/Commonpage'
+import AutoComment from './AutoComment';
+
 
 const ToolContext = createContext()
 const LOCAL_STORAGE_KEY = 'freehit.bookmarks'
@@ -176,6 +178,10 @@ function App() {
         <Footer />
         <BackToTopButton />
       </ToolContext.Provider>
+      <div>
+      <h1>Auto Comment Feature</h1>
+      <AutoComment />
+    </div>
     </>
   )
 }
