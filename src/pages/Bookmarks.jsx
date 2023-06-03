@@ -26,7 +26,7 @@ const BookMarks = ({ length }) => {
 
           <div className="not-found-wrapper">
             <p className="no-results">Sorry, no BookMarks in sight!</p>
-            <img class="not-found-img" src={noresultimg} alt="" />
+            <img className="not-found-img" src={noresultimg} alt="" />
           </div>
         ) : (
           <>
