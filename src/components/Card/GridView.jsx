@@ -31,12 +31,12 @@ const GridView = ({category}) => {
                   (obj) => obj['productName'] === product.productName
                 ) ? (
                   <button onClick={() => deleteres(product)}>
-                    <a >
+                    <a href="#">
                       Delete<i className="ri-bookmark-fill"></i>
                     </a>
                   </button>
                 ) : (
-                  <a>
+                  <a href="#">
                     <button
                       className="bookmark"
                       onClick={() => handelBookmarkAdd(product)}
