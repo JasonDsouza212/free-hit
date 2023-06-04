@@ -12,7 +12,7 @@ import {
 
 import { BsChevronDown } from 'react-icons/bs'
 
-const ListView = ({category}) => {
+const ListView = ({ category }) => {
   const {
     filteredProducts,
     handelBookmarkAdd,
@@ -47,18 +47,18 @@ const ListView = ({category}) => {
                       (obj) => obj['productName'] === product.productName
                     ) ? (
                       <button onClick={() => deleteres(product)}>
-                        <a href="#">
+                        <a>
                           Delete<i className="ri-bookmark-fill"></i>
                         </a>
                       </button>
                     ) : (
-                      <a href="#">
+                      <a>
                         <button
                           className="bookmark"
                           onClick={() => handelBookmarkAdd(product)}
                         >
                           <font color="white" size="3">
-                            Bookmark
+                            Bookmarks
                           </font>
                         </button>
                       </a>
@@ -84,12 +84,12 @@ const ListView = ({category}) => {
                       (obj) => obj['productName'] === product.productName
                     ) ? (
                       <button onClick={() => deleteres(product)}>
-                        <a href="#">
+                        <a>
                           Delete<i className="ri-bookmark-fill"></i>
                         </a>
                       </button>
                     ) : (
-                      <a href="#">
+                      <a>
                         <button
                           className="bookmark"
                           onClick={() => handelBookmarkAdd(product)}
