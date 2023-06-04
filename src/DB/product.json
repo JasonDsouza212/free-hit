@@ -1460,21 +1460,21 @@
   {
   "productName": "Zarla",
   "category": "tools",
-  "image": "bit.ly/42Cp1ot",
+  "image": "https://bit.ly/42Cp1ot",
   "link": "https://www.zarla.com/",
   "description": "Zarla Makes Logo Design Fun, Free, and Easy for Every Type of Business or Brand"
 },
 {
   "productName": "Zety",
   "category": "AI",
-  "image": "bit.ly/3CbQwdG",
+  "image": "https://bit.ly/3CbQwdG",
   "link": "https://zety.com/resume-builder",
   "description": "Zety Online Resume Builder,Create a Professional Resume for Free"
 },
   {
   "productName": "Animoto",
   "category": "AI",
-  "image": "bit.ly/3WSfus6",
+  "image": "https://bit.ly/3WSfus6",
   "link": "https://animoto.com/",
   "description": "Create videos that engage and impress. Animoto's drag-and-drop editing tools and visual effects make it easy. No training or experience necessary"
 }
