@@ -1451,6 +1451,20 @@
   "description": "Helps your team record, transcribe, search, and analyze voice conversations."
 },
 {
+  "productName": "resume.io",
+  "category": "resume",
+  "image": "https://tinyurl.com/2s48hfyh",
+  "link": "https://resume.io/",
+  "description": "Beautiful ready-to-use resume templates"
+},
+{
+  "productName": "Canva",
+  "category": "resume",
+  "image": "https://tinyurl.com/2mxee67k",
+  "link": "https://www.canva.com/create/resumes/",
+  "description": "With Canva free resume builder, applying for your dream job is easy and fast."
+},
+{
   "productName": "Quill Bot",
   "category": "ai",
   "image": "https://tinyurl.com/5n6zfp2y",
