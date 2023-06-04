@@ -13,7 +13,7 @@ const Feedback = () => {
         const templateParams = {
             feedback: feedback,
             from_email: email,
-            to_email: 'jasondsouza212@gmail.com.'
+            to_email: 'jasondsouza212@gmail.com'
         };
         emailjs
             .send('service_cyny6n2', 'template_b2rscqn', templateParams, '1AkXF-PC-6FG2Ym15')
