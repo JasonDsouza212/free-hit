@@ -1,25 +1,20 @@
 import React, { useContext, useEffect, useRef } from 'react'
 import { FaSearch } from 'react-icons/fa'
-import freehitlogo from '../images/free-logo.png'
-import Button from './Button'
-import ButtonLinks from './Data/categories'
+import freehitlogo from '../assets/free-logo.png'
+import ButtonLinks from '../utils/data/categories'
 import { ToolContext } from '../App'
 import { useLocation } from 'react-router-dom'
-import TwitterButton from './message/twitterbutton'
-import { NavLink } from 'react-router-dom'
+import TwitterButton from './TwitterButton'
+import { NavLink, useSearchParams } from "react-router-dom"
+import { msg } from '../utils/data/message'
+import "../styles/header.css"
 
 const Header = () => {
-  const msg = `Hey guys, I found a cool project!
-Check out Free-Hit🏏, an open-source App for discovering free and helpful tools that cater to our needs
-It's a one-stop solution for finding amazing resources
-Don't forget to give it a⭐️and explore it on GitHub 
-https://github.com/JasonDsouza212/free-hit`
-
+  const [searchParams] = useSearchParams()
+  const filter = searchParams.get('filter') || "all"
   const location = useLocation()
-
   const sideNavRef = useRef(null)
-
-  const { searchTerm, setSearchTerm, filteredSuggestions, filterProduct } =
+  const { searchTerm, setSearchTerm, filteredSuggestions } =
     useContext(ToolContext)
   const handleSuggestionClick = (value) => {
     document.getElementById('serch-suggestions').classList.add('diplay-none')
@@ -27,16 +22,16 @@ https://github.com/JasonDsouza212/free-hit`
   }
 
   useEffect(() => {
-    document.addEventListener('mousedown', handleClickOutside)
+    document.addEventListener('mousedown', handleClickOutside);
 
     return () => {
-      document.removeEventListener('mousedown', handleClickOutside)
+      document.removeEventListener('mousedown', handleClickOutside);
     }
   })
 
   function handleClickOutside(event) {
     if (sideNavRef.current && !sideNavRef.current.contains(event.target)) {
-      document.getElementById('btn').checked = false
+      document.getElementById("btn").checked = false;
     }
   }
 
@@ -96,11 +91,16 @@ https://github.com/JasonDsouza212/free-hit`
               </div>
               <ul className="list-items">
                 {ButtonLinks.map((buttonLink) => (
-                  <Button
+                  <li
                     key={buttonLink.id}
-                    button={buttonLink}
-                    filterProduct={filterProduct}
-                  />
+                    className={buttonLink.category == filter ? "active-filter" : ""}
+                  >
+                    <NavLink
+                      to={`?filter=${buttonLink.category}`}
+                    >
+                      {buttonLink.name}
+                    </NavLink>
+                  </li>
                 ))}
               </ul>
             </nav>
@@ -121,7 +121,7 @@ https://github.com/JasonDsouza212/free-hit`
             <input
               type="text"
               className="input"
-              placeholder="search for the tools..."
+              placeholder="Search..."
               value={searchTerm}
               onChange={(e) => handleChageInInput(e)}
             />
@@ -167,7 +167,7 @@ https://github.com/JasonDsouza212/free-hit`
         </li>
       </ul>
     </nav>
-  )
+  );
 }
 
 export default Header

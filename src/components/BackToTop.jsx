@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { Link } from 'react-scroll'
+import "../styles/BackToTop.css"
 
 const BackToTopButton = () => {
   const [btnVisiblity, setBtnVisiblity] = useState(false)

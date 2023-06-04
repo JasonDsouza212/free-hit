@@ -1,12 +1,15 @@
 import React, { useContext, useState, useEffect } from 'react'
-import Header from './header'
+import Header from '../components/Navbar'
 import { ToolContext } from '../App'
-import noresultimg from '../images/sad-face.png'
+import noresultimg from '../assets/sad-face.png'
+import { useSearchParams } from 'react-router-dom'
 
 const BookMarks = ({ length }) => {
-  const [flag, setFlag] = useState(false)
-  const { category, bookmarkfilteredProducts, deleteres } =
-    useContext(ToolContext)
+  const [flag, setFlag] = useState(false);
+  const { bookmarkfilteredProducts, deleteres } =
+    useContext(ToolContext);
+  const [searchParams] = useSearchParams()
+  const category = searchParams.get('filter') || "all"
 
   useEffect(() => {
     const hasBookmark = bookmarkfilteredProducts.some(
@@ -20,9 +23,10 @@ const BookMarks = ({ length }) => {
       <Header />
       <div className="card-container">
         {length === 0 ? (
+
           <div className="not-found-wrapper">
             <p className="no-results">Sorry, no BookMarks in sight!</p>
-            <img class="not-found-img" src={noresultimg} alt="" />
+            <img className="not-found-img" src={noresultimg} alt="" />
           </div>
         ) : (
           <>
