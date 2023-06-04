@@ -2,8 +2,9 @@ import React, { useContext, useState, useEffect } from 'react'
 import Header from '../components/Navbar'
 import { ToolContext } from '../App'
 import noresultimg from '../assets/sad-face.png'
-import { useSearchParams } from 'react-router-dom'
+import { useSearchParams, Navigate } from 'react-router-dom'
 import filterProducts from '../utils/filter/filter_products'
+import { allFilters } from '../utils/data/filters'
 
 const BookMarks = ({ length }) => {
   const { bookmarkfilteredProducts, deleteres } =
@@ -11,6 +12,11 @@ const BookMarks = ({ length }) => {
   const [searchParams] = useSearchParams()
   let filters = searchParams.getAll('filters').length > 0 ? searchParams.getAll('filters') : ["all"]
   filters = filters[0].split(",")
+  for (let i = 0; i < filters.length; i++) {
+    if (! allFilters.includes(filters[i].toLowerCase())) {
+      return <Navigate to="/notfound" />
+    }
+  }
   const currentProjects = filterProducts(bookmarkfilteredProducts, filters)
 
   return (
