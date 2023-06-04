@@ -1456,5 +1456,12 @@
   "image": "https://tinyurl.com/5n6zfp2y",
   "link": "https://quillbot.com/",
   "description": "AI-powered paraphrasing tool that enhances your writing"
+},
+{
+  "productName": "DALL·E",
+  "category": "ai",
+  "image": "https://bit.ly/3oICzAN",
+  "link": "https://openai.com/dall-e-2",
+  "description": "An AI system that can create realistic images and art from a description in natural language."
 }
 ]
