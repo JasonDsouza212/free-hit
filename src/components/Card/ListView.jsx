@@ -46,7 +46,7 @@ const ListView = ({category}) => {
                     {bookmarkfilteredProducts.some(
                       (obj) => obj['productName'] === product.productName
                     ) ? (
-                      <button onClick={() => deleteres(product)}>
+                      <button onClick={(event) =>{event.stopPropagation();  deleteres(product)}}>
                         <a >
                           Delete<i className="ri-bookmark-fill"></i>
                         </a>
@@ -55,7 +55,7 @@ const ListView = ({category}) => {
                       <a >
                         <button
                           className="bookmark"
-                          onClick={() => handelBookmarkAdd(product)}
+                          onClick={(event) => { event.stopPropagation(); handelBookmarkAdd(product)}}
                         >
                           <font color="white" size="3">
                             Bookmark
