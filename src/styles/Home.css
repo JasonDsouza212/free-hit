@@ -104,6 +104,7 @@ img {
   text-align: center;
   justify-content: center;
   gap: 10px;
+  justify-content: center;
 }
 
 .text_top .card-title {
