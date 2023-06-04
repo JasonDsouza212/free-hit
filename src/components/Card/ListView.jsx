@@ -12,16 +12,15 @@ import {
 
 import { BsChevronDown } from 'react-icons/bs'
 
-const ListView = () => {
+const ListView = ({category}) => {
   const {
     filteredProducts,
-    category,
     handelBookmarkAdd,
     bookmarkfilteredProducts,
     deleteres,
   } = useContext(ToolContext)
   return (
-    <Accordion allowMultiple allowToggle className="list">
+    <Accordion allowToggle className="list">
       {filteredProducts.map((product, index) => {
         return category === 'all' || category === product.category ? (
           <AccordionItem
