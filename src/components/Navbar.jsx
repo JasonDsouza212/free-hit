@@ -45,6 +45,13 @@ const Header = () => {
       targetElem.classList.remove('diplay-none')
     }
   }
+  function CloseOnClick(event) {
+    var btn = document.getElementById("btn");
+    if (btn) {
+      btn.checked = false;
+    }
+  }
+
 
   return (
     <nav className="navbar">
@@ -93,6 +100,7 @@ const Header = () => {
                 {ButtonLinks.map((buttonLink) => (
                   <li
                     key={buttonLink.id}
+                    onClick={CloseOnClick()}
                     className={buttonLink.category == filter ? "active-filter" : ""}
                   >
                     <NavLink
