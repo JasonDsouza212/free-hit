@@ -1,24 +1,20 @@
-import Header from './header'
-import React, { Fragment, useContext } from 'react'
+import Header from '../components/Navbar'
+import React, { useContext } from 'react'
 import { ToolContext } from '../App'
-import noresultimg from '../images/sad-face-2.png'
-import GridView from './Card/GridView'
-import ListView from './Card/ListView'
+import noresultimg from '../assets/sad-face-2.png'
+import GridView from '../components/Card/GridView'
+import ListView from '../components/Card/ListView'
 import { BsFillGridFill, BsListUl } from 'react-icons/bs'
-import '../styles/card.css'
+import '../styles/Home.css'
 import { useSearchParams } from 'react-router-dom'
 
 const Card = ({ length }) => {
   const {
-    filteredProducts,
-    handelBookmarkAdd,
-    bookmarkfilteredProducts,
-    deleteres,
     gridView,
     setGridView,
   } = useContext(ToolContext)
 
-  const [searchParams, ] = useSearchParams()
+  const [searchParams,] = useSearchParams()
   const filter = searchParams.get("filter") || "all"
 
   return (
@@ -41,7 +37,7 @@ const Card = ({ length }) => {
             <img class="not-found-img" src={noresultimg} alt="" />
           </div>
         ) : gridView ? (
-          <GridView category={filter}/>
+          <GridView category={filter} />
         ) : (
           <ListView category={filter} />
         )}

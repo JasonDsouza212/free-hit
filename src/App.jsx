@@ -1,13 +1,14 @@
 import React, { useState, useEffect, createContext } from 'react'
 import { Route, Routes } from 'react-router-dom'
-import Card from './components/card'
-import Footer from './components/footer'
-import About from './components/about'
+import Card from './pages/Home'
+import Footer from './components/Footer'
+import About from './pages/About'
 import products from './DB/product.json'
-import BookMarks from './components/bookmarks'
+import BookMarks from './pages/Bookmarks'
 import BackToTopButton from './components/BackToTop'
-import Commonpage from './components/Commonpage'
-import Community from './components/Community'
+import NotFound from './pages/NotFound'
+import Community from './pages/Community'
+import filterProducts from './utils/filter/filter_products'
 
 const ToolContext = createContext()
 const LOCAL_STORAGE_KEY = 'freehit.bookmarks'
@@ -72,92 +73,10 @@ function App() {
     }
   }, [searchTerm, productNames, boomarkNames])
 
-  function escapeRegExp(str) {
-    return str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') // $& means the whole matched string
-  }
-
-  function levenshteinDistance(s1, s2) {
-    const m = s1.length;
-    const n = s2.length;
-
-    // Create a matrix of size (m+1) x (n+1)
-    const dp = new Array(m + 1).fill(null).map(() => new Array(n + 1).fill(0));
-
-    // Initialize the first row and column
-    for (let i = 0; i <= m; i++) {
-      dp[i][0] = 0;
-    }
-
-    for (let j = 0; j <= n; j++) {
-      dp[0][j] = 0;
-    }
-
-    // Calculate the Levenshtein distance
-    for (let i = 1; i <= m; i++) {
-      for (let j = 1; j <= n; j++) {
-        if (s1[i - 1] === s2[j - 1]) {
-          dp[i][j] = dp[i - 1][j - 1] + 1;
-        } else {
-          dp[i][j] = Math.max(dp[i - 1][j], dp[i][j - 1]);
-        }
-      }
-    }
-    console.log(dp[m][n])
-    return Math.max(m, n) - dp[m][n];
-  }
-
-  function fuzzySearch(searchTerm, target) {
-    searchTerm = searchTerm.toLowerCase();
-    target = target.toLowerCase();
-    console.log(searchTerm)
-    console.log(target)
-
-    const distance = levenshteinDistance(searchTerm, target);
-    console.log(distance)
-
-    const similarity = 1 - distance / Math.max(searchTerm.length, target.length);
-    console.log(similarity)
-    return similarity > 0.5; // Adjust the similarity threshold as needed
-  }
   // filtering methods
-  const filteredProducts = products
-    .filter((product) => {
-      if (!searchTerm) return true
-      const regex = new RegExp(escapeRegExp(searchTerm.trim()), 'gi')
-      console.log(fuzzySearch(searchTerm, product.productName))
-      var found = product.productName.match(regex) ||
-        product.description.match(regex) ||
-        product.category.match(regex)
-      if (found) return found;
-      if (!found) found = found || fuzzySearch(searchTerm, product.productName);
-      return (
-        found
-      )
-    })
-    .sort((a, b) => {
-      const nameA = a.productName.toUpperCase()
-      const nameB = b.productName.toUpperCase()
-      return nameA < nameB ? -1 : 1
-    })
+  const filteredProducts = filterProducts(products, searchTerm);
 
-  const bookmarkfilteredProducts = bookmarks
-    .filter((bookmark) => {
-      if (!searchTerm) return true
-      const regex = new RegExp(escapeRegExp(searchTerm.trim()), 'gi')
-      var found = bookmark.productName.match(regex) ||
-        bookmark.description.match(regex) ||
-        bookmark.category.match(regex)
-      if (found) return found;
-      if (!found) found = found || fuzzySearch(searchTerm, bookmark.productName)
-      return (
-        found
-      )
-    })
-    .sort((a, b) => {
-      const nameA = a.productName.toUpperCase()
-      const nameB = b.productName.toUpperCase()
-      return nameA < nameB ? -1 : 1
-    })
+  const bookmarkfilteredProducts = filterProducts(bookmarks, searchTerm)
 
   // Remove Bookmark
   function deleteres(product) {
@@ -191,7 +110,7 @@ function App() {
             element={<BookMarks length={bookmarkfilteredProducts.length} />}
           />
           <Route path="/community" element={<Community />} />
-          <Route path="*" element={<Commonpage />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
         <Footer />
         <BackToTopButton />
