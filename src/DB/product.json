@@ -1458,10 +1458,10 @@
   "description": "AI-powered paraphrasing tool that enhances your writing"
 },
 {
-  "productName": "DALL·E",
+  "productName": "DALL·E 2.0",
   "category": "ai",
   "image": "https://bit.ly/3oICzAN",
   "link": "https://openai.com/dall-e-2",
-  "description": "AI system that can create realistic images from a description."
+  "description": "AI tool that can create realistic images from a description."
 }
 ]
