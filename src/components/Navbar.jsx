@@ -47,9 +47,8 @@ const Header = () => {
     }
   }
   
-  const handleAddFilter = (filter) => {
+  const handleAddFilter = (filter, event) => {
     filter = filter.toLowerCase();
-    console.log("running")
     setSearchParams(prevParams => {
       let options = prevParams.getAll('filters') || []
       if (options.length > 0) {
@@ -62,7 +61,11 @@ const Header = () => {
           prevParams.delete('filters')
         }
       } else {
-        prevParams.set('filters', [...prevParams.getAll("filters"), filter])
+        if (event.ctrlKey) {
+          prevParams.set('filters', [...prevParams.getAll("filters"), filter])
+        } else {
+          prevParams.set('filters', filter)
+        }
       }
       return prevParams
     })
@@ -118,7 +121,7 @@ const Header = () => {
                   className={filters.includes(buttonLink.category.toLocaleLowerCase()) ? "active-filter" : ""}
                 >
                   <button
-                    onClick={() => {handleAddFilter(buttonLink.category)}}
+                    onClick={(e) => {handleAddFilter(buttonLink.category, e)}}
                   >
                     {buttonLink.name}
                   </button>
