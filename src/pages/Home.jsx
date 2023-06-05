@@ -7,7 +7,7 @@ import ListView from '../components/Card/ListView'
 import { BsFillGridFill, BsListUl } from 'react-icons/bs'
 import '../styles/Home.css'
 import { useSearchParams, Navigate } from 'react-router-dom'
-import { allFilters } from '../utils/data/filters'
+import checkFilter from '../utils/check_filters'
 
 const Card = ({ length }) => {
   const {
@@ -18,12 +18,7 @@ const Card = ({ length }) => {
   const [searchParams,] = useSearchParams()
   let filters = searchParams.get('filters') || "all"
   filters = filters.split(",")
-  
-  for (let i = 0; i < filters.length; i++) {
-    if (! allFilters.includes(filters[i].toLowerCase())) {
-      return <Navigate to="/notfound" />
-    }
-  }
+  if (checkFilter(filters)) return <Navigate to="/notfound" />
 
   return (
     <div className="card_container">

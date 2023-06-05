@@ -4,7 +4,7 @@ import { ToolContext } from '../App'
 import noresultimg from '../assets/sad-face.png'
 import { useSearchParams, Navigate } from 'react-router-dom'
 import filterProducts from '../utils/filter/filter_products'
-import { allFilters } from '../utils/data/filters'
+import checkFilter from '../utils/check_filters'
 
 const BookMarks = ({ length }) => {
   const { bookmarkfilteredProducts, deleteres } =
@@ -12,11 +12,8 @@ const BookMarks = ({ length }) => {
   const [searchParams] = useSearchParams()
   let filters = searchParams.get('filters') || "all"
   filters = filters.split(",")
-  for (let i = 0; i < filters.length; i++) {
-    if (! allFilters.includes(filters[i].toLowerCase())) {
-      return <Navigate to="/notfound" />
-    }
-  }
+  if (checkFilter(filters)) return <Navigate to="/notfound" />
+
   const currentProjects = filterProducts(bookmarkfilteredProducts, filters)
 
   return (
@@ -33,36 +30,36 @@ const BookMarks = ({ length }) => {
             {bookmarkfilteredProducts.length > 0 ? (
               <main className="grid">
                 {currentProjects.map((product) => (
-                    <article>
-                      <div className="text">
-                        <div className="text_top">
-                          <img
-                            className="card-img"
-                            src={product.image}
-                            alt=""
-                          />
-                          <h3 className="card-title">{product.productName}</h3>
-                        </div>
-                        <p>{product.description}</p>
-                        <div className="btn-cont">
-                          <button>
-                            <a target="_blank" href={product.link}>
-                              Visit
-                            </a>
-                          </button>
-                          <button onClick={() => deleteres(product)}>
-                            <a href="#">
-                              Delete <i className="ri-bookmark-fill"></i>
-                            </a>
-                          </button>
-                        </div>
+                  <article>
+                    <div className="text">
+                      <div className="text_top">
+                        <img
+                          className="card-img"
+                          src={product.image}
+                          alt=""
+                        />
+                        <h3 className="card-title">{product.productName}</h3>
                       </div>
-                    </article>
-                  ))}
+                      <p>{product.description}</p>
+                      <div className="btn-cont">
+                        <button>
+                          <a target="_blank" href={product.link}>
+                            Visit
+                          </a>
+                        </button>
+                        <button onClick={() => deleteres(product)}>
+                          <a href="#">
+                            Delete <i className="ri-bookmark-fill"></i>
+                          </a>
+                        </button>
+                      </div>
+                    </div>
+                  </article>
+                ))}
               </main>
             ) : (
               <p className="no-results">
-                  There are no bookmarks
+                There are no bookmarks
               </p>
             )}
           </>
