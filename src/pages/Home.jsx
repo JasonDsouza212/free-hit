@@ -8,6 +8,7 @@ import { BsFillGridFill, BsListUl } from 'react-icons/bs'
 import '../styles/Home.css'
 import { useSearchParams } from 'react-router-dom'
 import { TailSpin } from "react-loader-spinner"
+import Loader from '../components/Loader'
 
 const Card = ({ length }) => {
   const {
@@ -55,16 +56,7 @@ const Card = ({ length }) => {
           )
           :
           <div className="loader">
-            <TailSpin
-              height="340"
-              width="80"
-              color="black"
-              ariaLabel="tail-spin-loading"
-              radius="1"
-              wrapperStyle={{marginLeft: "700px"}}
-              wrapperClass=""
-              visible={true}
-            />
+            <Loader />
           </div>
         }
       </div>
