@@ -99,6 +99,9 @@
 
   .accordion_panel p {
     text-align: center;
+    line-height: 18px;
+    margin-top: 8px;
+    margin-bottom: 8px;
   }
 
   .accordion_panel .btn-cont {
