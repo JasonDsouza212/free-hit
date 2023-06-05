@@ -10,8 +10,8 @@ const BookMarks = ({ length }) => {
   const { bookmarkfilteredProducts, deleteres } =
     useContext(ToolContext);
   const [searchParams] = useSearchParams()
-  let filters = searchParams.getAll('filters').length > 0 ? searchParams.getAll('filters') : ["all"]
-  filters = filters[0].split(",")
+  let filters = searchParams.get('filters') || "all"
+  filters = filters.split(",")
   for (let i = 0; i < filters.length; i++) {
     if (! allFilters.includes(filters[i].toLowerCase())) {
       return <Navigate to="/notfound" />
