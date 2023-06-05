@@ -4,13 +4,15 @@ import { ToolContext } from '../App'
 import noresultimg from '../assets/sad-face.png'
 import { useSearchParams } from 'react-router-dom'
 import filterProducts from '../utils/filter/filter_products'
-
+import '../styles/Bookmark.css'
 const BookMarks = ({ length }) => {
-  const { bookmarkfilteredProducts, deleteres } =
-    useContext(ToolContext);
+  const { bookmarkfilteredProducts, deleteres } = useContext(ToolContext)
   const [searchParams] = useSearchParams()
-  let filters = searchParams.getAll('filters').length > 0 ? searchParams.getAll('filters') : ["all"]
-  filters = filters[0].split(",")
+  let filters =
+    searchParams.getAll('filters').length > 0
+      ? searchParams.getAll('filters')
+      : ['all']
+  filters = filters[0].split(',')
   const currentProjects = filterProducts(bookmarkfilteredProducts, filters)
 
   return (
@@ -27,37 +29,31 @@ const BookMarks = ({ length }) => {
             {bookmarkfilteredProducts.length > 0 ? (
               <main className="grid">
                 {currentProjects.map((product) => (
-                    <article>
-                      <div className="text">
-                        <div className="text_top">
-                          <img
-                            className="card-img"
-                            src={product.image}
-                            alt=""
-                          />
-                          <h3 className="card-title">{product.productName}</h3>
-                        </div>
-                        <p>{product.description}</p>
-                        <div className="btn-cont">
-                          <button>
-                            <a target="_blank" href={product.link}>
-                              Visit
-                            </a>
-                          </button>
-                          <button onClick={() => deleteres(product)}>
-                            <a href="#">
-                              Delete <i className="ri-bookmark-fill"></i>
-                            </a>
-                          </button>
-                        </div>
+                  <article>
+                    <div className="text">
+                      <div className="text_top">
+                        <img className="card-img" src={product.image} alt="" />
+                        <h3 className="card-title">{product.productName}</h3>
                       </div>
-                    </article>
-                  ))}
+                      <p>{product.description}</p>
+                      <div className="btn-cont">
+                        <button>
+                          <a target="_blank" href={product.link}>
+                            Visit
+                          </a>
+                        </button>
+                        <button onClick={() => deleteres(product)}>
+                          <a href="#">
+                            Delete <i className="ri-bookmark-fill"></i>
+                          </a>
+                        </button>
+                      </div>
+                    </div>
+                  </article>
+                ))}
               </main>
             ) : (
-              <p className="no-results">
-                  There are no bookmarks
-              </p>
+              <p className="no-results">There are no bookmarks</p>
             )}
           </>
         )}

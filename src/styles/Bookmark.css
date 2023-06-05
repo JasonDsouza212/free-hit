@@ -1,0 +1,4 @@
+/* 364px is height of navbar + footer */
+.not-found-wrapper{
+   min-height: calc(100vh - 364px) 
+}
