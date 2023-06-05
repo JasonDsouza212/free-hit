@@ -44,18 +44,33 @@ footer {
 }
 .socials li {
   margin: 0 10px;
+  transition: all 0.5s ease;
 }
 .socials a {
   text-decoration: none;
   color: #fff;
 }
 .socials a i {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   transition: color 0.4s ease;
 }
 
-.socials a:hover i {
-  color: aqua;
+.socials li:hover {
+  transform: scale(1.2);
+}
+
+.socials_twitter:hover{
+  color: #00acee;
+}
+.socials_github:hover {
+  color: cyan;
+}
+
+.socials_linkedin:hover{
+  color: #0e76a8;
+}
+.socials_mail:hover{
+  color: rgb(201, 44, 25);
 }
 
 .footer-bottom {
