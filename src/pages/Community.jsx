@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import Header from '../components/Navbar'
-import "../styles/Community.css"
+import '../styles/Community.css'
 
 function Community() {
   const [contributors, setContributors] = useState([])

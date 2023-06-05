@@ -74,7 +74,7 @@ function App() {
   }, [searchTerm, productNames, boomarkNames])
 
   // filtering methods
-  const filteredProducts = searchProducts(products, searchTerm);
+  const filteredProducts = searchProducts(products, searchTerm)
 
   const bookmarkfilteredProducts = searchProducts(bookmarks, searchTerm)
 

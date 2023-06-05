@@ -76,12 +76,12 @@ nav {
   opacity: 0;
 }
 
-#btn:checked~.menu-btn i.ri-close-line {
+#btn:checked ~ .menu-btn i.ri-close-line {
   opacity: 1;
   transform: rotate(-180deg);
 }
 
-#btn:checked~.menu-btn i.ri-menu-fill {
+#btn:checked ~ .menu-btn i.ri-menu-fill {
   opacity: 0;
   transform: rotate(180deg);
 }
@@ -107,7 +107,7 @@ nav {
   border-radius: 10px;
 }
 
-#btn:checked~#sidebar {
+#btn:checked ~ #sidebar {
   left: 0;
 }
 
@@ -136,7 +136,7 @@ nav {
 }
 
 .pages-sidebar li a {
-  font-family:'Dosis', sans-serif;
+  font-family: 'Dosis', sans-serif;
   color: #f2f2f2;
   text-decoration: none;
   font-size: 16px;
@@ -188,7 +188,7 @@ nav {
 }
 
 #sidebar .list-items li button {
-  font-family:'Dosis', sans-serif;
+  font-family: 'Dosis', sans-serif;
   color: var(--primary-white);
   text-decoration: none;
   font-size: 23px;
@@ -327,7 +327,7 @@ nav {
 }
 
 .pages li a {
-  font-family:'Dosis', sans-serif;
+  font-family: 'Dosis', sans-serif;
   margin: 3px;
   text-decoration: none;
   padding: 0px 20px;
@@ -340,7 +340,6 @@ nav {
   color: var(--primary-white);
   background-color: var(--primary-black);
   border-radius: 10px;
-
 }
 
 .pages li a.active {
@@ -348,7 +347,6 @@ nav {
   color: var(--primary-white);
   background-color: var(--primary-black);
   border-radius: 10px;
-
 }
 
 /* nav pages end  */

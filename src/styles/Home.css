@@ -1,182 +1,182 @@
-  :root {
-    --primary-white: #f1f1ef;
-    --primary-black: #373530;
-  }
+:root {
+  --primary-white: #f1f1ef;
+  --primary-black: #373530;
+}
 
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Space Grotesk', sans-serif;
-  }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Space Grotesk', sans-serif;
+}
 
-  body {
-    background-color: var(--primary-white);
-  }
+body {
+  background-color: var(--primary-white);
+}
 
-  /* Card View CSS */
-  .card_container {
-    background-color: var(--primary-white);
-  }
+/* Card View CSS */
+.card_container {
+  background-color: var(--primary-white);
+}
 
+.card_view {
+  width: 95%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.card_view svg {
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
   .card_view {
-    width: 95%;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    gap: 15px;
     margin-top: 20px;
   }
+}
 
-  .card_view svg {
-    cursor: pointer;
-  }
+/* card css start */
 
-  @media (min-width: 768px) {
-    .card_view {
-      margin-top: 20px;
-    }
-  }
+.grid {
+  padding: 20px;
+  width: 100%;
+  min-height: 55vh;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, auto));
+  align-items: start;
+  justify-content: center;
+  gap: 1rem 1rem;
+  text-align: center;
+  margin-top: 1rem;
+  text-align: center;
+}
 
-  /* card css start */
+.grid > article {
+  position: relative;
+  height: 220px;
+  max-width: 350px;
+  border: 1px solid var(--primary-black);
+  box-shadow: 8px 8px 2px 0px var(--primary-black);
+  background-color: var(--primary-white);
+  padding: 10px 0px;
+  border-radius: 20px;
+  transition: all 0.3s;
+}
 
-  .grid {
-    padding: 20px;
-    width: 100%;
-    min-height: 55vh;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, auto));
-    align-items: start;
-    justify-content: center;
-    gap: 1rem 1rem;
-    text-align: center;
-    margin-top: 1rem;
-    text-align: center;
-  }
+.grid > article:hover {
+  box-shadow: 6px 6px 0px 0px var(--primary-black);
+  transform: scale(1.02);
+}
 
-  .grid>article {
-    position: relative;
-    height: 220px;
-    max-width: 350px;
-    border: 1px solid var(--primary-black);
-    box-shadow: 8px 8px 2px 0px var(--primary-black);
-    background-color: var(--primary-white);
-    padding: 10px 0px;
-    border-radius: 20px;
-    transition: all 0.3s;
-  }
+img {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+}
 
-  .grid>article:hover {
-    box-shadow: 6px 6px 0px 0px var(--primary-black);
-    transform: scale(1.02);
-  }
+.grid > article .btn-cont {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+}
 
-  img {
-    width: 40px;
-    height: 40px;
-    border-radius: 10px;
-  }
+.grid .text {
+  padding: 5px 30px 0px 30px;
+  color: #000000;
+  font-size: 18px;
+}
 
-  .grid>article .btn-cont {
-    position: absolute;
-    bottom: 20px;
-    left: 0;
-    right: 0;
-  }
+.grid .text p {
+  margin-top: 5px;
+  line-height: 20px;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 300;
+}
 
-  .grid .text {
-    padding: 5px 30px 0px 30px;
-    color: #000000;
-    font-size: 18px;
-  }
+.grid .text .text_top {
+  position: relative;
+  right: 10px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+}
 
-  .grid .text p {
-    margin-top: 5px;
-    line-height: 20px;
-    font-family: 'Titillium Web', sans-serif;
-    font-weight: 300;
-  }
+.text_top .card-title {
+  font-family: 'Titillium Web', sans-serif;
+  color: #000;
+  bottom: 12px;
+  font-size: 22px;
+  left: 6px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+}
 
-  .grid .text .text_top {
-    position: relative;
-    right: 10px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    gap: 10px;
-  }
+.btn-cont button {
+  background-color: var(--primary-black);
+  padding: 7px 25px;
+  border-radius: 8px;
+  margin: 2px;
+  transition: all 0.3s ease;
+}
 
-  .text_top .card-title {
-    font-family: 'Titillium Web', sans-serif;
-    color: #000;
-    bottom: 12px;
-    font-size: 22px;
-    left: 6px;
-    font-weight: 600;
-    line-height: 24px;
-    text-align: left;
-  }
+.btn-cont button a {
+  text-decoration: none;
+  color: var(--primary-white);
+  font-size: 16px;
+  font-weight: 600;
+  font-family: 'Open Sans';
+}
 
-  .btn-cont button {
-    background-color: var(--primary-black);
-    padding: 7px 25px;
-    border-radius: 8px;
-    margin: 2px;
-    transition: all 0.3s ease;
-  }
+.btn-cont button i {
+  position: relative;
+  top: 3px;
+  margin-left: 5px;
+}
 
-  .btn-cont button a {
-    text-decoration: none;
-    color: var(--primary-white);
-    font-size: 16px;
-    font-weight: 600;
-    font-family: 'Open Sans';
-  }
+.btn-cont button:hover {
+  transform: scale(1.05);
+}
 
-  .btn-cont button i {
-    position: relative;
-    top: 3px;
-    margin-left: 5px;
-  }
+.bookmark {
+  cursor: pointer;
+}
 
-  .btn-cont button:hover {
-    transform: scale(1.05);
-  }
+.visit {
+  cursor: pointer;
+}
 
-  .bookmark {
-    cursor: pointer;
-  }
+.no-results {
+  font-family: 'Titillium Web';
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  color: #1f1e1e;
+  padding-top: 2rem;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+  min-height: 12vh;
+}
 
-  .visit {
-    cursor: pointer;
-  }
+.not-found-img {
+  width: 13rem;
+  height: 15em;
+}
 
-  .no-results {
-    font-family: 'Titillium Web';
-    font-size: 2rem;
-    font-weight: bold;
-    text-align: center;
-    color: #1f1e1e;
-    padding-top: 2rem;
-    margin-bottom: 2rem;
-    text-transform: uppercase;
-    min-height: 12vh;
-  }
+.not-found-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
 
-  .not-found-img {
-    width: 13rem;
-    height: 15em;
-  }
+/* card end */
 
-  .not-found-wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-  }
-
-  /* card end */
-
-  b{
-    font-family: 'Dosis', sans-serif;
-  }
+b {
+  font-family: 'Dosis', sans-serif;
+}

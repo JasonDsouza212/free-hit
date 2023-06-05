@@ -9,14 +9,14 @@ import '../styles/Home.css'
 import { useSearchParams } from 'react-router-dom'
 
 const Card = ({ length }) => {
-  const {
-    gridView,
-    setGridView,
-  } = useContext(ToolContext)
+  const { gridView, setGridView } = useContext(ToolContext)
 
-  const [searchParams,] = useSearchParams()
-  let filters = searchParams.getAll('filters').length > 0 ? searchParams.getAll('filters') : ["all"]
-  filters = filters[0].split(",")
+  const [searchParams] = useSearchParams()
+  let filters =
+    searchParams.getAll('filters').length > 0
+      ? searchParams.getAll('filters')
+      : ['all']
+  filters = filters[0].split(',')
   console.log(filters)
 
   return (
