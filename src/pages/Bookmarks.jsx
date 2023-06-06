@@ -16,7 +16,7 @@ const BookMarks = ({ length }) => {
   return (
     <div className="card_container">
       <Header />
-      <div className="card-container">
+      <div className="card-container" style={{minHeight:"90vh",minWidth:"100vw",display:"flex",justifyContent:"center",alignItems:"center"}}>
         {currentProjects.length === 0 ? (
           <div className="not-found-wrapper">
             <p className="no-results">Sorry, no BookMarks in sight!</p>

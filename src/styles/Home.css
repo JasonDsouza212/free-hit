@@ -15,6 +15,13 @@ body {
 }
 
 /* Card View CSS */
+.card-container{
+     display: flex;
+  min-width: 100vw;
+  min-height: 90vh; 
+  align-items: center;
+
+}
 .card_container {
   background-color: var(--primary-white);
 }
