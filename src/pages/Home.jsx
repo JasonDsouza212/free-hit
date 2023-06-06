@@ -7,7 +7,6 @@ import ListView from '../components/Card/ListView'
 import { BsFillGridFill, BsListUl } from 'react-icons/bs'
 import '../styles/Home.css'
 import { useSearchParams } from 'react-router-dom'
-import { TailSpin } from "react-loader-spinner"
 import Loader from '../components/Loader'
 
 const Card = ({ length }) => {
