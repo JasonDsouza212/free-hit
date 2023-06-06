@@ -23,7 +23,7 @@ body {
 
 }
 .cardsize{
-  min-height: 90vh;
+  height: 90vh;
 }
 .card_container {
   background-color: var(--primary-white);
