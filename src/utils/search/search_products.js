@@ -19,6 +19,8 @@ export default function searchProducts(products, searchTerm) {
       )
     })
     .sort((a, b) => {
+      console.log(a.productName, a.link);
+      console.log(b.productName)
       const nameA = a.productName.toUpperCase()
       const nameB = b.productName.toUpperCase()
       return nameA < nameB ? -1 : 1

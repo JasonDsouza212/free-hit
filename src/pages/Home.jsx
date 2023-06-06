@@ -6,7 +6,8 @@ import GridView from '../components/Card/GridView'
 import ListView from '../components/Card/ListView'
 import { BsFillGridFill, BsListUl } from 'react-icons/bs'
 import '../styles/Home.css'
-import { useSearchParams } from 'react-router-dom'
+import { useSearchParams, Navigate } from 'react-router-dom'
+import checkFilter from "..//utils/check_filters"
 import Loader from '../components/Loader'
 
 const Card = ({ length }) => {
@@ -16,9 +17,9 @@ const Card = ({ length }) => {
   } = useContext(ToolContext)
 
   const [searchParams,] = useSearchParams()
-  let filters = searchParams.getAll('filters').length > 0 ? searchParams.getAll('filters') : ["all"]
-  filters = filters[0].split(",")
-  console.log(filters)
+  let filters = searchParams.get('filters') || "all"
+  filters = filters.split(",")
+  if (checkFilter(filters)) return <Navigate to="/notfound" />
 
   const [isLoading, setIsLoading] = useState(true)
 
