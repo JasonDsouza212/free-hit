@@ -91,9 +91,10 @@ img {
 }
 
 .grid .text p {
+  font-family: 'Titillium Web', sans-serif;
   margin-top: 2px;
   line-height: 20px;
-  font-family: 'Roboto', sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
 }
 
 .grid .text .text_top {
@@ -106,6 +107,7 @@ img {
 }
 
 .text_top .card-title {
+  font-family: 'Dosis', sans-serif;
   color: #000;
   bottom: 12px;
   font-size: 22px;
