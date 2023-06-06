@@ -1,14 +1,21 @@
-import React, { useState, useEffect, createContext } from 'react'
+import React, {
+  useState,
+  useEffect,
+  createContext,
+  lazy,
+  Suspense,
+} from 'react'
 import { Route, Routes } from 'react-router-dom'
-import Card from './pages/Home'
 import Footer from './components/Footer'
-import About from './pages/About'
 import products from './DB/product.json'
-import BookMarks from './pages/Bookmarks'
 import BackToTopButton from './components/BackToTop'
-import NotFound from './pages/NotFound'
-import Community from './pages/Community'
 import searchProducts from './utils/search/search_products'
+
+const Card = lazy(() => import('./pages/Home'))
+const About = lazy(() => import('./pages/About'))
+const BookMarks = lazy(() => import('./pages/BookMarks'))
+const NotFound = lazy(() => import('./pages/NotFound'))
+const Community = lazy(() => import('./pages/Community'))
 
 const ToolContext = createContext()
 const LOCAL_STORAGE_KEY = 'freehit.bookmarks'
@@ -74,7 +81,7 @@ function App() {
   }, [searchTerm, productNames, boomarkNames])
 
   // filtering methods
-  const filteredProducts = searchProducts(products, searchTerm);
+  const filteredProducts = searchProducts(products, searchTerm)
 
   const bookmarkfilteredProducts = searchProducts(bookmarks, searchTerm)
 
@@ -100,7 +107,7 @@ function App() {
   }
 
   return (
-    <>
+    <Suspense fallback={<div className="loading">Loading...</div>}>
       <ToolContext.Provider value={toolContextValue}>
         <Routes>
           <Route path="/" element={<Card length={filteredProducts.length} />} />
@@ -115,7 +122,7 @@ function App() {
         <Footer />
         <BackToTopButton />
       </ToolContext.Provider>
-    </>
+    </Suspense>
   )
 }
 
