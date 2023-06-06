@@ -1,5 +1,12 @@
 [
   {
+    "productName": "Cuvette",
+    "category": "remote",
+    "image": "https://bit.ly/3MIvfgn",
+    "link": "https://bit.ly/42dFNKk",
+    "description": "The #1 way college students & early graduates get Internships & Jobs"
+  },
+  {
     "productName": "Dev Resources",
     "category": "tools",
     "image": "https://bit.ly/3MxAlNU",
@@ -292,13 +299,6 @@
     "image": "https://smalldev.tools/favicon.png",
     "link": "https://smalldev.tools",
     "description": "Fast, ad-free, and privacy-first solution for streamlined development."
-  },
-  {
-    "productName": "futurepedia",
-    "category": "tools",
-    "image": "https://is.gd/qAYeL2",
-    "link": "https://www.futurepedia.io/",
-    "description": "Wiki and community for the Back to the Future franchise."
   },
   {
     "productName": "jsonformatter",
@@ -1507,10 +1507,45 @@
   "description": "Helps your team record, transcribe, search, and analyze voice conversations."
 },
 {
+  "productName": "resume.io",
+  "category": "resume",
+  "image": "https://tinyurl.com/2s48hfyh",
+  "link": "https://resume.io/",
+  "description": "Beautiful ready-to-use resume templates"
+},
+{
+  "productName": "Canva",
+  "category": "resume",
+  "image": "https://tinyurl.com/2mxee67k",
+  "link": "https://www.canva.com/create/resumes/",
+  "description": "With Canva free resume builder, applying for your dream job is easy and fast."
+},
+{
   "productName": "Quill Bot",
   "category": "ai",
   "image": "https://tinyurl.com/5n6zfp2y",
   "link": "https://quillbot.com/",
   "description": "AI-powered paraphrasing tool that enhances your writing"
+},
+  {
+  "productName": "Zarla",
+  "category": "tools",
+  "image": "https://bit.ly/42Cp1ot",
+  "link": "https://www.zarla.com/",
+  "description": "Zarla Makes Logo Design Fun, Free, and Easy for Every Type of Business or Brand"
+},
+{
+  "productName": "Zety",
+  "category": "resume",
+  "image": "https://bit.ly/3CbQwdG",
+  "link": "https://zety.com/resume-builder",
+  "description": "Zety Online Resume Builder,Create a Professional Resume for Free"
+},
+  {
+  "productName": "Animoto",
+  "category": "AI",
+  "image": "https://bit.ly/3WSfus6",
+  "link": "https://animoto.com/",
+  "description": "Create videos that engage and impress. Animoto's drag-and-drop editing tools and visual effects make it easy. No training or experience necessary"
 }
 ]
