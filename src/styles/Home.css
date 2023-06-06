@@ -22,6 +22,9 @@ body {
   align-items: center;
 
 }
+.cardsize{
+  min-height: 90vh;
+}
 .card_container {
   background-color: var(--primary-white);
 }
