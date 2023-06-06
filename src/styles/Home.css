@@ -152,7 +152,6 @@ img {
 }
 
 .no-results {
-  font-family: 'Titillium Web';
   font-size: 2rem;
   font-weight: bold;
   text-align: center;
@@ -176,7 +175,3 @@ img {
 }
 
 /* card end */
-
-b {
-  font-family: 'Dosis', sans-serif;
-}

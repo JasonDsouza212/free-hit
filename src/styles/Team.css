@@ -29,7 +29,6 @@
   margin-bottom: 15px;
 }
 .center h1 {
-  font-family: 'Dosis', sans-serif;
   color: rgb(52, 49, 49);
   font-size: 4rem;
   text-align: center;
@@ -44,14 +43,12 @@
   cursor: pointer;
 }
 .box h3 {
-  font-family: 'Dosis', sans-serif;
   font-size: 23px;
   font-weight: 700;
   color: #12110f;
   margin-bottom: 8px;
 }
 .box h5 {
-  font-family: 'Dosis', sans-serif;
   font-size: 15px;
   font-weight: 600;
   color: black;

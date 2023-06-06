@@ -39,8 +39,6 @@ body {
   position: relative;
   line-height: 33px;
   top: 30%;
-  font-family: 'Titillium Web', serif;
-  font-weight: 300;
 }
 
 .about .ab2 {
@@ -56,9 +54,7 @@ body {
   position: relative;
   top: 10%;
   line-height: 33px;
-  /* font-family: 'Josefin Slab', serif; */
-  font-family: 'Titillium Web', sans-serif;
-  font-weight: 300;
+  font-family: 'Josefin Slab', serif;
 }
 
 .about p button {
@@ -72,9 +68,8 @@ body {
   color: var(--primary-white);
   font-size: 20px;
   font-weight: 500;
-  /* font-family: 'Josefin Slab', serif;
-  font-family: 'Roboto', sans-serif; */
-  font-family: 'Titillium Web';
+  font-family: 'Josefin Slab', serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .about p button:hover {
@@ -92,8 +87,6 @@ body {
 }
 
 .bold {
-  font-family: 'Dosis', sans-serif;
-  font-weight: 700;
   font-size: 40px;
 }
 
