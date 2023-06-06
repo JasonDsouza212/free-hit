@@ -48,10 +48,12 @@ body {
   grid-template-columns: repeat(auto-fit, minmax(320px, auto));
   align-items: start;
   justify-content: center;
-  gap: 1rem 1rem;
+  /* gap: 1rem 1rem; */
   text-align: center;
   margin-top: 1rem;
   text-align: center;
+  gap: 2.2rem;
+  overflow-y: hidden;
 }
 
 .grid > article {
@@ -83,14 +85,54 @@ img {
   left: 0;
   right: 0;
 }
+.card-img{
+  transition: .5s;
+box-shadow: 0 0 12px gray ;
+}
+.card-title{
+transition: 1s;
+transform-origin: center;
+margin-inline: 8px;
+margin-block:5px 10px;
+position: relative;
+top: -4px;
+}
+.card-title::after{
+  content: "";
+  position: absolute;
+  width:0;
+  height: 3px;
+  background-color: var(--primary-black);
+  bottom: -5px;
+  left: 50%;
+  transition: .5s;
+  transform-origin: center;
 
+
+  /* border:2px solid black;
+  border-top: none;
+  border-left:none;
+  border-right:none; */
+  /* border-bottom-right-radius: 2px solid black; */
+}
+.card-title:hover::after{
+width:92%;
+left: 0;
+}
+.card-img:hover{
+transform: scale(1.2);
+box-shadow: 4px 5px 8px rgba(0, 0, 0, 0.447);
+
+}
 .grid .text {
   padding: 0px 30px 0px 30px;
   color: #000000;
   font-size: 18px;
+  
 }
 
 .grid .text p {
+  padding: 1px 10px;
   margin-top: 2px;
   line-height: 20px;
   font-family: 'Roboto', sans-serif;
@@ -118,8 +160,9 @@ img {
 .btn-cont button {
   background-color: var(--primary-black);
   padding: 7px 25px;
-  border-radius: 8px;
-  margin: 2px;
+  border-radius: 12px;
+  margin: 10px;
+  box-shadow: 2px 6px 11px rgba(0, 0, 0, 0.237);
   transition: all 0.3s ease;
 }
 
