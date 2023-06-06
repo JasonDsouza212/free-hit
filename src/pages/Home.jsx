@@ -17,7 +17,6 @@ const Card = ({ length }) => {
   const [searchParams,] = useSearchParams()
   let filters = searchParams.getAll('filters').length > 0 ? searchParams.getAll('filters') : ["all"]
   filters = filters[0].split(",")
-  console.log(filters)
 
   return (
     <div className="card_container">
