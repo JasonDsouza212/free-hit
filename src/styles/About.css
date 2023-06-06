@@ -39,7 +39,8 @@ body {
   position: relative;
   line-height: 33px;
   top: 30%;
-  font-family: 'Josefin Slab', serif;
+  font-family: 'Titillium Web', serif;
+  font-weight: 300;
 }
 
 .about .ab2 {
@@ -55,12 +56,14 @@ body {
   position: relative;
   top: 10%;
   line-height: 33px;
-  font-family: 'Josefin Slab', serif;
+  /* font-family: 'Josefin Slab', serif; */
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 300;
 }
 
 .about p button {
   background-color: var(--primary-black);
-  padding: 6px 25px;
+  padding: 0px 25px;
   border: 2px solid var(--primary-black);
 }
 
@@ -69,8 +72,9 @@ body {
   color: var(--primary-white);
   font-size: 20px;
   font-weight: 500;
-  font-family: 'Josefin Slab', serif;
-  font-family: 'Roboto', sans-serif;
+  /* font-family: 'Josefin Slab', serif;
+  font-family: 'Roboto', sans-serif; */
+  font-family: 'Titillium Web';
 }
 
 .about p button:hover {
@@ -88,8 +92,9 @@ body {
 }
 
 .bold {
+  font-family: 'Dosis', sans-serif;
+  font-weight: 700;
   font-size: 40px;
-  font-weight: bolder;
 }
 
 /* about end */

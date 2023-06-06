@@ -29,6 +29,7 @@ footer {
 }
 
 .footer-content p {
+  font-family: 'Dosis', sans-serif;
   max-width: 500px;
   margin: 10px auto;
   line-height: 28px;
@@ -65,6 +66,7 @@ footer {
   padding-bottom: 0;
 }
 .footer-bottom p {
+  font-family: 'Titillium Web', sans-serif;
   font-size: 18px;
   word-spacing: 2px;
   text-transform: capitalize;
@@ -79,6 +81,8 @@ footer {
   margin: 0;
 }
 .footer-bottom a {
+  font-family: 'Dosis', sans-serif;
+  font-weight: 600;
   text-decoration: none;
   color: var(--primary-white);
   font-size: 20px;

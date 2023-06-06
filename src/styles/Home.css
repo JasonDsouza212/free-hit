@@ -85,7 +85,7 @@ img {
 }
 
 .grid .text {
-  padding: 0px 30px 0px 30px;
+  padding: 5px 30px 0px 30px;
   color: #000000;
   font-size: 18px;
 }
@@ -152,6 +152,7 @@ img {
 }
 
 .no-results {
+  font-family: 'Titillium Web';
   font-size: 2rem;
   font-weight: bold;
   text-align: center;
@@ -173,4 +174,9 @@ img {
   align-items: center;
   width: 100%;
 }
+
 /* card end */
+
+b {
+  font-family: 'Dosis', sans-serif;
+}
