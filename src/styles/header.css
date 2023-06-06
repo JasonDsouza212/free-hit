@@ -38,7 +38,6 @@ nav {
 @media screen and (max-width: 360px) {
   .nav-container {
     float: left;
-    width: 100vw;
   }
 }
 
@@ -153,25 +152,34 @@ nav {
   list-style: none;
 }
 
-#sidebar .list-items li a {
-  padding-left: 40px;
+#sidebar .list-items li button {
   line-height: 50px;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   border-bottom: 1px solid #333;
   transition: all 0.3s ease;
 }
-#sidebar .list-items li a:hover {
+#sidebar .list-items li:hover {
   border-top: 1px solid transparent;
   border-bottom: 1px solid transparent;
   box-shadow: 0 0px 10px 3px #222;
 }
-#sidebar .list-items li:first-child {
+.active-filter {
+  border-top: 1px solid transparent;
+  border-bottom: 1px solid transparent;
+  box-shadow: 0 0px 10px 3px #222;
+}
+.active-filter {
+  border-top: 1px solid transparent;
+  border-bottom: 1px solid transparent;
+  box-shadow: 0 0px 10px 3px #222;
+}
+#sidebar .list-items li:first-child{
   border-top: none;
 }
-#sidebar .list-items li a {
+#sidebar .list-items li button {
   color: var(--primary-white);
   text-decoration: none;
-  font-size: 18px;
+  font-size: 23px;
   font-weight: 500;
   height: 100%;
   width: 100%;
@@ -219,7 +227,7 @@ nav {
 .container {
   float: right;
   position: relative;
-  top: 5px;
+  top: 3px;
 }
 
 .container .input {
@@ -237,8 +245,7 @@ nav {
   width: 300px;
   height: 60px;
   top: 7px;
-  right: 10px;
-  margin: 0px auto;
+  right: 10%;
 }
 
 .search_box .input {
@@ -287,7 +294,7 @@ nav {
 .pages {
   float: right;
   position: relative;
-  right: 40px;
+  right: 60px;
 }
 
 .pages li{

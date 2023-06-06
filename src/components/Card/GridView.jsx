@@ -1,18 +1,18 @@
 import { useContext } from 'react'
 import { ToolContext } from '../../App'
+import filterProducts from '../../utils/filter/filter_products'
 
-const GridView = () => {
+const GridView = ({filters}) => {
   const {
     filteredProducts,
-    category,
     handelBookmarkAdd,
     bookmarkfilteredProducts,
     deleteres,
   } = useContext(ToolContext)
+
   return (
     <main className="grid">
-      {filteredProducts.map((product, index) => {
-        return category === 'all' || category === product.category ? (
+      {filterProducts(filteredProducts, filters).map((product, index) => (
           <article key={index}>
             <div className="text">
               <div className="text_top">
@@ -32,12 +32,12 @@ const GridView = () => {
                   (obj) => obj['productName'] === product.productName
                 ) ? (
                   <button onClick={() => deleteres(product)}>
-                    <a href="#">
+                    <a >
                       Delete<i className="ri-bookmark-fill"></i>
                     </a>
                   </button>
                 ) : (
-                  <a href="#">
+                  <a >
                     <button
                       className="bookmark"
                       onClick={() => handelBookmarkAdd(product)}
@@ -51,8 +51,7 @@ const GridView = () => {
               </div>
             </div>
           </article>
-        ) : null
-      })}
+        ))}
     </main>
   )
 }

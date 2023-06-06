@@ -1,19 +1,19 @@
 import React, { useState, useEffect, createContext } from 'react'
 import { Route, Routes } from 'react-router-dom'
-import Card from './components/card'
-import Footer from './components/footer'
-import About from './components/about'
+import Card from './pages/Home'
+import Footer from './components/Footer'
+import About from './pages/About'
 import products from './DB/product.json'
-import BookMarks from './components/bookmarks'
+import BookMarks from './pages/Bookmarks'
 import BackToTopButton from './components/BackToTop'
-import Commonpage from './components/Commonpage'
-import Community from './components/Community'
+import NotFound from './pages/NotFound'
+import Community from './pages/Community'
+import searchProducts from './utils/search/search_products'
 
 const ToolContext = createContext()
 const LOCAL_STORAGE_KEY = 'freehit.bookmarks'
 
 function App() {
-  const [category, setCategory] = useState('all')
   const [searchTerm, setSearchTerm] = useState('')
   const [gridView, setGridView] = useState(true)
 
@@ -24,7 +24,6 @@ function App() {
   const [filteredSuggestions, setFilteredSuggestions] = useState([])
 
   // all Bookmarks
-  const [bookmarkfiltersuggestions, setBookmarkfiltersuggestions] = useState([])
   const [bookmarks, setBookmarks] = useState([])
 
   // for menu bar close and open
@@ -33,11 +32,6 @@ function App() {
   const [boomarkNames, setBookmarkNames] = useState(
     bookmarks?.map((bookmark) => bookmark.productName) || []
   )
-
-  function filterProduct(value) {
-    setCategory(value)
-    filteredButtonSelected(value)
-  }
 
   // initial Storage
   useEffect(() => {
@@ -62,25 +56,6 @@ function App() {
     setBookmarks([...bookmarks, newBookmark])
   }
 
-  async function filteredButtonSelected(value) {
-    const button = document.querySelectorAll('.category-select')
-    // Remove the "background-button-selected" class everytime the button is clicked at start to clear old selection
-    button.forEach((i) => {
-      i.classList.remove('background-button-selected')
-    })
-    let cnt = -1
-    // Add the "background-button-selected" class to individual the button when it is clicked
-    button.forEach((i) => {
-      let selected = ''
-      selected = i.getAttribute('productcategory')
-      cnt++
-      if (value === selected) {
-        button[cnt].classList.add('background-button-selected')
-        return
-      }
-    })
-  }
-
   // Search filter methods
   useEffect(() => {
     // Checks if the search term have a word
@@ -89,61 +64,19 @@ function App() {
       const filterNames = productNames.filter((productName) =>
         productName.toLowerCase().startsWith(searchTerm.toLowerCase())
       )
-      const filterBookmarks = boomarkNames.filter((bookmarkname) =>
-        bookmarkname.toLowerCase().startsWith(searchTerm.toLowerCase())
-      )
 
       // the array containing the filtered words gets sorted.
       const sortedProductNames = filterNames.sort()
-      const sortedbookmarks = filterBookmarks.sort()
-      setBookmarkfiltersuggestions(sortedbookmarks)
       setFilteredSuggestions(sortedProductNames)
     } else {
-      setBookmarkfiltersuggestions([])
       setFilteredSuggestions([])
     }
   }, [searchTerm, productNames, boomarkNames])
 
-  useEffect(() => {
-    setCategory('all')
-  }, [])
-
-  function escapeRegExp(str) {
-    return str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') // $& means the whole matched string
-  }
-
   // filtering methods
-  const filteredProducts = products
-    .filter((product) => {
-      if (!searchTerm) return true
-      const regex = new RegExp(escapeRegExp(searchTerm.trim()), 'gi')
-      return (
-        product.productName.match(regex) ||
-        product.description.match(regex) ||
-        product.category.match(regex)
-      )
-    })
-    .sort((a, b) => {
-      const nameA = a.productName.toUpperCase()
-      const nameB = b.productName.toUpperCase()
-      return nameA < nameB ? -1 : 1
-    })
+  const filteredProducts = searchProducts(products, searchTerm);
 
-  const bookmarkfilteredProducts = bookmarks
-    .filter((bookmark) => {
-      if (!searchTerm) return true
-      const regex = new RegExp(escapeRegExp(searchTerm.trim()), 'gi')
-      return (
-        bookmark.productName.match(regex) ||
-        bookmark.description.match(regex) ||
-        bookmark.category.match(regex)
-      )
-    })
-    .sort((a, b) => {
-      const nameA = a.productName.toUpperCase()
-      const nameB = b.productName.toUpperCase()
-      return nameA < nameB ? -1 : 1
-    })
+  const bookmarkfilteredProducts = searchProducts(bookmarks, searchTerm)
 
   // Remove Bookmark
   function deleteres(product) {
@@ -154,11 +87,9 @@ function App() {
 
   // values to pass to context hook s
   const toolContextValue = {
-    filterProduct,
     filteredProducts,
     searchTerm,
     setSearchTerm,
-    category,
     handelBookmarkAdd,
     bookmarks,
     deleteres,
@@ -179,7 +110,7 @@ function App() {
             element={<BookMarks length={bookmarkfilteredProducts.length} />}
           />
           <Route path="/community" element={<Community />} />
-          <Route path="*" element={<Commonpage />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
         <Footer />
         <BackToTopButton />
