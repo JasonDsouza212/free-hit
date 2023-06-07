@@ -1519,5 +1519,12 @@
   "image": "https://insidea.com/wp-content/uploads/2022/12/Insidea-logo-2.png",
   "description": "Where Business Meets Talent",
   "link": "https://insidea.com/"
- }
+ },
+{
+  "productName": "Novoresume",
+  "category": "resume",
+  "image": "https://bit.ly/3P09nA5",
+  "link": "https://novoresume.com/",
+  "description": "Online resume builder."
+}
 ]
