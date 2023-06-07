@@ -48,7 +48,6 @@ body {
   grid-template-columns: repeat(auto-fit, minmax(320px, auto));
   align-items: start;
   justify-content: center;
-  /* gap: 1rem 1rem; */
   text-align: center;
   margin-top: 1rem;
   text-align: center;
@@ -107,13 +106,6 @@ top: -4px;
   left: 50%;
   transition: .5s;
   transform-origin: center;
-
-
-  /* border:2px solid black;
-  border-top: none;
-  border-left:none;
-  border-right:none; */
-  /* border-bottom-right-radius: 2px solid black; */
 }
 .card-title:hover::after{
 width:92%;
