@@ -9,12 +9,14 @@ const Footer = () => {
     <footer>
       <div className="footer-content">
         <h3>
-         <img className="free-logo-footer"  src={freehitlogo} alt="-" />
+          <img className="free-logo-footer" src={freehitlogo} alt="-" />
           <b>FREE-HIT</b>
         </h3>
         <p>
           Find the tools you need without breaking the bank
-          <br /> <b>Contact Us</b>
+        </p>
+        <p>
+          <b>Contact Us</b>
         </p>
         <ul className="socials">
           <li>
@@ -43,13 +45,16 @@ const Footer = () => {
         </ul>
       </div>
       <div className="footer-bottom">
+        <br />
         <p>
-          copyright &copy;{year} <b>Free-Hit</b>
-          <br />
-          Maintained by{' '}
-          <span className="maintainer">
-            <a target="_blank" href="https://github.com/JasonDsouza212">
-              Jason Dsouza
+          <span className='uppercase'>
+            Copyright &copy; Free-Hit {year}
+          </span>
+          &nbsp;&nbsp; | &nbsp;&nbsp;
+          <span>
+            Maintained by &nbsp;
+            <a target="_blank" href="https://github.com/JasonDsouza212" className='uppercase'>
+              <b>Jason Dsouza</b>
             </a>
           </span>
         </p>

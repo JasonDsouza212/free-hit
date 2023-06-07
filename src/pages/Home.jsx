@@ -6,7 +6,8 @@ import GridView from '../components/Card/GridView'
 import ListView from '../components/Card/ListView'
 import { BsFillGridFill, BsListUl } from 'react-icons/bs'
 import '../styles/Home.css'
-import { useSearchParams } from 'react-router-dom'
+import { useSearchParams, Navigate } from 'react-router-dom'
+import checkFilter from '../utils/check_filters'
 
 const Card = ({ length }) => {
   const {
@@ -15,7 +16,9 @@ const Card = ({ length }) => {
   } = useContext(ToolContext)
 
   const [searchParams,] = useSearchParams()
-  const filter = searchParams.get("filter") || "all"
+  let filters = searchParams.get('filters') || "all"
+  filters = filters.split(",")
+  if (checkFilter(filters)) return <Navigate to="/notfound" />
 
   return (
     <div className="card_container">
@@ -37,9 +40,9 @@ const Card = ({ length }) => {
             <img class="not-found-img" src={noresultimg} alt="" />
           </div>
         ) : gridView ? (
-          <GridView category={filter} />
+          <GridView filters={filters} />
         ) : (
-          <ListView category={filter} />
+          <ListView filters={filters} />
         )}
       </div>
     </div>

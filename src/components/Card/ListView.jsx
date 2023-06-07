@@ -11,8 +11,9 @@ import {
 } from '@chakra-ui/react'
 
 import { BsChevronDown } from 'react-icons/bs'
+import filterProducts from '../../utils/filter/filter_products'
 
-const ListView = ({category}) => {
+const ListView = ({filters}) => {
   const {
     filteredProducts,
     handelBookmarkAdd,
@@ -21,8 +22,7 @@ const ListView = ({category}) => {
   } = useContext(ToolContext)
   return (
     <Accordion allowToggle className="list">
-      {filteredProducts.map((product, index) => {
-        return category === 'all' || category === product.category ? (
+      {filterProducts(filteredProducts, filters).map((product, index) => (
           <AccordionItem
             borderRadius={'8px'}
             boxShadow={'8px 8px 2px 0px #373530'}
@@ -47,12 +47,12 @@ const ListView = ({category}) => {
                       (obj) => obj['productName'] === product.productName
                     ) ? (
                       <button onClick={() => deleteres(product)}>
-                        <a href="#">
+                        <a >
                           Delete<i className="ri-bookmark-fill"></i>
                         </a>
                       </button>
                     ) : (
-                      <a href="#">
+                      <a >
                         <button
                           className="bookmark"
                           onClick={() => handelBookmarkAdd(product)}
@@ -84,12 +84,12 @@ const ListView = ({category}) => {
                       (obj) => obj['productName'] === product.productName
                     ) ? (
                       <button onClick={() => deleteres(product)}>
-                        <a href="#">
+                        <a >
                           Delete<i className="ri-bookmark-fill"></i>
                         </a>
                       </button>
                     ) : (
-                      <a href="#">
+                      <a >
                         <button
                           className="bookmark"
                           onClick={() => handelBookmarkAdd(product)}
@@ -105,8 +105,7 @@ const ListView = ({category}) => {
               </div>
             </AccordionPanel>
           </AccordionItem>
-        ) : null
-      })}
+        ))}
     </Accordion>
   )
 }
