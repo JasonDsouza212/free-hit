@@ -8,7 +8,7 @@ import BookMarks from './pages/Bookmarks'
 import BackToTopButton from './components/BackToTop'
 import NotFound from './pages/NotFound'
 import Community from './pages/Community'
-import filterProducts from './utils/filter/filter_products'
+import searchProducts from './utils/search/search_products'
 
 const ToolContext = createContext()
 const LOCAL_STORAGE_KEY = 'freehit.bookmarks'
@@ -74,9 +74,9 @@ function App() {
   }, [searchTerm, productNames, boomarkNames])
 
   // filtering methods
-  const filteredProducts = filterProducts(products, searchTerm);
+  const filteredProducts = searchProducts(products, searchTerm);
 
-  const bookmarkfilteredProducts = filterProducts(bookmarks, searchTerm)
+  const bookmarkfilteredProducts = searchProducts(bookmarks, searchTerm)
 
   // Remove Bookmark
   function deleteres(product) {
