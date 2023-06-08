@@ -1,5 +1,12 @@
 [
   {
+    "productName": "Magic Eraser",
+    "category": "tools",
+    "image": "https://bit.ly/3qCeSLa",
+    "link": "https://magicstudio.com/magiceraser",
+    "description": "Powerful graphics designing tool which allows designers to remove unwanted elements in an image without messing with remaining part of the image."
+  },
+  {
     "productName": "Freepik",
     "category": "tools",
     "image": "https://tinyurl.com/bdfw6dyv",
