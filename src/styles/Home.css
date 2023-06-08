@@ -48,22 +48,26 @@ body {
   grid-template-columns: repeat(auto-fit, minmax(320px, auto));
   align-items: start;
   justify-content: center;
-  text-align: center;
+ text-align: center;
   margin-top: 1rem;
   text-align: center;
   gap: 2.2rem;
   overflow-y: hidden;
+  gap: 1rem 1rem;
+  margin-top: 1rem;
 }
 
 .grid > article {
   position: relative;
-  height: 220px;
+  min-height: 220px;
   max-width: 350px;
   border: 1px solid var(--primary-black);
   box-shadow: 8px 8px 2px 0px var(--primary-black);
   background-color: var(--primary-white);
-  padding: 10px 0px;
+  padding: 15px 30px;
   border-radius: 20px;
+  color: #000;
+  font-size: 18px;
   transition: all 0.3s;
 }
 
@@ -79,10 +83,7 @@ img {
 }
 
 .grid > article .btn-cont {
-  position: absolute;
-  bottom: 20px;
-  left: 0;
-  right: 0;
+  margin-top: 2rem;
 }
 .card-img{
   transition: .5s;
@@ -114,7 +115,6 @@ left: 0;
 .card-img:hover{
 transform: scale(1.2);
 box-shadow: 4px 5px 8px rgba(0, 0, 0, 0.447);
-
 }
 .grid .text {
   padding: 0px 30px 0px 30px;
@@ -126,24 +126,25 @@ box-shadow: 4px 5px 8px rgba(0, 0, 0, 0.447);
 .grid .text p {
   padding: 1px 10px;
   margin-top: 2px;
+.grid article p {
+  margin-top: 1rem;
   line-height: 20px;
   font-family: 'Roboto', sans-serif;
+  height: 60px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;  
+  -webkit-line-clamp: 3;
 }
 
-.grid .text .text_top {
-  position: relative;
-  right: 10px;
+.grid article .text_top {
   display: flex;
   align-items: center;
-  text-align: center;
   gap: 10px;
 }
 
 .text_top .card-title {
-  color: #000;
-  bottom: 12px;
   font-size: 22px;
-  left: 6px;
   font-weight: 600;
   line-height: 24px;
   text-align: left;
