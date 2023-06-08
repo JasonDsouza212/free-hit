@@ -82,18 +82,18 @@ const Header = () => {
           </label>
           {location.pathname === '/about' ? (
             <nav id="sidebar">
-              <ul className="list-items">
-                <li>
+              <ul className="list-items list-item">
+                <li className='about-list'>
                   <NavLink to="/">
                     <i className="ri-home-4-fill"></i> Home
                   </NavLink>
                 </li>
-                <li>
+                <li className='about-list'>
                   <NavLink to="/bookmarks">
                     <i className="ri-bookmark-fill"></i> Bookmarks
                   </NavLink>
                 </li>
-                <li>
+                <li className='about-list'>
                   <TwitterButton message={msg} />
                 </li>
               </ul>
