@@ -1,10 +1,31 @@
 [
   {
+    "productName": "Freepik",
+    "category": "tools",
+    "image": "https://tinyurl.com/bdfw6dyv",
+    "link": "https://www.freepik.com/",
+    "description": "Find and download the best high-quality photos, vectors, videos, and mockups."
+  },
+  {
+    "productName": "Fontspace",
+    "category": "tools",
+    "image": "https://tinyurl.com/bdeapp7t",
+    "link": "https://www.fontspace.com/",
+    "description": "Free downloads of legally licensed fonts that are perfect for your design projects."
+  },
+  {
     "productName": "Cuvette",
     "category": "remote",
     "image": "https://bit.ly/3MIvfgn",
     "link": "https://bit.ly/42dFNKk",
     "description": "The #1 way college students & early graduates get Internships & Jobs"
+  },
+   {
+    "productName": "Reduce Images",
+    "category": "tools",
+    "image": "https://ibb.co/SmKdz1X",
+    "link": "https://www.reduceimages.com/",
+    "description": "Reduce images is a free online image resizer that allows you to resize an image, change their format, compress them."
   },
   {
     "productName": "Dev Resources",
@@ -432,6 +453,62 @@
     "image": "https://bit.ly/3Kz550h",
     "link": "https://colorhunt.co/",
     "description": "Color inspiration and palette generator tool for designers."
+  },
+  {
+    "productName": "Evergreen",
+    "category": "web",
+    "image": "https://evergreen.segment.com/evergreen-logo.svg",
+    "link": "https://evergreen.segment.com/",
+    "description": "Evergreen is a React UI Framework for building ambitious products on the web. Brought to you by Segment."
+  },
+  {
+    "productName": "CSSPortal",
+    "category": "web",
+    "image":"https://www.cssportal.com/assets/images/cssicon.png",
+    "link": "https://www.cssportal.com/",
+    "description": "CSS Portal is home to many examples of CSS and how it can be used in website design."
+  },
+  {
+    "productName": "daisyUI",
+    "category": "web",
+    "image": "https://raw.githubusercontent.com/saadeghi/files/main/daisyui/logo-4.svg",
+    "link": "https://daisyui.com/",
+    "description": "daisyUI adds component class names to Tailwind CSS so you can make beautiful websites faster than ever."
+  },
+  {
+    "productName": "Flowbite",
+    "category": "web",
+    "image": "https://flowbite.com/docs/images/logo.svg",
+    "link": "https://flowbite.com/docs/getting-started/introduction/",
+    "description": "Start developing with an open-source library of over 600+ UI components built with the utility classes from Tailwind CSS."
+  },
+  {
+    "productName": "Glide.js",
+    "category": "web",
+    "image": "https://avatars.githubusercontent.com/u/37380006?v=4",
+    "link": "https://glidejs.com/",
+    "description": "Glide.js is a dependency-free JavaScript ES6 slider and carousel. It’s lightweight, flexible and fast. Designed to slide."
+  },
+  {
+    "productName": "Sass",
+    "category": "web",
+    "image": "https://sass-lang.com/assets/img/logos/logo-b6e1ef6e.svg",
+    "link": "https://sass-lang.com/",
+    "description": "CSS with superpowers. Sass is the most mature, stable, and powerful professional grade CSS extension language in the world."
+  },
+  {
+    "productName": "Tailwind CSS",
+    "category": "web",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg",
+    "link": "https://tailwindcss.com/",
+    "description": "Tailwind CSS is a utility-first CSS framework for rapidly building modern websites without ever leaving your HTML."
+  },
+  {
+    "productName": "Chart.js",
+    "category": "web",
+    "image": "https://www.chartjs.org/img/chartjs-logo.svg",
+    "link": "https://www.chartjs.org/",
+    "description": "Simple yet flexible JavaScript charting library for the modern web."
   },
   {
     "productName": "Sitepoint",
@@ -1602,6 +1679,13 @@
   "image": "https://tinyurl.com/5n6zfp2y",
   "link": "https://quillbot.com/",
   "description": "AI-powered paraphrasing tool that enhances your writing"
+},
+{
+  "productName": "DALL·E",
+  "category": "ai",
+  "image": "https://bit.ly/3oICzAN",
+  "link": "https://openai.com/dall-e-2",
+  "description": "An AI system that can create realistic images and art from a description in natural language."
 },
   {
   "productName": "Zarla",
