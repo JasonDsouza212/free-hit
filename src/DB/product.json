@@ -1494,56 +1494,28 @@
     "productName": "felxjobs",
     "category": "remote",
     "image": "https://www.flexjobs.com/images/fj-logo.svg",
-    "description": "Explore a faster, easier, and better remote job search.",
-    "link": "https://www.flexjobs.com/"
+    "link": "https://www.flexjobs.com/",
+    "description": "Explore a faster, easier, and better remote job search."
   },
   {
     "productName": "FindAsync",
     "category": "remote",
     "image": "https://global-uploads.webflow.com/6267c66ef9f4360db22642db/62e11be55b5c9d6646cf3501_FindAsyncLogo.svg",
-    "description": "Find your next async remote job",
-    "link": "https://www.findasync.com/"
+    "link": "https://www.findasync.com/",
+    "description": "Find your next async remote job" 
   },
   {
     "productName": "CROSSOVER",
     "category": "remote",
     "image": "https://www.crossover.com/assets/img/crossover-logo.svg",
-    "description": "Find a full time remote job",
-    "link": "https://www.crossover.com/"
+    "link": "https://www.crossover.com/",
+    "description": "Find a full time remote job"
   },
   {
     "productName": "INSIDEA",
     "category": "remote",
     "image": "https://insidea.com/wp-content/uploads/2022/12/Insidea-logo-2.png",
-    "description": "Where Business Meets Talent",
-    "link": "https://insidea.com/"
-  },
-  {
-    "productName": "felxjobs",
-    "category": "remote",
-    "image": "https://www.flexjobs.com/images/fj-logo.svg",
-    "description": "Explore a faster, easier, and better remote job search.",
-    "link": "https://www.flexjobs.com/"
-  },
-  {
-    "productName": "FindAsync",
-    "category": "remote",
-    "image": "https://global-uploads.webflow.com/6267c66ef9f4360db22642db/62e11be55b5c9d6646cf3501_FindAsyncLogo.svg",
-    "description": "Find your next async remote job",
-    "link": "https://www.findasync.com/"
-  },
-  {
-    "productName": "CROSSOVER",
-    "category": "remote",
-    "image": "https://www.crossover.com/assets/img/crossover-logo.svg",
-    "description": "Find a full time remote job",
-    "link": "https://www.crossover.com/"
-  },
-  {
-    "productName": "INSIDEA",
-    "category": "remote",
-    "image": "https://insidea.com/wp-content/uploads/2022/12/Insidea-logo-2.png",
-    "description": "Where Business Meets Talent",
-    "link": "https://insidea.com/"
+    "link": "https://insidea.com/",
+    "description": "Where Business Meets Talent"
   }
 ]
