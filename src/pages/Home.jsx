@@ -24,11 +24,15 @@ const Card = ({ length }) => {
     <div className="card_container">
       <Header />
       <div className="card_view">
-        <BsFillGridFill onClick={() => setGridView(true)} size={22} />
+        <BsFillGridFill 
+          onClick={() => setGridView(true)} 
+          size={22} 
+          color={gridView ? "#212121" : "#9E9E9E"}
+        />
         <BsListUl
           onClick={() => setGridView(false)}
           size={28}
-          color="#212121"
+          color={gridView ? "#9E9E9E" : "#212121"}
         />
       </div>
       <div className="card-container">
