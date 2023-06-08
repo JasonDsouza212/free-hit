@@ -5,7 +5,7 @@
     justify-content: center;
     align-items: center;
     position: fixed;
-    background: white;
+    background: #f1f1ef;
     z-index: 1;
 }
 
@@ -13,7 +13,7 @@
     width: 64px;
     height: 64px;
     border: 8px solid;
-    border-color: black transparent black transparent;
+    border-color: #373530 transparent #373530 transparent;
     border-radius: 50%;
     animation: spin-anim 1.2s linear infinite;
 }
