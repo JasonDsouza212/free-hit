@@ -151,6 +151,12 @@ nav {
   /* height: 100%; */
   list-style: none;
 }
+.list-item{
+  color: #ffffff;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
 
 #sidebar .list-items li button {
   line-height: 50px;
@@ -388,4 +394,7 @@ nav {
 }
 .diplay-block {
   display: block;
+}
+.about-list{
+  padding-left: 12px;
 }
