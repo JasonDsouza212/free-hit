@@ -30,16 +30,11 @@ footer {
 
 .footer-content p {
   max-width: 500px;
-  margin: 15px auto 5px;
+  margin: 10px auto;
   line-height: 28px;
   font-size: 16px;
   font-weight: 400;
 }
-
-.footer-content p:nth-child(2) {
-  margin-top: 10px;
-}
-
 .socials {
   list-style: none;
   display: flex;
@@ -48,37 +43,51 @@ footer {
   margin: 0rem 0 1rem 0;
 }
 .socials li {
-  margin: 0 15px;
+  margin: 0 10px;
+  transition: all 0.5s ease;
 }
 .socials a {
   text-decoration: none;
   color: #fff;
 }
 .socials a i {
-  font-size: 1.25rem;
+  font-size: 1.2rem;
   transition: color 0.4s ease;
 }
 
-.socials a:hover i {
-  color: aqua;
+.socials li:hover {
+  transform: scale(1.2);
+}
+
+.socials_twitter:hover{
+  color: #00acee;
+}
+.socials_github:hover {
+  color: cyan;
+}
+
+.socials_linkedin:hover{
+  color: #0e76a8;
+}
+.socials_mail:hover{
+  color: rgb(201, 44, 25);
 }
 
 .footer-bottom {
   background: #0e0d0d;
-  color: #bbb;
-  padding: 10px 20px;
+  padding-top: 20px;
   text-align: center;
   padding-bottom: 0;
 }
 .footer-bottom p {
-  font-size: 14px;
+  font-size: 18px;
   word-spacing: 2px;
+  text-transform: capitalize;
   line-height: 20px;
 }
-.uppercase {
-  text-transform: uppercase;
-}
 .footer-bottom span {
+  text-transform: uppercase;
+  opacity: 0.4;
   font-weight: 200;
 }
 .footer-bottom ul {
@@ -87,5 +96,5 @@ footer {
 .footer-bottom a {
   text-decoration: none;
   color: var(--primary-white);
-  font-size: 14px;
+  font-size: 20px;
 }

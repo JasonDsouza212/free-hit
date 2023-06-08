@@ -21,12 +21,12 @@ const Footer = () => {
         <ul className="socials">
           <li>
             <a target="_blank" href="https://twitter.com/_Jason_Dsouza">
-              <i className="ri-twitter-fill"></i>
+              <i className="socials_twitter ri-twitter-fill"></i>
             </a>
           </li>
           <li>
             <a target="_blank" href="https://github.com/JasonDsouza212">
-              <i className="ri-github-fill"></i>
+              <i className="socials_github ri-github-fill"></i>
             </a>
           </li>
           <li>
@@ -34,12 +34,12 @@ const Footer = () => {
               target="_blank"
               href="https://www.linkedin.com/in/jason-dsouza-130b421ba/"
             >
-              <i className="ri-linkedin-fill"></i>
+              <i className="socials_linkedin ri-linkedin-fill"></i>
             </a>
           </li>
           <li>
             <a target="_blank" href="mailto:jasondsouza212@gmail.com">
-              <i className="ri-mail-fill"></i>
+              <i className="socials_mail ri-mail-fill"></i>
             </a>
           </li>
         </ul>
