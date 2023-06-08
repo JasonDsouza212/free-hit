@@ -455,6 +455,62 @@
     "description": "Color inspiration and palette generator tool for designers."
   },
   {
+    "productName": "Evergreen",
+    "category": "web",
+    "image": "https://evergreen.segment.com/evergreen-logo.svg",
+    "link": "https://evergreen.segment.com/",
+    "description": "Evergreen is a React UI Framework for building ambitious products on the web. Brought to you by Segment."
+  },
+  {
+    "productName": "CSSPortal",
+    "category": "web",
+    "image":"https://www.cssportal.com/assets/images/cssicon.png",
+    "link": "https://www.cssportal.com/",
+    "description": "CSS Portal is home to many examples of CSS and how it can be used in website design."
+  },
+  {
+    "productName": "daisyUI",
+    "category": "web",
+    "image": "https://raw.githubusercontent.com/saadeghi/files/main/daisyui/logo-4.svg",
+    "link": "https://daisyui.com/",
+    "description": "daisyUI adds component class names to Tailwind CSS so you can make beautiful websites faster than ever."
+  },
+  {
+    "productName": "Flowbite",
+    "category": "web",
+    "image": "https://flowbite.com/docs/images/logo.svg",
+    "link": "https://flowbite.com/docs/getting-started/introduction/",
+    "description": "Start developing with an open-source library of over 600+ UI components built with the utility classes from Tailwind CSS."
+  },
+  {
+    "productName": "Glide.js",
+    "category": "web",
+    "image": "https://avatars.githubusercontent.com/u/37380006?v=4",
+    "link": "https://glidejs.com/",
+    "description": "Glide.js is a dependency-free JavaScript ES6 slider and carousel. It’s lightweight, flexible and fast. Designed to slide."
+  },
+  {
+    "productName": "Sass",
+    "category": "web",
+    "image": "https://sass-lang.com/assets/img/logos/logo-b6e1ef6e.svg",
+    "link": "https://sass-lang.com/",
+    "description": "CSS with superpowers. Sass is the most mature, stable, and powerful professional grade CSS extension language in the world."
+  },
+  {
+    "productName": "Tailwind CSS",
+    "category": "web",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg",
+    "link": "https://tailwindcss.com/",
+    "description": "Tailwind CSS is a utility-first CSS framework for rapidly building modern websites without ever leaving your HTML."
+  },
+  {
+    "productName": "Chart.js",
+    "category": "web",
+    "image": "https://www.chartjs.org/img/chartjs-logo.svg",
+    "link": "https://www.chartjs.org/",
+    "description": "Simple yet flexible JavaScript charting library for the modern web."
+  },
+  {
     "productName": "Sitepoint",
     "category": "web",
     "image": "https://bit.ly/3IyNvXB",
