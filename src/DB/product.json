@@ -1,5 +1,19 @@
 [
   {
+    "productName": "Freepik",
+    "category": "tools",
+    "image": "https://tinyurl.com/bdfw6dyv",
+    "link": "https://www.freepik.com/",
+    "description": "Find and download the best high-quality photos, vectors, videos, and mockups."
+  },
+  {
+    "productName": "Fontspace",
+    "category": "tools",
+    "image": "https://tinyurl.com/bdeapp7t",
+    "link": "https://www.fontspace.com/",
+    "description": "Free downloads of legally licensed fonts that are perfect for your design projects."
+  },
+  {
     "productName": "Cuvette",
     "category": "remote",
     "image": "https://bit.ly/3MIvfgn",
