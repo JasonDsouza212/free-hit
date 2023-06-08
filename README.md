@@ -126,6 +126,14 @@ Before installation, you need to have installed/knowledge of the following:
 ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
 ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
 
+## ⚠️ 🛑 Strict rules to follow while contributing:
+- The PR will only be merged if you create an issue. 
+- The PR should always be attached to the issue it solves (**For example: #32**).
+- If you make any changes other than what the issue suggests, the PR will not be merged, even if it only involves removing indentations, colons, or semicolons.
+- Each PR should only resolve one issue.
+- When adding a tool to the database, make sure to add it at the end. If it is added in the middle or at the beginning, the PR will not be merged.
+- Do not modify the indentation or brackets in the Database file. If this happens, the PR will not be merged.
+
 ## 🤝 Contributing
 
 Follow the link to contribute to Free-Hit - [CONTRIBUTING.md](./CONTRIBUTING.md)
