@@ -8,4 +8,5 @@ export const allFilters = [
   'extensions',
   'ui',
   'tools',
+  'coding'
 ]
