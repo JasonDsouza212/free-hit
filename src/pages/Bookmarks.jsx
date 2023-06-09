@@ -5,9 +5,10 @@ import noresultimg from '../assets/sad-face.png'
 import { useSearchParams, Navigate } from 'react-router-dom'
 import filterProducts from '../utils/filter/filter_products'
 import checkFilter from '../utils/check_filters'
+import { BsFillGridFill, BsListUl } from 'react-icons/bs'
 
 const BookMarks = ({ length }) => {
-  const { bookmarkfilteredProducts, deleteres } =
+  const { bookmarkfilteredProducts, deleteres,gridView, setGridView } =
     useContext(ToolContext);
   const [searchParams] = useSearchParams()
   let filters = searchParams.get('filters') || "all"
@@ -19,15 +20,29 @@ const BookMarks = ({ length }) => {
   return (
     <div className="card_container">
       <Header />
+      <div className="card_view">
+      <BsFillGridFill 
+        onClick={() => setGridView(true)} 
+        size={22} 
+        color={gridView ? "#212121" : "#9E9E9E"}
+      />
+      <BsListUl
+        onClick={() => setGridView(false)}
+        size={28}
+        color={gridView ? "#9E9E9E" : "#212121"}
+      />
+    </div>
       <div className="card-container">
         {currentProjects.length === 0 ? (
           <div className="not-found-wrapper">
             <p className="no-results">Sorry, no BookMarks in sight!</p>
             <img className="not-found-img" src={noresultimg} alt="" />
+            
           </div>
         ) : (
           <>
             {bookmarkfilteredProducts.length > 0 ? (
+            gridView ?(
               <main className="grid">
                 {currentProjects.map((product) => (
                   <article>
@@ -48,7 +63,7 @@ const BookMarks = ({ length }) => {
                           </a>
                         </button>
                         <button onClick={() => deleteres(product)}>
-                          <a href="#">
+                          <a>
                             Delete <i className="ri-bookmark-fill"></i>
                           </a>
                         </button>
@@ -56,7 +71,37 @@ const BookMarks = ({ length }) => {
                     </div>
                   </article>
                 ))}
-              </main>
+              </main> ) : (
+                  <main className="list">
+                  {currentProjects.map((product) => (
+                    <article>
+                      <div className="text">
+                        <div className="text_top">
+                          <img
+                            className="card-img"
+                            src={product.image}
+                            alt=""
+                          />
+                          <h3 className="card-title">{product.productName}</h3>
+                        </div>
+                        <p>{product.description}</p>
+                        <div className="btn-cont">
+                          <button>
+                            <a target="_blank" href={product.link}>
+                              Visit
+                            </a>
+                          </button>
+                          <button onClick={() => deleteres(product)}>
+                            <a>
+                              Delete <i className="ri-bookmark-fill"></i>
+                            </a>
+                          </button>
+                        </div>
+                      </div>
+                    </article>
+                  ))}
+                </main> )
+              
             ) : (
               <p className="no-results">
                 There are no bookmarks
