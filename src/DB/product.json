@@ -1,5 +1,12 @@
 [
   {
+    "productName": "replit.com",
+    "category": "tools",
+    "image": "https://blog.replit.com/images/logo.svg",
+    "link": "https://replit.com",
+    "description": " Replit being Software as a service allows users to create online projects and write code"
+},
+  {
     "productName": "Freepik",
     "category": "tools",
     "image": "https://tinyurl.com/bdfw6dyv",
