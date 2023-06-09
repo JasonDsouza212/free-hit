@@ -116,6 +116,7 @@ nav {
   border-bottom: 1px solid #222;
 }
 
+
 .pages-sidebar {
   list-style: none;
   display: flex;
@@ -153,8 +154,8 @@ nav {
 }
 .list-item{
   color: #ffffff;
-  font-size: 1.2rem;
-  font-weight: bold;
+  font-size: 23px;
+  font-weight: 500; 
 }
 
 

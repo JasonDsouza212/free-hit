@@ -1,11 +1,16 @@
+:root {
+    --primary-white: #f1f1ef;
+    --primary-black: #373530;
+  }  
+
 .loader-container {
     width: 100%;
-    height: 80vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     position: fixed;
-    background: white;
+    background: var(--primary-white);
     z-index: 1;
 }
 
@@ -13,7 +18,7 @@
     width: 64px;
     height: 64px;
     border: 8px solid;
-    border-color: black transparent black transparent;
+    border-color: #373530 transparent #373530 transparent;
     border-radius: 50%;
     animation: spin-anim 1.2s linear infinite;
 }

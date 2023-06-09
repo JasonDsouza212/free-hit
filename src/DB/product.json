@@ -847,11 +847,11 @@
     "description": "This plugin allows you to send cross-domain requests."
   },
   {
-    "productName": "LeetHub",
+    "productName": "LeetSync",
     "category": "extensions",
-    "image": "https://bit.ly/3lv6L0h",
-    "link": "https://chrome.google.com/webstore/detail/leethub/aciombdipochlnkbpcbgdpjffcfdbggi?hl=en",
-    "description": "Integrate leetcode submission to GitHub"
+     "image": "https://bit.ly/43lwVDw",
+    "link": "https://chrome.google.com/webstore/detail/leetsync-leetcode-to-gith/ppkbejeolfcbaomanmbpjdbkfcjfhjnd",
+    "description": "Integrate Leetcode submission to GitHub"
   },
   {
     "productName": "Grammarly",
