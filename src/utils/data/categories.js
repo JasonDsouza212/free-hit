@@ -59,12 +59,6 @@ const ButtonLinks = [
     category: 'tools',
     icon: 'ri-tools-fill',
   },
- {
-    id: 11,
-    name: 'Coding Platforms',
-    category: 'coding',
-    icon: 'ri-tools-fill',
-  }
 ]
 
 export default ButtonLinks
