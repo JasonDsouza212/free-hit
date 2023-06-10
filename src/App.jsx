@@ -9,6 +9,7 @@ import BackToTopButton from './components/BackToTop'
 import NotFound from './pages/NotFound'
 import Community from './pages/Community'
 import searchProducts from './utils/search/search_products'
+import Preloader from './components/Preloader'
 
 const ToolContext = createContext()
 const LOCAL_STORAGE_KEY = 'freehit.bookmarks'
@@ -101,6 +102,7 @@ function App() {
 
   return (
     <>
+    <Preloader/>
       <ToolContext.Provider value={toolContextValue}>
         <Routes>
           <Route path="/" element={<Card length={filteredProducts.length} />} />
