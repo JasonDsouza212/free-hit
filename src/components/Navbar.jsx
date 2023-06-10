@@ -133,7 +133,7 @@ const Header = () => {
         </div>
         <h1 className="Free-Hit">
           <NavLink to="/about">
-            <img className="free-logo" src={freehitlogo} alt="" />
+            <img className="free-logo" src={freehitlogo} alt="logo" />
           </NavLink>
           <NavLink className="free-word" to="/about">
             Free-Hit
