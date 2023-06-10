@@ -32,7 +32,7 @@ const ListView = ({filters}) => {
           >
             <AccordionButton>
               <Box padding={1} py={'3px'} flex="1" className="image">
-                <img className="card-img" src={product.image} alt="" />
+                <img className="card-img" src={product.image} alt="product" />
                 <div className="accordion_btn">
                   <h3 className="card-title">{product.productName}</h3>
                   <div className="btn-cont">

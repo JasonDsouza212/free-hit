@@ -15,7 +15,7 @@ const GridView = ({ filters }) => {
       {filterProducts(filteredProducts, filters).map((product, index) => (
         <article key={index}>
           <div className="text_top">
-            <img className="card-img" src={product.image} alt="" />
+            <img className="card-img" src={product.image} alt="card" />
             <h3 className="card-title">{product.productName}</h3>
           </div>
           <p>{product.description}</p>
