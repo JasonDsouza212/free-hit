@@ -9,7 +9,7 @@ const Footer = () => {
     <footer>
       <div className="footer-content">
         <h3>
-          <img className="free-logo-footer" src={freehitlogo} alt="-" />
+          <img className="free-logo-footer" src={freehitlogo} alt="logo" />
           <b>FREE-HIT</b>
         </h3>
         <p>
