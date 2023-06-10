@@ -1,11 +1,5 @@
 [
-  {
-    "productName": "replit.com",
-    "category": "tools",
-    "image": "https://blog.replit.com/images/logo.svg",
-    "link": "https://replit.com",
-    "description": " Replit being Software as a service allows users to create online projects and write code"
-},
+  
   {
     "productName": "Freepik",
     "category": "tools",
@@ -1575,13 +1569,7 @@
   "link": "https://mui.com/",
   "description": "MUI offers a comprehensive suite of UI tools to help you ship new features faster."
 },
-{
-   "productName": "Cataz",
-   "category": "movies",
-   "image": "https://bit.ly/45EQRTq",
-   "link": "https://cataz.net/",
-   "description": "Best websites to stream your favourite series online"
- },
+
  {
   "productName": "UnLighthouse",
   "category": "tools",
@@ -1589,6 +1577,13 @@
   "description": "Like Lighthouse, but it scans every single page",
   "link": "https://unlighthouse.dev"
  },
+ {
+  "productName": "cataz",
+  "category": "movies",
+  "image": "https://bit.ly/3MGIY7t",
+  "link": "https://cataz.net/",
+  "description": "Best websites to stream your favourite series online"
+},
  {
   "productName": "Regexr",
   "category": "tools",
@@ -1721,6 +1716,13 @@
   "image": "https://bit.ly/3P09nA5",
   "link": "https://novoresume.com/",
   "description": "Online resume builder."
+},
+{
+  "productName": "replit.com",
+  "category": "tools",
+  "image": "https://blog.replit.com/images/logo.svg",
+  "link": "https://replit.com",
+  "description": " Replit being Software as a service allows users to create online projects and write code"
 }
 ]
 
