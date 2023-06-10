@@ -215,11 +215,13 @@
 
 // export default Footer
 
+
 import React,{useState} from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub, faTwitter } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import img from "../images/freehitlogo.webp"
+
 
 const iconStyles = {
     transition: 'transform 0.3s ease',
@@ -304,7 +306,7 @@ const Footer = () => {
       <div className="footer-right">
         <div className="newsletter">
           <div style={{display:"flex",justifyContent:"center"}}>
-          {/* <img src={img} alt="freehitlogo"className='freehitlogo'/> */}
+          <img src={img} alt="freehitlogo" className='freehitlogo'/>
           <h2 style={{fontSize:20,color:"white",paddingLeft:"50px"}}>FREEHIT</h2>
           </div>
           <h3>Subscribe to Our Newsletter</h3>

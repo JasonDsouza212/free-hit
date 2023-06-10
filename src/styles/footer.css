@@ -203,3 +203,38 @@ hr {
   height:50px;
   width:50px;
 }
+
+/* responsive adjustments */
+@media (max-width: 768px) {
+  footer {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-left {
+    margin-left: 0;
+    margin-bottom: 20px;
+  }
+
+  .footer-right {
+    margin-right: 0;
+  }
+
+  .newsletter {
+    margin-bottom: 40px;
+  }
+
+  .newsletter input[type="email"] {
+    width: 80%;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer-column {
+    padding: 20px;
+  }
+
+  .newsletter input[type="email"] {
+    width: 100%;
+  }
+}
