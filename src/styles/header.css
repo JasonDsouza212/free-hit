@@ -155,7 +155,7 @@ nav {
 .list-item{
   color: #ffffff;
   font-size: 23px;
-  font-weight: 500; 
+  font-weight: 500;
 }
 
 
@@ -235,6 +235,7 @@ nav {
   float: right;
   position: relative;
   top: 3px;
+  display: flex;
 }
 
 .container .input {
@@ -279,8 +280,11 @@ nav {
   cursor: pointer;
   right: 0px;
   border-radius: 50%;
+  display: flex;
 }
-
+.btn .fas.fa-search {
+  padding: 10px 0px 0px 0px;
+}
 .search_box .fas {
   position: absolute;
   right: 10px;
@@ -316,7 +320,7 @@ nav {
   margin: 3px;
     text-decoration: none;
     padding: 0px 20px;
-    color: var(--primary-black); 
+    color: var(--primary-black);
     transition: all 0.3s ease-in-out ;
 }
 
@@ -325,14 +329,14 @@ nav {
   color: var(--primary-white);
   background-color: var(--primary-black);
   border-radius: 10px;
-  
+
 }
 .pages li a.active {
   padding: 3px 20px;
   color: var(--primary-white);
   background-color: var(--primary-black);
   border-radius: 10px;
-  
+
 }
 /* nav pages end  */
 
