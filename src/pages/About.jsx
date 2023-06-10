@@ -24,10 +24,10 @@ const About = () => {
               </a>
             </button>
           </p>
-          <img src={banner1} alt="" />
+          <img src={banner1} alt="banner" />
         </div>
         <div className="ab2">
-          <img src={banner2} alt="" />
+          <img src={banner2} alt="banner" />
           <p>
             Great things are never created in isolation. Thanks to our amazing{' '}
             <b>Contributors</b>, we've brought this product to life. And with
