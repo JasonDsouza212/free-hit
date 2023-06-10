@@ -1339,3 +1339,11 @@
   "description": "Free, high quality, open source icon library with over 1,800 icons."
 }
 ]
+
+{
+  productName: "< footer Section >",
+  category: "remote | resume | tweet | ai | ethical | movies | extensions | tools",
+  image: "< Image-Url >",
+  link: "< Link_to_the_website >",
+  description: "< Description of product >"
+},
