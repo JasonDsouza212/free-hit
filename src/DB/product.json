@@ -1400,111 +1400,6 @@
     "description": "Download all latest Movies from here free."
   },
   {
-    "productName": "Piped",
-    "category": "remote",
-    "image": "https://bit.ly/45zisFw",
-    "link": "https://piped.kavin.rocks",
-    "description": "An alternative privacy-friendly YouTube frontend which is efficient by design."
-  },
-  {
-    "productName": "UserTesting",
-    "category": "tools",
-    "image": "https://shorturl.at/bovAS",
-    "link": "https://www.usertesting.com/",
-    "description": "Testing platform where you can get your app tested and take feedback from real user."
-  },
-  {
-    "productName": "Boxicons",
-    "category": "tools",
-    "image": "https://i.ibb.co/tC1BtcR/boxicons-png.jpg",
-    "link": "https://boxicons.com/",
-    "description": "Simple Open Source icons carefully crafted for designers & developers."
-  },
-  {
-    "productName": "Bootstrap Icons",
-    "category": "tools",
-    "image": "https://rb.gy/swae5",
-    "link": "https://icons.getbootstrap.com/",
-    "description": "Free, high quality, open source icon library with over 1,800 icons."
-  },
-  {
-    "productName": "Material UI",
-    "category": "tools",
-    "image": "https://mui.com/static/logo.png",
-    "link": "https://mui.com/",
-    "description": "MUI offers a comprehensive suite of UI tools to help you ship new features faster."
-  },
-  {
-    "productName": "Cataz",
-    "category": "movies",
-    "image": "https://bit.ly/45EQRTq",
-    "link": "https://cataz.net/",
-    "description": "Best websites to stream your favourite series online"
-  },
-  {
-    "productName": "UnLighthouse",
-    "category": "tools",
-    "image": "https://bit.ly/3MGIY7t",
-    "description": "Like Lighthouse, but it scans every single page",
-    "link": "https://unlighthouse.dev"
-  },
-  {
-    "productName": "Regexr",
-    "category": "tools",
-    "image": "https://bit.ly/3qjRyl9",
-    "description": "Regexr is an online tool to learn, build, & test Regular Expressions.",
-    "link": "https://regexr.com/"
-  },
-  {
-    "productName": "Unblast UI  Templates",
-    "category": "UI",
-    "image": "https://bit.ly/3qlij8V",
-    "link": "https://bit.ly/3C51MZ3",
-    "description": "Unblast is happy to offer you a rich collection of amazing UI templates."
-  },
-  {
-    "productName": "UI Design Daily",
-    "category": "UI",
-    "image": "https://bit.ly/3WOEP6c",
-    "link": "https://bit.ly/45F3IVF",
-    "description": "UI Design Daily to be able to share these designs with anybody who is interested in using them."
-  },
-  {
-    "productName": "Previewed Mockups",
-    "category": "UI",
-    "image": "https://bit.ly/3qoFyP5",
-    "link": "https://bit.ly/42iAj0C",
-    "description": "UI Design Mockups Available 2d & 3D"
-  },
-  {
-    "productName": "UI : Muzli Collections",
-    "category": "UI",
-    "image": "https://bit.ly/42h8JRq",
-    "link": "https://bit.ly/3IOltZ2",
-    "description": "Profile Page screen design inspiration"
-  },
-  {
-    "productName": "Dashboard UI Kit 3.0",
-    "category": "UI",
-    "image": "https://bit.ly/3N2secf",
-    "link": "https://bit.ly/3N4lGK9",
-    "description": "The first and largest design kit for web apps and dashboards developed in React."
-  },
-  {
-    "productName": "UI Kit : figma, XD, etc",
-    "category": "UI",
-    "image": "https://bit.ly/45COMri",
-    "link": "https://bit.ly/45BOgd8",
-    "description": "UI Kits avaiable in various format like figma, Xd, PSD, AI etc."
-  },
-  {
-    "productName": "3D Icons",
-    "category": "UI",
-    "image": "https://bit.ly/43yR9th",
-    "link": "https://bit.ly/43dBe3H",
-    "description": "3D icons & 3D characters in high 4K resolution"
-  },
-  {
     "productName": "6.5 M+ Design Assets",
     "category": "UI",
     "image": "https://bit.ly/3C47pH3",
@@ -1525,41 +1420,7 @@
     "link": "https://fireflies.ai/",
     "description": "Helps your team record, transcribe, search, and analyze voice conversations."
   },
-  {
-    "productName": "resume.io",
-    "category": "resume",
-    "image": "https://tinyurl.com/2s48hfyh",
-    "link": "https://resume.io/",
-    "description": "Beautiful ready-to-use resume templates"
-  },
-  {
-    "productName": "Canva",
-    "category": "resume",
-    "image": "https://tinyurl.com/2mxee67k",
-    "link": "https://www.canva.com/create/resumes/",
-    "description": "With Canva free resume builder, applying for your dream job is easy and fast."
-  },
-  {
-    "productName": "Quill Bot",
-    "category": "ai",
-    "image": "https://tinyurl.com/5n6zfp2y",
-    "link": "https://quillbot.com/",
-    "description": "AI-powered paraphrasing tool that enhances your writing"
-  },
-  {
-    "productName": "Zarla",
-    "category": "tools",
-    "image": "https://bit.ly/42Cp1ot",
-    "link": "https://www.zarla.com/",
-    "description": "Zarla Makes Logo Design Fun, Free, and Easy for Every Type of Business or Brand"
-  },
-  {
-    "productName": "Zety",
-    "category": "resume",
-    "image": "https://bit.ly/3CbQwdG",
-    "link": "https://zety.com/resume-builder",
-    "description": "Zety Online Resume Builder,Create a Professional Resume for Free"
-  },
+
   {
     "productName": "Animoto",
     "category": "AI",
@@ -1594,7 +1455,7 @@
     "image":"https://bit.ly/45zisFw",
     "link":"https://piped.kavin.rocks",
     "description":"An alternative privacy-friendly YouTube frontend which is efficient by design."
-  
+
 },
 {
   "productName": "UserTesting",
@@ -1694,13 +1555,7 @@
   "link": "https://bit.ly/43dBe3H",
   "description": "3D icons & 3D characters in high 4K resolution"
 },
-{
-  "productName": "6.5 M+ Design Assets",
-  "category": "UI",
-  "image": "https://bit.ly/3C47pH3",
-  "link": "https://bit.ly/3P5Hman",
-  "description": "Curated SVGs, Vector Icons, Illustrations, 3D Graphics, and Lottie Animations."
-},
+
 {
   "productName": "Design Junction ",
   "category": "UI",
@@ -1757,13 +1612,7 @@
   "link": "https://zety.com/resume-builder",
   "description": "Zety Online Resume Builder,Create a Professional Resume for Free"
 },
-  {
-  "productName": "Animoto",
-  "category": "AI",
-  "image": "https://bit.ly/3WSfus6",
-  "link": "https://animoto.com/",
-  "description": "Create videos that engage and impress. Animoto's drag-and-drop editing tools and visual effects make it easy. No training or experience necessary"
-},
+
 {
   "productName": "Novoresume",
   "category": "resume",
