@@ -23,7 +23,7 @@ const BookMarks = ({ length }) => {
         {currentProjects.length === 0 ? (
           <div className="not-found-wrapper">
             <p className="no-results">Sorry, no BookMarks in sight!</p>
-            <img className="not-found-img" src={noresultimg} alt="" />
+            <img className="not-found-img" src={noresultimg} alt="no bookmarks" />
           </div>
         ) : (
           <>
@@ -36,7 +36,7 @@ const BookMarks = ({ length }) => {
                         <img
                           className="card-img"
                           src={product.image}
-                          alt=""
+                          alt="product"
                         />
                         <h3 className="card-title">{product.productName}</h3>
                       </div>
