@@ -98,3 +98,10 @@ footer {
   color: var(--primary-white);
   font-size: 20px;
 }
+
+/* Responsivenss */
+@media only screen and (max-width:458px) {
+  .footer-bottom p{
+  padding: 0px 20px;
+  }
+}

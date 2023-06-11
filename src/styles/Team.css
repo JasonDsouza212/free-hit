@@ -144,11 +144,11 @@ body {
 
 @media (max-width: 600px) {
   .team {
-    margin-top: -120px;
     padding: 0 2%;
   }
   .center h1 {
-    font-size: 1.6rem;
+    font-size: 1.2rem;
+    text-align: center;
   }
 }
 

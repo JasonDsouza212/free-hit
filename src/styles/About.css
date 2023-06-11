@@ -20,42 +20,41 @@ body {
 }
 
 .about {
-  display: grid;
+  display: flex;
   justify-content: center;
-  margin: 100px 100px;
-  padding-left: 150px;
-  padding-right: 150px;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
 }
 
 .about .ab1 {
   display: flex;
-  margin-bottom: 40px;
+  justify-content: space-evenly;
+  height: 620px;
 }
 
 .about .ab1 p {
-  margin-right: 100px;
   font-size: 32px;
   font-weight: 550;
   position: relative;
   line-height: 33px;
-  top: 30%;
+  padding-top: 80px;
+  padding-right: 40px;
   font-family: 'Josefin Slab', serif;
 }
 
 .about .ab2 {
   display: flex;
-
-  margin-bottom: 100px;
+  padding-bottom: 120px;
 }
 
 .about .ab2 p {
-  margin-left: 100px;
   font-size: 32px;
   font-weight: 550;
   position: relative;
-  top: 10%;
   line-height: 33px;
   font-family: 'Josefin Slab', serif;
+  padding-left: 80px;
 }
 
 .about p button {
@@ -93,3 +92,107 @@ body {
 }
 
 /* about end */
+
+
+/* Responsivness */
+
+@media only screen and (min-width:1555px){
+  .about{
+    padding-left: 80px;
+  }
+}
+@media only screen and (max-width:839px){
+  .about {
+    gap: 10rem;
+  }
+  .about .ab1 {
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+  }
+  .about .ab2 {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 120px;
+  }
+ 
+    .about .ab2 p {
+      font-size: 32px;
+      font-weight: 550;
+      position: relative;
+      line-height: 33px;
+      font-family: 'Josefin Slab', serif;
+      padding-left: 0px;
+  }
+}
+@media only screen and (max-width:491px){
+   .about img{
+    width: 450px;
+   }
+}
+
+@media only screen and (max-width:458px){
+  .about .ab1 {
+    padding-top: 200px;
+  }
+  .about p button {
+    padding: 9px 20px;
+  }
+}
+@media only screen and (max-width:428px){
+  .about {
+    gap: 15rem;
+  }
+  .about .ab1 {
+    padding-top: 290px;
+  }
+  .about p button {
+    padding: 9px 20px;
+  }
+}
+@media only screen and (max-width:420px){
+  .about p button {
+    padding: 3px 19px;
+  }
+}
+@media only screen and (max-width:418px){
+  .about p button {
+    padding: 3px 14px;
+  }
+}
+@media only screen and (max-width:408px){
+  .about p button {
+    padding: 3px 10px;
+  }
+}
+@media only screen and (max-width:400px){
+  .about {
+    gap: 19rem;
+  }
+  .about .ab1 {
+    padding-top: 340px;
+  }
+  .about p button {
+    padding: 3px 8px;
+  }
+}
+
+@media only screen and (max-width:396px){
+  .about {
+    gap: 20rem;
+  }
+  .about .ab1 {
+    padding-top: 370px;
+  }
+  .about p button {
+    padding: 3px 4px;
+  }
+}
+@media only screen and (max-width:388px){
+  .about p button {
+    padding: 0px 3px;
+  }
+}
+

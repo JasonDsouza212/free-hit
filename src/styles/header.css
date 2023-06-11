@@ -399,3 +399,12 @@ nav {
 .about-list{
   padding-left: 12px;
 }
+
+/* Responsivness */
+
+@media only screen and (max-width:430px) {
+  .free-logo{
+    top: 0;
+    left:8px;
+  }
+}
