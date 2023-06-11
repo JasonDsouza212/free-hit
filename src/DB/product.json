@@ -1794,12 +1794,18 @@
   "description": "Discover and customize free, open-source CSS and HTML UI elements, through this tool"
 },
 {
+  "productName": "Google Fonts",
+  "category": "tools",
+  "image": "https://tinyurl.com/554n6ry6",
+  "link": "https://fonts.google.com/",
+  "description": "Free and open source font families."
+},
+{
   "productName": "StackBlitz",
   "category": "Online Code Editor",
   "image": "https://avatars.githubusercontent.com/u/28635252?s=200&v=4",
   "link": "https://stackblitz.com/",
   "description": "Instant dev experiences: Click, code, no local setup required."
 }
-
 ]
 
