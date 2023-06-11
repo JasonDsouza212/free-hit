@@ -1,5 +1,19 @@
 [
   {
+    "productName": "Magic Eraser",
+    "category": "tools",
+    "image": "https://bit.ly/3qCeSLa",
+    "link": "https://magicstudio.com/magiceraser",
+    "description": "Powerful graphics designing tool which allows designers to remove unwanted elements in an image without messing with remaining part of the image."
+  },
+  {
+    "productName": "Overleaf",
+    "category": "resume",
+    "image": "https://bit.ly/3P16OO5",
+    "link": "https://bit.ly/42xjijx",
+    "description": "Produce beautiful documents starting from gallery of LaTeX templates for CVs."
+  },
+  {
     "productName": "Freepik",
     "category": "tools",
     "image": "https://tinyurl.com/bdfw6dyv",
@@ -16,8 +30,8 @@
   {
     "productName": "Cuvette",
     "category": "remote",
-    "image": "https://bit.ly/3MIvfgn",
-    "link": "https://bit.ly/42dFNKk",
+    "image": "https://bit.ly/3Nl5t3o",
+    "link": "https://bit.ly/3oXcaPL",
     "description": "The #1 way college students & early graduates get Internships & Jobs"
   },
    {
@@ -581,7 +595,7 @@
     "description": "Online tool for generating device mockups for website and app design."
   },
   {
-    "productName": "Collors",
+    "productName": "Coolors",
     "category": "web",
     "image": "https://bit.ly/3kq0zq4",
     "link": "https://coolors.co/",
@@ -1760,7 +1774,7 @@
   {
   "productName": "Animoto",
   "category": "AI",
-  "image": "https://bit.ly/3WSfus6",
+  "image": "https://bit.ly/3qx4WlT",
   "link": "https://animoto.com/",
   "description": "Create videos that engage and impress. Animoto's drag-and-drop editing tools and visual effects make it easy. No training or experience necessary"
 },
@@ -1777,6 +1791,34 @@
   "image": "https://bit.ly/3Nji330",
   "link": "https://gencraft.com/",
   "description": "Watch your prompts turn into beautiful designs, images, and artworks."
+},
+{
+  "productName": "WatchSeriesHD",
+  "category": "movies",
+  "image": "https://rb.gy/xxgtv",
+  "link": "https://watchserieshd.live/",
+  "description": "Stream movies and series in HD quality for free"
+},
+{
+  "productName": "Uiverse.io",
+  "category": "UI",
+  "image": "http://bit.ly/3X19kpw",
+  "link": "https://uiverse.io/",
+  "description": "Discover and customize free, open-source CSS and HTML UI elements, through this tool"
+},
+{
+  "productName": "Google Fonts",
+  "category": "tools",
+  "image": "https://tinyurl.com/554n6ry6",
+  "link": "https://fonts.google.com/",
+  "description": "Free and open source font families."
+},
+{
+  "productName": "StackBlitz",
+  "category": "Online Code Editor",
+  "image": "https://avatars.githubusercontent.com/u/28635252?s=200&v=4",
+  "link": "https://stackblitz.com/",
+  "description": "Instant dev experiences: Click, code, no local setup required."
 }
 ]
 
