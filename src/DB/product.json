@@ -1,5 +1,12 @@
 [
   {
+    "productName": "Overleaf",
+    "category": "resume",
+    "image": "https://bit.ly/3P16OO5",
+    "link": "https://bit.ly/42xjijx",
+    "description": "Produce beautiful documents starting from gallery of LaTeX templates for CVs."
+  },
+  {
     "productName": "Freepik",
     "category": "tools",
     "image": "https://tinyurl.com/bdfw6dyv",
@@ -16,8 +23,8 @@
   {
     "productName": "Cuvette",
     "category": "remote",
-    "image": "https://bit.ly/3MIvfgn",
-    "link": "https://bit.ly/42dFNKk",
+    "image": "https://bit.ly/3Nl5t3o",
+    "link": "https://bit.ly/3oXcaPL",
     "description": "The #1 way college students & early graduates get Internships & Jobs"
   },
    {
