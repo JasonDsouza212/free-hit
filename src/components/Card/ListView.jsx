@@ -32,7 +32,7 @@ const ListView = ({filters}) => {
           >
             <AccordionButton>
               <Box padding={1} py={'3px'} flex="1" className="image">
-                <img className="card-img" src={product.image} alt="" />
+                <img className="card-img" src={product.image} alt="product" />
                 <div className="accordion_btn">
                   <h3 className="card-title">{product.productName}</h3>
                   <div className="btn-cont">
@@ -46,7 +46,7 @@ const ListView = ({filters}) => {
                     {bookmarkfilteredProducts.some(
                       (obj) => obj['productName'] === product.productName
                     ) ? (
-                      <button onClick={() => deleteres(product)}>
+                      <button onClick={(event) =>{event.stopPropagation();  deleteres(product)}}>
                         <a >
                           Delete<i className="ri-bookmark-fill"></i>
                         </a>
@@ -55,7 +55,7 @@ const ListView = ({filters}) => {
                       <a >
                         <button
                           className="bookmark"
-                          onClick={() => handelBookmarkAdd(product)}
+                          onClick={(event) => { event.stopPropagation(); handelBookmarkAdd(product)}}
                         >
                           <font color="white" size="3">
                             Bookmark

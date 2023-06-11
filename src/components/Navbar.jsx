@@ -82,18 +82,18 @@ const Header = () => {
           </label>
           {location.pathname === '/about' ? (
             <nav id="sidebar">
-              <ul className="list-items">
-                <li>
+              <ul className="list-items list-item">
+                <li className='about-list'>
                   <NavLink to="/">
                     <i className="ri-home-4-fill"></i> Home
                   </NavLink>
                 </li>
-                <li>
+                <li className='about-list'>
                   <NavLink to="/bookmarks">
                     <i className="ri-bookmark-fill"></i> Bookmarks
                   </NavLink>
                 </li>
-                <li>
+                <li className='about-list'>
                   <TwitterButton message={msg} />
                 </li>
               </ul>
@@ -133,7 +133,7 @@ const Header = () => {
         </div>
         <h1 className="Free-Hit">
           <NavLink to="/about">
-            <img className="free-logo" src={freehitlogo} alt="" />
+            <img className="free-logo" src={freehitlogo} alt="logo" />
           </NavLink>
           <NavLink className="free-word" to="/about">
             Free-Hit
