@@ -51,7 +51,7 @@ const Card = ({ length }) => {
               <p className="no-results">
                 Sorry, our toolbox seems empty for this search term!
               </p>
-              <img class="not-found-img" src={noresultimg} alt="" />
+              <img class="not-found-img" src={noresultimg} alt="not found" />
             </div>
           ) : gridView ? (
             <GridView filters={filters} />
