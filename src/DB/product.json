@@ -1,5 +1,19 @@
 [
   {
+    "productName": "Magic Eraser",
+    "category": "tools",
+    "image": "https://bit.ly/3qCeSLa",
+    "link": "https://magicstudio.com/magiceraser",
+    "description": "Powerful graphics designing tool which allows designers to remove unwanted elements in an image without messing with remaining part of the image."
+  },
+  {
+    "productName": "Overleaf",
+    "category": "resume",
+    "image": "https://bit.ly/3P16OO5",
+    "link": "https://bit.ly/42xjijx",
+    "description": "Produce beautiful documents starting from gallery of LaTeX templates for CVs."
+  },
+  {
     "productName": "Freepik",
     "category": "tools",
     "image": "https://tinyurl.com/bdfw6dyv",
@@ -16,8 +30,8 @@
   {
     "productName": "Cuvette",
     "category": "remote",
-    "image": "https://bit.ly/3MIvfgn",
-    "link": "https://bit.ly/42dFNKk",
+    "image": "https://bit.ly/3Nl5t3o",
+    "link": "https://bit.ly/3oXcaPL",
     "description": "The #1 way college students & early graduates get Internships & Jobs"
   },
    {
@@ -581,7 +595,7 @@
     "description": "Online tool for generating device mockups for website and app design."
   },
   {
-    "productName": "Collors",
+    "productName": "Coolors",
     "category": "web",
     "image": "https://bit.ly/3kq0zq4",
     "link": "https://coolors.co/",
@@ -1612,7 +1626,13 @@
   "link": "https://zety.com/resume-builder",
   "description": "Zety Online Resume Builder,Create a Professional Resume for Free"
 },
-
+{
+  "productName": "Animoto",
+  "category": "AI",
+  "image": "https://bit.ly/3qx4WlT",
+  "link": "https://animoto.com/",
+  "description": "Create videos that engage and impress. Animoto's drag-and-drop editing tools and visual effects make it easy. No training or experience necessary"
+},
 {
   "productName": "Novoresume",
   "category": "resume",
@@ -1621,11 +1641,110 @@
   "description": "Online resume builder."
 },
 {
+
+  "productName": "WatchSeriesHD",
+  "category": "movies",
+  "image": "https://rb.gy/xxgtv",
+  "link": "https://watchserieshd.live/",
+  "description": "Stream movies and series in HD quality for free"
+},
+{
   "productName": "Uiverse.io",
   "category": "UI",
   "image": "http://bit.ly/3X19kpw",
   "link": "https://uiverse.io/",
   "description": "Discover and customize free, open-source CSS and HTML UI elements, through this tool"
+},
+{
+  "productName": "Leetcode",
+  "category": "coding",
+  "image": "https://leetcode.com/static/images/LeetCode_logo.png",
+  "link": "https://leetcode.com/",
+  "description": "A platform for practicing coding skills and preparing for technical interviews."
+},
+{
+  "productName": "Atcoder",
+  "category": "coding",
+  "image": "http://morningpitch.com/wp-content/uploads/2020/10/download.png",
+  "link": " https://atcoder.jp/",
+  "description": "One of the best platforms for Cp, it was created in Japan"
+},
+{
+  "productName": "Codeforces",
+  "category": "coding",
+  "image": "https://tinyurl.com/3fjue7y6",
+  "link": " https://codeforces.com/",
+  "description": "A competitive programming platform with challenging contests and an active community."
+},
+{
+  "productName": "Codechef",
+  "category": "coding",
+  "image": "https://tinyurl.com/5cx6fp35",
+  "link": "https://www.codechef.com/",
+  "description": "An online community for programmers to improve their skills through contests and challenges."
+},
+{
+  "productName": "SPOJ",
+  "category": "coding",
+  "image": "https://tinyurl.com/yndmds67",
+  "link": "https://www.spoj.com/",
+  "description": "An online judge system with a large collection of programming problems for practice and contests."
+},
+{
+  "productName": "Hackerrank",
+  "category": "coding",
+  "image": "https://tinyurl.com/247ewu64",
+  "link": "https://www.hackerrank.com/",
+  "description": "A coding platform with challenges, contests, and interview preparation resources."
+},
+{
+  "productName": "Hackerearth",
+  "category": "coding",
+  "image": "https://tinyurl.com/4rzch6cp",
+  "link": "https://www.hackerearth.com/",
+  "description": "A platform for skill assessment, coding competitions, and hiring developers."
+},
+{
+  "productName": "CSES",
+  "category": "coding",
+  "image": "https://cses.fi/logo.png?1",
+  "link": "https://cses.fi/",
+  "description": "Competitive Programming Archive featuring a wide range of algorithmic problems."
+},
+{
+  "productName": "Project Euler",
+  "category": "coding",
+  "image": "https://tinyurl.com/4kznjfju",
+  "link": " https://projecteuler.net/",
+  "description": "A collection of challenging mathematical and computational problems."
+},
+{
+  "productName": "Topcoder",
+  "category": "coding",
+  "image": "https://tinyurl.com/y66jd8mt",
+  "link": "https://www.topcoder.com/",
+  "description": "A platform for competitive programming and software development challenges."
+},
+{
+  "productName": "GeeksForGeeks",
+  "category": "coding",
+  "image": "https://t.ly/vKJ8",
+  "link": "https://www.geeksforgeeks.org/",
+  "description": " A portal for computer science resources, tutorials, and coding practice."
+},
+{
+  "productName": "Google Fonts",
+  "category": "tools",
+  "image": "https://tinyurl.com/554n6ry6",
+  "link": "https://fonts.google.com/",
+  "description": "Free and open source font families."
+},
+{
+  "productName": "StackBlitz",
+  "category": "Online Code Editor",
+  "image": "https://avatars.githubusercontent.com/u/28635252?s=200&v=4",
+  "link": "https://stackblitz.com/",
+  "description": "Instant dev experiences: Click, code, no local setup required."
 }
 ]
 
