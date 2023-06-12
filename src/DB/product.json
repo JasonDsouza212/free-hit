@@ -1611,7 +1611,13 @@
   "description": "Online resume builder."
 },
 {
-
+  "productName": "Gencraft",
+  "category": "AI",
+  "image": "https://bit.ly/3Nji330",
+  "link": "https://gencraft.com/",
+  "description": "Watch your prompts turn into beautiful designs, images, and artworks."
+},
+{
   "productName": "WatchSeriesHD",
   "category": "movies",
   "image": "https://rb.gy/xxgtv",
