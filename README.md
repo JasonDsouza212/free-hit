@@ -131,7 +131,6 @@ Before installation, you need to have installed/knowledge of the following:
 - The PR should always be attached to the issue it solves (**For example: fixes #32**).
 - If you make any changes other than what the issue suggests, the PR will not be merged, even if it only involves removing indentations, colons, or semicolons.
 - Each PR should only resolve one issue.
-- When adding a tool to the database, make sure to add it at the end. If it is added in the middle or at the beginning, the PR will not be merged.
 - Do not modify the indentation or brackets in the Database file. If this happens, the PR will not be merged.
 
 ## 🤝 Contributing
