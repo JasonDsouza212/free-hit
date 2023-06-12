@@ -2,6 +2,7 @@ import { useContext } from 'react'
 import { ToolContext } from '../../App'
 import filterProducts from '../../utils/filter/filter_products'
 
+
 const GridView = ({ filters }) => {
   const {
     filteredProducts,
@@ -15,7 +16,18 @@ const GridView = ({ filters }) => {
       {filterProducts(filteredProducts, filters).map((product, index) => (
         <article key={index}>
           <div className="text_top">
-            <img className="card-img" src={product.image} alt="card" />
+            {product.image ? (
+                        <img
+                        className="card-img"
+                        src={product.image}
+                        alt=""
+                        onError={(e) => {
+                          e.target.src = "https://i.ibb.co/9H0s34n/default-img.jpg";
+                        }}
+                      />
+            ) : (
+              <img className="card-img" src="https://i.ibb.co/9H0s34n/default-img.jpg" alt="Default" />
+            )}
             <h3 className="card-title">{product.productName}</h3>
           </div>
           <p>{product.description}</p>
@@ -31,12 +43,12 @@ const GridView = ({ filters }) => {
               (obj) => obj['productName'] === product.productName
             ) ? (
               <button onClick={() => deleteres(product)}>
-                <a >
+                <a>
                   Delete<i className="ri-bookmark-fill"></i>
                 </a>
               </button>
             ) : (
-              <a >
+              <a>
                 <button
                   className="bookmark"
                   onClick={() => handelBookmarkAdd(product)}
@@ -51,7 +63,8 @@ const GridView = ({ filters }) => {
         </article>
       ))}
     </main>
-  )
-}
+  );
+  
+}  
 
 export default GridView
