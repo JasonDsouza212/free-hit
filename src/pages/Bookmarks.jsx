@@ -5,16 +5,23 @@ import noresultimg from '../assets/sad-face.png'
 import { useSearchParams, Navigate } from 'react-router-dom'
 import filterProducts from '../utils/filter/filter_products'
 import checkFilter from '../utils/check_filters'
+import searchProducts from '../utils/search/search_products'
 
-const BookMarks = ({ length }) => {
-  const { bookmarkfilteredProducts, deleteres } =
+const BookMarks = () => {
+  const { bookmarks, deleteres } =
     useContext(ToolContext);
+
   const [searchParams] = useSearchParams()
   let filters = searchParams.get('filters') || "all"
   filters = filters.split(",")
+
+  const searchTerm = searchParams.get('q') || '' 
+
   if (checkFilter(filters)) return <Navigate to="/notfound" />
 
-  const currentProjects = filterProducts(bookmarkfilteredProducts, filters)
+  const filteredProducts = filterProducts(bookmarks, filters)
+  const currentProjects = searchProducts(filteredProducts, searchTerm)
+
 
   return (
     <div className="card_container">
@@ -27,7 +34,7 @@ const BookMarks = ({ length }) => {
           </div>
         ) : (
           <>
-            {bookmarkfilteredProducts.length > 0 ? (
+            {filteredProducts.length > 0 ? (
               <main className="grid">
                 {currentProjects.map((product) => (
                   <article>

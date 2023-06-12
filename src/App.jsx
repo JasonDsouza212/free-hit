@@ -8,30 +8,15 @@ import BookMarks from './pages/Bookmarks'
 import BackToTopButton from './components/BackToTop'
 import NotFound from './pages/NotFound'
 import Community from './pages/Community'
-import searchProducts from './utils/search/search_products'
 
 const ToolContext = createContext()
 const LOCAL_STORAGE_KEY = 'freehit.bookmarks'
 
 function App() {
-  const [searchTerm, setSearchTerm] = useState('')
   const [gridView, setGridView] = useState(true)
-
-  // all products
-  const [productNames, setProductNames] = useState(
-    products?.map((product) => product.productName) || []
-  )
-  const [filteredSuggestions, setFilteredSuggestions] = useState([])
 
   // all Bookmarks
   const [bookmarks, setBookmarks] = useState([])
-
-  // for menu bar close and open
-  const [isMenuActive, setIsMenuActive] = useState(true)
-
-  const [boomarkNames, setBookmarkNames] = useState(
-    bookmarks?.map((bookmark) => bookmark.productName) || []
-  )
 
   // initial Storage
   useEffect(() => {
@@ -56,28 +41,6 @@ function App() {
     setBookmarks([...bookmarks, newBookmark])
   }
 
-  // Search filter methods
-  useEffect(() => {
-    // Checks if the search term have a word
-    if (searchTerm.length > 1) {
-      // This filters out the names that starts with the given search term.
-      const filterNames = productNames.filter((productName) =>
-        productName.toLowerCase().startsWith(searchTerm.toLowerCase())
-      )
-
-      // the array containing the filtered words gets sorted.
-      const sortedProductNames = filterNames.sort()
-      setFilteredSuggestions(sortedProductNames)
-    } else {
-      setFilteredSuggestions([])
-    }
-  }, [searchTerm, productNames, boomarkNames])
-
-  // filtering methods
-  const filteredProducts = searchProducts(products, searchTerm);
-
-  const bookmarkfilteredProducts = searchProducts(bookmarks, searchTerm)
-
   // Remove Bookmark
   function deleteres(product) {
     setBookmarks(
@@ -87,14 +50,9 @@ function App() {
 
   // values to pass to context hook s
   const toolContextValue = {
-    filteredProducts,
-    searchTerm,
-    setSearchTerm,
     handelBookmarkAdd,
     bookmarks,
     deleteres,
-    filteredSuggestions,
-    bookmarkfilteredProducts,
     gridView,
     setGridView,
   }
@@ -104,11 +62,11 @@ function App() {
      <div className="app">
      <ToolContext.Provider value={toolContextValue}>
         <Routes>
-          <Route path="/" element={<Card length={filteredProducts.length} />} />
+          <Route path="/" element={<Card />} />
           <Route path="/about" element={<About />} />
           <Route
             path="/bookmarks"
-            element={<BookMarks length={bookmarkfilteredProducts.length} />}
+            element={<BookMarks />}
           />
           <Route path="/community" element={<Community />} />
           <Route path="*" element={<NotFound />} />
