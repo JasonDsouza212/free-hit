@@ -101,7 +101,8 @@ function App() {
 
   return (
     <>
-      <ToolContext.Provider value={toolContextValue}>
+     <div className="app">
+     <ToolContext.Provider value={toolContextValue}>
         <Routes>
           <Route path="/" element={<Card length={filteredProducts.length} />} />
           <Route path="/about" element={<About />} />
@@ -115,6 +116,7 @@ function App() {
         <Footer />
         <BackToTopButton />
       </ToolContext.Provider>
+      </div>
     </>
   )
 }

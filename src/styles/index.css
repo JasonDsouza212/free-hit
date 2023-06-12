@@ -11,7 +11,13 @@
   --primary-white: #f1f1ef;
   --primary-black: #373530;
 }
+html{
+  background-color: var(--primary-white);
+}
 
+.app{
+  background-color: var(--primary-white);
+}
 :root {
   --primary-white: #f1f1ef;
   --primary-black: #373530;
