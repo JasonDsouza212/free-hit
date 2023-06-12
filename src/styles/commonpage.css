@@ -3,3 +3,35 @@
     margin:10%;
     color: black;
 }
+
+
+.container {
+    display: flex;
+  }
+  
+  .sidebar {
+    width: 200px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  .content {
+    flex-grow: 1;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  a {
+    color: blue;
+    text-decoration: underline;
+  }
+  
