@@ -1,19 +1,17 @@
 import { useContext } from 'react'
 import { ToolContext } from '../../App'
-import filterProducts from '../../utils/filter/filter_products'
 
-
-const GridView = ({ filters }) => {
+const GridView = ({ currentProducts }) => {
   const {
-    filteredProducts,
     handelBookmarkAdd,
     bookmarkfilteredProducts,
     deleteres,
   } = useContext(ToolContext)
+  
 
   return (
     <main className="grid">
-      {filterProducts(filteredProducts, filters).map((product, index) => (
+      {currentProducts.map((product, index) => (
         <article key={index}>
           <div className="text_top">
             {product.image ? (
@@ -62,6 +60,7 @@ const GridView = ({ filters }) => {
           </div>
         </article>
       ))}
+      
     </main>
   );
   

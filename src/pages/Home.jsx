@@ -9,11 +9,14 @@ import '../styles/Home.css'
 import { useSearchParams, Navigate } from 'react-router-dom'
 import checkFilter from "..//utils/check_filters"
 import Loader from '../components/Loader'
+import Paginate from '../components/Paginate'
+import filterProducts from '../utils/filter/filter_products'
 
 const Card = ({ length }) => {
   const {
     gridView,
     setGridView,
+    filteredProducts
   } = useContext(ToolContext)
 
   const [searchParams,] = useSearchParams()
@@ -29,13 +32,25 @@ const Card = ({ length }) => {
     }, 500)
   }, [])
 
+  const [products] = useState(filterProducts(filteredProducts, filters))
+
+  const [currentPage, setCurrentPage] = useState(1)
+  const [productsPerPage] = useState(16)
+
+  const totalPages = Math.ceil(products.length / productsPerPage)
+
+  const lastProductIndex = currentPage * productsPerPage;
+  const firstProductIndex = lastProductIndex - productsPerPage
+
+  const currentProducts = products.slice(firstProductIndex, lastProductIndex)
+
   return (
     <div className="card_container">
       <Header />
       <div className="card_view">
-        <BsFillGridFill 
-          onClick={() => setGridView(true)} 
-          size={22} 
+        <BsFillGridFill
+          onClick={() => setGridView(true)}
+          size={22}
           color={gridView ? "#212121" : "#9E9E9E"}
         />
         <BsListUl
@@ -54,9 +69,9 @@ const Card = ({ length }) => {
               <img class="not-found-img" src={noresultimg} alt="not found" />
             </div>
           ) : gridView ? (
-            <GridView filters={filters} />
+            <GridView currentProducts={currentProducts} />
           ) : (
-            <ListView filters={filters} />
+            <ListView currentProducts={currentProducts} />
           )
           :
           <div className="loader">
@@ -64,6 +79,7 @@ const Card = ({ length }) => {
           </div>
         }
       </div>
+      <Paginate currentPage={currentPage} totalPages={totalPages} setCurrentPage={setCurrentPage} />
     </div>
   )
 }
