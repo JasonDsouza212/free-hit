@@ -32,7 +32,18 @@ const ListView = ({filters}) => {
           >
             <AccordionButton>
               <Box padding={1} py={'3px'} flex="1" className="image">
-                <img className="card-img" src={product.image} alt="product" />
+                {product.image ? (
+                  <img
+                  className="card-img"
+                  src={product.image}
+                  alt=""
+                  onError={(e) => {
+                    e.target.src = "https://i.ibb.co/9H0s34n/default-img.jpg";
+                  }}
+                        />
+                ) : (
+                  <img className="card-img" src="https://i.ibb.co/9H0s34n/default-img.jpg" alt="Default" />
+                )}
                 <div className="accordion_btn">
                   <h3 className="card-title">{product.productName}</h3>
                   <div className="btn-cont">
