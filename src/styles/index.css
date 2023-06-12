@@ -12,6 +12,9 @@
   --primary-black: #373530;
 }
 
+.app{
+  background-color: var(--primary-white);
+}
 :root {
   --primary-white: #f1f1ef;
   --primary-black: #373530;
