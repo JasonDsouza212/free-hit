@@ -19,6 +19,7 @@ body {
   background-color: var(--primary-white);
 }
 
+
 .card_view {
   width: 95%;
   display: flex;
@@ -165,4 +166,32 @@ img {
   align-items: center;
   width: 100%;
 }
+.dark-mode-toggle {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.dark-mode .card_container {
+  background-color: #4f4c4c;
+  color: var(--text-color);
+}
+
+.dark-mode-icon {
+  font-size: 24px;
+  color: #9E9E9E;
+  transition: color 0.3s ease;
+}
+
+.dark-mode-active {
+  color: #FFF;
+}
+
+.dark-mode {
+  background-color: #4f4c4c;
+  color: #FFF;
+}
+
 /* card end */
