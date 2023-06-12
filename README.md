@@ -79,7 +79,33 @@ You can check out the live project [here](https://free-hit.vercel.app/)
     </td>
   </tr>
 </table>
-
+<h1 align="center">Project Stats</h1>
+<table align="center">
+    <thead align="center">
+        <tr border: 1px;>
+            <td><b>Project </td>
+            <td><b>🌟 Stars</b></td>
+            <td><b>🍴 Forks</b></td>
+            <td><b>🐛 Issues</b></td>
+            <td><b>🔔 Open PRs</b></td>
+            <td><b>🔕 Close PRs</b></td>
+            <td><b>🔨 Commit activity</b></td>
+            <td><b>⭐ Stars</b></td>            
+        </tr>
+     </thead>
+    <tbody>
+         <tr>
+            <td><a href="https://github.com/JasonDsouza212/free-hit">Project</a></td>
+            <td><img alt="Stars" src="https://img.shields.io/github/stars/JasonDsouza212/free-hit?style=flat&logo=github"/></td>
+             <td><img alt="Forks" src="https://img.shields.io/github/forks/JasonDsouza212/free-hit?style=flat&logo=github"/></td>
+            <td><img alt="Issues" src="https://img.shields.io/github/issues/JasonDsouza212/free-hit?style=flat&logo=github"/></td>
+            <td><img alt="Open Pull Requests" src="https://img.shields.io/github/issues-pr/JasonDsouza212/free-hit?style=flat&logo=github"/></td>
+           <td><img alt="Close Pull Requests" src="https://img.shields.io/github/issues-pr-closed/JasonDsouza212/free-hit?style=flat&color=critical&logo=github"/></td>
+           <td><img alt="Commit activity" src="https://img.shields.io/github/commit-activity/m/JasonDsouza212/free-hit"/></td>
+           <td><img alt="Commit activity" src="https://img.shields.io/github/stars/JasonDsouza212/free-hit?style=social"/></td>
+        </tr>
+    </tbody>
+</table>
 <h1 align="center"> For GSSOC'23 Contributors ❤️</h1>
 <ul>
   <li>
@@ -110,6 +136,8 @@ We welcome you to join us!
 - **Free-Hit** is an open-source project, and we are excited to hear your thoughts and ideas.
 - Fork this repository,add your contributions and submit a PR.
 - Found a bug? Accessibility issue? Or do you want to add a new tool to our database? Then go right ahead and create an issue.
+
+
 
 # 🛠️ Tech Stack
 
@@ -143,6 +171,11 @@ Follow the link to contribute to Free-Hit - [CONTRIBUTING.md](./CONTRIBUTING.md)
   <img src="https://contrib.rocks/image?repo=jasondsouza212/free-hit" />
 </a>
 
+  <br>
+  <h4 align="center">
+  <img src="https://forthebadge.com/images/badges/built-with-love.svg" alt="Built with love" /></a><br>
+  By<a href="https://github.com/JasonDsouza212"> Jason Dsouza </a></h4>
+	<br>
 <br>
 <div align="center">
 <h3>Show some ❤️ by starring this awesome repository!</h3>
