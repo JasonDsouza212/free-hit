@@ -113,7 +113,7 @@ width:92%;
 left: 0;
 }
 .card-img:hover{
-transform: scale(1.2);
+transform: scale(1.1);
 box-shadow: 4px 5px 8px rgba(0, 0, 0, 0.447);
 }
 .grid .text {
