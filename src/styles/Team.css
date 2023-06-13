@@ -38,37 +38,37 @@ body {
   margin-bottom: 15px;
 }
 .center h1 {
-  color: rgb(52, 49, 49);
-  font-size: 4rem;
+  color: rgb(17 24 39);
+  font-size: 3rem;
   text-align: center;
   text-transform: uppercase;
 }
 .box {
-  padding: 16px;
-  background: var(--primary-white);
+  padding: 20px;
+  background-color: #f8f8f8;
   border-radius: 15px;
   transition: all 0.38s ease;
-  border: 4px solid rgb(55, 55, 55);
+  border: 4px solid rgb(229 231 235);
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
   cursor: pointer;
 }
-.box h3 {
+.box h4 {
   font-size: 23px;
-  font-weight: 600;
-  color: #12110f;
+  font-weight: 500;
+  color: #2c2923;
   margin-bottom: 8px;
 }
 .box h5 {
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 600;
-  color: black;
+  color: rgb(66, 63, 63);
   margin-bottom: 15px;
   letter-spacing: 2px;
 }
 .icons i {
   display: inline-block;
-  color: black;
-  font-size: 20px;
-  margin: 0 8px;
+  font-size: 25px;
+  margin: 10px 10px;
   transition: all 0.38s ease;
 }
 .icons i:hover {
