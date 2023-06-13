@@ -171,11 +171,6 @@ Follow the link to contribute to Free-Hit - [CONTRIBUTING.md](./CONTRIBUTING.md)
   <img src="https://contrib.rocks/image?repo=jasondsouza212/free-hit" />
 </a>
 
-  <br>
-  <h4 align="center">
-  <img src="https://forthebadge.com/images/badges/built-with-love.svg" alt="Built with love" /></a><br>
-  By<a href="https://github.com/JasonDsouza212"> Jason Dsouza </a></h4>
-	<br>
 <br>
 <div align="center">
 <h3>Show some ❤️ by starring this awesome repository!</h3>
