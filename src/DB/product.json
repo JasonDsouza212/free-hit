@@ -34,7 +34,7 @@
     "link": "https://bit.ly/3oXcaPL",
     "description": "The #1 way college students & early graduates get Internships & Jobs"
   },
-   {
+  {
     "productName": "Reduce Images",
     "category": "tools",
     "image": "https://ibb.co/SmKdz1X",
@@ -478,7 +478,7 @@
   {
     "productName": "CSSPortal",
     "category": "web",
-    "image":"https://www.cssportal.com/assets/images/cssicon.png",
+    "image": "https://www.cssportal.com/assets/images/cssicon.png",
     "link": "https://www.cssportal.com/",
     "description": "CSS Portal is home to many examples of CSS and how it can be used in website design."
   },
@@ -863,7 +863,7 @@
   {
     "productName": "LeetSync",
     "category": "extensions",
-     "image": "https://bit.ly/43lwVDw",
+    "image": "https://bit.ly/43lwVDw",
     "link": "https://chrome.google.com/webstore/detail/leetsync-leetcode-to-gith/ppkbejeolfcbaomanmbpjdbkfcjfhjnd",
     "description": "Integrate Leetcode submission to GitHub"
   },
@@ -1595,132 +1595,158 @@
     "link": "https://www.favicon.cc/",
     "description": "Favicon.cc is a website that offers a simple and user-friendly platform for creating and customizing favicons."
   },
-{
-  "productName": "DALL·E",
-  "category": "ai",
-  "image": "https://bit.ly/3oICzAN",
-  "link": "https://openai.com/dall-e-2",
-  "description": "An AI system that can create realistic images and art from a description in natural language."
-},
-
-{
-  "productName": "Novoresume",
-  "category": "resume",
-  "image": "https://bit.ly/3P09nA5",
-  "link": "https://novoresume.com/",
-  "description": "Online resume builder."
-},
-{
-  "productName": "Gencraft",
-  "category": "AI",
-  "image": "https://bit.ly/3Nji330",
-  "link": "https://gencraft.com/",
-  "description": "Watch your prompts turn into beautiful designs, images, and artworks."
-},
-{
-  "productName": "WatchSeriesHD",
-  "category": "movies",
-  "image": "https://rb.gy/xxgtv",
-  "link": "https://watchserieshd.live/",
-  "description": "Stream movies and series in HD quality for free"
-},
-{
-  "productName": "Uiverse.io",
-  "category": "UI",
-  "image": "http://bit.ly/3X19kpw",
-  "link": "https://uiverse.io/",
-  "description": "Discover and customize free, open-source CSS and HTML UI elements, through this tool"
-},
-{
-  "productName": "Leetcode",
-  "category": "coding",
-  "image": "https://leetcode.com/static/images/LeetCode_logo.png",
-  "link": "https://leetcode.com/",
-  "description": "A platform for practicing coding skills and preparing for technical interviews."
-},
-{
-  "productName": "Atcoder",
-  "category": "coding",
-  "image": "http://morningpitch.com/wp-content/uploads/2020/10/download.png",
-  "link": " https://atcoder.jp/",
-  "description": "One of the best platforms for Cp, it was created in Japan"
-},
-{
-  "productName": "Codeforces",
-  "category": "coding",
-  "image": "https://tinyurl.com/3fjue7y6",
-  "link": " https://codeforces.com/",
-  "description": "A competitive programming platform with challenging contests and an active community."
-},
-{
-  "productName": "Codechef",
-  "category": "coding",
-  "image": "https://tinyurl.com/5cx6fp35",
-  "link": "https://www.codechef.com/",
-  "description": "An online community for programmers to improve their skills through contests and challenges."
-},
-{
-  "productName": "SPOJ",
-  "category": "coding",
-  "image": "https://tinyurl.com/yndmds67",
-  "link": "https://www.spoj.com/",
-  "description": "An online judge system with a large collection of programming problems for practice and contests."
-},
-{
-  "productName": "Hackerrank",
-  "category": "coding",
-  "image": "https://tinyurl.com/247ewu64",
-  "link": "https://www.hackerrank.com/",
-  "description": "A coding platform with challenges, contests, and interview preparation resources."
-},
-{
-  "productName": "Hackerearth",
-  "category": "coding",
-  "image": "https://tinyurl.com/4rzch6cp",
-  "link": "https://www.hackerearth.com/",
-  "description": "A platform for skill assessment, coding competitions, and hiring developers."
-},
-{
-  "productName": "CSES",
-  "category": "coding",
-  "image": "https://cses.fi/logo.png?1",
-  "link": "https://cses.fi/",
-  "description": "Competitive Programming Archive featuring a wide range of algorithmic problems."
-},
-{
-  "productName": "Project Euler",
-  "category": "coding",
-  "image": "https://tinyurl.com/4kznjfju",
-  "link": " https://projecteuler.net/",
-  "description": "A collection of challenging mathematical and computational problems."
-},
-{
-  "productName": "Topcoder",
-  "category": "coding",
-  "image": "https://tinyurl.com/y66jd8mt",
-  "link": "https://www.topcoder.com/",
-  "description": "A platform for competitive programming and software development challenges."
-},
-{
-  "productName": "GeeksForGeeks",
-  "category": "coding",
-  "image": "https://t.ly/vKJ8",
-  "link": "https://www.geeksforgeeks.org/",
-  "description": " A portal for computer science resources, tutorials, and coding practice."
-},
-{
-  "productName": "Google Fonts",
-  "category": "tools",
-  "image": "https://tinyurl.com/554n6ry6",
-  "link": "https://fonts.google.com/",
-  "description": "Free and open source font families."
-},
-{
-  "productName": "StackBlitz",
-  "category": "Online Code Editor",
-  "image": "https://avatars.githubusercontent.com/u/28635252?s=200&v=4",
-  "link": "https://stackblitz.com/",
-  "description": "Instant dev experiences: Click, code, no local setup required."
-}
+  {
+    "productName": "DALL·E",
+    "category": "ai",
+    "image": "https://bit.ly/3oICzAN",
+    "link": "https://openai.com/dall-e-2",
+    "description": "An AI system that can create realistic images and art from a description in natural language."
+  },
+  {
+    "productName": "Novoresume",
+    "category": "resume",
+    "image": "https://bit.ly/3P09nA5",
+    "link": "https://novoresume.com/",
+    "description": "Online resume builder."
+  },
+  {
+    "productName": "Gencraft",
+    "category": "AI",
+    "image": "https://bit.ly/3Nji330",
+    "link": "https://gencraft.com/",
+    "description": "Watch your prompts turn into beautiful designs, images, and artworks."
+  },
+  {
+    "productName": "WatchSeriesHD",
+    "category": "movies",
+    "image": "https://rb.gy/xxgtv",
+    "link": "https://watchserieshd.live/",
+    "description": "Stream movies and series in HD quality for free"
+  },
+  {
+    "productName": "Uiverse.io",
+    "category": "UI",
+    "image": "http://bit.ly/3X19kpw",
+    "link": "https://uiverse.io/",
+    "description": "Discover and customize free, open-source CSS and HTML UI elements, through this tool"
+  },
+  {
+    "productName": "Leetcode",
+    "category": "coding",
+    "image": "https://leetcode.com/static/images/LeetCode_logo.png",
+    "link": "https://leetcode.com/",
+    "description": "A platform for practicing coding skills and preparing for technical interviews."
+  },
+  {
+    "productName": "Atcoder",
+    "category": "coding",
+    "image": "http://morningpitch.com/wp-content/uploads/2020/10/download.png",
+    "link": " https://atcoder.jp/",
+    "description": "One of the best platforms for Cp, it was created in Japan"
+  },
+  {
+    "productName": "Codeforces",
+    "category": "coding",
+    "image": "https://tinyurl.com/3fjue7y6",
+    "link": " https://codeforces.com/",
+    "description": "A competitive programming platform with challenging contests and an active community."
+  },
+  {
+    "productName": "Codechef",
+    "category": "coding",
+    "image": "https://tinyurl.com/5cx6fp35",
+    "link": "https://www.codechef.com/",
+    "description": "An online community for programmers to improve their skills through contests and challenges."
+  },
+  {
+    "productName": "SPOJ",
+    "category": "coding",
+    "image": "https://tinyurl.com/yndmds67",
+    "link": "https://www.spoj.com/",
+    "description": "An online judge system with a large collection of programming problems for practice and contests."
+  },
+  {
+    "productName": "Hackerrank",
+    "category": "coding",
+    "image": "https://tinyurl.com/247ewu64",
+    "link": "https://www.hackerrank.com/",
+    "description": "A coding platform with challenges, contests, and interview preparation resources."
+  },
+  {
+    "productName": "Hackerearth",
+    "category": "coding",
+    "image": "https://tinyurl.com/4rzch6cp",
+    "link": "https://www.hackerearth.com/",
+    "description": "A platform for skill assessment, coding competitions, and hiring developers."
+  },
+  {
+    "productName": "CSES",
+    "category": "coding",
+    "image": "https://cses.fi/logo.png?1",
+    "link": "https://cses.fi/",
+    "description": "Competitive Programming Archive featuring a wide range of algorithmic problems."
+  },
+  {
+    "productName": "Project Euler",
+    "category": "coding",
+    "image": "https://tinyurl.com/4kznjfju",
+    "link": " https://projecteuler.net/",
+    "description": "A collection of challenging mathematical and computational problems."
+  },
+  {
+    "productName": "Topcoder",
+    "category": "coding",
+    "image": "https://tinyurl.com/y66jd8mt",
+    "link": "https://www.topcoder.com/",
+    "description": "A platform for competitive programming and software development challenges."
+  },
+  {
+    "productName": "GeeksForGeeks",
+    "category": "coding",
+    "image": "https://t.ly/vKJ8",
+    "link": "https://www.geeksforgeeks.org/",
+    "description": " A portal for computer science resources, tutorials, and coding practice."
+  },
+  {
+    "productName": "Google Fonts",
+    "category": "tools",
+    "image": "https://tinyurl.com/554n6ry6",
+    "link": "https://fonts.google.com/",
+    "description": "Free and open source font families."
+  },
+  {
+    "productName": "StackBlitz",
+    "category": "Online Code Editor",
+    "image": "https://avatars.githubusercontent.com/u/28635252?s=200&v=4",
+    "link": "https://stackblitz.com/",
+    "description": "Instant dev experiences: Click, code, no local setup required."
+  },
+  {
+    "productName": "devChallenges.io",
+    "category": "Coding",
+    "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.r-0t4G8UHxR73dnxoxis2AHaCk%26pid%3DApi&f=1&ipt=b27daedfc8a81da4b0f71430782c7a315e8d653f84dfa286b795b15993b67bdc&ipo=images",
+    "link": "https://devchallenges.io/",
+    "description": "DevChallenges is an online platform that provides coding challenges and projects for developers to practice and enhance their coding skills"
+  },
+  {
+    "productName": "frontendpractice",
+    "category": "Coding",
+    "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.zky2Dm3WZJz5jBUe_KxrOAHaHa%26pid%3DApi&f=1&ipt=51e09f9ea0d722492e53cd7572b8b2fec6d6dec6c78d54b79ca02debab68af72&ipo=images",
+    "link": "https://www.frontendpractice.com/",
+    "description": "On the Frontend Practice website, you can find a collection of frontend development projects with varying levels of difficulty."
+  },
+  {
+    "productName": "javascript30",
+    "category": "Coding",
+    "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.Ogm6vV5tWvlgjipIEbBdYAHaCx%26pid%3DApi&f=1&ipt=3bfa81b0ba4d246d4e2e5bc7337b31157155e1cbc1154eb3f53d6723536f2f1e&ipo=images",
+    "link": "https://javascript30.com/",
+    "description": "JavaScript30 is an online coding course created by Wes Bos, a well-known web developer and instructor. It is designed to help developers improve their JavaScript skills by building 30 different projects over 30 days."
+  },
+  {
+    "productName": "codewars",
+    "category": "Coding",
+    "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.dU3eb_c7orCF7IAGph4R8QHaEK%26pid%3DApi&f=1&ipt=83c997146ab8681d7d71f183f621e8f308640fa358c59db16d8c1766b4945ec9&ipo=images",
+    "link": "https://www.codewars.com/",
+    "description": "CodeWars is an online platform that offers coding challenges and programming exercises for developers to improve their coding skills."
+  }
 ]
-
