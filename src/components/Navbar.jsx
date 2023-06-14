@@ -8,19 +8,17 @@ import TwitterButton from './TwitterButton'
 import { NavLink, useSearchParams } from "react-router-dom"
 import { msg } from '../utils/data/message'
 import "../styles/header.css"
+import { useState } from 'react'
 
-const Header = () => {
+const Header = ({filteredSuggestions}) => {
   const [searchParams, setSearchParams] = useSearchParams()
+  
   let filters = searchParams.getAll('filters').length > 0 ? searchParams.getAll('filters') : ["all"]
   filters = filters[0].split(",")
   const location = useLocation()
   const sideNavRef = useRef(null)
-  const { searchTerm, setSearchTerm, filteredSuggestions } =
-    useContext(ToolContext)
-  const handleSuggestionClick = (value) => {
-    document.getElementById('serch-suggestions').classList.add('diplay-none')
-    setSearchTerm(value)
-  }
+
+  const searchTerm = searchParams.get('q') || ''
 
   useEffect(() => {
     document.addEventListener('mousedown', handleClickOutside);
@@ -36,20 +34,25 @@ const Header = () => {
     }
   }
 
-  const handleChageInInput = (event) => {
-    setSearchTerm(event.target.value)
-    let targetElem = document.getElementById('serch-suggestions')
-    if (
-      filteredSuggestions.length > 0 &&
-      targetElem.className.includes('diplay-none')
-    ) {
-      targetElem.classList.remove('diplay-none')
-    }
+  function setSearchTerm(val) {
+    setSearchParams(prevParams => {
+      if (val == "") {
+        prevParams.delete('q')
+      } else {
+        prevParams.set('q', val)
+      }
+      return prevParams
+    })
+  }
+  const handleChangeInInput = (event) => {
+    const val = event.target.value
+    setSearchTerm(val)
   }
   
   const handleAddFilter = (filter, event) => {
     filter = filter.toLowerCase();
     setSearchParams(prevParams => {
+      prevParams.delete('q')
       let options = prevParams.getAll('filters') || []
       if (options.length > 0) {
         options = options[0].split(",")
@@ -148,29 +151,23 @@ const Header = () => {
               className="input"
               placeholder="Search..."
               value={searchTerm}
-              onChange={(e) => handleChageInInput(e)}
+              onChange={(e) => handleChangeInInput(e)}
             />
-            {searchTerm.length > 0 && (
-              <div
-                className="close"
-                onClick={() => {
-                  setSearchTerm('')
-                }}
-              />
-            )}
             <div className="btn btn_common">
               <i className="fas fa-search">
                 <FaSearch />
               </i>
             </div>
           </div>
-          {filteredSuggestions.length > 0 && (
+          {(filteredSuggestions.length > 1 || (filteredSuggestions.length > 0 && filteredSuggestions[0] != searchTerm))  && (
             <ul className="hnav-suggestionbar" id="serch-suggestions">
               {/* This shows as a list of suggestions based on the search term */}
               {filteredSuggestions.map((suggestion) => (
                 <li
                   key={suggestion}
-                  onClick={() => handleSuggestionClick(suggestion)}
+                  onClick={() => {
+                    setSearchTerm(suggestion)
+                  }}
                   className="hnav-suggestion"
                 >
                   {suggestion}

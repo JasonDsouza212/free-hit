@@ -9,8 +9,11 @@ import '../styles/Home.css'
 import { useSearchParams, Navigate } from 'react-router-dom'
 import checkFilter from "..//utils/check_filters"
 import Loader from '../components/Loader'
+import products from "../DB/product.json"
+import filterProducts from '../utils/filter/filter_products'
+import searchProducts from '../utils/search/search_products'
 
-const Card = ({ length }) => {
+const Card = () => {
   const {
     gridView,
     setGridView,
@@ -19,23 +22,32 @@ const Card = ({ length }) => {
   const [searchParams,] = useSearchParams()
   let filters = searchParams.get('filters') || "all"
   filters = filters.split(",")
+
+  const searchTerm = searchParams.get('q') || ''
+
   if (checkFilter(filters)) return <Navigate to="/notfound" />
 
-  const [isLoading, setIsLoading] = useState(true)
+  const filteredProducts = filterProducts(products, filters)
+  const currentProducts = searchProducts(filteredProducts, searchTerm)
 
+  const [isLoading, setIsLoading] = useState(true)
   useEffect(() => {
     setTimeout(() => {
       setIsLoading(false);
     }, 500)
   }, [])
 
+  const productNames = filteredProducts?.map((product) => product.productName) || []
+  
+  const filterNames = searchTerm.length > 0 ? productNames.filter((productName) => productName.toLowerCase().startsWith(searchTerm.toLowerCase())) : []
+
   return (
     <div className="card_container">
-      <Header />
+      <Header filteredSuggestions={filterNames} />
       <div className="card_view">
-        <BsFillGridFill 
-          onClick={() => setGridView(true)} 
-          size={22} 
+        <BsFillGridFill
+          onClick={() => setGridView(true)}
+          size={22}
           color={gridView ? "#212121" : "#9E9E9E"}
         />
         <BsListUl
@@ -46,7 +58,7 @@ const Card = ({ length }) => {
       </div>
       <div className="card-container">
         {!isLoading ?
-          length == 0 ? (
+          currentProducts.length == 0 ? (
             <div className="not-found-wrapper">
               <p className="no-results">
                 Sorry, our toolbox seems empty for this search term!
@@ -54,9 +66,9 @@ const Card = ({ length }) => {
               <img class="not-found-img" src={noresultimg} alt="not found" />
             </div>
           ) : gridView ? (
-            <GridView filters={filters} />
+            <GridView currentProducts={currentProducts} />
           ) : (
-            <ListView filters={filters} />
+            <ListView currentProducts={currentProducts} />
           )
           :
           <div className="loader">
