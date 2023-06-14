@@ -28,7 +28,7 @@ function Community() {
     <div>
       {' '}
       <Header />
-      <h2 className="contributor-heading">Meet Our Contributors</h2>
+      <h1 className="contributor-heading">Meet Our Contributors</h1>
       {initialLoading ? (
         <div className="loading">Loading...</div>
       ) : (

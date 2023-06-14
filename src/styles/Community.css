@@ -1,17 +1,19 @@
-.contributor-heading {
+.contributor-heading{
   text-align: center;
-  margin-top: 2%;
-  font-size: 3rem;
+  margin: 20px;
+  font-size: 2.5rem;
 }
+
 .loading {
-  flex: auto;
+  display: flex;
   justify-content: center;
   align-items: center;
   height: 100%;
+  font-size: 2rem;
+  margin: 20px 20px;
 }
 
 .contributors-list {
-  position: relative;
   list-style: none;
   margin: 0 auto;
   padding: 0;
@@ -21,16 +23,18 @@
   flex-wrap: wrap;
   justify-content: center;
   grid-gap: 3rem;
-  margin-bottom: 5rem;
-  margin-top: 4rem;
+  margin-bottom: 4rem;
+  margin-top: 3rem;
 }
 .contributors-list .contributor-anchor {
-  display: block;
+  display: flex;
   width: 100px;
   height: 100px;
-  border-radius: 100px;
+  border-radius: 50%;
   overflow: hidden;
-  transition: all 0.16s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  justify-content: center;
+  border: 3px solid #1e40af;
 }
 .contributors-list .contributor-anchor:hover,
 .contributors-list .contributor-anchor:focus {
@@ -43,12 +47,12 @@
 .contributors-list .contributor-anchor .contributor-image {
   width: 100px;
   height: auto;
-  filter: grayscale(100%);
+  opacity: 0.5;
 }
 
 .contributors-list .contributor-anchor:hover .contributor-image,
 .contributors-list .contributor-anchor:focus .contributor-image {
-  filter: grayscale(0%);
+  opacity: 1;
 }
 
 @media screen and (max-width: 1024px) {
