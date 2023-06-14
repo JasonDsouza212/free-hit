@@ -1727,7 +1727,42 @@
   "category": "tools",
   "image": "https://avatars0.githubusercontent.com/u/12101536?s=280&v=4",
   "link": "https://ant.design/",
-  "description": "Ant Design is a popular Frontend UI library, a collective resource of React components which makes frontend development efficient, clean and fast"
-}
+  "description": "Ant Design is a popular Frontend UI library of React components which makes development code efficient, clean and fast"
+},
+{
+  "productName": "Roadmap.sh",
+  "category": "tools",
+  "image": "https://i.pinimg.com/originals/14/ce/13/14ce13dff4ba3a6255916b128dd9ec57.png",
+  "link": "https://roadmap.sh/",
+  "description": "Roadmap.sh is an effort to create roadmaps and guides to help developers in picking up the path"
+},
+{
+    "productName": "felxjobs",
+    "category": "remote",
+    "image": "https://tinyurl.com/ybfchtmw",
+    "link": "https://www.flexjobs.com/",
+    "description": "Explore a faster, easier, and better remote job search."
+  },
+  {
+    "productName": "FindAsync",
+    "category": "remote",
+    "image": "https://tinyurl.com/yahvtc78",
+    "link": "https://www.findasync.com/",
+    "description": "Find your next async remote job"
+  },
+  {
+    "productName": "CROSSOVER",
+    "category": "remote",
+    "image": "https://tinyurl.com/48bja2rc",
+    "link": "https://www.crossover.com/",
+    "description": "Find a full time remote job" 
+  },
+  {
+    "productName": "INSIDEA",
+    "category": "remote",
+    "image": "https://tinyurl.com/bdf2h7kp",
+    "link": "https://insidea.com/",
+    "description": "Where Business Meets Talent"
+  }
 ]
 
