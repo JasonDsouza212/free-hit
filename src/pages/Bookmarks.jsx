@@ -20,17 +20,21 @@ const BookMarks = () => {
   if (checkFilter(filters)) return <Navigate to="/notfound" />
 
   const filteredProducts = filterProducts(bookmarks, filters)
-  const currentProjects = searchProducts(filteredProducts, searchTerm)
+  let currentProducts = searchProducts(filteredProducts, searchTerm)
 
   const productNames = filteredProducts?.map((product) => product.productName) || []
   
   const filterNames = searchTerm.length > 0 ? productNames.filter((productName) => productName.toLowerCase().startsWith(searchTerm.toLowerCase())) : []
 
+  if (filterNames.length == 1) {
+    currentProducts = currentProducts.filter(product => product.productName == filterNames[0])  
+  }
+
   return ( 
     <div className="card_container">
       <Header filteredSuggestions={filterNames} />
       <div className="card-container">
-        {currentProjects.length === 0 ? (
+        {currentProducts.length === 0 ? (
           <div className="not-found-wrapper">
             <p className="no-results">Sorry, no BookMarks in sight!</p>
             <img className="not-found-img" src={noresultimg} alt="no bookmarks" />
@@ -39,7 +43,7 @@ const BookMarks = () => {
           <>
             {filteredProducts.length > 0 ? (
               <main className="grid">
-                {currentProjects.map((product) => (
+                {currentProducts.map((product) => (
                   <article>
                     <div className="text">
                       <div className="text_top">
