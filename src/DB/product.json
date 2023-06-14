@@ -1723,11 +1723,40 @@
   "description": "Instant dev experiences: Click, code, no local setup required."
 },
 {
+
   "productName": "Roadmap.sh",
   "category": "tools",
   "image": "https://i.pinimg.com/originals/14/ce/13/14ce13dff4ba3a6255916b128dd9ec57.png",
   "link": "https://roadmap.sh/",
   "description": "Roadmap.sh is an effort to create roadmaps and guides to help guide developers in picking up the path and guide their learnings."
-}
+},
+{
+    "productName": "felxjobs",
+    "category": "remote",
+    "image": "https://tinyurl.com/ybfchtmw",
+    "link": "https://www.flexjobs.com/",
+    "description": "Explore a faster, easier, and better remote job search."
+  },
+  {
+    "productName": "FindAsync",
+    "category": "remote",
+    "image": "https://tinyurl.com/yahvtc78",
+    "link": "https://www.findasync.com/",
+    "description": "Find your next async remote job"
+  },
+  {
+    "productName": "CROSSOVER",
+    "category": "remote",
+    "image": "https://tinyurl.com/48bja2rc",
+    "link": "https://www.crossover.com/",
+    "description": "Find a full time remote job" 
+  },
+  {
+    "productName": "INSIDEA",
+    "category": "remote",
+    "image": "https://tinyurl.com/bdf2h7kp",
+    "link": "https://insidea.com/",
+    "description": "Where Business Meets Talent"
+  }
 ]
 
