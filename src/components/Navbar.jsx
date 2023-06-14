@@ -10,7 +10,7 @@ import { msg } from '../utils/data/message'
 import "../styles/header.css"
 import { useState } from 'react'
 
-const Header = () => {
+const Header = ({filteredSuggestions}) => {
   const [searchParams, setSearchParams] = useSearchParams()
   
   let filters = searchParams.getAll('filters').length > 0 ? searchParams.getAll('filters') : ["all"]
@@ -34,15 +34,19 @@ const Header = () => {
     }
   }
 
-  const handleChangeInInput = (event) => {
+  function setSearchTerm(val) {
     setSearchParams(prevParams => {
-      if (event.target.value == "") {
+      if (val == "") {
         prevParams.delete('q')
       } else {
-        prevParams.set('q', event.target.value)
+        prevParams.set('q', val)
       }
       return prevParams
     })
+  }
+  const handleChangeInInput = (event) => {
+    const val = event.target.value
+    setSearchTerm(val)
   }
   
   const handleAddFilter = (filter, event) => {
@@ -155,6 +159,22 @@ const Header = () => {
               </i>
             </div>
           </div>
+          {(filteredSuggestions.length > 1 || (filteredSuggestions.length > 0 && filteredSuggestions[0] != searchTerm))  && (
+            <ul className="hnav-suggestionbar" id="serch-suggestions">
+              {/* This shows as a list of suggestions based on the search term */}
+              {filteredSuggestions.map((suggestion) => (
+                <li
+                  key={suggestion}
+                  onClick={() => {
+                    setSearchTerm(suggestion)
+                  }}
+                  className="hnav-suggestion"
+                >
+                  {suggestion}
+                </li>
+              ))}
+            </ul>
+          )}
         </div>
       )}
       <ul className="pages">

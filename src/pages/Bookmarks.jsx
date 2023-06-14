@@ -1,4 +1,4 @@
-import React, { useContext, useState, useEffect } from 'react'
+import React, { useContext } from 'react'
 import Header from '../components/Navbar'
 import { ToolContext } from '../App'
 import noresultimg from '../assets/sad-face.png'
@@ -22,10 +22,13 @@ const BookMarks = () => {
   const filteredProducts = filterProducts(bookmarks, filters)
   const currentProjects = searchProducts(filteredProducts, searchTerm)
 
+  const productNames = filteredProducts?.map((product) => product.productName) || []
+  
+  const filterNames = searchTerm.length > 0 ? productNames.filter((productName) => productName.toLowerCase().startsWith(searchTerm.toLowerCase())) : []
 
-  return (
+  return ( 
     <div className="card_container">
-      <Header />
+      <Header filteredSuggestions={filterNames} />
       <div className="card-container">
         {currentProjects.length === 0 ? (
           <div className="not-found-wrapper">

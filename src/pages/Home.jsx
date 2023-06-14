@@ -37,13 +37,17 @@ const Card = () => {
     }, 500)
   }, [])
 
+  const productNames = filteredProducts?.map((product) => product.productName) || []
+  
+  const filterNames = searchTerm.length > 0 ? productNames.filter((productName) => productName.toLowerCase().startsWith(searchTerm.toLowerCase())) : []
+
   return (
     <div className="card_container">
-      <Header />
+      <Header filteredSuggestions={filterNames} />
       <div className="card_view">
-        <BsFillGridFill 
-          onClick={() => setGridView(true)} 
-          size={22} 
+        <BsFillGridFill
+          onClick={() => setGridView(true)}
+          size={22}
           color={gridView ? "#212121" : "#9E9E9E"}
         />
         <BsListUl
