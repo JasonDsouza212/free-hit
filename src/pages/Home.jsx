@@ -28,7 +28,7 @@ const Card = () => {
   if (checkFilter(filters)) return <Navigate to="/notfound" />
 
   const filteredProducts = filterProducts(products, filters)
-  const currentProducts = searchProducts(filteredProducts, searchTerm)
+  let currentProducts = searchProducts(filteredProducts, searchTerm)
 
   const [isLoading, setIsLoading] = useState(true)
   useEffect(() => {
@@ -40,6 +40,10 @@ const Card = () => {
   const productNames = filteredProducts?.map((product) => product.productName) || []
   
   const filterNames = searchTerm.length > 0 ? productNames.filter((productName) => productName.toLowerCase().startsWith(searchTerm.toLowerCase())) : []
+  if (filterNames.length == 1 && currentProducts.filter(product => product.productName == searchTerm).length == 1) {
+    currentProducts = currentProducts.filter(product => product.productName == filterNames[0])  
+  }
+
 
   return (
     <div className="card_container">
