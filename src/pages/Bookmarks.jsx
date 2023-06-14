@@ -26,7 +26,7 @@ const BookMarks = () => {
   
   const filterNames = searchTerm.length > 0 ? productNames.filter((productName) => productName.toLowerCase().startsWith(searchTerm.toLowerCase())) : []
 
-  if (filterNames.length == 1) {
+  if (filterNames.length == 1 && currentProducts.filter(product => product.productName == searchTerm) == 1) {
     currentProducts = currentProducts.filter(product => product.productName == filterNames[0])  
   }
 

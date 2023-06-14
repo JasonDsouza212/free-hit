@@ -40,9 +40,12 @@ const Card = () => {
   const productNames = filteredProducts?.map((product) => product.productName) || []
   
   const filterNames = searchTerm.length > 0 ? productNames.filter((productName) => productName.toLowerCase().startsWith(searchTerm.toLowerCase())) : []
-  if (filterNames.length == 1) {
+  console.log(currentProducts)
+  if (filterNames.length == 1 && currentProducts.filter(product => product.productName == searchTerm).length == 1) {
+    console.log("hello")
     currentProducts = currentProducts.filter(product => product.productName == filterNames[0])  
   }
+
 
   return (
     <div className="card_container">
