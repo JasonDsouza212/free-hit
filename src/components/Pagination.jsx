@@ -16,7 +16,7 @@ export default function Pagination({ totalPages, atTop }) {
 	}
 	return (
 		atTop
-			? <div className="pagination-top">
+			? <div className="pagination-top top-pagination">
 				{currentPage > 1 && <button className="paginate-nav" onClick={() => handleClick(currentPage - 1)} > &lt;  </button>}
 				{
 					pageNumbers.slice(currentPage - 2 >= 0 ? currentPage - 2 : 0, currentPage + 1).map(number =>
