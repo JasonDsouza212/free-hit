@@ -12,6 +12,7 @@ import Loader from '../components/Loader'
 import products from "../DB/product.json"
 import filterProducts from '../utils/filter/filter_products'
 import searchProducts from '../utils/search/search_products'
+import Pagination from '../components/Pagination'
 
 const Card = () => {
   const {
@@ -38,10 +39,18 @@ const Card = () => {
   }, [])
 
   const productNames = filteredProducts?.map((product) => product.productName) || []
+
+  const productsPerPage = 16
+  const totalPages = Math.ceil(currentProducts.length / productsPerPage)
   
   const filterNames = searchTerm.length > 0 ? productNames.filter((productName) => productName.toLowerCase().startsWith(searchTerm.toLowerCase())) : []
   if (filterNames.length == 1 && currentProducts.filter(product => product.productName == searchTerm).length == 1) {
     currentProducts = currentProducts.filter(product => product.productName == filterNames[0])  
+  } else {
+    const currentPage = searchParams.get('page') || 1
+    const lastProductIndex = currentPage * productsPerPage;
+    const firstProductIndex = lastProductIndex - productsPerPage
+    currentProducts = currentProducts.slice(firstProductIndex, lastProductIndex)
   }
 
 
@@ -80,6 +89,7 @@ const Card = () => {
           </div>
         }
       </div>
+      {totalPages > 1 && <Pagination totalPages={totalPages} />}
     </div>
   )
 }
