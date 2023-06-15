@@ -58,6 +58,7 @@ const Card = () => {
     <div className="card_container">
       <Header filteredSuggestions={filterNames} />
       <div className="card_view">
+      {totalPages > 1 && searchTerm.length == 0 && <Pagination totalPages={totalPages} atTop />}
         <BsFillGridFill
           onClick={() => setGridView(true)}
           size={22}
