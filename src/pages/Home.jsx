@@ -46,7 +46,7 @@ const Card = () => {
   const filterNames = searchTerm.length > 0 ? productNames.filter((productName) => productName.toLowerCase().startsWith(searchTerm.toLowerCase())) : []
   if (filterNames.length == 1 && currentProducts.filter(product => product.productName == searchTerm).length == 1) {
     currentProducts = currentProducts.filter(product => product.productName == filterNames[0])  
-  } else {
+  } else if (searchTerm.length == 0) {
     const currentPage = searchParams.get('page') || 1
     const lastProductIndex = currentPage * productsPerPage;
     const firstProductIndex = lastProductIndex - productsPerPage
@@ -89,7 +89,7 @@ const Card = () => {
           </div>
         }
       </div>
-      {totalPages > 1 && <Pagination totalPages={totalPages} />}
+      {totalPages > 1 && searchTerm.length == 0 && <Pagination totalPages={totalPages} />}
     </div>
   )
 }
