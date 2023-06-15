@@ -1723,11 +1723,18 @@
   "description": "Instant dev experiences: Click, code, no local setup required."
 },
 {
+  "productName": "Ant Design",
+  "category": "tools",
+  "image": "https://avatars0.githubusercontent.com/u/12101536?s=280&v=4",
+  "link": "https://ant.design/",
+  "description": "Ant Design is a popular Frontend UI library of React components which makes development code efficient, clean and fast"
+},
+{
   "productName": "Roadmap.sh",
   "category": "tools",
   "image": "https://i.pinimg.com/originals/14/ce/13/14ce13dff4ba3a6255916b128dd9ec57.png",
   "link": "https://roadmap.sh/",
-  "description": "Roadmap.sh is an effort to create roadmaps and guides to help guide developers in picking up the path and guide their learnings."
+  "description": "Roadmap.sh is an effort to create roadmaps and guides to help developers in picking up the path"
 },
 {
     "productName": "felxjobs",
