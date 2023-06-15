@@ -51,6 +51,7 @@ function Community() {
                       src={contributor.avatar_url}
                     />
                   </a>
+                  <p className='username'>{contributor.login}</p>
                 </li>
               )
           )}
