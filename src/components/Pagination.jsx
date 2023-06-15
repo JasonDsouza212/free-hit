@@ -18,7 +18,7 @@ export default function Pagination({totalPages}) {
         <div className="pagination">
 			{currentPage > 1 && <button className="paginate-nav" onClick={() => handleClick(currentPage - 1)} > &lt; Prev</button>}
 			{                
-				pageNumbers.slice(currentPage - 3 >= 0 ? currentPage - 3 : 0, currentPage + 2).map(number =>
+				pageNumbers.slice(currentPage - 3 >= 0 ? currentPage - 2 : 0, currentPage + 1).map(number =>
 					<button className={`paginate-button ${currentPage == number ? 'selected-page' : ''}`} key={number} onClick={() => { handleClick(number) }} >{number}</button>
 				)
 			}
