@@ -1756,6 +1756,34 @@
     "image": "https://tinyurl.com/bdf2h7kp",
     "link": "https://insidea.com/",
     "description": "Where Business Meets Talent"
+  },
+  {
+    "productName": "devChallenges.io",
+    "category": "Coding",
+    "image": "https://bit.ly/462R570",
+    "link": "https://devchallenges.io/",
+    "description": "Coding challenges and projects to practice coding skills"
+  },
+  {
+    "productName": "frontendpractice",
+    "category": "Coding",
+    "image": "https://bit.ly/3CoiUcH",
+    "link": "https://www.frontendpractice.com/",
+    "description": "You can find a collection of projects with varying levels of difficulty."
+  },
+  {
+    "productName": "javascript30",
+    "category": "Coding",
+    "image": "https://bit.ly/3qEuMED",
+    "link": "https://javascript30.com/",
+    "description": "Building 30 different projects over 30 days."
+  },
+  {
+    "productName": "codewars",
+    "category": "Coding",
+    "image": "https://bit.ly/43XLyga",
+    "link": "https://www.codewars.com/",
+    "description": "Programming exercises to improve coding skills."
   }
 ]
 
