@@ -9,6 +9,12 @@
   align-items: center;
 }
 
+.pagination-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .paginate-button {
   color: var(--primary-black);
   border: 2px solid var(--primary-black);
@@ -29,4 +35,9 @@
 
 .paginate-nav {
   font-size: 20px;
+  font-weight: bold;
+}
+
+.current-page {
+  font-weight: bold;
 }
