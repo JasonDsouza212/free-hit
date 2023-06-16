@@ -190,6 +190,9 @@ const Header = () => {
         <li>
           <NavLink to="/about">About</NavLink>
         </li>
+        <li>
+        <a href="#contact">Contact Us</a>
+        </li>
       </ul>
     </nav>
   );

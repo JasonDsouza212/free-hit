@@ -6,7 +6,7 @@ const Footer = () => {
   const date = new Date();
   const year = date.getFullYear();
   return (
-    <footer>
+    <footer id="contact">
       <div className="footer-content">
         <h3>
           <img className="free-logo-footer" src={freehitlogo} alt="-" />
