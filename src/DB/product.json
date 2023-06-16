@@ -1723,11 +1723,18 @@
   "description": "Instant dev experiences: Click, code, no local setup required."
 },
 {
+  "productName": "Ant Design",
+  "category": "tools",
+  "image": "https://avatars0.githubusercontent.com/u/12101536?s=280&v=4",
+  "link": "https://ant.design/",
+  "description": "Ant Design is a popular Frontend UI library of React components which makes development code efficient, clean and fast"
+},
+{
   "productName": "Roadmap.sh",
   "category": "tools",
   "image": "https://i.pinimg.com/originals/14/ce/13/14ce13dff4ba3a6255916b128dd9ec57.png",
   "link": "https://roadmap.sh/",
-  "description": "Roadmap.sh is an effort to create roadmaps and guides to help guide developers in picking up the path and guide their learnings."
+  "description": "Roadmap.sh is an effort to create roadmaps and guides to help developers in picking up the path"
 },
 {
     "productName": "felxjobs",
@@ -1763,6 +1770,34 @@
     "image": "bit.ly/3XasObi",
     "link": "https://replit.com/",
     "description": "An online IDE that allows users to create,run and share code in a web browser"
+  },
+  {
+    "productName": "devChallenges.io",
+    "category": "Coding",
+    "image": "https://bit.ly/462R570",
+    "link": "https://devchallenges.io/",
+    "description": "Coding challenges and projects to practice coding skills"
+  },
+  {
+    "productName": "frontendpractice",
+    "category": "Coding",
+    "image": "https://bit.ly/3CoiUcH",
+    "link": "https://www.frontendpractice.com/",
+    "description": "You can find a collection of projects with varying levels of difficulty."
+  },
+  {
+    "productName": "javascript30",
+    "category": "Coding",
+    "image": "https://bit.ly/3qEuMED",
+    "link": "https://javascript30.com/",
+    "description": "Building 30 different projects over 30 days."
+  },
+  {
+    "productName": "codewars",
+    "category": "Coding",
+    "image": "https://bit.ly/43XLyga",
+    "link": "https://www.codewars.com/",
+    "description": "Programming exercises to improve coding skills."
   }
 ]
 

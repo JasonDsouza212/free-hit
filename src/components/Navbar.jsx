@@ -8,7 +8,6 @@ import TwitterButton from './TwitterButton'
 import { NavLink, useSearchParams } from "react-router-dom"
 import { msg } from '../utils/data/message'
 import "../styles/header.css"
-import { useState } from 'react'
 
 const Header = ({filteredSuggestions}) => {
   const [searchParams, setSearchParams] = useSearchParams()
@@ -53,6 +52,7 @@ const Header = ({filteredSuggestions}) => {
     filter = filter.toLowerCase();
     setSearchParams(prevParams => {
       prevParams.delete('q')
+      prevParams.delete('page')
       let options = prevParams.getAll('filters') || []
       if (options.length > 0) {
         options = options[0].split(",")
