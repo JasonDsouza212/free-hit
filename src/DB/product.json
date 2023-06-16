@@ -1756,6 +1756,13 @@
     "image": "https://tinyurl.com/bdf2h7kp",
     "link": "https://insidea.com/",
     "description": "Where Business Meets Talent"
+  },
+  {
+    "productName": "Replit",
+    "category": "Online Code Editor",
+    "image": "bit.ly/3XasObi",
+    "link": "https://replit.com/",
+    "description": "An online IDE that allows users to create,run and share code in a web browser"
   }
 ]
 
