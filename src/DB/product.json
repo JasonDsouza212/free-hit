@@ -1,5 +1,12 @@
 [
   {
+    "productName": "FreeCodeCamp",
+    "category": "Technology",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/39/FreeCodeCamp_logo.png?20191220141126",
+    "link": "https://www.freecodecamp.org/learn/",
+    "description": "freeCodeCamp is a community of people from all around the world who are learning to code together. We're a 501(c)(3) public charity."
+  },
+  {
     "productName": "Magic Eraser",
     "category": "tools",
     "image": "https://bit.ly/3qCeSLa",
