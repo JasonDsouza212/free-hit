@@ -1765,6 +1765,13 @@
     "description": "Where Business Meets Talent"
   },
   {
+    "productName": "Replit",
+    "category": "Online Code Editor",
+    "image": "bit.ly/3XasObi",
+    "link": "https://replit.com/",
+    "description": "An online IDE that allows users to create,run and share code in a web browser"
+  },
+  {
     "productName": "devChallenges.io",
     "category": "Coding",
     "image": "https://bit.ly/462R570",
