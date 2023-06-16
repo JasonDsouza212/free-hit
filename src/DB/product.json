@@ -1798,6 +1798,13 @@
     "image": "https://bit.ly/43XLyga",
     "link": "https://www.codewars.com/",
     "description": "Programming exercises to improve coding skills."
+  },
+  {
+    "productName": "cssbattle",
+    "category": "Coding",
+    "image": "https://bit.ly/3NAzVXv",
+    "link": "https://cssbattle.dev/",
+    "description": "Write CSS code in real-time"
   }
 ]
 
