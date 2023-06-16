@@ -1,35 +1,49 @@
-import React, { useContext, useState, useEffect } from 'react'
+import React, { useContext } from 'react'
 import Header from '../components/Navbar'
 import { ToolContext } from '../App'
 import noresultimg from '../assets/sad-face.png'
 import { useSearchParams, Navigate } from 'react-router-dom'
 import filterProducts from '../utils/filter/filter_products'
 import checkFilter from '../utils/check_filters'
+import searchProducts from '../utils/search/search_products'
 
-const BookMarks = ({ length }) => {
-  const { bookmarkfilteredProducts, deleteres } =
+const BookMarks = () => {
+  const { bookmarks, deleteres } =
     useContext(ToolContext);
+
   const [searchParams] = useSearchParams()
   let filters = searchParams.get('filters') || "all"
   filters = filters.split(",")
+
+  const searchTerm = searchParams.get('q') || '' 
+
   if (checkFilter(filters)) return <Navigate to="/notfound" />
 
-  const currentProjects = filterProducts(bookmarkfilteredProducts, filters)
+  const filteredProducts = filterProducts(bookmarks, filters)
+  let currentProducts = searchProducts(filteredProducts, searchTerm)
 
-  return (
+  const productNames = filteredProducts?.map((product) => product.productName) || []
+  
+  const filterNames = searchTerm.length > 0 ? productNames.filter((productName) => productName.toLowerCase().startsWith(searchTerm.toLowerCase())) : []
+
+  if (filterNames.length == 1 && currentProducts.filter(product => product.productName == searchTerm) == 1) {
+    currentProducts = currentProducts.filter(product => product.productName == filterNames[0])  
+  }
+
+  return ( 
     <div className="card_container">
-      <Header />
+      <Header filteredSuggestions={filterNames} />
       <div className="card-container">
-        {currentProjects.length === 0 ? (
+        {currentProducts.length === 0 ? (
           <div className="not-found-wrapper">
             <p className="no-results">Sorry, no BookMarks in sight!</p>
             <img className="not-found-img" src={noresultimg} alt="no bookmarks" />
           </div>
         ) : (
           <>
-            {bookmarkfilteredProducts.length > 0 ? (
+            {filteredProducts.length > 0 ? (
               <main className="grid">
-                {currentProjects.map((product) => (
+                {currentProducts.map((product) => (
                   <article>
                     <div className="text">
                       <div className="text_top">
