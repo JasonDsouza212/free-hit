@@ -1,9 +1,9 @@
 import React, { useState, useEffect, createContext } from 'react'
 import { Route, Routes } from 'react-router-dom'
-import Card from './pages/Home'
+import Home from "./pages/Home"
+import Tools from './pages/Tools'
 import Footer from './components/Footer'
 import About from './pages/About'
-import products from './DB/product.json'
 import BookMarks from './pages/Bookmarks'
 import BackToTopButton from './components/BackToTop'
 import NotFound from './pages/NotFound'
@@ -59,21 +59,22 @@ function App() {
 
   return (
     <>
-     <div className="app">
-     <ToolContext.Provider value={toolContextValue}>
-        <Routes>
-          <Route path="/" element={<Card />} />
-          <Route path="/about" element={<About />} />
-          <Route
-            path="/bookmarks"
-            element={<BookMarks />}
-          />
-          <Route path="/community" element={<Community />} />
-          <Route path="*" element={<NotFound />} />
-        </Routes>
-        <Footer />
-        <BackToTopButton />
-      </ToolContext.Provider>
+      <div className="app">
+        <ToolContext.Provider value={toolContextValue}>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/tools" element={<Tools />} />
+            <Route path="/about" element={<About />} />
+            <Route
+              path="/bookmarks"
+              element={<BookMarks />}
+            />
+            <Route path="/community" element={<Community />} />
+            <Route path="*" element={<NotFound />} />
+          </Routes>
+          <Footer />
+          <BackToTopButton />
+        </ToolContext.Provider>
       </div>
     </>
   )

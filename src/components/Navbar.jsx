@@ -83,7 +83,7 @@ const Header = ({filteredSuggestions}) => {
             <i className="fa ri-menu-fill"></i>
             <i className="fa ri-close-line"></i>
           </label>
-          {location.pathname === '/about' ? (
+          {location.pathname === '/about' || location.pathname == '/' ? (
             <nav id="sidebar">
               <ul className="list-items list-item">
                 <li className='about-list'>
@@ -143,7 +143,7 @@ const Header = ({filteredSuggestions}) => {
           </NavLink>
         </h1>
       </div>
-      {location.pathname !== '/about' && location.pathname !== '/community' && (
+      {location.pathname !== '/about' && location.pathname !== '/community' && location.pathname !== '/' && (
         <div className="container">
           <div className="search_box">
             <input
@@ -180,6 +180,9 @@ const Header = ({filteredSuggestions}) => {
       <ul className="pages">
         <li>
           <NavLink to="/">Home</NavLink>
+        </li>
+        <li>
+          <NavLink to="/tools">Tools</NavLink>
         </li>
         <li>
           <NavLink to="/bookmarks">Bookmarks</NavLink>

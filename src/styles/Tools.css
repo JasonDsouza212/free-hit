@@ -1,0 +1,172 @@
+:root {
+  --primary-white: #f1f1ef;
+  --primary-black: #373530;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+body {
+  background-color: var(--primary-white);
+}
+
+/* Card View CSS */
+.card_container {
+  background-color: var(--primary-white);
+}
+
+.card_view {
+  width: 95%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.top-pagination {
+  margin-right: auto;
+  margin-left: 35px;
+}
+
+.card_view svg {
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .card_view {
+    margin-top: 20px;
+  }
+}
+
+/* card css start */
+
+.grid {
+  padding: 20px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, auto));
+  align-items: start;
+  justify-content: center;
+  gap: 1rem 1rem;
+  margin-top: 1rem;
+}
+
+.grid > article {
+  position: relative;
+  min-height: 220px;
+  max-width: 350px;
+  border: 1px solid var(--primary-black);
+  box-shadow: 8px 8px 2px 0px var(--primary-black);
+  background-color: var(--primary-white);
+  padding: 15px 30px;
+  border-radius: 20px;
+  color: #000;
+  font-size: 18px;
+  transition: all 0.3s;
+}
+
+.grid > article:hover {
+  box-shadow: 6px 6px 0px 0px var(--primary-black);
+  transform: scale(1.02);
+}
+
+img {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+}
+
+.grid > article .btn-cont {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.grid article p {
+  margin-top: 1rem;
+  line-height: 20px;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  height: 60px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;  
+  -webkit-line-clamp: 3;
+}
+
+.grid article .text_top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.text_top .card-title {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+}
+
+.btn-cont button {
+  background-color: var(--primary-black);
+  padding: 7px 25px;
+  border-radius: 8px;
+  margin: 2px;
+  transition: all 0.3s ease;
+}
+
+.btn-cont button a {
+  text-decoration: none;
+  color: var(--primary-white);
+  font-size: 16px;
+  font-weight: 600;
+  font-family: 'Open Sans';
+}
+
+.btn-cont button i {
+  position: relative;
+  top: 3px;
+  margin-left: 5px;
+}
+
+.btn-cont button:hover {
+  transform: scale(1.05);
+}
+
+.bookmark {
+  cursor: pointer;
+}
+
+.visit {
+  cursor: pointer;
+}
+
+.no-results {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  color: #1f1e1e;
+  padding-top: 2rem;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+  min-height: 12vh;
+}
+
+.not-found-img {
+  width: 13rem;
+  height: 15em;
+}
+
+.not-found-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+/* card end */
