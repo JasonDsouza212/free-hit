@@ -1807,6 +1807,14 @@
     "description": "Programming exercises to improve coding skills."
   },
   {
+
+    "productName": "1337x",
+    "category": "movies",
+    "image": "https://shorturl.at/afjwQ",
+    "link": "https://1337x.st/",
+    "description": "1337x is a popular torrent website offering a wide range of downloadable content for users."
+  },
+  {
     "productName": "tutorialspoint",
     "category": "Learning",
     "image": "https://www.tutorialspoint.com/images/logo.png?v2",
