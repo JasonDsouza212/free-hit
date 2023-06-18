@@ -1415,7 +1415,7 @@
   },
   {
     "productName": "Piped",
-    "category": "remote",
+    "category": "movies",
     "image": "https://bit.ly/45zisFw",
     "link": "https://piped.kavin.rocks",
     "description": "An alternative privacy-friendly YouTube frontend which is efficient by design."
