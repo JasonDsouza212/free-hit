@@ -20,6 +20,13 @@
     "link": "https://w3schools.com/",
     "description": "Tutorials on web development, programming languages, and other related technologies"
   },
+    {
+    "productName": "Javatpoint",
+    "category": "coding",
+    "image": "https://bit.ly/4635MqZ",
+    "link": "https://www.javatpoint.com/",
+    "description": "Study materials such as tutorials, articles, and resources for Java programming and other related technologies"
+  },
   {
     "productName": "Freepik",
     "category": "tools",
