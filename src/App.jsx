@@ -61,7 +61,8 @@ function App() {
     <>
      <div className="app">
      <ToolContext.Provider value={toolContextValue}>
-        <Routes>
+        <div className="routes-holder">
+          <Routes>
           <Route path="/" element={<Card />} />
           <Route path="/about" element={<About />} />
           <Route
@@ -70,7 +71,8 @@ function App() {
           />
           <Route path="/community" element={<Community />} />
           <Route path="*" element={<NotFound />} />
-        </Routes>
+          </Routes>
+        </div>
         <Footer />
         <BackToTopButton />
       </ToolContext.Provider>

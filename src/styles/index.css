@@ -43,6 +43,10 @@ body {
   background-color: var(--primary-white);
 }
 
+.routes-holder{
+  min-height: 67vh;
+}
+
 /* ===============================1560 media query */
 @media screen and (max-width: 1560px) {
   .about {
@@ -668,3 +672,4 @@ body {
     width: 150px;
   }
 }
+
