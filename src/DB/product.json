@@ -1807,7 +1807,13 @@
     "description": "Programming exercises to improve coding skills."
   },
   {
-
+    "productName": "cssbattle",
+    "category": "Coding",
+    "image": "https://bit.ly/3NAzVXv",
+    "link": "https://cssbattle.dev/",
+    "description": "Write CSS code in real-time"
+  },
+  {
     "productName": "1337x",
     "category": "movies",
     "image": "https://shorturl.at/afjwQ",
