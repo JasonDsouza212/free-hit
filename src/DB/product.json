@@ -1802,10 +1802,10 @@
   
   {
     "productName": "tutorialspoint",
-    "category": "Coding",
+    "category": "Learning",
     "image": "https://www.tutorialspoint.com/images/logo.png?v2",
     "link": "https://www.tutorialspoint.com/nodejs/index.htm",
     "description": "Tutorials Point provide the best learning material on technical and non-technical subjects."
-  },
+  }
 ]
 
