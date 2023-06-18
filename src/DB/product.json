@@ -14,6 +14,13 @@
     "description": "Produce beautiful documents starting from gallery of LaTeX templates for CVs."
   },
   {
+    "productName": "w3schools",
+    "category": "coding",
+    "image": "https://bit.ly/3JiwHFx",
+    "link": "https://w3schools.com/",
+    "description": "Tutorials on web development, programming languages, and other related technologies"
+  },
+  {
     "productName": "Freepik",
     "category": "tools",
     "image": "https://tinyurl.com/bdfw6dyv",
