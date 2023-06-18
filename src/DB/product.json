@@ -1222,7 +1222,7 @@
     "category": "extensions",
     "image": "https://rb.gy/r2if4",
     "link": "https://rb.gy/muo7f",
-    "description": "Extract CSS and build beautiful styleguides."
+    "description": "Extract CSS and build beautiful style guides."
   },
   {
     "productName": "I2Symbol",
@@ -1509,7 +1509,7 @@
     "category": "UI",
     "image": "https://bit.ly/45COMri",
     "link": "https://bit.ly/45BOgd8",
-    "description": "UI Kits avaiable in various format like figma, Xd, PSD, AI etc."
+    "description": "UI Kits available in various format like figma, Xd, PSD, AI etc."
   },
   {
     "productName": "3D Icons",
@@ -1805,6 +1805,13 @@
     "image": "https://bit.ly/43XLyga",
     "link": "https://www.codewars.com/",
     "description": "Programming exercises to improve coding skills."
+  },
+  {
+    "productName": "tutorialspoint",
+    "category": "Learning",
+    "image": "https://www.tutorialspoint.com/images/logo.png?v2",
+    "link": "https://www.tutorialspoint.com/nodejs/index.htm",
+    "description": "Tutorials Point provide the best learning material on technical and non-technical subjects."
   }
 ]
 
