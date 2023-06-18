@@ -1843,12 +1843,11 @@
     "description": "Tutorials Point provide the best learning material on technical and non-technical subjects."
   },
   {
-    productName: "jschallenger",
-    category: "Coding",
-    image: "https://tinyurl.com/5n6vbc7f",
-    link: "https://www.jschallenger.com/",
-    description: "Learn Javascript online by solving coding exercises."
+    "productName": "jschallenger",
+    "category": "Coding",
+    "image": "https://tinyurl.com/5n6vbc7f",
+    "link": "https://www.jschallenger.com/",
+    "description": "Learn Javascript online by solving coding exercises."
 }
-
 ]
 
