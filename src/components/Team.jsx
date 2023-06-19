@@ -21,7 +21,7 @@ const Team = () => {
           <hr />
           <div className="icons">
             <a href="https://twitter.com/bobsstwt" target="_blank">
-              <i style={{color:'#1DA1F2'}} className="ri-twitter-fill"></i>
+              <i className="ri-twitter-fill"></i>
             </a>
             <a href="https://github.com/bobbyy16" target="_blank">
               <i className="ri-github-fill"></i>
@@ -30,7 +30,7 @@ const Team = () => {
               href="https://www.linkedin.com/in/abhishek-k-7597771ba/"
               target="_blank"
             >
-              <i style={{color:'#0077B5'}} class="ri-linkedin-box-fill"></i>
+              <i class="ri-linkedin-box-fill"></i>
             </a>
           </div>
         </div>
@@ -41,13 +41,13 @@ const Team = () => {
           <hr />
           <div className="icons">
             <a href="https://twitter.com/Priyankarpal" target="_blank">
-              <i style={{color:'#1DA1F2'}} className="ri-twitter-fill"></i>
+              <i className="ri-twitter-fill"></i>
             </a>
             <a href="https://github.com/priyankarpal" target="_blank">
               <i className="ri-github-fill"></i>
             </a>
             <a href="https://www.linkedin.com/in/priyankarpal/" target="_blank">
-              <i style={{color:'#0077B5'}} class="ri-linkedin-box-fill"></i>
+              <i class="ri-linkedin-box-fill"></i>
             </a>
           </div>
         </div>
@@ -59,7 +59,7 @@ const Team = () => {
           <hr />
           <div className="icons">
             <a href="https://twitter.com/_Jason_Dsouza" target="_blank">
-              <i style={{color:'#1DA1F2'}} className="ri-twitter-fill"></i>
+              <i className="ri-twitter-fill"></i>
             </a>
             <a href="http://github.com/JasonDsouza212" target="_blank">
               <i className="ri-github-fill"></i>
@@ -68,7 +68,7 @@ const Team = () => {
               href="https://www.linkedin.com/in/jason-dsouza-130b421ba/"
               target="_blank"
             >
-              <i style={{color:'#0077B5'}} class="ri-linkedin-box-fill"></i>
+              <i class="ri-linkedin-box-fill"></i>
             </a>
           </div>
         </div>
