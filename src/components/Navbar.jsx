@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useRef } from 'react'
+import React, {useEffect, useRef } from 'react'
 import { FaSearch } from 'react-icons/fa'
 import freehitlogo from '../assets/free-logo.png'
 import ButtonLinks from '../utils/data/categories'
