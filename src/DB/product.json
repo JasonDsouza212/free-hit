@@ -26,6 +26,13 @@
     "image": "https://bit.ly/3JiwHFx",
     "link": "https://w3schools.com/",
     "description": "Tutorials on web development, programming languages, and other related technologies"
+  }
+  {
+    "productName": "MyEmulator",
+    "category": "Gaming",
+    "image": "https://bit.ly/3NBzUm8",
+    "link": "https://myemulator.online/",
+    "description": "Play classic video games from various gaming consoles directly in their web browsers."
   },
     {
     "productName": "Javatpoint",
