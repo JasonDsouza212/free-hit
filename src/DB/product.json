@@ -1,5 +1,12 @@
 [
   {
+    "productName": "Netlify",
+    "category": "tools",
+    "image": "https://bit.ly/3qCeSLa",
+    "link": "https://www.opensourceforu.com/wp-content/uploads/2022/02/netlify-logo.png",
+    "description": "Netlify provides free hosting, deploying, and many more service to the user so the user doesn't need to worry about the hosting."
+  },
+  {
     "productName": "Magic Eraser",
     "category": "tools",
     "image": "https://bit.ly/3qCeSLa",
@@ -1848,7 +1855,13 @@
     "image": "https://www.tutorialspoint.com/images/logo.png?v2",
     "link": "https://www.tutorialspoint.com/nodejs/index.htm",
     "description": "Tutorials Point provide the best learning material on technical and non-technical subjects."
-  }
-
+  },
+  {
+    "productName": "jschallenger",
+    "category": "Coding",
+    "image": "https://tinyurl.com/5n6vbc7f",
+    "link": "https://www.jschallenger.com/",
+    "description": "Learn Javascript online by solving coding exercises."
+}
 ]
 
