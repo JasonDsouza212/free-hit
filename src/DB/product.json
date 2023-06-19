@@ -1,5 +1,12 @@
 [
   {
+    "productName": "Netlify",
+    "category": "tools",
+    "image": "https://bit.ly/3qCeSLa",
+    "link": "https://www.opensourceforu.com/wp-content/uploads/2022/02/netlify-logo.png",
+    "description": "Netlify provides free hosting, deploying, and many more service to the user so the user doesn't need to worry about the hosting."
+  },
+  {
     "productName": "Magic Eraser",
     "category": "tools",
     "image": "https://bit.ly/3qCeSLa",
@@ -1841,6 +1848,69 @@
     "image": "https://www.tutorialspoint.com/images/logo.png?v2",
     "link": "https://www.tutorialspoint.com/nodejs/index.htm",
     "description": "Tutorials Point provide the best learning material on technical and non-technical subjects."
-  }
+  },
+  {
+    "productName": "jschallenger",
+    "category": "Coding",
+    "image": "https://tinyurl.com/5n6vbc7f",
+    "link": "https://www.jschallenger.com/",
+    "description": "Learn Javascript online by solving coding exercises."
+},
+{
+  "productName": "DESIGNS.AI",
+  "category": "resume",
+  "image": "https://tinyurl.com/3c55se3w",
+  "link": "https://designs.ai/design-types/resumes",
+  "description": "Build Professional resumes effortlessly with Designs.AI"
+},
+{
+  "productName": "RESUME WORDED",
+  "category": "resume",
+  "image": "https://resumeworded.com/",
+  "link": "https://resumeworded.com/",
+  "description": "Your personal resume & LinkedIn coach"
+},
+{
+  "productName": "These resumes do not exist",
+  "category": "resume",
+  "image": "https://thisresumedoesnotexist.com/",
+  "link": "https://thisresumedoesnotexist.com/",
+  "description": "Stand out among the competition with over 1000 AI-inspired resume examples."
+},
+{
+  "productName": "HyreSnap",
+  "category": "resume",
+  "image": "https://tinyurl.com/3wfpyr8f",
+  "link": "https://hyresnap.com/resume-builder",
+  "description": "Elevate your interview chances with our Modern Resume Templates"
+},
+{
+  "productName": "skillroads",
+  "category": "resume",
+  "image": "https://skillroads.com/free-online-resume-builder",
+  "link": "https://skillroads.com/free-online-resume-builder",
+  "description": "Creating a modern and sharp resume has never been easier!"
+},
+{
+  "productName": "myperfectresume",
+  "category": "resume",
+  "image": "https://tinyurl.com/3cah9f79",
+  "link": "https://www.myperfectresume.com/",
+  "description": "Create Your Perfect Resume Today"
+},
+{
+  "productName": "VisualCV",
+  "category": "resume",
+  "image": "https://www.visualcv.com/",
+  "link": "https://www.visualcv.com/",
+  "description": "Create a job-ready resume in minutes."
+},
+{
+  "productName": "resume.com",
+  "category": "resume",
+  "image": "https://www.resume.com/",
+  "link": "https://www.resume.com/",
+  "description": "Build a professional resume for free"
+}
 ]
 
