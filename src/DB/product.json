@@ -1869,6 +1869,34 @@
     "image": "https://tinyurl.com/5n6vbc7f",
     "link": "https://www.jschallenger.com/",
     "description": "Learn Javascript online by solving coding exercises."
+  },
+  {
+    "productName": "Slides AI",
+    "category": "ai",
+    "image": "bit.ly/3CCVi3S",
+    "link": "https://www.slidesai.io/",
+    "description": "Create and enhance presentation slides"
+  },
+  {
+    "productName": "AutoDraw",
+    "category": "ai",
+    "image": "bit.ly/3Nxb5rj",
+    "link": "https://www.autodraw.com/",
+    "description": "Provides suggestions and predictions to create drawings"
+  },
+  {
+    "productName": "Starrytars",
+    "category": "ai",
+    "image": "bit.ly/42L7M4b",
+    "link": "https://starryai.com/starrytars",
+    "description": "Create high-quality avatars with AI in minutes"
+  },
+  {
+    "productName": "Uizard",
+    "category": "ai",
+    "image": "bit.ly/3Pi0uSi",
+    "link": "https://uizard.io/",
+    "description": "Design wireframes, mockups, and prototypes in minutes"
 },
 {
   "productName": "DESIGNS.AI",
