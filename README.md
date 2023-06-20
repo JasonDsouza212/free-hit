@@ -1,4 +1,5 @@
 <div id="header" align="center">
+    <div id="top">
     <h1>🔥 Free-Hit </h1>
     <h3><strong><em>Your search ends here 🔍</em></strong></h3>
   <img src="https://i.ibb.co/mGGNWCt/Group-1.png" alt="home page of the website"><br>
@@ -162,4 +163,7 @@ Follow the link to contribute to Free-Hit - [CONTRIBUTING.md](./CONTRIBUTING.md)
 <br>
 <div align="center">
 <h3>Show some ❤️ by starring this awesome repository!</h3>
+</div>
+<p align="right"><a href="#top" >Back to top</a></p>
+
 </div>
