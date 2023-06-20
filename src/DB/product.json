@@ -1953,6 +1953,13 @@
   "image": "https://www.resume.com/",
   "link": "https://www.resume.com/",
   "description": "Build a professional resume for free"
+},
+{
+  "productName": "Chakra UI",
+  "category": "tools",
+  "image": "https://www.happylifecreators.com/wp/wp-content/uploads/2022/06/chakra-ui_title2-400x400.png",
+  "link": "https://chakra-ui.com",
+  "description": "Chakra UI is an accessible and customizable React component library for building UIs."
 }
 ]
 
