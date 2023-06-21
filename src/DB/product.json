@@ -1,11 +1,25 @@
 [
   {
+    "productName": "JSONView",
+    "category": "extension",
+    "image": "https://shorturl.at/uvFQ9",
+    "link": "https://chrome.google.com/webstore/detail/jsonview/gmegofmjomhknnokphhckolhcffdaihd",
+    "description": "This JSONView converts the JSON content into an understandable format and esay to view."
+  },
+  {
     "productName": "Netlify",
     "category": "tools",
     "image": "https://bit.ly/3qCeSLa",
     "link": "https://www.opensourceforu.com/wp-content/uploads/2022/02/netlify-logo.png",
     "description": "Netlify provides free hosting, deploying, and many more service to the user so the user doesn't need to worry about the hosting."
   },
+  {
+    "productName": "MDN Web Docs",
+    "category": "tools",
+    "image": "https://bit.ly/3PuJPuO ",
+    "link": " https://developer.mozilla.org/en-US/ ",
+    "description": " Provides information about Open Web technologies including HTML, CSS, and APIs"
+},
   {
     "productName": "Magic Eraser",
     "category": "tools",
@@ -677,6 +691,13 @@
     "image": "https://bit.ly/3ktuJZG",
     "link": "https://www.flaticon.com/",
     "description": "Collection of free vector icons for web design and graphic design."
+  },
+  {
+    "productName": "Fireship",
+    "category": "web",
+    "image": "https://avatars.githubusercontent.com/u/46283609?s=280&v=4",
+    "link": "https://fireship.io/lessons/tailwind-tutorial/",
+    "description": "Fireship provides blazingly fast && highly-amusing tricks for TailwindCss."
   },
   {
     "productName": "Friv",
@@ -1953,6 +1974,41 @@
   "image": "https://www.resume.com/",
   "link": "https://www.resume.com/",
   "description": "Build a professional resume for free"
+},
+{
+  "productName": "Google bard",
+  "category": "ai",
+  "image": "bit.ly/3NgYYx9",
+  "link": "https://bard.google.com/",
+  "description": "AI tools "
+},
+{
+  "productName": "Otter AI",
+  "category": "ai",
+  "image": "bit.ly/3CGspEe",
+  "link": "https://otter.ai/",
+  "description": "Convert voice to text"
+},
+{
+  "productName": "Runway AI",
+  "category": "ai",
+  "image": "bit.ly/3NpP7FE",
+  "link": "https://runwayml.com/",
+  "description": "Cloud-based video editing and effects platform"
+},
+{
+  "productName": "writefull",
+  "category": "ai",
+  "image": "https://tinyurl.com/5n936eaz",
+  "link": "https://www.writefull.com/#products",
+  "description": "assistant designed to help English writing skills"
+},
+{
+  "productName": "Chakra UI",
+  "category": "tools",
+  "image": "https://www.happylifecreators.com/wp/wp-content/uploads/2022/06/chakra-ui_title2-400x400.png",
+  "link": "https://chakra-ui.com",
+  "description": "Chakra UI is an accessible and customizable React component library for building UIs."
 }
 ]
 
