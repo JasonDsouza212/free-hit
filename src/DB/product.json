@@ -1962,6 +1962,13 @@
   "description": "Build a professional resume for free"
 },
 {
+  "productName": "Google bard",
+  "category": "ai",
+  "image": "bit.ly/3NgYYx9",
+  "link": "https://bard.google.com/",
+  "description": "AI tools "
+},
+{
   "productName": "Otter AI",
   "category": "ai",
   "image": "bit.ly/3CGspEe",
