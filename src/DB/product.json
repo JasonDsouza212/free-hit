@@ -7,6 +7,13 @@
     "description": "Netlify provides free hosting, deploying, and many more service to the user so the user doesn't need to worry about the hosting."
   },
   {
+    "productName": "MDN Web Docs",
+    "category": "tools",
+    "image": "https://bit.ly/3PuJPuO ",
+    "link": " https://developer.mozilla.org/en-US/ ",
+    "description": " Provides information about Open Web technologies including HTML, CSS, and APIs"
+},
+  {
     "productName": "Magic Eraser",
     "category": "tools",
     "image": "https://bit.ly/3qCeSLa",
@@ -1967,6 +1974,20 @@
   "image": "bit.ly/3NpP7FE",
   "link": "https://runwayml.com/",
   "description": "Cloud-based video editing and effects platform"
+},
+{
+  "productName": "writefull",
+  "category": "ai",
+  "image": "https://tinyurl.com/5n936eaz",
+  "link": "https://www.writefull.com/#products",
+  "description": "assistant designed to help English writing skills"
+},
+{
+  "productName": "Chakra UI",
+  "category": "tools",
+  "image": "https://www.happylifecreators.com/wp/wp-content/uploads/2022/06/chakra-ui_title2-400x400.png",
+  "link": "https://chakra-ui.com",
+  "description": "Chakra UI is an accessible and customizable React component library for building UIs."
 }
 ]
 
