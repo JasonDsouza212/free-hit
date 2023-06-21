@@ -1,10 +1,10 @@
-import { redirect } from 'react-router-dom'
-import { allFilters } from './data/filters'
+import { redirect } from "react-router-dom";
+import {allFilters} from "./data/filters"
 export default function checkFilter(filters) {
   for (let i = 0; i < filters.length; i++) {
     if (!allFilters.includes(filters[i].toLowerCase())) {
-      return true
+      return true;
     }
   }
-  return false
+  return false;
 }
