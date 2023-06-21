@@ -62,7 +62,7 @@
     "link": "https://bit.ly/3oXcaPL",
     "description": "The #1 way college students & early graduates get Internships & Jobs"
   },
-   {
+  {
     "productName": "Reduce Images",
     "category": "tools",
     "image": "https://ibb.co/SmKdz1X",
@@ -506,7 +506,7 @@
   {
     "productName": "CSSPortal",
     "category": "web",
-    "image":"https://www.cssportal.com/assets/images/cssicon.png",
+    "image": "https://www.cssportal.com/assets/images/cssicon.png",
     "link": "https://www.cssportal.com/",
     "description": "CSS Portal is home to many examples of CSS and how it can be used in website design."
   },
@@ -678,6 +678,14 @@
     "link": "https://www.flaticon.com/",
     "description": "Collection of free vector icons for web design and graphic design."
   },
+  {
+    "productName": "Fireship",
+    "category": "web",
+    "image": "https://avatars.githubusercontent.com/u/46283609?s=280&v=4",
+    "link": "https://fireship.io/lessons/tailwind-tutorial/",
+    "description": "Fireship provides blazingly fast && highly-amusing tricks for TailwindCss."
+  },
+
   {
     "productName": "Friv",
     "category": "tools",
@@ -891,7 +899,7 @@
   {
     "productName": "LeetSync",
     "category": "extensions",
-     "image": "https://bit.ly/43lwVDw",
+    "image": "https://bit.ly/43lwVDw",
     "link": "https://chrome.google.com/webstore/detail/leetsync-leetcode-to-gith/ppkbejeolfcbaomanmbpjdbkfcjfhjnd",
     "description": "Integrate Leetcode submission to GitHub"
   },
@@ -1623,156 +1631,155 @@
     "link": "https://www.favicon.cc/",
     "description": "Favicon.cc is a website that offers a simple and user-friendly platform for creating and customizing favicons."
   },
-{
-  "productName": "DALL·E",
-  "category": "ai",
-  "image": "https://bit.ly/3oICzAN",
-  "link": "https://openai.com/dall-e-2",
-  "description": "An AI system that can create realistic images and art from a description in natural language."
-},
+  {
+    "productName": "DALL·E",
+    "category": "ai",
+    "image": "https://bit.ly/3oICzAN",
+    "link": "https://openai.com/dall-e-2",
+    "description": "An AI system that can create realistic images and art from a description in natural language."
+  },
 
-{
-  "productName": "Novoresume",
-  "category": "resume",
-  "image": "https://bit.ly/3P09nA5",
-  "link": "https://novoresume.com/",
-  "description": "Online resume builder."
-},
-{
-  "productName": "Gencraft",
-  "category": "AI",
-  "image": "https://bit.ly/3Nji330",
-  "link": "https://gencraft.com/",
-  "description": "Watch your prompts turn into beautiful designs, images, and artworks."
-},
-{
-  "productName": "WatchSeriesHD",
-  "category": "movies",
-  "image": "https://rb.gy/xxgtv",
-  "link": "https://watchserieshd.live/",
-  "description": "Stream movies and series in HD quality for free"
-},
-{
-  "productName": "Uiverse.io",
-  "category": "UI",
-  "image": "http://bit.ly/3X19kpw",
-  "link": "https://uiverse.io/",
-  "description": "Discover and customize free, open-source CSS and HTML UI elements, through this tool"
-},
-{
-  "productName": "Leetcode",
-  "category": "coding",
-  "image": "https://leetcode.com/static/images/LeetCode_logo.png",
-  "link": "https://leetcode.com/",
-  "description": "A platform for practicing coding skills and preparing for technical interviews."
-},
-{
-  "productName": "Atcoder",
-  "category": "coding",
-  "image": "http://morningpitch.com/wp-content/uploads/2020/10/download.png",
-  "link": " https://atcoder.jp/",
-  "description": "One of the best platforms for Cp, it was created in Japan"
-},
-{
-  "productName": "Codeforces",
-  "category": "coding",
-  "image": "https://tinyurl.com/3fjue7y6",
-  "link": " https://codeforces.com/",
-  "description": "A competitive programming platform with challenging contests and an active community."
-},
-{
-  "productName": "Codechef",
-  "category": "coding",
-  "image": "https://tinyurl.com/5cx6fp35",
-  "link": "https://www.codechef.com/",
-  "description": "An online community for programmers to improve their skills through contests and challenges."
-},
-{
-  "productName": "SPOJ",
-  "category": "coding",
-  "image": "https://tinyurl.com/yndmds67",
-  "link": "https://www.spoj.com/",
-  "description": "An online judge system with a large collection of programming problems for practice and contests."
-},
-{
-  "productName": "Hackerrank",
-  "category": "coding",
-  "image": "https://tinyurl.com/247ewu64",
-  "link": "https://www.hackerrank.com/",
-  "description": "A coding platform with challenges, contests, and interview preparation resources."
-},
-{
-  "productName": "Hackerearth",
-  "category": "coding",
-  "image": "https://tinyurl.com/4rzch6cp",
-  "link": "https://www.hackerearth.com/",
-  "description": "A platform for skill assessment, coding competitions, and hiring developers."
-},
-{
-  "productName": "CSES",
-  "category": "coding",
-  "image": "https://cses.fi/logo.png?1",
-  "link": "https://cses.fi/",
-  "description": "Competitive Programming Archive featuring a wide range of algorithmic problems."
-},
-{
-  "productName": "Project Euler",
-  "category": "coding",
-  "image": "https://tinyurl.com/4kznjfju",
-  "link": " https://projecteuler.net/",
-  "description": "A collection of challenging mathematical and computational problems."
-},
-{
-  "productName": "Topcoder",
-  "category": "coding",
-  "image": "https://tinyurl.com/y66jd8mt",
-  "link": "https://www.topcoder.com/",
-  "description": "A platform for competitive programming and software development challenges."
-},
-{
-  "productName": "GeeksForGeeks",
-  "category": "coding",
-  "image": "https://t.ly/vKJ8",
-  "link": "https://www.geeksforgeeks.org/",
-  "description": " A portal for computer science resources, tutorials, and coding practice."
-},
-{
-  "productName": "Google Fonts",
-  "category": "tools",
-  "image": "https://tinyurl.com/554n6ry6",
-  "link": "https://fonts.google.com/",
-  "description": "Free and open source font families."
-},
-{
-  "productName": "StackBlitz",
-  "category": "Online Code Editor",
-  "image": "https://avatars.githubusercontent.com/u/28635252?s=200&v=4",
-  "link": "https://stackblitz.com/",
-  "description": "Instant dev experiences: Click, code, no local setup required."
-},
-{
+  {
+    "productName": "Novoresume",
+    "category": "resume",
+    "image": "https://bit.ly/3P09nA5",
+    "link": "https://novoresume.com/",
+    "description": "Online resume builder."
+  },
+  {
+    "productName": "Gencraft",
+    "category": "AI",
+    "image": "https://bit.ly/3Nji330",
+    "link": "https://gencraft.com/",
+    "description": "Watch your prompts turn into beautiful designs, images, and artworks."
+  },
+  {
+    "productName": "WatchSeriesHD",
+    "category": "movies",
+    "image": "https://rb.gy/xxgtv",
+    "link": "https://watchserieshd.live/",
+    "description": "Stream movies and series in HD quality for free"
+  },
+  {
+    "productName": "Uiverse.io",
+    "category": "UI",
+    "image": "http://bit.ly/3X19kpw",
+    "link": "https://uiverse.io/",
+    "description": "Discover and customize free, open-source CSS and HTML UI elements, through this tool"
+  },
+  {
+    "productName": "Leetcode",
+    "category": "coding",
+    "image": "https://leetcode.com/static/images/LeetCode_logo.png",
+    "link": "https://leetcode.com/",
+    "description": "A platform for practicing coding skills and preparing for technical interviews."
+  },
+  {
+    "productName": "Atcoder",
+    "category": "coding",
+    "image": "http://morningpitch.com/wp-content/uploads/2020/10/download.png",
+    "link": " https://atcoder.jp/",
+    "description": "One of the best platforms for Cp, it was created in Japan"
+  },
+  {
+    "productName": "Codeforces",
+    "category": "coding",
+    "image": "https://tinyurl.com/3fjue7y6",
+    "link": " https://codeforces.com/",
+    "description": "A competitive programming platform with challenging contests and an active community."
+  },
+  {
+    "productName": "Codechef",
+    "category": "coding",
+    "image": "https://tinyurl.com/5cx6fp35",
+    "link": "https://www.codechef.com/",
+    "description": "An online community for programmers to improve their skills through contests and challenges."
+  },
+  {
+    "productName": "SPOJ",
+    "category": "coding",
+    "image": "https://tinyurl.com/yndmds67",
+    "link": "https://www.spoj.com/",
+    "description": "An online judge system with a large collection of programming problems for practice and contests."
+  },
+  {
+    "productName": "Hackerrank",
+    "category": "coding",
+    "image": "https://tinyurl.com/247ewu64",
+    "link": "https://www.hackerrank.com/",
+    "description": "A coding platform with challenges, contests, and interview preparation resources."
+  },
+  {
+    "productName": "Hackerearth",
+    "category": "coding",
+    "image": "https://tinyurl.com/4rzch6cp",
+    "link": "https://www.hackerearth.com/",
+    "description": "A platform for skill assessment, coding competitions, and hiring developers."
+  },
+  {
+    "productName": "CSES",
+    "category": "coding",
+    "image": "https://cses.fi/logo.png?1",
+    "link": "https://cses.fi/",
+    "description": "Competitive Programming Archive featuring a wide range of algorithmic problems."
+  },
+  {
+    "productName": "Project Euler",
+    "category": "coding",
+    "image": "https://tinyurl.com/4kznjfju",
+    "link": " https://projecteuler.net/",
+    "description": "A collection of challenging mathematical and computational problems."
+  },
+  {
+    "productName": "Topcoder",
+    "category": "coding",
+    "image": "https://tinyurl.com/y66jd8mt",
+    "link": "https://www.topcoder.com/",
+    "description": "A platform for competitive programming and software development challenges."
+  },
+  {
+    "productName": "GeeksForGeeks",
+    "category": "coding",
+    "image": "https://t.ly/vKJ8",
+    "link": "https://www.geeksforgeeks.org/",
+    "description": " A portal for computer science resources, tutorials, and coding practice."
+  },
+  {
+    "productName": "Google Fonts",
+    "category": "tools",
+    "image": "https://tinyurl.com/554n6ry6",
+    "link": "https://fonts.google.com/",
+    "description": "Free and open source font families."
+  },
+  {
+    "productName": "StackBlitz",
+    "category": "Online Code Editor",
+    "image": "https://avatars.githubusercontent.com/u/28635252?s=200&v=4",
+    "link": "https://stackblitz.com/",
+    "description": "Instant dev experiences: Click, code, no local setup required."
+  },
+  {
     "productName": "freeCodeCamp",
     "category": "tools",
     "image": "https://design-style-guide.freecodecamp.org/downloads/fcc_primary_small.jpg",
     "link": "https://www.freecodecamp.org/",
     "description": "freeCodeCamp is a non-profit organization providing free online coding courses and a supportive community."
-},
-{
-  "productName": "Ant Design",
-  "category": "tools",
-  "image": "https://avatars0.githubusercontent.com/u/12101536?s=280&v=4",
-  "link": "https://ant.design/",
-  "description": "Ant Design is a popular Frontend UI library of React components which makes development code efficient, clean and fast"
-
-},
-{
-  "productName": "Roadmap.sh",
-  "category": "tools",
-  "image": "https://i.pinimg.com/originals/14/ce/13/14ce13dff4ba3a6255916b128dd9ec57.png",
-  "link": "https://roadmap.sh/",
-  "description": "Roadmap.sh is an effort to create roadmaps and guides to help developers in picking up the path"
-},
-{
+  },
+  {
+    "productName": "Ant Design",
+    "category": "tools",
+    "image": "https://avatars0.githubusercontent.com/u/12101536?s=280&v=4",
+    "link": "https://ant.design/",
+    "description": "Ant Design is a popular Frontend UI library of React components which makes development code efficient, clean and fast"
+  },
+  {
+    "productName": "Roadmap.sh",
+    "category": "tools",
+    "image": "https://i.pinimg.com/originals/14/ce/13/14ce13dff4ba3a6255916b128dd9ec57.png",
+    "link": "https://roadmap.sh/",
+    "description": "Roadmap.sh is an effort to create roadmaps and guides to help developers in picking up the path"
+  },
+  {
     "productName": "felxjobs",
     "category": "remote",
     "image": "https://tinyurl.com/ybfchtmw",
@@ -1791,7 +1798,7 @@
     "category": "remote",
     "image": "https://tinyurl.com/48bja2rc",
     "link": "https://www.crossover.com/",
-    "description": "Find a full time remote job" 
+    "description": "Find a full time remote job"
   },
   {
     "productName": "INSIDEA",
@@ -1897,62 +1904,61 @@
     "image": "bit.ly/3Pi0uSi",
     "link": "https://uizard.io/",
     "description": "Design wireframes, mockups, and prototypes in minutes"
-},
-{
-  "productName": "DESIGNS.AI",
-  "category": "resume",
-  "image": "https://tinyurl.com/3c55se3w",
-  "link": "https://designs.ai/design-types/resumes",
-  "description": "Build Professional resumes effortlessly with Designs.AI"
-},
-{
-  "productName": "RESUME WORDED",
-  "category": "resume",
-  "image": "https://resumeworded.com/",
-  "link": "https://resumeworded.com/",
-  "description": "Your personal resume & LinkedIn coach"
-},
-{
-  "productName": "These resumes do not exist",
-  "category": "resume",
-  "image": "https://thisresumedoesnotexist.com/",
-  "link": "https://thisresumedoesnotexist.com/",
-  "description": "Stand out among the competition with over 1000 AI-inspired resume examples."
-},
-{
-  "productName": "HyreSnap",
-  "category": "resume",
-  "image": "https://tinyurl.com/3wfpyr8f",
-  "link": "https://hyresnap.com/resume-builder",
-  "description": "Elevate your interview chances with our Modern Resume Templates"
-},
-{
-  "productName": "skillroads",
-  "category": "resume",
-  "image": "https://skillroads.com/free-online-resume-builder",
-  "link": "https://skillroads.com/free-online-resume-builder",
-  "description": "Creating a modern and sharp resume has never been easier!"
-},
-{
-  "productName": "myperfectresume",
-  "category": "resume",
-  "image": "https://tinyurl.com/3cah9f79",
-  "link": "https://www.myperfectresume.com/",
-  "description": "Create Your Perfect Resume Today"
-},
-{
-  "productName": "VisualCV",
-  "category": "resume",
-  "image": "https://www.visualcv.com/",
-  "link": "https://www.visualcv.com/",
-  "description": "Create a job-ready resume in minutes."
-},
-{
-  "productName": "resume.com",
-  "category": "resume",
-  "image": "https://www.resume.com/",
-  "link": "https://www.resume.com/",
-  "description": "Build a professional resume for free"
-}
+  },
+  {
+    "productName": "DESIGNS.AI",
+    "category": "resume",
+    "image": "https://tinyurl.com/3c55se3w",
+    "link": "https://designs.ai/design-types/resumes",
+    "description": "Build Professional resumes effortlessly with Designs.AI"
+  },
+  {
+    "productName": "RESUME WORDED",
+    "category": "resume",
+    "image": "https://resumeworded.com/",
+    "link": "https://resumeworded.com/",
+    "description": "Your personal resume & LinkedIn coach"
+  },
+  {
+    "productName": "These resumes do not exist",
+    "category": "resume",
+    "image": "https://thisresumedoesnotexist.com/",
+    "link": "https://thisresumedoesnotexist.com/",
+    "description": "Stand out among the competition with over 1000 AI-inspired resume examples."
+  },
+  {
+    "productName": "HyreSnap",
+    "category": "resume",
+    "image": "https://tinyurl.com/3wfpyr8f",
+    "link": "https://hyresnap.com/resume-builder",
+    "description": "Elevate your interview chances with our Modern Resume Templates"
+  },
+  {
+    "productName": "skillroads",
+    "category": "resume",
+    "image": "https://skillroads.com/free-online-resume-builder",
+    "link": "https://skillroads.com/free-online-resume-builder",
+    "description": "Creating a modern and sharp resume has never been easier!"
+  },
+  {
+    "productName": "myperfectresume",
+    "category": "resume",
+    "image": "https://tinyurl.com/3cah9f79",
+    "link": "https://www.myperfectresume.com/",
+    "description": "Create Your Perfect Resume Today"
+  },
+  {
+    "productName": "VisualCV",
+    "category": "resume",
+    "image": "https://www.visualcv.com/",
+    "link": "https://www.visualcv.com/",
+    "description": "Create a job-ready resume in minutes."
+  },
+  {
+    "productName": "resume.com",
+    "category": "resume",
+    "image": "https://www.resume.com/",
+    "link": "https://www.resume.com/",
+    "description": "Build a professional resume for free"
+  }
 ]
-
