@@ -693,6 +693,13 @@
     "description": "Collection of free vector icons for web design and graphic design."
   },
   {
+    "productName": "Fireship",
+    "category": "web",
+    "image": "https://avatars.githubusercontent.com/u/46283609?s=280&v=4",
+    "link": "https://fireship.io/lessons/tailwind-tutorial/",
+    "description": "Fireship provides blazingly fast && highly-amusing tricks for TailwindCss."
+  },
+  {
     "productName": "Friv",
     "category": "tools",
     "image": "https://www.friv.com/z/assets/img/frivLogoBrightGreenMin.svg",
