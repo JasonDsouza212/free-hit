@@ -2,9 +2,9 @@
   {
     "productName": "JSONView",
     "category": "extension",
-    "image": "https://lh3.googleusercontent.com/8hRRsq-5RSeLvRv5NAGrQAmrPXTg2vnyYjNIdXM9qhbNCUI0A09T_J3wsFpsSBVsRcRs0-YSVT-gKc6GPqoWwpBPZQ=w128-h128-e365-rj-sc0x00ffffff",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/JSON_vector_logo.svg/1200px-JSON_vector_logo.svg.png",
     "link": "https://chrome.google.com/webstore/detail/jsonview/gmegofmjomhknnokphhckolhcffdaihd",
-    "description": "When we see the JSON content from the browser it shows simple text in large format and It si very hard to understand it. This JSONView directly converts the JSON content into an understandable format and It is very easy to view and understand the large content easily."
+    "description": "When we see the JSON content from the browser it shows simple text. This JSONView directly converts the JSON content into an understandable format."
   },
   {
     "productName": "Netlify",
