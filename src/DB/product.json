@@ -1,5 +1,12 @@
 [
   {
+    "productName": "JSONView",
+    "category": "extension",
+    "image": "https://shorturl.at/uvFQ9",
+    "link": "https://chrome.google.com/webstore/detail/jsonview/gmegofmjomhknnokphhckolhcffdaihd",
+    "description": "This JSONView converts the JSON content into an understandable format and esay to view."
+  },
+  {
     "productName": "Netlify",
     "category": "tools",
     "image": "https://bit.ly/3qCeSLa",
