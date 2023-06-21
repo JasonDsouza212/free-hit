@@ -7,6 +7,13 @@
     "description": "Netlify provides free hosting, deploying, and many more service to the user so the user doesn't need to worry about the hosting."
   },
   {
+    "productName": "MDN Web Docs",
+    "category": "tools",
+    "image": "https://bit.ly/3PuJPuO ",
+    "link": " https://developer.mozilla.org/en-US/ ",
+    "description": " Provides information about Open Web technologies including HTML, CSS, and APIs"
+},
+  {
     "productName": "Magic Eraser",
     "category": "tools",
     "image": "https://bit.ly/3qCeSLa",
