@@ -1953,6 +1953,20 @@
   "image": "https://www.resume.com/",
   "link": "https://www.resume.com/",
   "description": "Build a professional resume for free"
+},
+{
+  "productName": "Otter AI",
+  "category": "ai",
+  "image": "bit.ly/3CGspEe",
+  "link": "https://otter.ai/",
+  "description": "Convert voice to text"
+},
+{
+  "productName": "Runway AI",
+  "category": "ai",
+  "image": "bit.ly/3NpP7FE",
+  "link": "https://runwayml.com/",
+  "description": "Cloud-based video editing and effects platform"
 }
 ]
 
