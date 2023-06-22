@@ -114,6 +114,43 @@ img {
   text-align: left;
 }
 
+.card-img{
+  transition: .5s;
+}
+.card-title{
+transition: 1s;
+transform-origin: center;
+margin-inline: 8px;
+margin-block:5px 10px;
+position: relative;
+top: -4px;
+}
+.card-title::after{
+  content: "";
+  position: absolute;
+  width:0;
+  height: 3px;
+  background-color: var(--primary-black);
+  bottom: -5px;
+  left: 50%;
+  transition: .5s;
+  transform-origin: center;
+}
+
+.card-title:hover::after{
+  width:92%;
+left: 0;
+}
+
+.card-img:hover .card-title::after{
+  width:92%;
+left: 0;
+}
+.text_top:hover .card-img{
+transform: scale(1.1);
+box-shadow: 4px 5px 8px rgba(0, 0, 0, 0.447);
+
+}
 .btn-cont button {
   background-color: var(--primary-black);
   padding: 7px 25px;
