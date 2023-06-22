@@ -2016,6 +2016,20 @@
   "image": "https://www.frontendmentor.io/",
   "link": "https://www.frontendmentor.io/",
   "description": "A platform providing challenges for frontend developers to sharp their skills."
+},
+{
+  "productName": "Class Central",
+  "category": "tools",
+  "image": "https://bit.ly/46jrGXc",
+  "link": "https://www.classcentral.com/",
+  "description": "Class Central is a website that lists online courses from top universities and providers."
+},
+{
+  "productName": "Talk to Books ",
+  "category": "Useful Tools",
+  "image": "https://bit.ly/46hqdjP",
+  "link": "https://books.google.com/talktobooks/",
+  "description": "Users could ask questions, phrases, and the AI would scan through of books to find relevant passages and provide answers."
 }
 ]
 
