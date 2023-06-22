@@ -37,6 +37,38 @@ body {
   cursor: pointer;
 }
 
+.dark-mode-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+  color: var(--primary-black);
+  transition: color 0.3s;
+}
+
+.dark-mode-toggle:hover {
+  color: #000;
+}
+
+.dark-mode-toggle:focus {
+  outline: none;
+}
+
+.dark-mode .dark-mode-toggle {
+  color: var(--primary-white);
+}
+
+.dark-mode .dark-mode-toggle .sun {
+  display: inline;
+}
+
+.dark-mode .dark-mode-toggle .moon {
+  display: none;
+}
+
 @media (min-width: 768px) {
   .card_view {
     margin-top: 20px;
@@ -171,3 +203,30 @@ img {
   width: 100%;
 }
 /* card end */
+
+/* Dark Mode Styles */
+
+.dark-mode {
+  --primary-white: #373530;
+  --primary-black: #f1f1ef;
+}
+
+.dark-mode .card_container {
+  background-color: var(--primary-black);
+}
+
+.dark-mode .card_view svg {
+  fill: var(--primary-white);
+}
+
+.dark-mode .no-results {
+  color: var(--primary-white);
+}
+
+.dark-mode .not-found-wrapper {
+  border: 1px solid var(--primary-white);
+}
+
+.dark-mode .not-found-wrapper .not-found-img {
+  filter: invert(1);
+}
