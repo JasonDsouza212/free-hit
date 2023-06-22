@@ -2011,6 +2011,13 @@
   "description": "Chakra UI is an accessible and customizable React component library for building UIs."
 },
 {
+  "productName": "Frontend Mentor",
+  "category": "web",
+  "image": "https://www.frontendmentor.io/",
+  "link": "https://www.frontendmentor.io/",
+  "description": "A platform providing challenges for frontend developers to sharp their skills."
+},
+{
   "productName": "Class Central",
   "category": "tools",
   "image": "https://bit.ly/46jrGXc",
