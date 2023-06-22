@@ -34,10 +34,20 @@
   overflow: hidden;
   transition: all 0.2s ease-in-out;
   justify-content: center;
-  border: 1px solid #1e40af;
 }
-.contributors-list .contributor-anchor:hover,
-.contributors-list .contributor-anchor:focus {
+.contributor{
+  border: 1px solid #191e2d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 10px;
+}
+.contributor-card{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+.contributor:hover,
+.contributor:focus {
   box-shadow: 0px -1px 26px 0px rgba(0.59);
   -webkit-box-shadow: 0px -1px 26px 0px rgba(0.59);
   -moz-box-shadow: 0px -1px 26px 0px rgba(0.59);
@@ -47,7 +57,7 @@
 .contributors-list .contributor-anchor .contributor-image {
   width: 100px;
   height: auto;
-  filter: grayscale(95%);
+  filter: grayscale(100%);
   display: flex;
   justify-content: space-between;
 }
@@ -61,7 +71,13 @@
   text-align: center;
   font-size: 13px;
   margin-top: 10px;
+  font-weight: lighter;
   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.contributions{
+  text-align: center;
+  font-size: 13px;
+  font-weight: 100;
 }
 
 @media screen and (max-width: 1024px) {
