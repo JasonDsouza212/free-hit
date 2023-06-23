@@ -1,11 +1,12 @@
-import React, { useContext } from 'react'
-import Header from '../components/Navbar'
-import { ToolContext } from '../App'
-import noresultimg from '../assets/sad-face.png'
-import { useSearchParams, Navigate } from 'react-router-dom'
-import filterProducts from '../utils/filter/filter_products'
-import checkFilter from '../utils/check_filters'
-import searchProducts from '../utils/search/search_products'
+import React, { useContext } from 'react';
+import Header from '../components/Navbar';
+import { ToolContext } from '../App';
+import noresultimg from '../assets/sad-face.png';
+import { useSearchParams, Navigate } from 'react-router-dom';
+import filterProducts from '../utils/filter/filter_products';
+import checkFilter from '../utils/check_filters';
+import searchProducts from '../utils/search/search_products';
+import '../styles/bookmark.css';
 
 const BookMarks = () => {
   const { bookmarks, deleteres } =
@@ -30,8 +31,10 @@ const BookMarks = () => {
     currentProducts = currentProducts.filter(product => product.productName == filterNames[0])  
   }
 
+  const { darkMode } = useContext(ToolContext);
+
   return ( 
-    <div className="card_container">
+    <div className={`card_container ${darkMode ? 'dark-mode' : ''}`}>
       <Header filteredSuggestions={filterNames} />
       <div className="card-container">
         {currentProducts.length === 0 ? (
@@ -54,7 +57,9 @@ const BookMarks = () => {
                         />
                         <h3 className="card-title">{product.productName}</h3>
                       </div>
-                      <p>{product.description}</p>
+                      <p className={darkMode ? 'dark-mode' : ''}
+                          activeclassname="active">
+                            {product.description}</p>
                       <div className="btn-cont">
                         <button>
                           <a target="_blank" href={product.link}>

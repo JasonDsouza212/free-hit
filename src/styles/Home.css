@@ -132,6 +132,10 @@ img {
   -webkit-line-clamp: 3;
 }
 
+.grid article p.dark-mode{
+  color:white;
+}
+
 .grid article .text_top {
   display: flex;
   align-items: center;
