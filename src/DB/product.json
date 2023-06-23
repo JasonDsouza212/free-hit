@@ -1932,6 +1932,7 @@
     "image": "bit.ly/3Pi0uSi",
     "link": "https://uizard.io/",
     "description": "Design wireframes, mockups, and prototypes in minutes"
+<<<<<<< Updated upstream
 },
 {
   "productName": "DESIGNS.AI",
@@ -2080,5 +2081,155 @@
   "link": "https://www.poised.com/",
   "description": "poised is an AI powered communication coach."
 }
+=======
+  },
+  {
+    "productName": "DESIGNS.AI",
+    "category": "resume",
+    "image": "https://tinyurl.com/3c55se3w",
+    "link": "https://designs.ai/design-types/resumes",
+    "description": "Build Professional resumes effortlessly with Designs.AI"
+  },
+  {
+    "productName": "RESUME WORDED",
+    "category": "resume",
+    "image": "https://resumeworded.com/",
+    "link": "https://resumeworded.com/",
+    "description": "Your personal resume & LinkedIn coach"
+  },
+  {
+    "productName": "These resumes do not exist",
+    "category": "resume",
+    "image": "https://thisresumedoesnotexist.com/",
+    "link": "https://thisresumedoesnotexist.com/",
+    "description": "Stand out among the competition with over 1000 AI-inspired resume examples."
+  },
+  {
+    "productName": "HyreSnap",
+    "category": "resume",
+    "image": "https://tinyurl.com/3wfpyr8f",
+    "link": "https://hyresnap.com/resume-builder",
+    "description": "Elevate your interview chances with our Modern Resume Templates"
+  },
+  {
+    "productName": "skillroads",
+    "category": "resume",
+    "image": "https://skillroads.com/free-online-resume-builder",
+    "link": "https://skillroads.com/free-online-resume-builder",
+    "description": "Creating a modern and sharp resume has never been easier!"
+  },
+  {
+    "productName": "myperfectresume",
+    "category": "resume",
+    "image": "https://tinyurl.com/3cah9f79",
+    "link": "https://www.myperfectresume.com/",
+    "description": "Create Your Perfect Resume Today"
+  },
+  {
+    "productName": "VisualCV",
+    "category": "resume",
+    "image": "https://www.visualcv.com/",
+    "link": "https://www.visualcv.com/",
+    "description": "Create a job-ready resume in minutes."
+  },
+  {
+    "productName": "resume.com",
+    "category": "resume",
+    "image": "https://www.resume.com/",
+    "link": "https://www.resume.com/",
+    "description": "Build a professional resume for free"
+  },
+  {
+    "productName": "Google bard",
+    "category": "ai",
+    "image": "bit.ly/3NgYYx9",
+    "link": "https://bard.google.com/",
+    "description": "AI tools "
+  },
+  {
+    "productName": "Otter AI",
+    "category": "ai",
+    "image": "bit.ly/3CGspEe",
+    "link": "https://otter.ai/",
+    "description": "Convert voice to text"
+  },
+  {
+    "productName": "Runway AI",
+    "category": "ai",
+    "image": "bit.ly/3NpP7FE",
+    "link": "https://runwayml.com/",
+    "description": "Cloud-based video editing and effects platform"
+  },
+  {
+    "productName": "writefull",
+    "category": "ai",
+    "image": "https://tinyurl.com/5n936eaz",
+    "link": "https://www.writefull.com/#products",
+    "description": "assistant designed to help English writing skills"
+  },
+  {
+    "productName": "Chakra UI",
+    "category": "tools",
+    "image": "https://www.happylifecreators.com/wp/wp-content/uploads/2022/06/chakra-ui_title2-400x400.png",
+    "link": "https://chakra-ui.com",
+    "description": "Chakra UI is an accessible and customizable React component library for building UIs."
+  },
+  {
+    "productName": "Postman",
+    "category": "backend",
+    "image": "https://bit.ly/43VtKCO",
+    "link": "https://www.postman.com/",
+    "description": "Postman: Backend API tool for development and testing."
+  },
+  {
+    "productName": "RabbitMQ",
+    "category": "backend",
+    "image": "https://bit.ly/3CHQiuO",
+    "link": "https://www.rabbitmq.com",
+    "description": "RabbitMQ: Open-source message broker implementing AMQP."
+  },
+  {
+    "productName": "Redis",
+    "category": "backend",
+    "image": "https://bit.ly/3CKnamM",
+    "link": "https://redis.io",
+    "description": "Redis: In-memory data store used for database, cache, and messaging."
+  },
+  {
+    "productName": "Apache Kafka",
+    "category": "backend",
+    "image": "https://bit.ly/3Ptm2vE",
+    "link": "https://kafka.apache.org",
+    "description": "Apache Kafka: Distributed streaming platform for real-time records."
+  },
+  {
+    "productName": "GraphQL",
+    "category": "backend",
+    "image": "https://bit.ly/3XmN7SU",
+    "link": "https://graphql.org",
+    "description": "GraphQL: Open-source query language and runtime for APIs."
+  },
+  {
+    "productName": "Firebase",
+    "category": "backend",
+    "image": "https://bit.ly/3NMDkm9",
+    "link": "https://firebase.google.com",
+    "description": "Firebase: Comprehensive development platform with backend services."
+  },
+  {
+    "productName": "Appwrite",
+    "category": "backend",
+    "image": "https://bit.ly/44eR4LB",
+    "link": "https://appwrite.io",
+    "description": "Appwrite: Open-source backend server for web and mobile apps."
+  },
+  {
+    "productName": "Auth0",
+    "category": "backend",
+    "image": "https://bit.ly/3pc6KAJ",
+    "link": "https://auth0.com",
+    "description": "Auth0: Identity and access management platform for authentication."
+  }
+>>>>>>> Stashed changes
 ]
 
