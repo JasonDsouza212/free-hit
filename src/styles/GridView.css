@@ -1,0 +1,23 @@
+/* GridView.css */
+
+/* Dark mode styles */
+.grid.dark-mode {
+    background-color: var(--primary-black);
+    color: var(--primary-white);
+  }
+  
+  .grid.dark-mode .card-title,
+  .grid.dark-mode .card-description {
+    color: var(--primary-white);
+  }
+  
+  .grid.dark-mode .visit {
+    background-color: var(--primary-white);
+    color: var(--primary-black);
+  }
+  
+  .grid.dark-mode .bookmark {
+    background-color: var(--primary-black);
+    color: var(--primary-white);
+  }
+  
