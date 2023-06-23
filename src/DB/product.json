@@ -2037,6 +2037,13 @@
   "image": "https://bit.ly/46hqdjP",
   "link": "https://books.google.com/talktobooks/",
   "description": "Users could ask questions, phrases, and the AI would scan through of books to find relevant passages and provide answers."
+},
+{
+  "productName": "Text2SQL AI",
+  "category": "ai",
+  "image": "bit.ly/3JoQcMD",
+  "link": "https://www.text2sql.ai/",
+  "description": "Convert natural language queries into SQL queries"
 }
 ]
 
