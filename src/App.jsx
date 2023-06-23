@@ -53,6 +53,7 @@ function App() {
     deleteres,
     gridView,
     setGridView,
+    isDarkMode: JSON.parse(localStorage.getItem("darkMode")) || false
   }
 
   return (

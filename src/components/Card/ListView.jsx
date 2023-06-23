@@ -6,7 +6,6 @@ import { BsChevronDown } from 'react-icons/bs';
 
 const ListView = ({ currentProducts }) => {
   const { handelBookmarkAdd, bookmarks, deleteres, isDarkMode } = useContext(ToolContext);
-
   return (
     <Accordion allowToggle className={`list ${isDarkMode ? 'dark-mode' : ''}`}>
       {currentProducts.map((product, index) => (
