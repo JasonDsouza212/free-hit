@@ -2037,6 +2037,13 @@
   "image": "https://bit.ly/46hqdjP",
   "link": "https://books.google.com/talktobooks/",
   "description": "Users could ask questions, phrases, and the AI would scan through of books to find relevant passages and provide answers."
+},
+{
+  "productName": "Exercism",
+  "category": "Coding",
+  "image": "https://bit.ly/3qY1Ck6",
+  "link": "https://exercism.org/",
+  "description": "Exercism is a coding platform that offers a hands-on learning experience, providing programmers with a wide range of challenges to practice and improve their skills."
 }
 ]
 
