@@ -42,7 +42,7 @@ export default function Sidebar() {
 			<i className="fa ri-menu-fill"></i>
 			<i className="fa ri-close-line"></i>
 		</label>
-		{location.pathname === '/about' ? (
+		{location.pathname === '/about' || location.pathname === '/community' ? (
 			<nav id="sidebar">
 				<ul className="list-items list-item">
 					<li className='about-list'>
