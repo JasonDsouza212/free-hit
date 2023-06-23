@@ -2,7 +2,7 @@
 import React, { useContext } from 'react';
 import Header from '../components/Navbar';
 import { ToolContext } from '../App';
-import noresultimg from '../assets/sad-face.png';
+import noresultimg from '../assets/sad-face.webp';
 import { useSearchParams, Navigate } from 'react-router-dom';
 import filterProducts from '../utils/filter/filter_products';
 import checkFilter from '../utils/check_filters';
