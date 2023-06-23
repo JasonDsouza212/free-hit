@@ -1,5 +1,12 @@
 [
   {
+    "productName": "Momentum",
+    "category": "extensions",
+    "image": "https://bit.ly/3JoG8mI",
+    "link": "https://bit.ly/3JoG6v6",
+    "description": "Replace new tab page with a personal dashboard to help you get focused, stay organized, and keep motivated to achieve your goals."
+  },
+  {
     "productName": "JSONView",
     "category": "extension",
     "image": "https://shorturl.at/uvFQ9",
