@@ -280,3 +280,7 @@ box-shadow: 4px 5px 8px rgba(0, 0, 0, 0.447);
   background-color: var(--primary-black);
   color: var(--primary-white);
 }
+
+.card_container .card-container .not-found-wrapper .no-results.dark-mode{
+  color:white;
+}
