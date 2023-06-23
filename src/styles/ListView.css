@@ -51,12 +51,12 @@
   font-weight: 600;
   letter-spacing: 0.2px;
   text-align: left;
-  color: var(--primary-black)
+  color: var(--primary-black);
 }
 
 .list .text p {
   max-width: 100%;
-  color: var(--primary-black)
+  color: var(--primary-black);
 }
 
 .list .btn-cont {

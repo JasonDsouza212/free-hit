@@ -1,5 +1,13 @@
 /* GridView.css */
 
+
+.grid .card-title{
+    color: var(--primary-black);
+}
+
+.grid .card-description{
+    color: var(--primary-black);
+}
 /* Dark mode styles */
 .grid.dark-mode {
     background-color: var(--primary-black);
