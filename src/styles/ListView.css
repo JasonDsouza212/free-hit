@@ -12,6 +12,7 @@
 .list .accordion_item {
   display: flex;
   align-items: center;
+  flex-direction: column;
   padding: 10px 20px;
   border: 2px solid var(--primary-black);
   border-radius: 8px;
@@ -27,7 +28,9 @@
 .list .image {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   gap: 20px;
+  width: 100%;
 }
 
 .list .image .card-img {
@@ -36,31 +39,24 @@
   object-fit: contain;
 }
 
-.list .text {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  width: 100%;
-}
-
 .list .accordion_btn {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 92%;
+  width: 100%;
 }
 
 .list .card-title {
   font-size: 24px;
   font-weight: 600;
   letter-spacing: 0.2px;
-  width: inherit;
   text-align: left;
+  color: var(--primary-black)
 }
 
 .list .text p {
   max-width: 100%;
-  width: inherit;
+  color: var(--primary-black)
 }
 
 .list .btn-cont {
@@ -68,6 +64,18 @@
   align-items: center;
   justify-content: flex-end;
   width: 100%;
+  margin-top: 10px;
+}
+
+.list .accordion_panel .btn-cont {
+  display: none;
+}
+
+.list .accordion_panel {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
 }
 
 .list.dark-mode .visit,
@@ -83,16 +91,6 @@
 
 .list.dark-mode .accordion_item:hover {
   box-shadow: 6px 6px 0px 0px #ffffff;
-}
-
-.list .accordion_panel .btn-cont {
-  display: none;
-}
-
-.list .accordion_panel {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
 }
 
 @media (max-width: 560px) {

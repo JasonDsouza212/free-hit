@@ -36,7 +36,9 @@ const ListView = ({ currentProducts }) => {
                 />
               )}
               <div className="accordion_btn">
-                <h3 className="card-title">{product.productName}</h3>
+                <h3 className={`card-title ${isDarkMode ? 'dark-mode' : ''}`}>
+              {product.productName}
+                </h3>
                 <div className="btn-cont">
                   <a target="_blank" href={product.link}>
                     <button className="visit">
@@ -75,7 +77,9 @@ const ListView = ({ currentProducts }) => {
           <AccordionPanel py={2} pt={0}>
             <div className="text">
               <div className="accordion_panel">
-                <p>{product.description}</p>
+              <p className={`card-description ${isDarkMode ? 'dark-mode' : ''}`}>
+                {product.description}
+              </p>
                 <div className="btn-cont ">
                   <a target="_blank" href={product.link}>
                     <button className="visit">
