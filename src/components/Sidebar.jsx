@@ -2,7 +2,6 @@ import { NavLink, useLocation, useSearchParams } from 'react-router-dom';
 import TwitterButton from './TwitterButton';
 import { msg } from '../utils/data/message';
 import ButtonLinks from '../utils/data/categories';
-import '../styles/header.css';
 import { useContext } from 'react';
 import { ToolContext } from '../App';
 
@@ -58,31 +57,23 @@ export default function Sidebar() {
         <i className="fa ri-close-line"></i>
       </label>
       {location.pathname === '/about' || location.pathname === '/community' ? (
-        <nav className="sidebar">
-          <ul className="list-items">
-            <li className="about-list">
-              <NavLink
-                to="/"
-                className={darkMode ? 'dark-mode' : ''}
-                activeclassname="active"
-              >
-                <i className="ri-home-4-fill"></i> Home
-              </NavLink>
-            </li>
-            <li className="about-list">
-              <NavLink
-                to="/bookmarks"
-                className={darkMode ? 'dark-mode' : ''}
-                activeclassname="active"
-              >
-                <i className="ri-bookmark-fill"></i> Bookmarks
-              </NavLink>
-            </li>
-            <li className="about-list">
-              <TwitterButton message={msg} />
-            </li>
-          </ul>
-        </nav>
+        <nav id="sidebar">
+				<ul className="list-items list-item">
+					<li className='about-list'>
+						<NavLink to="/">
+							<i className="ri-home-4-fill"></i> Home
+						</NavLink>
+					</li>
+					<li className='about-list'>
+						<NavLink to="/bookmarks">
+							<i className="ri-bookmark-fill"></i> Bookmarks
+						</NavLink>
+					</li>
+					<li className='about-list'>
+						<TwitterButton message={msg} />
+					</li>
+				</ul>
+			</nav>
       ) : (
         <nav id="sidebar">
           <div className="title">
@@ -117,7 +108,7 @@ export default function Sidebar() {
                 }
               >
                 <button 
-					className={darkMode ? 'dark-mode' : ''}
+					          className={darkMode ? 'dark-mode' : ''}
                   	onClick={(e) => handleAddFilter(buttonLink.category, e)}
                 >
                   {buttonLink.name}

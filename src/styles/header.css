@@ -116,6 +116,7 @@ nav {
   border-bottom: 1px solid #555;
 }
 
+
 .pages-sidebar {
   list-style: none;
   display: flex;
@@ -136,7 +137,6 @@ nav {
   padding: 10px;
 }
 
-
 .pages-sidebar li a i {
   margin-right: 4px;
   position: relative;
@@ -155,7 +155,6 @@ nav {
   font-size: 18px;
   font-weight: 500; 
 }
-
 #sidebar .list-items li {
   border-top: 1px solid #333;
   border-bottom: 1px solid #444;
@@ -164,7 +163,6 @@ nav {
   line-height: 50px;
   transition: all 0.3s ease;
 }
-
 #sidebar .list-items li:hover {
   background-color: #333;
 }
