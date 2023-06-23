@@ -1,12 +1,5 @@
 [
   {
-    "productName": "Momentum",
-    "category": "extensions",
-    "image": "https://bit.ly/3JoG8mI",
-    "link": "https://bit.ly/3JoG6v6",
-    "description": "Replace new tab page with a personal dashboard to help you get focused, stay organized, and keep motivated to achieve your goals."
-  },
-  {
     "productName": "JSONView",
     "category": "extension",
     "image": "https://shorturl.at/uvFQ9",
@@ -140,7 +133,7 @@
     "description": "Record a video from the camera or capture it from the screen"
   },
   {
-    "productName": "Awesome Screenshot",
+    "productName": "Awesome Screen Capture And Recorder",
     "category": "tools",
     "image": "https://avatars.slack-edge.com/2019-03-29/593781862471_95d3bb4cccb9b58821be_512.png",
     "link": "https://www.awesomescreenshot.com/",
@@ -1050,13 +1043,6 @@
     "description": "An AI tool can be used to check for plagiarism and determine whether a sentence was written by a human or an AI program."
   },
   {
-    "productName": "Resumemaker.ai",
-    "category": "ai",
-    "image": "https://shorturl.at/cxMV3",
-    "link": "https://resumaker.ai/",
-    "description": "Resumemaker.ai help the developer to create their resume freely and with efficiently."
-  },
-  {
     "productName": "ChatGPT",
     "category": "ai",
     "image": "https://bit.ly/40DElQS",
@@ -1526,7 +1512,7 @@
     "link": "https://regexr.com/"
   },
   {
-    "productName": "Unblast",
+    "productName": "Unblast UI  Templates",
     "category": "UI",
     "image": "https://bit.ly/3qlij8V",
     "link": "https://bit.ly/3C51MZ3",
@@ -1547,21 +1533,21 @@
     "description": "UI Design Mockups Available 2d & 3D"
   },
   {
-    "productName": "Muzli Collections",
+    "productName": "UI : Muzli Collections",
     "category": "UI",
     "image": "https://bit.ly/42h8JRq",
     "link": "https://bit.ly/3IOltZ2",
     "description": "Profile Page screen design inspiration"
   },
   {
-    "productName": "Dashboard UI Kit",
+    "productName": "Dashboard UI Kit 3.0",
     "category": "UI",
     "image": "https://bit.ly/3N2secf",
     "link": "https://bit.ly/3N4lGK9",
     "description": "The first and largest design kit for web apps and dashboards developed in React."
   },
   {
-    "productName": "Freebies UI",
+    "productName": "UI Kit : figma, XD, etc",
     "category": "UI",
     "image": "https://bit.ly/45COMri",
     "link": "https://bit.ly/45BOgd8",
@@ -2026,57 +2012,57 @@
   {
     "productName": "Postman",
     "category": "backend",
-    "image": "https://bit.ly/43VtKCO",
-    "link": "https://www.postman.com/",
-    "description": "Postman: Backend API tool for development and testing."
+    "image": "https://img.uxwing.com/wp-content/themes/uxwing/download/brands-social-media/postman-icon.png",
+    "link": "https://chakra-ui.com",
+    "description": "Chakra UI is an accessible and customizable React component library for building UIs."
   },
   {
     "productName": "RabbitMQ",
     "category": "backend",
-    "image": "https://bit.ly/3CHQiuO",
+    "image": "https://w7.pngwing.com/pngs/347/272/png-transparent-rabbitmq-advanced-message-queuing-protocol-message-broker-message-queue-computer-servers-advanced-message-queuing-protocol-angle-text-rectangle-thumbnail.png",
     "link": "https://www.rabbitmq.com",
-    "description": "RabbitMQ: Open-source message broker implementing AMQP."
+    "description": "RabbitMQ is an open-source message broker that implements the Advanced Message Queuing Protocol (AMQP). It enables applications to communicate and exchange messages in a reliable and scalable manner."
   },
   {
     "productName": "Redis",
     "category": "backend",
-    "image": "https://bit.ly/3CKnamM",
+    "image": "https://cdn4.iconfinder.com/data/icons/redis-2/1451/Untitled-2-512.png",
     "link": "https://redis.io",
-    "description": "Redis: In-memory data store used for database, cache, and messaging."
+    "description": "Redis is an in-memory data structure store that can be used as a database, cache, and message broker. It supports various data structures and provides high-performance data storage and retrieval."
   },
   {
     "productName": "Apache Kafka",
     "category": "backend",
-    "image": "https://bit.ly/3Ptm2vE",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Apache_kafka-icon.svg/2048px-Apache_kafka-icon.svg.png",
     "link": "https://kafka.apache.org",
-    "description": "Apache Kafka: Distributed streaming platform for real-time records."
+    "description": "Apache Kafka is a distributed streaming platform that allows you to publish and subscribe to streams of records in real-time. It is known for its high throughput, fault-tolerance, and scalability."
   },
   {
     "productName": "GraphQL",
     "category": "backend",
-    "image": "https://bit.ly/3XmN7SU",
+    "image": "https://graphql.org/img/logo.svg",
     "link": "https://graphql.org",
-    "description": "GraphQL: Open-source query language and runtime for APIs."
+    "description": "GraphQL is an open-source query language for APIs and a runtime for executing those queries. It enables clients to request only the data they need, making it efficient and flexible for building APIs."
   },
   {
     "productName": "Firebase",
     "category": "backend",
-    "image": "https://bit.ly/3NMDkm9",
+    "image": "https://img.icons8.com/?size=512&id=62452&format=png",
     "link": "https://firebase.google.com",
-    "description": "Firebase: Comprehensive development platform with backend services."
+    "description": "Firebase is a comprehensive development platform that offers a wide range of backend services for building web and mobile applications. It includes features like real-time database, authentication, hosting, cloud functions, and more."
   },
   {
     "productName": "Appwrite",
     "category": "backend",
-    "image": "https://bit.ly/44eR4LB",
+    "image": "https://appwrite.io/images-ee/press/square-logo-pink.svg",
     "link": "https://appwrite.io",
-    "description": "Appwrite: Open-source backend server for web and mobile apps."
+    "description": "Appwrite is an open-source backend server that helps developers build web and mobile applications easily. It offers authentication, database management, file storage, and more, all accessible through a simple API."
   },
   {
     "productName": "Auth0",
     "category": "backend",
-    "image": "https://bit.ly/3pc6KAJ",
+    "image": "https://static-00.iconduck.com/assets.00/auth0-icon-512x512-3wef3www.png",
     "link": "https://auth0.com",
-    "description": "Auth0: Identity and access management platform for authentication."
+    "description": "Auth0 is an identity and access management platform that provides secure authentication and authorization solutions for applications. It offers features like single sign-on, social login integration, and multi-factor authentication."
   }
 ]

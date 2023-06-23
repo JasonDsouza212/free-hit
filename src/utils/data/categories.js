@@ -65,6 +65,12 @@ const ButtonLinks = [
     category: 'tools',
     icon: 'ri-tools-fill',
   },
-]
+  {
+    id: 12,
+    name: 'Backend Tools',
+    category: 'backend',
+    icon: 'ri-server-line',
+  },
+];
 
-export default ButtonLinks
+export default ButtonLinks;
