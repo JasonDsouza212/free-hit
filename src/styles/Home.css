@@ -152,6 +152,7 @@ img {
   border-radius: 8px;
   margin: 2px;
   transition: all 0.3s ease;
+  color: var(--primary-white);
 }
 
 .btn-cont button a {
@@ -179,6 +180,7 @@ img {
 .visit {
   cursor: pointer;
 }
+
 
 .no-results {
   font-size: 2rem;
@@ -212,11 +214,13 @@ img {
 }
 
 .dark-mode .card_container {
-  background-color: var(--primary-black);
+  background-color: var(--primary-white);
+  color:var(--primary-black);
 }
 
 .dark-mode .card_view svg {
-  fill: var(--primary-white);
+  /* fill: var(--primary-white); */
+  color: var(--primary-white);
 }
 
 .dark-mode .no-results {
@@ -229,4 +233,9 @@ img {
 
 .dark-mode .not-found-wrapper .not-found-img {
   filter: invert(1);
+}
+
+.dark-mode .visit{
+  background-color: var(--primary-black);
+  color: var(--primary-white);
 }

@@ -1,6 +1,5 @@
 .list {
   display: flex;
-  /* align-items: center; */
   justify-content: flex-start;
   flex-direction: column;
   width: 100%;
@@ -10,7 +9,7 @@
   margin-bottom: 25px;
 }
 
-.list article {
+.list .accordion_item {
   display: flex;
   align-items: center;
   padding: 10px 20px;
@@ -20,12 +19,12 @@
   box-shadow: 8px 8px 2px 0px var(--primary-black);
 }
 
-.list article:hover {
+.list .accordion_item:hover {
   box-shadow: 6px 6px 0px 0px var(--primary-black);
   transform: scale(1.02);
 }
 
-.image {
+.list .image {
   display: flex;
   align-items: center;
   gap: 20px;
@@ -37,14 +36,14 @@
   object-fit: contain;
 }
 
-.list article .text {
+.list .text {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   width: 100%;
 }
 
-.accordion_btn {
+.list .accordion_btn {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -55,8 +54,6 @@
   font-size: 24px;
   font-weight: 600;
   letter-spacing: 0.2px;
-  /* margin-bottom: 20px; */
-  /* width: ; */
   width: inherit;
   text-align: left;
 }
@@ -73,11 +70,26 @@
   width: 100%;
 }
 
-.accordion_panel .btn-cont {
+.list.dark-mode .visit,
+.list.dark-mode .bookmark {
+  background-color: var(--primary-white);
+  color: var(--primary-black);
+}
+
+.list.dark-mode .accordion_item {
+  border-color: #ffffff;
+  box-shadow: 8px 8px 2px 0px #ffffff;
+}
+
+.list.dark-mode .accordion_item:hover {
+  box-shadow: 6px 6px 0px 0px #ffffff;
+}
+
+.list .accordion_panel .btn-cont {
   display: none;
 }
 
-.accordion_panel {
+.list .accordion_panel {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -88,35 +100,35 @@
     justify-content: center;
   }
 
-  .accordion_btn .btn-cont {
+  .list .accordion_btn .btn-cont {
     display: none;
   }
 
-  .accordion_panel {
+  .list .accordion_panel {
     display: flex;
     flex-direction: column;
   }
 
-  .accordion_panel p {
+  .list .accordion_panel p {
     text-align: center;
     line-height: 18px;
     margin-top: 8px;
     margin-bottom: 8px;
   }
 
-  .accordion_panel .btn-cont {
+  .list .accordion_panel .btn-cont {
     display: flex;
   }
 }
 
 @media (max-width: 750px) {
-  .accordion_btn .card-title {
+  .list .accordion_btn .card-title {
     font-size: 20px;
   }
 }
 
 @media (max-width: 660px) {
-  .accordion_btn .card-title {
+  .list .accordion_btn .card-title {
     font-size: 16px;
   }
 }
