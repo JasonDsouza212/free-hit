@@ -1,7 +1,7 @@
-import con1 from '../assets/4.png'
-import con2 from '../assets/1.png'
-import con3 from '../assets/3.png'
-import con4 from '../assets/coworking.png'
+import con1 from '../assets/4.webp'
+import con2 from '../assets/1.webp'
+import con3 from '../assets/3.webp'
+import con4 from '../assets/coworking.webp'
 import { useNavigate } from 'react-router-dom'
 import "../styles/Team.css"
 import { useContext } from 'react';

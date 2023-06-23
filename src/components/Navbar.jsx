@@ -1,6 +1,6 @@
 import React, {useEffect, useRef } from 'react'
 import { FaSearch } from 'react-icons/fa'
-import freehitlogo from '../assets/free-logo.png'
+import freehitlogo from '../assets/free-logo.webp'
 import { useLocation } from 'react-router-dom'
 import { NavLink, useSearchParams } from "react-router-dom"
 import "../styles/header.css"

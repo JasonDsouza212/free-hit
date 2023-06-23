@@ -1,5 +1,12 @@
 [
   {
+    "productName": "Momentum",
+    "category": "extensions",
+    "image": "https://bit.ly/3JoG8mI",
+    "link": "https://bit.ly/3JoG6v6",
+    "description": "Replace new tab page with a personal dashboard to help you get focused, stay organized, and keep motivated to achieve your goals."
+  },
+  {
     "productName": "JSONView",
     "category": "extension",
     "image": "https://shorturl.at/uvFQ9",
@@ -2037,6 +2044,40 @@
   "image": "https://bit.ly/46hqdjP",
   "link": "https://books.google.com/talktobooks/",
   "description": "Users could ask questions, phrases, and the AI would scan through of books to find relevant passages and provide answers."
+},
+{
+  "productName": "Codestudio",
+  "category": "tools",
+  "image": "https://cdn-1.webcatalog.io/catalog/codestudio/codestudio-icon-filled-256.png",
+  "link": "https://www.codingninjas.com/codestudio",
+  "description": "Coding Ninjas Studio Unleash your coding potential with interactive learning and practice."
+},
+  "productName": "Text2SQL AI",
+  "category": "ai",
+  "image": "bit.ly/3JoQcMD",
+  "link": "https://www.text2sql.ai/",
+  "description": "Convert natural language queries into SQL queries"
+},
+{
+  "productName": "CodiumL AI",
+  "category": "ai",
+  "image": "bit.ly/4461P2W",
+  "link": "https://www.codium.ai/",
+  "description": "Generate unit tests for your code"
+},
+{
+  "productName": "Mind Luster",
+  "category": "Useful Tools",
+  "image": "https://bit.ly/42PS5sA",
+  "link": "https://www.mindluster.com/",
+  "description": "Mind Luster, an innovative learning platform, offers courses to ignite and expand the horizons of curious minds."
+},
+{
+  "productName": "poised",
+  "category": "ai",
+  "image": "https://bit.ly/42TQnqc",
+  "link": "https://www.poised.com/",
+  "description": "poised is an AI powered communication coach."
 }
 ]
 
