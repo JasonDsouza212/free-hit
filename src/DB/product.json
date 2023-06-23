@@ -2037,6 +2037,13 @@
   "image": "https://bit.ly/46hqdjP",
   "link": "https://books.google.com/talktobooks/",
   "description": "Users could ask questions, phrases, and the AI would scan through of books to find relevant passages and provide answers."
-}
+},
+{
+  "productName": "Codestudio",
+  "category": "Useful Tools",
+  "image": "https://cdn-1.webcatalog.io/catalog/codestudio/codestudio-icon-filled-256.png",
+  "link": "https://www.codingninjas.com/codestudio",
+  "description": "Coding Ninjas Studio Unleash your coding potential with interactive learning and practice."
+}  
 ]
 
