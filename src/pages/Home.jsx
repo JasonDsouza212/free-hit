@@ -19,7 +19,10 @@ const Card = () => {
   const {
     gridView,
     setGridView,
+    darkMode,
+    setDarkMode
   } = useContext(ToolContext)
+
 
   const [searchParams,] = useSearchParams()
   let filters = searchParams.get('filters') || "all"
@@ -54,8 +57,7 @@ const Card = () => {
     currentProducts = currentProducts.slice(firstProductIndex, lastProductIndex)
   }
 
-  const [darkMode, setDarkMode] = useState(false);
-
+  // darkmode function
   const toggleDarkMode = () => {
     setDarkMode(!darkMode);
   };

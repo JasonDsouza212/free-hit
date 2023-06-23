@@ -15,8 +15,9 @@ export default function Sidebar() {
       : ['all'];
   filters = filters[0].split(',');
 
-  const { isDarkMode } = useContext(ToolContext);
-  console.log(isDarkMode);
+  const { darkMode } = useContext(ToolContext);
+
+
   const handleAddFilter = (filter, event) => {
     filter = filter.toLowerCase();
     setSearchParams((prevParams) => {
@@ -50,7 +51,7 @@ export default function Sidebar() {
   };
 
   return (
-    <div className={`wrapper ${isDarkMode ? 'dark-mode' : ''}`}>
+    <div className={`wrapper ${darkMode ? 'dark-mode' : ''}`}>
       <input type="checkbox" id="btn" hidden />
       <label htmlFor="btn" className="menu-btn">
         <i className="fa ri-menu-fill"></i>
@@ -62,7 +63,7 @@ export default function Sidebar() {
             <li className="about-list">
               <NavLink
                 to="/"
-                className={isDarkMode ? 'dark-mode' : ''}
+                className={darkMode ? 'dark-mode' : ''}
                 activeclassname="active"
               >
                 <i className="ri-home-4-fill"></i> Home
@@ -71,7 +72,7 @@ export default function Sidebar() {
             <li className="about-list">
               <NavLink
                 to="/bookmarks"
-                className={isDarkMode ? 'dark-mode' : ''}
+                className={darkMode ? 'dark-mode' : ''}
                 activeclassname="active"
               >
                 <i className="ri-bookmark-fill"></i> Bookmarks
@@ -89,7 +90,7 @@ export default function Sidebar() {
               <li>
                 <NavLink
                   to="/"
-                  className={isDarkMode ? 'dark-mode' : ''}
+                  className={darkMode ? 'dark-mode' : ''}
                   activeclassname="active"
                 >
                   <i className="ri-home-4-fill"></i> Home
@@ -98,7 +99,7 @@ export default function Sidebar() {
               <li>
                 <NavLink
                   to="/bookmarks"
-                  className={isDarkMode ? 'dark-mode' : ''}
+                  className={darkMode ? 'dark-mode' : ''}
                   activeclassname="active"
                 >
                   <i className="ri-bookmark-fill"></i> Bookmark
@@ -110,15 +111,14 @@ export default function Sidebar() {
             {ButtonLinks.map((buttonLink) => (
               <li
                 key={buttonLink.id}
-                className={
-                  filters.includes(buttonLink.category.toLowerCase())
+                className={filters.includes(buttonLink.category.toLowerCase())
                     ? 'active-filter'
                     : ''
                 }
               >
-                <button
-                  onClick={(e) => handleAddFilter(buttonLink.category, e)}
-                  className={isDarkMode ? 'dark-mode' : ''}
+                <button 
+					className={darkMode ? 'dark-mode' : ''}
+                  	onClick={(e) => handleAddFilter(buttonLink.category, e)}
                 >
                   {buttonLink.name}
                 </button>

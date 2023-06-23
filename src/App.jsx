@@ -16,6 +16,9 @@ function App() {
   // all Bookmarks
   const [bookmarks, setBookmarks] = useState([])
 
+  // dark mode
+  const [darkMode, setDarkMode] = useState(localStorage.getItem("darkMode") || false);
+
   // initial Storage
   useEffect(() => {
     const bookmarkJson = localStorage.getItem(LOCAL_STORAGE_KEY)
@@ -39,6 +42,8 @@ function App() {
     setBookmarks([...bookmarks, newBookmark])
   }
 
+  
+
   // Remove Bookmark
   function deleteres(product) {
     setBookmarks(
@@ -53,7 +58,8 @@ function App() {
     deleteres,
     gridView,
     setGridView,
-    isDarkMode: JSON.parse(localStorage.getItem("darkMode")) || false
+    darkMode,
+    setDarkMode
   }
 
   return (
