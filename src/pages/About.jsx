@@ -3,10 +3,14 @@ import banner2 from '../assets/business-presentation-1.png'
 import Team from '../components/Team'
 import Header from '../components/Navbar'
 import "../styles/About.css"
+import { useContext } from 'react';
+import { ToolContext } from '../App';
+
 
 const About = () => {
+  const { darkMode } = useContext(ToolContext);
   return (
-    <div className="about_container">
+    <div className={`about_container ${darkMode ? 'dark-mode' : ''}`}>
       {/* <Aboutnav /> */}
       <Header />
       <section className="about">

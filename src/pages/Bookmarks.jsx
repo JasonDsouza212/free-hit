@@ -6,7 +6,6 @@ import { useSearchParams, Navigate } from 'react-router-dom';
 import filterProducts from '../utils/filter/filter_products';
 import checkFilter from '../utils/check_filters';
 import searchProducts from '../utils/search/search_products';
-import '../styles/bookmark.css';
 
 const BookMarks = () => {
   const { bookmarks, deleteres } =

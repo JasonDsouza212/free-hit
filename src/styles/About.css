@@ -19,12 +19,14 @@ body {
   background-color: var(--primary-white);
 }
 
+
 .about {
   display: grid;
   justify-content: center;
   margin: 100px 100px;
   padding-left: 150px;
   padding-right: 150px;
+  background-color: white;
 }
 
 .about .ab1 {
