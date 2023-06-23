@@ -1043,6 +1043,13 @@
     "description": "An AI tool can be used to check for plagiarism and determine whether a sentence was written by a human or an AI program."
   },
   {
+    "productName": "Resumemaker.ai",
+    "category": "ai",
+    "image": "https://shorturl.at/cxMV3",
+    "link": "https://resumaker.ai/",
+    "description": "Resumemaker.ai help the developer to create their resume freely and with efficiently."
+  },
+  {
     "productName": "ChatGPT",
     "category": "ai",
     "image": "https://bit.ly/40DElQS",
@@ -2009,6 +2016,27 @@
   "image": "https://www.happylifecreators.com/wp/wp-content/uploads/2022/06/chakra-ui_title2-400x400.png",
   "link": "https://chakra-ui.com",
   "description": "Chakra UI is an accessible and customizable React component library for building UIs."
+},
+{
+  "productName": "Frontend Mentor",
+  "category": "web",
+  "image": "https://www.frontendmentor.io/",
+  "link": "https://www.frontendmentor.io/",
+  "description": "A platform providing challenges for frontend developers to sharp their skills."
+},
+{
+  "productName": "Class Central",
+  "category": "tools",
+  "image": "https://bit.ly/46jrGXc",
+  "link": "https://www.classcentral.com/",
+  "description": "Class Central is a website that lists online courses from top universities and providers."
+},
+{
+  "productName": "Talk to Books ",
+  "category": "Useful Tools",
+  "image": "https://bit.ly/46hqdjP",
+  "link": "https://books.google.com/talktobooks/",
+  "description": "Users could ask questions, phrases, and the AI would scan through of books to find relevant passages and provide answers."
 }
 ]
 
