@@ -40,6 +40,7 @@ function Community() {
                 <li className="contributor" key={contributor.id}>
                   <div className='contributor-card'>
                     <a
+                      rel="noopener noreferrer"
                       className="contributor-anchor"
                       href={contributor.html_url}
                       target="_blank"
