@@ -2046,6 +2046,12 @@
   "description": "Users could ask questions, phrases, and the AI would scan through of books to find relevant passages and provide answers."
 },
 {
+  "productName": "Codestudio",
+  "category": "tools",
+  "image": "https://cdn-1.webcatalog.io/catalog/codestudio/codestudio-icon-filled-256.png",
+  "link": "https://www.codingninjas.com/codestudio",
+  "description": "Coding Ninjas Studio Unleash your coding potential with interactive learning and practice."
+},
   "productName": "Text2SQL AI",
   "category": "ai",
   "image": "bit.ly/3JoQcMD",
