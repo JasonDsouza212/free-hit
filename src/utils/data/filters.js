@@ -9,10 +9,6 @@ export const allFilters = [
   'ui',
   'web',
   'coding',
-<<<<<<< Updated upstream
-  'tools'
-=======
   'tools',
   'backend',
->>>>>>> Stashed changes
 ]
