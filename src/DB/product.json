@@ -2079,6 +2079,13 @@
   "image": "https://bit.ly/42TQnqc",
   "link": "https://www.poised.com/",
   "description": "poised is an AI powered communication coach."
+},
+{
+  "productName": "Evernote",
+  "category": "extensions",
+  "image": "shorturl.at/elAT5",
+  "link": "https://chrome.google.com/webstore/detail/evernote-web-clipper/pioclpoplcdbaefihamjohnefbikjilc",
+  "description": "Evernote is a cross-platform app designed for note taking, organizing, tasks lists, and archiving."
 }
 ]
 
