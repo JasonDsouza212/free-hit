@@ -2079,6 +2079,13 @@
   "image": "https://bit.ly/42TQnqc",
   "link": "https://www.poised.com/",
   "description": "poised is an AI powered communication coach."
+},
+{
+  "productName": "Reactplay.io",
+  "category": "ai",
+  "image": "bit.ly/3NKcYRs",
+  "link": "https://reactplay.io/",
+  "description": "Allows to code, run, and debug React code without having to install anything on your computer"
 }
 ]
 
