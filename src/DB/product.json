@@ -2086,6 +2086,13 @@
   "image": "https://bit.ly/42TQnqc",
   "link": "https://www.poised.com/",
   "description": "poised is an AI powered communication coach."
+},
+{
+  "productName": "Bing",
+  "category": "ai",
+  "image": "https://imgur.com/a/AwM4jXQ",
+  "link": "https://chrome.google.com/webstore/detail/microsoft-bing-homepage-s/ddojnmkongaimkdddgmcccldlfhokcfb",
+  "description": "Bing Ai extension"
 }
 ]
 
