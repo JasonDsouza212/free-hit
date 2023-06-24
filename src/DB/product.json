@@ -2086,6 +2086,13 @@
   "image": "https://bit.ly/42TQnqc",
   "link": "https://www.poised.com/",
   "description": "poised is an AI powered communication coach."
-}
+},
+{
+  "productName": "W3resource",
+  "category": "tools",
+  "image": "https://imgur.com/a/uy8QlQw",
+  "link": "https://www.w3resource.com/",
+  "description": "Resources to practice for frontend-developers"
+} 
 ]
 
