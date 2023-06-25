@@ -6,6 +6,10 @@ footer {
   font-family: 'Open Sans';
   padding-top: 40px;
   color: var(--primary-white);
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
 .footer-content {
   display: flex;
