@@ -82,7 +82,7 @@ const Team = () => {
         </div>
 
         <div className={`box ${darkMode ? 'dark-mode' : ''}`} onClick={() => navigate('/community')}>
-          <img src={con4} />
+          <img src={con4} className={`image ${darkMode ? 'dark-mode' : ''}`}/>
           <h3 className={darkMode ? 'dark-mode' : ''}
                   activeclassname="active"> Open-Source</h3>
           <h5 className={darkMode ? 'dark-mode' : ''}
