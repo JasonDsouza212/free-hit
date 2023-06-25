@@ -2053,6 +2053,14 @@
   "description": "Exercism is a coding platform that offers a hands-on learning experience, providing programmers with a wide range of challenges to practice and improve their skills."
 },
 {
+  "productName": "Pomofocus",
+  "category": "Useful Tools",
+  "image": "https://bit.ly/3Nq7dHn",
+  "link": "https://pomofocus.io/app",
+  "description": "Pomofocus is a customizable pomodoro timer to help you focus on any task you are working on."
+
+},
+{
   "productName": "Codestudio",
   "category": "tools",
   "image": "https://cdn-1.webcatalog.io/catalog/codestudio/codestudio-icon-filled-256.png",
