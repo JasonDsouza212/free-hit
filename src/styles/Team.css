@@ -72,6 +72,9 @@ body {
   color:white;
 }
 
+.team .team-content .box .image.dark-mode{
+  background-color:white;
+}
 .box {
   padding: 16px;
   background: var(--primary-white);
