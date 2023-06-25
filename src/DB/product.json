@@ -2086,6 +2086,13 @@
   "image": "https://bit.ly/42TQnqc",
   "link": "https://www.poised.com/",
   "description": "poised is an AI powered communication coach."
+},{
+  "productName": "USACO",
+  "category": "coding",
+  "image": "https://forum.usaco.guide/uploads/default/original/1X/047f2df686adefc647703910bb5be85e7cce48e6.png",
+  "link": "https://usaco.guide/",
+  "description": "A free collection of curated, high-quality resources to enhance competitive programming"
 }
+
 ]
 
