@@ -29,6 +29,18 @@ body {
   background-color: white;
 }
 
+.about.dark-mode{
+  background-color:#373530;
+}
+
+.about .ab1 .text.dark-mode{
+  color:white;
+}
+
+.about .ab2 .text.dark-mode{
+  color:white;
+}
+
 .about .ab1 {
   display: flex;
   margin-bottom: 40px;
@@ -87,6 +99,10 @@ body {
 .about img {
   width: 400px;
   height: 400px;
+}
+
+.about img.dark-mode{
+  background-color:white;
 }
 
 .bold {

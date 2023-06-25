@@ -13,9 +13,9 @@ const About = () => {
     <div className={`about_container ${darkMode ? 'dark-mode' : ''}`}>
       {/* <Aboutnav /> */}
       <Header />
-      <section className="about">
+      <section className={`about ${darkMode ? 'dark-mode' : ''}`}>
         <div className="ab1">
-          <p>
+          <p className={`text ${darkMode ? 'dark-mode' : ''}`}>
             <strong className="bold">Free-Hit</strong> is an application that is
             used to search for <b>free tools</b> that are both free and helpful
             for our needs. It is built by the amazing <b>open-source</b>{' '}
@@ -28,11 +28,11 @@ const About = () => {
               </a>
             </button>
           </p>
-          <img src={banner1} alt="banner" />
+          <img src={banner1} alt="banner" className={`image ${darkMode ? 'dark-mode' : ''}`}/>
         </div>
         <div className="ab2">
-          <img src={banner2} alt="banner" />
-          <p>
+          <img src={banner2} alt="banner" className={`image ${darkMode ? 'dark-mode' : ''}`}/>
+          <p className={`text ${darkMode ? 'dark-mode' : ''}`}>
             Great things are never created in isolation. Thanks to our amazing{' '}
             <b>Contributors</b>, we've brought this product to life. And with
             your help, we can continue to make it even better. If you're a{' '}
