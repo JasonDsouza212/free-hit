@@ -1,5 +1,12 @@
 [
   {
+    "productName": "InterviewBit",
+    "category": "coding",
+    "image": "https://bit.ly/3NH8dIt",
+    "link": "https://bit.ly/43VBwNf",
+    "description": "InterviewBit prepares you not only for the interviews, but for the actual job too."
+  },
+  {
     "productName": "Momentum",
     "category": "extensions",
     "image": "https://bit.ly/3JoG8mI",
@@ -2115,6 +2122,13 @@
   "image": "https://bit.ly/42TQnqc",
   "link": "https://www.poised.com/",
   "description": "poised is an AI powered communication coach."
+},
+{
+  "productName": "Replit GhostWriter",
+  "category": "ai",
+  "image": "https://avatars3.githubusercontent.com/u/983194?s=280&v=4",
+  "link": "https://replit.com/site/ghostwriter",
+  "description": "Replit GhostWriter is an AI coding tool which has tons of code easing features to help developers"
 },
 {
   "productName": "Evernote",
