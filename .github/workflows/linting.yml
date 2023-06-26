@@ -1,21 +1,26 @@
-name: Linting
+# name: Linting
 
-on: [push, pull_request]
+# on: [push, pull_request]
 
-jobs:
+# jobs:
 
-  Linting:
+#   Linting:
 
-    runs-on: ubuntu-latest
+#     runs-on: ubuntu-latest
 
-    steps:
+#     steps:
 
-      - name: Checkout
-        uses: actions/checkout@v3
-        with:
-          ref: ${{ github.head_ref }}
+#       - name: Checkout
+#         uses: actions/checkout@v3
+#         with:
+#           ref: ${{ github.head_ref }}
 
-      - name: Lint code with prettier
-        uses: creyD/prettier_action@v4.3
-        with:
-          prettier_options: --write **/*.{js,md}
+#       - name: Skip if Pull Request
+#         if: github.event_name == 'pull_request'
+#         run: exit 0
+
+
+#       - name: Lint code with prettier
+#         uses: creyD/prettier_action@v4.3
+#         with:
+#           prettier_options: --write **/*.{js,md}
