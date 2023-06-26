@@ -2152,6 +2152,13 @@
   "description": "Text to speech extension"
 },
 {
+  "productName": "Image to Text",
+  "category": "tools",
+  "image": "https://imgur.com/a/kLKlkiv",
+  "link": "https://www.imagetotext.info/",
+  "description": "Image to text convertor"
+},
+{
   "productName": "USACO",
   "category": "coding",
   "image": "https://forum.usaco.guide/uploads/default/original/1X/047f2df686adefc647703910bb5be85e7cce48e6.png",
