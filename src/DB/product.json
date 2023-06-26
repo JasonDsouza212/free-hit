@@ -2086,6 +2086,13 @@
   "image": "https://bit.ly/42TQnqc",
   "link": "https://www.poised.com/",
   "description": "poised is an AI powered communication coach."
+},
+{
+  "productName": "OBS Studio",
+  "category": "tools",
+  "image": "https://bit.ly/46pIxau",
+  "link": "https://obsproject.com/",
+  "description": "Free and open source software for video recording and live streaming."
 }
 ]
 
