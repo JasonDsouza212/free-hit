@@ -840,6 +840,13 @@
     "description": "PDF Drive is a search engine for downloading PDF files and books."
   },
   {
+    "productName": "Aicolor.co",
+    "category": "tools",
+    "image": "https://tinyurl.com/39ss2jf8",
+    "link": "https://aicolors.co/",
+    "description": "AI Color Palette Generator - Visualize and Generate Unique Palettes"
+  },
+  {
     "productName": "ColorPick Eyedropper",
     "category": "extensions",
     "image": "https://bit.ly/3lNJ3N9",
@@ -2121,7 +2128,14 @@
   "category": "ai",
   "image": "https://bit.ly/42TQnqc",
   "link": "https://www.poised.com/",
-  "description": "Poised is an AI-powered communication coach."
+  "description": "poised is an AI powered communication coach."
+},
+{
+  "productName": "OBS Studio",
+  "category": "tools",
+  "image": "https://bit.ly/46pIxau",
+  "link": "https://obsproject.com/",
+  "description": "Free and open source software for video recording and live streaming."
 },
 {
   "productName": "Replit GhostWriter",
