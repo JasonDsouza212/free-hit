@@ -2046,6 +2046,13 @@
   "description": "Users could ask questions, phrases, and the AI would scan through of books to find relevant passages and provide answers."
 },
 {
+  "productName": "Free Icons",
+  "category": "tools",
+  "image": "https://bit.ly/3r3nuua",
+  "link": "https://icons8.com/",
+  "description": "Collection of diverse, cost-free icons for versatile design applications."
+},
+{
   "productName": "Pomofocus",
   "category": "Useful Tools",
   "image": "https://bit.ly/3Nq7dHn",
@@ -2100,7 +2107,5 @@
   "image": "https://forum.usaco.guide/uploads/default/original/1X/047f2df686adefc647703910bb5be85e7cce48e6.png",
   "link": "https://usaco.guide/",
   "description": "A free collection of curated, high-quality resources which specifically focus on competitive programming."
-
 }
 ]
-
