@@ -1,5 +1,12 @@
 [
   {
+    "productName": "InterviewBit",
+    "category": "coding",
+    "image": "https://bit.ly/3NH8dIt",
+    "link": "https://bit.ly/43VBwNf",
+    "description": "InterviewBit prepares you not only for the interviews, but for the actual job too."
+  },
+  {
     "productName": "Momentum",
     "category": "extensions",
     "image": "https://bit.ly/3JoG8mI",
@@ -695,7 +702,7 @@
   {
     "productName": "flaticon",
     "category": "web",
-    "image": "https://bit.ly/3ktuJZG",
+    "image": "https://th.bing.com/th/id/OIP.MHkSy2nH23lZjX3d47rBIwHaD4?w=319&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
     "link": "https://www.flaticon.com/",
     "description": "Collection of free vector icons for web design and graphic design."
   },
@@ -2046,11 +2053,40 @@
   "description": "Users could ask questions, phrases, and the AI would scan through of books to find relevant passages and provide answers."
 },
 {
+  "productName": "Exercism",
+  "category": "Coding",
+  "image": "https://bit.ly/3qY1Ck6",
+  "link": "https://exercism.org/",
+  "description": "Exercism is a coding platform that offers a hands-on learning experience, providing programmers with a wide range of challenges to practice and improve their skills."
+},
+{
+  "productName": "Paraphrasing Tool",
+  "category": "tools",
+  "image": "https://bit.ly/44h4Bm8",
+  "link": "https://plagiarismdetector.net/",
+  "description": "Software aiding in avoiding plagiarism by rewording content effectively."
+},
+{
+  "productName": "Spinbot",
+  "category": "tools",
+  "image": "https://bit.ly/4485Unq",
+  "link": "https://spinbot.com/",
+  "description": "Spinbot a text-spinning tool that generates alternative content."
+},
+{
+  "productName": "Free Icons",
+  "category": "tools",
+  "image": "https://bit.ly/3r3nuua",
+  "link": "https://icons8.com/",
+  "description": "Collection of diverse, cost-free icons for versatile design applications."
+},
+{
   "productName": "Pomofocus",
   "category": "Useful Tools",
   "image": "https://bit.ly/3Nq7dHn",
   "link": "https://pomofocus.io/app",
   "description": "Pomofocus is a customizable pomodoro timer to help you focus on any task you are working on."
+
 },
 {
   "productName": "Codestudio",
@@ -2095,11 +2131,10 @@
   "description": "Text to speech extension"
 },
 {
-  "productName": "GSAP-GreenStock",
-  "category": "Useful Tool",
-  "image": "https://bit.ly/3NreI0H",
-  "link": "https://greensock.com/gsap/",
-  "description": "It's JavaScript library for some really cool animations without actual javascript codes"
+  "productName": "USACO",
+  "category": "coding",
+  "image": "https://forum.usaco.guide/uploads/default/original/1X/047f2df686adefc647703910bb5be85e7cce48e6.png",
+  "link": "https://usaco.guide/",
+  "description": "A free collection of curated, high-quality resources which specifically focus on competitive programming."
 }
 ]
-
