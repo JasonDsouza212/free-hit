@@ -125,8 +125,6 @@ We welcome you to join us!
 - Fork this repository,add your contributions and submit a PR.
 - Found a bug? Accessibility issue? Or do you want to add a new tool to our database? Then go right ahead and create an issue.
 
-
-
 # 🛠️ Tech Stack
 
 This project uses: <br><br>
@@ -143,7 +141,8 @@ Before installation, you need to have installed/knowledge of the following:
 ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
 
 # ⚠️ 🛑 Strict rules to follow while contributing:
-- The PR will only be merged if you create an issue. 
+
+- The PR will only be merged if you create an issue.
 - The PR should always be attached to the issue it solves (**For example: fixes #32**).
 - If you make any changes other than what the issue suggests, the PR will not be merged, even if it only involves removing indentations, colons, or semicolons.
 - Each PR should only resolve one issue.
