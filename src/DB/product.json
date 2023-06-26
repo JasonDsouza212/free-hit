@@ -2124,6 +2124,13 @@
   "description": "poised is an AI powered communication coach."
 },
 {
+  "productName": "Replit GhostWriter",
+  "category": "ai",
+  "image": "https://avatars3.githubusercontent.com/u/983194?s=280&v=4",
+  "link": "https://replit.com/site/ghostwriter",
+  "description": "Replit GhostWriter is an AI coding tool which has tons of code easing features to help developers"
+},
+{
   "productName": "Evernote",
   "category": "extensions",
   "image": "shorturl.at/elAT5",
