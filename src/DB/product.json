@@ -1,5 +1,12 @@
 [
   {
+    "productName": "Momentum",
+    "category": "extensions",
+    "image": "https://bit.ly/3JoG8mI",
+    "link": "https://bit.ly/3JoG6v6",
+    "description": "Replace new tab page with a personal dashboard to help you get focused, stay organized, and keep motivated to achieve your goals."
+  },
+  {
     "productName": "JSONView",
     "category": "extension",
     "image": "https://shorturl.at/uvFQ9",
@@ -133,7 +140,7 @@
     "description": "Record a video from the camera or capture it from the screen"
   },
   {
-    "productName": "Awesome Screen Capture And Recorder",
+    "productName": "Awesome Screenshot",
     "category": "tools",
     "image": "https://avatars.slack-edge.com/2019-03-29/593781862471_95d3bb4cccb9b58821be_512.png",
     "link": "https://www.awesomescreenshot.com/",
@@ -1043,6 +1050,13 @@
     "description": "An AI tool can be used to check for plagiarism and determine whether a sentence was written by a human or an AI program."
   },
   {
+    "productName": "Resumemaker.ai",
+    "category": "ai",
+    "image": "https://shorturl.at/cxMV3",
+    "link": "https://resumaker.ai/",
+    "description": "Resumemaker.ai help the developer to create their resume freely and with efficiently."
+  },
+  {
     "productName": "ChatGPT",
     "category": "ai",
     "image": "https://bit.ly/40DElQS",
@@ -1512,7 +1526,7 @@
     "link": "https://regexr.com/"
   },
   {
-    "productName": "Unblast UI  Templates",
+    "productName": "Unblast",
     "category": "UI",
     "image": "https://bit.ly/3qlij8V",
     "link": "https://bit.ly/3C51MZ3",
@@ -1533,21 +1547,21 @@
     "description": "UI Design Mockups Available 2d & 3D"
   },
   {
-    "productName": "UI : Muzli Collections",
+    "productName": "Muzli Collections",
     "category": "UI",
     "image": "https://bit.ly/42h8JRq",
     "link": "https://bit.ly/3IOltZ2",
     "description": "Profile Page screen design inspiration"
   },
   {
-    "productName": "Dashboard UI Kit 3.0",
+    "productName": "Dashboard UI Kit",
     "category": "UI",
     "image": "https://bit.ly/3N2secf",
     "link": "https://bit.ly/3N4lGK9",
     "description": "The first and largest design kit for web apps and dashboards developed in React."
   },
   {
-    "productName": "UI Kit : figma, XD, etc",
+    "productName": "Freebies UI",
     "category": "UI",
     "image": "https://bit.ly/45COMri",
     "link": "https://bit.ly/45BOgd8",
@@ -2009,6 +2023,76 @@
   "image": "https://www.happylifecreators.com/wp/wp-content/uploads/2022/06/chakra-ui_title2-400x400.png",
   "link": "https://chakra-ui.com",
   "description": "Chakra UI is an accessible and customizable React component library for building UIs."
+},
+{
+  "productName": "Frontend Mentor",
+  "category": "web",
+  "image": "https://www.frontendmentor.io/",
+  "link": "https://www.frontendmentor.io/",
+  "description": "A platform providing challenges for frontend developers to sharp their skills."
+},
+{
+  "productName": "Class Central",
+  "category": "tools",
+  "image": "https://bit.ly/46jrGXc",
+  "link": "https://www.classcentral.com/",
+  "description": "Class Central is a website that lists online courses from top universities and providers."
+},
+{
+  "productName": "Talk to Books ",
+  "category": "Useful Tools",
+  "image": "https://bit.ly/46hqdjP",
+  "link": "https://books.google.com/talktobooks/",
+  "description": "Users could ask questions, phrases, and the AI would scan through of books to find relevant passages and provide answers."
+},
+{
+  "productName": "Pomofocus",
+  "category": "Useful Tools",
+  "image": "https://bit.ly/3Nq7dHn",
+  "link": "https://pomofocus.io/app",
+  "description": "Pomofocus is a customizable pomodoro timer to help you focus on any task you are working on."
+},
+{
+  "productName": "Codestudio",
+  "category": "tools",
+  "image": "https://cdn-1.webcatalog.io/catalog/codestudio/codestudio-icon-filled-256.png",
+  "link": "https://www.codingninjas.com/codestudio",
+  "description": "Coding Ninjas Studio Unleash your coding potential with interactive learning and practice."
+},
+{  
+  "productName": "Text2SQL AI",
+  "category": "ai",
+  "image": "bit.ly/3JoQcMD",
+  "link": "https://www.text2sql.ai/",
+  "description": "Convert natural language queries into SQL queries"
+},
+{
+  "productName": "CodiumL AI",
+  "category": "ai",
+  "image": "bit.ly/4461P2W",
+  "link": "https://www.codium.ai/",
+  "description": "Generate unit tests for your code"
+},
+{
+  "productName": "Mind Luster",
+  "category": "Useful Tools",
+  "image": "https://bit.ly/42PS5sA",
+  "link": "https://www.mindluster.com/",
+  "description": "Mind Luster, an innovative learning platform, offers courses to ignite and expand the horizons of curious minds."
+},
+{
+  "productName": "poised",
+  "category": "ai",
+  "image": "https://bit.ly/42TQnqc",
+  "link": "https://www.poised.com/",
+  "description": "poised is an AI powered communication coach."
+},
+{
+  "productName": "Read Aloud",
+  "category": "extensions",
+  "image": "https://imgur.com/a/qDvJF1n",
+  "link": "https://chrome.google.com/webstore/detail/read-aloud-a-text-to-spee/hdhinadidafjejdhmfkjgnolgimiaplp",
+  "description": "Text to speech extension"
 }
 ]
 
