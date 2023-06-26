@@ -2213,5 +2213,12 @@
   "image": "https://imgur.com/a/FUyjavX",
   "link": "https://www.eventbrite.com/",
   "description": "Get Coding events and Hackathons update."  
+},
+{
+  "productName": "Bit Warden",
+  "category": "tools",
+  "image": "https://bit.ly/3Pw9C68",
+  "link": "https://bitwarden.com/products/personal/",
+  "description": "Free Software for Effortlessly Manage All Your Passwords and Logins."
 }
 ]
