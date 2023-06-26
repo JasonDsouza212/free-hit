@@ -50,11 +50,11 @@ jobs:
 
             Please make sure you have followed our contributing guidelines. We will review it as soon as possible.
       
-      - name: Auto Comment
-        uses: peter-evans/create-or-update-comment@v1
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          issue-number: ${{ github.event.issue.number }}
-          body: |
-            @${{ github.event.issue.assignee.login }}, this issue has been assigned to you.
-            Please take a look and let us know if you have any questions or need further assistance.
+      # - name: Auto Comment
+      #   uses: peter-evans/create-or-update-comment@v1
+      #   with:
+      #     token: ${{ secrets.GITHUB_TOKEN }}
+      #     issue-number: ${{ github.event.issue.number }}
+      #     body: |
+      #       @${{ github.event.issue.assignee.login }}, this issue has been assigned to you.
+      #       Please take a look and let us know if you have any questions or need further assistance.
