@@ -6,6 +6,7 @@
 @import 'BackToTop.css';
 @import 'NotFound.css';
 @import 'Community.css';
+@import 'freehit.css';
 
 :root {
   --primary-white: #f1f1ef;
@@ -672,3 +673,9 @@ body {
   }
 }
 
+#img1, #img2 {
+  width: 100%;
+  height: auto;
+  max-width: max-content;
+  max-height: max-content;
+}

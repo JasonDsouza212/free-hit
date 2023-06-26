@@ -1,0 +1,230 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Josefin Slab','Space Grotesk', sans-serif;
+}
+
+
+.container1 {
+  margin: 0 70px;
+  padding: 50px 50px 30px 50px;
+
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+}
+
+.FeaturesBox {
+  display: flex;
+  flex-direction: column;
+  margin: 40px;
+  justify-content: center;
+  align-items: center;
+  translate: 30px;
+}
+
+.FeaturesBox p {
+  font-size: 18px;
+}
+
+#para1,
+#para2 {
+  font-size: 28px;
+  font-family: 'Josefin Slab';
+}
+
+#para2 {
+  text-align: end;
+}
+#img1{
+  padding-left: 120px;
+}
+
+.features-container {
+  display: flex;
+  overflow-x: auto;
+  padding: 20px 0;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.feature-card {
+  flex: 0 0 calc(33.33% - 20px);
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  width: 22%;
+  transition: transform 0.3s ease;
+}
+
+.feature-card h3 {
+  position: relative;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 24px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.feature-card p {
+  color: black;
+  font-family: 'Josefin Slab';
+}
+
+:root {
+  --primary-white: #f1f1ef;
+  --primary-black: #373530;
+}
+
+body {
+  background-color: var(--primary-white);
+}
+
+.box1 {
+  display: flex;
+  justify-content: center;
+}
+
+.startbox {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+.contentSection {
+  padding: 20px;
+}
+
+#heading1 {
+  text-align: start;
+}
+
+#heading2 {
+  text-align: end;
+}
+
+@media (max-width: 768px) {
+  .container1 {
+    margin: 0 10px;
+    padding: 40px;
+  }
+
+  .startbox {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+  }
+
+  .contentSection {
+    width: 100%;
+  }
+
+  #img1 {
+    width: 100%;
+    padding-left: 0;
+  }
+
+  h1 {
+    font-size: 32px;
+    text-align: center;
+  }
+
+  #heading1,
+  #heading2 {
+    text-align: center;
+  }
+
+  .FeaturesBox {
+    margin: 30px;
+    translate: -6px;
+  }
+
+  .FeaturesBox p {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  #para1,
+  #para2 {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .features-container {
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    justify-content: flex-start;
+    padding: 20px;
+  }
+
+  .feature-card {
+    flex: 0 0 100%;
+    width: auto;
+    margin-bottom: 20px;
+    /* Add perspective to create a 3D space */
+    perspective: 1000px;
+    /* Set initial transform values */
+    transform-style: preserve-3d;
+    transform: translateZ(0);
+  }
+
+  .feature-card:hover {
+    /* Apply 3D rotation and scaling on hover */
+    transform: translateZ(20px) rotateX(10deg) rotateY(10deg) scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+
+  .feature-card h3,
+  .feature-card p {
+    /* Ensure text stays visible during 3D transformation */
+    transform: translateZ(100px);
+  }
+
+}
+
+@media (max-width: 480px) {
+  .feature-card {
+    flex: 1 0 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  .container1 {
+    margin: 0 5px;
+    padding: 30px;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+
+  .FeaturesBox {
+    margin: 20px;
+  }
+
+  .FeaturesBox p {
+    font-size: 14px;
+  }
+
+  #para1,
+  #para2 {
+    font-size: 20px;
+  }
+}
