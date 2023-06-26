@@ -2180,10 +2180,17 @@
   "description": "Resources to practice for frontend-developers"
 },
 {
+  "productName": "Eventbrite",
+  "category": "tools",
+  "image": "https://imgur.com/a/FUyjavX",
+  "link": "https://www.eventbrite.com/",
+  "description": "Get Coding events and Hackathons update."  
+},
+{
   "productName": "Bing",
   "category": "ai",
   "image": "https://imgur.com/a/AwM4jXQ",
   "link": "https://chrome.google.com/webstore/detail/microsoft-bing-homepage-s/ddojnmkongaimkdddgmcccldlfhokcfb",
-  "description": "Bing Ai extension"  
+  "description": "Bing Ai extension"   
 }
 ]
