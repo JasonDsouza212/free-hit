@@ -2088,39 +2088,11 @@
   "description": "poised is an AI powered communication coach."
 },
 {
-  "productName": "Devfolio",
-  "category": "Coding",
-  "image": "https://devfolio.co/hackathons",
-  "link": "https://devfolio.co/hackathons",
-  "description": "We love software and the people who build them."
-},
-{
-  "productName": "DEVPOST",
-  "category": "Coding",
-  "image": "https://tinyurl.com/2vbb2z7y",
-  "link": "https://devpost.com/",
-  "description": "The home for hackathons"
-},
-{
-  "productName": "unstop",
-  "category": "Coding",
-  "image": "https://tinyurl.com/yz3nu723",
-  "link": "https://unstop.com/hackathons",
-  "description": "Unstop is a platform where talent meets opportunities to unlock their potential."
-},
-{
-  "productName": "MAJOR LEAGUE HACKING",
-  "category": "Coding",
-  "image": "https://mlh.io/seasons/2023/events",
-  "link": "https://mlh.io/seasons/2023/events",
-  "description": "Find, compete, and earn points at the largest, most diverse hacker events in the world."
-},
-{
-  "productName": "HACK CLUB",
-  "category": "Coding",
-  "image": "https://assets.hackclub.com/flag-orpheus-top.svg",
-  "link": "https://hackathons.hackclub.com/",
-  "description": "High School Hackathons"
+  "productName": "Read Aloud",
+  "category": "extensions",
+  "image": "https://imgur.com/a/qDvJF1n",
+  "link": "https://chrome.google.com/webstore/detail/read-aloud-a-text-to-spee/hdhinadidafjejdhmfkjgnolgimiaplp",
+  "description": "Text to speech extension"
 }
 ]
 
