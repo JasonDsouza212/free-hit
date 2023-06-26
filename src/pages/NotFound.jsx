@@ -1,5 +1,5 @@
 import "../styles/NotFound.css"
-import errorimg from "../assets/error.png"
+import errorimg from "../assets/error.webp"
 
 const NotFound = () => {
   return (

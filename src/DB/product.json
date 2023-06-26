@@ -1,5 +1,12 @@
 [
   {
+    "productName": "Momentum",
+    "category": "extensions",
+    "image": "https://bit.ly/3JoG8mI",
+    "link": "https://bit.ly/3JoG6v6",
+    "description": "Replace new tab page with a personal dashboard to help you get focused, stay organized, and keep motivated to achieve your goals."
+  },
+  {
     "productName": "JSONView",
     "category": "extension",
     "image": "https://shorturl.at/uvFQ9",
@@ -133,7 +140,7 @@
     "description": "Record a video from the camera or capture it from the screen"
   },
   {
-    "productName": "Awesome Screen Capture And Recorder",
+    "productName": "Awesome Screenshot",
     "category": "tools",
     "image": "https://avatars.slack-edge.com/2019-03-29/593781862471_95d3bb4cccb9b58821be_512.png",
     "link": "https://www.awesomescreenshot.com/",
@@ -688,7 +695,7 @@
   {
     "productName": "flaticon",
     "category": "web",
-    "image": "https://bit.ly/3ktuJZG",
+    "image": "https://th.bing.com/th/id/OIP.MHkSy2nH23lZjX3d47rBIwHaD4?w=319&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
     "link": "https://www.flaticon.com/",
     "description": "Collection of free vector icons for web design and graphic design."
   },
@@ -1519,7 +1526,7 @@
     "link": "https://regexr.com/"
   },
   {
-    "productName": "Unblast UI  Templates",
+    "productName": "Unblast",
     "category": "UI",
     "image": "https://bit.ly/3qlij8V",
     "link": "https://bit.ly/3C51MZ3",
@@ -1540,21 +1547,21 @@
     "description": "UI Design Mockups Available 2d & 3D"
   },
   {
-    "productName": "UI : Muzli Collections",
+    "productName": "Muzli Collections",
     "category": "UI",
     "image": "https://bit.ly/42h8JRq",
     "link": "https://bit.ly/3IOltZ2",
     "description": "Profile Page screen design inspiration"
   },
   {
-    "productName": "Dashboard UI Kit 3.0",
+    "productName": "Dashboard UI Kit",
     "category": "UI",
     "image": "https://bit.ly/3N2secf",
     "link": "https://bit.ly/3N4lGK9",
     "description": "The first and largest design kit for web apps and dashboards developed in React."
   },
   {
-    "productName": "UI Kit : figma, XD, etc",
+    "productName": "Freebies UI",
     "category": "UI",
     "image": "https://bit.ly/45COMri",
     "link": "https://bit.ly/45BOgd8",
@@ -2044,6 +2051,75 @@
   "image": "https://bit.ly/44h4Bm8",
   "link": "https://plagiarismdetector.net/",
   "description": "Software aiding in avoiding plagiarism by rewording content effectively."
+},
+{
+  "productName": "Spinbot",
+  "category": "tools",
+  "image": "https://bit.ly/4485Unq",
+  "link": "https://spinbot.com/",
+  "description": "Spinbot a text-spinning tool that generates alternative content."
+},
+{
+  "productName": "Free Icons",
+  "category": "tools",
+  "image": "https://bit.ly/3r3nuua",
+  "link": "https://icons8.com/",
+  "description": "Collection of diverse, cost-free icons for versatile design applications."
+},
+{
+  "productName": "Pomofocus",
+  "category": "Useful Tools",
+  "image": "https://bit.ly/3Nq7dHn",
+  "link": "https://pomofocus.io/app",
+  "description": "Pomofocus is a customizable pomodoro timer to help you focus on any task you are working on."
+},
+{
+  "productName": "Codestudio",
+  "category": "tools",
+  "image": "https://cdn-1.webcatalog.io/catalog/codestudio/codestudio-icon-filled-256.png",
+  "link": "https://www.codingninjas.com/codestudio",
+  "description": "Coding Ninjas Studio Unleash your coding potential with interactive learning and practice."
+},
+{  
+  "productName": "Text2SQL AI",
+  "category": "ai",
+  "image": "bit.ly/3JoQcMD",
+  "link": "https://www.text2sql.ai/",
+  "description": "Convert natural language queries into SQL queries"
+},
+{
+  "productName": "CodiumL AI",
+  "category": "ai",
+  "image": "bit.ly/4461P2W",
+  "link": "https://www.codium.ai/",
+  "description": "Generate unit tests for your code"
+},
+{
+  "productName": "Mind Luster",
+  "category": "Useful Tools",
+  "image": "https://bit.ly/42PS5sA",
+  "link": "https://www.mindluster.com/",
+  "description": "Mind Luster, an innovative learning platform, offers courses to ignite and expand the horizons of curious minds."
+},
+{
+  "productName": "poised",
+  "category": "ai",
+  "image": "https://bit.ly/42TQnqc",
+  "link": "https://www.poised.com/",
+  "description": "poised is an AI powered communication coach."
+},
+{
+  "productName": "Read Aloud",
+  "category": "extensions",
+  "image": "https://imgur.com/a/qDvJF1n",
+  "link": "https://chrome.google.com/webstore/detail/read-aloud-a-text-to-spee/hdhinadidafjejdhmfkjgnolgimiaplp",
+  "description": "Text to speech extension"
+},
+{
+  "productName": "USACO",
+  "category": "coding",
+  "image": "https://forum.usaco.guide/uploads/default/original/1X/047f2df686adefc647703910bb5be85e7cce48e6.png",
+  "link": "https://usaco.guide/",
+  "description": "A free collection of curated, high-quality resources which specifically focus on competitive programming."
 }
 ]
-
