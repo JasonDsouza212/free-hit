@@ -1,5 +1,12 @@
 [
   {
+    "productName": "InterviewBit",
+    "category": "coding",
+    "image": "https://bit.ly/3NH8dIt",
+    "link": "https://bit.ly/43VBwNf",
+    "description": "InterviewBit prepares you not only for the interviews, but for the actual job too."
+  },
+  {
     "productName": "Momentum",
     "category": "extensions",
     "image": "https://bit.ly/3JoG8mI",
