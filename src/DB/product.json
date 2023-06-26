@@ -2046,6 +2046,13 @@
   "description": "Users could ask questions, phrases, and the AI would scan through of books to find relevant passages and provide answers."
 },
 {
+  "productName": "Paraphrasing Tool",
+  "category": "tools",
+  "image": "https://bit.ly/44h4Bm8",
+  "link": "https://plagiarismdetector.net/",
+  "description": "Software aiding in avoiding plagiarism by rewording content effectively."
+},
+{
   "productName": "Spinbot",
   "category": "tools",
   "image": "https://bit.ly/4485Unq",
