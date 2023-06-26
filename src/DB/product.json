@@ -2173,6 +2173,13 @@
   "description": "A free collection of curated, high-quality resources which specifically focus on competitive programming."
 },
 {
+"productName": "Codecademy",
+"category": "coding",
+"image": "https://shorturl.at/mzCU4",
+"link": "https://www.codecademy.com/",
+"description": "An online interactive platform with various courses, quizzes and projects."
+},
+{
   "productName": "Dark Reader",
   "category": "extensions",
   "image": "https://shorturl.at/flBDY",
