@@ -115,11 +115,13 @@ img {
 }
 
 .btn-cont button {
-  background-color: var(--primary-black);
+  border: 2px solid var(--primary-black);
   padding: 7px 25px;
   border-radius: 8px;
   margin: 2px;
   transition: all 0.3s ease;
+  background: none;
+  margin-right: 0.3rem;
 }
 
 .btn-cont button a {
@@ -138,6 +140,11 @@ img {
 
 .btn-cont button:hover {
   transform: scale(1.05);
+  background: #9e9e9e9c;
+  border: 2px solid #bbb0b0;
+}
+font {
+  color: var(--primary-black);
 }
 
 .bookmark {
