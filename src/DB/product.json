@@ -2124,11 +2124,39 @@
   "description": "poised is an AI powered communication coach."
 },
 {
+  "productName": "Replit GhostWriter",
+  "category": "ai",
+  "image": "https://avatars3.githubusercontent.com/u/983194?s=280&v=4",
+  "link": "https://replit.com/site/ghostwriter",
+  "description": "Replit GhostWriter is an AI coding tool which has tons of code easing features to help developers"
+},
+{
+  "productName": "Evernote",
+  "category": "extensions",
+  "image": "shorturl.at/elAT5",
+  "link": "https://chrome.google.com/webstore/detail/evernote-web-clipper/pioclpoplcdbaefihamjohnefbikjilc",
+  "description": "Evernote is a cross-platform app designed for note taking, organizing, tasks lists, and archiving."
+},
+{
+  "productName": "Reactplay.io",
+  "category": "ai",
+  "image": "bit.ly/3NKcYRs",
+  "link": "https://reactplay.io/",
+  "description": "Allows to code, run, and debug React code without having to install anything on your computer"
+},
+{
   "productName": "Read Aloud",
   "category": "extensions",
   "image": "https://imgur.com/a/qDvJF1n",
   "link": "https://chrome.google.com/webstore/detail/read-aloud-a-text-to-spee/hdhinadidafjejdhmfkjgnolgimiaplp",
   "description": "Text to speech extension"
+},
+{
+  "productName": "Image to Text",
+  "category": "tools",
+  "image": "https://imgur.com/a/kLKlkiv",
+  "link": "https://www.imagetotext.info/",
+  "description": "Image to text convertor"
 },
 {
   "productName": "USACO",
