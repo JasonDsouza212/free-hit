@@ -274,7 +274,7 @@ nav {
   top: 49%;
   transform: translate(-50%, -50%);
   color: var(--primary-white);
-  font-size: 22px;
+  font-size: 20px;
 }
 
 .search_wrap.search_wrap_3 .search_box .input {
