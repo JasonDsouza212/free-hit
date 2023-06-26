@@ -2046,6 +2046,13 @@
   "description": "Users could ask questions, phrases, and the AI would scan through of books to find relevant passages and provide answers."
 },
 {
+  "productName": "Spinbot",
+  "category": "tools",
+  "image": "https://bit.ly/4485Unq",
+  "link": "https://spinbot.com/",
+  "description": "Spinbot a text-spinning tool that generates alternative content."
+},
+{
   "productName": "Free Icons",
   "category": "tools",
   "image": "https://bit.ly/3r3nuua",
