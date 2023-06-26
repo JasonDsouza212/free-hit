@@ -2121,21 +2121,21 @@
   "category": "ai",
   "image": "https://bit.ly/42TQnqc",
   "link": "https://www.poised.com/",
-  "description": "poised is an AI powered communication coach."
+  "description": "Poised is an AI-powered communication coach."
 },
 {
   "productName": "Replit GhostWriter",
   "category": "ai",
   "image": "https://avatars3.githubusercontent.com/u/983194?s=280&v=4",
   "link": "https://replit.com/site/ghostwriter",
-  "description": "Replit GhostWriter is an AI coding tool which has tons of code easing features to help developers"
+  "description": "Replit GhostWriter is an AI coding tool which has tons of code-easing features to help developers"
 },
 {
   "productName": "Evernote",
   "category": "extensions",
   "image": "shorturl.at/elAT5",
   "link": "https://chrome.google.com/webstore/detail/evernote-web-clipper/pioclpoplcdbaefihamjohnefbikjilc",
-  "description": "Evernote is a cross-platform app designed for note taking, organizing, tasks lists, and archiving."
+  "description": "Evernote is a cross-platform app designed for note taking, organizing, task lists, and archiving."
 },
 {
   "productName": "Reactplay.io",
@@ -2158,11 +2158,11 @@
   "link": "https://usaco.guide/",
   "description": "A free collection of curated, high-quality resources which specifically focus on competitive programming."
 },
-  {
+{
   "productName": "Dark Reader",
   "category": "extensions",
   "image": "https://shorturl.at/flBDY",
   "link": "https://chrome.google.com/webstore/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh",
-  "description": "Dark Reader is an extension that brings dark mode to the any website over the internet."
+  "description": "Dark Reader is an extension that brings dark mode to any website over the internet."
   }
 ]
