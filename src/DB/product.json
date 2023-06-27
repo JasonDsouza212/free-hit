@@ -2241,5 +2241,12 @@
   "image": "bit.ly/3r7vPxi",
   "link": "https://javascript.info/",
   "description": "Provides comprehensive tutorials and references on the JavaScript"  
+},
+{
+  "productName": "VLC Media Player",
+  "category": "tools",
+  "image": "https://bit.ly/46pTUPK",
+  "link": "https://www.videolan.org/vlc/",
+  "description": "Free and open source cross-platform multimedia player and framework."
 }
 ]
