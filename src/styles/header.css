@@ -361,6 +361,13 @@ nav {
   font-size: 40px;
 }
 
+/* dark-mode styles */
+
+.free-logo.dark-mode{
+  /* :white; */
+  border: 2px solid white;
+}
+
 /* ================================  Free-Hit logo end*/
 
 .hnav-link {
