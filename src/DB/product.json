@@ -1,5 +1,12 @@
 [
   {
+    "productName": "Scaler",
+    "category": "coding",
+    "image": "https://bit.ly/3XoZKgc",
+    "link": "https://bit.ly/3plUFZw",
+    "description": "Scaler is an outcome-focused, ed-tech platform for techies."
+  },
+  {
     "productName": "InterviewBit",
     "category": "coding",
     "image": "https://bit.ly/3NH8dIt",
@@ -1843,6 +1850,13 @@
     "description": "Find a full time remote job" 
   },
   {
+    "productName": "Foundit",
+    "category": "remote",
+    "image": "https://bit.ly/3NQbci1",
+    "link": "https://www.foundit.in/",
+    "description": "Find the job that is perfect for You" 
+  },
+  {
     "productName": "INSIDEA",
     "category": "remote",
     "image": "https://tinyurl.com/bdf2h7kp",
@@ -2165,13 +2179,10 @@
   "link": "https://chrome.google.com/webstore/detail/read-aloud-a-text-to-spee/hdhinadidafjejdhmfkjgnolgimiaplp",
   "description": "Text to speech extension"
 },
-{
-
   "productName": "Kayoanime",
   "category": "movies",
   "image": "https://t3.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://kayoanime.com&size=16",
   "link": "https://kayoanime.com/",
   "description": "Here you can anime of all kind and can stream it online or download in high quality"
-
 }
 ]
