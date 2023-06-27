@@ -2229,6 +2229,20 @@
   "description": "Get Coding events and Hackathons update."  
 },
 {
+  "productName": "Bing",
+  "category": "ai",
+  "image": "https://imgur.com/a/AwM4jXQ",
+  "link": "https://chrome.google.com/webstore/detail/microsoft-bing-homepage-s/ddojnmkongaimkdddgmcccldlfhokcfb",
+  "description": "Bing Ai extension"   
+},
+{
+  "productName": "Vegamovies",
+  "category": "movies",
+  "image": "https://apkrabi.com/uploads/2023/4/vegamovies-icon.jpg",
+  "link": "https://m.vegamovies.tips/",
+  "description": "Here you can download all latest movies in the top quality"  
+},
+{
   "productName": "Bit Warden",
   "category": "tools",
   "image": "https://bit.ly/3Pw9C68",
