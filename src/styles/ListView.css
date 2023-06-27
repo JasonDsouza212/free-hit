@@ -1,3 +1,8 @@
+:root {
+  --primary-white: #f1f1ef;
+  --primary-black: #373530;
+}
+
 .list {
   display: flex;
   justify-content: flex-start;
@@ -78,15 +83,27 @@
   flex-direction: column;
 }
 
+.list .visit{
+  background-color:var(--primary-black);
+  color:var(--primary-white);
+  border: 2px solid var(--primary-black);
+}
+
+.list .bookmark{
+  background-color:var(--primary-black);
+  color:var(--primary-white);
+  border: 2px solid var(--primary-black);
+}
+
 .list .visit:hover{
-  background-color:white;
-  color:black;
-  border: 2px solid black;
+  background-color:var(--primary-white);
+  color:var(--primary-black);
+  transition: all 0.3s ease-out;
 }
 .list .bookmark:hover{
-  background-color:white;
-  color:black;
-  border: 2px solid black;
+  background-color:var(--primary-white);
+  color:var(--primary-black);
+  transition: all 0.3s ease-out;
 }
 
 .list img{
@@ -103,28 +120,28 @@
 }
 
 .list .visit.dark-mode{
-  background-color: white;
-  color: black;
-  border: 2px solid black;
+  background-color: var(--primary-black);
+  color: var(--primary-white);
+  border: 2px solid white;
 }
 
 .list .visit.dark-mode:hover{
-  background-color: black;
-  color: white;
-  border: 2px solid white;
+  background-color:var(--primary-white);
+  color: var(--primary-black);
+  transition: all 0.3s ease-out;
 }
 
 
 .list .bookmark.dark-mode {
-  background-color: white;
-  color: black;
-  border: 2px solid black;
+  background-color: var(--primary-black);
+  color: var(--primary-white);
+  border: 2px solid white;
 }
 
 .list .bookmark.dark-mode:hover {
-  background-color: black;
-  color: white;
-  border: 2px solid white;
+  background-color:var(--primary-white);
+  color: var(--primary-black);
+  transition: all 0.3s ease-out;
 }
 
 .list.dark-mode .accordion_item {

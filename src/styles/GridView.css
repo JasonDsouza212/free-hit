@@ -1,4 +1,8 @@
 /* GridView.css */
+:root {
+  --primary-white: #f1f1ef;
+  --primary-black: #373530;
+}
 
 
 .grid .card-title{
@@ -9,14 +13,25 @@
     color: var(--primary-black);
 }
 
+.grid .visit{
+  background-color:var(--primary-black);
+  color:var(--primary-white);
+  border: 2px solid var(--primary-black);
+}
+
+.grid .bookmark{
+  background-color:var(--primary-black);
+  color:var(--primary-white);
+  border: 2px solid var(--primary-black);
+}
 .grid .visit:hover{
-  background-color:white;
-  color:black;
+  background-color:var(--primary-white);
+  color:var(--primary-black);
   border: 2px solid black;
 }
 .grid .bookmark:hover{
-  background-color:white;
-  color:black;
+  background-color:var(--primary-white);
+  color:var(--primary-black);
   border: 2px solid black;
 }
 
@@ -39,24 +54,23 @@
   .grid .visit.dark-mode {
     background-color: var(--primary-black);
     color: var(--primary-white);
-    border: 2px solid black;
+    border: 2px solid white;
   }
 
   .grid .visit.dark-mode:hover {
     background-color: var(--primary-white);
     color: var(--primary-black);
-    border: 2px solid white;
-    /* transition: all 0.3s ease-out; */
+    transition: all 0.3s ease-out;
   }
   
   .grid .bookmark.dark-mode {
     background-color: var(--primary-black);
     color: var(--primary-white);
-    border: 2px solid black;
+    border: 2px solid white;
   }
   .grid .bookmark.dark-mode:hover {
     background-color: var(--primary-white);
     color: var(--primary-black);
-    border: 2px solid var(--primary-black);
+    transition: all 0.3s ease-out;
   }
   
