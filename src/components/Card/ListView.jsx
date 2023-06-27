@@ -5,14 +5,14 @@ import { Box, Accordion, AccordionButton, AccordionItem, AccordionPanel, Accordi
 import { BsChevronDown } from 'react-icons/bs';
 
 const ListView = ({ currentProducts }) => {
-  const { handelBookmarkAdd, bookmarks, deleteres, isDarkMode } = useContext(ToolContext);
+  const { handelBookmarkAdd, bookmarks, deleteres, darkMode } = useContext(ToolContext);
   return (
-    <Accordion allowToggle className={`list ${isDarkMode ? 'dark-mode' : ''}`}>
+    <Accordion allowToggle className={`list ${darkMode ? 'dark-mode' : ''}`}>
       {currentProducts.map((product, index) => (
         <AccordionItem
           borderRadius="8px"
-          boxShadow={isDarkMode ? '8px 8px 2px 0px #ffffff' : '8px 8px 2px 0px #373530'}
-          border={isDarkMode ? '1px solid #ffffff' : '1px solid #373530'}
+          boxShadow={darkMode ? '8px 8px 2px 0px #ffffff' : '8px 8px 2px 0px #373530'}
+          border={darkMode ? '1px solid #ffffff' : '1px solid #373530'}
           key={index}
           className="accordion_item"
         >
@@ -35,7 +35,7 @@ const ListView = ({ currentProducts }) => {
                 />
               )}
               <div className="accordion_btn">
-                <h3 className={`card-title ${isDarkMode ? 'dark-mode' : ''}`}>
+                <h3 className={`card-title ${darkMode ? 'dark-mode' : ''}`}>
               {product.productName}
                 </h3>
                 <div className="btn-cont">
@@ -76,7 +76,7 @@ const ListView = ({ currentProducts }) => {
           <AccordionPanel py={2} pt={0}>
             <div className="text">
               <div className="accordion_panel">
-              <p className={`card-description ${isDarkMode ? 'dark-mode' : ''}`}>
+              <p className={`card-description ${darkMode ? 'dark-mode' : ''}`}>
                 {product.description}
               </p>
                 <div className="btn-cont ">

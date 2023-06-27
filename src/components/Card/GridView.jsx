@@ -3,10 +3,10 @@ import { ToolContext } from '../../App';
 import '../../styles/GridView.css';
 
 const GridView = ({ currentProducts }) => {
-  const { handelBookmarkAdd, bookmarks, deleteres, isDarkMode } = useContext(ToolContext);
+  const { handelBookmarkAdd, bookmarks, deleteres, darkMode } = useContext(ToolContext);
 
   return (
-    <main className={`grid ${isDarkMode ? 'dark-mode' : ''}`}>
+    <main className={`grid ${darkMode ? 'dark-mode' : ''}`}>
       {currentProducts.map((product, index) => (
         <article key={index}>
           <div className="text_top">
@@ -26,12 +26,12 @@ const GridView = ({ currentProducts }) => {
                 alt="Default"
               />
             )}
-            <h3 className={`card-title ${isDarkMode ? 'dark-mode' : ''}`}>{product.productName}</h3>
+            <h3 className={`card-title ${darkMode ? 'dark-mode' : ''}`}>{product.productName}</h3>
           </div>
-          <p className={`card-description ${isDarkMode ? 'dark-mode' : ''}`}>{product.description}</p>
+          <p className={`card-description ${darkMode ? 'dark-mode' : ''}`}>{product.description}</p>
           <div className="btn-cont">
             <a target="_blank" href={product.link}>
-              <button className={`visit ${isDarkMode ? 'dark-mode' : ''}`}>
+              <button className={`visit ${darkMode ? 'dark-mode' : ''}`}>
                 <font size="4">
                   Visit
                 </font>
@@ -48,7 +48,7 @@ const GridView = ({ currentProducts }) => {
             ) : (
               <a>
                 <button
-                  className={`bookmark ${isDarkMode ? 'dark-mode' : ''}`}
+                  className={`bookmark ${darkMode ? 'dark-mode' : ''}`}
                   onClick={() => handelBookmarkAdd(product)}
                 >
                   <font size="4">
