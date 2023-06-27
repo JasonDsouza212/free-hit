@@ -2229,6 +2229,13 @@
   "description": "Get Coding events and Hackathons update."  
 },
 {
+  "productName": "Vegamovies",
+  "category": "movies",
+  "image": "https://apkrabi.com/uploads/2023/4/vegamovies-icon.jpg",
+  "link": "https://m.vegamovies.tips/",
+  "description": "Here you can download all latest movies in the top quality"  
+},
+{
   "productName": "Bit Warden",
   "category": "tools",
   "image": "https://bit.ly/3Pw9C68",
