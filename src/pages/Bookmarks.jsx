@@ -1,13 +1,18 @@
 import React, { useContext } from 'react'
 import Header from '../components/Navbar'
 import { ToolContext } from '../App'
-import noresultimg from '../assets/sad-face.png'
+import noresultimg from '../assets/sad-face.webp'
 import { useSearchParams, Navigate } from 'react-router-dom'
 import filterProducts from '../utils/filter/filter_products'
 import checkFilter from '../utils/check_filters'
 import searchProducts from '../utils/search/search_products'
+import GridView from '../components/Card/GridView'
+import ListView from '../components/Card/ListView'
+import { BsFillGridFill, BsListUl } from 'react-icons/bs'
+import { useState } from 'react'
 
 const BookMarks = () => {
+  const [gridView, setGridView] = useState(true)
   const { bookmarks, deleteres } =
     useContext(ToolContext);
 
@@ -33,6 +38,18 @@ const BookMarks = () => {
   return ( 
     <div className="card_container">
       <Header filteredSuggestions={filterNames} />
+      <div className="card_view">
+        <BsFillGridFill
+          onClick={() => setGridView(true)}
+          size={22}
+          color={gridView ? "#212121" : "#9E9E9E"}
+        />
+        <BsListUl
+          onClick={() => setGridView(false)}
+          size={28}
+          color={gridView ? "#9E9E9E" : "#212121"}
+        />
+      </div>
       <div className="card-container">
         {currentProducts.length === 0 ? (
           <div className="not-found-wrapper">
@@ -42,35 +59,11 @@ const BookMarks = () => {
         ) : (
           <>
             {filteredProducts.length > 0 ? (
-              <main className="grid">
-                {currentProducts.map((product) => (
-                  <article>
-                    <div className="text">
-                      <div className="text_top">
-                        <img
-                          className="card-img"
-                          src={product.image}
-                          alt="product"
-                        />
-                        <h3 className="card-title">{product.productName}</h3>
-                      </div>
-                      <p>{product.description}</p>
-                      <div className="btn-cont">
-                        <button>
-                          <a target="_blank" href={product.link}>
-                            Visit
-                          </a>
-                        </button>
-                        <button onClick={() => deleteres(product)}>
-                          <a href="#">
-                            Delete <i className="ri-bookmark-fill"></i>
-                          </a>
-                        </button>
-                      </div>
-                    </div>
-                  </article>
-                ))}
-              </main>
+              gridView ? (
+                <GridView currentProducts={currentProducts} />
+              ) : (
+                <ListView currentProducts={currentProducts} />
+              )
             ) : (
               <p className="no-results">
                 There are no bookmarks

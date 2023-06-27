@@ -15,7 +15,7 @@ information. -->
 
 <!-- Add screenshots to preview the changes  -->
 
-## Checklist 
+## Checklist
 
 <!-- [x] - To mark checked, put 'x' in place of ' '(space)  -->
 <!-- [ ] - Keep unchecked using ' '(space)  -->

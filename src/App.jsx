@@ -1,13 +1,11 @@
 import React, { useState, useEffect, createContext } from 'react'
 import { Route, Routes } from 'react-router-dom'
 import Card from './pages/Home'
-import Footer from './components/Footer'
 import About from './pages/About'
-import products from './DB/product.json'
 import BookMarks from './pages/Bookmarks'
-import BackToTopButton from './components/BackToTop'
 import NotFound from './pages/NotFound'
 import Community from './pages/Community'
+import Layout from './components/Layout'
 
 const ToolContext = createContext()
 const LOCAL_STORAGE_KEY = 'freehit.bookmarks'
@@ -59,23 +57,23 @@ function App() {
 
   return (
     <>
-     <div className="app">
-     <ToolContext.Provider value={toolContextValue}>
-        <div className="routes-holder">
-          <Routes>
-          <Route path="/" element={<Card />} />
-          <Route path="/about" element={<About />} />
-          <Route
-            path="/bookmarks"
-            element={<BookMarks />}
-          />
-          <Route path="/community" element={<Community />} />
-          <Route path="*" element={<NotFound />} />
-          </Routes>
-        </div>
-        <Footer />
-        <BackToTopButton />
-      </ToolContext.Provider>
+      <div className="app">
+        <ToolContext.Provider value={toolContextValue}>
+          <div className="routes-holder">
+            <Routes>
+              <Route path="/" element={<Layout />}>
+                <Route index element={<Card />} />
+                <Route path="about" element={<About />} />
+                <Route
+                  path="bookmarks"
+                  element={<BookMarks />}
+                />
+                <Route path="community" element={<Community />} />
+                <Route path="*" element={<NotFound />} />
+              </Route>
+            </Routes>
+          </div>
+        </ToolContext.Provider>
       </div>
     </>
   )
