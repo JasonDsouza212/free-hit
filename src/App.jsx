@@ -30,6 +30,20 @@ function App() {
     localStorage.setItem(LOCAL_STORAGE_KEY, JSON.stringify(bookmarks))
   }, [bookmarks])
 
+  //dark-mode
+  useEffect(() => {
+    const darkmodejson = localStorage.getItem("darkMode")
+    if (darkmodejson != null) setDarkMode(JSON.parse(darkmodejson))
+    // else setDarkMode([])
+  }, [])
+  
+  useEffect(() => {
+    localStorage.setItem("darkMode", JSON.stringify(darkMode))
+  }, [darkMode])
+
+  
+  
+
   // Add bookmark
   function handelBookmarkAdd(bookmark) {
     const newBookmark = {
