@@ -52,7 +52,7 @@ export default function Sidebar() {
   return (
     <div className={`wrapper ${darkMode ? 'dark-mode' : ''}`}>
       <input type="checkbox" id="btn" hidden />
-      <label htmlFor="btn" className="menu-btn">
+      <label htmlFor="btn" className={`menu-btn ${darkMode ? 'dark-mode' : ''}`}>
         <i className="fa ri-menu-fill"></i>
         <i className="fa ri-close-line"></i>
       </label>

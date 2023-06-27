@@ -230,6 +230,10 @@ nav {
   color:white !important;
 }
 
+.wrapper .menu-btn.dark-mode{
+  border: 2px solid white;
+}
+
 /* sidebar ends  */
 
 /* search box start */
