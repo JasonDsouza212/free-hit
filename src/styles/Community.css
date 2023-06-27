@@ -60,7 +60,7 @@
 /* dark-mode styles */
 
 .all.dark-mode{
-  background-color:black;
+  background-color:var(--primary-white);
 }
 
 .all h2.dark-mode{

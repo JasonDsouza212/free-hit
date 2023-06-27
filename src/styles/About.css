@@ -88,13 +88,12 @@ body {
 }
 
 .about p button:hover {
-  background-color: var(--primary-white);
-  transition: all 0.3s ease-out;
+  /* background-color: var(--primary-white); */
+  transform:scale(1.05);
+  transition: all 0.3s ease-in-out;
 }
 
-.about p button:hover a {
-  color: var(--primary-black);
-}
+
 
 .about img {
   width: 400px;
