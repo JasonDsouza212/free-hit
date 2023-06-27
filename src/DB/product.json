@@ -2213,5 +2213,12 @@
   "image": "https://imgur.com/a/FUyjavX",
   "link": "https://www.eventbrite.com/",
   "description": "Get Coding events and Hackathons update."  
+},
+{
+  "productName": "Javascript.info",
+  "category": "tools",
+  "image": "bit.ly/3r7vPxi",
+  "link": "https://javascript.info/",
+  "description": "Provides comprehensive tutorials and references on the JavaScript"  
 }
 ]
