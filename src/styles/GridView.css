@@ -25,13 +25,9 @@
   border: 2px solid var(--primary-black);
 }
 .grid .visit:hover{
-  background-color:var(--primary-white);
-  color:var(--primary-black);
   transition: all 0.3s ease-out;
 }
 .grid .bookmark:hover{
-  background-color:var(--primary-white);
-  color:var(--primary-black);
   transition: all 0.3s ease-out;
 }
 .grid .delete{
@@ -40,8 +36,6 @@
   border: 2px solid var(--primary-black);
 }
 .grid .delete:hover{
-  background-color:var(--primary-white);
-  color:var(--primary-black);
   transition: all 0.3s ease-out;
 }
 
@@ -68,8 +62,6 @@
   }
 
   .grid .visit.dark-mode:hover {
-    background-color: var(--primary-white);
-    color: var(--primary-black);
     transition: all 0.3s ease-out;
   }
   
@@ -79,8 +71,6 @@
     border: 2px solid white;
   }
   .grid .bookmark.dark-mode:hover {
-    background-color: var(--primary-white);
-    color: var(--primary-black);
     transition: all 0.3s ease-out;
   }
   

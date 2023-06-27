@@ -84,35 +84,23 @@
 }
 
 .list .visit{
-  background-color:var(--primary-black);
-  color:var(--primary-white);
   border: 2px solid var(--primary-black);
 }
 
 .list .bookmark{
-  background-color:var(--primary-black);
-  color:var(--primary-white);
   border: 2px solid var(--primary-black);
 }
 
 .list .visit:hover{
-  background-color:var(--primary-white);
-  color:var(--primary-black);
   transition: all 0.3s ease-out;
 }
 .list .bookmark:hover{
-  background-color:var(--primary-white);
-  color:var(--primary-black);
   transition: all 0.3s ease-out;
 }
 .list .delete{
-  background-color:var(--primary-black);
-  color:var(--primary-white);
   border: 2px solid var(--primary-black);
 }
 .list .delete:hover{
-  background-color:var(--primary-white);
-  color:var(--primary-black);
   transition: all 0.3s ease-out;
 }
 .list img{
@@ -129,27 +117,19 @@
 }
 
 .list .visit.dark-mode{
-  background-color: var(--primary-black);
-  color: var(--primary-white);
   border: 2px solid white;
 }
 
 .list .visit.dark-mode:hover{
-  background-color:var(--primary-white);
-  color: var(--primary-black);
   transition: all 0.3s ease-out;
 }
 
 
 .list .bookmark.dark-mode {
-  background-color: var(--primary-black);
-  color: var(--primary-white);
   border: 2px solid white;
 }
 
 .list .bookmark.dark-mode:hover {
-  background-color:var(--primary-white);
-  color: var(--primary-black);
   transition: all 0.3s ease-out;
 }
 
