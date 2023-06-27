@@ -260,7 +260,7 @@ nav {
 .search_box .btn {
   position: absolute;
   width: 52px;
-  height: 77%;
+  height: 80%;
   background: var(--primary-black);
   z-index: 1;
   cursor: pointer;
