@@ -2229,6 +2229,13 @@
   "description": "Get Coding events and Hackathons update."  
 },
 {
+  "productName": "Bit Warden",
+  "category": "tools",
+  "image": "https://bit.ly/3Pw9C68",
+  "link": "https://bitwarden.com/products/personal/",
+  "description": "Free Software for Effortlessly Manage All Your Passwords and Logins."
+},
+{
   "productName": "Javascript.info",
   "category": "tools",
   "image": "bit.ly/3r7vPxi",
