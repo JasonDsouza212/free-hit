@@ -1,5 +1,12 @@
 [
   {
+    "productName": "Scaler",
+    "category": "coding",
+    "image": "https://bit.ly/3XoZKgc",
+    "link": "https://bit.ly/3plUFZw",
+    "description": "Scaler is an outcome-focused, ed-tech platform for techies."
+  },
+  {
     "productName": "InterviewBit",
     "category": "coding",
     "image": "https://bit.ly/3NH8dIt",
@@ -1843,6 +1850,13 @@
     "description": "Find a full time remote job" 
   },
   {
+    "productName": "Foundit",
+    "category": "remote",
+    "image": "https://bit.ly/3NQbci1",
+    "link": "https://www.foundit.in/",
+    "description": "Find the job that is perfect for You" 
+  },
+  {
     "productName": "INSIDEA",
     "category": "remote",
     "image": "https://tinyurl.com/bdf2h7kp",
@@ -2220,5 +2234,12 @@
   "image": "https://bit.ly/3Pw9C68",
   "link": "https://bitwarden.com/products/personal/",
   "description": "Free Software for Effortlessly Manage All Your Passwords and Logins."
+},
+{
+  "productName": "Javascript.info",
+  "category": "tools",
+  "image": "bit.ly/3r7vPxi",
+  "link": "https://javascript.info/",
+  "description": "Provides comprehensive tutorials and references on the JavaScript"  
 }
 ]
