@@ -45,16 +45,17 @@ const ListView = ({ currentProducts }) => {
                     </button>
                   </a>
                   {bookmarks.some((obj) => obj['productName'] === product.productName) ? (
-                    <button
+                    <a>
+                    <button className={`delete ${darkMode ? 'dark-mode' : ''}`}
                       onClick={(event) => {
                         event.stopPropagation();
                         deleteres(product);
                       }}
                     >
-                      <a>
-                        Delete<i className="ri-bookmark-fill"></i>
+                      <font size="3">Delete</font>
+                        <i className={`ri-bookmark-fill ${darkMode ? 'dark-mode' : ''}`}></i>
+                      </button>
                       </a>
-                    </button>
                   ) : (
                     <a>
                       <button

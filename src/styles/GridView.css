@@ -27,12 +27,22 @@
 .grid .visit:hover{
   background-color:var(--primary-white);
   color:var(--primary-black);
-  border: 2px solid black;
+  transition: all 0.3s ease-out;
 }
 .grid .bookmark:hover{
   background-color:var(--primary-white);
   color:var(--primary-black);
-  border: 2px solid black;
+  transition: all 0.3s ease-out;
+}
+.grid .delete{
+  background-color:var(--primary-black);
+  color:var(--primary-white);
+  border: 2px solid var(--primary-black);
+}
+.grid .delete:hover{
+  background-color:var(--primary-white);
+  color:var(--primary-black);
+  transition: all 0.3s ease-out;
 }
 
 .grid img{

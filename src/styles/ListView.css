@@ -105,7 +105,16 @@
   color:var(--primary-black);
   transition: all 0.3s ease-out;
 }
-
+.list .delete{
+  background-color:var(--primary-black);
+  color:var(--primary-white);
+  border: 2px solid var(--primary-black);
+}
+.list .delete:hover{
+  background-color:var(--primary-white);
+  color:var(--primary-black);
+  transition: all 0.3s ease-out;
+}
 .list img{
   border: 2px solid black;
 }

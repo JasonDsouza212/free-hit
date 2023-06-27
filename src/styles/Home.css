@@ -205,9 +205,9 @@ box-shadow: 4px 5px 8px rgba(0, 0, 0, 0.447);
 }
 
 .btn-cont button i {
-  position: relative;
-  top: 3px;
-  margin-left: 5px;
+  position:fixed;
+  /* top: 6px;
+  margin-left: 5px; */
 }
 
 .btn-cont button:hover {
