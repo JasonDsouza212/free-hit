@@ -20,7 +20,7 @@ const ListView = ({ currentProducts }) => {
             <Box padding={1} py="3px" flex="1" className="image">
               {product.image ? (
                 <img
-                  className="card-img"
+                  className={`card-img ${darkMode ? 'dark-mode' : ''}`}
                   src={product.image}
                   alt=""
                   onError={(e) => {
@@ -29,7 +29,7 @@ const ListView = ({ currentProducts }) => {
                 />
               ) : (
                 <img
-                  className="card-img"
+                  className={`card-img ${darkMode ? 'dark-mode' : ''}`}
                   src="https://i.ibb.co/9H0s34n/default-img.jpg"
                   alt="Default"
                 />
@@ -40,7 +40,7 @@ const ListView = ({ currentProducts }) => {
                 </h3>
                 <div className="btn-cont">
                   <a target="_blank" href={product.link}>
-                    <button className="visit">
+                    <button className={`visit ${darkMode ? 'dark-mode' : ''}`}>
                       <font size="3">Visit</font>
                     </button>
                   </a>
@@ -58,7 +58,7 @@ const ListView = ({ currentProducts }) => {
                   ) : (
                     <a>
                       <button
-                        className="bookmark"
+                        className={`bookmark ${darkMode ? 'dark-mode' : ''}`}
                         onClick={(event) => {
                           event.stopPropagation();
                           handelBookmarkAdd(product);
@@ -71,7 +71,7 @@ const ListView = ({ currentProducts }) => {
                 </div>
               </div>
             </Box>
-            <AccordionIcon as={BsChevronDown} size={5} fontWeight="bold" />
+            <AccordionIcon className={`down ${darkMode ? 'dark-mode' : ''}`} as={BsChevronDown} size={5} fontWeight="bold" />
           </AccordionButton>
           <AccordionPanel py={2} pt={0}>
             <div className="text">

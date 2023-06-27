@@ -78,10 +78,53 @@
   flex-direction: column;
 }
 
-.list.dark-mode .visit,
-.list.dark-mode .bookmark {
-  background-color: var(--primary-white);
-  color: var(--primary-black);
+.list .visit:hover{
+  background-color:white;
+  color:black;
+  border: 2px solid black;
+}
+.list .bookmark:hover{
+  background-color:white;
+  color:black;
+  border: 2px solid black;
+}
+
+.list img{
+  border: 2px solid black;
+}
+
+/* dar-mode styles */
+.list img.dark-mode{
+  border: 2px solid white;
+}
+
+.list .down.dark-mode{
+  color:white;
+}
+
+.list .visit.dark-mode{
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+}
+
+.list .visit.dark-mode:hover{
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+}
+
+
+.list .bookmark.dark-mode {
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+}
+
+.list .bookmark.dark-mode:hover {
+  background-color: black;
+  color: white;
+  border: 2px solid white;
 }
 
 .list.dark-mode .accordion_item {
