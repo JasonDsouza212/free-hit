@@ -2255,5 +2255,26 @@
   "image": "bit.ly/3r7vPxi",
   "link": "https://javascript.info/",
   "description": "Provides comprehensive tutorials and references on the JavaScript"  
+},
+{
+  "productName": "Coursera",
+  "category": "courses",
+  "image": "https://bit.ly/3NSYoaG",
+  "link": "https://www.coursera.org/",
+  "description": "Free & paid courses from top universities with financial aid option"  
+},
+{
+  "productName": "Udemy",
+  "category": "courses",
+  "image": "https://bit.ly/3JYgCoT",
+  "link": "https://www.udemy.com/",
+  "description": "Wide range of courses from various industry experts."  
+},
+{
+  "productName": "Edx",
+  "category": "courses",
+  "image": "https://bit.ly/3Nywor8",
+  "link": "https://www.edx.org/",
+  "description": "Free prestigious university courses. Audit for free or pay for a certificate."  
 }
 ]
