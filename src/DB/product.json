@@ -40,7 +40,7 @@
     "image": "https://bit.ly/3PuJPuO ",
     "link": " https://developer.mozilla.org/en-US/ ",
     "description": " Provides information about Open Web technologies including HTML, CSS, and APIs"
-},
+  },
   {
     "productName": "Magic Eraser",
     "category": "tools",
@@ -97,7 +97,7 @@
     "link": "https://bit.ly/3oXcaPL",
     "description": "The #1 way college students & early graduates get Internships & Jobs"
   },
-   {
+  {
     "productName": "Reduce Images",
     "category": "tools",
     "image": "https://ibb.co/SmKdz1X",
@@ -541,7 +541,7 @@
   {
     "productName": "CSSPortal",
     "category": "web",
-    "image":"https://www.cssportal.com/assets/images/cssicon.png",
+    "image": "https://www.cssportal.com/assets/images/cssicon.png",
     "link": "https://www.cssportal.com/",
     "description": "CSS Portal is home to many examples of CSS and how it can be used in website design."
   },
@@ -940,7 +940,7 @@
   {
     "productName": "LeetSync",
     "category": "extensions",
-     "image": "https://bit.ly/43lwVDw",
+    "image": "https://bit.ly/43lwVDw",
     "link": "https://chrome.google.com/webstore/detail/leetsync-leetcode-to-gith/ppkbejeolfcbaomanmbpjdbkfcjfhjnd",
     "description": "Integrate Leetcode submission to GitHub"
   },
@@ -1679,156 +1679,155 @@
     "link": "https://www.favicon.cc/",
     "description": "Favicon.cc is a website that offers a simple and user-friendly platform for creating and customizing favicons."
   },
-{
-  "productName": "DALL·E",
-  "category": "ai",
-  "image": "https://bit.ly/3oICzAN",
-  "link": "https://openai.com/dall-e-2",
-  "description": "An AI system that can create realistic images and art from a description in natural language."
-},
+  {
+    "productName": "DALL·E",
+    "category": "ai",
+    "image": "https://bit.ly/3oICzAN",
+    "link": "https://openai.com/dall-e-2",
+    "description": "An AI system that can create realistic images and art from a description in natural language."
+  },
 
-{
-  "productName": "Novoresume",
-  "category": "resume",
-  "image": "https://bit.ly/3P09nA5",
-  "link": "https://novoresume.com/",
-  "description": "Online resume builder."
-},
-{
-  "productName": "Gencraft",
-  "category": "AI",
-  "image": "https://bit.ly/3Nji330",
-  "link": "https://gencraft.com/",
-  "description": "Watch your prompts turn into beautiful designs, images, and artworks."
-},
-{
-  "productName": "WatchSeriesHD",
-  "category": "movies",
-  "image": "https://rb.gy/xxgtv",
-  "link": "https://watchserieshd.live/",
-  "description": "Stream movies and series in HD quality for free"
-},
-{
-  "productName": "Uiverse.io",
-  "category": "UI",
-  "image": "http://bit.ly/3X19kpw",
-  "link": "https://uiverse.io/",
-  "description": "Discover and customize free, open-source CSS and HTML UI elements, through this tool"
-},
-{
-  "productName": "Leetcode",
-  "category": "coding",
-  "image": "https://leetcode.com/static/images/LeetCode_logo.png",
-  "link": "https://leetcode.com/",
-  "description": "A platform for practicing coding skills and preparing for technical interviews."
-},
-{
-  "productName": "Atcoder",
-  "category": "coding",
-  "image": "http://morningpitch.com/wp-content/uploads/2020/10/download.png",
-  "link": " https://atcoder.jp/",
-  "description": "One of the best platforms for Cp, it was created in Japan"
-},
-{
-  "productName": "Codeforces",
-  "category": "coding",
-  "image": "https://tinyurl.com/3fjue7y6",
-  "link": " https://codeforces.com/",
-  "description": "A competitive programming platform with challenging contests and an active community."
-},
-{
-  "productName": "Codechef",
-  "category": "coding",
-  "image": "https://tinyurl.com/5cx6fp35",
-  "link": "https://www.codechef.com/",
-  "description": "An online community for programmers to improve their skills through contests and challenges."
-},
-{
-  "productName": "SPOJ",
-  "category": "coding",
-  "image": "https://tinyurl.com/yndmds67",
-  "link": "https://www.spoj.com/",
-  "description": "An online judge system with a large collection of programming problems for practice and contests."
-},
-{
-  "productName": "Hackerrank",
-  "category": "coding",
-  "image": "https://tinyurl.com/247ewu64",
-  "link": "https://www.hackerrank.com/",
-  "description": "A coding platform with challenges, contests, and interview preparation resources."
-},
-{
-  "productName": "Hackerearth",
-  "category": "coding",
-  "image": "https://tinyurl.com/4rzch6cp",
-  "link": "https://www.hackerearth.com/",
-  "description": "A platform for skill assessment, coding competitions, and hiring developers."
-},
-{
-  "productName": "CSES",
-  "category": "coding",
-  "image": "https://cses.fi/logo.png?1",
-  "link": "https://cses.fi/",
-  "description": "Competitive Programming Archive featuring a wide range of algorithmic problems."
-},
-{
-  "productName": "Project Euler",
-  "category": "coding",
-  "image": "https://tinyurl.com/4kznjfju",
-  "link": " https://projecteuler.net/",
-  "description": "A collection of challenging mathematical and computational problems."
-},
-{
-  "productName": "Topcoder",
-  "category": "coding",
-  "image": "https://tinyurl.com/y66jd8mt",
-  "link": "https://www.topcoder.com/",
-  "description": "A platform for competitive programming and software development challenges."
-},
-{
-  "productName": "GeeksForGeeks",
-  "category": "coding",
-  "image": "https://t.ly/vKJ8",
-  "link": "https://www.geeksforgeeks.org/",
-  "description": " A portal for computer science resources, tutorials, and coding practice."
-},
-{
-  "productName": "Google Fonts",
-  "category": "tools",
-  "image": "https://tinyurl.com/554n6ry6",
-  "link": "https://fonts.google.com/",
-  "description": "Free and open source font families."
-},
-{
-  "productName": "StackBlitz",
-  "category": "Online Code Editor",
-  "image": "https://avatars.githubusercontent.com/u/28635252?s=200&v=4",
-  "link": "https://stackblitz.com/",
-  "description": "Instant dev experiences: Click, code, no local setup required."
-},
-{
+  {
+    "productName": "Novoresume",
+    "category": "resume",
+    "image": "https://bit.ly/3P09nA5",
+    "link": "https://novoresume.com/",
+    "description": "Online resume builder."
+  },
+  {
+    "productName": "Gencraft",
+    "category": "AI",
+    "image": "https://bit.ly/3Nji330",
+    "link": "https://gencraft.com/",
+    "description": "Watch your prompts turn into beautiful designs, images, and artworks."
+  },
+  {
+    "productName": "WatchSeriesHD",
+    "category": "movies",
+    "image": "https://rb.gy/xxgtv",
+    "link": "https://watchserieshd.live/",
+    "description": "Stream movies and series in HD quality for free"
+  },
+  {
+    "productName": "Uiverse.io",
+    "category": "UI",
+    "image": "http://bit.ly/3X19kpw",
+    "link": "https://uiverse.io/",
+    "description": "Discover and customize free, open-source CSS and HTML UI elements, through this tool"
+  },
+  {
+    "productName": "Leetcode",
+    "category": "coding",
+    "image": "https://leetcode.com/static/images/LeetCode_logo.png",
+    "link": "https://leetcode.com/",
+    "description": "A platform for practicing coding skills and preparing for technical interviews."
+  },
+  {
+    "productName": "Atcoder",
+    "category": "coding",
+    "image": "http://morningpitch.com/wp-content/uploads/2020/10/download.png",
+    "link": " https://atcoder.jp/",
+    "description": "One of the best platforms for Cp, it was created in Japan"
+  },
+  {
+    "productName": "Codeforces",
+    "category": "coding",
+    "image": "https://tinyurl.com/3fjue7y6",
+    "link": " https://codeforces.com/",
+    "description": "A competitive programming platform with challenging contests and an active community."
+  },
+  {
+    "productName": "Codechef",
+    "category": "coding",
+    "image": "https://tinyurl.com/5cx6fp35",
+    "link": "https://www.codechef.com/",
+    "description": "An online community for programmers to improve their skills through contests and challenges."
+  },
+  {
+    "productName": "SPOJ",
+    "category": "coding",
+    "image": "https://tinyurl.com/yndmds67",
+    "link": "https://www.spoj.com/",
+    "description": "An online judge system with a large collection of programming problems for practice and contests."
+  },
+  {
+    "productName": "Hackerrank",
+    "category": "coding",
+    "image": "https://tinyurl.com/247ewu64",
+    "link": "https://www.hackerrank.com/",
+    "description": "A coding platform with challenges, contests, and interview preparation resources."
+  },
+  {
+    "productName": "Hackerearth",
+    "category": "coding",
+    "image": "https://tinyurl.com/4rzch6cp",
+    "link": "https://www.hackerearth.com/",
+    "description": "A platform for skill assessment, coding competitions, and hiring developers."
+  },
+  {
+    "productName": "CSES",
+    "category": "coding",
+    "image": "https://cses.fi/logo.png?1",
+    "link": "https://cses.fi/",
+    "description": "Competitive Programming Archive featuring a wide range of algorithmic problems."
+  },
+  {
+    "productName": "Project Euler",
+    "category": "coding",
+    "image": "https://tinyurl.com/4kznjfju",
+    "link": " https://projecteuler.net/",
+    "description": "A collection of challenging mathematical and computational problems."
+  },
+  {
+    "productName": "Topcoder",
+    "category": "coding",
+    "image": "https://tinyurl.com/y66jd8mt",
+    "link": "https://www.topcoder.com/",
+    "description": "A platform for competitive programming and software development challenges."
+  },
+  {
+    "productName": "GeeksForGeeks",
+    "category": "coding",
+    "image": "https://t.ly/vKJ8",
+    "link": "https://www.geeksforgeeks.org/",
+    "description": " A portal for computer science resources, tutorials, and coding practice."
+  },
+  {
+    "productName": "Google Fonts",
+    "category": "tools",
+    "image": "https://tinyurl.com/554n6ry6",
+    "link": "https://fonts.google.com/",
+    "description": "Free and open source font families."
+  },
+  {
+    "productName": "StackBlitz",
+    "category": "Online Code Editor",
+    "image": "https://avatars.githubusercontent.com/u/28635252?s=200&v=4",
+    "link": "https://stackblitz.com/",
+    "description": "Instant dev experiences: Click, code, no local setup required."
+  },
+  {
     "productName": "freeCodeCamp",
     "category": "tools",
     "image": "https://design-style-guide.freecodecamp.org/downloads/fcc_primary_small.jpg",
     "link": "https://www.freecodecamp.org/",
     "description": "freeCodeCamp is a non-profit organization providing free online coding courses and a supportive community."
-},
-{
-  "productName": "Ant Design",
-  "category": "tools",
-  "image": "https://avatars0.githubusercontent.com/u/12101536?s=280&v=4",
-  "link": "https://ant.design/",
-  "description": "Ant Design is a popular Frontend UI library of React components which makes development code efficient, clean and fast"
-
-},
-{
-  "productName": "Roadmap.sh",
-  "category": "tools",
-  "image": "https://i.pinimg.com/originals/14/ce/13/14ce13dff4ba3a6255916b128dd9ec57.png",
-  "link": "https://roadmap.sh/",
-  "description": "Roadmap.sh is an effort to create roadmaps and guides to help developers in picking up the path"
-},
-{
+  },
+  {
+    "productName": "Ant Design",
+    "category": "tools",
+    "image": "https://avatars0.githubusercontent.com/u/12101536?s=280&v=4",
+    "link": "https://ant.design/",
+    "description": "Ant Design is a popular Frontend UI library of React components which makes development code efficient, clean and fast"
+  },
+  {
+    "productName": "Roadmap.sh",
+    "category": "tools",
+    "image": "https://i.pinimg.com/originals/14/ce/13/14ce13dff4ba3a6255916b128dd9ec57.png",
+    "link": "https://roadmap.sh/",
+    "description": "Roadmap.sh is an effort to create roadmaps and guides to help developers in picking up the path"
+  },
+  {
     "productName": "felxjobs",
     "category": "remote",
     "image": "https://tinyurl.com/ybfchtmw",
@@ -1847,14 +1846,14 @@
     "category": "remote",
     "image": "https://tinyurl.com/48bja2rc",
     "link": "https://www.crossover.com/",
-    "description": "Find a full time remote job" 
+    "description": "Find a full time remote job"
   },
   {
     "productName": "Foundit",
     "category": "remote",
     "image": "https://bit.ly/3NQbci1",
     "link": "https://www.foundit.in/",
-    "description": "Find the job that is perfect for You" 
+    "description": "Find the job that is perfect for You"
   },
   {
     "productName": "INSIDEA",
@@ -1960,300 +1959,305 @@
     "image": "bit.ly/3Pi0uSi",
     "link": "https://uizard.io/",
     "description": "Design wireframes, mockups, and prototypes in minutes"
-},
-{
-  "productName": "DESIGNS.AI",
-  "category": "resume",
-  "image": "https://tinyurl.com/3c55se3w",
-  "link": "https://designs.ai/design-types/resumes",
-  "description": "Build Professional resumes effortlessly with Designs.AI"
-},
-{
-  "productName": "RESUME WORDED",
-  "category": "resume",
-  "image": "https://resumeworded.com/",
-  "link": "https://resumeworded.com/",
-  "description": "Your personal resume & LinkedIn coach"
-},
-{
-  "productName": "These resumes do not exist",
-  "category": "resume",
-  "image": "https://thisresumedoesnotexist.com/",
-  "link": "https://thisresumedoesnotexist.com/",
-  "description": "Stand out among the competition with over 1000 AI-inspired resume examples."
-},
-{
-  "productName": "HyreSnap",
-  "category": "resume",
-  "image": "https://tinyurl.com/3wfpyr8f",
-  "link": "https://hyresnap.com/resume-builder",
-  "description": "Elevate your interview chances with our Modern Resume Templates"
-},
-{
-  "productName": "skillroads",
-  "category": "resume",
-  "image": "https://skillroads.com/free-online-resume-builder",
-  "link": "https://skillroads.com/free-online-resume-builder",
-  "description": "Creating a modern and sharp resume has never been easier!"
-},
-{
-  "productName": "myperfectresume",
-  "category": "resume",
-  "image": "https://tinyurl.com/3cah9f79",
-  "link": "https://www.myperfectresume.com/",
-  "description": "Create Your Perfect Resume Today"
-},
-{
-  "productName": "VisualCV",
-  "category": "resume",
-  "image": "https://www.visualcv.com/",
-  "link": "https://www.visualcv.com/",
-  "description": "Create a job-ready resume in minutes."
-},
-{
-  "productName": "resume.com",
-  "category": "resume",
-  "image": "https://www.resume.com/",
-  "link": "https://www.resume.com/",
-  "description": "Build a professional resume for free"
-},
-{
-  "productName": "Google bard",
-  "category": "ai",
-  "image": "bit.ly/3NgYYx9",
-  "link": "https://bard.google.com/",
-  "description": "AI tools "
-},
-{
-  "productName": "Otter AI",
-  "category": "ai",
-  "image": "bit.ly/3CGspEe",
-  "link": "https://otter.ai/",
-  "description": "Convert voice to text"
-},
-{
-  "productName": "Runway AI",
-  "category": "ai",
-  "image": "bit.ly/3NpP7FE",
-  "link": "https://runwayml.com/",
-  "description": "Cloud-based video editing and effects platform"
-},
-{
-  "productName": "writefull",
-  "category": "ai",
-  "image": "https://tinyurl.com/5n936eaz",
-  "link": "https://www.writefull.com/#products",
-  "description": "assistant designed to help English writing skills"
-},
-{
-  "productName": "Chakra UI",
-  "category": "tools",
-  "image": "https://www.happylifecreators.com/wp/wp-content/uploads/2022/06/chakra-ui_title2-400x400.png",
-  "link": "https://chakra-ui.com",
-  "description": "Chakra UI is an accessible and customizable React component library for building UIs."
-},
-{
-  "productName": "Frontend Mentor",
-  "category": "web",
-  "image": "https://www.frontendmentor.io/",
-  "link": "https://www.frontendmentor.io/",
-  "description": "A platform providing challenges for frontend developers to sharp their skills."
-},
-{
-  "productName": "Class Central",
-  "category": "tools",
-  "image": "https://bit.ly/46jrGXc",
-  "link": "https://www.classcentral.com/",
-  "description": "Class Central is a website that lists online courses from top universities and providers."
-},
-{
-  "productName": "Talk to Books ",
-  "category": "Useful Tools",
-  "image": "https://bit.ly/46hqdjP",
-  "link": "https://books.google.com/talktobooks/",
-  "description": "Users could ask questions, phrases, and the AI would scan through of books to find relevant passages and provide answers."
-},
-{
-  "productName": "Exercism",
-  "category": "Coding",
-  "image": "https://bit.ly/3qY1Ck6",
-  "link": "https://exercism.org/",
-  "description": "Exercism is a coding platform that offers a hands-on learning experience, providing programmers with a wide range of challenges to practice and improve their skills."
-},
-{
-  "productName": "Paraphrasing Tool",
-  "category": "tools",
-  "image": "https://bit.ly/44h4Bm8",
-  "link": "https://plagiarismdetector.net/",
-  "description": "Software aiding in avoiding plagiarism by rewording content effectively."
-},
-{
-  "productName": "Spinbot",
-  "category": "tools",
-  "image": "https://bit.ly/4485Unq",
-  "link": "https://spinbot.com/",
-  "description": "Spinbot a text-spinning tool that generates alternative content."
-},
-{
-  "productName": "Free Icons",
-  "category": "tools",
-  "image": "https://bit.ly/3r3nuua",
-  "link": "https://icons8.com/",
-  "description": "Collection of diverse, cost-free icons for versatile design applications."
-},
-{
-  "productName": "Pomofocus",
-  "category": "Useful Tools",
-  "image": "https://bit.ly/3Nq7dHn",
-  "link": "https://pomofocus.io/app",
-  "description": "Pomofocus is a customizable pomodoro timer to help you focus on any task you are working on."
-
-},
-{
-  "productName": "Codestudio",
-  "category": "tools",
-  "image": "https://cdn-1.webcatalog.io/catalog/codestudio/codestudio-icon-filled-256.png",
-  "link": "https://www.codingninjas.com/codestudio",
-  "description": "Coding Ninjas Studio Unleash your coding potential with interactive learning and practice."
-},
-{  
-  "productName": "Text2SQL AI",
-  "category": "ai",
-  "image": "bit.ly/3JoQcMD",
-  "link": "https://www.text2sql.ai/",
-  "description": "Convert natural language queries into SQL queries"
-},
-{
-  "productName": "CodiumL AI",
-  "category": "ai",
-  "image": "bit.ly/4461P2W",
-  "link": "https://www.codium.ai/",
-  "description": "Generate unit tests for your code"
-},
-{
-  "productName": "Mind Luster",
-  "category": "Useful Tools",
-  "image": "https://bit.ly/42PS5sA",
-  "link": "https://www.mindluster.com/",
-  "description": "Mind Luster, an innovative learning platform, offers courses to ignite and expand the horizons of curious minds."
-},
-{
-  "productName": "poised",
-  "category": "ai",
-  "image": "https://bit.ly/42TQnqc",
-  "link": "https://www.poised.com/",
-  "description": "poised is an AI powered communication coach."
-},
-{
-  "productName": "OBS Studio",
-  "category": "tools",
-  "image": "https://bit.ly/46pIxau",
-  "link": "https://obsproject.com/",
-  "description": "Free and open source software for video recording and live streaming."
-},
-{
-  "productName": "Replit GhostWriter",
-  "category": "ai",
-  "image": "https://avatars3.githubusercontent.com/u/983194?s=280&v=4",
-  "link": "https://replit.com/site/ghostwriter",
-  "description": "Replit GhostWriter is an AI coding tool which has tons of code-easing features to help developers"
-},
-{
-  "productName": "Evernote",
-  "category": "extensions",
-  "image": "shorturl.at/elAT5",
-  "link": "https://chrome.google.com/webstore/detail/evernote-web-clipper/pioclpoplcdbaefihamjohnefbikjilc",
-  "description": "Evernote is a cross-platform app designed for note taking, organizing, task lists, and archiving."
-},
-{
-  "productName": "Reactplay.io",
-  "category": "ai",
-  "image": "bit.ly/3NKcYRs",
-  "link": "https://reactplay.io/",
-  "description": "Allows to code, run, and debug React code without having to install anything on your computer"
-},
-{
-  "productName": "Read Aloud",
-  "category": "extensions",
-  "image": "https://imgur.com/a/qDvJF1n",
-  "link": "https://chrome.google.com/webstore/detail/read-aloud-a-text-to-spee/hdhinadidafjejdhmfkjgnolgimiaplp",
-  "description": "Text to speech extension"
-},
-{
-  "productName": "Walkccc",
-  "category": "tools",
-  "image": "https://imgur.com/a/FBEgUZo",
-  "link": "https://walkccc.me/LeetCode/",
-  "description": "Leetcode Solutions website"
-},
-{
-  "productName": "Image to Text",
-  "category": "tools",
-  "image": "https://imgur.com/a/kLKlkiv",
-  "link": "https://www.imagetotext.info/",
-  "description": "Image to text convertor"
-},
-{
-  "productName": "USACO",
-  "category": "coding",
-  "image": "https://forum.usaco.guide/uploads/default/original/1X/047f2df686adefc647703910bb5be85e7cce48e6.png",
-  "link": "https://usaco.guide/",
-  "description": "A free collection of curated, high-quality resources which specifically focus on competitive programming."
-},
-{
-"productName": "Codecademy",
-"category": "coding",
-"image": "https://shorturl.at/mzCU4",
-"link": "https://www.codecademy.com/",
-"description": "An online interactive platform with various courses, quizzes and projects."
-},
-{
-  "productName": "Dark Reader",
-  "category": "extensions",
-  "image": "https://shorturl.at/flBDY",
-  "link": "https://chrome.google.com/webstore/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh",
-  "description": "Dark Reader is an extension that brings dark mode to any website over the internet."
-},
-{
-  "productName": "W3resource",
-  "category": "tools",
-  "image": "https://imgur.com/a/uy8QlQw",
-  "link": "https://www.w3resource.com/",
-  "description": "Resources to practice for frontend-developers"
-},
-{
-  "productName": "Eventbrite",
-  "category": "tools",
-  "image": "https://imgur.com/a/FUyjavX",
-  "link": "https://www.eventbrite.com/",
-  "description": "Get Coding events and Hackathons update."  
-},
-{
-  "productName": "Bing",
-  "category": "ai",
-  "image": "https://imgur.com/a/AwM4jXQ",
-  "link": "https://chrome.google.com/webstore/detail/microsoft-bing-homepage-s/ddojnmkongaimkdddgmcccldlfhokcfb",
-  "description": "Bing Ai extension"   
-},
-{
-  "productName": "Vegamovies",
-  "category": "movies",
-  "image": "https://apkrabi.com/uploads/2023/4/vegamovies-icon.jpg",
-  "link": "https://m.vegamovies.tips/",
-  "description": "Here you can download all latest movies in the top quality"  
-},
-{
-  "productName": "Bit Warden",
-  "category": "tools",
-  "image": "https://bit.ly/3Pw9C68",
-  "link": "https://bitwarden.com/products/personal/",
-  "description": "Free Software for Effortlessly Manage All Your Passwords and Logins."
-},
-{
-  "productName": "Javascript.info",
-  "category": "tools",
-  "image": "bit.ly/3r7vPxi",
-  "link": "https://javascript.info/",
-  "description": "Provides comprehensive tutorials and references on the JavaScript"  
-}
+  },
+  {
+    "productName": "DESIGNS.AI",
+    "category": "resume",
+    "image": "https://tinyurl.com/3c55se3w",
+    "link": "https://designs.ai/design-types/resumes",
+    "description": "Build Professional resumes effortlessly with Designs.AI"
+  },
+  {
+    "productName": "RESUME WORDED",
+    "category": "resume",
+    "image": "https://resumeworded.com/",
+    "link": "https://resumeworded.com/",
+    "description": "Your personal resume & LinkedIn coach"
+  },
+  {
+    "productName": "These resumes do not exist",
+    "category": "resume",
+    "image": "https://thisresumedoesnotexist.com/",
+    "link": "https://thisresumedoesnotexist.com/",
+    "description": "Stand out among the competition with over 1000 AI-inspired resume examples."
+  },
+  {
+    "productName": "HyreSnap",
+    "category": "resume",
+    "image": "https://tinyurl.com/3wfpyr8f",
+    "link": "https://hyresnap.com/resume-builder",
+    "description": "Elevate your interview chances with our Modern Resume Templates"
+  },
+  {
+    "productName": "skillroads",
+    "category": "resume",
+    "image": "https://skillroads.com/free-online-resume-builder",
+    "link": "https://skillroads.com/free-online-resume-builder",
+    "description": "Creating a modern and sharp resume has never been easier!"
+  },
+  {
+    "productName": "myperfectresume",
+    "category": "resume",
+    "image": "https://tinyurl.com/3cah9f79",
+    "link": "https://www.myperfectresume.com/",
+    "description": "Create Your Perfect Resume Today"
+  },
+  {
+    "productName": "VisualCV",
+    "category": "resume",
+    "image": "https://www.visualcv.com/",
+    "link": "https://www.visualcv.com/",
+    "description": "Create a job-ready resume in minutes."
+  },
+  {
+    "productName": "resume.com",
+    "category": "resume",
+    "image": "https://www.resume.com/",
+    "link": "https://www.resume.com/",
+    "description": "Build a professional resume for free"
+  },
+  {
+    "productName": "Google bard",
+    "category": "ai",
+    "image": "bit.ly/3NgYYx9",
+    "link": "https://bard.google.com/",
+    "description": "AI tools "
+  },
+  {
+    "productName": "Otter AI",
+    "category": "ai",
+    "image": "bit.ly/3CGspEe",
+    "link": "https://otter.ai/",
+    "description": "Convert voice to text"
+  },
+  {
+    "productName": "Runway AI",
+    "category": "ai",
+    "image": "bit.ly/3NpP7FE",
+    "link": "https://runwayml.com/",
+    "description": "Cloud-based video editing and effects platform"
+  },
+  {
+    "productName": "writefull",
+    "category": "ai",
+    "image": "https://tinyurl.com/5n936eaz",
+    "link": "https://www.writefull.com/#products",
+    "description": "assistant designed to help English writing skills"
+  },
+  {
+    "productName": "Chakra UI",
+    "category": "tools",
+    "image": "https://www.happylifecreators.com/wp/wp-content/uploads/2022/06/chakra-ui_title2-400x400.png",
+    "link": "https://chakra-ui.com",
+    "description": "Chakra UI is an accessible and customizable React component library for building UIs."
+  },
+  {
+    "productName": "Frontend Mentor",
+    "category": "web",
+    "image": "https://www.frontendmentor.io/",
+    "link": "https://www.frontendmentor.io/",
+    "description": "A platform providing challenges for frontend developers to sharp their skills."
+  },
+  {
+    "productName": "Class Central",
+    "category": "tools",
+    "image": "https://bit.ly/46jrGXc",
+    "link": "https://www.classcentral.com/",
+    "description": "Class Central is a website that lists online courses from top universities and providers."
+  },
+  {
+    "productName": "Talk to Books ",
+    "category": "Useful Tools",
+    "image": "https://bit.ly/46hqdjP",
+    "link": "https://books.google.com/talktobooks/",
+    "description": "Users could ask questions, phrases, and the AI would scan through of books to find relevant passages and provide answers."
+  },
+  {
+    "productName": "Exercism",
+    "category": "Coding",
+    "image": "https://bit.ly/3qY1Ck6",
+    "link": "https://exercism.org/",
+    "description": "Exercism is a coding platform that offers a hands-on learning experience, providing programmers with a wide range of challenges to practice and improve their skills."
+  },
+  {
+    "productName": "Paraphrasing Tool",
+    "category": "tools",
+    "image": "https://bit.ly/44h4Bm8",
+    "link": "https://plagiarismdetector.net/",
+    "description": "Software aiding in avoiding plagiarism by rewording content effectively."
+  },
+  {
+    "productName": "Spinbot",
+    "category": "tools",
+    "image": "https://bit.ly/4485Unq",
+    "link": "https://spinbot.com/",
+    "description": "Spinbot a text-spinning tool that generates alternative content."
+  },
+  {
+    "productName": "Free Icons",
+    "category": "tools",
+    "image": "https://bit.ly/3r3nuua",
+    "link": "https://icons8.com/",
+    "description": "Collection of diverse, cost-free icons for versatile design applications."
+  },
+  {
+    "productName": "Pomofocus",
+    "category": "Useful Tools",
+    "image": "https://bit.ly/3Nq7dHn",
+    "link": "https://pomofocus.io/app",
+    "description": "Pomofocus is a customizable pomodoro timer to help you focus on any task you are working on."
+  },
+  {
+    "productName": "Codestudio",
+    "category": "tools",
+    "image": "https://cdn-1.webcatalog.io/catalog/codestudio/codestudio-icon-filled-256.png",
+    "link": "https://www.codingninjas.com/codestudio",
+    "description": "Coding Ninjas Studio Unleash your coding potential with interactive learning and practice."
+  },
+  {
+    "productName": "Text2SQL AI",
+    "category": "ai",
+    "image": "bit.ly/3JoQcMD",
+    "link": "https://www.text2sql.ai/",
+    "description": "Convert natural language queries into SQL queries"
+  },
+  {
+    "productName": "CodiumL AI",
+    "category": "ai",
+    "image": "bit.ly/4461P2W",
+    "link": "https://www.codium.ai/",
+    "description": "Generate unit tests for your code"
+  },
+  {
+    "productName": "Mind Luster",
+    "category": "Useful Tools",
+    "image": "https://bit.ly/42PS5sA",
+    "link": "https://www.mindluster.com/",
+    "description": "Mind Luster, an innovative learning platform, offers courses to ignite and expand the horizons of curious minds."
+  },
+  {
+    "productName": "poised",
+    "category": "ai",
+    "image": "https://bit.ly/42TQnqc",
+    "link": "https://www.poised.com/",
+    "description": "poised is an AI powered communication coach."
+  },
+  {
+    "productName": "OBS Studio",
+    "category": "tools",
+    "image": "https://bit.ly/46pIxau",
+    "link": "https://obsproject.com/",
+    "description": "Free and open source software for video recording and live streaming."
+  },
+  {
+    "productName": "Replit GhostWriter",
+    "category": "ai",
+    "image": "https://avatars3.githubusercontent.com/u/983194?s=280&v=4",
+    "link": "https://replit.com/site/ghostwriter",
+    "description": "Replit GhostWriter is an AI coding tool which has tons of code-easing features to help developers"
+  },
+  {
+    "productName": "Evernote",
+    "category": "extensions",
+    "image": "shorturl.at/elAT5",
+    "link": "https://chrome.google.com/webstore/detail/evernote-web-clipper/pioclpoplcdbaefihamjohnefbikjilc",
+    "description": "Evernote is a cross-platform app designed for note taking, organizing, task lists, and archiving."
+  },
+  {
+    "productName": "Reactplay.io",
+    "category": "ai",
+    "image": "bit.ly/3NKcYRs",
+    "link": "https://reactplay.io/",
+    "description": "Allows to code, run, and debug React code without having to install anything on your computer"
+  },
+  {
+    "productName": "Read Aloud",
+    "category": "extensions",
+    "image": "https://imgur.com/a/qDvJF1n",
+    "link": "https://chrome.google.com/webstore/detail/read-aloud-a-text-to-spee/hdhinadidafjejdhmfkjgnolgimiaplp",
+    "description": "Text to speech extension"
+  },
+  {
+    "productName": "Walkccc",
+    "category": "tools",
+    "image": "https://imgur.com/a/FBEgUZo",
+    "link": "https://walkccc.me/LeetCode/",
+    "description": "Leetcode Solutions website"
+  },
+  {
+    "productName": "Image to Text",
+    "category": "tools",
+    "image": "https://imgur.com/a/kLKlkiv",
+    "link": "https://www.imagetotext.info/",
+    "description": "Image to text convertor"
+  },
+  {
+    "productName": "USACO",
+    "category": "coding",
+    "image": "https://forum.usaco.guide/uploads/default/original/1X/047f2df686adefc647703910bb5be85e7cce48e6.png",
+    "link": "https://usaco.guide/",
+    "description": "A free collection of curated, high-quality resources which specifically focus on competitive programming."
+  },
+  {
+    "productName": "Codecademy",
+    "category": "coding",
+    "image": "https://shorturl.at/mzCU4",
+    "link": "https://www.codecademy.com/",
+    "description": "An online interactive platform with various courses, quizzes and projects."
+  },
+  {
+    "productName": "Dark Reader",
+    "category": "extensions",
+    "image": "https://shorturl.at/flBDY",
+    "link": "https://chrome.google.com/webstore/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh",
+    "description": "Dark Reader is an extension that brings dark mode to any website over the internet."
+  },
+  {
+    "productName": "W3resource",
+    "category": "tools",
+    "image": "https://imgur.com/a/uy8QlQw",
+    "link": "https://www.w3resource.com/",
+    "description": "Resources to practice for frontend-developers"
+  },
+  {
+    "productName": "Eventbrite",
+    "category": "tools",
+    "image": "https://imgur.com/a/FUyjavX",
+    "link": "https://www.eventbrite.com/",
+    "description": "Get Coding events and Hackathons update."
+  },
+  {
+    "productName": "Bing",
+    "category": "ai",
+    "image": "https://imgur.com/a/AwM4jXQ",
+    "link": "https://chrome.google.com/webstore/detail/microsoft-bing-homepage-s/ddojnmkongaimkdddgmcccldlfhokcfb",
+    "description": "Bing Ai extension"
+  },
+  {
+    "productName": "Vegamovies",
+    "category": "movies",
+    "image": "https://apkrabi.com/uploads/2023/4/vegamovies-icon.jpg",
+    "link": "https://m.vegamovies.tips/",
+    "description": "Here you can download all latest movies in the top quality"
+  },
+  {
+    "productName": "Bit Warden",
+    "category": "tools",
+    "image": "https://bit.ly/3Pw9C68",
+    "link": "https://bitwarden.com/products/personal/",
+    "description": "Free Software for Effortlessly Manage All Your Passwords and Logins."
+  },
+  {
+    "productName": "Javascript.info",
+    "category": "tools",
+    "image": "bit.ly/3r7vPxi",
+    "link": "https://javascript.info/",
+    "description": "Provides comprehensive tutorials and references on the JavaScript"
+  },
+  {
+    "productName": "imgur",
+    "category": "tools",
+    "image": "https://iili.io/HidMrXV.png",
+    "link": "https://imgur.com/",
+    "description": "Imgur provides the simplest and most convenient means to host your images"}
 ]
