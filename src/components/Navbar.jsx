@@ -1,6 +1,6 @@
 import React, {useEffect, useRef } from 'react'
 import { FaSearch } from 'react-icons/fa'
-import freehitlogo from '../assets/free-logo.webp'
+import freehitlogo from '../assets/logo.png'
 import { useLocation } from 'react-router-dom'
 import { NavLink, useSearchParams } from "react-router-dom"
 import "../styles/header.css"
@@ -51,9 +51,9 @@ const Header = ({ filteredSuggestions }) => {
           <NavLink to="/about">
             <img className="free-logo" src={freehitlogo} alt="logo" />
           </NavLink>
-          <NavLink className="free-word" to="/about">
+          {/* <NavLink className="free-word" to="/about">
             Free-Hit
-          </NavLink>
+          </NavLink> */}
         </h1>
       </div>
       {location.pathname !== '/about' && location.pathname !== '/community' && (
