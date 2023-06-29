@@ -2201,6 +2201,13 @@
   "description": "A free collection of curated, high-quality resources which specifically focus on competitive programming."
 },
 {
+  "productName": "GSAP-GreenStock",
+  "category": "Useful Tool",
+  "image": "https://bit.ly/3NreI0H",
+  "link": "https://greensock.com/gsap/",
+  "description": "It's JavaScript library for some really cool animations without actual javascript codes"
+},
+{
 "productName": "Codecademy",
 "category": "coding",
 "image": "https://shorturl.at/mzCU4",
