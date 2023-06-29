@@ -1784,6 +1784,13 @@
   "image": "https://logos-world.net/wp-content/uploads/2021/02/Indeed-Logo.png",
   "link": "https://in.indeed.com/",
   "description": "Remote job board featuring a range of remote jobs across various industries."
+},
+{
+  "productName": "Resume Worded",
+  "category": "resume",
+  "image": "",
+  "link": "https://resumeworded.com/",
+  "description": "Create ATS Friendly Resumes Effectively with ATS Score Provides"
 }
 ]
 
