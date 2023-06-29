@@ -2255,5 +2255,12 @@
   "image": "bit.ly/3r7vPxi",
   "link": "https://javascript.info/",
   "description": "Provides comprehensive tutorials and references on the JavaScript"  
+},
+{
+  "productName": "cryptozombies",
+  "category": "web",
+  "image": "https://tinyurl.com/2uf3jrk5",
+  "link": "https://cryptozombies.io/",
+  "description": " Learn Solidity and Ethereum DApp development."
 }
 ]
