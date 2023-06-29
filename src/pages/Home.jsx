@@ -1,7 +1,7 @@
 import Header from '../components/Navbar'
 import React, { useContext, useEffect, useState } from 'react'
 import { ToolContext } from '../App'
-import noresultimg from '../assets/sad-face-2.png'
+import noresultimg from '../assets/sad-face-2.webp'
 import GridView from '../components/Card/GridView'
 import ListView from '../components/Card/ListView'
 import { BsFillGridFill, BsListUl } from 'react-icons/bs'
