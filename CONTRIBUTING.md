@@ -104,6 +104,7 @@ git push
 - Make Sure you commit your changes in a new branch.
 - Make Sure you Give proper name to your files describing the addition.
 - Also Make Sure you comment your code wherever necessary.
+- While adding new images, add only in WebP format to ensure improved website performance and faster loading time
 
 <div align="center">
 Show some ❤️ by starring this awesome repository!

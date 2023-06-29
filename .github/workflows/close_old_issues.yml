@@ -1,0 +1,48 @@
+name: Close Old and Inactive Issues
+on:
+  schedule:
+    - cron: '0 0 * * *'  # Runs daily at midnight UTC
+
+jobs:
+  close-issues:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Close Old and Inactive Issues
+        run: |
+          TOKEN="${{ secrets.GITHUB_TOKEN }}"
+          REPO="${{ github.repository }}"
+          OWNER="$(echo $REPO | cut -d'/' -f1)"
+          REPO_NAME="$(echo $REPO | cut -d'/' -f2)"
+
+          # Fetch all issues
+          ISSUES=$(curl -s -H "Authorization: token $TOKEN" \
+            "https://api.github.com/repos/$OWNER/$REPO_NAME/issues?state=open")
+
+          # Iterate over issues and close those inactive for more than 30 days
+          for row in $(echo "${ISSUES}" | jq -r '.[] | @base64'); do
+            _jq() {
+              echo ${row} | base64 --decode | jq -r ${1}
+            }
+
+            # Extract issue details
+            issue_number=$(_jq '.number')
+            issue_title=$(_jq '.title')
+            issue_last_updated=$(_jq '.updated_at')
+
+            # Calculate the number of days since last update
+            last_updated_date=$(date -u -d "${issue_last_updated}" +%Y-%m-%d)
+            today_date=$(date -u +%Y-%m-%d)
+            days_since_last_updated=$((( $(date -u -d "${today_date}" +%s) - $(date -u -d "${last_updated_date}" +%s) ) / 86400))
+
+            # Close issues inactive for more than 20 days
+            if [[ ${days_since_last_updated} -gt 20 ]]; then
+              curl -s -X POST -H "Authorization: token $TOKEN" \
+                -d "{\"state\":\"closed\"}" \
+                "https://api.github.com/repos/$OWNER/$REPO_NAME/issues/$issue_number"
+              echo "Closed issue #$issue_number: $issue_title"
+            fi
+          done
