@@ -2255,5 +2255,12 @@
   "image": "bit.ly/3r7vPxi",
   "link": "https://javascript.info/",
   "description": "Provides comprehensive tutorials and references on the JavaScript"  
+},
+{
+  "productName": "Spline AI",
+  "category": "ai",
+  "image": "https://bit.ly/3CQc1Rq",
+  "link": "https://spline.design/ai",
+  "description": "It generates 3D objects, animations and textures using prompts."
 }
 ]
