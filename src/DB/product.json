@@ -1,5 +1,82 @@
 [
   {
+    "productName": "Scaler",
+    "category": "coding",
+    "image": "https://bit.ly/3XoZKgc",
+    "link": "https://bit.ly/3plUFZw",
+    "description": "Scaler is an outcome-focused, ed-tech platform for techies."
+  },
+  {
+    "productName": "InterviewBit",
+    "category": "coding",
+    "image": "https://bit.ly/3NH8dIt",
+    "link": "https://bit.ly/43VBwNf",
+    "description": "InterviewBit prepares you not only for the interviews, but for the actual job too."
+  },
+  {
+    "productName": "Momentum",
+    "category": "extensions",
+    "image": "https://bit.ly/3JoG8mI",
+    "link": "https://bit.ly/3JoG6v6",
+    "description": "Replace new tab page with a personal dashboard to help you get focused, stay organized, and keep motivated to achieve your goals."
+  },
+  {
+    "productName": "JSONView",
+    "category": "extension",
+    "image": "https://shorturl.at/uvFQ9",
+    "link": "https://chrome.google.com/webstore/detail/jsonview/gmegofmjomhknnokphhckolhcffdaihd",
+    "description": "This JSONView converts the JSON content into an understandable format and esay to view."
+  },
+  {
+    "productName": "Netlify",
+    "category": "tools",
+    "image": "https://bit.ly/3qCeSLa",
+    "link": "https://www.opensourceforu.com/wp-content/uploads/2022/02/netlify-logo.png",
+    "description": "Netlify provides free hosting, deploying, and many more service to the user so the user doesn't need to worry about the hosting."
+  },
+  {
+    "productName": "MDN Web Docs",
+    "category": "tools",
+    "image": "https://bit.ly/3PuJPuO ",
+    "link": " https://developer.mozilla.org/en-US/ ",
+    "description": " Provides information about Open Web technologies including HTML, CSS, and APIs"
+},
+  {
+    "productName": "Magic Eraser",
+    "category": "tools",
+    "image": "https://bit.ly/3qCeSLa",
+    "link": "https://magicstudio.com/magiceraser",
+    "description": "Powerful graphics designing tool which allows designers to remove unwanted elements in an image without messing with remaining part of the image."
+  },
+  {
+    "productName": "Overleaf",
+    "category": "resume",
+    "image": "https://bit.ly/3P16OO5",
+    "link": "https://bit.ly/42xjijx",
+    "description": "Produce beautiful documents starting from gallery of LaTeX templates for CVs."
+  },
+  {
+    "productName": "w3schools",
+    "category": "coding",
+    "image": "https://bit.ly/3JiwHFx",
+    "link": "https://w3schools.com/",
+    "description": "Tutorials on web development, programming languages, and other related technologies"
+  },
+  {
+    "productName": "MyEmulator",
+    "category": "Gaming",
+    "image": "https://bit.ly/3NBzUm8",
+    "link": "https://myemulator.online/",
+    "description": "Play classic video games from various gaming consoles directly in their web browsers."
+  },
+  {
+    "productName": "Javatpoint",
+    "category": "coding",
+    "image": "https://bit.ly/4635MqZ",
+    "link": "https://www.javatpoint.com/",
+    "description": "Study materials such as tutorials, articles, and resources for Java programming and other related technologies"
+  },
+  {
     "productName": "Freepik",
     "category": "tools",
     "image": "https://tinyurl.com/bdfw6dyv",
@@ -16,8 +93,8 @@
   {
     "productName": "Cuvette",
     "category": "remote",
-    "image": "https://bit.ly/3MIvfgn",
-    "link": "https://bit.ly/42dFNKk",
+    "image": "https://bit.ly/3Nl5t3o",
+    "link": "https://bit.ly/3oXcaPL",
     "description": "The #1 way college students & early graduates get Internships & Jobs"
   },
    {
@@ -77,7 +154,7 @@
     "description": "Record a video from the camera or capture it from the screen"
   },
   {
-    "productName": "Awesome Screen Capture And Recorder",
+    "productName": "Awesome Screenshot",
     "category": "tools",
     "image": "https://avatars.slack-edge.com/2019-03-29/593781862471_95d3bb4cccb9b58821be_512.png",
     "link": "https://www.awesomescreenshot.com/",
@@ -581,7 +658,7 @@
     "description": "Online tool for generating device mockups for website and app design."
   },
   {
-    "productName": "Collors",
+    "productName": "Coolors",
     "category": "web",
     "image": "https://bit.ly/3kq0zq4",
     "link": "https://coolors.co/",
@@ -632,9 +709,16 @@
   {
     "productName": "flaticon",
     "category": "web",
-    "image": "https://bit.ly/3ktuJZG",
+    "image": "https://th.bing.com/th/id/OIP.MHkSy2nH23lZjX3d47rBIwHaD4?w=319&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
     "link": "https://www.flaticon.com/",
     "description": "Collection of free vector icons for web design and graphic design."
+  },
+  {
+    "productName": "Fireship",
+    "category": "web",
+    "image": "https://avatars.githubusercontent.com/u/46283609?s=280&v=4",
+    "link": "https://fireship.io/lessons/tailwind-tutorial/",
+    "description": "Fireship provides blazingly fast && highly-amusing tricks for TailwindCss."
   },
   {
     "productName": "Friv",
@@ -761,6 +845,13 @@
     "image": "https://bit.ly/40Xhh00",
     "link": "https://www.pdfdrive.com/",
     "description": "PDF Drive is a search engine for downloading PDF files and books."
+  },
+  {
+    "productName": "Aicolor.co",
+    "category": "tools",
+    "image": "https://tinyurl.com/39ss2jf8",
+    "link": "https://aicolors.co/",
+    "description": "AI Color Palette Generator - Visualize and Generate Unique Palettes"
   },
   {
     "productName": "ColorPick Eyedropper",
@@ -955,7 +1046,7 @@
     "productName": "Download Hub",
     "category": "movies",
     "image": "https://bit.ly/3Kd6eIZ",
-    "link": "https://downloadhub.health/",
+    "link": "https://downloadhub.dance/",
     "description": "Download HD quality movies and series"
   },
   {
@@ -978,6 +1069,13 @@
     "image": "https://bit.ly/3FZ3cXw",
     "link": "https://gptzero.me/",
     "description": "An AI tool can be used to check for plagiarism and determine whether a sentence was written by a human or an AI program."
+  },
+  {
+    "productName": "Resumemaker.ai",
+    "category": "ai",
+    "image": "https://shorturl.at/cxMV3",
+    "link": "https://resumaker.ai/",
+    "description": "Resumemaker.ai help the developer to create their resume freely and with efficiently."
   },
   {
     "productName": "ChatGPT",
@@ -1201,7 +1299,7 @@
     "category": "extensions",
     "image": "https://rb.gy/r2if4",
     "link": "https://rb.gy/muo7f",
-    "description": "Extract CSS and build beautiful styleguides."
+    "description": "Extract CSS and build beautiful style guides."
   },
   {
     "productName": "I2Symbol",
@@ -1379,13 +1477,6 @@
     "description": "LinkedIn is a business and employment-focused social media platform that works through websites and mobile apps."
   },
   {
-    "productName": "Reduce Images",
-    "category": "tools",
-    "image": "https://bit.ly/43oj2En",
-    "link": "https://bit.ly/45xxiN6",
-    "description": "Reduce Images is a website for resizing of various size photos that required during various forms filling."
-  },
-  {
     "productName": "CSS Shadows",
     "category": "tools",
     "image": "https://bit.ly/3MA7PtJ",
@@ -1401,7 +1492,7 @@
   },
   {
     "productName": "Piped",
-    "category": "remote",
+    "category": "movies",
     "image": "https://bit.ly/45zisFw",
     "link": "https://piped.kavin.rocks",
     "description": "An alternative privacy-friendly YouTube frontend which is efficient by design."
@@ -1456,7 +1547,7 @@
     "link": "https://regexr.com/"
   },
   {
-    "productName": "Unblast UI  Templates",
+    "productName": "Unblast",
     "category": "UI",
     "image": "https://bit.ly/3qlij8V",
     "link": "https://bit.ly/3C51MZ3",
@@ -1477,25 +1568,25 @@
     "description": "UI Design Mockups Available 2d & 3D"
   },
   {
-    "productName": "UI : Muzli Collections",
+    "productName": "Muzli Collections",
     "category": "UI",
     "image": "https://bit.ly/42h8JRq",
     "link": "https://bit.ly/3IOltZ2",
     "description": "Profile Page screen design inspiration"
   },
   {
-    "productName": "Dashboard UI Kit 3.0",
+    "productName": "Dashboard UI Kit",
     "category": "UI",
     "image": "https://bit.ly/3N2secf",
     "link": "https://bit.ly/3N4lGK9",
     "description": "The first and largest design kit for web apps and dashboards developed in React."
   },
   {
-    "productName": "UI Kit : figma, XD, etc",
+    "productName": "Freebies UI",
     "category": "UI",
     "image": "https://bit.ly/45COMri",
     "link": "https://bit.ly/45BOgd8",
-    "description": "UI Kits avaiable in various format like figma, Xd, PSD, AI etc."
+    "description": "UI Kits available in various format like figma, Xd, PSD, AI etc."
   },
   {
     "productName": "3D Icons",
@@ -1588,154 +1679,6 @@
     "link": "https://www.favicon.cc/",
     "description": "Favicon.cc is a website that offers a simple and user-friendly platform for creating and customizing favicons."
   },
-  {
-    "productName": "Piped",
-    "category":"remote",
-    "image":"https://bit.ly/45zisFw",
-    "link":"https://piped.kavin.rocks",
-    "description":"An alternative privacy-friendly YouTube frontend which is efficient by design."
-  
-},
-{
-  "productName": "UserTesting",
-  "category": "tools",
-  "image": "https://shorturl.at/bovAS",
-  "link": "https://www.usertesting.com/",
-  "description": "Testing platform where you can get your app tested and take feedback from real user."
-},
-{
-  "productName": "Boxicons",
-  "category": "tools",
-  "image": "https://i.ibb.co/tC1BtcR/boxicons-png.jpg",
-  "link": "https://boxicons.com/",
-  "description": "Simple Open Source icons carefully crafted for designers & developers."
-},
-{
-  "productName": "Bootstrap Icons",
-  "category": "tools",
-  "image": "https://rb.gy/swae5",
-  "link": "https://icons.getbootstrap.com/",
-  "description": "Free, high quality, open source icon library with over 1,800 icons."
-},
-{
-  "productName": "Material UI",
-  "category": "tools",
-  "image": "https://mui.com/static/logo.png",
-  "link": "https://mui.com/",
-  "description": "MUI offers a comprehensive suite of UI tools to help you ship new features faster."
-},
-{
-   "productName": "Cataz",
-   "category": "movies",
-   "image": "https://bit.ly/45EQRTq",
-   "link": "https://cataz.net/",
-   "description": "Best websites to stream your favourite series online"
- },
- {
-  "productName": "UnLighthouse",
-  "category": "tools",
-  "image": "https://bit.ly/3MGIY7t",
-  "description": "Like Lighthouse, but it scans every single page",
-  "link": "https://unlighthouse.dev"
- },
- {
-  "productName": "Regexr",
-  "category": "tools",
-  "image": "https://bit.ly/3qjRyl9",
-  "description": "Regexr is an online tool to learn, build, & test Regular Expressions.",
-  "link": "https://regexr.com/"
- },
-  {
-  "productName": "Unblast UI  Templates",
-  "category": "UI",
-  "image": "https://bit.ly/3qlij8V",
-  "link": "https://bit.ly/3C51MZ3",
-  "description": "Unblast is happy to offer you a rich collection of amazing UI templates."
-},
-  {
-  "productName": "UI Design Daily",
-  "category": "UI",
-  "image": "https://bit.ly/3WOEP6c",
-  "link": "https://bit.ly/45F3IVF",
-  "description": "UI Design Daily to be able to share these designs with anybody who is interested in using them."
-},
-{
-  "productName": "Previewed Mockups",
-  "category": "UI",
-  "image": "https://bit.ly/3qoFyP5",
-  "link": "https://bit.ly/42iAj0C",
-  "description": "UI Design Mockups Available 2d & 3D"
-},
-{
-  "productName": "UI : Muzli Collections",
-  "category": "UI",
-  "image": "https://bit.ly/42h8JRq",
-  "link": "https://bit.ly/3IOltZ2",
-  "description": "Profile Page screen design inspiration"
-},
-{
-  "productName": "Dashboard UI Kit 3.0",
-  "category": "UI",
-  "image": "https://bit.ly/3N2secf",
-  "link": "https://bit.ly/3N4lGK9",
-  "description": "The first and largest design kit for web apps and dashboards developed in React."
-},
-{
-  "productName": "UI Kit : figma, XD, etc",
-  "category": "UI",
-  "image": "https://bit.ly/45COMri",
-  "link": "https://bit.ly/45BOgd8",
-  "description": "UI Kits avaiable in various format like figma, Xd, PSD, AI etc."
-},
-{
-  "productName": "3D Icons",
-  "category": "UI",
-  "image": "https://bit.ly/43yR9th",
-  "link": "https://bit.ly/43dBe3H",
-  "description": "3D icons & 3D characters in high 4K resolution"
-},
-{
-  "productName": "6.5 M+ Design Assets",
-  "category": "UI",
-  "image": "https://bit.ly/3C47pH3",
-  "link": "https://bit.ly/3P5Hman",
-  "description": "Curated SVGs, Vector Icons, Illustrations, 3D Graphics, and Lottie Animations."
-},
-{
-  "productName": "Design Junction ",
-  "category": "UI",
-  "image": "https://bit.ly/3IKfowL",
-  "link": "https://bit.ly/3WFi2tq",
-  "description": "Design Junction is a one-stop resource library for Designers and Creatives."
-},
-{
-  "productName": "Fireflies",
-  "category": "ai",
-  "image": "https://rb.gy/7551l",
-  "link": "https://fireflies.ai/",
-  "description": "Helps your team record, transcribe, search, and analyze voice conversations."
-},
-{
-  "productName": "resume.io",
-  "category": "resume",
-  "image": "https://tinyurl.com/2s48hfyh",
-  "link": "https://resume.io/",
-  "description": "Beautiful ready-to-use resume templates"
-},
-{
-  "productName": "Canva",
-  "category": "resume",
-  "image": "https://tinyurl.com/2mxee67k",
-  "link": "https://www.canva.com/create/resumes/",
-  "description": "With Canva free resume builder, applying for your dream job is easy and fast."
-},
-{
-  "productName": "Quill Bot",
-  "category": "ai",
-  "image": "https://tinyurl.com/5n6zfp2y",
-  "link": "https://quillbot.com/",
-  "description": "AI-powered paraphrasing tool that enhances your writing"
-},
 {
   "productName": "DALL·E",
   "category": "ai",
@@ -1743,27 +1686,7 @@
   "link": "https://openai.com/dall-e-2",
   "description": "An AI system that can create realistic images and art from a description in natural language."
 },
-  {
-  "productName": "Zarla",
-  "category": "tools",
-  "image": "https://bit.ly/42Cp1ot",
-  "link": "https://www.zarla.com/",
-  "description": "Zarla Makes Logo Design Fun, Free, and Easy for Every Type of Business or Brand"
-},
-{
-  "productName": "Zety",
-  "category": "resume",
-  "image": "https://bit.ly/3CbQwdG",
-  "link": "https://zety.com/resume-builder",
-  "description": "Zety Online Resume Builder,Create a Professional Resume for Free"
-},
-  {
-  "productName": "Animoto",
-  "category": "AI",
-  "image": "https://bit.ly/3WSfus6",
-  "link": "https://animoto.com/",
-  "description": "Create videos that engage and impress. Animoto's drag-and-drop editing tools and visual effects make it easy. No training or experience necessary"
-},
+
 {
   "productName": "Novoresume",
   "category": "resume",
@@ -1772,6 +1695,485 @@
   "description": "Online resume builder."
 },
 {
+  "productName": "Gencraft",
+  "category": "AI",
+  "image": "https://bit.ly/3Nji330",
+  "link": "https://gencraft.com/",
+  "description": "Watch your prompts turn into beautiful designs, images, and artworks."
+},
+{
+  "productName": "WatchSeriesHD",
+  "category": "movies",
+  "image": "https://rb.gy/xxgtv",
+  "link": "https://watchserieshd.live/",
+  "description": "Stream movies and series in HD quality for free"
+},
+{
+  "productName": "Uiverse.io",
+  "category": "UI",
+  "image": "http://bit.ly/3X19kpw",
+  "link": "https://uiverse.io/",
+  "description": "Discover and customize free, open-source CSS and HTML UI elements, through this tool"
+},
+{
+  "productName": "Leetcode",
+  "category": "coding",
+  "image": "https://leetcode.com/static/images/LeetCode_logo.png",
+  "link": "https://leetcode.com/",
+  "description": "A platform for practicing coding skills and preparing for technical interviews."
+},
+{
+  "productName": "Atcoder",
+  "category": "coding",
+  "image": "http://morningpitch.com/wp-content/uploads/2020/10/download.png",
+  "link": " https://atcoder.jp/",
+  "description": "One of the best platforms for Cp, it was created in Japan"
+},
+{
+  "productName": "Codeforces",
+  "category": "coding",
+  "image": "https://tinyurl.com/3fjue7y6",
+  "link": " https://codeforces.com/",
+  "description": "A competitive programming platform with challenging contests and an active community."
+},
+{
+  "productName": "Codechef",
+  "category": "coding",
+  "image": "https://tinyurl.com/5cx6fp35",
+  "link": "https://www.codechef.com/",
+  "description": "An online community for programmers to improve their skills through contests and challenges."
+},
+{
+  "productName": "SPOJ",
+  "category": "coding",
+  "image": "https://tinyurl.com/yndmds67",
+  "link": "https://www.spoj.com/",
+  "description": "An online judge system with a large collection of programming problems for practice and contests."
+},
+{
+  "productName": "Hackerrank",
+  "category": "coding",
+  "image": "https://tinyurl.com/247ewu64",
+  "link": "https://www.hackerrank.com/",
+  "description": "A coding platform with challenges, contests, and interview preparation resources."
+},
+{
+  "productName": "Hackerearth",
+  "category": "coding",
+  "image": "https://tinyurl.com/4rzch6cp",
+  "link": "https://www.hackerearth.com/",
+  "description": "A platform for skill assessment, coding competitions, and hiring developers."
+},
+{
+  "productName": "CSES",
+  "category": "coding",
+  "image": "https://cses.fi/logo.png?1",
+  "link": "https://cses.fi/",
+  "description": "Competitive Programming Archive featuring a wide range of algorithmic problems."
+},
+{
+  "productName": "Project Euler",
+  "category": "coding",
+  "image": "https://tinyurl.com/4kznjfju",
+  "link": " https://projecteuler.net/",
+  "description": "A collection of challenging mathematical and computational problems."
+},
+{
+  "productName": "Topcoder",
+  "category": "coding",
+  "image": "https://tinyurl.com/y66jd8mt",
+  "link": "https://www.topcoder.com/",
+  "description": "A platform for competitive programming and software development challenges."
+},
+{
+  "productName": "GeeksForGeeks",
+  "category": "coding",
+  "image": "https://t.ly/vKJ8",
+  "link": "https://www.geeksforgeeks.org/",
+  "description": " A portal for computer science resources, tutorials, and coding practice."
+},
+{
+  "productName": "Google Fonts",
+  "category": "tools",
+  "image": "https://tinyurl.com/554n6ry6",
+  "link": "https://fonts.google.com/",
+  "description": "Free and open source font families."
+},
+{
+  "productName": "StackBlitz",
+  "category": "Online Code Editor",
+  "image": "https://avatars.githubusercontent.com/u/28635252?s=200&v=4",
+  "link": "https://stackblitz.com/",
+  "description": "Instant dev experiences: Click, code, no local setup required."
+},
+{
+    "productName": "freeCodeCamp",
+    "category": "tools",
+    "image": "https://design-style-guide.freecodecamp.org/downloads/fcc_primary_small.jpg",
+    "link": "https://www.freecodecamp.org/",
+    "description": "freeCodeCamp is a non-profit organization providing free online coding courses and a supportive community."
+},
+{
+  "productName": "Ant Design",
+  "category": "tools",
+  "image": "https://avatars0.githubusercontent.com/u/12101536?s=280&v=4",
+  "link": "https://ant.design/",
+  "description": "Ant Design is a popular Frontend UI library of React components which makes development code efficient, clean and fast"
+
+},
+{
+  "productName": "Roadmap.sh",
+  "category": "tools",
+  "image": "https://i.pinimg.com/originals/14/ce/13/14ce13dff4ba3a6255916b128dd9ec57.png",
+  "link": "https://roadmap.sh/",
+  "description": "Roadmap.sh is an effort to create roadmaps and guides to help developers in picking up the path"
+},
+{
+    "productName": "felxjobs",
+    "category": "remote",
+    "image": "https://tinyurl.com/ybfchtmw",
+    "link": "https://www.flexjobs.com/",
+    "description": "Explore a faster, easier, and better remote job search."
+  },
+  {
+    "productName": "FindAsync",
+    "category": "remote",
+    "image": "https://tinyurl.com/yahvtc78",
+    "link": "https://www.findasync.com/",
+    "description": "Find your next async remote job"
+  },
+  {
+    "productName": "CROSSOVER",
+    "category": "remote",
+    "image": "https://tinyurl.com/48bja2rc",
+    "link": "https://www.crossover.com/",
+    "description": "Find a full time remote job" 
+  },
+  {
+    "productName": "Foundit",
+    "category": "remote",
+    "image": "https://bit.ly/3NQbci1",
+    "link": "https://www.foundit.in/",
+    "description": "Find the job that is perfect for You" 
+  },
+  {
+    "productName": "INSIDEA",
+    "category": "remote",
+    "image": "https://tinyurl.com/bdf2h7kp",
+    "link": "https://insidea.com/",
+    "description": "Where Business Meets Talent"
+  },
+  {
+    "productName": "Replit",
+    "category": "Online Code Editor",
+    "image": "bit.ly/3XasObi",
+    "link": "https://replit.com/",
+    "description": "An online IDE that allows users to create,run and share code in a web browser"
+  },
+  {
+    "productName": "devChallenges.io",
+    "category": "Coding",
+    "image": "https://bit.ly/462R570",
+    "link": "https://devchallenges.io/",
+    "description": "Coding challenges and projects to practice coding skills"
+  },
+  {
+    "productName": "frontendpractice",
+    "category": "Coding",
+    "image": "https://bit.ly/3CoiUcH",
+    "link": "https://www.frontendpractice.com/",
+    "description": "You can find a collection of projects with varying levels of difficulty."
+  },
+  {
+    "productName": "javascript30",
+    "category": "Coding",
+    "image": "https://bit.ly/3qEuMED",
+    "link": "https://javascript30.com/",
+    "description": "Building 30 different projects over 30 days."
+  },
+  {
+    "productName": "codewars",
+    "category": "Coding",
+    "image": "https://bit.ly/43XLyga",
+    "link": "https://www.codewars.com/",
+    "description": "Programming exercises to improve coding skills."
+  },
+  {
+    "productName": "HyperWrite",
+    "category": "ai",
+    "image": "https://rb.gy/62tkp",
+    "link": "https://www.hyperwriteai.com/",
+    "description": "Uses AI to help you generate ideas, write content, and edit your work."
+  },
+  {
+    "productName": "cssbattle",
+    "category": "Coding",
+    "image": "https://bit.ly/3NAzVXv",
+    "link": "https://cssbattle.dev/",
+    "description": "Write CSS code in real-time"
+  },
+  {
+    "productName": "1337x",
+    "category": "movies",
+    "image": "https://shorturl.at/afjwQ",
+    "link": "https://1337x.st/",
+    "description": "1337x is a popular torrent website offering a wide range of downloadable content for users."
+  },
+  {
+    "productName": "tutorialspoint",
+    "category": "Learning",
+    "image": "https://www.tutorialspoint.com/images/logo.png?v2",
+    "link": "https://www.tutorialspoint.com/nodejs/index.htm",
+    "description": "Tutorials Point provide the best learning material on technical and non-technical subjects."
+  },
+  {
+    "productName": "jschallenger",
+    "category": "Coding",
+    "image": "https://tinyurl.com/5n6vbc7f",
+    "link": "https://www.jschallenger.com/",
+    "description": "Learn Javascript online by solving coding exercises."
+  },
+  {
+    "productName": "Slides AI",
+    "category": "ai",
+    "image": "bit.ly/3CCVi3S",
+    "link": "https://www.slidesai.io/",
+    "description": "Create and enhance presentation slides"
+  },
+  {
+    "productName": "AutoDraw",
+    "category": "ai",
+    "image": "bit.ly/3Nxb5rj",
+    "link": "https://www.autodraw.com/",
+    "description": "Provides suggestions and predictions to create drawings"
+  },
+  {
+    "productName": "Starrytars",
+    "category": "ai",
+    "image": "bit.ly/42L7M4b",
+    "link": "https://starryai.com/starrytars",
+    "description": "Create high-quality avatars with AI in minutes"
+  },
+  {
+    "productName": "Uizard",
+    "category": "ai",
+    "image": "bit.ly/3Pi0uSi",
+    "link": "https://uizard.io/",
+    "description": "Design wireframes, mockups, and prototypes in minutes"
+},
+{
+  "productName": "DESIGNS.AI",
+  "category": "resume",
+  "image": "https://tinyurl.com/3c55se3w",
+  "link": "https://designs.ai/design-types/resumes",
+  "description": "Build Professional resumes effortlessly with Designs.AI"
+},
+{
+  "productName": "RESUME WORDED",
+  "category": "resume",
+  "image": "https://resumeworded.com/",
+  "link": "https://resumeworded.com/",
+  "description": "Your personal resume & LinkedIn coach"
+},
+{
+  "productName": "These resumes do not exist",
+  "category": "resume",
+  "image": "https://thisresumedoesnotexist.com/",
+  "link": "https://thisresumedoesnotexist.com/",
+  "description": "Stand out among the competition with over 1000 AI-inspired resume examples."
+},
+{
+  "productName": "HyreSnap",
+  "category": "resume",
+  "image": "https://tinyurl.com/3wfpyr8f",
+  "link": "https://hyresnap.com/resume-builder",
+  "description": "Elevate your interview chances with our Modern Resume Templates"
+},
+{
+  "productName": "skillroads",
+  "category": "resume",
+  "image": "https://skillroads.com/free-online-resume-builder",
+  "link": "https://skillroads.com/free-online-resume-builder",
+  "description": "Creating a modern and sharp resume has never been easier!"
+},
+{
+  "productName": "myperfectresume",
+  "category": "resume",
+  "image": "https://tinyurl.com/3cah9f79",
+  "link": "https://www.myperfectresume.com/",
+  "description": "Create Your Perfect Resume Today"
+},
+{
+  "productName": "VisualCV",
+  "category": "resume",
+  "image": "https://www.visualcv.com/",
+  "link": "https://www.visualcv.com/",
+  "description": "Create a job-ready resume in minutes."
+},
+{
+  "productName": "resume.com",
+  "category": "resume",
+  "image": "https://www.resume.com/",
+  "link": "https://www.resume.com/",
+  "description": "Build a professional resume for free"
+},
+{
+  "productName": "Google bard",
+  "category": "ai",
+  "image": "bit.ly/3NgYYx9",
+  "link": "https://bard.google.com/",
+  "description": "AI tools "
+},
+{
+  "productName": "Otter AI",
+  "category": "ai",
+  "image": "bit.ly/3CGspEe",
+  "link": "https://otter.ai/",
+  "description": "Convert voice to text"
+},
+{
+  "productName": "Runway AI",
+  "category": "ai",
+  "image": "bit.ly/3NpP7FE",
+  "link": "https://runwayml.com/",
+  "description": "Cloud-based video editing and effects platform"
+},
+{
+  "productName": "writefull",
+  "category": "ai",
+  "image": "https://tinyurl.com/5n936eaz",
+  "link": "https://www.writefull.com/#products",
+  "description": "assistant designed to help English writing skills"
+},
+{
+  "productName": "Chakra UI",
+  "category": "tools",
+  "image": "https://www.happylifecreators.com/wp/wp-content/uploads/2022/06/chakra-ui_title2-400x400.png",
+  "link": "https://chakra-ui.com",
+  "description": "Chakra UI is an accessible and customizable React component library for building UIs."
+},
+{
+  "productName": "Frontend Mentor",
+  "category": "web",
+  "image": "https://www.frontendmentor.io/",
+  "link": "https://www.frontendmentor.io/",
+  "description": "A platform providing challenges for frontend developers to sharp their skills."
+},
+{
+  "productName": "Class Central",
+  "category": "tools",
+  "image": "https://bit.ly/46jrGXc",
+  "link": "https://www.classcentral.com/",
+  "description": "Class Central is a website that lists online courses from top universities and providers."
+},
+{
+  "productName": "Talk to Books ",
+  "category": "Useful Tools",
+  "image": "https://bit.ly/46hqdjP",
+  "link": "https://books.google.com/talktobooks/",
+  "description": "Users could ask questions, phrases, and the AI would scan through of books to find relevant passages and provide answers."
+},
+{
+  "productName": "Exercism",
+  "category": "Coding",
+  "image": "https://bit.ly/3qY1Ck6",
+  "link": "https://exercism.org/",
+  "description": "Exercism is a coding platform that offers a hands-on learning experience, providing programmers with a wide range of challenges to practice and improve their skills."
+},
+{
+  "productName": "Paraphrasing Tool",
+  "category": "tools",
+  "image": "https://bit.ly/44h4Bm8",
+  "link": "https://plagiarismdetector.net/",
+  "description": "Software aiding in avoiding plagiarism by rewording content effectively."
+},
+{
+  "productName": "Spinbot",
+  "category": "tools",
+  "image": "https://bit.ly/4485Unq",
+  "link": "https://spinbot.com/",
+  "description": "Spinbot a text-spinning tool that generates alternative content."
+},
+{
+  "productName": "Free Icons",
+  "category": "tools",
+  "image": "https://bit.ly/3r3nuua",
+  "link": "https://icons8.com/",
+  "description": "Collection of diverse, cost-free icons for versatile design applications."
+},
+{
+  "productName": "Pomofocus",
+  "category": "Useful Tools",
+  "image": "https://bit.ly/3Nq7dHn",
+  "link": "https://pomofocus.io/app",
+  "description": "Pomofocus is a customizable pomodoro timer to help you focus on any task you are working on."
+
+},
+{
+  "productName": "Codestudio",
+  "category": "tools",
+  "image": "https://cdn-1.webcatalog.io/catalog/codestudio/codestudio-icon-filled-256.png",
+  "link": "https://www.codingninjas.com/codestudio",
+  "description": "Coding Ninjas Studio Unleash your coding potential with interactive learning and practice."
+},
+{  
+  "productName": "Text2SQL AI",
+  "category": "ai",
+  "image": "bit.ly/3JoQcMD",
+  "link": "https://www.text2sql.ai/",
+  "description": "Convert natural language queries into SQL queries"
+},
+{
+  "productName": "CodiumL AI",
+  "category": "ai",
+  "image": "bit.ly/4461P2W",
+  "link": "https://www.codium.ai/",
+  "description": "Generate unit tests for your code"
+},
+{
+  "productName": "Mind Luster",
+  "category": "Useful Tools",
+  "image": "https://bit.ly/42PS5sA",
+  "link": "https://www.mindluster.com/",
+  "description": "Mind Luster, an innovative learning platform, offers courses to ignite and expand the horizons of curious minds."
+},
+{
+  "productName": "poised",
+  "category": "ai",
+  "image": "https://bit.ly/42TQnqc",
+  "link": "https://www.poised.com/",
+  "description": "poised is an AI powered communication coach."
+},
+{
+  "productName": "OBS Studio",
+  "category": "tools",
+  "image": "https://bit.ly/46pIxau",
+  "link": "https://obsproject.com/",
+  "description": "Free and open source software for video recording and live streaming."
+},
+{
+  "productName": "Replit GhostWriter",
+  "category": "ai",
+  "image": "https://avatars3.githubusercontent.com/u/983194?s=280&v=4",
+  "link": "https://replit.com/site/ghostwriter",
+  "description": "Replit GhostWriter is an AI coding tool which has tons of code-easing features to help developers"
+},
+{
+  "productName": "Evernote",
+  "category": "extensions",
+  "image": "shorturl.at/elAT5",
+  "link": "https://chrome.google.com/webstore/detail/evernote-web-clipper/pioclpoplcdbaefihamjohnefbikjilc",
+  "description": "Evernote is a cross-platform app designed for note taking, organizing, task lists, and archiving."
+},
+{
+  "productName": "Reactplay.io",
+  "category": "ai",
+  "image": "bit.ly/3NKcYRs",
+  "link": "https://reactplay.io/",
+  "description": "Allows to code, run, and debug React code without having to install anything on your computer"
+},
+{
+
   "productName": "Uiverse.io",
   "category": "UI",
   "image": "http://bit.ly/3X19kpw",
@@ -1784,6 +2186,89 @@
   "image": "https://logos-world.net/wp-content/uploads/2021/02/Indeed-Logo.png",
   "link": "https://in.indeed.com/",
   "description": "Remote job board featuring a range of remote jobs across various industries."
+
+  "productName": "Read Aloud",
+  "category": "extensions",
+  "image": "https://imgur.com/a/qDvJF1n",
+  "link": "https://chrome.google.com/webstore/detail/read-aloud-a-text-to-spee/hdhinadidafjejdhmfkjgnolgimiaplp",
+  "description": "Text to speech extension"
+},
+{
+  "productName": "Walkccc",
+  "category": "tools",
+  "image": "https://imgur.com/a/FBEgUZo",
+  "link": "https://walkccc.me/LeetCode/",
+  "description": "Leetcode Solutions website"
+},
+{
+  "productName": "Image to Text",
+  "category": "tools",
+  "image": "https://imgur.com/a/kLKlkiv",
+  "link": "https://www.imagetotext.info/",
+  "description": "Image to text convertor"
+},
+{
+  "productName": "USACO",
+  "category": "coding",
+  "image": "https://forum.usaco.guide/uploads/default/original/1X/047f2df686adefc647703910bb5be85e7cce48e6.png",
+  "link": "https://usaco.guide/",
+  "description": "A free collection of curated, high-quality resources which specifically focus on competitive programming."
+},
+{
+"productName": "Codecademy",
+"category": "coding",
+"image": "https://shorturl.at/mzCU4",
+"link": "https://www.codecademy.com/",
+"description": "An online interactive platform with various courses, quizzes and projects."
+},
+{
+  "productName": "Dark Reader",
+  "category": "extensions",
+  "image": "https://shorturl.at/flBDY",
+  "link": "https://chrome.google.com/webstore/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh",
+  "description": "Dark Reader is an extension that brings dark mode to any website over the internet."
+},
+{
+  "productName": "W3resource",
+  "category": "tools",
+  "image": "https://imgur.com/a/uy8QlQw",
+  "link": "https://www.w3resource.com/",
+  "description": "Resources to practice for frontend-developers"
+},
+{
+  "productName": "Eventbrite",
+  "category": "tools",
+  "image": "https://imgur.com/a/FUyjavX",
+  "link": "https://www.eventbrite.com/",
+  "description": "Get Coding events and Hackathons update."  
+},
+{
+  "productName": "Bing",
+  "category": "ai",
+  "image": "https://imgur.com/a/AwM4jXQ",
+  "link": "https://chrome.google.com/webstore/detail/microsoft-bing-homepage-s/ddojnmkongaimkdddgmcccldlfhokcfb",
+  "description": "Bing Ai extension"   
+},
+{
+  "productName": "Vegamovies",
+  "category": "movies",
+  "image": "https://apkrabi.com/uploads/2023/4/vegamovies-icon.jpg",
+  "link": "https://m.vegamovies.tips/",
+  "description": "Here you can download all latest movies in the top quality"  
+},
+{
+  "productName": "Bit Warden",
+  "category": "tools",
+  "image": "https://bit.ly/3Pw9C68",
+  "link": "https://bitwarden.com/products/personal/",
+  "description": "Free Software for Effortlessly Manage All Your Passwords and Logins."
+},
+{
+  "productName": "Javascript.info",
+  "category": "tools",
+  "image": "bit.ly/3r7vPxi",
+  "link": "https://javascript.info/",
+  "description": "Provides comprehensive tutorials and references on the JavaScript"  
+
 }
 ]
-
