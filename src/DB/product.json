@@ -231,6 +231,13 @@
     "description": "Himalayas is a job board for remote workers."
   },
   {
+    "productName": "KhanAcademy",
+    "category": "remote",
+    "image": "https://th.bing.com/th/id/OIP.krs23uVyEDRATLFhfuIjsAHaHa?pid=ImgDet&rs=1",
+    "link": "https://www.khanacademy.org/",
+    "description": "Khan Academy is an American non-profit educational organization created in 2006 by Sal Khan."
+  },
+  {
     "productName": "We Work Remotely",
     "category": "remote",
     "image": "https://t3.ftcdn.net/jpg/05/48/77/76/360_F_548777650_6prwFlpzBsIoDWoixdXuGTCb7gJHPKs0.jpg",
@@ -1736,6 +1743,7 @@
   "link": " https://codeforces.com/",
   "description": "A competitive programming platform with challenging contests and an active community."
 },
+
 {
   "productName": "Codechef",
   "category": "coding",
