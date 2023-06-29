@@ -2255,5 +2255,12 @@
   "image": "bit.ly/3r7vPxi",
   "link": "https://javascript.info/",
   "description": "Provides comprehensive tutorials and references on the JavaScript"  
+},
+{
+  "productName": "LOGO Maker",
+  "category": "tools",
+  "image": "https://logo.com/_next/static/media/logo-color.834b40cf.svg?w=96&q=80",
+  "link": "https://logo.com/",
+  "description": "Generate Logo based on users prefrence"  
 }
 ]
