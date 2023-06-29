@@ -2255,5 +2255,12 @@
   "image": "bit.ly/3r7vPxi",
   "link": "https://javascript.info/",
   "description": "Provides comprehensive tutorials and references on the JavaScript"  
+},
+{
+  "productName": "Kayoanime",
+  "category": "movies",
+  "image": "https://t3.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://kayoanime.com&size=1",
+  "link": "https://kayoanime.com/",
+  "description": "Here you can download your any anime in highest quality and get the latest episodes"  
 }
 ]
