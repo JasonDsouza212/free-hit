@@ -1,4 +1,12 @@
-[
+[ 
+  {
+    "productName": "PikaShows",
+    "category": "movies",
+    "image": "https://tinyurl.com/37csr8my",
+    "link": "https://www.pikashows.download/",
+    "description": "Download this application for PC and Mobile to stream all types of TV Shows and Movies."
+  },
+
   {
     "productName": "Scaler",
     "category": "coding",
