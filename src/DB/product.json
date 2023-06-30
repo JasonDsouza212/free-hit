@@ -2189,7 +2189,6 @@
   "description": "Allows to code, run, and debug React code without having to install anything on your computer"
 },
 {
-
   "productName": "Uiverse.io",
   "category": "UI",
   "image": "http://bit.ly/3X19kpw",
@@ -2216,7 +2215,8 @@
   "image": "",
   "link": "https://www.jobscan.co/",
   "description":"Create ATS Friendly Resumes Effectively with ATS Score Provides"
-
+},
+{
   "productName": "Read Aloud",
   "category": "extensions",
   "image": "https://imgur.com/a/qDvJF1n",
@@ -2306,7 +2306,6 @@
   "image": "bit.ly/3r7vPxi",
   "link": "https://javascript.info/",
   "description": "Provides comprehensive tutorials and references on the JavaScript"  
-
 },
 {
   "productName": "cryptozombies",
@@ -2454,7 +2453,6 @@
   "image": "https://bit.ly/46vxjkU",
   "link": "https://www.alphavantage.co",
   "description": "Alpha Vantage offers free stock APIs in JSON and CSV formats for realtime and historical equity, forex, cryptocurrency data and over 50 technical indicators."
-
 },
 {
   "productName": "Favicon Generator",
@@ -2483,6 +2481,5 @@
   "image": "https://bit.ly/3r8jIQt",
   "link": "https://myflixer.ru/",
   "description": "My flixer is used to watch Unlimited Movies with Endless Entertainment"
-
 }
 ]
