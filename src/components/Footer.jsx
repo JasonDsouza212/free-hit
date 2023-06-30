@@ -1,4 +1,4 @@
-import freehitlogo from '../assets/footer-logo.png'
+import freehitlogo from '../assets/footer-logo.webp'
 import "../styles/Footer.css"
 
 const Footer = () => {
