@@ -38,15 +38,7 @@
 .grid .delete:hover{
   transition: all 0.3s ease-out;
 }
-
-.grid img{
-  border:2px solid black;
-}
 /* Dark mode styles */
-
-.grid img.dark-mode{
-  border:2px solid white;
-}
   
   .grid .card-title.dark-mode{
     color:white;
@@ -76,9 +68,6 @@
 
   /* Updated styles */
 
-.grid.dark-mode article {
-  height: 320px; /* Adjust the height as per your requirement */
-}
 
 .grid article .text_top {
   height: 100px; /* Adjust the height as per your requirement */
