@@ -232,6 +232,13 @@
     "description": "Remote job board and community for remote workers and employers."
   },
   {
+    "productName": "Internshala",
+    "category": "remote",
+    "image": "https://shorturl.at/bkox6",
+    "link": "https://internshala.com/student/dashboard",
+    "description": "Find the best job on Internshala"
+  },
+  {
     "productName": "Himalayas",
     "category": "remote",
     "image": "https://bit.ly/3RXjh4H",
@@ -1760,6 +1767,13 @@
   "description": "An online community for programmers to improve their skills through contests and challenges."
 },
 {
+  "productName": "BitDegree",
+  "category": "coding",
+  "image": "https://logos-download.com/wp-content/uploads/2019/01/BitDegree_Logo.png",
+  "link": "https://www.bitdegree.org/",
+  "description": "Offers high quality Web3 courses."
+},
+{
   "productName": "SPOJ",
   "category": "coding",
   "image": "https://tinyurl.com/yndmds67",
@@ -2308,11 +2322,26 @@
   "description": "Provides comprehensive tutorials and references on the JavaScript"  
 },
 {
+
   "productName": "Kayoanime",
   "category": "movies",
   "image": "https://bit.ly/443vqu5",
   "link": "https://kayoanime.com/",
   "description": "Here you can download your any anime in highest quality and get the latest episodes"  
+
+  "productName": "Spline AI",
+  "category": "ai",
+  "image": "https://bit.ly/3CQc1Rq",
+  "link": "https://spline.design/ai",
+  "description": "It generates 3D objects, animations and textures using prompts."
+},
+{
+  "productName": "VLC Media Player",
+  "category": "tools",
+  "image": "https://bit.ly/46pTUPK",
+  "link": "https://www.videolan.org/vlc/",
+  "description": "Free and open source cross-platform multimedia player and framework."
+
 },
 {
   "productName": "cryptozombies",
@@ -2462,6 +2491,41 @@
   "description": "Alpha Vantage offers free stock APIs in JSON and CSV formats for realtime and historical equity, forex, cryptocurrency data and over 50 technical indicators."
 },
 {
+  "productName": "Devfolio",
+  "category": "Coding",
+  "image": "https://devfolio.co/hackathons",
+  "link": "https://devfolio.co/hackathons",
+  "description": "We love software and the people who build them."
+},
+{
+  "productName": "DEVPOST",
+  "category": "Coding",
+  "image": "https://tinyurl.com/2vbb2z7y",
+  "link": "https://devpost.com/",
+  "description": "The home for hackathons"
+},
+{
+  "productName": "unstop",
+  "category": "Coding",
+  "image": "https://tinyurl.com/yz3nu723",
+  "link": "https://unstop.com/hackathons",
+  "description": "Unstop is a platform where talent meets opportunities to unlock their potential."
+},
+{
+  "productName": "MAJOR LEAGUE HACKING",
+  "category": "Coding",
+  "image": "https://mlh.io/seasons/2023/events",
+  "link": "https://mlh.io/seasons/2023/events",
+  "description": "Find, compete, and earn points at the largest, most diverse hacker events in the world."
+},
+{
+  "productName": "HACK CLUB",
+  "category": "Coding",
+  "image": "https://assets.hackclub.com/flag-orpheus-top.svg",
+  "link": "https://hackathons.hackclub.com/",
+  "description": "High School Hackathons"
+},
+{
   "productName": "Favicon Generator",
   "category": "tools",
   "image": "https://favicon.io/og-image.png",
@@ -2488,5 +2552,12 @@
   "image": "https://bit.ly/3r8jIQt",
   "link": "https://myflixer.ru/",
   "description": "My flixer is used to watch Unlimited Movies with Endless Entertainment"
+},
+{
+  "productName": "Color Leap",
+  "category": "tools",
+  "image": "https://shorturl.at/bvyG8",
+  "link": "https://colorleap.app/home",
+  "description": "Take a leap through time and see the colors of history."
 }
 ]
