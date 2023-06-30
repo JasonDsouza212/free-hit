@@ -28,7 +28,7 @@
   font-size: 24px;
 }
 
-.backToTopButton .button.dark-mode{
+/* .backToTopButton .button.dark-mode{
   color: #1f1f1f;
   background-color: white;
   width: 2.5rem;
@@ -38,7 +38,7 @@
   justify-content: center;
   align-items: center;
   cursor: pointer;
-}
+} */
 
 .transition-after:hover {
   transform: scale(1.1);
