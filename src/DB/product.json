@@ -1,4 +1,18 @@
-[
+[ 
+{
+  "productName": "PikaShows",
+  "category": "movies",
+  "image": "https://tinyurl.com/37csr8my",
+  "link": "https://www.pikashows.download/",
+  "description": "Download this application for PC and Mobile to stream all types of TV Shows and Movies."
+},
+  {
+    "productName": "Coding Ninjas",
+    "category": "coding",
+    "image": "https://tinyurl.com/52wkx2ee",
+    "link": "https://www.codingninjas.com/",
+    "description": "An online coding education platform with contests and interview preparation resources."
+},
   {
     "productName": "Scaler",
     "category": "coding",
