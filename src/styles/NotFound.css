@@ -1,5 +1,87 @@
-.errormessage{
-    text-align: center;
-    margin:10%;
-    color: black;
+.notfound {
+  text-align: center;
+  color: #373530 ;
+}
+
+.notfound img {
+  margin: 0% auto;
+  margin-bottom: 2%;
+  height : 65px;
+  width: 65px;
+}
+
+.err-code {
+  font-family:sans-serif;
+  font-size: 8rem;
+  font-weight: bold;
+  padding-top: 30px;
+}
+
+.err-head {
+  font-size: 2.7rem;
+  padding-bottom: 50px;
+  font-weight: bold;
+  color: #373530 ;
+}
+
+p.err-message{
+  font-size: 1.5em;
+  padding: 3px;
+}
+
+.home-link {
+  display: inline-block;
+  margin-top: 25px;
+  margin-bottom: 80px;
+  font-size: 1.5rem;
+  text-decoration: none;
+  background: #373530;
+  color: #fff;
+  border: 1px solid #373530;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.5s , color 0.5s;
+}
+
+.home-link:hover {
+  background-color: #fcfcfc;
+  color: #373530;
+}
+
+/* media query for 520px */
+
+@media only screen and (max-width: 520px) {
+
+  .err-code {
+    font-size: 6rem;
+    padding-top: 45px;
+  }
+
+  .err-head {
+    font-size: 1.7rem;
+    padding-bottom: 30px;
+  }
+
+  p.err-message {
+    font-size: 1rem;
+  }
+
+  .home-link {
+    font-size: 1rem;
+    margin-bottom: 50px;
+  }
+
+  .notfound img {
+    margin-bottom: 8%;
+  }
+}
+
+/* media query for 280px */
+
+@media only screen and (max-width: 280px) {
+
+  p.err-message {
+    font-size: .8rem;
+  }
+  
 }
