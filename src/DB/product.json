@@ -1,4 +1,12 @@
-[
+[ 
+  {
+    "productName": "PikaShows",
+    "category": "movies",
+    "image": "https://tinyurl.com/37csr8my",
+    "link": "https://www.pikashows.download/",
+    "description": "Download this application for PC and Mobile to stream all types of TV Shows and Movies."
+  },
+
   {
     "productName": "Scaler",
     "category": "coding",
@@ -2181,6 +2189,34 @@
   "description": "Allows to code, run, and debug React code without having to install anything on your computer"
 },
 {
+
+  "productName": "Uiverse.io",
+  "category": "UI",
+  "image": "http://bit.ly/3X19kpw",
+  "link": "https://uiverse.io/",
+  "description": "Discover and customize free, open-source CSS and HTML UI elements, through this tool"
+},
+{
+  "productName": "indeed.com",
+  "category": "remote",
+  "image": "https://logos-world.net/wp-content/uploads/2021/02/Indeed-Logo.png",
+  "link": "https://in.indeed.com/",
+  "description": "Remote job board featuring a range of remote jobs across various industries."
+},
+{
+  "productName": "Resume Worded",
+  "category": "resume",
+  "image": "",
+  "link": "https://resumeworded.com/",
+  "description": "Create ATS Friendly Resumes Effectively with ATS Score Provides"
+},
+{
+  "productName": "Jobscan",
+  "category": "resume",
+  "image": "",
+  "link": "https://www.jobscan.co/",
+  "description":"Create ATS Friendly Resumes Effectively with ATS Score Provides"
+
   "productName": "Read Aloud",
   "category": "extensions",
   "image": "https://imgur.com/a/qDvJF1n",
@@ -2270,6 +2306,14 @@
   "image": "bit.ly/3r7vPxi",
   "link": "https://javascript.info/",
   "description": "Provides comprehensive tutorials and references on the JavaScript"  
+
+},
+{
+  "productName": "cryptozombies",
+  "category": "web",
+  "image": "https://tinyurl.com/2uf3jrk5",
+  "link": "https://cryptozombies.io/",
+  "description": " Learn Solidity and Ethereum DApp development."
 },
 {
   "productName": "imgur",
@@ -2410,7 +2454,6 @@
   "image": "https://bit.ly/46vxjkU",
   "link": "https://www.alphavantage.co",
   "description": "Alpha Vantage offers free stock APIs in JSON and CSV formats for realtime and historical equity, forex, cryptocurrency data and over 50 technical indicators."
-
 },
 {
   "productName": "LOGO Maker",
@@ -2418,6 +2461,34 @@
   "image": "https://logo.com/_next/static/media/logo-color.834b40cf.svg?w=96&q=80",
   "link": "https://logo.com/",
   "description": "Generate Logo based on users prefrence"
+},
+{
+  "productName": "Favicon Generator",
+  "category": "tools",
+  "image": "https://favicon.io/og-image.png",
+  "link": "https://favicon.io/",
+  "description": "Generate favicons effortlessly using our user-friendly online favicon generator."
+},
+{
+  "productName":"Sejda",
+  "category": "tools",
+  "image": "https://bit.ly/44t8eWb",
+  "link": "https://www.sejda.com/",
+  "description": "Online editing tool to make the tasks with PDF's simple like editing, adding signature, compressing e.t.c"
+},
+{
+  "productName":"HD TODAY",
+  "category": "movies",
+  "image": "https://bit.ly/3CUIDtq",
+  "link": "https://hdtoday.tv/",
+  "description": "HDToday is the best site to watch movies and TV series online for free"
+},
+{
+  "productName":"MyFlixer",
+  "category": "movies",
+  "image": "https://bit.ly/3r8jIQt",
+  "link": "https://myflixer.ru/",
+  "description": "My flixer is used to watch Unlimited Movies with Endless Entertainment"
 }
   
 ]
