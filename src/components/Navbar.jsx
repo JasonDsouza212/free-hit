@@ -67,7 +67,7 @@ const Header = ({ filteredSuggestions }) => {
               onChange={(e) => handleChangeInInput(e)}
             />
             <div className="btn btn_common">
-              <i className="fas fa-search">
+              <i style={{marginTop:".25rem"}} className="fas fa-search">
                 <FaSearch />
               </i>
             </div>
