@@ -54,18 +54,6 @@ You can check out the live project [here](https://free-hit.vercel.app/)
 <table align=center>
   <tr>
     <td align="center">
-      <a href="https://github.com/uday03meh">
-        <img alt="hariketsheth" src="https://github.com/uday03meh.png" width="100px;" style="border-radius: 20px;">
-        <br>
-        <sub>
-          <b>
-              Uday Mehtani
-          </b>
-        </sub>
-      </a>
-      <br>
-    </td>
-    <td align="center">
       <a href="https://github.com/VenomFate-619">
         <img alt="swapnilgarg7" src="https://github.com/VenomFate-619.png" width="100px;" style="border-radius: 20px;">
         <br>
@@ -79,7 +67,33 @@ You can check out the live project [here](https://free-hit.vercel.app/)
     </td>
   </tr>
 </table>
-
+<h1 align="center">Project Stats</h1>
+<table align="center">
+    <thead align="center">
+        <tr border: 1px;>
+            <td><b>Project </td>
+            <td><b>🌟 Stars</b></td>
+            <td><b>🍴 Forks</b></td>
+            <td><b>🐛 Issues</b></td>
+            <td><b>🔔 Open PRs</b></td>
+            <td><b>🔕 Close PRs</b></td>
+            <td><b>🔨 Commit activity</b></td>
+            <td><b>⭐ Stars</b></td>            
+        </tr>
+     </thead>
+    <tbody>
+         <tr>
+            <td><a href="https://github.com/JasonDsouza212/free-hit">Project</a></td>
+            <td><img alt="Stars" src="https://img.shields.io/github/stars/JasonDsouza212/free-hit?style=flat&logo=github"/></td>
+             <td><img alt="Forks" src="https://img.shields.io/github/forks/JasonDsouza212/free-hit?style=flat&logo=github"/></td>
+            <td><img alt="Issues" src="https://img.shields.io/github/issues/JasonDsouza212/free-hit?style=flat&logo=github"/></td>
+            <td><img alt="Open Pull Requests" src="https://img.shields.io/github/issues-pr/JasonDsouza212/free-hit?style=flat&logo=github"/></td>
+           <td><img alt="Close Pull Requests" src="https://img.shields.io/github/issues-pr-closed/JasonDsouza212/free-hit?style=flat&color=critical&logo=github"/></td>
+           <td><img alt="Commit activity" src="https://img.shields.io/github/commit-activity/m/JasonDsouza212/free-hit"/></td>
+           <td><img alt="Commit activity" src="https://img.shields.io/github/stars/JasonDsouza212/free-hit?style=social"/></td>
+        </tr>
+    </tbody>
+</table>
 <h1 align="center"> For GSSOC'23 Contributors ❤️</h1>
 <ul>
   <li>
@@ -127,11 +141,11 @@ Before installation, you need to have installed/knowledge of the following:
 ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
 
 # ⚠️ 🛑 Strict rules to follow while contributing:
-- The PR will only be merged if you create an issue. 
+
+- The PR will only be merged if you create an issue.
 - The PR should always be attached to the issue it solves (**For example: fixes #32**).
 - If you make any changes other than what the issue suggests, the PR will not be merged, even if it only involves removing indentations, colons, or semicolons.
 - Each PR should only resolve one issue.
-- When adding a tool to the database, make sure to add it at the end. If it is added in the middle or at the beginning, the PR will not be merged.
 - Do not modify the indentation or brackets in the Database file. If this happens, the PR will not be merged.
 
 ## 🤝 Contributing
