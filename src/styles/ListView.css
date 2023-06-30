@@ -10,6 +10,10 @@
   margin-bottom: 25px;
 }
 
+.list-single {
+  margin-bottom: 139px;
+}
+
 .list article {
   display: flex;
   align-items: center;
