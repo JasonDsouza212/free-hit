@@ -1,9 +1,10 @@
+//Team.jsx
 import con1 from '../assets/4.png'
 import con2 from '../assets/1.png'
 import con3 from '../assets/3.png'
 import con4 from '../assets/coworking.png'
 import { useNavigate } from 'react-router-dom'
-import "../styles/Team.css"
+import '../styles/Team.css'
 
 const Team = () => {
   const navigate = useNavigate()
@@ -18,7 +19,6 @@ const Team = () => {
           <img src={con1} />
           <h4>Abhishek K</h4>
           <h5>Designer</h5>
-          <hr />
           <div className="icons">
             <a href="https://twitter.com/bobsstwt" target="_blank">
               <i className="ri-twitter-fill"></i>
@@ -38,7 +38,6 @@ const Team = () => {
           <img src={con2} />
           <h4>Priyankar</h4>
           <h5>Developer</h5>
-          <hr />
           <div className="icons">
             <a href="https://twitter.com/Priyankarpal" target="_blank">
               <i className="ri-twitter-fill"></i>
@@ -56,7 +55,6 @@ const Team = () => {
           <img src={con3} />
           <h4>Jason Dsouza</h4>
           <h5>Developer</h5>
-          <hr />
           <div className="icons">
             <a href="https://twitter.com/_Jason_Dsouza" target="_blank">
               <i className="ri-twitter-fill"></i>
@@ -77,7 +75,6 @@ const Team = () => {
           <img src={con4} />
           <h4> Open-Source</h4>
           <h5>Community</h5>
-          <hr />
           <div className="icons">
             <a
               href="https://github.com/JasonDsouza212/free-hit/graphs/contributors"

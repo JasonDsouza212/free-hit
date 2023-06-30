@@ -1,3 +1,4 @@
+//Navbar.jsx
 import React, { useContext, useEffect, useRef } from 'react'
 import { FaSearch } from 'react-icons/fa'
 import freehitlogo from '../assets/free-logo.png'
@@ -5,14 +6,17 @@ import ButtonLinks from '../utils/data/categories'
 import { ToolContext } from '../App'
 import { useLocation } from 'react-router-dom'
 import TwitterButton from './TwitterButton'
-import { NavLink, useSearchParams } from "react-router-dom"
+import { NavLink, useSearchParams } from 'react-router-dom'
 import { msg } from '../utils/data/message'
-import "../styles/header.css"
+import '../styles/header.css'
 
 const Header = () => {
   const [searchParams, setSearchParams] = useSearchParams()
-  let filters = searchParams.getAll('filters').length > 0 ? searchParams.getAll('filters') : ["all"]
-  filters = filters[0].split(",")
+  let filters =
+    searchParams.getAll('filters').length > 0
+      ? searchParams.getAll('filters')
+      : ['all']
+  filters = filters[0].split(',')
   const location = useLocation()
   const sideNavRef = useRef(null)
   const { searchTerm, setSearchTerm, filteredSuggestions } =
@@ -23,16 +27,16 @@ const Header = () => {
   }
 
   useEffect(() => {
-    document.addEventListener('mousedown', handleClickOutside);
+    document.addEventListener('mousedown', handleClickOutside)
 
     return () => {
-      document.removeEventListener('mousedown', handleClickOutside);
+      document.removeEventListener('mousedown', handleClickOutside)
     }
   })
 
   function handleClickOutside(event) {
     if (sideNavRef.current && !sideNavRef.current.contains(event.target)) {
-      document.getElementById("btn").checked = false;
+      document.getElementById('btn').checked = false
     }
   }
 
@@ -46,23 +50,26 @@ const Header = () => {
       targetElem.classList.remove('diplay-none')
     }
   }
-  
+
   const handleAddFilter = (filter, event) => {
-    filter = filter.toLowerCase();
-    setSearchParams(prevParams => {
+    filter = filter.toLowerCase()
+    setSearchParams((prevParams) => {
       let options = prevParams.getAll('filters') || []
       if (options.length > 0) {
-        options = options[0].split(",")
+        options = options[0].split(',')
       }
       if (options.includes(filter)) {
         if (options.length > 1) {
-          prevParams.set('filters', [...options].filter(f => f != filter))
+          prevParams.set(
+            'filters',
+            [...options].filter((f) => f != filter)
+          )
         } else {
           prevParams.delete('filters')
         }
       } else {
         if (event.ctrlKey) {
-          prevParams.set('filters', [...prevParams.getAll("filters"), filter])
+          prevParams.set('filters', [...prevParams.getAll('filters'), filter])
         } else {
           prevParams.set('filters', filter)
         }
@@ -83,17 +90,17 @@ const Header = () => {
           {location.pathname === '/about' ? (
             <nav id="sidebar">
               <ul className="list-items list-item">
-                <li className='about-list'>
+                <li className="about-list">
                   <NavLink to="/">
                     <i className="ri-home-4-fill"></i> Home
                   </NavLink>
                 </li>
-                <li className='about-list'>
+                <li className="about-list">
                   <NavLink to="/bookmarks">
                     <i className="ri-bookmark-fill"></i> Bookmarks
                   </NavLink>
                 </li>
-                <li className='about-list'>
+                <li className="about-list">
                   <TwitterButton message={msg} />
                 </li>
               </ul>
@@ -117,15 +124,21 @@ const Header = () => {
               <ul className="list-items">
                 {ButtonLinks.map((buttonLink) => (
                   <li
-                  key={buttonLink.id}
-                  className={filters.includes(buttonLink.category.toLocaleLowerCase()) ? "active-filter" : ""}
-                >
-                  <button
-                    onClick={(e) => {handleAddFilter(buttonLink.category, e)}}
+                    key={buttonLink.id}
+                    className={
+                      filters.includes(buttonLink.category.toLocaleLowerCase())
+                        ? 'active-filter'
+                        : ''
+                    }
                   >
-                    {buttonLink.name}
-                  </button>
-                </li>
+                    <button
+                      onClick={(e) => {
+                        handleAddFilter(buttonLink.category, e)
+                      }}
+                    >
+                      {buttonLink.name}
+                    </button>
+                  </li>
                 ))}
               </ul>
             </nav>
@@ -192,7 +205,7 @@ const Header = () => {
         </li>
       </ul>
     </nav>
-  );
+  )
 }
 
 export default Header

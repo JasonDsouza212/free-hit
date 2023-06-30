@@ -1,5 +1,6 @@
+/*styles/Community.css*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto&display=swap');
-.contributor-heading{
+.contributor-heading {
   text-align: center;
   margin: 20px;
   font-size: 3rem;
@@ -36,15 +37,15 @@
   transition: all 0.2s ease-in-out;
   justify-content: center;
 }
-.contributor{
+.contributor {
   border: 3px solid #191e2d;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
   border-radius: 10px;
   padding: 4px;
-  background-color: #f8f8f8;
+  background-color: #f1f1ef;
+  cursor: pointer;
 }
-.contributor-card{
+.contributor-card {
   display: flex;
   justify-content: center;
   padding: 19px;
@@ -70,13 +71,13 @@
   filter: grayscale(0%);
 }
 
-.username{
+.username {
   text-align: center;
   font-size: 15px;
   margin-top: 8px;
   font-family: 'Poppins', sans-serif;
 }
-.contributions{
+.contributions {
   text-align: center;
   font-size: 15px;
   font-weight: 400;
@@ -97,7 +98,7 @@
   .contributors-list .contributor-anchor .contributor-image {
     width: 90px;
   }
-  .username{
+  .username {
     font-size: 10px;
   }
 }
@@ -117,4 +118,10 @@
   .contributors-list .contributor-anchor .contributor-image {
     width: 80px;
   }
+  .username {
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+  }
 }
+

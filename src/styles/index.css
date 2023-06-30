@@ -1,3 +1,8 @@
+
+
+
+
+/*styles/index.css*/
 @import 'header.css';
 @import 'Home.css';
 @import 'About.css';
@@ -143,10 +148,6 @@ body {
     top: 3px;
   }
 
-  .free-logo {
-    top: 8px;
-  }
-
   .about {
     margin: 50px 30px;
     padding-left: 0px;
@@ -196,8 +197,7 @@ body {
   }
 
   .free-logo {
-    /* margin-left: 15px; */
-    bottom: 10px;
+    margin-left: 15px;
   }
 
   .about .ab1 p {
@@ -489,7 +489,6 @@ body {
   .free-logo {
     position: relative;
     left: -23px;
-    top: 5px;
     width: 40px;
     height: 40px;
   }

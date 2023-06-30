@@ -1,6 +1,7 @@
+//pages/community.jsx
 import React, { useState, useEffect } from 'react'
 import Header from '../components/Navbar'
-import "../styles/Community.css"
+import '../styles/Community.css'
 
 function Community() {
   const [contributors, setContributors] = useState([])
@@ -38,7 +39,7 @@ function Community() {
               contributor &&
               contributor.type !== 'Bot' && ( //to remove bot from the contributors list
                 <li className="contributor" key={contributor.id}>
-                  <div className='contributor-card'>
+                  <div className="contributor-card">
                     <a
                       rel="noopener noreferrer"
                       className="contributor-anchor"
@@ -54,8 +55,10 @@ function Community() {
                       />
                     </a>
                   </div>
-                  <p className='username'>{contributor.login}</p>
-                  <p className='contributions'>{contributor.contributions} commits</p>
+                  <p className="username">{contributor.login}</p>
+                  <p className="contributions">
+                    {contributor.contributions} commits
+                  </p>
                 </li>
               )
           )}
