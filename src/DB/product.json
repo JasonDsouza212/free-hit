@@ -231,6 +231,13 @@
     "description": "Himalayas is a job board for remote workers."
   },
   {
+    "productName": "KhanAcademy",
+    "category": "remote",
+    "image": "https://th.bing.com/th/id/OIP.krs23uVyEDRATLFhfuIjsAHaHa?pid=ImgDet&rs=1",
+    "link": "https://www.khanacademy.org/",
+    "description": "Khan Academy is an American non-profit educational organization created in 2006 by Sal Khan."
+  },
+  {
     "productName": "We Work Remotely",
     "category": "remote",
     "image": "https://t3.ftcdn.net/jpg/05/48/77/76/360_F_548777650_6prwFlpzBsIoDWoixdXuGTCb7gJHPKs0.jpg",
@@ -1736,6 +1743,7 @@
   "link": " https://codeforces.com/",
   "description": "A competitive programming platform with challenging contests and an active community."
 },
+
 {
   "productName": "Codechef",
   "category": "coding",
@@ -2229,6 +2237,13 @@
   "description": "A free collection of curated, high-quality resources which specifically focus on competitive programming."
 },
 {
+  "productName": "GSAP-GreenStock",
+  "category": "Useful Tool",
+  "image": "https://bit.ly/3NreI0H",
+  "link": "https://greensock.com/gsap/",
+  "description": "It's JavaScript library for some really cool animations without actual javascript codes"
+},
+{
 "productName": "Codecademy",
 "category": "coding",
 "image": "https://shorturl.at/mzCU4",
@@ -2283,6 +2298,149 @@
   "image": "bit.ly/3r7vPxi",
   "link": "https://javascript.info/",
   "description": "Provides comprehensive tutorials and references on the JavaScript"  
+
+},
+{
+
+  "productName": "imgur",
+  "category": "tools",
+  "image": "https://iili.io/HidMrXV.png",
+  "link": "https://imgur.com/",
+  "description": "Imgur provides the simplest and most convenient means to host your images"  
+},
+{
+  "productName": "Firebase",
+  "category": "tools",
+  "image": "https://bit.ly/3pqkebW",
+  "link": "https://firebase.google.com",
+  "description": "Firebase offers backend services like database, authentication, hosting, cloud functions and more."
+},
+{
+  "productName": "Auth0",
+  "category": "tools",
+  "image": "https://bit.ly/46vxjkU",
+  "link": "https://auth0.com",
+  "description": "Auth0 is an authentication and authorization platform."
+},  
+{
+  "productName": "Google Maps API",
+  "category": "tools",
+  "image": "https://bit.ly/44j4E1f",
+  "link": "https://developers.google.com/maps",
+  "description": "Google Maps Platform offers a free $200 monthly credit for Maps, Routes, and Places."
+},
+{
+  "productName": "Stripe",
+  "category": "tools",
+  "image": "https://bit.ly/3JEhwqd",
+  "link": "https://stripe.com",
+  "description": "Stripe is a suite of payment APIs that powers commerce for online businesses of all sizes."
+},
+{
+  "productName": "AWS",
+  "category": "tools",
+  "image": "https://bit.ly/3CTsW5S",
+  "link": "https://aws.amazon.com",
+  "description": "Amazon Web Services is a subsidiary of Amazon providing on-demand cloud computing platforms and APIs to individuals."
+},
+{
+  "productName":"Youtube API",
+  "category": "tools",
+  "image": "https://bit.ly/3pql74g",
+  "link": "https://developers.google.com/youtube",
+  "description": "The YouTube Data API (v3) lets you incorporate YouTube functionality into your own application."
+},
+{
+  "productName": "RapidAPI",
+  "category": "tools",
+  "image": "https://bit.ly/46vxjkU",
+  "link": "https://rapidapi.com",
+  "description": "RapidAPI is the world's largest API marketplace with over 1,000,000 developers and 10,000 APIs."
+},
+{
+  "productName": "Movie API",
+  "category": "tools",
+  "image": "https://bit.ly/3NSQfmo",
+  "link": "https://www.omdbapi.com",
+  "description": "The API is a RESTful web service to obtain movie information, all content and images."
+},
+{
+  "productName": "MongoDB Atlas",
+  "category": "tools",
+  "image": "https://bit.ly/3PCou2P",
+  "link": "https://www.mongodb.com/cloud/atlas",
+  "description": "MongoDB Atlas is the global cloud database service for modern applications."
+},
+{
+  "productName": "Spotify API",
+  "category": "tools",
+  "image": "https://bit.ly/3pqR6kS",
+  "link": "https://developer.spotify.com",
+  "description": "The Spotify Web API is a set of web APIs to access Spotify's database of music, artists, albums, and playlists."
+},
+{
+  "productName": "Free Weather API",
+  "category": "tools",
+  "image": "https://bit.ly/46uHyWQ",
+  "link": "https://openweathermap.org/api",
+  "description": "OpenWeather is a team of IT experts and data scientists that has been practising deep weather."
+},
+{
+  "productName": "Joke API",
+  "category": "tools",
+  "image": "https://bit.ly/3pvhief",
+  "link": "https://sv443.net/jokeapi/v2/",
+  "description": "The JokeAPI is a REST API that serves uniformly and well formatted jokes."
+},
+{
+  "productName": "Twitter API",
+  "category": "tools",
+  "image": "https://bit.ly/3pkO2XD",
+  "link": "https://developer.twitter.com/en/docs/twitter-api",
+  "description": "The Twitter API enables programmatic access to Twitter in unique and advanced ways."
+},
+{
+  "productName": "Facebook API",
+  "category": "tools",
+  "image": "https://bit.ly/3JxNFQ3",
+  "link": "https://developers.facebook.com",
+  "description": "The Facebook API is a platform for building applications that are available to the members of the social network of Facebook."
+},
+{
+  "productName": "Instagram API",
+  "category": "tools",
+  "image": "https://bit.ly/44lhw6o",
+  "link": "https://developers.facebook.com/docs/instagram",
+  "description": "The Instagram API Platform can be used to build non-automated, authentic, high-quality apps and services."
+},
+{
+  "productName": "PayPal API",
+  "category": "tools",
+  "image": "https://bit.ly/3CSMkQc",
+  "link": "https://developer.paypal.com/docs/api/overview",
+  "description": "PayPal is an American company operating an online payments system in majority of countries that supports online money transfers and server."
+},
+{
+  "productName": "WhatsApp API",
+  "category": "tools",
+  "image": "https://bit.ly/44H1lAL",
+  "link": "https://developers.facebook.com/docs/whatsapp",
+  "description": "The WhatsApp Business API is a fast, secure, and reliable way for businesses to reach their customers all over the world."
+},
+{
+  "productName":"PayTM API",
+  "category": "tools",
+  "image": "https://bit.ly/4359769",
+  "link": "https://developer.paytm.com/docs",
+  "description": "Paytm is an Indian e-commerce payment system and financial technology company, based in Noida, India."
+},
+{
+  "productName":"Stock API",
+  "category": "tools",
+  "image": "https://bit.ly/46vxjkU",
+  "link": "https://www.alphavantage.co",
+  "description": "Alpha Vantage offers free stock APIs in JSON and CSV formats for realtime and historical equity, forex, cryptocurrency data and over 50 technical indicators."
+
 
 }
 ]
