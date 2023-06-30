@@ -2544,5 +2544,12 @@
   "image": "https://bit.ly/3r8jIQt",
   "link": "https://myflixer.ru/",
   "description": "My flixer is used to watch Unlimited Movies with Endless Entertainment"
+},
+{
+  "productName": "Haikei",
+  "category": "tools",
+  "image": "https://shorturl.at/dEFHL",
+  "link": "https://app.haikei.app/",
+  "description": "Generate Blob, Wave, Blurry Gradients, Circle Scatter, Blob Scene, Layered Waves, etc."
 }
 ]
