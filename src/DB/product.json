@@ -2322,6 +2322,13 @@
   "description": "Provides comprehensive tutorials and references on the JavaScript"  
 },
 {
+  "productName": "Spline AI",
+  "category": "ai",
+  "image": "https://bit.ly/3CQc1Rq",
+  "link": "https://spline.design/ai",
+  "description": "It generates 3D objects, animations and textures using prompts."
+},
+{
   "productName": "VLC Media Player",
   "category": "tools",
   "image": "https://bit.ly/46pTUPK",
