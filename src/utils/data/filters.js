@@ -7,5 +7,7 @@ export const allFilters = [
   'movies',
   'extensions',
   'ui',
+  'web',
+  'coding',
   'tools',
 ]
