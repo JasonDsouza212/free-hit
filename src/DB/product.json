@@ -2411,6 +2411,12 @@
   "image": "https://bit.ly/46vxjkU",
   "link": "https://www.alphavantage.co",
   "description": "Alpha Vantage offers free stock APIs in JSON and CSV formats for realtime and historical equity, forex, cryptocurrency data and over 50 technical indicators."
-
+},
+{
+  "productName":"Converter App",
+  "category": "tools",
+  "image": "https://imgur.com/a/7GQYPo3",
+  "link": "https://converter.app/pdf-to-latex/",
+  "description": "This tool can convert your PDF files to corresponding LaTeX code."
 }
 ]
