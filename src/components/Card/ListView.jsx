@@ -19,8 +19,11 @@ const ListView = ({ currentProducts }) => {
     ,
     deleteres,
   } = useContext(ToolContext)
+
+  const isSingleAccordionItem = currentProducts.length === 1;
+  
   return (
-    <Accordion allowToggle className="list">
+    <Accordion allowToggle className={`list ${isSingleAccordionItem ? 'list-single' : ''}`}>
       {currentProducts.map((product, index) => (
         <AccordionItem
           borderRadius={'8px'}
