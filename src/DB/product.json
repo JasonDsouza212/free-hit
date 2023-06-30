@@ -1,5 +1,13 @@
 [ 
   {
+    "productName": "JS Remotely",
+    "category": "remote",
+    "image": "https://tinyurl.com/ycyab9eb",
+    "link": "https://jsremotely.com/",
+    "description": "Find remote Javascript jobs."
+  },
+
+  {
     "productName": "PikaShows",
     "category": "movies",
     "image": "https://tinyurl.com/37csr8my",
