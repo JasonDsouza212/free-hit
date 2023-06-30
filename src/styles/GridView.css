@@ -73,4 +73,20 @@
   .grid .bookmark.dark-mode:hover {
     transition: all 0.3s ease-out;
   }
+
+  /* Updated styles */
+
+.grid.dark-mode article {
+  height: 320px; /* Adjust the height as per your requirement */
+}
+
+.grid article .text_top {
+  height: 100px; /* Adjust the height as per your requirement */
+}
+
+.grid article .card-title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
   
