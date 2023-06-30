@@ -2418,26 +2418,5 @@
   "image": "https://favicon.io/og-image.png",
   "link": "https://favicon.io/",
   "description": "Generate favicons effortlessly using our user-friendly online favicon generator."
-},
-{
-  "productName": "Enhancecv",
-  "category": "resume",
-  "image" : "https://bit.ly/4302IsZ",
-  "link": "https://enhancv.com/",
-  "description": "EnhanceCV: Online resume builder for impressive, professional job applications."
-},
-{
-  "productName": "Tome.app",
-  "category": "ai",
-  "image": "https://bit.ly/435KiXL",
-  "link": "https://tome.app/",
-  "description": "Tome is the AI-powered format for your work & ideas."
-},
-{
-  "productName": "Doubtclear",
-  "category": "ai",
-  "image": "https://bit.ly/44t5SXn",
-  "link": "https://www.doubtclear.ai/",
-  "description": "AI Powered Homework Assistance for All!"
 }
 ]
