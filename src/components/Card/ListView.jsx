@@ -45,17 +45,16 @@ const ListView = ({ currentProducts }) => {
                     </button>
                   </a>
                   {bookmarks.some((obj) => obj['productName'] === product.productName) ? (
-                    <a>
                     <button className={`delete ${darkMode ? 'dark-mode' : ''}`}
                       onClick={(event) => {
                         event.stopPropagation();
                         deleteres(product);
                       }}
                     >
-                      <font size="3">Delete</font>
+                    <a>Delete
                         <i className={`ri-bookmark-fill ${darkMode ? 'dark-mode' : ''}`}></i>
-                      </button>
                       </a>
+                    </button>
                   ) : (
                     <a>
                       <button
@@ -77,7 +76,7 @@ const ListView = ({ currentProducts }) => {
           <AccordionPanel py={2} pt={0}>
             <div className="text">
               <div className="accordion_panel">
-              <p className={`card-description ${darkMode ? 'dark-mode' : ''}`}>
+              <p>
                 {product.description}
               </p>
                 <div className="btn-cont ">

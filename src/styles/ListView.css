@@ -14,22 +14,21 @@
   margin-bottom: 25px;
 }
 
-.list .accordion_item {
+.list .article {
   display: flex;
   align-items: center;
-  flex-direction: column;
-  padding: 4px 8px;
+  /* flex-direction: column; */
+  padding: 10px 20px;
   border: 2px solid var(--primary-black);
   border-radius: 8px;
-  /* gap: 50px; */
+  gap:0px;
   box-shadow: 8px 8px 2px 0px var(--primary-black);
-  height:auto;
 }
 
 .list .image {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   gap: 20px;
   width: 100%;
 }
@@ -44,13 +43,13 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 100%;
+  width: 92%;
 }
 
 .list .card-title {
   font-size: 24px;
   font-weight: 600;
-  width:100%;
+  width:inherit;
   letter-spacing: 0.2px;
   text-align: left;
   color: var(--primary-black);
@@ -62,7 +61,7 @@
 }
 
 .list .text p {
-  max-width: 100%;
+  /* max-width: 100%; */
   color: var(--primary-black);
 }
 
@@ -74,15 +73,15 @@
   /* margin-top: 10px; */
 }
 
-.list .accordion_panel .btn-cont {
+.accordion_panel .btn-cont {
   display: none;
 }
 
-.list .accordion_panel {
+.accordion_panel {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
-  flex-direction: column;
+  justify-content: space-between;
+  /* flex-direction: column; */
 }
 
 .list .visit{
@@ -135,7 +134,7 @@
 }
 
 .list.dark-mode .accordion_item:hover {
-  box-shadow: 6px 6px 0px 0px #ffffff;
+  box-shadow: 8px 8px 2px 0px #ffffff;
 }
 
 @media (max-width: 560px) {

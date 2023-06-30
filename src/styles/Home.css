@@ -101,7 +101,6 @@ body {
   color: #000;
   font-size: 18px;
   transition: all 0.3s;
-  height: auto;
 }
 
 .grid>article:hover {
@@ -113,17 +112,16 @@ img {
   width: 40px;
   height: 40px;
   border-radius: 10px;
-  margin-top:0;
 }
 
 .grid>article .btn-cont {
-  margin-top: 1.5rem;
+  margin-top: 2 rem;
   display: flex;
   justify-content: center;
 }
 
 .grid article p {
-  margin-top: 0px;
+  margin-top: 1 rem;
   line-height: 20px;
   font-family: 'Roboto', sans-serif;
   text-align: center;
@@ -143,8 +141,8 @@ img {
   align-items: center;
   justify-content: center;
   gap: 10px;
-  margin-top: 0;
-  padding: 0;
+  /* margin-top: 0;
+  padding: 0; */
 }
 
 .text_top .card-title {
@@ -183,9 +181,9 @@ img {
 }
 
 .btn-cont button i {
-  position: fixed;
-  /* top: 6px;
-  margin-left: 5px; */
+  position: relative;
+  top: 3px;
+  margin-left: 5px;
 }
 
 .btn-cont button:hover {
