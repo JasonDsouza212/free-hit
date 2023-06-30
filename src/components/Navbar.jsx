@@ -97,10 +97,10 @@ const Header = ({ filteredSuggestions }) => {
           <NavLink to="/">Home</NavLink>
         </li>
         <li>
-          <NavLink to="/bookmarks">Bookmarks</NavLink>
+          <NavLink className="hoverele" to="/bookmarks">Bookmarks</NavLink>
         </li>
         <li>
-          <NavLink to="/about">About</NavLink>
+          <NavLink className="hoverele" to="/about">About</NavLink>
         </li>
       </ul>
     </nav>
