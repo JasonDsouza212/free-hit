@@ -1840,6 +1840,13 @@
   "image":"",
   "link":"https://web.dev/",
   "description":"Learning Front End Techs like HTML and CSS Effectively"
+},
+{
+  "productName":"MDN Web Docs",
+  "category":"web",
+  "image":"https://rb.gy/xbnap",
+  "link":"https://developer.mozilla.org/en-US/",
+  "description":""
 }
 ]
 
