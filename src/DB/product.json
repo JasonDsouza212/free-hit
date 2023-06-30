@@ -2412,5 +2412,26 @@
   "link": "https://www.alphavantage.co",
   "description": "Alpha Vantage offers free stock APIs in JSON and CSV formats for realtime and historical equity, forex, cryptocurrency data and over 50 technical indicators."
 
+},
+{
+  "productName":"Sejda",
+  "category": "tools",
+  "image": "https://bit.ly/44t8eWb",
+  "link": "https://www.sejda.com/",
+  "description": "Online editing tool to make the tasks with PDF's simple like editing, adding signature, compressing e.t.c"
+},
+{
+  "productName":"HD TODAY",
+  "category": "movies",
+  "image": "https://bit.ly/3CUIDtq",
+  "link": "https://hdtoday.tv/",
+  "description": "HDToday is the best site to watch movies and TV series online for free"
+},
+{
+  "productName":"MyFlixer",
+  "category": "movies",
+  "image": "https://bit.ly/3r8jIQt",
+  "link": "https://myflixer.ru/",
+  "description": "My flixer is used to watch Unlimited Movies with Endless Entertainment"
 }
 ]
