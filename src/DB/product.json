@@ -2121,5 +2121,12 @@
   "image": "https://forum.usaco.guide/uploads/default/original/1X/047f2df686adefc647703910bb5be85e7cce48e6.png",
   "link": "https://usaco.guide/",
   "description": "A free collection of curated, high-quality resources which specifically focus on competitive programming."
+},
+{
+  "productName": "doubtclear.ai",
+  "category": "ai",
+  "image": "https://bit.ly/44t5SXn",
+  "link": "https://www.doubtclear.ai/",
+  "description": "AI Powered Homework Assistance for All!"
 }
 ]
