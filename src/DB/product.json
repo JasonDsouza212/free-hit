@@ -1760,6 +1760,13 @@
   "description": "An online community for programmers to improve their skills through contests and challenges."
 },
 {
+  "productName": "BitDegree",
+  "category": "coding",
+  "image": "https://logos-download.com/wp-content/uploads/2019/01/BitDegree_Logo.png",
+  "link": "https://www.bitdegree.org/",
+  "description": "Offers high quality Web3 courses."
+},
+{
   "productName": "SPOJ",
   "category": "coding",
   "image": "https://tinyurl.com/yndmds67",
