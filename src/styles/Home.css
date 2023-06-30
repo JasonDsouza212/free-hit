@@ -115,13 +115,13 @@ img {
 }
 
 .grid>article .btn-cont {
-  margin-top: 2 rem;
+  margin-top: 2rem;
   display: flex;
   justify-content: center;
 }
 
 .grid article p {
-  margin-top: 1 rem;
+  margin-top: 1rem;
   line-height: 20px;
   font-family: 'Roboto', sans-serif;
   text-align: center;
@@ -141,8 +141,6 @@ img {
   align-items: center;
   justify-content: center;
   gap: 10px;
-  /* margin-top: 0;
-  padding: 0; */
 }
 
 .text_top .card-title {

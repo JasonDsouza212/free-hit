@@ -84,22 +84,11 @@
   /* flex-direction: column; */
 }
 
-.list .visit{
-  border: 2px solid var(--primary-black);
-}
-
-.list .bookmark{
-  border: 2px solid var(--primary-black);
-}
-
 .list .visit:hover{
   transition: all 0.3s ease-out;
 }
 .list .bookmark:hover{
   transition: all 0.3s ease-out;
-}
-.list .delete{
-  border: 2px solid var(--primary-black);
 }
 .list .delete:hover{
   transition: all 0.3s ease-out;
@@ -111,17 +100,8 @@
   color:white;
 }
 
-.list .visit.dark-mode{
-  border: 2px solid white;
-}
-
 .list .visit.dark-mode:hover{
   transition: all 0.3s ease-out;
-}
-
-
-.list .bookmark.dark-mode {
-  border: 2px solid white;
 }
 
 .list .bookmark.dark-mode:hover {

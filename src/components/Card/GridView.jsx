@@ -40,16 +40,15 @@ const GridView = ({ currentProducts }) => {
             {bookmarks.some(
               (obj) => obj['productName'] === product.productName
             ) ? (
-              <a>
                 <button className={`delete ${darkMode ? 'dark-mode' : ''}`} onClick={(event) => {
                   event.stopPropagation();
                   deleteres(product);
                   }}
                 >
-                  <font size="4">Delete</font>
-                  <i className={`ri-bookmark-fill ${darkMode ? 'dark-mode' : ''}`}></i>
-                </button>
+              <a>
+                  Delete<i className={`ri-bookmark-fill ${darkMode ? 'dark-mode' : ''}`}></i>
               </a>
+                </button>
             ) : (
               <a>
                 <button
@@ -67,6 +66,6 @@ const GridView = ({ currentProducts }) => {
       ))}
     </main>
   );
-};
+}
 
 export default GridView;
