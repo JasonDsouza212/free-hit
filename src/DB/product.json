@@ -1,4 +1,26 @@
-[
+[ 
+  {
+    "productName": "PikaShows",
+    "category": "movies",
+    "image": "https://tinyurl.com/37csr8my",
+    "link": "https://www.pikashows.download/",
+    "description": "Download this application for PC and Mobile to stream all types of TV Shows and Movies."
+  },
+
+  {
+    "productName": "Scaler",
+    "category": "coding",
+    "image": "https://bit.ly/3XoZKgc",
+    "link": "https://bit.ly/3plUFZw",
+    "description": "Scaler is an outcome-focused, ed-tech platform for techies."
+  },
+  {
+    "productName": "InterviewBit",
+    "category": "coding",
+    "image": "https://bit.ly/3NH8dIt",
+    "link": "https://bit.ly/43VBwNf",
+    "description": "InterviewBit prepares you not only for the interviews, but for the actual job too."
+  },
   {
     "productName": "Momentum",
     "category": "extensions",
@@ -210,11 +232,25 @@
     "description": "Remote job board and community for remote workers and employers."
   },
   {
+    "productName": "Internshala",
+    "category": "remote",
+    "image": "https://shorturl.at/bkox6",
+    "link": "https://internshala.com/student/dashboard",
+    "description": "Find the best job on Internshala"
+  },
+  {
     "productName": "Himalayas",
     "category": "remote",
     "image": "https://bit.ly/3RXjh4H",
     "link": "https://himalayas.app/",
     "description": "Himalayas is a job board for remote workers."
+  },
+  {
+    "productName": "KhanAcademy",
+    "category": "remote",
+    "image": "https://th.bing.com/th/id/OIP.krs23uVyEDRATLFhfuIjsAHaHa?pid=ImgDet&rs=1",
+    "link": "https://www.khanacademy.org/",
+    "description": "Khan Academy is an American non-profit educational organization created in 2006 by Sal Khan."
   },
   {
     "productName": "We Work Remotely",
@@ -831,6 +867,13 @@
     "image": "https://bit.ly/40Xhh00",
     "link": "https://www.pdfdrive.com/",
     "description": "PDF Drive is a search engine for downloading PDF files and books."
+  },
+  {
+    "productName": "Aicolor.co",
+    "category": "tools",
+    "image": "https://tinyurl.com/39ss2jf8",
+    "link": "https://aicolors.co/",
+    "description": "AI Color Palette Generator - Visualize and Generate Unique Palettes"
   },
   {
     "productName": "ColorPick Eyedropper",
@@ -1715,12 +1758,20 @@
   "link": " https://codeforces.com/",
   "description": "A competitive programming platform with challenging contests and an active community."
 },
+
 {
   "productName": "Codechef",
   "category": "coding",
   "image": "https://tinyurl.com/5cx6fp35",
   "link": "https://www.codechef.com/",
   "description": "An online community for programmers to improve their skills through contests and challenges."
+},
+{
+  "productName": "BitDegree",
+  "category": "coding",
+  "image": "https://logos-download.com/wp-content/uploads/2019/01/BitDegree_Logo.png",
+  "link": "https://www.bitdegree.org/",
+  "description": "Offers high quality Web3 courses."
 },
 {
   "productName": "SPOJ",
@@ -1827,6 +1878,13 @@
     "image": "https://tinyurl.com/48bja2rc",
     "link": "https://www.crossover.com/",
     "description": "Find a full time remote job" 
+  },
+  {
+    "productName": "Foundit",
+    "category": "remote",
+    "image": "https://bit.ly/3NQbci1",
+    "link": "https://www.foundit.in/",
+    "description": "Find the job that is perfect for You" 
   },
   {
     "productName": "INSIDEA",
@@ -2046,6 +2104,13 @@
   "description": "Users could ask questions, phrases, and the AI would scan through of books to find relevant passages and provide answers."
 },
 {
+  "productName": "Exercism",
+  "category": "Coding",
+  "image": "https://bit.ly/3qY1Ck6",
+  "link": "https://exercism.org/",
+  "description": "Exercism is a coding platform that offers a hands-on learning experience, providing programmers with a wide range of challenges to practice and improve their skills."
+},
+{
   "productName": "Paraphrasing Tool",
   "category": "tools",
   "image": "https://bit.ly/44h4Bm8",
@@ -2072,6 +2137,7 @@
   "image": "https://bit.ly/3Nq7dHn",
   "link": "https://pomofocus.io/app",
   "description": "Pomofocus is a customizable pomodoro timer to help you focus on any task you are working on."
+
 },
 {
   "productName": "Codestudio",
@@ -2109,11 +2175,81 @@
   "description": "poised is an AI powered communication coach."
 },
 {
+  "productName": "OBS Studio",
+  "category": "tools",
+  "image": "https://bit.ly/46pIxau",
+  "link": "https://obsproject.com/",
+  "description": "Free and open source software for video recording and live streaming."
+},
+{
+  "productName": "Replit GhostWriter",
+  "category": "ai",
+  "image": "https://avatars3.githubusercontent.com/u/983194?s=280&v=4",
+  "link": "https://replit.com/site/ghostwriter",
+  "description": "Replit GhostWriter is an AI coding tool which has tons of code-easing features to help developers"
+},
+{
+  "productName": "Evernote",
+  "category": "extensions",
+  "image": "shorturl.at/elAT5",
+  "link": "https://chrome.google.com/webstore/detail/evernote-web-clipper/pioclpoplcdbaefihamjohnefbikjilc",
+  "description": "Evernote is a cross-platform app designed for note taking, organizing, task lists, and archiving."
+},
+{
+  "productName": "Reactplay.io",
+  "category": "ai",
+  "image": "bit.ly/3NKcYRs",
+  "link": "https://reactplay.io/",
+  "description": "Allows to code, run, and debug React code without having to install anything on your computer"
+},
+{
+  "productName": "Uiverse.io",
+  "category": "UI",
+  "image": "http://bit.ly/3X19kpw",
+  "link": "https://uiverse.io/",
+  "description": "Discover and customize free, open-source CSS and HTML UI elements, through this tool"
+},
+{
+  "productName": "indeed.com",
+  "category": "remote",
+  "image": "https://logos-world.net/wp-content/uploads/2021/02/Indeed-Logo.png",
+  "link": "https://in.indeed.com/",
+  "description": "Remote job board featuring a range of remote jobs across various industries."
+},
+{
+  "productName": "Resume Worded",
+  "category": "resume",
+  "image": "",
+  "link": "https://resumeworded.com/",
+  "description": "Create ATS Friendly Resumes Effectively with ATS Score Provides"
+},
+{
+  "productName": "Jobscan",
+  "category": "resume",
+  "image": "",
+  "link": "https://www.jobscan.co/",
+  "description":"Create ATS Friendly Resumes Effectively with ATS Score Provides"
+},
+{
   "productName": "Read Aloud",
   "category": "extensions",
   "image": "https://imgur.com/a/qDvJF1n",
   "link": "https://chrome.google.com/webstore/detail/read-aloud-a-text-to-spee/hdhinadidafjejdhmfkjgnolgimiaplp",
   "description": "Text to speech extension"
+},
+{
+  "productName": "Walkccc",
+  "category": "tools",
+  "image": "https://imgur.com/a/FBEgUZo",
+  "link": "https://walkccc.me/LeetCode/",
+  "description": "Leetcode Solutions website"
+},
+{
+  "productName": "Image to Text",
+  "category": "tools",
+  "image": "https://imgur.com/a/kLKlkiv",
+  "link": "https://www.imagetotext.info/",
+  "description": "Image to text convertor"
 },
 {
   "productName": "USACO",
@@ -2123,10 +2259,10 @@
   "description": "A free collection of curated, high-quality resources which specifically focus on competitive programming."
 },
 {
-  "productName": "doubtclear.ai",
-  "category": "ai",
-  "image": "https://bit.ly/44t5SXn",
-  "link": "https://www.doubtclear.ai/",
-  "description": "AI Powered Homework Assistance for All!"
+  "productName": "UnStop",
+  "category": "coding",
+  "image" : "https://bit.ly/3NUNHUM",
+  "link": "https://unstop.com/",
+  "description": "Talent, Colleges, Recruiters connected effortlessly and efficiently"
 }
 ]
