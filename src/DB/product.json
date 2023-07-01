@@ -2572,5 +2572,12 @@
   "image": "https://shorturl.at/dEFHL",
   "link": "https://app.haikei.app/",
   "description": "Generate Blob, Wave, Blurry Gradients, Circle Scatter, Blob Scene, Layered Waves, etc."
+},
+{
+  "productName": "Prettier",
+  "category": "extensions",
+  "image": "https://prettier.io/icon.png",
+  "link": "https://prettier.io/",
+  "description": "An opinionated code formatter, Supports many languages, Integrates with most editors"
 }
 ]
