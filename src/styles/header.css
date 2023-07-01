@@ -340,9 +340,9 @@ nav {
 }
 
 .pages li .hoverele:hover{
-  color:var(--primary-black);
-  background-color:var(--primary-white) ;
-  border:2px dashed #222;
+  color:var(--primary-white);
+  background-color:var(--primary-black) ;
+  /* border:2px dashed #222; */
 }
 
 .pages li a.active {

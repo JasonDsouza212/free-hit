@@ -8,10 +8,11 @@
   justify-content: flex-start;
   flex-direction: column;
   width: 100%;
+  /* height:100%; */
   gap: 20px;
   padding: 5px 15px;
   margin-top: 25px;
-  margin-bottom: 25px;
+  /* margin-bottom: 25px; */
 }
 
 .list .article {
