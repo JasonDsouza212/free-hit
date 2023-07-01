@@ -28,6 +28,10 @@
   color: var(--primary-white);
   background-color: var(--primary-black);
 }
+.selected-page.dark-mode {
+  color: var(--primary-black);
+  background-color: var(--primary-white);
+}
 
 .paginate-nav {
   font-size: 20px;
@@ -36,11 +40,11 @@
 }
 
 
-.dark-mode .paginate-button{
+/* .dark-mode .paginate-button{
   color: var(--primary-white);
   background-color: var(--primary-black);
 }
 .dark-mode .paginate-nav {
 
   background-color: var(--primary-white);
-}
+} */
