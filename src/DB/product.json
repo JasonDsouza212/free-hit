@@ -2572,5 +2572,12 @@
   "image": "https://shorturl.at/dEFHL",
   "link": "https://app.haikei.app/",
   "description": "Generate Blob, Wave, Blurry Gradients, Circle Scatter, Blob Scene, Layered Waves, etc."
+},
+{
+  "productName": "Sheet+",
+  "category": "ai",
+  "image": "https://sheetplus.ai/assets/img/logo-square.png",
+  "link": "https://sheetplus.ai/",
+  "description": "AI tool for rapid and precise formula generation and explanation in Excel and Google Sheets."
 }
 ]
