@@ -2576,5 +2576,15 @@
   "link": "https://colorleap.app/home",
   "description": "Take a leap through time and see the colors of history."
 
+
+
+},
+{
+  "productName": "Haikei",
+  "category": "tools",
+  "image": "https://shorturl.at/dEFHL",
+  "link": "https://app.haikei.app/",
+  "description": "Generate Blob, Wave, Blurry Gradients, Circle Scatter, Blob Scene, Layered Waves, etc."
+
 }
 ]
