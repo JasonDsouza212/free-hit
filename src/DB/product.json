@@ -22,6 +22,13 @@
     "description": "InterviewBit prepares you not only for the interviews, but for the actual job too."
   },
   {
+    "productName": "Caffe",
+    "category": "AI",
+    "image": "https://tinyurl.com/44hsedww", 
+    "link": "https://caffe.berkeleyvision.org/",
+    "description": "An open-source deep learning framework originally developed at the Berkeley Vision and Learning Center (BVLC)."
+  },
+  {
     "productName": "Momentum",
     "category": "extensions",
     "image": "https://bit.ly/3JoG8mI",
