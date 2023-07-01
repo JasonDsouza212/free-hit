@@ -1,5 +1,12 @@
 [ 
   {
+    "productName": "Coding Ninjas",
+    "category": "coding",
+    "image": "https://bit.ly/3Nrnjk4",
+    "link": "https://bit.ly/44bKuWH",
+    "description": "Coding Ninjas is one of the best platforms to learn programming languages with Data Structures."
+  },
+  {
     "productName": "PikaShows",
     "category": "movies",
     "image": "https://tinyurl.com/37csr8my",
