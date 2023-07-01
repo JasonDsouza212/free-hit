@@ -15,6 +15,13 @@
     "description": "Scaler is an outcome-focused, ed-tech platform for techies."
   },
   {
+    "productName": "Jupyter Notebook",
+    "category": "tools",
+    "image": "https://tinyurl.com/2p97mkj9",
+    "link": "https://jupyter.org/",
+    "description": "An open-source web application that allows you to create and share documents containing live code, equations, visualizations, and narrative text."
+  },
+  {
     "productName": "InterviewBit",
     "category": "coding",
     "image": "https://bit.ly/3NH8dIt",
