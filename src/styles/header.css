@@ -106,6 +106,10 @@ nav {
   left: 0;
 }
 
+.show-sidebar {
+  left: 0;
+}
+
 #sidebar .title {
   line-height: 65px;
   text-align: center;
@@ -313,6 +317,13 @@ nav {
   border-radius: 10px;
   
 }
+
+.pages li .hoverele:hover{
+  color:var(--primary-black);
+  background-color:var(--primary-white) ;
+  border:2px dashed #222;
+}
+
 .pages li a.active {
   padding: 3px 20px;
   color: var(--primary-white);
