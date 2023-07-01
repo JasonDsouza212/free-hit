@@ -1849,30 +1849,9 @@
   "description":""
 },
 {
-  "productName":"Treehouse",
-  "category":"web",
-  "image":"https://rb.gy/bbm2n",
-  "link":"https://teamtreehouse.com/",
-  "description":"Learn to code, design, and more—all on your own time"
-},
-{
-  "productName":"Codewell",
-  "category":"web",
-  "image":"https://rb.gy/1xyou",
-  "link":"https://www.codewell.cc/challenges",
-  "description":"Learn and Practice Frontend Challenges Practically"
-},
-{
-  "productName":"Edabit",
+  "productName":"Coding Game",
   "category":"tools",
-  "image":"https://rb.gy/lxk0b",
-  "link":"https://edabit.com/",
-  "description":"Learn code in Easiest, Fastest, Better way of Any Programming"
-},
-{
-  "productName":"CodinGame",
-  "category":"tools",
-  "image":"https://rb.gy/qkdt9",
+  "image":"https://rb.gy/cdibr",
   "link":"https://www.codingame.com/start",
   "description":"The new way to improve your programming skills while having fun and getting noticed"
 }
