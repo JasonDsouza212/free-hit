@@ -1875,6 +1875,13 @@
   "image":"https://rb.gy/xetek",
   "link":"https://teamtreehouse.com/",
   "description":"Learn to code, design, and more—all on your own time"
+},
+{
+  "productName":"Resumake",
+  "category":"resume",
+  "image":"https://rb.gy/l7tuu",
+  "link":"https://resumake.io/",
+  "description":"Create Latex Type Resumes with Pre-Built Templates"
 }
 ]
 
