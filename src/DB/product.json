@@ -2572,5 +2572,12 @@
   "image": "https://shorturl.at/dEFHL",
   "link": "https://app.haikei.app/",
   "description": "Generate Blob, Wave, Blurry Gradients, Circle Scatter, Blob Scene, Layered Waves, etc."
+},
+{
+  "productName": "LibreOffice",
+  "category": "tools",
+  "image": "https://bit.ly/3NTrxlY",
+  "link": "https://www.libreoffice.org/",
+  "description": "Free and open-source office productivity suite for document management and collaboration."
 }
 ]
