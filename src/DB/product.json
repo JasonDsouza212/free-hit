@@ -29,6 +29,13 @@
     "description": "Replace new tab page with a personal dashboard to help you get focused, stay organized, and keep motivated to achieve your goals."
   },
   {
+    "productName": "H2O",
+    "category": "AI",
+    "image": "https://tinyurl.com/59bmd2wj", 
+    "link": "https://www.h2o.ai/",
+    "description": "An open-source platform that provides a fast, scalable, and distributed machine learning and predictive analytics library."
+  },
+  {
     "productName": "JSONView",
     "category": "extension",
     "image": "https://shorturl.at/uvFQ9",
