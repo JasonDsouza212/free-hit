@@ -2,9 +2,12 @@ import { NavLink, useLocation, useSearchParams } from 'react-router-dom'
 import TwitterButton from './TwitterButton'
 import { msg } from '../utils/data/message'
 import ButtonLinks from '../utils/data/categories'
+import { useState } from 'react'
 
 
 export default function Sidebar() {
+	const [showSidebar, setShowSidebar] = useState(false)
+
 	const location = useLocation()
 	const [searchParams, setSearchParams] = useSearchParams()
 	let filters = searchParams.getAll('filters').length > 0 ? searchParams.getAll('filters') : ["all"]
@@ -25,19 +28,25 @@ export default function Sidebar() {
 				} else {
 					prevParams.delete('filters')
 				}
+				handleToggle()
 			} else {
 				if (event.ctrlKey) {
 					prevParams.set('filters', [...prevParams.getAll("filters"), filter])
 				} else {
 					prevParams.set('filters', filter)
+					handleToggle()
 				}
 			}
 			return prevParams
 		})
 	}
 
+	const handleToggle = () => {
+		setShowSidebar(prevSidebar => (!prevSidebar));
+	}
+
 	return (<div className="wrapper">
-		<input type="checkbox" id="btn" hidden />
+		<input type="checkbox" id="btn" hidden checked={showSidebar} onChange={handleToggle} />
 		<label htmlFor="btn" className="menu-btn">
 			<i className="fa ri-menu-fill"></i>
 			<i className="fa ri-close-line"></i>
