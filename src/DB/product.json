@@ -2558,5 +2558,19 @@
   "image": "https://shorturl.at/dEFHL",
   "link": "https://app.haikei.app/",
   "description": "Generate Blob, Wave, Blurry Gradients, Circle Scatter, Blob Scene, Layered Waves, etc."
+},
+{
+  "productName": "Grid Garden",
+  "category": "tools",
+  "image": "https://shorturl.at/gszLX",
+  "link": "http://cssgridgarden.com/",
+  "description": "Use website to boost the knowledge of CSS Grid property."
+},
+{
+  "productName": "Learn CSS using Audio Podcast",
+  "category": "tools",
+  "image": "https://shorturl.at/mtxA2",
+  "link": "https://web.dev/learn/css/",
+  "description": "This website can boost the knowledge of CSS properties from the basics to advance. This website is a beginner friendly."
 }
 ]
