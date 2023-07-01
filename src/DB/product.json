@@ -2572,5 +2572,12 @@
   "image": "https://shorturl.at/dEFHL",
   "link": "https://app.haikei.app/",
   "description": "Generate Blob, Wave, Blurry Gradients, Circle Scatter, Blob Scene, Layered Waves, etc."
+},
+{
+  "productName": "Storybook",
+  "category": "web",
+  "image": "https://avatars.githubusercontent.com/u/22632046?s=280&v=4",
+  "link": "https://storybook.js.org/",
+  "description": "Build UIs without the grunt work"
 }
 ]
