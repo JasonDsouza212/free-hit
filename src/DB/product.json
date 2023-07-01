@@ -2276,5 +2276,40 @@
   "image": "https://bit.ly/3Nywor8",
   "link": "https://www.edx.org/",
   "description": "Free prestigious university courses. Audit for free or pay for a certificate."  
+}, 
+{
+  "productName": "Udacity",
+  "category": "courses",
+  "image": "https://bit.ly/43fzjew",
+  "link": "https://www.udacity.com",
+  "description": "Specializes in offering courses in the field of technology and computer science."  
+}, 
+{
+  "productName": "Khan Academy",
+  "category": "courses",
+  "image": "https://bit.ly/443G6Je",
+  "link": "https://www.khanacademy.org",
+  "description": "A non-profit organization that offers free educational resources and courses for learners of all ages."  
+}, 
+{
+  "productName": "Skillshare",
+  "category": "courses",
+  "image": "https://bit.ly/3NxRKVK",
+  "link": "https://www.skillshare.com",
+  "description": "A platform that primarily focuses on creative skills and offers a wide range of courses in design, photography, writing, and other artistic disciplines."  
+}, 
+{
+  "productName": "LinkedIn Learning",
+  "category": "courses",
+  "image": "https://bit.ly/3NWgMzg",
+  "link": "https://www.linkedin.com/learning/",
+  "description": "Provides a vast library of courses focused on professional development and career advancement."  
+}, 
+{
+  "productName": "Alison",
+  "category": "courses",
+  "image": "https://bit.ly/46q9awl",
+  "link": "https://alison.com/",
+  "description": "A free online learning platform that offers courses in various subjects, including languages, business, health, and more."  
 }
 ]
