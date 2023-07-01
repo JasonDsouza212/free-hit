@@ -67,7 +67,7 @@
   color:white;
 }
 
-.all img.dark-mode{
+.all .contributor-image.dark-mode{
   border:5px solid white;
   border-radius: 50px;
 }
