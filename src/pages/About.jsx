@@ -15,6 +15,7 @@ const About = () => {
       <Header />
       <section className={`about ${darkMode ? 'dark-mode' : ''}`}>
         <div className="ab1">
+          <div className="ab-content">
           <p className={`text ${darkMode ? 'dark-mode' : ''}`}>
             <strong className="bold">Free-Hit</strong> is an application that is
             used to search for <b>free tools</b> that are both free and helpful
@@ -28,6 +29,7 @@ const About = () => {
               </a>
             </button>
           </p>
+          </div>
           <img src={banner1} alt="banner" className={`image ${darkMode ? 'dark-mode' : ''}`}/>
         </div>
         <div className="ab2">
