@@ -1,8 +1,10 @@
 import React, { useState, useEffect } from 'react'
 import Header from '../components/Navbar'
 import "../styles/Community.css"
+import Loader from '../components/Loader'
 
 function Community() {
+  window.scroll(0, 0)
   const [contributors, setContributors] = useState([])
   const [initialLoading, setInitialLoading] = useState(true)
 
@@ -26,11 +28,10 @@ function Community() {
 
   return (
     <div>
-      {' '}
       <Header />
       <h2 className="contributor-heading">Meet Our Contributors</h2>
       {initialLoading ? (
-        <div className="loading">Loading...</div>
+        <Loader />
       ) : (
         <ul className="contributors-list">
           {contributors.map(
