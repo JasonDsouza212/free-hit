@@ -15,6 +15,13 @@
     "description": "Scaler is an outcome-focused, ed-tech platform for techies."
   },
   {
+    "productName": "fast.ai",
+    "category": "AI",
+    "image": "https://tinyurl.com/3vmwtzxe",
+    "link": "https://www.fast.ai/",
+    "description": "An open-source deep learning library built on top of PyTorch that simplifies the process of training and deploying state-of-the-art deep learning models."
+  },
+  {
     "productName": "InterviewBit",
     "category": "coding",
     "image": "https://bit.ly/3NH8dIt",
