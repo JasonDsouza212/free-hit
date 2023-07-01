@@ -2572,5 +2572,12 @@
   "image": "https://shorturl.at/dEFHL",
   "link": "https://app.haikei.app/",
   "description": "Generate Blob, Wave, Blurry Gradients, Circle Scatter, Blob Scene, Layered Waves, etc."
+},
+{
+  "productName": "Stable Diffusion",
+  "category": "ai",
+  "image": "https://stablediffusionweb.com/logo.png",
+  "link": "https://stablediffusionweb.com/",
+  "description": "Create beautiful art using stable diffusion ONLINE for free."
 }
 ]
