@@ -2572,5 +2572,12 @@
   "image": "https://shorturl.at/dEFHL",
   "link": "https://app.haikei.app/",
   "description": "Generate Blob, Wave, Blurry Gradients, Circle Scatter, Blob Scene, Layered Waves, etc."
+},
+{
+  "productName": "Nmap",
+  "category": "tools",
+  "image": "https://bit.ly/3NUajUv",
+  "link": "https://nmap.org/",
+  "description": "Powerful network scanning tool for exploration and security auditing."
 }
 ]
