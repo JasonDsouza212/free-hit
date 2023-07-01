@@ -43,6 +43,13 @@
     "description": "Netlify provides free hosting, deploying, and many more service to the user so the user doesn't need to worry about the hosting."
   },
   {
+    "productName": "Keras",
+    "category": "AI",
+    "image": "https://bit.ly/3NxDA6Z", 
+    "link": "https://keras.io/",
+    "description": "An open-source neural network library written in Python that provides a high-level API for building and training deep learning models."
+  },
+  {
     "productName": "MDN Web Docs",
     "category": "tools",
     "image": "https://bit.ly/3PuJPuO ",
