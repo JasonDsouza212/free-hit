@@ -28,6 +28,11 @@ body {
   margin-top: 20px;
 }
 
+.top-pagination {
+  margin-right: auto;
+  margin-left: 35px;
+}
+
 .card_view svg {
   cursor: pointer;
 }
