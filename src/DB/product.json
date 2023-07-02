@@ -2259,6 +2259,13 @@
   "description": "A free collection of curated, high-quality resources which specifically focus on competitive programming."
 },
 {
+  "productName": "doubtclear.ai",
+  "category": "ai",
+  "image": "https://bit.ly/44t5SXn",
+  "link": "https://www.doubtclear.ai/",
+  "description": "AI Powered Homework Assistance for All!"
+},
+{
   "productName": "GSAP-GreenStock",
   "category": "Useful Tool",
   "image": "https://bit.ly/3NreI0H",
@@ -2551,5 +2558,19 @@
   "image": "https://shorturl.at/bvyG8",
   "link": "https://colorleap.app/home",
   "description": "Take a leap through time and see the colors of history."
+},
+{
+  "productName": "rev",
+  "category": "tools",
+  "image": "https://bit.ly/3pn0RAJ",
+  "link": "https://www.rev.com/",
+  "description": "Freelance speech-to-text transcription service for professionals."
+},
+{
+  "productName": "Haikei",
+  "category": "tools",
+  "image": "https://shorturl.at/dEFHL",
+  "link": "https://app.haikei.app/",
+  "description": "Generate Blob, Wave, Blurry Gradients, Circle Scatter, Blob Scene, Layered Waves, etc."
 }
 ]
