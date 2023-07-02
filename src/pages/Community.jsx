@@ -1,4 +1,3 @@
-//pages/community.jsx
 import React, { useState, useEffect } from 'react'
 import Header from '../components/Navbar'
 import '../styles/Community.css'

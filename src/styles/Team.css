@@ -43,7 +43,9 @@ body {
   font-size: 3rem;
   text-align: center;
   text-transform: uppercase;
+  font-weight: bold;
 }
+
 .box {
   padding: 20px;
   background-color: #f1f1ef;
