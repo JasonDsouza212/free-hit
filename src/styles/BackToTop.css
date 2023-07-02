@@ -23,7 +23,23 @@
   cursor: pointer;
   color: white;
   background-color: #1f1f1f;
+  animation:animate 4s alternate infinite;
 }
+
+@keyframes animate{
+  0%,100%{
+    transform: translateY(0px);
+  }
+  50%{
+    transform: translateY(10px);
+  }
+}
+
+.backToTopButton:hover{
+  opacity:90%;
+  box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+}
+
 .backToTopButton i {
   font-size: 24px;
 }
