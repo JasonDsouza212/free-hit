@@ -1,4 +1,5 @@
 function result(productName,category,image,link,description){
+    //result element to add html form of the website
     let ele = document.createElement('a')
     ele.href = link
     ele.innerHTML = `
@@ -22,11 +23,10 @@ function result(productName,category,image,link,description){
     return ele
 }
 
-function handleSubmit(e){
-}
 
 const fetchWebsites = (results)=>{
-fetch('DB/product.json')
+ //the websites are taken from product.json
+    fetch('DB/product.json')
   .then(response => response.json())
   .then(data => {
     websites = data
@@ -41,6 +41,7 @@ fetch('DB/product.json')
 }
 
 const handleChange = (e)=>{
+     //function for input change handling
     const ele = e.target.value
     filtered_websites = websites.filter((i)=>(
         i.productName.includes(ele)||i.category.includes(ele)    
@@ -54,6 +55,7 @@ const handleChange = (e)=>{
 
 
 document.addEventListener('DOMContentLoaded',()=>{
+    //to load content only after dom loading
     const inputBar = document.querySelector('.input')
     const form = document.querySelector('form')
     const results = document.querySelector('.results')
@@ -61,6 +63,7 @@ document.addEventListener('DOMContentLoaded',()=>{
     console.log(results,inputBar)
     form.addEventListener('submit',(e)=>e.preventDefault())
     inputBar.addEventListener('change',handleChange)
+    //reason to pass results is the function is loaded before the dom mounting 
     fetchWebsites(results)
 })
 
