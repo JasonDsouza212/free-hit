@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import Header from '../components/Navbar'
-import "../styles/Community.css"
+import '../styles/Community.css'
 
 function Community() {
   const [contributors, setContributors] = useState([])
@@ -28,7 +28,7 @@ function Community() {
     <div>
       {' '}
       <Header />
-      <h2 className="contributor-heading">Meet Our Contributors</h2>
+      <h1 className="contributor-heading">Meet Our Contributors</h1>
       {initialLoading ? (
         <div className="loading">Loading...</div>
       ) : (
@@ -38,19 +38,26 @@ function Community() {
               contributor &&
               contributor.type !== 'Bot' && ( //to remove bot from the contributors list
                 <li className="contributor" key={contributor.id}>
-                  <a
-                    className="contributor-anchor"
-                    href={contributor.html_url}
-                    target="_blank"
-                    title={`${contributor.login}`}
-                  >
-                    <img
-                      alt={contributor.login}
-                      className="contributor-image"
-                      loading="lazy"
-                      src={contributor.avatar_url}
-                    />
-                  </a>
+                  <div className="contributor-card">
+                    <a
+                      rel="noopener noreferrer"
+                      className="contributor-anchor"
+                      href={contributor.html_url}
+                      target="_blank"
+                      title={`${contributor.login}`}
+                    >
+                      <img
+                        alt={contributor.login}
+                        className="contributor-image"
+                        loading="lazy"
+                        src={contributor.avatar_url}
+                      />
+                    </a>
+                  </div>
+                  <p className="username">{contributor.login}</p>
+                  <p className="contributions">
+                    {contributor.contributions} commits
+                  </p>
                 </li>
               )
           )}

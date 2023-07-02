@@ -1,14 +1,15 @@
+/*styles/header.css*/
 :root {
   --primary-white: #f1f1ef;
   --primary-black: #373530;
 }
 
-*{
-   max-width: 100%;
-    margin:0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Space Grotesk', sans-serif;
+* {
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Space Grotesk', sans-serif;
 }
 
 body {
@@ -38,6 +39,7 @@ nav {
 @media screen and (max-width: 360px) {
   .nav-container {
     float: left;
+    display: flex;
   }
 }
 
@@ -106,6 +108,10 @@ nav {
   left: 0;
 }
 
+.show-sidebar {
+  left: 0;
+}
+
 #sidebar .title {
   line-height: 65px;
   text-align: center;
@@ -115,7 +121,6 @@ nav {
   color: #f2f2f2;
   border-bottom: 1px solid #222;
 }
-
 
 .pages-sidebar {
   list-style: none;
@@ -152,12 +157,11 @@ nav {
   /* height: 100%; */
   list-style: none;
 }
-.list-item{
+.list-item {
   color: #ffffff;
   font-size: 23px;
-  font-weight: 500; 
+  font-weight: 500;
 }
-
 
 #sidebar .list-items li button {
   line-height: 50px;
@@ -180,7 +184,7 @@ nav {
   border-bottom: 1px solid transparent;
   box-shadow: 0 0px 10px 3px #222;
 }
-#sidebar .list-items li:first-child{
+#sidebar .list-items li:first-child {
   border-top: none;
 }
 #sidebar .list-items li button {
@@ -304,20 +308,20 @@ nav {
   right: 60px;
 }
 
-.pages li{
-    display: inline-block;
-    font-style: normal;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 25px;
-    color: var(--primary-black);
+.pages li {
+  display: inline-block;
+  font-style: normal;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 25px;
+  color: var(--primary-black);
 }
 
-.pages li a  {
+.pages li a {
   margin: 3px;
-    text-decoration: none;
-    padding: 0px 20px;
-    color: var(--primary-black); 
-    transition: all 0.3s ease-in-out ;
+  text-decoration: none;
+  padding: 0px 20px;
+  color: var(--primary-black);
+  transition: all 0.3s ease-in-out;
 }
 
 .pages li a:hover {
@@ -325,14 +329,12 @@ nav {
   color: var(--primary-white);
   background-color: var(--primary-black);
   border-radius: 10px;
-  
 }
 .pages li a.active {
   padding: 3px 20px;
   color: var(--primary-white);
   background-color: var(--primary-black);
   border-radius: 10px;
-  
 }
 /* nav pages end  */
 
@@ -346,7 +348,7 @@ nav {
 }
 
 .free-logo {
-  top: 6px;
+  top: 1px;
   width: 45px;
   height: 45px;
   margin-right: 10px;
@@ -396,6 +398,6 @@ nav {
 .diplay-block {
   display: block;
 }
-.about-list{
+.about-list {
   padding-left: 12px;
 }
