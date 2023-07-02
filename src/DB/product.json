@@ -2572,5 +2572,12 @@
   "image": "https://shorturl.at/dEFHL",
   "link": "https://app.haikei.app/",
   "description": "Generate Blob, Wave, Blurry Gradients, Circle Scatter, Blob Scene, Layered Waves, etc."
+},
+{
+  "productName": "react-icons",
+  "category": "tools",
+  "image": "http://bit.ly/3rdCqGs",
+  "link": "http://bit.ly/3XzbuNg",
+  "description": "Include popular icons in react projects easily with react-icons, utilizes ES6 imports "
 }
 ]
