@@ -1882,6 +1882,13 @@
   "image":"",
   "link":"https://web.dev/",
   "description":"Learning Front End Techs like HTML and CSS Effectively"
+},
+{
+  "productName":"scrimba",
+  "category":"web",
+  "image":"https://rb.gy/s0ok0",
+  "link":"https://scrimba.com/",
+  "description":"Our Frontend Career Path helps motivated studentsbecome hireable developers for a fraction of the cost"
 }
 ]
 
