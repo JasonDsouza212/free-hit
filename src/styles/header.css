@@ -357,26 +357,40 @@ nav {
 /* ================================  Free-Hit logo*/
 
 .Free-Hit {
-  right: 220px;
   font-weight: lighters;
-  display: flex;
-  align-items: center;
+  height: 100%;
+  margin-top: 4px;
+}
+
+.nav-link{
+  margin: 0;
+  padding: 0;
+  height: 100%;
 }
 
 .free-logo {
-  margin-top: 8px;
+  /* margin-top: 8px; */
+  
   width: 220px;
-  height: 55px;
+  height: 95%;
   margin-right: 10px;
 }
-
-.Free-Hit  {
-  text-decoration: none;
-  color: var(--primary-black);
-  font-size: 40px;
+.mobile-logo {
+  display: none;
 }
 
-/* dark-mode styles */
+@media screen and (max-width: 520px) {
+    .free-logo{
+      display: none;
+    }
+    .mobile-logo{
+      margin-top: 13px;
+      display: flex;
+    }
+    .Free-hit{
+      size: 100px
+    }
+}
 
 .free-logo.dark-mode{
   /* :white; */

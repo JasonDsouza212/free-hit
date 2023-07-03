@@ -8,6 +8,9 @@ import "../styles/header.css"
 import Sidebar from './Sidebar'
 import { ToolContext } from '../App';
 import { useContext } from 'react';
+import mobilelogo from '../assets/light-mobilelogo.png'
+import mobilelogodark from '../assets/dark-mobilelogo.png'
+
 
 const Header = ({ filteredSuggestions }) => {
   const [searchParams, setSearchParams] = useSearchParams()
@@ -51,10 +54,17 @@ const Header = ({ filteredSuggestions }) => {
       <div className={`nav-container ${darkMode ? 'dark-mode' : ''}`} ref={sideNavRef}>
         <Sidebar />
         <h1 className={`Free-Hit ${darkMode ? 'dark-mode' : ''}`}>
-          <NavLink to="/about">
+          <NavLink to="/about" className='nav-link'>
           <img
             className={`free-logo ${darkMode ? 'dark-mode' : ''}`}
             src={darkMode ? freehitlogodark : freehitlogo}
+            alt="logo"
+          />
+          </NavLink>
+          <NavLink to="/about" className='nav-link'>
+          <img
+            className={`mobile-logo ${darkMode ? 'dark-mode' : ''}`}
+            src={darkMode ? mobilelogodark : mobilelogo}
             alt="logo"
           />
           </NavLink>

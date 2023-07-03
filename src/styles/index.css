@@ -272,7 +272,8 @@ body {
 @media screen and (max-width: 700px) {
   .Free-Hit a:first-child {
     position: relative;
-    top: 12px;
+    top: 30%;
+    
   }
 
   .free-word {
