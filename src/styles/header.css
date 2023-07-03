@@ -364,13 +364,13 @@ nav {
 }
 
 .free-logo {
-  top: 6px;
-  width: 45px;
-  height: 45px;
+  margin-top: 8px;
+  width: 220px;
+  height: 55px;
   margin-right: 10px;
 }
 
-.Free-Hit .free-word {
+.Free-Hit  {
   text-decoration: none;
   color: var(--primary-black);
   font-size: 40px;
@@ -380,7 +380,6 @@ nav {
 
 .free-logo.dark-mode{
   /* :white; */
-  border: 2px solid white;
 }
 
 /* ================================  Free-Hit logo end*/
