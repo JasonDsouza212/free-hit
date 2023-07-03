@@ -2580,5 +2580,12 @@
   "image": "https://shorturl.at/dEFHL",
   "link": "https://app.haikei.app/",
   "description": "Generate Blob, Wave, Blurry Gradients, Circle Scatter, Blob Scene, Layered Waves, etc."
+},
+{
+  "productName": "CodeGpt",
+  "category": "ai",
+  "image": "https://tinyurl.com/codegpt",
+  "link": "https://codegpt.co/",
+  "description": "CodeGPT AI-powered coding assistant for efficient programming workflows."
 }
 ]
