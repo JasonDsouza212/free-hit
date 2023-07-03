@@ -1844,6 +1844,14 @@
     "description": "freeCodeCamp is a non-profit organization providing free online coding courses and a supportive community."
 },
 {
+  "productName": "Sejda",
+  "category": "tools",
+  "image": "https://www.fullsoftzone.com/wp-content/uploads/2020/03/Sejda-PDF-Desktop.png",
+  "link": "https://www.sejda.com/",
+  "description": "Sejda helps with your PDF tasks. Quick and simple online service, no installation required! Split, merge or convert PDF to images, alternate mix or split scans and many other."
+},
+
+{
   "productName": "Ant Design",
   "category": "tools",
   "image": "https://avatars0.githubusercontent.com/u/12101536?s=280&v=4",
