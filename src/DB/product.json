@@ -2638,6 +2638,13 @@
   "description": "CodeGPT AI-powered coding assistant for efficient programming workflows."
 },
 {
+  "productName": "Scrimba",
+  "category": "Learning",
+  "image": "https://scrimba.com/static/art/scrimba-og-image.png",
+  "link": "https://scrimba.com/,
+  "description": "Scrimba is an interactive code-learning platform."
+},
+{
   "productName": "Honey",
   "category": "extensions",
   "image": "https://bit.ly/435V6VH",
