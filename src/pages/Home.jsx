@@ -60,6 +60,9 @@ const Card = () => {
   // darkmode function
   const toggleDarkMode = () => {
     setDarkMode(!darkMode);
+
+    // Changing the nav bar theme during toggle
+    document.querySelector('meta[name="theme-color"]').setAttribute('content', darkMode ? '#373530' : '#f1f1ef');
   };
 
   return (
