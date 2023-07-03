@@ -1819,6 +1819,13 @@
   "image":"https://rb.gy/qjdy7",
   "link":"https://www.theodinproject.com/",
   "description":"Your Career in Web Development Starts Here"
+},
+{
+  "productName":"LearnersBucket",
+  "category": "web",
+  "image": "https://rb.gy/x3mi7",
+  "link": "https://learnersbucket.com/",
+  "description":"Learn Front End Development Technologies Deeper"
 }
 ]
 
