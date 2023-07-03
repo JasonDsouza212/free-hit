@@ -3,7 +3,7 @@ body{
     background-color: rgba(241, 241, 239);
     width: 350px;
     border: 2px solid black;
-    padding: .5rem 1rem;
+    padding: .25rem 1rem;
     height: 400px;
     box-sizing: border-box;
     font-family: 'Space Grotesk', sans-serif;
@@ -17,6 +17,7 @@ a{
 #logo{
     width: 40px;
     height: 40px;
+    border-radius: 10px;
 }
 header{
     display: flex;
@@ -52,7 +53,8 @@ header{
 }
 .name{
     font-weight: bold;
-    font-size: 30px;
+    font-size: 40px;
+    text-transform: uppercase;
     display: flex;
     align-items: center;
     flex-direction: row-reverse;
@@ -114,9 +116,8 @@ img{
     flex-direction: column;
     gap: 25px;
     padding: 1rem;
-    overflow: hidden;
     overflow-y: scroll;
-    height: 250px;
+    height: 230px;
     margin-bottom: 10px;
     border: 2px dashed rgb(55, 53, 48);
     border-right: 0;
@@ -140,6 +141,10 @@ img{
     padding: 4px;
     overflow: hidden;
     flex-shrink: 0;
+}
+
+.websiteLogo img{
+    object-fit: contain;
 }
 
 .websiteName{
