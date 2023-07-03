@@ -1933,7 +1933,8 @@
   "image": "https://rb.gy/7551l",
   "link": "https://fireflies.ai/",
   "description": "Helps your team record, transcribe, search, and analyze voice conversations."
-
+},
+  {
   "image": "https://tinyurl.com/5n936eaz",
   "link": "https://www.writefull.com/#products",
   "description": "Assistant designed to help English writing skills"
@@ -2100,6 +2101,7 @@
   "link":"https://resumake.io/",
   "description":"Create Latex Type Resumes with Pre-Built Templates"
 },
+  {
   "category": "web",
   "image": "https://rb.gy/xdxd7",
   "link": "https://www.programiz.com/",
@@ -2309,7 +2311,8 @@
   "image":"https://rb.gy/6n2tu",
   "link":"https://www.freecodecamp.org/",
   "description":"Learn to code — for free.Build projects.Earn certifications."
-
+},
+  {
   "productName": "Twitter API",
   "category": "tools",
   "image": "https://bit.ly/3pkO2XD",
