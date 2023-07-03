@@ -2,8 +2,11 @@ import React, { useState, useEffect } from 'react'
 import Header from '../components/Navbar'
 import "../styles/Community.css"
 import Loader from '../components/Loader'
+import { useContext } from 'react';
+import { ToolContext } from '../App';
 
 function Community() {
+  const { darkMode } = useContext(ToolContext);
   window.scroll(0, 0)
   const [contributors, setContributors] = useState([])
   const [initialLoading, setInitialLoading] = useState(true)
@@ -27,13 +30,13 @@ function Community() {
   }
 
   return (
-    <div>
+    <div className={`all ${darkMode ? 'dark-mode' : ''}`}>
       <Header />
-      <h2 className="contributor-heading">Meet Our Contributors</h2>
+      <h2 className={`contributor-heading ${darkMode ? 'dark-mode' : ''}`}>Meet Our Contributors</h2>
       {initialLoading ? (
         <Loader />
       ) : (
-        <ul className="contributors-list">
+        <ul className={`contributors-list ${darkMode ? 'dark-mode' : ''}`}>
           {contributors.map(
             (contributor) =>
               contributor &&
@@ -47,7 +50,7 @@ function Community() {
                   >
                     <img
                       alt={contributor.login}
-                      className="contributor-image"
+                      className={`contributor-image ${darkMode ? 'dark-mode' : ''}`}
                       loading="lazy"
                       src={contributor.avatar_url}
                     />

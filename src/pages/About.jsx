@@ -3,15 +3,20 @@ import banner2 from '../assets/business-presentation-1.webp'
 import Team from '../components/Team'
 import Header from '../components/Navbar'
 import "../styles/About.css"
+import { useContext } from 'react';
+import { ToolContext } from '../App';
+
 
 const About = () => {
+  const { darkMode } = useContext(ToolContext);
   return (
-    <div className="about_container">
+    <div className={`about_container ${darkMode ? 'dark-mode' : ''}`}>
       {/* <Aboutnav /> */}
       <Header />
-      <section className="about">
+      <section className={`about ${darkMode ? 'dark-mode' : ''}`}>
         <div className="ab1">
-          <p>
+          <div className="ab-content">
+          <p className={`text ${darkMode ? 'dark-mode' : ''}`}>
             <strong className="bold">Free-Hit</strong> is an application that is
             used to search for <b>free tools</b> that are both free and helpful
             for our needs. It is built by the amazing <b>open-source</b>{' '}
@@ -24,11 +29,12 @@ const About = () => {
               </a>
             </button>
           </p>
-          <img src={banner1} alt="banner" />
+          </div>
+          <img src={banner1} alt="banner" className={`image ${darkMode ? 'dark-mode' : ''}`}/>
         </div>
         <div className="ab2">
-          <img src={banner2} alt="banner" />
-          <p>
+          <img src={banner2} alt="banner" className={`image ${darkMode ? 'dark-mode' : ''}`}/>
+          <p className={`text ${darkMode ? 'dark-mode' : ''}`}>
             Great things are never created in isolation. Thanks to our amazing{' '}
             <b>Contributors</b>, we've brought this product to life. And with
             your help, we can continue to make it even better. If you're a{' '}

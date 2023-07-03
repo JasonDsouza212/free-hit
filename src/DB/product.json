@@ -169,7 +169,7 @@
     "description": "Record a video from the camera or capture it from the screen"
   },
   {
-    "productName": "Awesome Screenshot",
+    "productName": "Awesome Screen Capture And Recorder",
     "category": "tools",
     "image": "https://avatars.slack-edge.com/2019-03-29/593781862471_95d3bb4cccb9b58821be_512.png",
     "link": "https://www.awesomescreenshot.com/",
@@ -1576,7 +1576,7 @@
     "link": "https://regexr.com/"
   },
   {
-    "productName": "Unblast",
+    "productName": "Unblast UI  Templates",
     "category": "UI",
     "image": "https://bit.ly/3qlij8V",
     "link": "https://bit.ly/3C51MZ3",
@@ -1597,21 +1597,21 @@
     "description": "UI Design Mockups Available 2d & 3D"
   },
   {
-    "productName": "Muzli Collections",
+    "productName": "UI : Muzli Collections",
     "category": "UI",
     "image": "https://bit.ly/42h8JRq",
     "link": "https://bit.ly/3IOltZ2",
     "description": "Profile Page screen design inspiration"
   },
   {
-    "productName": "Dashboard UI Kit",
+    "productName": "Dashboard UI Kit 3.0",
     "category": "UI",
     "image": "https://bit.ly/3N2secf",
     "link": "https://bit.ly/3N4lGK9",
     "description": "The first and largest design kit for web apps and dashboards developed in React."
   },
   {
-    "productName": "Freebies UI",
+    "productName": "UI Kit : figma, XD, etc",
     "category": "UI",
     "image": "https://bit.ly/45COMri",
     "link": "https://bit.ly/45BOgd8",
@@ -1625,7 +1625,7 @@
     "description": "3D icons & 3D characters in high 4K resolution"
   },
   {
-    "productName": "6.5 M+ Design Assets",
+    "productName": "6.5 M+ Designs",
     "category": "UI",
     "image": "https://bit.ly/3C47pH3",
     "link": "https://bit.ly/3P5Hman",
@@ -1850,6 +1850,14 @@
     "link": "https://www.freecodecamp.org/",
     "description": "freeCodeCamp is a non-profit organization providing free online coding courses and a supportive community."
 },
+{
+  "productName": "Sejda",
+  "category": "tools",
+  "image": "https://www.fullsoftzone.com/wp-content/uploads/2020/03/Sejda-PDF-Desktop.png",
+  "link": "https://www.sejda.com/",
+  "description": "Sejda helps with your PDF tasks. Quick and simple online service, no installation required! Split, merge or convert PDF to images, alternate mix or split scans and many other."
+},
+
 {
   "productName": "Ant Design",
   "category": "tools",
@@ -2266,6 +2274,13 @@
   "description": "A free collection of curated, high-quality resources which specifically focus on competitive programming."
 },
 {
+  "productName": "doubtclear.ai",
+  "category": "ai",
+  "image": "https://bit.ly/44t5SXn",
+  "link": "https://www.doubtclear.ai/",
+  "description": "AI Powered Homework Assistance for All!"
+},
+{
   "productName": "GSAP-GreenStock",
   "category": "Useful Tool",
   "image": "https://bit.ly/3NreI0H",
@@ -2558,5 +2573,33 @@
   "image": "https://shorturl.at/bvyG8",
   "link": "https://colorleap.app/home",
   "description": "Take a leap through time and see the colors of history."
+},
+{
+  "productName": "rev",
+  "category": "tools",
+  "image": "https://bit.ly/3pn0RAJ",
+  "link": "https://www.rev.com/",
+  "description": "Freelance speech-to-text transcription service for professionals."
+},
+{
+  "productName": "Haikei",
+  "category": "tools",
+  "image": "https://shorturl.at/dEFHL",
+  "link": "https://app.haikei.app/",
+  "description": "Generate Blob, Wave, Blurry Gradients, Circle Scatter, Blob Scene, Layered Waves, etc."
+},
+{
+  "productName": "CodeGpt",
+  "category": "ai",
+  "image": "https://tinyurl.com/codegpt",
+  "link": "https://codegpt.co/",
+  "description": "CodeGPT AI-powered coding assistant for efficient programming workflows."
+},
+{
+  "productName": "Honey",
+  "category": "extensions",
+  "image": "https://bit.ly/435V6VH",
+  "link": "https://www.joinhoney.com/",
+  "description": "Save time and money while shopping online with automatic coupon searches and price comparisons."
 }
 ]
