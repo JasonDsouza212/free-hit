@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
 body{
     background-color: rgba(241, 241, 239);
-    width: 275px;
+    width: 350px;
     border: 2px solid black;
     padding: .5rem 1rem;
-    height: 350px;
+    height: 400px;
     box-sizing: border-box;
     font-family: 'Space Grotesk', sans-serif;
     text-decoration: none;
@@ -23,6 +23,29 @@ header{
     width: 100%;
     align-items: center;
     justify-content: space-between;
+    padding: 5px 0;
+}
+#main-link{
+    position: relative;
+}
+.tool-tip{
+    position: absolute;
+    background-color: rgb(55, 53, 48);
+    color: rgba(241, 241, 239);
+    font-family: 'Space Grotesk', sans-serif;
+    text-align: center;
+    font-size: 11px;
+    width: 100px;
+    border-radius: 2px;
+    padding: 5px;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%) translateY(-70%);
+    opacity: 0;
+    transition: 0.3s ease-in;
+}
+#main-link:hover .tool-tip{
+    opacity: 1;
 }
 .button-wrapper{
     display: flex;
@@ -60,9 +83,14 @@ img{
 .form{
     position: relative;
     width: 250px;
+    margin: auto;
+    margin-bottom: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.info-heading{
+    text-align: center;
 }
 .input{
     width: 100%;
@@ -84,12 +112,14 @@ img{
 .results{
     display: flex;
     flex-direction: column;
-    gap: 10px;
-    padding: 10px 0;
+    gap: 25px;
+    padding: 1rem;
     overflow: hidden;
     overflow-y: scroll;
-    height: 225px;
+    height: 250px;
     margin-bottom: 10px;
+    border: 2px dashed rgb(55, 53, 48);
+    border-right: 0;
 }
 
 .result{
@@ -97,6 +127,9 @@ img{
     flex-direction: column;
     position: relative;
     width: 100%;
+    transform: 0.3s ease-in;
+    background-color: transparent;
+    border-radius: 10px;
 }
 
 .websiteLogo{
@@ -110,11 +143,10 @@ img{
 }
 
 .websiteName{
-    font-size: 18px;
     text-decoration: none;
+    font-size: medium;
     color: black;
 }
-
 .result:hover .websiteLogo{
     background-color: rgb(55, 53, 48);
 }
@@ -122,35 +154,66 @@ img{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border: 2px solid rgba(241, 241, 239);
+    border: 1px solid rgb(55, 53, 48);
+    box-shadow: rgb(55, 53, 48) 8px 8px 2px 0px;
     transition: 0.3s ease-in-out;
     width: 100%;
     flex-shrink: 0;
-    border-radius: 40px;
+    border-radius: inherit;
+}
+.header-side-icon{
+    padding: 1rem;
+    transition: 0.3s ease-in;
+}
+.result.expand .header-side-icon{
+    transform: rotateZ(180deg);
 }
 .result-body{
-    height: 0px;
     overflow-y: scroll;
-    transition: 0.3 ease-in;
-    transition-property: height;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: translateY(10px);
+    padding: 0 5px 0 5px;
+    height: 0px;
+    background-color: rgb(55, 53, 48);
+    transition: height 0.3s ease-in;
     width: 100%;
     color: rgba(241, 241, 239);
-    border-radius: 20px;
+    border-radius: 5px;
 }
-.result:hover .result-header{
-    border: 2px dashed rgb(55, 53, 48);
+.result:hover .result-header,.result:focus .result-header{
+    border: 1px dashed rgb(55, 53, 48);
+    cursor: pointer;
 }
-.result:hover .result-body{
-    height: fit-content;
-    max-height: 100px;
+.result.expand .result-body{
+    overflow-y: scroll;
+    justify-content: flex-start;
+    height: 70px;
     background-color:rgb(55, 53, 48);
 }
 .result-info{
     margin: auto;
     flex-grow: 0;
 }
-.result:hover .description{
-    height: 40px;
+.description{
+    max-height: 80px;
+    margin: 0;
+    cursor: default;
+}
+.side-link{
+    color: rgba(241, 241, 239);
+    background-color: transparent;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: .5rem;
+    border-radius: 5px;
+    padding: 2px 4px;
+    transition: 0.3s;
+    border: 2px solid rgba(241, 241, 239);
+}
+.side-link:hover{
+    transform:scale(1.1);
 }
 .tags{
     display: flex;
@@ -163,9 +226,7 @@ img{
     padding: 2px 5px;
     color: rgba(241, 241, 239);
     border-radius: 10px;
-    width: 50px;
     text-align: center;
-    overflow: hidden;
 }
 .description{
     width: 100%;
@@ -180,4 +241,13 @@ div::-webkit-scrollbar{
 div::-webkit-scrollbar-thumb{
     background-color: rgba(241, 241, 239);
     border: 2px solid rgb(55, 53, 48);
+}
+
+@keyframes heightIncrease {
+    0%{
+        height: 0;
+    }
+    100%{
+        height: auto;
+    }
 }
