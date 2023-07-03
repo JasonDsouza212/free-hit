@@ -1833,6 +1833,13 @@
   "image":"https://rb.gy/hfqcr",
   "link":"https://react.dev/",
   "description":"Official Website of React.js and The library for web and native user interfaces"
+},
+{
+  "productName":"BFE.dev",
+  "category":"web",
+  "image":"https://rb.gy/6bw6a",
+  "link":"https://bigfrontend.dev/",
+  "description":"BFE.dev is the platform to practice your Front-End development skills"
 }
 ]
 
