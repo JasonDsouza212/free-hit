@@ -1875,6 +1875,13 @@
   "image":"https://rb.gy/xbnap",
   "link":"https://developer.mozilla.org/en-US/",
   "description":"High Rated and Most Demandful Website for Web Programmers"
+},
+{
+  "productName":"web.dev",
+  "category":"web",
+  "image":"",
+  "link":"https://web.dev/",
+  "description":"Learning Front End Techs like HTML and CSS Effectively"
 }
 ]
 
