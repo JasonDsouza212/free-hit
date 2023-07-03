@@ -6,7 +6,6 @@
     "link": "https://www.pikashows.download/",
     "description": "Download this application for PC and Mobile to stream all types of TV Shows and Movies."
   },
-
   {
     "productName": "Scaler",
     "category": "coding",
@@ -1906,7 +1905,7 @@
     "category": "Online Code Editor",
     "image": "bit.ly/3XasObi",
     "link": "https://replit.com/",
-    "description": "An online IDE that allows users to create,run and share code in a web browser"
+    "description": "An online IDE that allows users to create, run and share code in a web browser"
   },
   {
     "productName": "devChallenges.io",
@@ -2081,7 +2080,7 @@
   "category": "ai",
   "image": "https://tinyurl.com/5n936eaz",
   "link": "https://www.writefull.com/#products",
-  "description": "assistant designed to help English writing skills"
+  "description": "Assistant designed to help English writing skills"
 },
 {
   "productName": "Chakra UI",
@@ -2095,7 +2094,7 @@
   "category": "web",
   "image": "https://www.frontendmentor.io/",
   "link": "https://www.frontendmentor.io/",
-  "description": "A platform providing challenges for frontend developers to sharp their skills."
+  "description": "A platform providing challenges for frontend developers to sharpen their skills."
 },
 {
   "productName": "Class Central",
@@ -2109,7 +2108,7 @@
   "category": "Useful Tools",
   "image": "https://bit.ly/46hqdjP",
   "link": "https://books.google.com/talktobooks/",
-  "description": "Users could ask questions, phrases, and the AI would scan through of books to find relevant passages and provide answers."
+  "description": "Users could ask questions and phrases, and the AI would scan through books to find relevant passages and provide answers."
 },
 {
   "productName": "Exercism",
@@ -2130,7 +2129,7 @@
   "category": "tools",
   "image": "https://bit.ly/4485Unq",
   "link": "https://spinbot.com/",
-  "description": "Spinbot a text-spinning tool that generates alternative content."
+  "description": "Spinbot is a text-spinning tool that generates alternative content."
 },
 {
   "productName": "Free Icons",
@@ -2180,7 +2179,7 @@
   "category": "ai",
   "image": "https://bit.ly/42TQnqc",
   "link": "https://www.poised.com/",
-  "description": "poised is an AI powered communication coach."
+  "description": "Poised is an AI-powered communication coach."
 },
 {
   "productName": "OBS Studio",
@@ -2239,6 +2238,13 @@
   "description":"Create ATS Friendly Resumes Effectively with ATS Score Provides"
 },
 {
+  "productName":"Programiz",
+  "category": "web",
+  "image": "https://rb.gy/xdxd7",
+  "link": "https://www.programiz.com/",
+  "description": "Learn Programming for Free with Frontend Technologies"
+},
+{
   "productName": "Read Aloud",
   "category": "extensions",
   "image": "https://imgur.com/a/qDvJF1n",
@@ -2257,7 +2263,7 @@
   "category": "tools",
   "image": "https://imgur.com/a/kLKlkiv",
   "link": "https://www.imagetotext.info/",
-  "description": "Image to text convertor"
+  "description": "Image to text converter"
 },
 {
   "productName": "USACO",
@@ -2271,14 +2277,14 @@
   "category": "ai",
   "image": "https://bit.ly/44t5SXn",
   "link": "https://www.doubtclear.ai/",
-  "description": "AI Powered Homework Assistance for All!"
+  "description": "AI-Powered Homework Assistance for All!"
 },
 {
   "productName": "GSAP-GreenStock",
   "category": "Useful Tool",
   "image": "https://bit.ly/3NreI0H",
   "link": "https://greensock.com/gsap/",
-  "description": "It's JavaScript library for some really cool animations without actual javascript codes"
+  "description": "It's a JavaScript library for some really cool animations without actual javascript codes"
 },
 {
 "productName": "Codecademy",
@@ -2320,7 +2326,7 @@
   "category": "movies",
   "image": "https://apkrabi.com/uploads/2023/4/vegamovies-icon.jpg",
   "link": "https://m.vegamovies.tips/",
-  "description": "Here you can download all latest movies in the top quality"  
+  "description": "Here you can download all the latest movies in top quality"  
 },
 {
   "productName": "Bit Warden",
@@ -2334,7 +2340,7 @@
   "category": "tools",
   "image": "bit.ly/3r7vPxi",
   "link": "https://javascript.info/",
-  "description": "Provides comprehensive tutorials and references on the JavaScript"  
+  "description": "Provides comprehensive tutorials and references on JavaScript"  
 },
 {
   "productName": "Spline AI",
