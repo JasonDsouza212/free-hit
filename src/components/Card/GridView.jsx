@@ -1,47 +1,61 @@
-import { useContext } from 'react'
-import { ToolContext } from '../../App'
-import filterProducts from '../../utils/filter/filter_products'
+import { useContext } from 'react';
+import { ToolContext } from '../../App';
+import '../../styles/GridView.css';
 
-const GridView = ({ filters }) => {
-  const {
-    filteredProducts,
-    handelBookmarkAdd,
-    bookmarkfilteredProducts,
-    deleteres,
-  } = useContext(ToolContext)
+const GridView = ({ currentProducts }) => {
+  const { handelBookmarkAdd, bookmarks, deleteres, darkMode } = useContext(ToolContext);
 
   return (
-    <main className="grid">
-      {filterProducts(filteredProducts, filters).map((product, index) => (
+    <main className={`grid ${darkMode ? 'dark-mode' : ''}`}>
+      {currentProducts.map((product, index) => (
         <article key={index}>
           <div className="text_top">
-            <img className="card-img" src={product.image} alt="card" />
-            <h3 className="card-title">{product.productName}</h3>
+            {product.image ? (
+              <img
+                className={`card-image ${darkMode ? 'dark-mode' : ''}`}
+                src={product.image}
+                alt=""
+                onError={(e) => {
+                  e.target.src = 'https://i.ibb.co/9H0s34n/default-img.jpg';
+                }}
+              />
+            ) : (
+              <img
+                className={`card-image ${darkMode ? 'dark-mode' : ''}`}
+                src="https://i.ibb.co/9H0s34n/default-img.jpg"
+                alt="Default"
+              />
+            )}
+            <h3 className={`card-title ${darkMode ? 'dark-mode' : ''}`}>{product.productName}</h3>
           </div>
-          <p>{product.description}</p>
+          <p className={`card-description ${darkMode ? 'dark-mode' : ''}`}>{product.description}</p>
           <div className="btn-cont">
             <a target="_blank" href={product.link}>
-              <button className="visit">
-                <font color="white" size="4">
+              <button className={`visit ${darkMode ? 'dark-mode' : ''}`}>
+                <font size="4">
                   Visit
                 </font>
               </button>
             </a>
-            {bookmarkfilteredProducts.some(
+            {bookmarks.some(
               (obj) => obj['productName'] === product.productName
             ) ? (
-              <button onClick={() => deleteres(product)}>
-                <a >
-                  Delete<i className="ri-bookmark-fill"></i>
-                </a>
-              </button>
+                <button className={`delete ${darkMode ? 'dark-mode' : ''}`} onClick={(event) => {
+                  event.stopPropagation();
+                  deleteres(product);
+                  }}
+                >
+              <a>
+                  Delete<i className={`ri-bookmark-fill ${darkMode ? 'dark-mode' : ''}`}></i>
+              </a>
+                </button>
             ) : (
-              <a >
+              <a>
                 <button
-                  className="bookmark"
+                  className={`bookmark ${darkMode ? 'dark-mode' : ''}`}
                   onClick={() => handelBookmarkAdd(product)}
                 >
-                  <font color="white" size="4">
+                  <font size="4">
                     Bookmark
                   </font>
                 </button>
@@ -51,7 +65,7 @@ const GridView = ({ filters }) => {
         </article>
       ))}
     </main>
-  )
+  );
 }
 
-export default GridView
+export default GridView;
