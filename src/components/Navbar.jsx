@@ -5,10 +5,12 @@ import { useLocation } from 'react-router-dom'
 import { NavLink, useSearchParams } from "react-router-dom"
 import "../styles/header.css"
 import Sidebar from './Sidebar'
+import { ToolContext } from '../App';
+import { useContext } from 'react';
 
 const Header = ({ filteredSuggestions }) => {
   const [searchParams, setSearchParams] = useSearchParams()
-
+  const { darkMode } = useContext(ToolContext);
   const location = useLocation()
   const sideNavRef = useRef(null)
 
@@ -16,7 +18,7 @@ const Header = ({ filteredSuggestions }) => {
 
   useEffect(() => {
     document.addEventListener('mousedown', handleClickOutside);
-
+    
     return () => {
       document.removeEventListener('mousedown', handleClickOutside);
     }
@@ -44,12 +46,12 @@ const Header = ({ filteredSuggestions }) => {
   }
 
   return (
-    <nav className="navbar">
-      <div className="nav-container" ref={sideNavRef}>
+    <nav className={`navbar ${darkMode ? 'dark-mode' : ''}`}>
+      <div className={`nav-container ${darkMode ? 'dark-mode' : ''}`} ref={sideNavRef}>
         <Sidebar />
-        <h1 className="Free-Hit">
+        <h1 className={`Free-Hit ${darkMode ? 'dark-mode' : ''}`}>
           <NavLink to="/about">
-            <img className="free-logo" src={freehitlogo} alt="logo" />
+            <img className={`free-logo ${darkMode ? 'dark-mode' : ''}`} src={freehitlogo} alt="logo" />
           </NavLink>
           <NavLink className="free-word" to="/about">
             Free-Hit
@@ -95,10 +97,10 @@ const Header = ({ filteredSuggestions }) => {
           <NavLink to="/">Home</NavLink>
         </li>
         <li>
-          <NavLink to="/bookmarks">Bookmarks</NavLink>
+          <NavLink className="hoverele" to="/bookmarks">Bookmarks</NavLink>
         </li>
         <li>
-          <NavLink to="/about">About</NavLink>
+          <NavLink className="hoverele" to="/about">About</NavLink>
         </li>
       </ul>
     </nav>
