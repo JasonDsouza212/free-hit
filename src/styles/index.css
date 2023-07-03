@@ -12,6 +12,9 @@
   --primary-black: #373530;
 }
 
+.app{
+  background-color: var(--primary-white);
+}
 :root {
   --primary-white: #f1f1ef;
   --primary-black: #373530;
@@ -38,6 +41,10 @@
 
 body {
   background-color: var(--primary-white);
+}
+
+.routes-holder{
+  min-height: 67vh;
 }
 
 /* ===============================1560 media query */
@@ -408,7 +415,7 @@ body {
 }
 
 /* ===============================450 media query */
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 451px) {
   .about {
     padding-left: 0px;
     padding-right: 0px;
@@ -423,27 +430,26 @@ body {
   }
 
   .about .ab1 p {
-    margin-right: 10px;
     font-size: 28px;
     bottom: 500px;
-    padding: 20px;
+    padding: 30px;
   }
 
   .about .ab1 img {
     margin-top: 50px;
-    margin-left: 5%;
+    margin-left: 1%;
   }
 
   .about .ab2 p {
     margin-left: 0px;
     font-size: 28px;
     top: 0%;
-    padding: 20px;
+    padding: 30px;
   }
 
   .about .ab2 img {
     margin-top: 0px;
-    margin-left: 5%;
+    margin-left: 1%;
     order: 2;
   }
 
@@ -453,26 +459,19 @@ body {
   }
 
   .team-content {
-    margin-left: 25px;
+    margin-left: 0px;
     grid-template-columns: repeat(1, minmax(300px, 320px));
-    padding: 0;
+    padding: 46px;
   }
-
-  .team-content {
-    margin-left: 60px;
-  }
-
   .center h1 {
     font-size: 1.5rem;
   }
 }
 
 /* ===============================420px media query */
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 421px) {
   .team-content {
-    margin-left: 40px;
     grid-template-columns: repeat(1, minmax(300px, 320px));
-    padding: 0;
   }
 
   .wrapper .menu-btn {
@@ -500,7 +499,7 @@ body {
   }
 
   .backToTopButton {
-    right: 2rem;
+    right: 0.2rem;
   }
 
   .nav-container {
@@ -510,15 +509,20 @@ body {
 
 /* ===============================395 media query */
 
-@media screen and (max-width: 395px) {
+@media screen and (max-width: 401px) {
   .team-content {
-    margin-left: 8%;
-    padding: 0;
+    margin-left: 0;
+    padding: 25px;
   }
+  .about img {
+    width: 368px;
+    height: 368px;
+}
+  
 }
 
 /* ===============================380 media query */
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 381px) {
   .Free-Hit {
     right: 70%;
   }
@@ -583,6 +587,8 @@ body {
   .about .ab2 img {
     margin-top: 0px;
     margin-left: 1%;
+    height: 360px;
+    width: 360px;
     order: 2;
   }
 
@@ -592,9 +598,9 @@ body {
   }
 
   .team-content {
-    margin-left: 8%;
+    margin-left: 0%;
     grid-template-columns: repeat(1, minmax(280px, 300px));
-    padding: 0;
+    padding: 25px;
   }
 
   .center h1 {
@@ -621,7 +627,7 @@ body {
 /* ===============================360 media query */
 @media screen and (max-width: 360px) {
   .team-content {
-    margin-left: 10%;
+    margin-left: 0%;
   }
 
   .search_box {
@@ -665,3 +671,4 @@ body {
     width: 150px;
   }
 }
+

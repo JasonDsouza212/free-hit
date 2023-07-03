@@ -83,7 +83,7 @@ nav {
 }
 #sidebar {
   position: fixed;
-  background: #404040;
+  background-color: #222;
   top: 70px;
   height: 100%;
   width: 270px;
@@ -106,23 +106,26 @@ nav {
   left: 0;
 }
 
+.show-sidebar {
+  left: 0;
+}
+
 #sidebar .title {
   line-height: 65px;
   text-align: center;
-  background: #333;
+  background: #555;
   font-size: 25px;
   font-weight: 600;
   color: #f2f2f2;
-  border-bottom: 1px solid #222;
+  border-bottom: 1px solid #555;
 }
 
 
 .pages-sidebar {
   list-style: none;
   display: flex;
+  justify-content: center;
   gap: 0.3em;
-  position: relative;
-  left: 2px;
 }
 
 .pages-sidebar li a:hover {
@@ -147,46 +150,33 @@ nav {
 
 #sidebar .list-items {
   position: relative;
-  background: #404040;
+  background: #222;
   width: 100%;
-  /* height: 100%; */
   list-style: none;
 }
 .list-item{
   color: #ffffff;
-  font-size: 23px;
+  font-size: 18px;
   font-weight: 500; 
 }
-
-
+#sidebar .list-items li {
+  border-top: 1px solid #333;
+  border-bottom: 1px solid #444;
+}
 #sidebar .list-items li button {
   line-height: 50px;
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
-  border-bottom: 1px solid #333;
   transition: all 0.3s ease;
 }
 #sidebar .list-items li:hover {
-  border-top: 1px solid transparent;
-  border-bottom: 1px solid transparent;
-  box-shadow: 0 0px 10px 3px #222;
+  background-color: #333;
 }
 .active-filter {
-  border-top: 1px solid transparent;
-  border-bottom: 1px solid transparent;
-  box-shadow: 0 0px 10px 3px #222;
-}
-.active-filter {
-  border-top: 1px solid transparent;
-  border-bottom: 1px solid transparent;
-  box-shadow: 0 0px 10px 3px #222;
-}
-#sidebar .list-items li:first-child{
-  border-top: none;
+  background-color: #333;
 }
 #sidebar .list-items li button {
   color: var(--primary-white);
   text-decoration: none;
-  font-size: 23px;
+  font-size: 18px;
   font-weight: 500;
   height: 100%;
   width: 100%;
@@ -327,6 +317,13 @@ nav {
   border-radius: 10px;
   
 }
+
+.pages li .hoverele:hover{
+  color:var(--primary-black);
+  background-color:var(--primary-white) ;
+  border:2px dashed #222;
+}
+
 .pages li a.active {
   padding: 3px 20px;
   color: var(--primary-white);
