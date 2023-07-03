@@ -28,3 +28,7 @@ dist-ssr
 *.sln
 *.sw?
 desktop.ini
+
+package-lock.json
+yarn.lock
+

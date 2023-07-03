@@ -10,12 +10,12 @@ body {
 .team {
   position: relative;
   width: 100%;
-  height: 70vh;
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  margin-bottom: 100px;
+  /* margin-bottom: 100px; */
   padding: 0% 6%;
   margin-top: 80px;
 }
@@ -45,6 +45,36 @@ body {
   font-weight: bold;
 }
 
+/* dark-mode styles */
+
+.team .center h1.dark-mode{
+  color:white;
+}
+
+.team .team-content .box.dark-mode{
+  border: 4px solid white;
+}
+
+.team .team-content .box h3.dark-mode,
+.team .team-content .box h5.dark-mode{
+  color:white;
+}
+
+.icons .ri-twitter-fill.dark-mode
+{
+  color:white;
+}
+.icons .ri-github-fill.dark-mode
+{
+  color:white;
+}
+.icons .ri-linkedin-fill.dark-mode{
+  color:white;
+}
+
+.team .team-content .box .image.dark-mode{
+  background-color:white;
+}
 .box {
   padding: 16px;
   background: var(--primary-white);
