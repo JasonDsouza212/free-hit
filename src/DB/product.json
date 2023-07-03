@@ -15,6 +15,41 @@
     "description": "Download this application for PC and Mobile to stream all types of TV Shows and Movies."
   },
   {
+    "productName": "MidJourney",
+    "category": "ai",
+    "image": "https://tinyurl.com/24hpn3dr",
+    "link": "https://tinyurl.com/e9rvw24w",
+    "description": "Midjourney is a generative artificial intelligence program and service, generates images from natural language descriptions."
+  },
+  {
+    "productName": "Lexica",
+    "category": "ai",
+    "image": "https://tinyurl.com/5n72hdex",
+    "link": "https://tinyurl.com/4watfe5k",
+    "description": "The Stable Diffusion prompt search engine one of the more popular AI art models ."
+  },
+  {
+    "productName": "Framer",
+    "category": "ai",
+    "image": "https://tinyurl.com/yeymmjrc",
+    "link": "https://tinyurl.com/ms9rypky",
+    "description": "AI site generator is an amazing tool that makes it easy to create websites without any coding knowledge."
+  },
+  {
+    "productName": "UberDuck",
+    "category": "ai",
+    "image": "https://app.uberduck.ai/uberduck-neon.jpg",
+    "link": "https://tinyurl.com/rewyj4ee",
+    "description": "Uberduck is a free text-to-speech web app that synthesizes celebrity voices instantly and gets them to say anything you want."
+  },
+  {
+    "productName": "Reddit",
+    "category": "tools",
+    "image": "https://tinyurl.com/3ufmabtk",
+    "link": "https://tinyurl.com/b3ypvdtb",
+    "description": "Reddit is a network of communities where people can dive into their interests, hobbies and passions. There's a community for whatever you're interested in."
+  },
+  {
     "productName": "Scaler",
     "category": "coding",
     "image": "https://bit.ly/3XoZKgc",
