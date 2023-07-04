@@ -2762,7 +2762,14 @@
   "link": "https://filecr.com/",
   "description": "Free download Windows programs, plugins, codecs, drivers, tools, utilities, gaming tools."
 },
-{
+{ 
+  "productName": "CSS Challenges",
+  "category" : "tools",
+  "image": "https://tinyurl.com/3wz68vzy",
+  "link": "https://css-challenges.com/",
+  "description": "CSS Challenges is a resource that offers fun and playful ways to practice your CSS skills."
+},
+{ 
   "productName": "HANDZ",
   "category": "tools",
   "image": "https://shorturl.at/dEFHL",
