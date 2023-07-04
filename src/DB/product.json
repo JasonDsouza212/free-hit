@@ -2678,5 +2678,96 @@
   "image": "https://shorturl.at/evzD8",
   "link": "https://moviesmint.org/",
   "description": "Movie mint is the best site to watch new and upcoming movies, series, animes, and TV series online for free."
+},
+{
+  "productName": "GradeScope - AI Tool",
+  "category": "tools",
+  "image": "https://shorturl.at/qEM69",
+  "link": "https://www.gradescope.com/",
+  "description": "Gradescope helps you seamlessly administer and grade all of your assessments, whether online or in-class."
+},
+{
+  "productName": "Dragon Education Solutions",
+  "category": "tools",
+  "image": "https://shorturl.at/iry45",
+  "link": "https://shorturl.at/glW18",
+  "description": "This fulfill your potential with speech recognition software that allows you to write as fast and as fluently as you think."
+},
+{
+  "productName": "IVY Quantum Chatbots",
+  "category": "tools",
+  "image": "https://shorturl.at/bmOQX",
+  "link": "https://ivy.ai/",
+  "description": "IvyQuantum™ is an all-in-one platform designed to simplify conversational chatbots."
+},
+{
+  "productName": "Cognii AI Tool",
+  "category": "tools",
+  "image": "https://shorturl.at/cIV38",
+  "link": "https://www.cognii.com/",
+  "description": "Cognii is a leading provider of Artificial Intelligence based educational technologies."
+},
+{
+  "productName": "Knowji",
+  "category": "tools",
+  "image": "https://shorturl.at/alvzE",
+  "link": "https://www.knowji.com/",
+  "description": "Knowji is a new approach to learning vocabulary and combine scientifically proven methodologies with entertaining content."
+},
+{
+  "productName": "Plaito",
+  "category": "tools",
+  "image": "https://shorturl.at/flRS9",
+  "link": "https://www.plaito.ai/",
+  "description": "Plaito acts as a coach giving prompts and suggestions to move students forward as they write & debate in exciting new ways."
+},
+{
+  "productName": "Century AI Tool",
+  "category": "tools",
+  "image": "https://shorturl.at/aBCS1",
+  "link": "https://www.century.tech/",
+  "description": "The AI platform also tracks student progress while pointing out knowledge gaps in the learning."
+},
+{
+  "productName": "Enhancecv",
+  "category": "resume",
+  "image": "https://bit.ly/4302IsZ",
+  "link": "https://enhancv.com/",
+  "description": "Online resume builder for impressive, professional job applications."
+},
+{
+  "productName": "iNeuron",
+  "category": "remote",
+  "image": "https://bit.ly/46BGPD2",
+  "link": "https://ineuron.ai/",
+  "description": "Learning that makes you ready for job."
+},
+{
+  "productName": "10web",
+  "category": "ai",
+  "image": "https://bit.ly/3pnYGwN",
+  "link": "https://10web.io/",
+  "description": "Build or recreate any website in minutes with the power of AI."
+},
+{
+  "productName": "Lovo",
+  "category": "ai",
+  "image": "https://bit.ly/3PzeRlv",
+  "link": "https://lovo.ai/",
+  "description": "Realistic AI voices that capivate your audience."
+},
+{
+  "productName": "Opus Clip",
+  "category": "ai",
+  "image": "https://bit.ly/3PEAv7J",
+  "link": "https://www.opus.pro/",
+  "description": "1 long video, 10 viral clips. Create 10x faster."
+},
+{
+  "productName": "FileCR",
+  "category" : "tools",
+  "image": "https://bit.ly/44tzK5E",
+  "link": "https://filecr.com/",
+  "description": "Free download Windows programs, plugins, codecs, drivers, tools, utilities, gaming tools."
 }
 ]
