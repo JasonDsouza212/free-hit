@@ -10,8 +10,8 @@ export const allFilters = [
   'web',
   'coding',
   'tools',
-  'writing',
   'image generation',
-  'audio',
-  '3D'
+  'chatbots',
+  'content generation',
+  'presentation'
 ]
