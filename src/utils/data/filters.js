@@ -13,5 +13,6 @@ export const allFilters = [
   'image generation',
   'chatbots',
   'content generation',
-  'presentations'
+  'presentations',
+  'writing'
 ]
