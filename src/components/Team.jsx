@@ -19,7 +19,7 @@ const Team = () => {
       <div className={`team-content ${darkMode ? 'dark-mode' : ''}`}>
         <div className={`box ${darkMode ? 'dark-mode' : ''}`}>
           <img src={con1} className={`image ${darkMode ? 'dark-mode' : ''}`}/>
-          <h4 className={darkMode ? 'dark-mode' : ''}>Abhishek K</h4>
+          <h3 className={darkMode ? 'dark-mode' : ''}>Abhishek K</h3>
           <h5 className={darkMode ? 'dark-mode' : ''}>Designer</h5>
           <div className={`icons ${darkMode ? 'dark-mode' : ''}`}>
             <a href="https://twitter.com/bobsstwt" target="_blank">
@@ -38,8 +38,8 @@ const Team = () => {
         </div>
         <div className={`box ${darkMode ? 'dark-mode' : ''}`}>
           <img src={con2} className={`image ${darkMode ? 'dark-mode' : ''}`}/>
-          <h4 className={darkMode ? 'dark-mode' : ''}
-                  activeclassname="active">Priyankar</h4>
+          <h3 className={darkMode ? 'dark-mode' : ''}
+                  activeclassname="active">Priyankar</h3>
           <h5 className={darkMode ? 'dark-mode' : ''}
                   activeclassname="active">Developer</h5>
           <div className="icons">
@@ -57,8 +57,8 @@ const Team = () => {
 
         <div className={`box ${darkMode ? 'dark-mode' : ''}`}>
           <img src={con3} className={`image ${darkMode ? 'dark-mode' : ''}`}/>
-          <h4 className={darkMode ? 'dark-mode' : ''}
-                  activeclassname="active">Jason Dsouza</h4>
+          <h3 className={darkMode ? 'dark-mode' : ''}
+                  activeclassname="active">Jason Dsouza</h3>
           <h5 className={darkMode ? 'dark-mode' : ''}
                   activeclassname="active">Developer</h5>
           <div className="icons">
@@ -79,8 +79,8 @@ const Team = () => {
 
         <div className={`box ${darkMode ? 'dark-mode' : ''}`} onClick={() => navigate('/community')}>
           <img src={con4} className={`image ${darkMode ? 'dark-mode' : ''}`}/>
-          <h4 className={darkMode ? 'dark-mode' : ''}
-                  activeclassname="active"> Open-Source</h4>
+          <h3 className={darkMode ? 'dark-mode' : ''}
+                  activeclassname="active"> Open-Source</h3>
           <h5 className={darkMode ? 'dark-mode' : ''}
                   activeclassname="active">Community</h5>
           <div className="icons">

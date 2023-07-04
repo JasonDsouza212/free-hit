@@ -85,10 +85,10 @@ body {
   border: 4px solid #191e2d;
   cursor: pointer;
 }
-.box h4 {
+.box h3 {
   font-size: 23px;
-  font-weight: 500;
-  color: #2c2923;
+  font-weight: 600;
+  color: #12110f;
   margin-bottom: 8px;
 }
 .box h5 {
