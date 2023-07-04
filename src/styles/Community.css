@@ -15,9 +15,11 @@
   font-size: 2rem;
 }
 
-.contributors-list {
+.all .contributors-list{
+  position: relative;
   list-style: none;
-  padding: 5px;
+  margin: 0 auto;
+  padding: 15px;
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -81,7 +83,10 @@
   font-size: 15px;
   font-weight: 400;
 }
-
+.all .contributor-image.dark-mode{
+  border:5px solid white;
+  border-radius: 50px;
+}
 @media screen and (max-width: 1024px) {
   .contributors-list {
     grid-gap: 2rem;

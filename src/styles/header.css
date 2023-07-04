@@ -85,7 +85,7 @@ nav {
 }
 #sidebar {
   position: fixed;
-  background: #404040;
+  background-color: #222;
   top: 70px;
   height: 100%;
   width: 270px;
@@ -115,19 +115,18 @@ nav {
 #sidebar .title {
   line-height: 65px;
   text-align: center;
-  background: #333;
+  background: #555;
   font-size: 25px;
   font-weight: 600;
   color: #f2f2f2;
-  border-bottom: 1px solid #222;
+  border-bottom: 1px solid #555;
 }
 
 .pages-sidebar {
   list-style: none;
   display: flex;
+  justify-content: center;
   gap: 0.3em;
-  position: relative;
-  left: 2px;
 }
 
 .pages-sidebar li a:hover {
@@ -152,9 +151,8 @@ nav {
 
 #sidebar .list-items {
   position: relative;
-  background: #404040;
+  background: #222;
   width: 100%;
-  /* height: 100%; */
   list-style: none;
 }
 .list-item {
@@ -163,34 +161,34 @@ nav {
   font-weight: 500;
 }
 
+#sidebar .list-items li {
+  border-top: 1px solid #333;
+  border-bottom: 1px solid #444;
+}
+
 #sidebar .list-items li button {
   line-height: 50px;
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
-  border-bottom: 1px solid #333;
   transition: all 0.3s ease;
 }
 #sidebar .list-items li:hover {
-  border-top: 1px solid transparent;
-  border-bottom: 1px solid transparent;
-  box-shadow: 0 0px 10px 3px #222;
+  background-color: #333;
 }
+
 .active-filter {
   border-top: 1px solid transparent;
   border-bottom: 1px solid transparent;
   box-shadow: 0 0px 10px 3px #222;
 }
-.active-filter {
-  border-top: 1px solid transparent;
-  border-bottom: 1px solid transparent;
-  box-shadow: 0 0px 10px 3px #222;
-}
+
 #sidebar .list-items li:first-child {
   border-top: none;
+  background-color: #333;
+
 }
 #sidebar .list-items li button {
   color: var(--primary-white);
   text-decoration: none;
-  font-size: 23px;
+  font-size: 18px;
   font-weight: 500;
   height: 100%;
   width: 100%;
@@ -231,6 +229,27 @@ nav {
 .list-items .icons a:first-child {
   margin-left: 0px;
 }
+
+/* dark mode styles */
+
+.pages-sidebar li a.dark-mode{
+  color: #f2f2f2;
+}
+
+.pages-sidebar li a.dark-mode:hover{
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  color: var(--primary-white);
+}
+
+#sidebar .list-items li button.dark-mode{
+  color:white !important;
+}
+
+.wrapper .menu-btn.dark-mode{
+  border: 2px solid white;
+}
+
 /* sidebar ends  */
 
 /* search box start */
@@ -330,6 +349,13 @@ nav {
   background-color: var(--primary-black);
   border-radius: 10px;
 }
+
+.pages li .hoverele:hover{
+  color:var(--primary-white);
+  background-color:var(--primary-black) ;
+  /* border:2px dashed #222; */
+}
+
 .pages li a.active {
   padding: 3px 20px;
   color: var(--primary-white);
@@ -358,6 +384,13 @@ nav {
   text-decoration: none;
   color: var(--primary-black);
   font-size: 40px;
+}
+
+/* dark-mode styles */
+
+.free-logo.dark-mode{
+  /* :white; */
+  border: 2px solid white;
 }
 
 /* ================================  Free-Hit logo end*/
