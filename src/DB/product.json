@@ -2748,5 +2748,12 @@
   "image": "https://bit.ly/44tzK5E",
   "link": "https://filecr.com/",
   "description": "Free download Windows programs, plugins, codecs, drivers, tools, utilities, gaming tools."
+},
+{
+  "productName": "Prettier",
+  "category": "extensions",
+  "image": "https://prettier.io/icon.png",
+  "link": "https://prettier.io/",
+  "description": "An opinionated code formatter, Supports many languages, Integrates with most editors"
 }
 ]
