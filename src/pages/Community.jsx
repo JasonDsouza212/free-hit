@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from 'react'
 import Header from '../components/Navbar'
-import "../styles/Community.css"
+import '../styles/Community.css'
 import Loader from '../components/Loader'
-import { useContext } from 'react';
-import { ToolContext } from '../App';
+import { useContext } from 'react'
+import { ToolContext } from '../App'
 
 function Community() {
-  const { darkMode } = useContext(ToolContext);
+  const { darkMode } = useContext(ToolContext)
   window.scroll(0, 0)
   const [contributors, setContributors] = useState([])
   const [initialLoading, setInitialLoading] = useState(true)
@@ -32,7 +32,9 @@ function Community() {
   return (
     <div className={`all ${darkMode ? 'dark-mode' : ''}`}>
       <Header />
-      <h2 className={`contributor-heading ${darkMode ? 'dark-mode' : ''}`}>Meet Our Contributors</h2>
+      <h2 className={`contributor-heading ${darkMode ? 'dark-mode' : ''}`}>
+        Meet Our Contributors
+      </h2>
       {initialLoading ? (
         <Loader />
       ) : (
@@ -50,7 +52,9 @@ function Community() {
                   >
                     <img
                       alt={contributor.login}
-                      className={`contributor-image ${darkMode ? 'dark-mode' : ''}`}
+                      className={`contributor-image ${
+                        darkMode ? 'dark-mode' : ''
+                      }`}
                       loading="lazy"
                       src={contributor.avatar_url}
                     />

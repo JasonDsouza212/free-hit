@@ -24,7 +24,9 @@ function App() {
   const [bookmarks, setBookmarks] = useState([])
 
   // dark mode
-  const [darkMode, setDarkMode] = useState(localStorage.getItem("darkMode") || false);
+  const [darkMode, setDarkMode] = useState(
+    localStorage.getItem('darkMode') || false
+  )
 
   // initial Storage
   useEffect(() => {
@@ -39,17 +41,14 @@ function App() {
 
   //dark-mode
   useEffect(() => {
-    const darkmodejson = localStorage.getItem("darkMode")
+    const darkmodejson = localStorage.getItem('darkMode')
     if (darkmodejson != null) setDarkMode(JSON.parse(darkmodejson))
     // else setDarkMode([])
   }, [])
-  
-  useEffect(() => {
-    localStorage.setItem("darkMode", JSON.stringify(darkMode))
-  }, [darkMode])
 
-  
-  
+  useEffect(() => {
+    localStorage.setItem('darkMode', JSON.stringify(darkMode))
+  }, [darkMode])
 
   // Add bookmark
   function handelBookmarkAdd(bookmark) {
@@ -62,8 +61,6 @@ function App() {
     }
     setBookmarks([...bookmarks, newBookmark])
   }
-
-  
 
   // Remove Bookmark
   function deleteres(product) {
@@ -80,7 +77,7 @@ function App() {
     gridView,
     setGridView,
     darkMode,
-    setDarkMode
+    setDarkMode,
   }
 
   return (

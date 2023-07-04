@@ -1,7 +1,7 @@
 name: 🛠️ Adding tool
 description: Add tool to DB
 title: '[Adding Tool]: '
-labels: ['Add tool','good first issue']
+labels: ['Add tool', 'good first issue']
 body:
   - type: markdown
     attributes:

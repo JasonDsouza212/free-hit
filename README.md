@@ -2,9 +2,7 @@ Welcome 👋
 
 Free-Hit is an web application that is used to search for free tools that are both free and helpful for our needs. It is built by the amazing open-source community. Here you will find a list of free tools that can help you in your day-to-day life. You can also contribute to this project by adding more tools to our database.
 
-> You can check out the live project https://free-hit.vercel.app
-> ![free-hit](https://github.com/JasonDsouza212/free-hit/assets/88102392/3bd18ef6-fc72-4882-85c3-9591c7d94067)
-
+> You can check out the live project https://free-hit.vercel.app > ![free-hit](https://github.com/JasonDsouza212/free-hit/assets/88102392/3bd18ef6-fc72-4882-85c3-9591c7d94067)
 
 ## 💻 Tech Stack
 
@@ -25,14 +23,8 @@ Contributions are welcome! If you have any ideas, suggestions, or bug fixes, ple
 - Follow conventional commits for commit messages. You can read more about it [here](https://www.conventionalcommits.org/en/v1.0.0/).
 - Make sure to add the issue number in the commit message. For example, `git commit -m "fix: fixed a bug in the navbar #1"`.
 - Make sure to add the issue number in the PR title & description. For example, `fix: fixed a bug in the navbar #1`.
-- If your PR is an invalid one, it will be marked as `invalid` and closed. 
+- If your PR is an invalid one, it will be marked as `invalid` and closed.
 - If your PR is a duplicate one, it will be marked as `duplicate` and closed.
-
-
-
-
-
-
 
 ## ✨ Authors(only for GSSoC'23)
 
@@ -56,8 +48,6 @@ We value the time and effort you put into contributing, and we look forward to r
   <img src="https://contrib.rocks/image?repo=jasondsouza212/free-hit" />
 </a>
 </center>
-
-
 
 </details>
 <div align=center>

@@ -19,7 +19,6 @@ body {
   background-color: var(--primary-white);
 }
 
-
 .about {
   display: grid;
   justify-content: center;
@@ -29,16 +28,16 @@ body {
   background-color: white;
 }
 
-.about.dark-mode{
-  background-color:#373530;
+.about.dark-mode {
+  background-color: #373530;
 }
 
-.about .ab1 .text.dark-mode{
-  color:white;
+.about .ab1 .text.dark-mode {
+  color: white;
 }
 
-.about .ab2 .text.dark-mode{
-  color:white;
+.about .ab2 .text.dark-mode {
+  color: white;
 }
 
 .about .ab1 {
@@ -88,19 +87,17 @@ body {
 
 .about p button:hover {
   /* background-color: var(--primary-white); */
-  transform:scale(1.05);
+  transform: scale(1.05);
   transition: all 0.3s ease-in-out;
 }
-
-
 
 .about img {
   width: 400px;
   height: 400px;
 }
 
-.about img.dark-mode{
-  background-color:white;
+.about img.dark-mode {
+  background-color: white;
 }
 
 .bold {

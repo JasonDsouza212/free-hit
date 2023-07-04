@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from 'react'
 import { Link } from 'react-scroll'
-import "../styles/BackToTop.css"
-import { useContext } from 'react';
-import { ToolContext } from '../App';
+import '../styles/BackToTop.css'
+import { useContext } from 'react'
+import { ToolContext } from '../App'
 
 const BackToTopButton = () => {
-  const { darkMode } = useContext(ToolContext);
+  const { darkMode } = useContext(ToolContext)
   const [btnVisiblity, setBtnVisiblity] = useState(false)
   const handleScroll = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' })
@@ -21,12 +21,18 @@ const BackToTopButton = () => {
   }, [])
 
   return (
-    <Link onClick={handleScroll} to="Top" smooth duration={500} className={`top ${darkMode ? 'dark-mode' : ''}`}>
-        <div
-          className={` ${
-            !btnVisiblity ? 'transition-before' : 'transition-after'
-          } backToTopButton`}
-        >
+    <Link
+      onClick={handleScroll}
+      to="Top"
+      smooth
+      duration={500}
+      className={`top ${darkMode ? 'dark-mode' : ''}`}
+    >
+      <div
+        className={` ${
+          !btnVisiblity ? 'transition-before' : 'transition-after'
+        } backToTopButton`}
+      >
         <div className={`button ${darkMode ? 'dark-mode' : ''}`}>
           <i className="ri-arrow-up-s-line"></i>
         </div>

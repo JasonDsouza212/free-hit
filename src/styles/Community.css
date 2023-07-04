@@ -10,7 +10,7 @@
   height: 100%;
 }
 
-.all .contributors-list{
+.all .contributors-list {
   position: relative;
   list-style: none;
   margin: 0 auto;
@@ -52,23 +52,23 @@
   filter: grayscale(0%);
 }
 
-.all .contributor-image{
-  border:5px solid black;
+.all .contributor-image {
+  border: 5px solid black;
   border-radius: 50px;
 }
 
 /* dark-mode styles */
 
-.all.dark-mode{
-  background-color:var(--primary-white);
+.all.dark-mode {
+  background-color: var(--primary-white);
 }
 
-.all h2.dark-mode{
-  color:white;
+.all h2.dark-mode {
+  color: white;
 }
 
-.all .contributor-image.dark-mode{
-  border:5px solid white;
+.all .contributor-image.dark-mode {
+  border: 5px solid white;
   border-radius: 50px;
 }
 

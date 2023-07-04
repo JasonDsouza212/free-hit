@@ -1,10 +1,10 @@
 import freehitlogo from '../assets/footer-logo.webp'
-import "../styles/Footer.css"
+import '../styles/Footer.css'
 
 const Footer = () => {
   // gettin year dynamically
-  const date = new Date();
-  const year = date.getFullYear();
+  const date = new Date()
+  const year = date.getFullYear()
   return (
     <footer>
       <div className="footer-content">
@@ -12,30 +12,28 @@ const Footer = () => {
           <img className="free-logo-footer" src={freehitlogo} alt="logo" />
           <b>FREE-HIT</b>
         </h3>
-        <p>
-          Find the tools you need without breaking the bank
-        </p>
+        <p>Find the tools you need without breaking the bank</p>
         <p>
           <b>Contact Us</b>
         </p>
         <ul className="socials">
           <li>
-            <a 
+            <a
               aria-label="Follow me on Facebook"
               title="Facebook (External Link)"
               rel="noopener noreferrer"
-              target="_blank" 
+              target="_blank"
               href="https://twitter.com/_Jason_Dsouza"
             >
               <i className="socials_twitter ri-twitter-fill"></i>
             </a>
           </li>
           <li>
-            <a 
+            <a
               aria-label="Follow me on Github"
               title="Github (External Link)"
               rel="noopener noreferrer"
-              target="_blank" 
+              target="_blank"
               href="https://github.com/JasonDsouza212"
             >
               <i className="socials_github ri-github-fill"></i>
@@ -57,7 +55,7 @@ const Footer = () => {
               aria-label="Mail me on jasondsouza212@gmail.com"
               title="Mail (External Link)"
               rel="noopener noreferrer"
-              target="_blank" 
+              target="_blank"
               href="mailto:jasondsouza212@gmail.com"
             >
               <i className="socials_mail ri-mail-fill"></i>
@@ -68,13 +66,15 @@ const Footer = () => {
       <div className="footer-bottom">
         <br />
         <p>
-          <span className='uppercase'>
-            Copyright &copy; Free-Hit {year}
-          </span>
+          <span className="uppercase">Copyright &copy; Free-Hit {year}</span>
           &nbsp;&nbsp; | &nbsp;&nbsp;
           <span>
             Maintained by &nbsp;
-            <a target="_blank" href="https://github.com/JasonDsouza212" className='uppercase'>
+            <a
+              target="_blank"
+              href="https://github.com/JasonDsouza212"
+              className="uppercase"
+            >
               <b>Jason Dsouza</b>
             </a>
           </span>

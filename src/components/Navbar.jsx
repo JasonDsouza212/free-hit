@@ -1,38 +1,38 @@
-import React, {useEffect, useRef } from 'react'
+import React, { useEffect, useRef } from 'react'
 import { FaSearch } from 'react-icons/fa'
 import freehitlogo from '../assets/free-logo.webp'
 import { useLocation } from 'react-router-dom'
-import { NavLink, useSearchParams } from "react-router-dom"
-import "../styles/header.css"
+import { NavLink, useSearchParams } from 'react-router-dom'
+import '../styles/header.css'
 import Sidebar from './Sidebar'
-import { ToolContext } from '../App';
-import { useContext } from 'react';
+import { ToolContext } from '../App'
+import { useContext } from 'react'
 
 const Header = ({ filteredSuggestions }) => {
   const [searchParams, setSearchParams] = useSearchParams()
-  const { darkMode } = useContext(ToolContext);
+  const { darkMode } = useContext(ToolContext)
   const location = useLocation()
   const sideNavRef = useRef(null)
 
   const searchTerm = searchParams.get('q') || ''
 
   useEffect(() => {
-    document.addEventListener('mousedown', handleClickOutside);
-    
+    document.addEventListener('mousedown', handleClickOutside)
+
     return () => {
-      document.removeEventListener('mousedown', handleClickOutside);
+      document.removeEventListener('mousedown', handleClickOutside)
     }
   })
 
   function handleClickOutside(event) {
     if (sideNavRef.current && !sideNavRef.current.contains(event.target)) {
-      document.getElementById("btn").checked = false;
+      document.getElementById('btn').checked = false
     }
   }
 
   function setSearchTerm(val) {
-    setSearchParams(prevParams => {
-      if (val == "") {
+    setSearchParams((prevParams) => {
+      if (val == '') {
         prevParams.delete('q')
       } else {
         prevParams.set('q', val)
@@ -47,11 +47,18 @@ const Header = ({ filteredSuggestions }) => {
 
   return (
     <nav className={`navbar ${darkMode ? 'dark-mode' : ''}`}>
-      <div className={`nav-container ${darkMode ? 'dark-mode' : ''}`} ref={sideNavRef}>
+      <div
+        className={`nav-container ${darkMode ? 'dark-mode' : ''}`}
+        ref={sideNavRef}
+      >
         <Sidebar />
         <h1 className={`Free-Hit ${darkMode ? 'dark-mode' : ''}`}>
           <NavLink to="/about">
-            <img className={`free-logo ${darkMode ? 'dark-mode' : ''}`} src={freehitlogo} alt="logo" />
+            <img
+              className={`free-logo ${darkMode ? 'dark-mode' : ''}`}
+              src={freehitlogo}
+              alt="logo"
+            />
           </NavLink>
           <NavLink className="free-word" to="/about">
             Free-Hit
@@ -74,7 +81,9 @@ const Header = ({ filteredSuggestions }) => {
               </i>
             </div>
           </div>
-          {(filteredSuggestions.length > 1 || (filteredSuggestions.length > 0 && filteredSuggestions[0] != searchTerm)) && (
+          {(filteredSuggestions.length > 1 ||
+            (filteredSuggestions.length > 0 &&
+              filteredSuggestions[0] != searchTerm)) && (
             <ul className="hnav-suggestionbar" id="serch-suggestions">
               {/* This shows as a list of suggestions based on the search term */}
               {filteredSuggestions.map((suggestion) => (
@@ -97,14 +106,18 @@ const Header = ({ filteredSuggestions }) => {
           <NavLink to="/">Home</NavLink>
         </li>
         <li>
-          <NavLink className="hoverele" to="/bookmarks">Bookmarks</NavLink>
+          <NavLink className="hoverele" to="/bookmarks">
+            Bookmarks
+          </NavLink>
         </li>
         <li>
-          <NavLink className="hoverele" to="/about">About</NavLink>
+          <NavLink className="hoverele" to="/about">
+            About
+          </NavLink>
         </li>
       </ul>
     </nav>
-  );
+  )
 }
 
 export default Header

@@ -23,7 +23,7 @@
   padding: 10px 20px;
   border: 2px solid var(--primary-black);
   border-radius: 8px;
-  gap:0px;
+  gap: 0px;
   box-shadow: 8px 8px 2px 0px var(--primary-black);
 }
 
@@ -51,14 +51,14 @@
 .list .card-title {
   font-size: 24px;
   font-weight: 600;
-  width:inherit;
+  width: inherit;
   letter-spacing: 0.2px;
   text-align: left;
   color: var(--primary-black);
   text-decoration: none;
 }
 
-.list .card-title:hover{
+.list .card-title:hover {
   text-decoration: none;
 }
 
@@ -86,23 +86,23 @@
   /* flex-direction: column; */
 }
 
-.list .visit:hover{
+.list .visit:hover {
   transition: all 0.3s ease-out;
 }
-.list .bookmark:hover{
+.list .bookmark:hover {
   transition: all 0.3s ease-out;
 }
-.list .delete:hover{
+.list .delete:hover {
   transition: all 0.3s ease-out;
 }
 
 /* dar-mode styles */
 
-.list .down.dark-mode{
-  color:white;
+.list .down.dark-mode {
+  color: white;
 }
 
-.list .visit.dark-mode:hover{
+.list .visit.dark-mode:hover {
   transition: all 0.3s ease-out;
 }
 

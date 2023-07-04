@@ -13,7 +13,7 @@
   --primary-black: #373530;
 }
 
-.app{
+.app {
   background-color: var(--primary-white);
 }
 :root {
@@ -44,7 +44,7 @@ body {
   background-color: var(--primary-white);
 }
 
-.routes-holder{
+.routes-holder {
   min-height: 67vh;
 }
 
@@ -518,8 +518,7 @@ body {
   .about img {
     width: 368px;
     height: 368px;
-}
-  
+  }
 }
 
 /* ===============================380 media query */
@@ -673,7 +672,8 @@ body {
   }
 }
 
-#img1, #img2 {
+#img1,
+#img2 {
   width: 100%;
   height: auto;
   max-width: max-content;

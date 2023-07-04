@@ -89,7 +89,7 @@ body {
   margin-top: 1rem;
 }
 
-.grid>article {
+.grid > article {
   position: relative;
   min-height: 220px;
   max-width: 350px;
@@ -103,7 +103,7 @@ body {
   transition: all 0.3s;
 }
 
-.grid>article:hover {
+.grid > article:hover {
   box-shadow: 6px 6px 0px 0px var(--primary-black);
   transform: scale(1.02);
 }
@@ -114,7 +114,7 @@ img {
   border-radius: 10px;
 }
 
-.grid>article .btn-cont {
+.grid > article .btn-cont {
   margin-top: 2rem;
   display: flex;
   justify-content: center;
@@ -148,7 +148,6 @@ img {
   font-weight: 600;
   line-height: 24px;
   text-align: left;
-
 }
 
 /* .card-img {
@@ -195,7 +194,6 @@ img {
 .visit {
   cursor: pointer;
 }
-
 
 .no-results {
   font-size: 2rem;

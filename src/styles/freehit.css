@@ -2,14 +2,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Josefin Slab','Space Grotesk', sans-serif;
+  font-family: 'Josefin Slab', 'Space Grotesk', sans-serif;
 }
-
 
 .container1 {
   margin: 0 70px;
   padding: 50px 50px 30px 50px;
-
 }
 
 h1 {
@@ -41,7 +39,7 @@ h1 {
 #para2 {
   text-align: end;
 }
-#img1{
+#img1 {
   padding-left: 120px;
 }
 
@@ -196,7 +194,6 @@ body {
     /* Ensure text stays visible during 3D transformation */
     transform: translateZ(100px);
   }
-
 }
 
 @media (max-width: 480px) {
