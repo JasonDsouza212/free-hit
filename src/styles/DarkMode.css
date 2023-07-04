@@ -1,0 +1,42 @@
+.dark-mode-toggle {
+  position: fixed;
+  z-index: 50;
+  bottom: 4.5rem;
+  right: 1.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1f1f1f;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 100%;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+  color: var(--primary-white);
+  transition: color 0.3s;
+}
+
+.dark-mode-toggle:focus {
+  outline: none;
+}
+
+.dark-mode .dark-mode-toggle {
+  color: var(--primary-white);
+}
+
+.dark-mode .dark-mode-toggle .sun {
+  display: inline;
+}
+
+.dark-mode .dark-mode-toggle .moon {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .dark-mode-toggle {
+    width: 2.5rem;
+    height: 2.5rem;
+    bottom: 5rem;
+  }
+}
