@@ -6,7 +6,6 @@
     "link": "https://jsremotely.com/",
     "description": "Find remote Javascript jobs."
   },
-
   {
     "productName": "PikaShows",
     "category": "movies",
@@ -2797,7 +2796,8 @@
   "image": "https://bit.ly/3Nywor8",
   "link": "https://www.edx.org/",
   "description": "Free prestigious university courses. Audit for free or pay for a certificate."  
-}, {
+}, 
+{
   "productName": "Udacity",
   "category": "courses",
   "image": "https://bit.ly/43fzjew",
