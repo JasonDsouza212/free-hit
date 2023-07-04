@@ -2664,5 +2664,40 @@
   "image": "https://bit.ly/4302IsZ",
   "link": "https://enhancv.com/",
   "description": "Online resume builder for impressive, professional job applications."
+},
+{
+  "productName": "iNeuron",
+  "category": "remote",
+  "image": "https://bit.ly/46BGPD2",
+  "link": "https://ineuron.ai/",
+  "description": "Learning that makes you ready for job."
+},
+{
+  "productName": "10web",
+  "category": "ai",
+  "image": "https://bit.ly/3pnYGwN",
+  "link": "https://10web.io/",
+  "description": "Build or recreate any website in minutes with the power of AI."
+},
+{
+  "productName": "Lovo",
+  "category": "ai",
+  "image": "https://bit.ly/3PzeRlv",
+  "link": "https://lovo.ai/",
+  "description": "Realistic AI voices that capivate your audience."
+},
+{
+  "productName": "Opus Clip",
+  "category": "ai",
+  "image": "https://bit.ly/3PEAv7J",
+  "link": "https://www.opus.pro/",
+  "description": "1 long video, 10 viral clips. Create 10x faster."
+},
+{
+  "productName": "FileCR",
+  "category" : "tools",
+  "image": "https://bit.ly/44tzK5E",
+  "link": "https://filecr.com/",
+  "description": "Free download Windows programs, plugins, codecs, drivers, tools, utilities, gaming tools."
 }
 ]
