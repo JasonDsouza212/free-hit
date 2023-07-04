@@ -667,7 +667,7 @@ body {
 }
 
 /* ===============================310 media query */
-@media(max-width: 320px) {
+@media screen and (max-width: 310px) {
   .search_box {
     width: 150px;
   }

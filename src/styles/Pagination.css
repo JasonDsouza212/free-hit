@@ -23,6 +23,10 @@
   padding: 5px 10px;
   border-radius: 4px;
 }
+.paginate-button:hover {
+  color: var(--primary-white);
+  background-color: var(--primary-black);
+}
 
 .selected-page {
   color: var(--primary-white);
@@ -37,9 +41,21 @@
   font-size: 20px;
   font-weight: bold;
   color: var(--primary-black);
+  transition: transform 0.3s ease, background-color 0.3s ease, border 0.3s ease;
+}
+
+.paginate-nav:hover {
+  transform: scale(1.1); /* Increase the scale value to your desired level */
+  background-color: #f1f1f1; /* Set the desired background color for the hover state */
+  border: 2px solid #000; /* Customize the border width and color as per your preference */
+  border-radius: 5px; 
+  padding: 3px;/* Set the desired border radius value */
 }
 
 
+.current-page {
+  font-weight: bold;
+}
 /* .dark-mode .paginate-button{
   color: var(--primary-white);
   background-color: var(--primary-black);
