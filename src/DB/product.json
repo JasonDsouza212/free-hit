@@ -2769,5 +2769,12 @@
   "image": "https://shorturl.at/dEFHL",
   "link": "https://threedeeshop.gumroad.com/l/sGvBh",
   "description": "A 3D gestures library to create yummy graphic design, you can use them in whatever you want."
+},
+{
+  "productName": "Stable Diffusion",
+  "category": "ai",
+  "image": "https://stablediffusionweb.com/logo.png",
+  "link": "https://stablediffusionweb.com/",
+  "description": "Create beautiful art using stable diffusion ONLINE for free."
 }
 ]
