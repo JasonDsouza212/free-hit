@@ -6,7 +6,6 @@
     "link": "https://jsremotely.com/",
     "description": "Find remote Javascript jobs."
   },
-
   {
     "productName": "PikaShows",
     "category": "movies",
@@ -2771,6 +2770,13 @@
   "description": "A 3D gestures library to create yummy graphic design, you can use them in whatever you want."
 },
 {
+  "productName": "Gulp Extension",
+  "category": "extensions",
+  "image": "https://bit.ly/3XAvEXl",
+  "link": "https://gulpjs.com/",
+  "description": "A toolkit to automate & enhance your workflow"
+},
+{
   "productName": "Coursera",
   "category": "courses",
   "image": "https://bit.ly/3NSYoaG",
@@ -2790,7 +2796,8 @@
   "image": "https://bit.ly/3Nywor8",
   "link": "https://www.edx.org/",
   "description": "Free prestigious university courses. Audit for free or pay for a certificate."  
-}, {
+}, 
+{
   "productName": "Udacity",
   "category": "courses",
   "image": "https://bit.ly/43fzjew",
