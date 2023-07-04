@@ -384,12 +384,18 @@ nav {
       display: none;
     }
     .mobile-logo{
-      margin-top: 13px;
+      margin-top: 9px;
       display: flex;
+      width: 45px;
+      height: 45px;
+    }
+    .mobile-logo.dark-mode{
+      border: 2px solid white;
     }
     .Free-hit{
       size: 100px
     }
+    
 }
 
 .free-logo.dark-mode{

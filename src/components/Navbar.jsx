@@ -8,8 +8,7 @@ import "../styles/header.css"
 import Sidebar from './Sidebar'
 import { ToolContext } from '../App';
 import { useContext } from 'react';
-import mobilelogo from '../assets/light-mobilelogo.png'
-import mobilelogodark from '../assets/dark-mobilelogo.png'
+import mobilelogo from '../assets/mobileview.png'
 
 
 const Header = ({ filteredSuggestions }) => {
@@ -64,7 +63,7 @@ const Header = ({ filteredSuggestions }) => {
           <NavLink to="/about" className='nav-link'>
           <img
             className={`mobile-logo ${darkMode ? 'dark-mode' : ''}`}
-            src={darkMode ? mobilelogodark : mobilelogo}
+            src={darkMode ? mobilelogo : mobilelogo}
             alt="logo"
           />
           </NavLink>
