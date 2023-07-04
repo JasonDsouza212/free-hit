@@ -2769,5 +2769,12 @@
   "image": "https://shorturl.at/dEFHL",
   "link": "https://threedeeshop.gumroad.com/l/sGvBh",
   "description": "A 3D gestures library to create yummy graphic design, you can use them in whatever you want."
+},
+{
+  "productName": "Gulp Extension",
+  "category": "extensions",
+  "image": "https://bit.ly/3XAvEXl",
+  "link": "https://gulpjs.com/",
+  "description": "A toolkit to automate & enhance your workflow"
 }
 ]
