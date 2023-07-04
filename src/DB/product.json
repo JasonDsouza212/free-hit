@@ -1883,7 +1883,7 @@
   "category": "tools",
   "image": "https://images.csmonitor.com/csm/2015/05/docker-logo.jpg?alias=standard_900x600",
   "link": "https://www.docker.com/",
-  "description": "Connect, collaborate, and create on Docker Hub — a central repository for finding and sharing container images and applications with ease."
+  "description": "Docker is an open source platform that enables developers to build, deploy, run, update and manage containers."
 },
 {
   "productName": "StackBlitz",
