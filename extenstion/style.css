@@ -174,16 +174,16 @@ img{
     transform: rotateZ(180deg);
 }
 .result-body{
-    overflow-y: scroll;
+    overflow-y: hidden;
     display: flex;
     flex-direction: column;
     align-items: center;
     transform: translateY(10px);
-    padding: 0 5px 0 5px;
-    height: 0px;
+    max-height: 0;
     background-color: rgb(55, 53, 48);
-    transition: height 0.3s ease-in;
+    transition: max-height 0.3s ease-in;
     width: 100%;
+    padding: 0 5px 0px 5px;
     color: rgba(241, 241, 239);
     border-radius: 5px;
 }
@@ -192,9 +192,8 @@ img{
     cursor: pointer;
 }
 .result.expand .result-body{
-    overflow-y: scroll;
     justify-content: flex-start;
-    height: 70px;
+    max-height: 100%;
     background-color:rgb(55, 53, 48);
 }
 .result-info{
@@ -202,9 +201,11 @@ img{
     flex-grow: 0;
 }
 .description{
-    max-height: 80px;
     margin: 0;
+    padding-bottom: 10px;
     cursor: default;
+    width: 100%;
+    text-align:justify;
 }
 .side-link{
     color: rgba(241, 241, 239);
@@ -233,11 +234,6 @@ img{
     border-radius: 10px;
     text-align: center;
 }
-.description{
-    width: 100%;
-    text-align: justify;
-}
-
 div::-webkit-scrollbar{
     appearance: none;
     width: 5px;

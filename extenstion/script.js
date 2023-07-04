@@ -29,10 +29,10 @@ function result(productName,category,image,link,description){
             </div>
         </div>
         <div class="result-body">
-        <a class="side-link" href=${link}>
-            <i class="fa-solid fa-link"></i>
-            visit
-        </a>    
+            <a class="side-link" href=${link}>
+                <i class="fa-solid fa-link"></i>
+                    visit
+            </a>    
             <p class="description">${description}</p>  
         </div>
     `
@@ -58,12 +58,12 @@ const fetchWebsites = (results)=>{
 
 const handleChange = (e)=>{
      //function for input change handling
-     console.log(e)
-     console.log("called changes")
-    const ele = e.target.value
+    const ele = e.target.value.toLowerCase()
     filtered_websites = websites.filter((i)=>(
-        i.productName.includes(ele)||i.category.includes(ele)    
+        i.productName.toLowerCase().includes(ele)||i.category.toLowerCase().includes(ele)||i.description.toLowerCase().includes(ele) 
     ))
+    console.log(filtered_websites)
+    console.log(ele)
     const results = document.querySelector('.results')
     if(filtered_websites.length==0){
         results.innerHTML = `<h1 class="info-heading">No website with given keyword is found</h1>`
@@ -77,13 +77,13 @@ const handleChange = (e)=>{
 }
 
 
-document.addEventListener('DOMContentLoaded',async()=>{
-    //to load content only after dom loading
+document.addEventListener('DOMContentLoaded',()=>{
     const inputBar = document.querySelector('.input')
     const results = document.querySelector('.results')
     const themeButton = document.querySelector('#theme-btn')
     let websites = ""
     inputBar.addEventListener('keydown',(e)=>handleChange(e))
+    inputBar.addEventListener('keyup',(e)=>handleChange(e))
     //reason to pass results is the function is loaded before the dom mounting 
     fetchWebsites(results)
     themeButton.addEventListener('click',changeTheme)
