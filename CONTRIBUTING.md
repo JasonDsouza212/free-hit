@@ -79,9 +79,11 @@ git push
 
 7. Create a new pull request from your forked repository (Click the `New Pull Request` button located at the top of your repo)
 ### How to Create a PR
-After you push the changes you need to create a pull request and name the issue and mention the issue number,
+1. After you push the changes you need to create a pull request and name the issue and mention the issue number,
 eg: chore: added tool #issuenumber
-put an x between the braces to select the keypoint and leave a space if you don't want to select it.
+2. The tags which can be used for url submission are as follows:
+fix: , feat: , docs: , test: , chore: , ci: , perf: , refactor: , revert: , style: , data:
+3. Put an x between the braces to select the keypoint and leave a space if you don't want to select it.
 eg: [x] I foolow the contribution guidelines.
 8. Wait for your PR review and merge approval!
 9. **Star this repository** if you had fun contributing!
