@@ -1625,13 +1625,6 @@
     "description": "Unblast is happy to offer you a rich collection of amazing UI templates."
   },
   {
-    "productName": "UI Design Daily",
-    "category": "UI",
-    "image": "https://bit.ly/3WOEP6c",
-    "link": "https://bit.ly/45F3IVF",
-    "description": "UI Design Daily to be able to share these designs with anybody who is interested in using them."
-  },
-  {
     "productName": "Previewed Mockups",
     "category": "UI",
     "image": "https://bit.ly/3qoFyP5",
@@ -2659,6 +2652,20 @@
   "description": "Save time and money while shopping online with automatic coupon searches and price comparisons."
 },
 {
+  "productName": "klap",
+  "category": "ai",
+  "image": "https://bit.ly/46ssokJ",
+  "link": "https://klap.app/",
+  "description": "Get ready-to-publish TikToks, Reels, Shorts from YouTube videos in a click"
+},
+{
+  "productName": "GoTranscript",
+  "category": "tools",
+  "image": "https://bit.ly/3NyezZt",
+  "link": "https://gotranscript.com/",
+  "description": "Freelance: Transcribe audio and video accurately with GoTranscript."
+},
+{
   "productName": "GradeScope - AI Tool",
   "category": "tools",
   "image": "https://shorturl.at/qEM69",
@@ -2755,5 +2762,12 @@
   "image": "https://prettier.io/icon.png",
   "link": "https://prettier.io/",
   "description": "An opinionated code formatter, Supports many languages, Integrates with most editors"
+},
+{
+  "productName": "HANDZ",
+  "category": "tools",
+  "image": "https://shorturl.at/dEFHL",
+  "link": "https://threedeeshop.gumroad.com/l/sGvBh",
+  "description": "A 3D gestures library to create yummy graphic design, you can use them in whatever you want."
 }
 ]
