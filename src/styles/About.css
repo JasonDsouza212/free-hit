@@ -23,9 +23,8 @@ body {
 .about {
   display: grid;
   justify-content: center;
-  margin: 100px 100px;
+  margin: 50px 80px;
   padding: 80px;
- 
   background-color: white;
  
 
@@ -94,7 +93,6 @@ body {
 }
 
 .about p button:hover {
-  /* background-color: var(--primary-white); */
   transform:scale(1.05);
   transition: all 0.3s ease-in-out;
 }

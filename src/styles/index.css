@@ -55,7 +55,7 @@ body {
 /* ===============================1480 media query */
 @media screen and (max-width: 1480px) {
   .about{
-    margin: 50px 50px;
+    margin: 50px 50px !important;
   }
 
 }
@@ -143,16 +143,8 @@ body {
   .Free-Hit {
     top: -1px;
   }
-
-<<<<<<< HEAD
-=======
-  .about .ab2 img {
-    position: relative;
-    top: 10%;
-  }
-
->>>>>>> refs/remotes/origin/main
 }
+
 
 /* ===============================900px media query */
 @media screen and (max-width: 900px) {
@@ -160,25 +152,10 @@ body {
     grid-template-columns: repeat(2, minmax(130px, auto));
   }
   .about{
-  margin:15px 10px !important;
+  margin:15px 50px !important;
     padding:30px !important;
 
-<<<<<<< HEAD
-=======
-  .about {
-    margin: 5px 10px;
-    padding-left: 0px;
-    padding-right: 0px;
-    
-  }
-  .ab1{
-    position: relative;
-    top:20px
-  }
-  .team{
-    position: relative;
-    bottom: 20px;
->>>>>>> refs/remotes/origin/main
+
   }
 
 }
@@ -231,7 +208,7 @@ body {
 @media screen and (max-width: 650px) {
   .about img {
     width: 350px;
-    height: 350px;
+    height: 350px;  
   }
 
 
@@ -255,17 +232,24 @@ body {
   }
 
   .about {
-    margin: 0px 0px;
+    margin: 0px 50px !important;
     padding:0 !important;
   }
 
   .about .ab1 p{
     margin-top:35px;
     word-wrap: break-word !important;
-
+    padding:10px;
+    font-size:32px !important;
+  }
+  .about .ab2 p{
+    margin-top:35px;
+    word-wrap: break-word !important;
+    padding:10px;
     font-size:32px !important;
   }
   
+
 .bold {
   font-size: 28px !important;
   font-weight: bold;
@@ -299,15 +283,8 @@ body {
     padding: 0 25%;
   }
 
-<<<<<<< HEAD
-  
-=======
-  .about {
-    position: relative;
-    top: -50px;
-  }
 
->>>>>>> refs/remotes/origin/main
+ 
   .backToTopButton {
     position: fixed;
     z-index: 50;
@@ -329,11 +306,15 @@ body {
   .Free-Hit {
     right: 240px;
   }
-
+ 
   .grid {
     grid-template-columns: repeat(auto-fit, minmax(280px, auto));
   }
-
+.about{
+  padding:0 !important;
+  margin:0 !important;
+  margin-bottom: 50px !important;
+}
   .about .ab1 img {
     margin-left: 5%;
   }
@@ -422,11 +403,9 @@ body {
   .about img {
     width: 368px;
     height: 368px;
+
 }
-.about {
-  position: relative;
-  top: -50px;
-}
+
 .team .center h1.dark-mode{
   position: relative;
   top:50px;
@@ -464,31 +443,7 @@ body {
     border-radius: 50%;
   }
 
-<<<<<<< HEAD
- 
-=======
-  .about {
-    position: relative;
-    top: 60px;
-  }
 
-  .about .ab1 {
-    display: flex;
-  }
-
-  .about .ab2 {
-    margin-right: 0px;
-  }
-
-  .about .ab1 p {
-    margin-right: 0px;
-    font-size: 24px;
-    bottom: 500px;
-    padding-left: 40px;
-    padding-right: 40px;
-  }
-
->>>>>>> refs/remotes/origin/main
   .about .ab1 img {
     margin-top: 50px;
     height: 330px;
