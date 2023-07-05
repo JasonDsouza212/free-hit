@@ -87,8 +87,9 @@ footer {
 }
 .footer-bottom span {
   text-transform: uppercase;
-  opacity: 0.4;
-  font-weight: 200;
+  opacity: .75;
+  font-weight: 400;
+  letter-spacing: .02rem;
 }
 .footer-bottom ul {
   margin: 0;

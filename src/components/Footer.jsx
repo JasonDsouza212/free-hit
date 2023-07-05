@@ -19,17 +19,32 @@ const Footer = () => {
         </p>
         <ul className="socials">
           <li>
-            <a target="_blank" href="https://twitter.com/_Jason_Dsouza">
+            <a 
+              aria-label="Follow me on Facebook"
+              title="Facebook (External Link)"
+              rel="noopener noreferrer"
+              target="_blank" 
+              href="https://twitter.com/_Jason_Dsouza"
+            >
               <i className="socials_twitter ri-twitter-fill"></i>
             </a>
           </li>
           <li>
-            <a target="_blank" href="https://github.com/JasonDsouza212">
+            <a 
+              aria-label="Follow me on Github"
+              title="Github (External Link)"
+              rel="noopener noreferrer"
+              target="_blank" 
+              href="https://github.com/JasonDsouza212"
+            >
               <i className="socials_github ri-github-fill"></i>
             </a>
           </li>
           <li>
             <a
+              aria-label="Follow me on Linkedin"
+              title="Linkedin (External Link)"
+              rel="noopener noreferrer"
               target="_blank"
               href="https://www.linkedin.com/in/jason-dsouza-130b421ba/"
             >
@@ -37,7 +52,13 @@ const Footer = () => {
             </a>
           </li>
           <li>
-            <a target="_blank" href="mailto:jasondsouza212@gmail.com">
+            <a
+              aria-label="Mail me on jasondsouza212@gmail.com"
+              title="Mail (External Link)"
+              rel="noopener noreferrer"
+              target="_blank" 
+              href="mailto:jasondsouza212@gmail.com"
+            >
               <i className="socials_mail ri-mail-fill"></i>
             </a>
           </li>
