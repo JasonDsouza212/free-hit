@@ -6,7 +6,13 @@
     "link": "https://jsremotely.com/",
     "description": "Find remote Javascript jobs."
   },
-
+  {
+    "productName": "Just Chill",
+    "category": "movies",
+    "image": "https://postimg.cc/KKjFcKcg",
+    "link": "https://www.justchill.tv/?server=2",
+    "description": "Watch latest movies and series for free."
+  },
   {
     "productName": "PikaShows",
     "category": "movies",
@@ -2680,6 +2686,69 @@
   "description": "Movie mint is the best site to watch new and upcoming movies, series, animes, and TV series online for free."
 },
 {
+  "productName": "i-Top",
+  "category": "tools",
+  "image": "https://shorturl.at/acyCL",
+  "link": "https://recorder.itopvpn.com/",
+  "description": "iTop Screen Recorder is an intuitive & powerful screen recorder that helps capture all your activities and create videos on your PC."
+},
+{
+  "productName": "Bandicam",
+  "category": "tools",
+  "image": "https://shorturl.at/bBHKU",
+  "link": "https://www.bandicam.com/",
+  "description": "Bandicam is a lightweight screen recorder software for Windows that can capture anything on your PC screen as a high-quality video."
+},
+{
+  "productName": "Cam-Studio",
+  "category": "tools",
+  "image": "https://shorturl.at/gkvR3",
+  "link": "https://camstudio.org/",
+  "description": "CamStudio is a desktop software for Windows computers that can record all on-screen video and audio activity."
+},
+{
+  "productName": "Filmora",
+  "category": "tools",
+  "image": "https://shorturl.at/U2567",
+  "link": "https://filmora.wondershare.com/screen-recorder/",
+  "description": "Capture Screen, Web Camera and Audio, Screen Drawing and Mouse Spotlight & Powerful Video Editor with 100+ Resources"
+},
+{
+  "productName": "ScreenCast-O-Matic",
+  "category": "tools",
+  "image": "https://shorturl.at/invCJ",
+  "link": "https://screenpal.com/",
+  "description": "This screen capture tools help you easily create, edit and communicate with videos and images."
+},
+{
+  "productName": "Camtasia",
+  "category": "tools",
+  "image": "https://shorturl.at/ctHZ1",
+  "link": "https://www.techsmith.com/video-editor.html",
+  "description": "Make professional-quality videos quickly and easily with Camtasia."
+},
+{
+  "productName": "ShareX",
+  "category": "tools",
+  "image": "https://shorturl.at/juDOZ",
+  "link": "https://getsharex.com/",
+  "description": "Screen capture, file sharing and productivity tool"
+},
+{
+  "productName": "klap",
+  "category": "ai",
+  "image": "https://bit.ly/46ssokJ",
+  "link": "https://klap.app/",
+  "description": "Get ready-to-publish TikToks, Reels, Shorts from YouTube videos in a click"
+},
+{
+  "productName": "GoTranscript",
+  "category": "tools",
+  "image": "https://bit.ly/3NyezZt",
+  "link": "https://gotranscript.com/",
+  "description": "Freelance: Transcribe audio and video accurately with GoTranscript."
+},
+{
   "productName": "GradeScope - AI Tool",
   "category": "tools",
   "image": "https://shorturl.at/qEM69",
@@ -2769,5 +2838,89 @@
   "image": "https://bit.ly/44tzK5E",
   "link": "https://filecr.com/",
   "description": "Free download Windows programs, plugins, codecs, drivers, tools, utilities, gaming tools."
+},
+{ 
+  "productName": "CSS Challenges",
+  "category" : "tools",
+  "image": "https://tinyurl.com/3wz68vzy",
+  "link": "https://css-challenges.com/",
+  "description": "CSS Challenges is a resource that offers fun and playful ways to practice your CSS skills."
+},
+{ 
+  "productName": "HANDZ",
+  "category": "tools",
+  "image": "https://shorturl.at/dEFHL",
+  "link": "https://threedeeshop.gumroad.com/l/sGvBh",
+  "description": "A 3D gestures library to create yummy graphic design, you can use them in whatever you want."
+},
+{
+  "productName": "Stable Diffusion",
+  "category": "ai",
+  "image": "https://stablediffusionweb.com/logo.png",
+  "link": "https://stablediffusionweb.com/",
+  "description": "Create beautiful art using stable diffusion ONLINE for free."
+},
+{
+  "productName": "Gulp Extension",
+  "category": "extensions",
+  "image": "https://bit.ly/3XAvEXl",
+  "link": "https://gulpjs.com/",
+  "description": "A toolkit to automate & enhance your workflow"
+},
+{
+  "productName": "Coursera",
+  "category": "courses",
+  "image": "https://bit.ly/3NSYoaG",
+  "link": "https://www.coursera.org/",
+  "description": "Free & paid courses from top universities with financial aid option"  
+},
+{
+  "productName": "Udemy",
+  "category": "courses",
+  "image": "https://bit.ly/3JYgCoT",
+  "link": "https://www.udemy.com/",
+  "description": "Wide range of courses from various industry experts."  
+},
+{
+  "productName": "Edx",
+  "category": "courses",
+  "image": "https://bit.ly/3Nywor8",
+  "link": "https://www.edx.org/",
+  "description": "Free prestigious university courses. Audit for free or pay for a certificate."  
+}, 
+{
+  "productName": "Udacity",
+  "category": "courses",
+  "image": "https://bit.ly/43fzjew",
+  "link": "https://www.udacity.com",
+  "description": "Specializes in offering courses in the field of technology and computer science."  
+}, 
+{
+  "productName": "Khan Academy",
+  "category": "courses",
+  "image": "https://bit.ly/443G6Je",
+  "link": "https://www.khanacademy.org",
+  "description": "A non-profit organization that offers free educational resources and courses for learners of all ages."  
+}, 
+{
+  "productName": "Skillshare",
+  "category": "courses",
+  "image": "https://bit.ly/3NxRKVK",
+  "link": "https://www.skillshare.com",
+  "description": "A platform that primarily focuses on creative skills and offers a wide range of courses in design, photography, writing, and other artistic disciplines."  
+}, 
+{
+  "productName": "LinkedIn Learning",
+  "category": "courses",
+  "image": "https://bit.ly/3NWgMzg",
+  "link": "https://www.linkedin.com/learning/",
+  "description": "Provides a vast library of courses focused on professional development and career advancement."  
+}, 
+{
+  "productName": "Alison",
+  "category": "courses",
+  "image": "https://bit.ly/46q9awl",
+  "link": "https://alison.com/",
+  "description": "A free online learning platform that offers courses in various subjects, including languages, business, health, and more."
 }
 ]
