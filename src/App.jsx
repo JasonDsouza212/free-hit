@@ -1,11 +1,18 @@
-import React, { useState, useEffect, createContext } from 'react'
+import React, {
+  useState,
+  useEffect,
+  createContext,
+  lazy,
+  Suspense,
+} from 'react'
 import { Route, Routes } from 'react-router-dom'
 import Card from './pages/Home'
-import About from './pages/About'
-import BookMarks from './pages/Bookmarks'
-import NotFound from './pages/NotFound'
-import Community from './pages/Community'
-import Layout from './components/Layout'
+const About = lazy(() => import('./pages/About'))
+const BookMarks = lazy(() => import('./pages/Bookmarks'))
+const NotFound = lazy(() => import('./pages/NotFound'))
+const Community = lazy(() => import('./pages/Community'))
+const Layout = lazy(() => import('./components/Layout'))
+import Loader from './components/Loader'
 
 const ToolContext = createContext()
 const LOCAL_STORAGE_KEY = 'freehit.bookmarks'
@@ -15,6 +22,9 @@ function App() {
 
   // all Bookmarks
   const [bookmarks, setBookmarks] = useState([])
+
+  // dark mode
+  const [darkMode, setDarkMode] = useState(localStorage.getItem("darkMode") || false);
 
   // initial Storage
   useEffect(() => {
@@ -27,6 +37,20 @@ function App() {
     localStorage.setItem(LOCAL_STORAGE_KEY, JSON.stringify(bookmarks))
   }, [bookmarks])
 
+  //dark-mode
+  useEffect(() => {
+    const darkmodejson = localStorage.getItem("darkMode")
+    if (darkmodejson != null) setDarkMode(JSON.parse(darkmodejson))
+    // else setDarkMode([])
+  }, [])
+  
+  useEffect(() => {
+    localStorage.setItem("darkMode", JSON.stringify(darkMode))
+  }, [darkMode])
+
+  
+  
+
   // Add bookmark
   function handelBookmarkAdd(bookmark) {
     const newBookmark = {
@@ -38,6 +62,8 @@ function App() {
     }
     setBookmarks([...bookmarks, newBookmark])
   }
+
+  
 
   // Remove Bookmark
   function deleteres(product) {
@@ -53,6 +79,8 @@ function App() {
     deleteres,
     gridView,
     setGridView,
+    darkMode,
+    setDarkMode
   }
 
   return (
@@ -60,18 +88,17 @@ function App() {
       <div className="app">
         <ToolContext.Provider value={toolContextValue}>
           <div className="routes-holder">
-            <Routes>
-              <Route path="/" element={<Layout />}>
-                <Route index element={<Card />} />
-                <Route path="about" element={<About />} />
-                <Route
-                  path="bookmarks"
-                  element={<BookMarks />}
-                />
-                <Route path="community" element={<Community />} />
-                <Route path="*" element={<NotFound />} />
-              </Route>
-            </Routes>
+            <Suspense fallback={Loader}>
+              <Routes>
+                <Route path="/" element={<Layout />}>
+                  <Route index element={<Card />} />
+                  <Route path="about" element={<About />} />
+                  <Route path="bookmarks" element={<BookMarks />} />
+                  <Route path="community" element={<Community />} />
+                  <Route path="*" element={<NotFound />} />
+                </Route>
+              </Routes>
+            </Suspense>
           </div>
         </ToolContext.Provider>
       </div>

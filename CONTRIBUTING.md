@@ -1,28 +1,6 @@
 # 🪛 Want to contribute?
 
 We welcome you to join us!
-
-- **Free-Hit** is an open-source project, and we are excited to hear your thoughts and ideas.
-- Fork this repository,add your contributions and submit a PR.
-- Found a bug? Accessibility issue? Or do you want to add a new tool to our database? Then go right ahead and create an issue.
-
-# 🛠️ Tech Stack
-
-This project uses: <br><br>
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-![PNPM](https://img.shields.io/badge/pnpm-%2320232a.svg?style=for-the-badge&logo=pnpm&logoColor=%2361DAFB)
-![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
-![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
-
-## Prerequisites
-
-Before installation, you need to have installed/knowledge of the following:
-<br><br>
-![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
-![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
-
-## STAR THE REPO
-
 ### How to Contribute to this repository
 
 1. Fork the repository (Click the Fork button in the top right of this page,
@@ -99,19 +77,13 @@ git remote add upstream https://github.com/JasonDsouza212/free-hit.git
 git push
 ```
 
-### NOTE
-
-- Make Sure you commit your changes in a new branch.
-- Make Sure you Give proper name to your files describing the addition.
-- Also Make Sure you comment your code wherever necessary.
-- While adding new images, add only in WebP format to ensure improved website performance and faster loading time
-
-<div align="center">
-Show some ❤️ by starring this awesome repository!
-</div>
-
-## ✨ Contributors
-
-<a href="https://github.com/jasondsouza212/free-hit/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=jasondsouza212/free-hit" />
-</a>
+7. Create a new pull request from your forked repository (Click the `New Pull Request` button located at the top of your repo)
+### How to Create a PR
+1. After you push the changes you need to create a pull request and name the issue and mention the issue number,
+eg: chore: added tool #issuenumber
+2. The tags which can be used for url submission are as follows:
+fix: , feat: , docs: , test: , chore: , ci: , perf: , refactor: , revert: , style: , data:
+3. Put an x between the braces to select the keypoint and leave a space if you don't want to select it.
+eg: [x] I foolow the contribution guidelines.
+8. Wait for your PR review and merge approval!
+9. **Star this repository** if you had fun contributing!

@@ -1,3 +1,4 @@
+
 import React, { useContext } from 'react'
 import Header from '../components/Navbar'
 import { ToolContext } from '../App'
@@ -10,6 +11,7 @@ import GridView from '../components/Card/GridView'
 import ListView from '../components/Card/ListView'
 import { BsFillGridFill, BsListUl } from 'react-icons/bs'
 import { useState } from 'react'
+
 
 const BookMarks = () => {
   const [gridView, setGridView] = useState(true)
@@ -35,8 +37,10 @@ const BookMarks = () => {
     currentProducts = currentProducts.filter(product => product.productName == filterNames[0])  
   }
 
+  const { darkMode } = useContext(ToolContext);
+
   return ( 
-    <div className="card_container">
+    <div className={`card_container ${darkMode ? 'dark-mode' : ''}`}>
       <Header filteredSuggestions={filterNames} />
       <div className="card_view">
         <BsFillGridFill
@@ -53,17 +57,19 @@ const BookMarks = () => {
       <div className="card-container">
         {currentProducts.length === 0 ? (
           <div className="not-found-wrapper">
-            <p className="no-results">Sorry, no BookMarks in sight!</p>
+            <p className={`no-results ${darkMode ? 'dark-mode' : ''}`}>Sorry, no BookMarks in sight!</p>
             <img className="not-found-img" src={noresultimg} alt="no bookmarks" />
           </div>
         ) : (
           <>
             {filteredProducts.length > 0 ? (
+
               gridView ? (
                 <GridView currentProducts={currentProducts} />
               ) : (
                 <ListView currentProducts={currentProducts} />
               )
+
             ) : (
               <p className="no-results">
                 There are no bookmarks

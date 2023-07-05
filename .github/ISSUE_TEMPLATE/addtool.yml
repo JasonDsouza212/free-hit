@@ -1,0 +1,32 @@
+name: 🛠️ Adding tool
+description: Add tool to DB
+title: '[Adding Tool]: '
+labels: ['Add tool','good first issue']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this Tool update template!
+  - type: textarea
+    id: add-tool
+    attributes:
+      label: What tool are you adding and to what category?
+      placeholder: Add tool and specify its category
+      value: 'We need to add'
+    validations:
+      required: true
+  - type: textarea
+    id: link
+    attributes:
+      label: Add Tool Link
+      description: Add the tool link that you are planning to add and also specify if it's free
+      placeholder: Add tool link
+      value: 'Add tool link'
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our Code of Conduct
+      options:
+        - label: I agree to follow this project's Code of Conduct
+        - label: The tool is free for use

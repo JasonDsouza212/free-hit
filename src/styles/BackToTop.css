@@ -23,14 +23,47 @@
   cursor: pointer;
   color: white;
   background-color: #1f1f1f;
+  animation:animate 4s alternate infinite;
 }
+
+@keyframes animate{
+  0%,100%{
+    transform: translateY(0px);
+  }
+  50%{
+    transform: translateY(10px);
+  }
+}
+
+.backToTopButton:hover{
+  opacity:90%;
+  box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+}
+
 .backToTopButton i {
   font-size: 24px;
 }
 
+/* .backToTopButton .button.dark-mode{
+  color: #1f1f1f;
+  background-color: white;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 9999px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+} */
+
 .transition-after:hover {
   transform: scale(1.1);
 }
+
+/* .top .button.dark-mode{
+  background-color:white;
+  color:white;
+} */
 
 @media (min-width: 768px) {
   .backToTopButton {

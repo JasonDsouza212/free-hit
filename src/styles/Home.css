@@ -37,6 +37,38 @@ body {
   cursor: pointer;
 }
 
+.dark-mode-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+  color: var(--primary-black);
+  transition: color 0.3s;
+}
+
+.dark-mode-toggle:hover {
+  color: #000;
+}
+
+.dark-mode-toggle:focus {
+  outline: none;
+}
+
+.dark-mode .dark-mode-toggle {
+  color: var(--primary-white);
+}
+
+.dark-mode .dark-mode-toggle .sun {
+  display: inline;
+}
+
+.dark-mode .dark-mode-toggle .moon {
+  display: none;
+}
+
 @media (min-width: 768px) {
   .card_view {
     margin-top: 20px;
@@ -57,7 +89,7 @@ body {
   margin-top: 1rem;
 }
 
-.grid > article {
+.grid>article {
   position: relative;
   min-height: 220px;
   max-width: 350px;
@@ -71,7 +103,7 @@ body {
   transition: all 0.3s;
 }
 
-.grid > article:hover {
+.grid>article:hover {
   box-shadow: 6px 6px 0px 0px var(--primary-black);
   transform: scale(1.02);
 }
@@ -82,7 +114,7 @@ img {
   border-radius: 10px;
 }
 
-.grid > article .btn-cont {
+.grid>article .btn-cont {
   margin-top: 2rem;
   display: flex;
   justify-content: center;
@@ -96,8 +128,12 @@ img {
   height: 60px;
   overflow: hidden;
   display: -webkit-box;
-  -webkit-box-orient: vertical;  
+  -webkit-box-orient: vertical;
   -webkit-line-clamp: 3;
+}
+
+.grid article p.dark-mode {
+  color: white;
 }
 
 .grid article .text_top {
@@ -112,7 +148,18 @@ img {
   font-weight: 600;
   line-height: 24px;
   text-align: left;
+
 }
+
+/* .card-img {
+  transition: .5s;
+}
+
+.text_top:hover .card-img {
+  transform: scale(1.1);
+  box-shadow: 4px 5px 8px rgba(0, 0, 0, 0.447);
+
+} */
 
 .btn-cont button {
   background-color: var(--primary-black);
@@ -120,6 +167,7 @@ img {
   border-radius: 8px;
   margin: 2px;
   transition: all 0.3s ease;
+  color: var(--primary-white);
 }
 
 .btn-cont button a {
@@ -148,6 +196,7 @@ img {
   cursor: pointer;
 }
 
+
 .no-results {
   font-size: 2rem;
   font-weight: bold;
@@ -170,4 +219,43 @@ img {
   align-items: center;
   width: 100%;
 }
+
 /* card end */
+
+/* Dark Mode Styles */
+
+.dark-mode {
+  --primary-white: #373530;
+  --primary-black: #f1f1ef;
+}
+
+.dark-mode .card_container {
+  background-color: var(--primary-white);
+  color: var(--primary-black);
+}
+
+.dark-mode .card_view svg {
+  /* fill: var(--primary-white); */
+  color: var(--primary-white);
+}
+
+.dark-mode .no-results {
+  color: var(--primary-white);
+}
+
+.dark-mode .not-found-wrapper {
+  border: 1px solid var(--primary-white);
+}
+
+.dark-mode .not-found-wrapper .not-found-img {
+  filter: invert(1);
+}
+
+.dark-mode .visit {
+  background-color: var(--primary-black);
+  color: var(--primary-white);
+}
+
+.card_container .card-container .not-found-wrapper .no-results.dark-mode {
+  color: white;
+}
