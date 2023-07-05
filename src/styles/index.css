@@ -49,36 +49,15 @@ body {
 
 /* ===============================1560 media query */
 @media screen and (max-width: 1560px) {
-  .about {
-    margin: 50px 100px;
-  }
-
-  .about .ab2 p {
-    position: relative;
-    top: 70px;
-  }
+ 
 }
 
 /* ===============================1480 media query */
 @media screen and (max-width: 1480px) {
-  .about {
-    margin: 50px 100px;
-    padding-left: 10px;
-    padding-right: 10px;
+  .about{
+    margin: 50px 50px;
   }
 
-  .about .ab1 p {
-    top: 90px;
-  }
-
-  .about .ab2 p {
-    top: 80px;
-  }
-
-  .about .ab1 p {
-    margin-right: 50px;
-    top: 100px;
-  }
 }
 
 /* ===============================1420 media query */
@@ -90,33 +69,7 @@ body {
 
 /* ===============================1370 media query */
 @media screen and (max-width: 1370px) {
-  .about {
-    margin: 50px 100px;
-    padding-left: 100px;
-    padding-right: 100px;
-  }
 
-  .about .ab2 {
-    width: 100%;
-  }
-
-  .about .ab1 {
-    width: 100%;
-  }
-
-  .about .ab2 p {
-    margin-left: 50px;
-    position: relative;
-    top: 50px;
-    font-size: 28px;
-  }
-
-  .about .ab1 p {
-    margin-right: 90px;
-    position: relative;
-    top: 100px;
-    font-size: 28px;
-  }
 }
 
 /* ===============================1320 media query */
@@ -124,14 +77,33 @@ body {
   .pages {
     display: none;
   }
+  .about .ab1 p
+  {
+    margin:0 !important;
+  }
+  .about .ab2 p
+  {
+    margin:0 !important;
+  }
 }
 
 /* ===============================1200 media query */
 @media screen and (max-width: 1200px) {
-  .about {
-    margin: 50px 30px;
-    padding-left: 0px;
-    padding-right: 0px;
+  .ab1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center !important; 
+    padding:0;
+    margin:0;
+  }
+  .ab2{
+    padding:0;
+    margin:0;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center !important;
+    align-items: center !important;
   }
 }
 
@@ -154,11 +126,6 @@ body {
     top: 8px;
   }
 
-  .about {
-    margin: 50px 30px;
-    padding-left: 0px;
-    padding-right: 0px;
-  }
 
   .boomark-title {
     font-size: 40px;
@@ -177,10 +144,6 @@ body {
     top: -1px;
   }
 
-  .about .ab2 img {
-    position: relative;
-    top: 10%;
-  }
 }
 
 /* ===============================900px media query */
@@ -188,12 +151,12 @@ body {
   .team-content {
     grid-template-columns: repeat(2, minmax(130px, auto));
   }
+  .about{
+  margin:15px 10px !important;
+    padding:30px !important;
 
-  .about {
-    margin: 5px 10px;
-    padding-left: 0px;
-    padding-right: 0px;
   }
+
 }
 
 /* ===============================799 media query */
@@ -203,27 +166,9 @@ body {
   }
 
   .free-logo {
-    /* margin-left: 15px; */
     bottom: 10px;
   }
 
-  .about .ab1 p {
-    margin-right: 8px;
-    font-size: 28px;
-    top: 20%;
-  }
-
-  .about {
-    margin: 5px 10px;
-    padding-left: 5px;
-    padding-right: 5px;
-  }
-
-  .about .ab2 p {
-    margin-left: 8px;
-    font-size: 28px;
-    top: 10%;
-  }
 
   .grid {
     grid-template-columns: repeat(2, minmax(300px, auto));
@@ -240,28 +185,6 @@ body {
     top: -1px;
   }
 
-  .about .ab1 p {
-    margin-right: 10px;
-    font-size: 24px;
-    top: 20%;
-  }
-
-  .about .ab2 p {
-    margin-left: 30px;
-    font-size: 24px;
-    font-weight: 550;
-    top: 10%;
-  }
-
-  .about img {
-    width: 350px;
-    height: 350px;
-  }
-
-  .about .ab2 img {
-    position: relative;
-    top: 20%;
-  }
 
   .team-content {
     grid-template-columns: repeat(2, minmax(120px, auto));
@@ -287,17 +210,6 @@ body {
     height: 350px;
   }
 
-  .about .ab1 p {
-    margin-right: 15px;
-    font-size: 28px;
-    top: 10%;
-  }
-
-  .about .ab2 p {
-    margin-left: 15px;
-    font-size: 28px;
-    top: 10%;
-  }
 
   .grid {
     grid-template-columns: repeat(auto-fit, minmax(280px, auto));
@@ -320,39 +232,28 @@ body {
 
   .about {
     margin: 0px 0px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding:0 !important;
   }
 
-  .about .ab1 {
-    flex-direction: column;
-    margin-bottom: 40px;
-  }
+  .about .ab1 p{
+    margin-top:35px;
+    word-wrap: break-word !important;
 
-  .about .ab2 {
-    flex-direction: column;
-    margin-right: 100px;
+    font-size:32px !important;
   }
+  
+.bold {
+  font-size: 28px !important;
+  font-weight: bold;
+}
 
-  .about .ab1 p {
-    margin-right: 10px;
-    font-size: 28px;
-    bottom: 500px;
-    padding: 40px;
-  }
 
   .about .ab1 img {
     margin-top: 50px;
     margin-left: 13%;
   }
 
-  .about .ab2 p {
-    margin-left: 0px;
-    font-size: 28px;
-    top: 0%;
-    padding: 40px;
-  }
-
+  
   .about .ab2 img {
     margin-top: 0px;
     margin-left: 15%;
@@ -374,11 +275,7 @@ body {
     padding: 0 25%;
   }
 
-  .about {
-    position: relative;
-    top: -80px;
-  }
-
+  
   .backToTopButton {
     position: fixed;
     z-index: 50;
@@ -416,36 +313,12 @@ body {
 
 /* ===============================450 media query */
 @media screen and (max-width: 451px) {
-  .about {
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-
-  .about .ab1 {
-    margin-bottom: 40px;
-  }
-
-  .about .ab2 {
-    margin-right: 0px;
-  }
-
-  .about .ab1 p {
-    font-size: 28px;
-    bottom: 500px;
-    padding: 30px;
-  }
 
   .about .ab1 img {
     margin-top: 50px;
     margin-left: 1%;
   }
 
-  .about .ab2 p {
-    margin-left: 0px;
-    font-size: 28px;
-    top: 0%;
-    padding: 30px;
-  }
 
   .about .ab2 img {
     margin-top: 0px;
@@ -548,41 +421,13 @@ body {
     border-radius: 50%;
   }
 
-  .about {
-    position: relative;
-    top: -60px;
-  }
-
-  .about .ab1 {
-    display: flex;
-  }
-
-  .about .ab2 {
-    margin-right: 0px;
-  }
-
-  .about .ab1 p {
-    margin-right: 0px;
-    font-size: 24px;
-    bottom: 500px;
-    padding-left: 40px;
-    padding-right: 40px;
-  }
-
+ 
   .about .ab1 img {
     margin-top: 50px;
     height: 330px;
     width: 330px;
   }
 
-  .about .ab2 p {
-    margin-left: 0px;
-    font-size: 24px;
-    font-weight: 550;
-    top: 0%;
-    padding-left: 40px;
-    padding-right: 40px;
-  }
 
   .about .ab2 img {
     margin-top: 0px;

@@ -24,9 +24,10 @@ body {
   display: grid;
   justify-content: center;
   margin: 100px 100px;
-  padding-left: 150px;
-  padding-right: 150px;
+  padding: 80px;
+ 
   background-color: white;
+ 
 }
 
 .about.dark-mode{
@@ -43,14 +44,16 @@ body {
 
 .about .ab1 {
   display: flex;
+  align-items:center;
   margin-bottom: 40px;
+ 
+
 }
 
 .about .ab1 p {
   margin-right: 100px;
   font-size: 32px;
   font-weight: 550;
-  position: relative;
   line-height: 33px;
   top: 30%;
   font-family: 'Josefin Slab', serif;
@@ -58,18 +61,21 @@ body {
 
 .about .ab2 {
   display: flex;
+  align-items:center;
   margin-bottom: 100px;
+ 
 }
 
 .about .ab2 p {
   margin-left: 100px;
   font-size: 32px;
   font-weight: 550;
-  position: relative;
   top: 10%;
   line-height: 33px;
   font-family: 'Josefin Slab', serif;
+ 
 }
+
 
 .about p button {
   background-color: var(--primary-black);
@@ -93,7 +99,6 @@ body {
 }
 
 
-
 .about img {
   width: 400px;
   height: 400px;
@@ -107,5 +112,3 @@ body {
   font-size: 40px;
   font-weight: bolder;
 }
-
-/* about end */
