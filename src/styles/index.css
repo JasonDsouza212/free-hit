@@ -144,6 +144,14 @@ body {
     top: -1px;
   }
 
+<<<<<<< HEAD
+=======
+  .about .ab2 img {
+    position: relative;
+    top: 10%;
+  }
+
+>>>>>>> refs/remotes/origin/main
 }
 
 /* ===============================900px media query */
@@ -155,6 +163,22 @@ body {
   margin:15px 10px !important;
     padding:30px !important;
 
+<<<<<<< HEAD
+=======
+  .about {
+    margin: 5px 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+    
+  }
+  .ab1{
+    position: relative;
+    top:20px
+  }
+  .team{
+    position: relative;
+    bottom: 20px;
+>>>>>>> refs/remotes/origin/main
   }
 
 }
@@ -275,7 +299,15 @@ body {
     padding: 0 25%;
   }
 
+<<<<<<< HEAD
   
+=======
+  .about {
+    position: relative;
+    top: -50px;
+  }
+
+>>>>>>> refs/remotes/origin/main
   .backToTopButton {
     position: fixed;
     z-index: 50;
@@ -391,6 +423,17 @@ body {
     width: 368px;
     height: 368px;
 }
+.about {
+  position: relative;
+  top: -50px;
+}
+.team .center h1.dark-mode{
+  position: relative;
+  top:50px;
+}
+.team{
+  position: relative;
+}
   
 }
 
@@ -421,7 +464,31 @@ body {
     border-radius: 50%;
   }
 
+<<<<<<< HEAD
  
+=======
+  .about {
+    position: relative;
+    top: 60px;
+  }
+
+  .about .ab1 {
+    display: flex;
+  }
+
+  .about .ab2 {
+    margin-right: 0px;
+  }
+
+  .about .ab1 p {
+    margin-right: 0px;
+    font-size: 24px;
+    bottom: 500px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+>>>>>>> refs/remotes/origin/main
   .about .ab1 img {
     margin-top: 50px;
     height: 330px;
