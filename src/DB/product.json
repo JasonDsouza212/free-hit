@@ -1777,6 +1777,13 @@
   "image": "http://bit.ly/3X19kpw",
   "link": "https://uiverse.io/",
   "description": "Discover and customize free, open-source CSS and HTML UI elements, through this tool"
+},
+{
+  "productName":"freeCodeCamp",
+  "category":"web",
+  "image":"https://rb.gy/6n2tu",
+  "link":"https://www.freecodecamp.org/",
+  "description":"Learn to code — for free.Build projects.Earn certifications."
 }
 ]
 
