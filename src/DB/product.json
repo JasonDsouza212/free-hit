@@ -2645,8 +2645,8 @@
   "description": "Save time and money while shopping online with automatic coupon searches and price comparisons."
 },
 {
-  "productName": "Algorithms for Competitive Programming",
-  "category" : "coding",
+  "productName": "CP Algorithms",
+  "category": "coding",
   "image": "bit.ly/44s0C61",
   "link": "https://cp-algorithms.com/",
   "description": "Website where all the algorithm related to competitive programming is present."
