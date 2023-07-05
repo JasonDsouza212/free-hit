@@ -25,9 +25,6 @@ cd free-hit
 3. Install the project dependencies using PNPM:
 pnpm install
 
-If PNPM is not installed, you can install it using npm:
-npm install -g pnpm
-
 4. Start the Vite development server:
 pnpm run dev
 
