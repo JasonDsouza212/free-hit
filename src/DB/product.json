@@ -1885,6 +1885,13 @@
   "description": "Free and open source font families."
 },
 {
+  "productName": "Docker",
+  "category": "tools",
+  "image": "https://images.csmonitor.com/csm/2015/05/docker-logo.jpg?alias=standard_900x600",
+  "link": "https://www.docker.com/",
+  "description": "Docker is an open source platform that enables developers to build, deploy, run, update and manage containers."
+},
+{
   "productName": "StackBlitz",
   "category": "Online Code Editor",
   "image": "https://avatars.githubusercontent.com/u/28635252?s=200&v=4",
