@@ -2882,6 +2882,13 @@
   "description": "A 3D gestures library to create yummy graphic design, you can use them in whatever you want."
 },
 {
+  "productName": "BlueWillow",
+  "category": "ai",
+  "image": "https://bit.ly/439wk7g",
+  "link": "https://www.bluewillow.ai/",
+  "description": "From logos and characters to digital artwork and photos,  just describe the image you want"
+},
+{
   "productName": "Stable Diffusion",
   "category": "ai",
   "image": "https://stablediffusionweb.com/logo.png",
