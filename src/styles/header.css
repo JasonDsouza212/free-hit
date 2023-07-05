@@ -37,14 +37,14 @@ nav {
 
 @media screen and (max-width: 360px) {
   .nav-container {
-    float: left;
+    /* float: left; */
   }
 }
 
 /* side navbar start */
 .wrapper {
   height: 100%;
-  width: 80px;
+  width: 73px;
   position: relative;
   top: -48px;
 }
@@ -372,8 +372,9 @@ nav {
   /* margin-top: 8px; */
   
   width: 220px;
-  height: 95%;
+  height: 55px;
   margin-right: 10px;
+  margin-top: 4px;
 }
 .mobile-logo {
   display: none;
@@ -384,10 +385,10 @@ nav {
       display: none;
     }
     .mobile-logo{
-      margin-top: 9px;
+      margin-top: 8px;
       display: flex;
-      width: 45px;
-      height: 45px;
+      width: 46px;
+      height: 46px;
     }
     .mobile-logo.dark-mode{
       border: 2px solid white;

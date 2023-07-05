@@ -476,10 +476,17 @@ body {
   }
 
   .wrapper .menu-btn {
-    left: 10px;
+    /* left: 10px; */
     top: 65px;
-    height: 40px;
-    width: 40px;
+    height: 42px;
+    width: 42px;
+  }
+
+  .mobile-logo{
+    margin-top: 13px;
+    display: flex;
+    width: 42px;
+    height: 42px;
   }
 
   .Free-Hit {
