@@ -9,5 +9,6 @@ export const allFilters = [
   'ui',
   'web',
   'coding',
+  'courses',
   'tools',
 ]
