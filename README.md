@@ -12,6 +12,27 @@ Free-Hit is an web application that is used to search for free tools that are bo
 - [Vite](https://vitejs.dev) - Vite is a build tool that aims to provide a faster and leaner development experience for modern web projects.
 - [PNPM](https://pnpm.io) - PNPM is a fast, disk space efficient package manager that helps to fetch packages from the registry.
 
+## 🏃‍♂️ Running Locally
+
+Follow these steps to run the project locally:
+
+1. Clone the repository to your local machine:
+git clone https://github.com/JasonDsouza212/free-hit.git
+
+2. Navigate to the project's directory:
+cd free-hit
+
+3. Install the project dependencies using PNPM:
+pnpm install
+
+If PNPM is not installed, you can install it using npm:
+npm install -g pnpm
+
+4. Start the Vite development server:
+pnpm run dev
+
+The application should now be running on [localhost:3000](http://localhost:3000) or the port provided in the console.
+
 ## 🚀 Quick start
 
 Contributions are welcome! If you have any ideas, suggestions, or bug fixes, please open an issue or submit a pull request. Make sure to follow the project's code of conduct.
