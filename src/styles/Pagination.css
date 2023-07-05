@@ -48,3 +48,17 @@
 
   background-color: var(--primary-white);
 } */
+@media screen and (max-width: 550px) {
+  .paginate-nav{
+    font-size: 15px;
+    margin-top: 4px;
+  }
+  .paginate-button {
+   
+    border: 1px solid var(--primary-black);
+    margin: 5px;
+    margin-left: 4px;
+    padding: 0px 6px;
+    border-radius: 4px;
+  }
+}
