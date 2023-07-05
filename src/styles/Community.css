@@ -15,9 +15,11 @@
   font-size: 2rem;
 }
 
-.contributors-list {
+.all .contributors-list{
+  position: relative;
   list-style: none;
-  padding: 5px;
+  margin: 0 auto;
+  padding: 15px;
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -54,7 +56,7 @@
   box-shadow: 0px -1px 26px 0px rgba(0.59);
   -webkit-box-shadow: 0px -1px 26px 0px rgba(0.59);
   -moz-box-shadow: 0px -1px 26px 0px rgba(0.59);
-  transform: scale(1.2);
+  transform: scale(1.08);
 }
 
 .contributors-list .contributor-anchor .contributor-image {
@@ -72,18 +74,23 @@
 
 .username {
   text-align: center;
-  font-size: 15px;
-  margin-top: 8px;
+  font-size: 14px;
+  margin-top: 6px;
+  font-weight: 600;
   font-family: 'Poppins', sans-serif;
+  width: 8.5vw;
 }
 .contributions {
   text-align: center;
   font-size: 15px;
   font-weight: 400;
 }
-
+.all .contributor-image.dark-mode{
+  border:5px solid white;
+  border-radius: 50px;
+}
 @media screen and (max-width: 1024px) {
-  .contributors-list {
+  .all .contributors-list {
     grid-gap: 2rem;
   }
 
@@ -98,19 +105,45 @@
     width: 90px;
   }
   .username {
-    font-size: 10px;
+    font-size: 13.5px;
+    width: 16vw;
+    font-weight: 600;
   }
 }
 
-@media screen and (max-width: 568px) {
-  .contributors-list {
+@media screen and (min-width: 360px) and (max-width: 539px) {
+  .all .contributors-list {
     width: 100%;
     grid-gap: 1rem;
   }
 
   .contributors-list .contributor-anchor {
+    width: 70px;
+    height: 70px;
+    border-radius: 80px;
+  }
+
+  .contributors-list .contributor-anchor .contributor-image {
     width: 80px;
-    height: 80px;
+  }
+  .username {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    width: 40vw;
+  }
+}
+
+@media screen and (min-width: 540px) and (max-width: 568px) {
+  .all .contributors-list {
+    width: 100%;
+    grid-gap: 1rem;
+  }
+
+  .contributors-list .contributor-anchor {
+    width: 70px;
+    height: 70px;
     border-radius: 80px;
   }
 
@@ -120,6 +153,22 @@
   .username {
     text-align: center;
     font-size: 15px;
+    font-weight: 600;
     font-family: 'Poppins', sans-serif;
+    width: 30vw;
+  }
+}
+
+@media screen and (max-width: 359px) {
+  .username {
+    font-size: 13px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    width: 50vw;
+    text-align: center;
+  }
+  .all .contributors-list {
+    width: 100%;
+    grid-gap: 1rem;
   }
 }

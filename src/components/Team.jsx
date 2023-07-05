@@ -1,7 +1,7 @@
-import con1 from '../assets/4.png'
-import con2 from '../assets/1.png'
-import con3 from '../assets/3.png'
-import con4 from '../assets/coworking.png'
+import con2 from '../assets/con4.webp'
+import con1 from '../assets/con1.webp'
+import con3 from '../assets/con3.webp'
+import con4 from '../assets/coworking.webp'
 import { useNavigate } from 'react-router-dom'
 import '../styles/Team.css'
 import {useContext} from 'react'
@@ -18,7 +18,7 @@ const Team = () => {
 
       <div className={`team-content ${darkMode ? 'dark-mode' : ''}`}>
         <div className={`box ${darkMode ? 'dark-mode' : ''}`}>
-          <img src={con1} className={`image ${darkMode ? 'dark-mode' : ''}`}/>
+          <img src={con2} className={`image ${darkMode ? 'dark-mode' : ''}`}/>
           <h3 className={darkMode ? 'dark-mode' : ''}>Abhishek K</h3>
           <h5 className={darkMode ? 'dark-mode' : ''}>Designer</h5>
           <div className={`icons ${darkMode ? 'dark-mode' : ''}`}>
@@ -37,7 +37,7 @@ const Team = () => {
           </div>
         </div>
         <div className={`box ${darkMode ? 'dark-mode' : ''}`}>
-          <img src={con2} className={`image ${darkMode ? 'dark-mode' : ''}`}/>
+          <img src={con1} className={`image ${darkMode ? 'dark-mode' : ''}`}/>
           <h3 className={darkMode ? 'dark-mode' : ''}
                   activeclassname="active">Priyankar</h3>
           <h5 className={darkMode ? 'dark-mode' : ''}
