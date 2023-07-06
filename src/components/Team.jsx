@@ -8,7 +8,7 @@ import {useContext} from 'react'
 import {ToolContext} from '../App'
 
 const Team = () => {
-  const {darkMode} = useContext(ToolContext)
+  const { darkMode } = useContext(ToolContext);
   const navigate = useNavigate()
   return (
     <section className={`team ${darkMode ? 'dark-mode' : ''}`}>

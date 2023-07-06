@@ -1,40 +1,30 @@
-import React, { useState, useEffect, createContext, lazy, Suspense } from 'react'
+import React, {
+  useState,
+  useEffect,
+  createContext,
+  lazy,
+  Suspense,
+} from 'react'
 import { Route, Routes } from 'react-router-dom'
-import Footer from './components/Footer'
-import products from './DB/product.json'
-import BackToTopButton from './components/BackToTop'
-import searchProducts from './utils/search/search_products'
-import Loader from './components/Loader'
-
-// Lazy Import
-const Card = lazy(() => import('./pages/Home'))
+import Card from './pages/Home'
 const About = lazy(() => import('./pages/About'))
 const BookMarks = lazy(() => import('./pages/Bookmarks'))
 const NotFound = lazy(() => import('./pages/NotFound'))
 const Community = lazy(() => import('./pages/Community'))
+const Layout = lazy(() => import('./components/Layout'))
+import Loader from './components/Loader'
 
 const ToolContext = createContext()
 const LOCAL_STORAGE_KEY = 'freehit.bookmarks'
 
 function App() {
-  const [searchTerm, setSearchTerm] = useState('')
   const [gridView, setGridView] = useState(true)
-
-  // all products
-  const [productNames, setProductNames] = useState(
-    products?.map((product) => product.productName) || []
-  )
-  const [filteredSuggestions, setFilteredSuggestions] = useState([])
 
   // all Bookmarks
   const [bookmarks, setBookmarks] = useState([])
 
-  // for menu bar close and open
-  const [isMenuActive, setIsMenuActive] = useState(true)
-
-  const [boomarkNames, setBookmarkNames] = useState(
-    bookmarks?.map((bookmark) => bookmark.productName) || []
-  )
+  // dark mode
+  const [darkMode, setDarkMode] = useState(localStorage.getItem("darkMode") || false);
 
   // initial Storage
   useEffect(() => {
@@ -46,6 +36,20 @@ function App() {
   useEffect(() => {
     localStorage.setItem(LOCAL_STORAGE_KEY, JSON.stringify(bookmarks))
   }, [bookmarks])
+
+  //dark-mode
+  useEffect(() => {
+    const darkmodejson = localStorage.getItem("darkMode")
+    if (darkmodejson != null) setDarkMode(JSON.parse(darkmodejson))
+    // else setDarkMode([])
+  }, [])
+  
+  useEffect(() => {
+    localStorage.setItem("darkMode", JSON.stringify(darkMode))
+  }, [darkMode])
+
+  
+  
 
   // Add bookmark
   function handelBookmarkAdd(bookmark) {
@@ -59,27 +63,7 @@ function App() {
     setBookmarks([...bookmarks, newBookmark])
   }
 
-  // Search filter methods
-  useEffect(() => {
-    // Checks if the search term have a word
-    if (searchTerm.length > 1) {
-      // This filters out the names that starts with the given search term.
-      const filterNames = productNames.filter((productName) =>
-        productName.toLowerCase().startsWith(searchTerm.toLowerCase())
-      )
-
-      // the array containing the filtered words gets sorted.
-      const sortedProductNames = filterNames.sort()
-      setFilteredSuggestions(sortedProductNames)
-    } else {
-      setFilteredSuggestions([])
-    }
-  }, [searchTerm, productNames, boomarkNames])
-
-  // filtering methods
-  const filteredProducts = searchProducts(products, searchTerm);
-
-  const bookmarkfilteredProducts = searchProducts(bookmarks, searchTerm)
+  
 
   // Remove Bookmark
   function deleteres(product) {
@@ -90,35 +74,35 @@ function App() {
 
   // values to pass to context hook s
   const toolContextValue = {
-    filteredProducts,
-    searchTerm,
-    setSearchTerm,
     handelBookmarkAdd,
     bookmarks,
     deleteres,
-    filteredSuggestions,
-    bookmarkfilteredProducts,
     gridView,
     setGridView,
+    darkMode,
+    setDarkMode
   }
 
   return (
-    <Suspense fallback={<Loader/>}>
-      <ToolContext.Provider value={toolContextValue}>
-        <Routes>
-          <Route path="/" element={<Card length={filteredProducts.length} />} />
-          <Route path="/about" element={<About />} />
-          <Route
-            path="/bookmarks"
-            element={<BookMarks length={bookmarkfilteredProducts.length} />}
-          />
-          <Route path="/community" element={<Community />} />
-          <Route path="*" element={<NotFound />} />
-        </Routes>
-        <Footer />
-        <BackToTopButton />
-      </ToolContext.Provider>
-    </Suspense>
+    <>
+      <div className="app">
+        <ToolContext.Provider value={toolContextValue}>
+          <div className="routes-holder">
+            <Suspense fallback={Loader}>
+              <Routes>
+                <Route path="/" element={<Layout />}>
+                  <Route index element={<Card />} />
+                  <Route path="about" element={<About />} />
+                  <Route path="bookmarks" element={<BookMarks />} />
+                  <Route path="community" element={<Community />} />
+                  <Route path="*" element={<NotFound />} />
+                </Route>
+              </Routes>
+            </Suspense>
+          </div>
+        </ToolContext.Provider>
+      </div>
+    </>
   )
 }
 
