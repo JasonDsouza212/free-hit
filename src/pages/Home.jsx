@@ -20,8 +20,7 @@ const Card = () => {
   const {
     gridView,
     setGridView,
-    darkMode,
-    setDarkMode
+    darkMode
   } = useContext(ToolContext)
 
 
@@ -58,14 +57,6 @@ const Card = () => {
     currentProducts = currentProducts.slice(firstProductIndex, lastProductIndex)
   }
 
-  // darkmode function
-  const toggleDarkMode = () => {
-    setDarkMode(!darkMode);
-
-    // Changing the nav bar theme during toggle
-    document.querySelector('meta[name="theme-color"]').setAttribute('content', darkMode ? '#373530' : '#f1f1ef');
-  };
-
   return (
     <div className={`card_container ${darkMode ? 'dark-mode' : ''}`}>
       <Header filteredSuggestions={filterNames} />
@@ -82,17 +73,6 @@ const Card = () => {
           size={28}
           color={gridView ? "#9E9E9E" : "#212121"}
         />
-        <button className={`dark-mode-toggle ${darkMode ? 'dark-mode' : ''}`} onClick={toggleDarkMode}>
-          {darkMode ? (
-            <span className="icon" role="img" aria-label="moon">
-              🌙
-            </span>
-          ) : (
-            <span className="icon" role="img" aria-label="sun">
-              ☀️
-            </span>
-          )}
-        </button>
 
       </div>
       <div className="card-container">
