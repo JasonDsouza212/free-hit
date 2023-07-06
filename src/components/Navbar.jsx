@@ -1,12 +1,15 @@
 import React, {useEffect, useRef } from 'react'
 import { FaSearch } from 'react-icons/fa'
-import freehitlogo from '../assets/free-logo.webp'
+import freehitlogo from '../assets/logo.png'
+import freehitlogodark from '../assets/darkmode-logo.png'
 import { useLocation } from 'react-router-dom'
 import { NavLink, useSearchParams } from "react-router-dom"
 import "../styles/header.css"
 import Sidebar from './Sidebar'
 import { ToolContext } from '../App';
 import { useContext } from 'react';
+import mobilelogo from '../assets/mobileview.png'
+
 
 const Header = ({ filteredSuggestions }) => {
   const [searchParams, setSearchParams] = useSearchParams()
@@ -50,11 +53,19 @@ const Header = ({ filteredSuggestions }) => {
       <div className={`nav-container ${darkMode ? 'dark-mode' : ''}`} ref={sideNavRef}>
         <Sidebar />
         <h1 className={`Free-Hit ${darkMode ? 'dark-mode' : ''}`}>
-          <NavLink to="/about">
-            <img className={`free-logo ${darkMode ? 'dark-mode' : ''}`} src={freehitlogo} alt="logo" />
+          <NavLink to="/about" className='nav-link'>
+          <img
+            className={`free-logo ${darkMode ? 'dark-mode' : ''}`}
+            src={darkMode ? freehitlogodark : freehitlogo}
+            alt="logo"
+          />
           </NavLink>
-          <NavLink className="free-word" to="/about">
-            Free-Hit
+          <NavLink to="/about" className='nav-link'>
+          <img
+            className={`mobile-logo ${darkMode ? 'dark-mode' : ''}`}
+            src={darkMode ? mobilelogo : mobilelogo}
+            alt="logo"
+          />
           </NavLink>
         </h1>
       </div>

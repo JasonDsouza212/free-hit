@@ -2672,11 +2672,46 @@
   "description": "CodeGPT AI-powered coding assistant for efficient programming workflows."
 },
 {
+  "productName": "react-icons",
+  "category": "tools",
+  "image": "http://bit.ly/3rdCqGs",
+  "link": "http://bit.ly/3XzbuNg",
+  "description": "Include popular icons in react projects easily with react-icons, utilizes ES6 imports "
+},
+{
   "productName": "Honey",
   "category": "extensions",
   "image": "https://bit.ly/435V6VH",
   "link": "https://www.joinhoney.com/",
   "description": "Save time and money while shopping online with automatic coupon searches and price comparisons."
+},
+{
+  "productName": "Enggsolution",
+  "category":"remote",
+  "image": "https://bit.ly/3NrPjEc",
+  "link": "https://enggsolution.com/",
+  "description": "It is all in one program for engg students where they can explore the great world of engineering."
+},
+{
+  "productName": "PDFZorro",
+  "category": "tools",
+  "image": "https://bit.ly/44doxqs",
+  "link": "https://www.pdfzorro.com/",
+  "description": "Edit PDF with our free Online-PDF-Editor"
+},
+{
+  "productName": "steve AI",
+  "category": "ai",
+  "image": "https://www.steve.ai/assets/img/steveai_logo.svg",
+  "link": "https://www.steve.ai/",
+  "description": "See the MAGIC happen as the AI picks the right creative media assets for your Video."
+},
+{
+  "productName":"Converter App",
+  "category": "tools",
+  "image": "https://imgur.com/a/7GQYPo3",
+  "link": "https://converter.app/pdf-to-latex/",
+  "description": "This tool can convert your PDF files to corresponding LaTeX code."
 },
 {
   "productName": "CP Algorithms",
@@ -2889,6 +2924,13 @@
   "description": "A 3D gestures library to create yummy graphic design, you can use them in whatever you want."
 },
 {
+  "productName": "Storybook",
+  "category": "web",
+  "image": "https://avatars.githubusercontent.com/u/22632046?s=280&v=4",
+  "link": "https://storybook.js.org/",
+  "description": "Build UIs without the grunt work"
+},
+{
   "productName": "BlueWillow",
   "category": "ai",
   "image": "https://bit.ly/439wk7g",
@@ -2964,6 +3006,21 @@
   "image": "https://bit.ly/46q9awl",
   "link": "https://alison.com/",
   "description": "A free online learning platform that offers courses in various subjects, including languages, business, health, and more."
+
+},
+{
+"productName": "heroicons",
+"category": "tools",
+"image": "https://tinyurl.com/2n9henrf",
+"link": "https://heroicons.com/",
+"description": "Beautiful hand-crafted SVG icons"
+},
+{
+  "productName": "web.dev",
+  "category": "tools",
+ "image": "http://bit.ly/web-dev-img",
+  "link": "https://web.dev/",
+  "description": "containing web development related course , pattern ( ex- component , header, animation , footer,card )"
 
 }
 ]
