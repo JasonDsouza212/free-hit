@@ -3,6 +3,7 @@ import banner from '../assets/homepage.webp'
 import { useContext } from 'react';
 import { ToolContext } from '../App';
 import "../styles/About.css"
+import { NavLink } from 'react-router-dom';
 import HomeCard from './Card/HomeCard';
 import Card from '../DB/Card.json'
 const HomePage = () => {
@@ -19,9 +20,9 @@ const HomePage = () => {
             <br />
             <br />
             <button style={{lineHeight:1}}>
-              <a href="https://github.com/JasonDsouza212/free-hit" target='_blank'>
-                More <strong>&#x2192;</strong>
-              </a>
+          <NavLink to="/about">More
+                <strong>&#x2192;</strong>
+                </NavLink>
             </button>
           </p>
           </div>
