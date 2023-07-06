@@ -3001,6 +3001,13 @@
   "description": "A free online learning platform that offers courses in various subjects, including languages, business, health, and more."
 },
 {
+"productName": "heroicons",
+"category": "tools",
+"image": "https://tinyurl.com/2n9henrf",
+"link": "https://heroicons.com/",
+"description": "Beautiful hand-crafted SVG icons"
+},
+{
   "productName": "web.dev",
   "category": "tools",
  "image": "http://bit.ly/web-dev-img",
