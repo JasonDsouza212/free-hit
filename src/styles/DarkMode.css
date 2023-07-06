@@ -36,3 +36,17 @@
     bottom: 5rem;
   }
 }
+
+@media screen and (max-width: 600px) {
+  .dark-mode-toggle {
+    bottom: 6rem;
+    right: 3.2rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .dark-mode-toggle {
+    bottom: 6rem;
+    right: 0.5rem;
+  }
+}
