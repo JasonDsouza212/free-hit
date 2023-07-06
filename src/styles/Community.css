@@ -78,7 +78,7 @@
   margin-top: 6px;
   font-weight: 600;
   font-family: 'Poppins', sans-serif;
-  width: 8.5vw;
+  width: 10vw;
 }
 .contributions {
   text-align: center;
@@ -89,7 +89,7 @@
   border:5px solid white;
   border-radius: 50px;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 569px) and (max-width: 1024px) {
   .all .contributors-list {
     grid-gap: 2rem;
   }
@@ -105,9 +105,10 @@
     width: 90px;
   }
   .username {
-    font-size: 13.5px;
-    width: 16vw;
+    font-size: 14px;
+    width: 17.7vw;
     font-weight: 600;
+    text-align: center;
   }
 }
 
@@ -128,10 +129,10 @@
   }
   .username {
     text-align: center;
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 600;
     font-family: 'Poppins', sans-serif;
-    width: 40vw;
+    width: 38vw;
   }
 }
 
@@ -155,7 +156,7 @@
     font-size: 15px;
     font-weight: 600;
     font-family: 'Poppins', sans-serif;
-    width: 30vw;
+    width: 26.7vw;
   }
 }
 

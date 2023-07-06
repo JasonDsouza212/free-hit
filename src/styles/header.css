@@ -434,3 +434,12 @@ nav {
 .about-list {
   padding-left: 12px;
 }
+@media screen and (max-width: 421px){
+  .free-logo{
+    position: relative;
+    left: -27px;
+    width: 40px;
+    height: 40px;
+    top: 5px;
+  }
+}
