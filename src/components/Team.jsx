@@ -25,13 +25,28 @@ const Team = () => {
           <h5 className={darkMode ? 'dark-mode' : ''}
                   activeclassname="active">Designer</h5>
           <div className={`icons ${darkMode ? 'dark-mode' : ''}`}>
-            <a href="https://twitter.com/bobsstwt" target="_blank">
+            <a 
+              aria-label="Follow me on Twitter"
+              title="Twitter (External Link)"
+              rel="noopener noreferrer"
+              href="https://twitter.com/bobsstwt" 
+              target="_blank"
+            >
               <i className={`ri-twitter-fill ${darkMode ? 'dark-mode' : ''}`}></i>
             </a>
-            <a href="https://github.com/bobbyy16" target="_blank">
+            <a
+              aria-label="Follow me on Github"
+              title="Github (External Link)"
+              rel="noopener noreferrer"
+              href="https://github.com/bobbyy16" 
+              target="_blank"
+            >
               <i className={`ri-github-fill ${darkMode ? 'dark-mode' : ''}`}></i>
             </a>
             <a
+              aria-label="Follow me on Linkedin"
+              title="Linkedin (External Link)"
+              rel="noopener noreferrer"
               href="https://www.linkedin.com/in/abhishek-k-7597771ba/"
               target="_blank"
             >
@@ -47,13 +62,31 @@ const Team = () => {
           <h5 className={darkMode ? 'dark-mode' : ''}
                   activeclassname="active">Developer</h5>
           <div className="icons">
-            <a href="https://twitter.com/Priyankarpal" target="_blank">
+            <a 
+              aria-label="Follow me on Twitter"
+              title="Twitter (External Link)"
+              rel="noopener noreferrer"
+              href="https://twitter.com/Priyankarpal" 
+              target="_blank"
+            >
               <i className={`ri-twitter-fill ${darkMode ? 'dark-mode' : ''}`}></i>
             </a>
-            <a href="https://github.com/priyankarpal" target="_blank">
+            <a 
+              aria-label="Follow me on Github"
+              title="Github (External Link)"
+              rel="noopener noreferrer"
+              href="https://github.com/priyankarpal" 
+              target="_blank"
+            >
               <i className={`ri-github-fill ${darkMode ? 'dark-mode' : ''}`}></i>
             </a>
-            <a href="https://www.linkedin.com/in/priyankarpal/" target="_blank">
+            <a 
+              aria-label="Follow me on Linkedin"
+              title="Linkedin (External Link)"
+              rel="noopener noreferrer"
+              href="https://www.linkedin.com/in/priyankarpal/" 
+              target="_blank"
+            >
               <i className={`ri-linkedin-fill ${darkMode ? 'dark-mode' : ''}`}></i>
             </a>
           </div>
@@ -66,13 +99,28 @@ const Team = () => {
           <h5 className={darkMode ? 'dark-mode' : ''}
                   activeclassname="active">Developer</h5>
           <div className="icons">
-            <a href="https://twitter.com/_Jason_Dsouza" target="_blank">
+            <a 
+              aria-label="Follow me on Twitter"
+              title="Twitter (External Link)"
+              rel="noopener noreferrer"
+              href="https://twitter.com/_Jason_Dsouza" 
+              target="_blank"
+            >
               <i className={`ri-twitter-fill ${darkMode ? 'dark-mode' : ''}`}></i>
             </a>
-            <a href="http://github.com/JasonDsouza212" target="_blank">
+            <a 
+              aria-label="Follow me on Github"
+              title="Github (External Link)"
+              rel="noopener noreferrer"
+              href="http://github.com/JasonDsouza212" 
+              target="_blank"
+            >
               <i className={`ri-github-fill ${darkMode ? 'dark-mode' : ''}`}></i>
             </a>
             <a
+              aria-label="Follow me on Linkedin"
+              title="Linkedin (External Link)"
+              rel="noopener noreferrer"
               href="https://www.linkedin.com/in/jason-dsouza-130b421ba/"
               target="_blank"
             >
