@@ -2679,6 +2679,13 @@
   "description": "Save time and money while shopping online with automatic coupon searches and price comparisons."
 },
 {
+  "productName": "steve AI",
+  "category": "ai",
+  "image": "https://www.steve.ai/assets/img/steveai_logo.svg",
+  "link": "https://www.steve.ai/",
+  "description": "See the MAGIC happen as the AI picks the right creative media assets for your Video."
+},
+{
   "productName":"Converter App",
   "category": "tools",
   "image": "https://imgur.com/a/7GQYPo3",
