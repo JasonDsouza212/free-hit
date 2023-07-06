@@ -177,6 +177,7 @@ body {
     position: relative;
     top: 10%;
   }
+
 }
 
 /* ===============================900px media query */
@@ -189,6 +190,15 @@ body {
     margin: 5px 10px;
     padding-left: 0px;
     padding-right: 0px;
+    
+  }
+  .ab1{
+    position: relative;
+    top:20px
+  }
+  .team{
+    position: relative;
+    bottom: 20px;
   }
 }
 
@@ -267,7 +277,8 @@ body {
 @media screen and (max-width: 700px) {
   .Free-Hit a:first-child {
     position: relative;
-    top: 12px;
+    top: 30%;
+    
   }
 
   .free-word {
@@ -371,7 +382,7 @@ body {
 
   .about {
     position: relative;
-    top: -80px;
+    top: -50px;
   }
 
   .backToTopButton {
@@ -470,10 +481,17 @@ body {
   }
 
   .wrapper .menu-btn {
-    left: 10px;
+    /* left: 10px; */
     top: 65px;
-    height: 40px;
-    width: 40px;
+    height: 42px;
+    width: 42px;
+  }
+
+  .mobile-logo{
+    margin-top: 13px;
+    display: flex;
+    width: 42px;
+    height: 42px;
   }
 
   .Free-Hit {
@@ -512,6 +530,17 @@ body {
     width: 368px;
     height: 368px;
 }
+.about {
+  position: relative;
+  top: -50px;
+}
+.team .center h1.dark-mode{
+  position: relative;
+  top:50px;
+}
+.team{
+  position: relative;
+}
   
 }
 
@@ -544,7 +573,7 @@ body {
 
   .about {
     position: relative;
-    top: -60px;
+    top: 60px;
   }
 
   .about .ab1 {
