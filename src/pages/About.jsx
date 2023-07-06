@@ -9,7 +9,7 @@ import { ToolContext } from '../App';
 
 const About = () => {
   const { darkMode } = useContext(ToolContext);
-  return (
+  return ( 
     <div className={`about_container ${darkMode ? 'dark-mode' : ''}`}>
       {/* <Aboutnav /> */}
       <Header />
@@ -43,7 +43,7 @@ const About = () => {
             thoughts and ideas.
             <br />
             <br />
-            <button>
+            <button className='learn_more' >
               <a href="https://github.com/JasonDsouza212/free-hit/blob/main/CONTRIBUTING.md" target='_blank'>
                 Learn more <strong>➜</strong>
               </a>

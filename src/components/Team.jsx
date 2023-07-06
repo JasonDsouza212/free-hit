@@ -97,7 +97,7 @@ const Team = () => {
           <h3 className={darkMode ? 'dark-mode' : ''}
                   activeclassname="active">Jason Dsouza</h3>
           <h5 className={darkMode ? 'dark-mode' : ''}
-                  activeclassname="active">Developer</h5>
+                  activeclassname="active">Developer</h5> 
           <div className="icons">
             <a 
               aria-label="Follow me on Twitter"

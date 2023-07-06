@@ -74,6 +74,7 @@ body {
   background-color: var(--primary-black);
   padding: 6px 25px;
   border: 2px solid var(--primary-black);
+  border-radius: 0.3cm;
 }
 
 .about p button a {
@@ -83,12 +84,21 @@ body {
   font-weight: 500;
   font-family: 'Josefin Slab', serif;
   font-family: 'Roboto', sans-serif;
+  transition: all 0.3s ease;
 }
 
 .about p button:hover {
   /* background-color: var(--primary-white); */
   transform:scale(1.05);
   transition: all 0.3s ease-in-out;
+}
+
+.learn_more a strong {
+  transition: transform 0.3s ease;
+}
+
+.learn_more:hover a strong {
+  transform: translateX(3rem);
 }
 
 

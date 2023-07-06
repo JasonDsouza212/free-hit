@@ -108,6 +108,30 @@ body {
 .icons i:hover {
   transform: scale(1.5);
 }
+.icons i {
+  display: inline-block;
+  color: black;
+  font-size: 20px;
+  margin: 0 8px;
+  transition: all 0.38s ease;
+}
+
+.icons i:hover {
+  transform: scale(1.5);
+}
+
+.icons a:hover .ri-twitter-fill {
+  color: #1DA1F2;
+}
+
+.icons a:hover .ri-github-fill {
+  color: #413d3d;
+}
+
+.icons a:hover .ri-linkedin-fill {
+  color: #0A66C2;
+}
+
 .box:hover {
   transform: translateY(-10px);
 }
@@ -147,7 +171,7 @@ body {
     white-space: nowrap;
   }
   .center h1 {
-    font-size: 3rem;
+    font-size: 3rem; 
   }
 }
 @media (max-width: 952px) {
