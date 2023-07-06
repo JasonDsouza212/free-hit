@@ -10,7 +10,7 @@ const HomePage = () => {
 
     return (
         <>
-        <section className={`about ${darkMode ? 'dark-mode' : ''}`}>
+        <section className={`about about_container ${darkMode ? 'dark-mode' : ''}`}>
    <div className="ab1">
           <div className="ab-content">
           <p className={`text ${darkMode ? 'dark-mode' : ''}`} style={{lineHeight:1.5}}>
