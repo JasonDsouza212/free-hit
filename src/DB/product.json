@@ -2957,5 +2957,12 @@
   "image": "https://bit.ly/46q9awl",
   "link": "https://alison.com/",
   "description": "A free online learning platform that offers courses in various subjects, including languages, business, health, and more."
+},
+{
+  "productName": "web.dev",
+  "category": "tools",
+ "image": "http://bit.ly/web-dev-img",
+  "link": "https://web.dev/",
+  "description": "containing web development related course , pattern ( ex- component , header, animation , footer,card )"
 }
 ]
