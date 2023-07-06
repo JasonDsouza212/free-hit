@@ -24,6 +24,10 @@
   border-radius: 4px;
 }
 
+.paginate-button:hover{
+  box-shadow: inset 4px 1px 6px rgba(0,0,0,0.7);
+}
+
 .selected-page {
   color: var(--primary-white);
   background-color: var(--primary-black);
