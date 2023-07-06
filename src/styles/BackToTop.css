@@ -26,15 +26,6 @@
   animation:animate 4s alternate infinite;
 }
 
-@keyframes animate{
-  0%,100%{
-    transform: translateY(0px);
-  }
-  50%{
-    transform: translateY(10px);
-  }
-}
-
 .backToTopButton:hover{
   opacity:90%;
 }
