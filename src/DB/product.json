@@ -2679,6 +2679,13 @@
   "description": "Save time and money while shopping online with automatic coupon searches and price comparisons."
 },
 {
+  "productName":"Converter App",
+  "category": "tools",
+  "image": "https://imgur.com/a/7GQYPo3",
+  "link": "https://converter.app/pdf-to-latex/",
+  "description": "This tool can convert your PDF files to corresponding LaTeX code."
+},
+{
   "productName": "CP Algorithms",
   "category": "coding",
   "image": "bit.ly/44s0C61",
