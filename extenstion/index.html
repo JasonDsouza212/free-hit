@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="script.js" type="text/javascript"></script>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
@@ -12,8 +11,7 @@
     <header>
         <a href="https://free-hit.vercel.app/">
         <span class="name">
-                Free-Hit
-            <img src="logo128.jpg" id="logo" alt="">        
+            <img src="logo.png" id="logo" alt="">        
         </span>
         </a>
 
@@ -24,23 +22,25 @@
                     <span class="tool-tip">Visit Main Website</span>
                 </button>
             </a>
-            <!-- <button class="btn" id="theme-btn">
-                <i class="fa-solid fa-sun"></i>
-            </button> -->
+            <button class="btn" type="submit" id="category-btn">
+                <span class="tool-tip">categories</span>
+                <i class="fa-solid fa-list"></i>
+            </button>
         </div>
     </header>
     <main>
-        <section class="wrapper">
+        <section class="wrapper" id="main-section-wrapper">
             <div class="form">
                 <input type="text" class="input" placeholder="Search by type or name">
-                <!-- <button class="btn" id="search" type="submit">
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                </button> -->
             </div>
-            <div class="results">
+            <div class="middle-section">
+                <div class="results scrollable">
+                </div>
+                <ul class="category-list scrollable">
+                </ul>
             </div>
         </section>
     </main>
-    <script src="./script.js" async></script>
+    <script src="./script.js"></script>
 </body>
 </html>

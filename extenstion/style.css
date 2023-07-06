@@ -1,13 +1,75 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
 body{
     background-color: rgba(241, 241, 239);
-    width: 350px;
+    max-width: 350px;
     border: 2px solid black;
     padding: .25rem 1rem;
     height: 400px;
     box-sizing: border-box;
     font-family: 'Space Grotesk', sans-serif;
     text-decoration: none;
+    transition: 0.3s ease-in;
+}
+body.expand{
+    max-width: 450px;
+}
+.wrapper{
+    position: relative;
+}
+#category-list-wrapper{
+    max-width: 100px;
+}
+.middle-section{
+    display: flex;
+    height: calc(230px + 30px);
+    border: 2px dashed rgb(55, 53, 48);
+}
+.category-list{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    transition: 0.3s;
+    max-width: 0;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 262px;
+}
+.category-list::-webkit-scrollbar{
+    appearance: none !important;
+    width: 0px !important;
+}
+.category-list li{
+    color: rgb(55, 53, 48);
+    text-transform: uppercase;
+    border-bottom: 1px solid rgb(55, 53, 48);
+    padding: .5rem 0;
+    position: relative;
+    width: 100%;
+    flex-shrink: 0;
+    font-size: 14px;
+    transition: 0.3s ease-in;
+    overflow: hidden;
+}
+.category-list.active{
+    max-width: 130px;
+}
+.category-list li:hover,.category-list li.active{
+    cursor: pointer;
+    opacity: 0.7;
+    background-color: rgb(55, 53, 48);
+    color: rgba(241, 241, 239);
+    /* text-decoration: underline; */
+}
+
+.category-list li.active{
+    opacity: 1;
+}
+
+
+li{
+    list-style-type: none;
 }
 a{
     text-decoration: none;
@@ -15,18 +77,18 @@ a{
     color: rgb(55, 53, 48);
 }
 #logo{
-    width: 40px;
+    width: 160px;
     height: 40px;
     border-radius: 10px;
 }
 header{
     display: flex;
-    width: 100%;
+    width: 320px;
     align-items: center;
     justify-content: space-between;
     padding: 5px 0;
 }
-#main-link{
+.btn{
     position: relative;
 }
 .tool-tip{
@@ -39,13 +101,14 @@ header{
     width: 100px;
     border-radius: 2px;
     padding: 5px;
+    z-index: 1000;
     top: 0;
     left: 50%;
     transform: translateX(-50%) translateY(-70%);
     opacity: 0;
     transition: 0.3s ease-in;
 }
-#main-link:hover .tool-tip{
+.btn:hover .tool-tip{
     opacity: 1;
 }
 .button-wrapper{
@@ -118,9 +181,9 @@ img{
     padding: 1rem;
     overflow-y: scroll;
     height: 230px;
+    width: 280px;
+    flex-shrink: 0;
     margin-bottom: 10px;
-    border: 2px dashed rgb(55, 53, 48);
-    border-right: 0;
 }
 
 .result{
@@ -234,21 +297,12 @@ img{
     border-radius: 10px;
     text-align: center;
 }
-div::-webkit-scrollbar{
+.scrollable::-webkit-scrollbar{
     appearance: none;
     width: 5px;
     background-color: rgb(55, 53, 48);
 }
-div::-webkit-scrollbar-thumb{
+.scrollable::-webkit-scrollbar-thumb{
     background-color: rgba(241, 241, 239);
     border: 2px solid rgb(55, 53, 48);
-}
-
-@keyframes heightIncrease {
-    0%{
-        height: 0;
-    }
-    100%{
-        height: auto;
-    }
 }
