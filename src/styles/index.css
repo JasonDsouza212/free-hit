@@ -181,6 +181,7 @@ body {
     position: relative;
     top: 10%;
   }
+
 }
 
 /* ===============================900px media query */
@@ -193,6 +194,15 @@ body {
     margin: 5px 10px;
     padding-left: 0px;
     padding-right: 0px;
+    
+  }
+  .ab1{
+    position: relative;
+    top:20px
+  }
+  .team{
+    position: relative;
+    bottom: 20px;
   }
 }
 
@@ -376,7 +386,7 @@ body {
 
   .about {
     position: relative;
-    top: -80px;
+    top: -50px;
   }
 
   .backToTopButton {
@@ -518,6 +528,17 @@ body {
     width: 368px;
     height: 368px;
 }
+.about {
+  position: relative;
+  top: -50px;
+}
+.team .center h1.dark-mode{
+  position: relative;
+  top:50px;
+}
+.team{
+  position: relative;
+}
   
 }
 
@@ -550,7 +571,7 @@ body {
 
   .about {
     position: relative;
-    top: -60px;
+    top: 60px;
   }
 
   .about .ab1 {
