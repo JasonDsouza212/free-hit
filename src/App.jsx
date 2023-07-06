@@ -81,18 +81,15 @@ function App() {
       <div className="app">
         <ToolContext.Provider value={toolContextValue}>
           <div className="routes-holder">
-            <Routes>
-              <Route path="/" element={<Layout />}>
-                <Route index element={<Card />} />
-                <Route path="about" element={<About />} />
-                <Route
-                  path="bookmarks"
-                  element={<BookMarks />}
-                />
-                <Route path="community" element={<Community />} />
-                <Route path="*" element={<NotFound />} />
-              </Route>
-            </Routes>
+              <Routes>
+                <Route path="/" element={<Layout />}>
+                  <Route index element={<Card />} />
+                  <Route path="about" element={<About />} />
+                  <Route path="bookmarks" element={<BookMarks />} />
+                  <Route path="community" element={<Community />} />
+                  <Route path="*" element={<NotFound />} />
+                </Route>
+              </Routes>
           </div>
         </ToolContext.Provider>
       </div>
