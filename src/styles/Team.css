@@ -18,6 +18,8 @@ body {
   /* margin-bottom: 100px; */
   padding: 0% 6%;
   margin-top: 80px;
+  /* margin-bottom: 80px; */
+  bottom: 20px;
 }
 .team-content {
   width: 100%;
