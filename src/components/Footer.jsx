@@ -1,4 +1,4 @@
-import freehitlogo from '../assets/footer-logo.webp'
+import freehitlogo from '../assets/footer-logo.png'
 import "../styles/Footer.css"
 
 const Footer = () => {
@@ -10,7 +10,6 @@ const Footer = () => {
       <div className="footer-content">
         <h3>
           <img className="free-logo-footer" src={freehitlogo} alt="logo" />
-          <b>FREE-HIT</b>
         </h3>
         <p>
           Find the tools you need without breaking the bank
