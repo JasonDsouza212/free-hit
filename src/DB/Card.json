@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Open Source",
+    "url": "/src/assets/openSource.webp",
+    "des": "This project is open source and you can contribute to it . We are excited to hear your thoughts and ideas",
+    "btn": "Contribute",
+    "href":"https://github.com/JasonDsouza212/free-hit"
+  },
+  {
+    "title": "Contact Us",
+    "url": "/src/assets/contact.webp",
+    "des": "We value your feedback and are here to assist you. Please feel free to reach out to us. We look forward to assisting you!",
+    "btn": "Connect",
+    "href":"https://github.com/JasonDsouza212/free-hit"
+  },
+  {
+    "title": "How to Use",
+    "url": "/src/assets/tools.webp",
+    "des": "Explore free tools with the help of filters and bookmark them if you like, or type the name of any tool in the search box.",
+    "btn": "Explore Tools",
+    "href":"https://github.com/JasonDsouza212/free-hit"
+  }
+]

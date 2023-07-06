@@ -51,7 +51,7 @@ body {
   font-weight: 550;
   position: relative;
   line-height: 33px;
-  top: 30%;
+  top: 20%;
   font-family: 'Josefin Slab', serif;
 }
 
@@ -98,7 +98,7 @@ body {
   height: 400px;
 }
 
-.about img.dark-mode{
+.about img.dark-mode,.image.dark-mode{
   background-color:white;
 }
 
@@ -108,3 +108,11 @@ body {
 }
 
 /* about end */
+
+
+.homeCard{
+  margin-top: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}

@@ -1,0 +1,103 @@
+:root {
+  --primary-white: #f1f1ef;
+  --primary-black: #373530;
+}
+article {
+  /* limit the width of the article container */
+  width: 350px;
+  /* display the contents in a column */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background:hsla(0, 0%, 0%, 0.1) ;
+  line-height: 2;
+  border-radius: 10px;
+  margin: 0.5rem;
+  /* transition for the transform property, updated in the script */
+  transition: transform 0.2s ease-out;
+  box-shadow: 0 0 5px -2px  var(--primary-black);
+}
+article figure {
+  /* limit the width and height of the figure to show the image in a circle */
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  /* specify negative margin matching half the height of the element */
+  margin-top: -60px;
+  /* position relative for the pseudo element */
+  position: relative;
+}
+article figure:before {
+  /* add a border around the figure matching the color of the background, faking the clip */
+  content: "";
+  border-radius: inherit;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  transform: translate(-50%, -50%);
+  border: .8rem solid var(--primary-white);
+  box-shadow: 0 0 5px -2px  var(--primary-black);
+}
+article figure img {
+  /* stretch the image to cover the size of the wrapping container */
+  border-radius: inherit;
+  width: 100%;
+  height: 100%;
+  /* object fit to maintain the aspect ratio and fit the width/height */
+  object-fit: cover;
+}
+
+article div {
+  /* center the text in the div container */
+  text-align: center;
+  margin: 2rem;
+}
+article div p {
+  color: var(--primary-black);
+  font-weight: 400;
+  font-style: italic;
+  margin: 1rem 0 3rem;
+  font-family: "Noticia Text", serif;
+  /* position relative for the pseudo element */
+  position: relative;
+  z-index: 5;
+}
+article div p:before {
+  /* with SVG elements include two icons for the quote */
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  transform: translate(-50%, -50%);
+  z-index: -5;
+  opacity: 0.05;
+  /* position the icons at either end of the paragraph, rotate the second to have a mirrorer image */
+  background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 70 70" width="70" height="70"><rect x="0" y="40" width="30" height="30"></rect><path d="M 0 40 q 0 -40 30 -40 v 15 q -15 0 -15 25"></path><rect x="40" y="40" width="30" height="30"></rect><path d="M 40 40 q 0 -40 30 -40 v 15 q -15 0 -15 25"></path></svg>'),
+    url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 70 70" width="70" height="70" transform="rotate(180)"><rect x="0" y="40" width="30" height="30"></rect><path d="M 0 40 q 0 -40 30 -40 v 15 q -15 0 -15 25"></path><rect x="40" y="40" width="30" height="30"></rect><path d="M 40 40 q 0 -40 30 -40 v 15 q -15 0 -15 25"></path></svg>');
+  background-position: 20% 20%, 80% 80%;
+  background-repeat: no-repeat;
+}
+.btn {
+  background-color: var(--primary-black);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color:var(--primary-white);
+  font-size: 14px;
+  padding: 12px 20px 10px 20px;
+  text-decoration: none;
+  border: none;
+}
+.btn:hover {
+  background-color: hsla(0, 0%, 0%, 50%);
+  color: var(--primary-black);
+  text-decoration: none;
+}
+.card-title{
+  color: var(--primary-black);
+}

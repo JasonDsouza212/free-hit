@@ -14,6 +14,7 @@ import products from "../DB/product.json"
 import filterProducts from '../utils/filter/filter_products'
 import searchProducts from '../utils/search/search_products'
 import Pagination from '../components/Pagination'
+import HomePage from '../components/HomePage'
 
 const Card = () => {
   const {
@@ -68,6 +69,7 @@ const Card = () => {
   return (
     <div className={`card_container ${darkMode ? 'dark-mode' : ''}`}>
       <Header filteredSuggestions={filterNames} />
+     <HomePage/>
       <div className="card_view">
         {totalPages > 1 && searchTerm.length === 0 && <Pagination totalPages={totalPages} atTop />}
         <BsFillGridFill
