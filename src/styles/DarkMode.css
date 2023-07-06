@@ -13,16 +13,12 @@
   border: none;
   cursor: pointer;
   font-size: 24px;
-  color: var(--primary-white);
+  color: #FCE100;
   transition: color 0.3s;
 }
 
 .dark-mode-toggle:focus {
   outline: none;
-}
-
-.dark-mode .dark-mode-toggle {
-  color: var(--primary-white);
 }
 
 .dark-mode .dark-mode-toggle .sun {
