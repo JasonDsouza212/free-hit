@@ -50,7 +50,7 @@ const Team = () => {
               href="https://www.linkedin.com/in/abhishek-k-7597771ba/"
               target="_blank"
             >
-              <i className={`ri-linkedin-fill ${darkMode ? 'dark-mode' : ''}`}></i>
+              <i className={`ri-linkedin-fill ${darkMode ? 'dark-mode' : ''}`}></i> 
             </a>
           </div>
         </div>
