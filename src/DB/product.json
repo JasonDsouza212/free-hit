@@ -3034,5 +3034,40 @@
   "image": "https://rb.gy/qirv4",
   "link": "https://tweethunter.io/",
   "description": "Tweet Hunter helps you to build and monetize your twitter audience."
+},
+{
+  "productName": "Google Summer of Code",
+  "category": "coding-programs",
+  "image": "https://rb.gy/tl8mb",
+  "link": "https://summerofcode.withgoogle.com/",
+  "description": "Google Summer of Code is a global, online program focused on bringing new contributors into open source software development."
+},
+{
+  "productName": "MLH Fellowship",
+  "category": "coding-programs",
+  "image": "https://rb.gy/kx55t",
+  "link": "https://fellowship.mlh.io/",
+  "description": "A fully remote, 12-week internship alternative where participants earn a stipend and learn to collaborate on real open source projects."
+},
+{
+  "productName": "GirlScript Summmer of Code",
+  "category": "coding-programs",
+  "image": "https://rb.gy/37qmq",
+  "link": "https://gssoc.girlscript.tech/",
+  "description": "GirlScript Summer of Code is a 3-month long OpenSource  program by GirlScript Foundation."
+},
+{
+  "productName": "24 Pull Requests",
+  "category": "coding-programs",
+  "image": "https://rb.gy/jkdql",
+  "link": "https://24pullrequests.com/",
+  "description": "This is a 24 days program as 24 pull requests is the target in 24 days of this program."
+},
+{
+  "productName": "Open Summer of Code",
+  "category": "coding-programs",
+  "image": "https://rb.gy/dgtcr",
+  "link": "https://osoc.be/",
+  "description": "Innovative open source projects, made by incredibly motivated students, coaches & organisations."
 }
 ]
