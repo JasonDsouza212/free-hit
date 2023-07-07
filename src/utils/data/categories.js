@@ -55,6 +55,18 @@ const ButtonLinks = [
   },
   {
     id: 10,
+    name: 'Coding Platforms',
+    category: 'coding',
+    icon: 'ri-tools-fill',
+  },
+  {
+    id: 11,
+    name: 'Course Platforms',
+    category: 'courses',
+    icon: 'ri-tools-fill',
+  },
+  {
+    id: 11,
     name: 'Useful Tools',
     category: 'tools',
     icon: 'ri-tools-fill',
