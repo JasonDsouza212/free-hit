@@ -1,4 +1,4 @@
-import React, {useEffect, useRef } from 'react'
+import React, { useEffect, useRef } from 'react'
 import { FaSearch } from 'react-icons/fa'
 import freehitlogo from '../assets/logo.png'
 import freehitlogodark from '../assets/darkmode-logo.png'
@@ -21,7 +21,7 @@ const Header = ({ filteredSuggestions }) => {
 
   useEffect(() => {
     document.addEventListener('mousedown', handleClickOutside);
-    
+
     return () => {
       document.removeEventListener('mousedown', handleClickOutside);
     }
@@ -54,55 +54,55 @@ const Header = ({ filteredSuggestions }) => {
         <Sidebar />
         <h1 className={`Free-Hit ${darkMode ? 'dark-mode' : ''}`}>
           <NavLink to="/about" className='nav-link'>
-          <img
-            className={`free-logo ${darkMode ? 'dark-mode' : ''}`}
-            src={darkMode ? freehitlogodark : freehitlogo}
-            alt="logo"
-          />
+            <img
+              className={`free-logo ${darkMode ? 'dark-mode' : ''}`}
+              src={darkMode ? freehitlogodark : freehitlogo}
+              alt="logo"
+            />
           </NavLink>
           <NavLink to="/about" className='nav-link'>
-          <img
-            className={`mobile-logo ${darkMode ? 'dark-mode' : ''}`}
-            src={darkMode ? mobilelogo : mobilelogo}
-            alt="logo"
-          />
+            <img
+              className={`mobile-logo ${darkMode ? 'dark-mode' : ''}`}
+              src={darkMode ? mobilelogo : mobilelogo}
+              alt="logo"
+            />
           </NavLink>
         </h1>
-      </div>
-      {location.pathname !== '/about' && location.pathname !== '/community' && (
-        <div className="container">
-          <div className="search_box">
-            <input
-              type="text"
-              className="input"
-              placeholder="Search..."
-              value={searchTerm}
-              onChange={(e) => handleChangeInInput(e)}
-            />
-            <div className="btn btn_common">
-              <i className="fas fa-search">
-                <FaSearch />
-              </i>
+        {location.pathname !== '/about' && location.pathname !== '/community' && (
+          <div className="container">
+            <div className="search_box">
+              <input
+                type="text"
+                className="input"
+                placeholder="Search..."
+                value={searchTerm}
+                onChange={(e) => handleChangeInInput(e)}
+              />
+              <div className="btn btn_common">
+                <i className="fas fa-search">
+                  <FaSearch />
+                </i>
+              </div>
             </div>
+            {(filteredSuggestions.length > 1 || (filteredSuggestions.length > 0 && filteredSuggestions[0] != searchTerm)) && (
+              <ul className="hnav-suggestionbar" id="serch-suggestions">
+                {/* This shows as a list of suggestions based on the search term */}
+                {filteredSuggestions.map((suggestion) => (
+                  <li
+                    key={suggestion}
+                    onClick={() => {
+                      setSearchTerm(suggestion)
+                    }}
+                    className="hnav-suggestion"
+                  >
+                    {suggestion}
+                  </li>
+                ))}
+              </ul>
+            )}
           </div>
-          {(filteredSuggestions.length > 1 || (filteredSuggestions.length > 0 && filteredSuggestions[0] != searchTerm)) && (
-            <ul className="hnav-suggestionbar" id="serch-suggestions">
-              {/* This shows as a list of suggestions based on the search term */}
-              {filteredSuggestions.map((suggestion) => (
-                <li
-                  key={suggestion}
-                  onClick={() => {
-                    setSearchTerm(suggestion)
-                  }}
-                  className="hnav-suggestion"
-                >
-                  {suggestion}
-                </li>
-              ))}
-            </ul>
-          )}
-        </div>
-      )}
+        )}
+      </div>
       <ul className="pages">
         <li>
           <NavLink to="/">Home</NavLink>

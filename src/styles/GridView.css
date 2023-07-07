@@ -4,70 +4,158 @@
   --primary-black: #373530;
 }
 
-
-.grid .card-title{
-    color: var(--primary-black);
+.grid .card-title,
+.container .card .face.face2 .content h3 {
+  color: var(--primary-black);
 }
 
-.grid .visit{
-  background-color:var(--primary-black);
-  color:var(--primary-white);
-  /* border: 2px solid var(--primary-black); */
+.grid .visit,
+.grid .bookmark,
+.grid .delete {
+  background-color: var(--primary-black);
+  color: var(--primary-white);
 }
 
-.grid .bookmark{
-  background-color:var(--primary-black);
-  color:var(--primary-white);
-  /* border: 2px solid var(--primary-black); */
-}
-.grid .visit:hover{
+.grid .visit:hover,
+.grid .bookmark:hover,
+.grid .delete:hover,
+.container .card:hover .face.face1 {
   transition: all 0.3s ease-out;
 }
-.grid .bookmark:hover{
-  transition: all 0.3s ease-out;
-}
-.grid .delete{
-  background-color:var(--primary-black);
-  color:var(--primary-white);
-  /* border: 2px solid var(--primary-black); */
-}
-.grid .delete:hover{
-  transition: all 0.3s ease-out;
-}
+
 /* Dark mode styles */
-  
-  .grid .card-title.dark-mode{
-    color:white;
-  }
-  
-  .grid .visit.dark-mode {
-    background-color: var(--primary-black);
-    color: var(--primary-white);
-  }
 
-  .grid .visit.dark-mode:hover {
-    transition: all 0.3s ease-out;
-  }
-  
-  .grid .bookmark.dark-mode {
-    background-color: var(--primary-black);
-    color: var(--primary-white);
-  }
-  .grid .bookmark.dark-mode:hover {
-    transition: all 0.3s ease-out;
-  }
-
-
-  /* Updated styles */
-
-
-/* .grid article .text_top {
-  height: 100px; 
+.grid .card-title.dark-mode,
+.container .card .face.face2 .content h3 {
+  color: white;
 }
 
-.grid article .card-title {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-} */
-  
+.grid .visit.dark-mode,
+.container .card:hover .face.face1 {
+  background-color: var(--primary-black);
+  color: var(--primary-white);
+}
+
+.grid .visit.dark-mode:hover,
+.grid .bookmark.dark-mode:hover,
+.container .card:hover .face.face1,
+.container .card:hover .face.face2 {
+  transition: all 0.3s ease-out;
+}
+
+.grid .bookmark.dark-mode,
+.container .card .face.face2 .content p,
+.container a {
+  color: var(--primary-black);
+}
+
+.container {
+  width: 100vw;
+  position: relative;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 350px 350px 350px;
+}
+
+.container .card {
+  position: relative;
+  border-radius: 10px;
+}
+
+.container .card .icon,
+i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 80px;
+  transition: 0.7s;
+  color: #fff;
+}
+
+.container .card .icon {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  place-items: center;
+  background: transparent;
+  transition: 0.7s;
+  z-index: 1;
+}
+
+.container .card .face {
+  width: 300px;
+  height: 200px;
+  transition: 0.5s;
+}
+
+.container .card .face.face1 {
+  position: relative;
+  background: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  transform: translateY(100px);
+}
+
+.container .card:hover .face.face1 {
+  background: #ff0057;
+  transform: translateY(0);
+}
+
+.container .card .face.face1 .content {
+  opacity: 1;
+  transition: 0.5s;
+}
+
+.container .card:hover .face.face1 .content {
+  opacity: 1;
+}
+
+.container .card .face.face1 .content i {
+  max-width: 100px;
+}
+
+.container .card .face.face2 {
+  position: relative;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+  transform: translateY(-100px);
+}
+
+.container .card:hover .face.face2 {
+  transform: translateY(0);
+}
+.container .card .face.face2 .content h3 {
+  font-weight: 600;
+  font-size: large;
+  text-align: center;
+  color: #414141;
+}
+.container .card .face.face2 .content p {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: #414141;
+}
+
+.container a {
+  text-decoration: none;
+  color: #414141;
+}
+
+@media screen and (max-width: 520px) {
+  .container {
+    grid-template-columns: 280px;
+  }
+  .container .card {
+    height: 350px;
+  }
+}
