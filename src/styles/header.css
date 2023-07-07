@@ -37,14 +37,14 @@ nav {
 
 @media screen and (max-width: 360px) {
   .nav-container {
-    float: left;
+    /* float: left; */
   }
 }
 
 /* side navbar start */
 .wrapper {
   height: 100%;
-  width: 80px;
+  width: 73px;
   position: relative;
   top: -48px;
 }
@@ -357,30 +357,50 @@ nav {
 /* ================================  Free-Hit logo*/
 
 .Free-Hit {
-  right: 220px;
   font-weight: lighters;
-  display: flex;
-  align-items: center;
+  height: 100%;
+  margin-top: 4px;
+}
+
+.nav-link{
+  margin: 0;
+  padding: 0;
+  height: 100%;
 }
 
 .free-logo {
-  top: 6px;
-  width: 45px;
-  height: 45px;
+  /* margin-top: 8px; */
+  
+  width: 220px;
+  height: 55px;
   margin-right: 10px;
+  margin-top: 4px;
+}
+.mobile-logo {
+  display: none;
 }
 
-.Free-Hit .free-word {
-  text-decoration: none;
-  color: var(--primary-black);
-  font-size: 40px;
+@media screen and (max-width: 520px) {
+    .free-logo{
+      display: none;
+    }
+    .mobile-logo{
+      margin-top: 8px;
+      display: flex;
+      width: 46px;
+      height: 46px;
+    }
+    .mobile-logo.dark-mode{
+      border: 2px solid white;
+    }
+    .Free-hit{
+      size: 100px
+    }
+    
 }
-
-/* dark-mode styles */
 
 .free-logo.dark-mode{
   /* :white; */
-  border: 2px solid white;
 }
 
 /* ================================  Free-Hit logo end*/

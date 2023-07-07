@@ -1,18 +1,11 @@
-import React, {
-  useState,
-  useEffect,
-  createContext,
-  lazy,
-  Suspense,
-} from 'react'
+import React, { useState, useEffect, createContext } from 'react'
 import { Route, Routes } from 'react-router-dom'
 import Card from './pages/Home'
-const About = lazy(() => import('./pages/About'))
-const BookMarks = lazy(() => import('./pages/Bookmarks'))
-const NotFound = lazy(() => import('./pages/NotFound'))
-const Community = lazy(() => import('./pages/Community'))
-const Layout = lazy(() => import('./components/Layout'))
-import Loader from './components/Loader'
+import About from './pages/About'
+import BookMarks from './pages/Bookmarks'
+import NotFound from './pages/NotFound'
+import Community from './pages/Community'
+import Layout from './components/Layout'
 
 const ToolContext = createContext()
 const LOCAL_STORAGE_KEY = 'freehit.bookmarks'
@@ -88,7 +81,6 @@ function App() {
       <div className="app">
         <ToolContext.Provider value={toolContextValue}>
           <div className="routes-holder">
-            <Suspense fallback={Loader}>
               <Routes>
                 <Route path="/" element={<Layout />}>
                   <Route index element={<Card />} />
@@ -98,7 +90,6 @@ function App() {
                   <Route path="*" element={<NotFound />} />
                 </Route>
               </Routes>
-            </Suspense>
           </div>
         </ToolContext.Provider>
       </div>
