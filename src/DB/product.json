@@ -3048,5 +3048,12 @@
   "image": "https://bit.ly/3pyqTB6",
   "link": "https://rytr.me/",
   "description": "Rytr is an AI writing assistant that helps you create high-quality content, in just a few seconds"
+},
+{
+  "productName": "Sheet+",
+  "category": "ai",
+  "image": "https://sheetplus.ai/assets/img/logo-square.png",
+  "link": "https://sheetplus.ai/",
+  "description": "AI tool for rapid and precise formula generation and explanation in Excel and Google Sheets."
 }
 ]
