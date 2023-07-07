@@ -2167,6 +2167,20 @@
   "description": "Class Central is a website that lists online courses from top universities and providers."
 },
 {
+  "productName": "Novoresume",
+  "category": "resume",
+  "image": "https://bit.ly/3P09nA5",
+  "link": "https://novoresume.com/",
+  "description": "Online resume builder."
+},
+{
+  "productName": "Honeypot",
+  "category": "remote",
+  "image": "https://tinyurl.com/rfj43fr5",
+  "link": "https://www.honeypot.io/en/",
+  "description": "Europe's Developer-Focused Job Platform."
+}
+{
   "productName": "Freedom",
   "category": "Useful Tools",
   "image": "https://bit.ly/43YEgtb",
