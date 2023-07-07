@@ -7,6 +7,13 @@
     "description": "Find remote Javascript jobs."
   },
   {
+    "productName": "JavaScript minify",
+    "category": "tools",
+    "image": "https://assets.toptal.io/images?url=https%3A%2F%2Fwww.toptal.com%2Ftoptal-logo.png&width=320",
+    "link": "https://www.toptal.com/developers/javascript-minifier",
+    "description": "Allows lowering the size of the web pages and scripts files to enhance performance."
+  },
+  {
     "productName": "Just Chill",
     "category": "movies",
     "image": "https://postimg.cc/KKjFcKcg",
