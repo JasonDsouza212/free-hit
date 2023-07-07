@@ -33,7 +33,9 @@ function Community() {
     <div className={`all ${darkMode ? 'dark-mode' : ''}`}>
       {' '}
       <Header />
-      <h2 className={`contributor-heading ${darkMode ? 'dark-mode' : ''}`}>Meet Our Contributors</h2>
+      <div className={`contributor-heading ${darkMode ? 'dark-mode' : ''}`}>
+        <h2>Meet Our Contributors</h2>
+      </div>
       {initialLoading ? (
         <Loader />
       ) : (
@@ -42,11 +44,11 @@ function Community() {
             (contributor) =>
               contributor &&
               contributor.type !== 'Bot' && ( //to remove bot from the contributors list
-                <li className="contributor" key={contributor.id}>
-                  <div className="contributor-card">
+                <li className={`contributor ${darkMode ? 'dark-mode' : ''}`} key={contributor.id}>
+                  <div className={`contributor-card ${darkMode ? 'dark-mode' : ''}`}>
                     <a
                       rel="noopener noreferrer"
-                      className="contributor-anchor"
+                      className={`contributor-anchor ${darkMode ? 'dark-mode' : ''}`}
                       href={contributor.html_url}
                       target="_blank"
                       title={`${contributor.login}`}
@@ -59,10 +61,10 @@ function Community() {
                       />
                     </a>
                   </div>
-                  <div className="username">
+                  <div className={`username ${darkMode ? 'dark-mode' : ''}`}>
                     <p>{contributor.login}</p>
                   </div>
-                  <p className="contributions">
+                  <p className={`contributions ${darkMode ? 'dark-mode' : ''}`}>
                     {contributor.contributions} commits
                   </p>
                 </li>

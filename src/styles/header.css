@@ -381,11 +381,11 @@ nav {
 
 .free-logo {
   top: 1px;
-  width: 45px;
-  height: 45px;
-  margin-right: 10px;
-  margin-top: 4px;
+  height: 40px;
+  margin: 11px;
+  width: 130px;
 }
+
 .mobile-logo {
   display: none;
 }

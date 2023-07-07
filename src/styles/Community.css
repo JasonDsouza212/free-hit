@@ -1,8 +1,26 @@
 /*styles/Community.css*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto&display=swap');
+:root {
+  --primary-white: #f1f1ef;
+  --primary-black: #373530;
+}
+.all .dark-mode{
+  background-color: var(--primary-white);
+  color: var(--primary-black);
+}
+
+.contributors-list .dark-mode{
+  background-color: var(--primary-white);
+}
+
+.contributor-heading .dark-mode{
+  background-color: var(--primary-white);
+}
+
 .contributor-heading {
-  text-align: center;
-  margin: 20px;
+  display: flex;
+  justify-content: center;
+  width: 100vw;
   font-size: 3rem;
   font-weight: 500;
 }
@@ -26,8 +44,6 @@
   flex-wrap: wrap;
   justify-content: center;
   grid-gap: 3rem;
-  margin-bottom: 4rem;
-  margin-top: 3rem;
 }
 .contributors-list .contributor-anchor {
   display: flex;
