@@ -541,8 +541,8 @@ body {
 
   .search_box .btn {
     position: absolute;
-    width: 52px;
-    height: 80%;
+    width: 50px;
+    height: 77%;
     background: var(--primary-black);
     z-index: 1;
     cursor: pointer;
