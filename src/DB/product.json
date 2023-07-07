@@ -1645,7 +1645,7 @@
   "description": "Regexr is an online tool to learn, build, & test Regular Expressions.",
   "link": "https://regexr.com/"
  },
-  {
+{
   "productName": "Unblast UI  Templates",
   "category": "UI",
   "image": "https://bit.ly/3qlij8V",
@@ -1743,7 +1743,7 @@
   "link": "https://openai.com/dall-e-2",
   "description": "An AI system that can create realistic images and art from a description in natural language."
 },
-  {
+{
   "productName": "Zarla",
   "category": "tools",
   "image": "https://bit.ly/42Cp1ot",
@@ -1757,7 +1757,7 @@
   "link": "https://zety.com/resume-builder",
   "description": "Zety Online Resume Builder,Create a Professional Resume for Free"
 },
-  {
+{
   "productName": "Animoto",
   "category": "AI",
   "image": "https://bit.ly/3WSfus6",
@@ -1777,8 +1777,8 @@
   "image": "http://bit.ly/3X19kpw",
   "link": "https://uiverse.io/",
   "description": "Discover and customize free, open-source CSS and HTML UI elements, through this tool"
-}
-,{
+},
+{
   "productName":"freeCodeCamp",
   "category":"web",
   "image":"https://rb.gy/6n2tu",
