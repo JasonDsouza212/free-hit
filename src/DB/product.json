@@ -3034,5 +3034,47 @@
   "image": "https://rb.gy/qirv4",
   "link": "https://tweethunter.io/",
   "description": "Tweet Hunter helps you to build and monetize your twitter audience."
+},
+{
+  "productName": "Perplexity",
+  "category": "ai",
+  "image": "https://bit.ly/46x1HLH",
+  "link": "https://www.perplexity.ai/",
+  "description": "Perplexity AI unlocks the power of knowledge with information discovery and sharing."
+},
+{
+  "productName": "Rytr",
+  "category": "ai",
+  "image": "https://bit.ly/3pyqTB6",
+  "link": "https://rytr.me/",
+  "description": "Rytr is an AI writing assistant that helps you create high-quality content, in just a few seconds"
+},
+{
+  "productName": "Sheet+",
+  "category": "ai",
+  "image": "https://sheetplus.ai/assets/img/logo-square.png",
+  "link": "https://sheetplus.ai/",
+  "description": "AI tool for rapid and precise formula generation and explanation in Excel and Google Sheets."
+},
+{
+  "productName": "NightCafe",
+  "category": "ai",
+  "image": "https://bit.ly/3rcgUC1",
+  "link": "https://nightcafe.studio/",
+  "description": "Create beautiful art in seconds with the help of Artificial Intelligence"
+},
+{
+  "productName": "Eightify",
+  "category": "extensions",
+  "image": "https://bit.ly/44t4zHA",
+  "link": "https://eightify.app/",
+  "description": "Save time on long videos — get key ideas instantly"
+},
+{
+  "productName": "ChatPDF",
+  "category": "ai",
+  "image": "https://bit.ly/44a7TI4",
+  "link": "https://www.chatpdf.com/",
+  "description": "AI tool for interactive PDF processing, mimicking human-like interactions."
 }
 ]
