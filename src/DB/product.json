@@ -3069,5 +3069,26 @@
   "image": "https://rb.gy/dgtcr",
   "link": "https://osoc.be/",
   "description": "Innovative open source projects, made by incredibly motivated students, coaches & organisations."
+},
+{
+  "productName": "Google Summer of Docs",
+  "category": "coding-programs",
+  "image": "https://rb.gy/o83v2",
+  "link": "https://developers.google.com/season-of-docs",
+  "description": "Google Season of Docs provides support for open source projects to improve their documentation."
+},
+{
+  "productName": "Outreachy",
+  "category": "coding-programs",
+  "image": "https://rb.gy/83t6p",
+  "link": "https://www.outreachy.org/",
+  "description": "Outreachy provides internships in open source and open science."
+},
+{
+  "productName": "Season of KDE",
+  "category": "coding-programs",
+  "image": "https://rb.gy/vdf01",
+  "link": "https://season.kde.org/",
+  "description": "KDE Student Programs has been running Season of KDE as a program similar to, but not quite the same as Google Summer of Code."
 }
 ]
