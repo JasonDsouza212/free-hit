@@ -2187,7 +2187,7 @@
   "link": "https://novoresume.com/",
   "description": "Online resume builder."
 },
-{
+  {
   "productName": "Honeypot",
   "category": "remote",
   "image": "https://tinyurl.com/rfj43fr5",
@@ -2242,6 +2242,7 @@
   "image": "https://bit.ly/3Nq7dHn",
   "link": "https://pomofocus.io/app",
   "description": "Pomofocus is a customizable pomodoro timer to help you focus on any task you are working on."
+
 
 },
 {
@@ -3090,5 +3091,12 @@
   "image": "https://bit.ly/44a7TI4",
   "link": "https://www.chatpdf.com/",
   "description": "AI tool for interactive PDF processing, mimicking human-like interactions."
+},
+{
+  "productName":"Treehouse",
+  "category":"web",
+  "image":"https://rb.gy/xetek",
+  "link":"https://teamtreehouse.com/",
+  "description":"Learn to code, design, and more—all on your own time"
 }
 ]
