@@ -62,5 +62,11 @@ We value the time and effort you put into contributing, and we look forward to r
 </details>
 <div align=center>
   <h2>This Project is part of</h2>
-  <img alt="GSSoC" src="https://github.com/priyankarpal/ProjectsHut/assets/88102392/0c5debf5-d414-4916-87d8-e1a710773ae3">
+  <!-- <img alt="GSSoC" src="https://github.com/priyankarpal/ProjectsHut/assets/88102392/0c5debf5-d414-4916-87d8-e1a710773ae3"> -->
+
+![GSSoC Logo Light](https://user-images.githubusercontent.com/63473496/213306239-9e8fc317-ce2f-4127-8bfe-17f5df06ee99.png#gh-light-mode-only)
+![GSSoC Logo Dark](https://user-images.githubusercontent.com/63473496/213306279-338f7ce9-9a9f-4427-8c2a-3e344874498f.png#gh-dark-mode-only)
+
+
+
 </div>
