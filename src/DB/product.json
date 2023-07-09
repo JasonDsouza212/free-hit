@@ -3147,5 +3147,12 @@
   "image": "https://bit.ly/3O4Pu9P",
   "link": "https://www.learnvern.com/",
   "description": "This website offers complimentary(free) courses for students."
+},
+{
+  "productName": "Prettier",
+  "category": "extensions",
+  "image": "https://prettier.io/icon.png",
+  "link": "https://prettier.io/",
+  "description": "An opinionated code formatter, Supports many languages, Integrates with most editors"
 }
 ]
