@@ -1,5 +1,37 @@
 [ 
   {
+    "productName": "Slazzer",
+    "category": "ai",
+    "image": "https://tinyurl.com/mryytkp9",
+    "link": "https://www.slazzer.com/",
+    "description": "It is an amazing free tool to remove background from images."
+  },
+
+  {
+    "productName": "Remove.bg",
+    "category": "ai",
+    "image": "https://tinyurl.com/4339cvv4",
+    "link": "https://www.remove.bg/",
+    "description": "An amazing AI tool to remove background from images for free."
+  },
+
+  {
+    "productName": "AdBlocker Ultimate",
+    "category": "extensions",
+    "image": "https://tinyurl.com/3uh79sfd",
+    "link": "https://chrome.google.com/webstore/detail/adblocker-ultimate/ohahllgiabjaoigichmmfljhkcfikeof",
+    "description": "Free and improved AdBlocker Chrome extension. Completely remove ALL ads."
+  },
+
+  {
+    "productName": "Slides Go",
+    "category": "ai",
+    "image": "https://tinyurl.com/mpf29nnv",
+    "link": "https://slidesgo.com/",
+    "description": "AI tool to create presentations for free."
+  },
+
+  {
     "productName": "JS Remotely",
     "category": "remote",
     "image": "https://tinyurl.com/ycyab9eb",
