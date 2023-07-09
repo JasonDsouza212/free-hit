@@ -3112,5 +3112,12 @@
   "image":"https://contaxter.com/linkshortener/icon.png",
   "link":"https://www.shorturl.at/shortener.php",
   "description":"URL Shortening app"
+},
+{
+  "productName": "PrepInsta",
+  "category": "coding",
+  "image": "https://bit.ly/3PIJPaV",
+  "link": "https://prepinsta.com/",
+  "description": "Website for Placements Preparation for different companies like TCS, Infosys, Cognizant, etc "
 }
 ]
