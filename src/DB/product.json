@@ -3200,5 +3200,12 @@
   "image": "https://prettier.io/icon.png",
   "link": "https://prettier.io/",
   "description": "An opinionated code formatter, Supports many languages, Integrates with most editors"
+},
+{
+  "productName": "Snapinsta",
+  "category": "Tools",
+  "image": "https://freeimage.host/i/HsRsSsI",
+  "link": "https://snapinsta.app/",
+  "description":"Downloads Video Instagram, Photo, Reels, Stories, IGTV online"
 }
 ]
