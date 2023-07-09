@@ -22,7 +22,7 @@
   align-items: center;
   cursor: pointer;
   color: white;
-  background-color: #1f1f1f;
+  background-color:brown;
   animation:animate 4s alternate infinite;
 }
 
@@ -69,3 +69,5 @@
     transform: translateY(0);
   }
 }
+
+

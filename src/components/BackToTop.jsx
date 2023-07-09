@@ -22,11 +22,10 @@ const BackToTopButton = () => {
 
   return (
     <Link onClick={handleScroll} to="Top" smooth duration={500} className={`top ${darkMode ? 'dark-mode' : ''}`}>
-        <div
-          className={` ${
-            !btnVisiblity ? 'transition-before' : 'transition-after'
+      <div
+        className={` ${!btnVisiblity ? 'transition-before' : 'transition-after'
           } backToTopButton`}
-        >
+      >
         <div className={`button ${darkMode ? 'dark-mode' : ''}`}>
           <i className="ri-arrow-up-s-line"></i>
         </div>
