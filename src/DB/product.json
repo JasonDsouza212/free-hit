@@ -3133,5 +3133,13 @@
   "image": "https://bit.ly/3pFTTqt",
   "link": "https://www.campusgate.in/?m=1",
   "description": "Full length mock tests for TCS and other IT companies."
+},
+{
+  "productName": "good first issue",
+  "category": "coding",
+  "image": "https://goodfirstissue.dev/images/meta.jpg",
+  "link": "https://goodfirstissue.dev/",
+  "description": "This website provides accessible web development projects for novice programmers."
+
 }
 ]
