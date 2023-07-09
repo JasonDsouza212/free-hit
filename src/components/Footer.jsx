@@ -1,6 +1,6 @@
 import freehitlogo from '../assets/footer-logo.png'
 import "../styles/Footer.css"
-
+import { NavLink } from "react-router-dom"
 const Footer = () => {
   // gettin year dynamically
   const date = new Date();
@@ -9,6 +9,9 @@ const Footer = () => {
     <footer>
       <div className="footer-content">
         <h3>
+          <NavLink
+            to="/About" className="About-button">
+          </NavLink>
           <img className="free-logo-footer" src={freehitlogo} alt="logo" />
         </h3>
         <p>
