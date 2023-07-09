@@ -3115,21 +3115,21 @@
 },
 {
   "productName": "PrepInsta",
-  "category": "coding",
+  "category": "courses",
   "image": "https://bit.ly/3PIJPaV",
   "link": "https://prepinsta.com/",
   "description": "Website for Placements Preparation for different companies like TCS, Infosys, Cognizant, etc "
 },
 {
   "productName": "IndiaBix",
-  "category": "coding",
+  "category": "courses",
   "image": "https://bit.ly/44ezJmp",
   "link": "https://www.indiabix.com/",
   "description": "Aptitude questions and answers for your placement interviews and competitive exams!"
 },
 {
   "productName": "Campusgate",
-  "category": "coding",
+  "category": "courses",
   "image": "https://bit.ly/3pFTTqt",
   "link": "https://www.campusgate.in/?m=1",
   "description": "Full length mock tests for TCS and other IT companies."
@@ -3140,6 +3140,12 @@
   "image": "https://goodfirstissue.dev/images/meta.jpg",
   "link": "https://goodfirstissue.dev/",
   "description": "This website provides accessible web development projects for novice programmers."
-
+},
+{
+  "productName": "LearnVern",
+  "category": "courses",
+  "image": "https://bit.ly/3O4Pu9P",
+  "link": "https://www.learnvern.com/",
+  "description": "This website offers complimentary(free) courses for students."
 }
 ]
