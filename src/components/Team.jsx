@@ -13,7 +13,7 @@ const Team = () => {
   return (
     <section className={`team ${darkMode ? 'dark-mode' : ''}`}>
       <div className="center">
-      <h1 className={darkMode ? 'dark-mode' : ''} activeclassname="active">Our Beloved contributors</h1>
+        <h1 className={darkMode ? 'dark-mode' : ''} activeclassname="active">Our Beloved contributors</h1>
       </div>
 
       <div className={`team-content ${darkMode ? 'dark-mode' : ''}`}>

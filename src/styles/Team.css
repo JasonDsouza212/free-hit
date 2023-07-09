@@ -8,6 +8,11 @@ body {
   background-color: var(--primary-white);
 }
 
+.team .dark-mode{
+  background-color: var(--primary-white);
+  color: var(--primary-black);
+}
+
 .team {
   position: relative;
   width: 100%;
@@ -143,6 +148,7 @@ body {
 .box:hover {
   transform: translateY(-10px);
 }
+
 @media (max-width: 1260px) {
   .team {
     width: 100%;
@@ -150,6 +156,7 @@ body {
     margin-top: 0;
   }
   .center h1 {
+    margin-top: 30px;
     font-size: 3.8rem;
   }
 }
@@ -208,12 +215,17 @@ body {
   }
 }
 
-@media (max-width: 600px) {
+@media (min-width: 280px) and (max-width: 600px) {
   .team {
     margin-top: -120px;
     padding: 0 2%;
   }
-  .center h1 {
+  .center{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+  }
+  .center h1{
     font-size: 1.6rem;
   }
 }
@@ -225,4 +237,4 @@ body {
   .box h3 {
     font-size: 21px;
   }
-}
+} 
