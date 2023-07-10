@@ -1,5 +1,37 @@
 [ 
   {
+    "productName": "Slazzer",
+    "category": "ai",
+    "image": "https://tinyurl.com/mryytkp9",
+    "link": "https://www.slazzer.com/",
+    "description": "It is an amazing free tool to remove background from images."
+  },
+
+  {
+    "productName": "Remove.bg",
+    "category": "ai",
+    "image": "https://tinyurl.com/4339cvv4",
+    "link": "https://www.remove.bg/",
+    "description": "An amazing AI tool to remove background from images for free."
+  },
+
+  {
+    "productName": "AdBlocker Ultimate",
+    "category": "extensions",
+    "image": "https://tinyurl.com/3uh79sfd",
+    "link": "https://chrome.google.com/webstore/detail/adblocker-ultimate/ohahllgiabjaoigichmmfljhkcfikeof",
+    "description": "Free and improved AdBlocker Chrome extension. Completely remove ALL ads."
+  },
+
+  {
+    "productName": "Slides Go",
+    "category": "ai",
+    "image": "https://tinyurl.com/mpf29nnv",
+    "link": "https://slidesgo.com/",
+    "description": "AI tool to create presentations for free."
+  },
+
+  {
     "productName": "JS Remotely",
     "category": "remote",
     "image": "https://tinyurl.com/ycyab9eb",
@@ -3175,5 +3207,40 @@
   "image":"https://rb.gy/qjdy7",
   "link":"https://www.theodinproject.com/",
   "description":"Your Career in Web Development Starts Here"
+},
+{
+  "productName":"appypie",
+  "category":"tools",
+  "image":"https://l1nq.com/UzOJT",
+  "link":"https://www.appypie.com/design",
+  "description":"Appy Pie Design: AI-Powered No-Code Design Platform"
+},
+{
+  "productName": "Snapinsta",
+  "category": "Tools",
+  "image": "https://freeimage.host/i/HsRsSsI",
+  "link": "https://snapinsta.app/",
+  "description":"Downloads Video Instagram, Photo, Reels, Stories, IGTV online"
+},
+{
+  "productName": "Flexbox Froggy",
+  "category": "coding",
+  "image": "https://bit.ly/3JNEStq",
+  "link": "https://flexboxfroggy.com",
+  "description": "Welcome to Flexbox Froggy, a game where you help Froggy and friends by writing CSS code!"
+},
+{
+  "productName": "Guess-CSS",
+  "category": "coding",
+  "image": "https://img.freepik.com/free-icon/css_318-698167.jpg",
+  "link": "https://www.guess-css.app/",
+  "description": "Guess CSS! HTML & CSS Puzzler Game."
+},
+{
+  "productName": "CSS Speedrun",
+  "category": "coding",
+  "image": "https://bit.ly/44os5WY",
+  "link": "https://css-speedrun.netlify.app/",
+  "description": "A small fun app to test your CSS knowledge."
 }
 ]
