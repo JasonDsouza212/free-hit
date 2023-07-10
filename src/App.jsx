@@ -6,6 +6,7 @@ import BookMarks from './pages/Bookmarks'
 import NotFound from './pages/NotFound'
 import Community from './pages/Community'
 import Layout from './components/Layout'
+import {Analytics} from '@vercel/analytics/react'
 
 const ToolContext = createContext()
 const LOCAL_STORAGE_KEY = 'freehit.bookmarks'
@@ -93,6 +94,7 @@ function App() {
           </div>
         </ToolContext.Provider>
       </div>
+      <Analytics/>
     </>
   )
 }
