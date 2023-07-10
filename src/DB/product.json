@@ -3221,5 +3221,12 @@
   "image": "https://img.freepik.com/free-icon/css_318-698167.jpg",
   "link": "https://www.guess-css.app/",
   "description": "Guess CSS! HTML & CSS Puzzler Game."
+},
+{
+  "productName": "CSS Speedrun",
+  "category": "coding",
+  "image": "https://bit.ly/44os5WY",
+  "link": "https://css-speedrun.netlify.app/",
+  "description": "A small fun app to test your CSS knowledge."
 }
 ]
