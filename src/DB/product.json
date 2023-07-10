@@ -1,5 +1,37 @@
 [ 
   {
+    "productName": "Slazzer",
+    "category": "ai",
+    "image": "https://tinyurl.com/mryytkp9",
+    "link": "https://www.slazzer.com/",
+    "description": "It is an amazing free tool to remove background from images."
+  },
+
+  {
+    "productName": "Remove.bg",
+    "category": "ai",
+    "image": "https://tinyurl.com/4339cvv4",
+    "link": "https://www.remove.bg/",
+    "description": "An amazing AI tool to remove background from images for free."
+  },
+
+  {
+    "productName": "AdBlocker Ultimate",
+    "category": "extensions",
+    "image": "https://tinyurl.com/3uh79sfd",
+    "link": "https://chrome.google.com/webstore/detail/adblocker-ultimate/ohahllgiabjaoigichmmfljhkcfikeof",
+    "description": "Free and improved AdBlocker Chrome extension. Completely remove ALL ads."
+  },
+
+  {
+    "productName": "Slides Go",
+    "category": "ai",
+    "image": "https://tinyurl.com/mpf29nnv",
+    "link": "https://slidesgo.com/",
+    "description": "AI tool to create presentations for free."
+  },
+
+  {
     "productName": "JS Remotely",
     "category": "remote",
     "image": "https://tinyurl.com/ycyab9eb",
@@ -1682,7 +1714,7 @@
   {
     "productName": "3D Icons",
     "category": "UI",
-    "image": "https://bit.ly/43yR9th",
+    "image": "https://shorturl.at/gHPS6",
     "link": "https://bit.ly/43dBe3H",
     "description": "3D icons & 3D characters in high 4K resolution"
   },
@@ -3106,11 +3138,76 @@
   "link":"https://resumake.io/",
   "description":"Create Latex Type Resumes with Pre-Built Templates"
 },
+
   {
   "productName":"writesonic",
   "category":"ai",
   "image":"https://tinyurl.com/3u5n3ktb",
   "link":"https://writesonic.com/",
   "description":"artificial intelligence tools for quick content creation"
+
+{
+  "productName":"LearnersBucket",
+  "category": "web",
+  "image": "https://rb.gy/x3mi7",
+  "link": "https://learnersbucket.com/",
+  "description":"Learn Front End Development Technologies Deeper"
+},
+{
+  "productName":"Short URL",
+  "category":"tools",
+  "image":"https://contaxter.com/linkshortener/icon.png",
+  "link":"https://www.shorturl.at/shortener.php",
+  "description":"URL Shortening app"
+},
+{
+  "productName":"Vq.pe",
+  "category":"web",
+  "image":"https://vq.pe/owner/frontend/assets/img/logos/vq.png",
+  "link":"https://vq.pe/",
+  "description":"An website maker of your choosed topic in minutes."
+},
+{
+  "productName": "PrepInsta",
+  "category": "courses",
+  "image": "https://bit.ly/3PIJPaV",
+  "link": "https://prepinsta.com/",
+  "description": "Website for Placements Preparation for different companies like TCS, Infosys, Cognizant, etc "
+},
+{
+  "productName": "IndiaBix",
+  "category": "courses",
+  "image": "https://bit.ly/44ezJmp",
+  "link": "https://www.indiabix.com/",
+  "description": "Aptitude questions and answers for your placement interviews and competitive exams!"
+},
+{
+  "productName": "Campusgate",
+  "category": "courses",
+  "image": "https://bit.ly/3pFTTqt",
+  "link": "https://www.campusgate.in/?m=1",
+  "description": "Full length mock tests for TCS and other IT companies."
+},
+{
+  "productName": "good first issue",
+  "category": "coding",
+  "image": "https://goodfirstissue.dev/images/meta.jpg",
+  "link": "https://goodfirstissue.dev/",
+  "description": "This website provides accessible web development projects for novice programmers."
+},
+{
+  "productName": "LearnVern",
+  "category": "courses",
+  "image": "https://bit.ly/3O4Pu9P",
+  "link": "https://www.learnvern.com/",
+  "description": "This website offers complimentary(free) courses for students."
+},
+{
+  "productName": "Prettier",
+  "category": "extensions",
+  "image": "https://prettier.io/icon.png",
+  "link": "https://prettier.io/",
+  "description": "An opinionated code formatter, Supports many languages, Integrates with most editors"
+
 }
 ]
