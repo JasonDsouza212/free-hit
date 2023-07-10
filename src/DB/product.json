@@ -3214,5 +3214,12 @@
   "image": "https://bit.ly/3JNEStq",
   "link": "https://flexboxfroggy.com",
   "description": "Welcome to Flexbox Froggy, a game where you help Froggy and friends by writing CSS code!"
+},
+{
+  "productName": "Guess-CSS",
+  "category": "coding",
+  "image": "https://img.freepik.com/free-icon/css_318-698167.jpg",
+  "link": "https://www.guess-css.app/",
+  "description": "Guess CSS! HTML & CSS Puzzler Game."
 }
 ]
