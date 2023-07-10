@@ -3202,6 +3202,13 @@
   "description": "An opinionated code formatter, Supports many languages, Integrates with most editors"
 },
 {
+  "productName":"The Odin Project",
+  "category":"web",
+  "image":"https://rb.gy/qjdy7",
+  "link":"https://www.theodinproject.com/",
+  "description":"Your Career in Web Development Starts Here"
+},
+{
   "productName":"appypie",
   "category":"tools",
   "image":"https://l1nq.com/UzOJT",
