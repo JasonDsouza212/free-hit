@@ -3200,5 +3200,12 @@
   "image": "https://prettier.io/icon.png",
   "link": "https://prettier.io/",
   "description": "An opinionated code formatter, Supports many languages, Integrates with most editors"
+},
+  {
+  "productName": "Leethub",
+  "category": "extensions",
+  "image": "bit.ly/3XHUlRw",
+  "link": "https://bit.ly/46IGKNU",
+  "description": "Automatically integrate your Leetcode & GeeksforGeeks submissions to GitHub"
 }
 ]
