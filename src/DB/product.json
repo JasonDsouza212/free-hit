@@ -3200,5 +3200,12 @@
   "image": "https://prettier.io/icon.png",
   "link": "https://prettier.io/",
   "description": "An opinionated code formatter, Supports many languages, Integrates with most editors"
+},
+{
+  "productName":"appypie",
+  "category":"tools",
+  "image":"https://l1nq.com/UzOJT",
+  "link":"https://www.appypie.com/design",
+  "description":"Appy Pie Design: AI-Powered No-Code Design Platform"
 }
 ]
