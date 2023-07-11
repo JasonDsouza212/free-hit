@@ -3300,5 +3300,13 @@
   "link": "https://bit.ly/46IGKNU",
   "description": "Automatically integrate your Leetcode & GeeksforGeeks submissions to GitHub"
 
+},
+  {
+  "productName": "Simplilearn",
+  "category": "courses",
+  "image": "https://www.simplilearn.com/ice9/new_logo.svgz",
+  "link": "https://www.simplilearn.com/",
+  "description": "Simplilearn is the world’s leading digital skills provider, enabling learners across the globe."
+
 }
 ]
