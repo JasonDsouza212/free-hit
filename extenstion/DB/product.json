@@ -2576,8 +2576,8 @@
 {
   "productName": "sflix",
   "category": "movies",
-  "image": "",
-  "link": "https://sflix.to/home",
+  "image": "https://sflix.video/",
+  "link": "https://sflix.video/",
   "description": "sflix have old bollywood and hollywood movie which is completely free"
 }
 ]
