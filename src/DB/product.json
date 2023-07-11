@@ -3251,6 +3251,20 @@
   "description": "A small fun app to test your CSS knowledge."
 },
 {
+  "productName": "Codepip",
+  "category": "coding",
+  "image": "https://bit.ly/44Et8RY",
+  "link": "https://codepip.com/",
+  "description": "Learn to code CSS by playing coding games."
+},
+{
+  "productName": "Css Dinner",
+  "category": "coding",
+  "image": "https://bit.ly/3rnEziZ",
+  "link": "https://flukeout.github.io/",
+  "description": "CSS Diner is a 32 levels game that is used to teach CSS selectors."
+},
+{
   "productName":"Edabit",
   "category":"tools",
   "image":"https://rb.gy/ktnax",
