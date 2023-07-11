@@ -3300,5 +3300,13 @@
   "link": "https://bit.ly/46IGKNU",
   "description": "Automatically integrate your Leetcode & GeeksforGeeks submissions to GitHub"
 
+},
+  {
+  "productName": "CSS Layout",
+  "category": "web",
+  "image": "",
+  "link": "https://csslayout.io/",
+  "description": "A collection of popular layouts and patterns made with CSS."
+
 }
 ]
