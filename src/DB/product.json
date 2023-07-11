@@ -3284,6 +3284,12 @@
   "image":"https://rb.gy/ktnax",
   "link":"https://edabit.com/",
   "description":"A Better Way to Learn Programming with Different Exercises"
+},
+  {
+  "productName": "Leethub",
+  "category": "extensions",
+  "image": "bit.ly/3XHUlRw",
+  "link": "https://bit.ly/46IGKNU",
+  "description": "Automatically integrate your Leetcode & GeeksforGeeks submissions to GitHub"
 }
-
 ]
