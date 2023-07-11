@@ -4,6 +4,7 @@
   --primary-white: #f1f1ef;
   --primary-black: #373530;
 }
+
 .all .dark-mode{
   background-color: var(--primary-white);
   color: var(--primary-black);
@@ -55,13 +56,14 @@
   justify-content: center;
 }
 .contributor {
-  border: 3px solid #191e2d;
+  border: 3px solid;
   transition: 0.3s;
   border-radius: 10px;
   padding: 4px;
   background-color: #f1f1ef;
   cursor: pointer;
 }
+
 .contributor-card {
   display: flex;
   justify-content: center;
@@ -102,7 +104,6 @@
   font-weight: 400;
 }
 .all .contributor-image.dark-mode{
-  border:5px solid white;
   border-radius: 50px;
 }
 @media screen and (min-width: 569px) and (max-width: 1024px) {

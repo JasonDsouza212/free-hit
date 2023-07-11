@@ -17,7 +17,7 @@ body {
 }
 
 nav {
-  height: 70px;
+  height: 74px;
   line-height: 70px;
   border-bottom: 2px solid var(--primary-black);
   position: sticky;
