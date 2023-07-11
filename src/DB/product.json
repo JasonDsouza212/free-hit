@@ -3242,5 +3242,12 @@
   "image": "https://bit.ly/44os5WY",
   "link": "https://css-speedrun.netlify.app/",
   "description": "A small fun app to test your CSS knowledge."
+},
+{
+  "productName":"Edabit",
+  "category":"tools",
+  "image":"https://rb.gy/ktnax",
+  "link":"https://edabit.com/",
+  "description":"A Better Way to Learn Programming with Different Exercises"
 }
 ]
