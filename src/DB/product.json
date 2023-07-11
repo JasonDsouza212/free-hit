@@ -1,4 +1,11 @@
-[ 
+[
+  {
+    "productName": "BlockSite",
+    "category": "extensions",
+    "image": "https://bit.ly/3XO4Ov6",
+    "link": "https://bit.ly/46GbwXX",
+    "description": "Stay focused and improve productivity"
+  },
   {
     "productName": "Slazzer",
     "category": "ai",
@@ -2000,14 +2007,14 @@
     "category": "remote",
     "image": "https://tinyurl.com/48bja2rc",
     "link": "https://www.crossover.com/",
-    "description": "Find a full time remote job" 
+    "description": "Find a full time remote job"
   },
   {
     "productName": "Foundit",
     "category": "remote",
     "image": "https://bit.ly/3NQbci1",
     "link": "https://www.foundit.in/",
-    "description": "Find the job that is perfect for You" 
+    "description": "Find the job that is perfect for You"
   },
   {
     "productName": "INSIDEA",
@@ -2291,7 +2298,7 @@
   "link": "https://www.codingninjas.com/codestudio",
   "description": "Coding Ninjas Studio Unleash your coding potential with interactive learning and practice."
 },
-{  
+{
   "productName": "Text2SQL AI",
   "category": "ai",
   "image": "bit.ly/3JoQcMD",
@@ -2450,21 +2457,21 @@
   "category": "tools",
   "image": "https://imgur.com/a/FUyjavX",
   "link": "https://www.eventbrite.com/",
-  "description": "Get Coding events and Hackathons update."  
+  "description": "Get Coding events and Hackathons update."
 },
 {
   "productName": "Bing",
   "category": "ai",
   "image": "https://imgur.com/a/AwM4jXQ",
   "link": "https://chrome.google.com/webstore/detail/microsoft-bing-homepage-s/ddojnmkongaimkdddgmcccldlfhokcfb",
-  "description": "Bing Ai extension"   
+  "description": "Bing Ai extension"
 },
 {
   "productName": "Vegamovies",
   "category": "movies",
   "image": "https://apkrabi.com/uploads/2023/4/vegamovies-icon.jpg",
   "link": "https://m.vegamovies.tips/",
-  "description": "Here you can download all the latest movies in top quality"  
+  "description": "Here you can download all the latest movies in top quality"
 },
 {
   "productName": "Bit Warden",
@@ -2478,7 +2485,7 @@
   "category": "tools",
   "image": "bit.ly/3r7vPxi",
   "link": "https://javascript.info/",
-  "description": "Provides comprehensive tutorials and references on JavaScript"  
+  "description": "Provides comprehensive tutorials and references on JavaScript"
 },
 {
   "productName": "Spline AI",
@@ -2506,7 +2513,7 @@
   "category": "tools",
   "image": "https://iili.io/HidMrXV.png",
   "link": "https://imgur.com/",
-  "description": "Imgur provides the simplest and most convenient means to host your images"  
+  "description": "Imgur provides the simplest and most convenient means to host your images"
 },
 {
   "productName": "Firebase",
@@ -2521,7 +2528,7 @@
   "image": "https://bit.ly/46vxjkU",
   "link": "https://auth0.com",
   "description": "Auth0 is an authentication and authorization platform."
-},  
+},
 {
   "productName": "Google Maps API",
   "category": "tools",
@@ -2970,14 +2977,14 @@
   "link": "https://filecr.com/",
   "description": "Free download Windows programs, plugins, codecs, drivers, tools, utilities, gaming tools."
 },
-{ 
+{
   "productName": "CSS Challenges",
   "category" : "tools",
   "image": "https://tinyurl.com/3wz68vzy",
   "link": "https://css-challenges.com/",
   "description": "CSS Challenges is a resource that offers fun and playful ways to practice your CSS skills."
 },
-{ 
+{
   "productName": "HANDZ",
   "category": "tools",
   "image": "https://shorturl.at/dEFHL",
@@ -3017,50 +3024,50 @@
   "category": "courses",
   "image": "https://bit.ly/3NSYoaG",
   "link": "https://www.coursera.org/",
-  "description": "Free & paid courses from top universities with financial aid option"  
+  "description": "Free & paid courses from top universities with financial aid option"
 },
 {
   "productName": "Udemy",
   "category": "courses",
   "image": "https://bit.ly/3JYgCoT",
   "link": "https://www.udemy.com/",
-  "description": "Wide range of courses from various industry experts."  
+  "description": "Wide range of courses from various industry experts."
 },
 {
   "productName": "Edx",
   "category": "courses",
   "image": "https://bit.ly/3Nywor8",
   "link": "https://www.edx.org/",
-  "description": "Free prestigious university courses. Audit for free or pay for a certificate."  
-}, 
+  "description": "Free prestigious university courses. Audit for free or pay for a certificate."
+},
 {
   "productName": "Udacity",
   "category": "courses",
   "image": "https://bit.ly/43fzjew",
   "link": "https://www.udacity.com",
-  "description": "Specializes in offering courses in the field of technology and computer science."  
-}, 
+  "description": "Specializes in offering courses in the field of technology and computer science."
+},
 {
   "productName": "Khan Academy",
   "category": "courses",
   "image": "https://bit.ly/443G6Je",
   "link": "https://www.khanacademy.org",
-  "description": "A non-profit organization that offers free educational resources and courses for learners of all ages."  
-}, 
+  "description": "A non-profit organization that offers free educational resources and courses for learners of all ages."
+},
 {
   "productName": "Skillshare",
   "category": "courses",
   "image": "https://bit.ly/3NxRKVK",
   "link": "https://www.skillshare.com",
-  "description": "A platform that primarily focuses on creative skills and offers a wide range of courses in design, photography, writing, and other artistic disciplines."  
-}, 
+  "description": "A platform that primarily focuses on creative skills and offers a wide range of courses in design, photography, writing, and other artistic disciplines."
+},
 {
   "productName": "LinkedIn Learning",
   "category": "courses",
   "image": "https://bit.ly/3NWgMzg",
   "link": "https://www.linkedin.com/learning/",
-  "description": "Provides a vast library of courses focused on professional development and career advancement."  
-}, 
+  "description": "Provides a vast library of courses focused on professional development and career advancement."
+},
 {
   "productName": "Alison",
   "category": "courses",
