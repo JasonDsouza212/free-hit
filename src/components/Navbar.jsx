@@ -1,19 +1,16 @@
-import React, { useContext, useEffect, useRef } from 'react'
+import React, {useEffect, useRef } from 'react'
 import { FaSearch } from 'react-icons/fa'
-import freehitlogo from '../assets/free-logo.png'
-import ButtonLinks from '../utils/data/categories'
-import { ToolContext } from '../App'
+import freehitlogo from '../assets/free-logo.webp'
 import { useLocation } from 'react-router-dom'
-import TwitterButton from './TwitterButton'
 import { NavLink, useSearchParams } from "react-router-dom"
-import { msg } from '../utils/data/message'
 import "../styles/header.css"
+import Sidebar from './Sidebar'
+import { ToolContext } from '../App';
+import { useContext } from 'react';
 
-const Header = ({filteredSuggestions}) => {
+const Header = ({ filteredSuggestions }) => {
   const [searchParams, setSearchParams] = useSearchParams()
-  
-  let filters = searchParams.getAll('filters').length > 0 ? searchParams.getAll('filters') : ["all"]
-  filters = filters[0].split(",")
+  const { darkMode } = useContext(ToolContext);
   const location = useLocation()
   const sideNavRef = useRef(null)
 
@@ -21,7 +18,7 @@ const Header = ({filteredSuggestions}) => {
 
   useEffect(() => {
     document.addEventListener('mousedown', handleClickOutside);
-
+    
     return () => {
       document.removeEventListener('mousedown', handleClickOutside);
     }
@@ -47,96 +44,14 @@ const Header = ({filteredSuggestions}) => {
     const val = event.target.value
     setSearchTerm(val)
   }
-  
-  const handleAddFilter = (filter, event) => {
-    filter = filter.toLowerCase();
-    setSearchParams(prevParams => {
-      prevParams.delete('q')
-      prevParams.delete('page')
-      let options = prevParams.getAll('filters') || []
-      if (options.length > 0) {
-        options = options[0].split(",")
-      }
-      if (options.includes(filter)) {
-        if (options.length > 1) {
-          prevParams.set('filters', [...options].filter(f => f != filter))
-        } else {
-          prevParams.delete('filters')
-        }
-      } else {
-        if (event.ctrlKey) {
-          prevParams.set('filters', [...prevParams.getAll("filters"), filter])
-        } else {
-          prevParams.set('filters', filter)
-        }
-      }
-      return prevParams
-    })
-  }
 
   return (
-    <nav className="navbar">
-      <div className="nav-container" ref={sideNavRef}>
-        <div className="wrapper">
-          <input type="checkbox" id="btn" hidden />
-          <label htmlFor="btn" className="menu-btn">
-            <i className="fa ri-menu-fill"></i>
-            <i className="fa ri-close-line"></i>
-          </label>
-          {location.pathname === '/about' ? (
-            <nav id="sidebar">
-              <ul className="list-items list-item">
-                <li className='about-list'>
-                  <NavLink to="/">
-                    <i className="ri-home-4-fill"></i> Home
-                  </NavLink>
-                </li>
-                <li className='about-list'>
-                  <NavLink to="/bookmarks">
-                    <i className="ri-bookmark-fill"></i> Bookmarks
-                  </NavLink>
-                </li>
-                <li className='about-list'>
-                  <TwitterButton message={msg} />
-                </li>
-              </ul>
-            </nav>
-          ) : (
-            <nav id="sidebar">
-              <div className="title">
-                <ul className="pages-sidebar">
-                  <li>
-                    <NavLink to="/">
-                      <i className="ri-home-4-fill"></i> Home
-                    </NavLink>
-                  </li>
-                  <li>
-                    <NavLink to="/bookmarks">
-                      <i className="ri-bookmark-fill"></i> Bookmark
-                    </NavLink>
-                  </li>
-                </ul>
-              </div>
-              <ul className="list-items">
-                {ButtonLinks.map((buttonLink) => (
-                  <li
-                  key={buttonLink.id}
-                  className={filters.includes(buttonLink.category.toLocaleLowerCase()) ? "active-filter" : ""}
-                >
-                  <button
-                    onClick={(e) => {handleAddFilter(buttonLink.category, e)}}
-                  >
-                    {buttonLink.name}
-                  </button>
-                </li>
-                ))}
-              </ul>
-            </nav>
-          )}
-        </div>
-        <h1 className="Free-Hit">
+    <nav className={`navbar ${darkMode ? 'dark-mode' : ''}`}>
+      <div className={`nav-container ${darkMode ? 'dark-mode' : ''}`} ref={sideNavRef}>
+        <Sidebar />
+        <h1 className={`Free-Hit ${darkMode ? 'dark-mode' : ''}`}>
           <NavLink to="/about">
-            <img className="free-logo" src={freehitlogo} alt="logo" />
+            <img className={`free-logo ${darkMode ? 'dark-mode' : ''}`} src={freehitlogo} alt="logo" />
           </NavLink>
           <NavLink className="free-word" to="/about">
             Free-Hit
@@ -159,7 +74,7 @@ const Header = ({filteredSuggestions}) => {
               </i>
             </div>
           </div>
-          {(filteredSuggestions.length > 1 || (filteredSuggestions.length > 0 && filteredSuggestions[0] != searchTerm))  && (
+          {(filteredSuggestions.length > 1 || (filteredSuggestions.length > 0 && filteredSuggestions[0] != searchTerm)) && (
             <ul className="hnav-suggestionbar" id="serch-suggestions">
               {/* This shows as a list of suggestions based on the search term */}
               {filteredSuggestions.map((suggestion) => (
@@ -182,10 +97,10 @@ const Header = ({filteredSuggestions}) => {
           <NavLink to="/">Home</NavLink>
         </li>
         <li>
-          <NavLink to="/bookmarks">Bookmarks</NavLink>
+          <NavLink className="hoverele" to="/bookmarks">Bookmarks</NavLink>
         </li>
         <li>
-          <NavLink to="/about">About</NavLink>
+          <NavLink className="hoverele" to="/about">About</NavLink>
         </li>
       </ul>
     </nav>
