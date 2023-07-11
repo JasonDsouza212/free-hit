@@ -39,8 +39,19 @@
   font-family: 'Space Grotesk', sans-serif;
 }
 
-body {
+
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
   background-color: var(--primary-white);
+}
+
+body {
+  max-width: 100%;
+  overflow-y: scroll;
 }
 
 .routes-holder{
