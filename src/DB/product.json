@@ -3285,15 +3285,14 @@
   "link":"https://edabit.com/",
   "description":"A Better Way to Learn Programming with Different Exercises"
 },
-
 {
   "productName":"Codewell",
   "category":"web",
   "image":"https://rb.gy/6jkvy",
   "link":"https://www.codewell.cc/challenges",
   "description":"Practicing differennt Types Of Front End Projects Much Easier"
-  },
-  {
+},
+{
   "productName": "Leethub",
   "category": "extensions",
   "image": "bit.ly/3XHUlRw",
@@ -3306,5 +3305,12 @@
   "image": "https://uiverse.io/build/_assets/logo-OR7QQX33.svg",
   "link": "https://uiverse.io/",
   "description": "Browse all Open-Source UI elements made with HTML and CSS"
- }
+},
+{
+  "productName": "Goku",
+  "category": "movies",
+  "image": "https://shorturl.at/itKM5",
+  "link": "https://goku.sx/home",
+  "description": "This website offers animes, movies, cartoons, series, etc. in HD quality"
+}
 ]
