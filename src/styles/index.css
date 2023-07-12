@@ -499,7 +499,6 @@ body {
 
 /* ===============================420px media query */
 @media screen and (max-width: 421px) {
-@media screen and (max-width: 421px) {
   .team-content {
     grid-template-columns: repeat(1, minmax(300px, 320px));
   }
@@ -544,8 +543,6 @@ body {
 }
 
 /* ===============================395 media query */
-
-@media screen and (max-width: 401px) {
 @media screen and (max-width: 401px) {
   .team-content {
     margin-left: 0;
@@ -577,7 +574,6 @@ body {
 }
 
 /* ===============================380 media query */
-@media screen and (max-width: 381px) {
 @media screen and (max-width: 381px) {
   .Free-Hit {
     right: 70%;
