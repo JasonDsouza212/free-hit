@@ -3285,11 +3285,60 @@
   "link":"https://edabit.com/",
   "description":"A Better Way to Learn Programming with Different Exercises"
 },
-  {
+{
+  "productName":"Codewell",
+  "category":"web",
+  "image":"https://rb.gy/6jkvy",
+  "link":"https://www.codewell.cc/challenges",
+  "description":"Practicing differennt Types Of Front End Projects Much Easier"
+},
+{
   "productName": "Leethub",
   "category": "extensions",
   "image": "bit.ly/3XHUlRw",
   "link": "https://bit.ly/46IGKNU",
   "description": "Automatically integrate your Leetcode & GeeksforGeeks submissions to GitHub"
+},
+{
+  "productName": "Flexbox Defense",
+  "category": "coding",
+  "image": "https://bit.ly/46GyHkR",
+  "link": "http://www.flexboxdefense.com/",
+  "description": "Your job is to stop the incoming enemies from getting past your defenses."
+},
+{
+  "productName":"BFE.dev",
+  "category":"web",
+  "image":"https://rb.gy/6bw6a",
+  "link":"https://bigfrontend.dev/",
+  "description":"BFE.dev is the platform to practice your Front-End development skills"
+},
+{
+  "productName": "CSS Layout",
+  "category": "web",
+  "image": "",
+  "link": "https://csslayout.io/",
+  "description": "A collection of popular layouts and patterns made with CSS."
+},
+{
+  "productName": "Simplilearn",
+  "category": "courses",
+  "image": "https://www.simplilearn.com/ice9/new_logo.svgz",
+  "link": "https://www.simplilearn.com/",
+  "description": "Simplilearn is the world’s leading digital skills provider, enabling learners across the globe."
+ },
+ {
+  "productName": "Uiverse",
+  "category": "web",
+  "image": "https://uiverse.io/build/_assets/logo-OR7QQX33.svg",
+  "link": "https://uiverse.io/",
+  "description": "Browse all Open-Source UI elements made with HTML and CSS"
+},
+{
+  "productName": "Goku",
+  "category": "movies",
+  "image": "https://shorturl.at/itKM5",
+  "link": "https://goku.sx/home",
+  "description": "This website offers animes, movies, cartoons, series, etc. in HD quality"
 }
 ]
