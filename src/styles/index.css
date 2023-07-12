@@ -15,6 +15,9 @@
 .app{
   background-color: var(--primary-white);
 }
+.app{
+  background-color: var(--primary-white);
+}
 :root {
   --primary-white: #f1f1ef;
   --primary-black: #373530;
@@ -39,8 +42,22 @@
   font-family: 'Space Grotesk', sans-serif;
 }
 
-body {
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
   background-color: var(--primary-white);
+}
+
+.routes-holder{
+  min-height: 67vh;
+}
+
+body {
+  max-width: 100%;
+  overflow-y: scroll;
 }
 
 .routes-holder{
@@ -177,6 +194,7 @@ body {
     position: relative;
     top: 10%;
   }
+
 }
 
 /* ===============================900px media query */
@@ -189,6 +207,15 @@ body {
     margin: 5px 10px;
     padding-left: 0px;
     padding-right: 0px;
+    
+  }
+  .ab1{
+    position: relative;
+    top:20px
+  }
+  .team{
+    position: relative;
+    bottom: 20px;
   }
 }
 
@@ -267,7 +294,8 @@ body {
 @media screen and (max-width: 700px) {
   .Free-Hit a:first-child {
     position: relative;
-    top: 12px;
+    top: 30%;
+    
   }
 
   .free-word {
@@ -371,7 +399,7 @@ body {
 
   .about {
     position: relative;
-    top: -80px;
+    top: -50px;
   }
 
   .backToTopButton {
@@ -428,10 +456,12 @@ body {
     font-size: 28px;
     bottom: 500px;
     padding: 30px;
+    padding: 30px;
   }
 
   .about .ab1 img {
     margin-top: 50px;
+    margin-left: 1%;
     margin-left: 1%;
   }
 
@@ -440,10 +470,12 @@ body {
     font-size: 28px;
     top: 0%;
     padding: 30px;
+    padding: 30px;
   }
 
   .about .ab2 img {
     margin-top: 0px;
+    margin-left: 1%;
     margin-left: 1%;
     order: 2;
   }
@@ -455,7 +487,9 @@ body {
 
   .team-content {
     margin-left: 0px;
+    margin-left: 0px;
     grid-template-columns: repeat(1, minmax(300px, 320px));
+    padding: 46px;
     padding: 46px;
   }
   .center h1 {
@@ -465,15 +499,23 @@ body {
 
 /* ===============================420px media query */
 @media screen and (max-width: 421px) {
+@media screen and (max-width: 421px) {
   .team-content {
     grid-template-columns: repeat(1, minmax(300px, 320px));
   }
 
   .wrapper .menu-btn {
-    left: 10px;
+    /* left: 10px; */
     top: 65px;
-    height: 40px;
-    width: 40px;
+    height: 42px;
+    width: 42px;
+  }
+
+  .mobile-logo{
+    margin-top: 13px;
+    display: flex;
+    width: 42px;
+    height: 42px;
   }
 
   .Free-Hit {
@@ -493,7 +535,7 @@ body {
   }
 
   .backToTopButton {
-    right: 0.2rem;
+    right: 0.0.2rem;
   }
 
   .nav-container {
@@ -504,7 +546,10 @@ body {
 /* ===============================395 media query */
 
 @media screen and (max-width: 401px) {
+@media screen and (max-width: 401px) {
   .team-content {
+    margin-left: 0;
+    padding: 25px;
     margin-left: 0;
     padding: 25px;
   }
@@ -513,9 +558,26 @@ body {
     height: 368px;
 }
   
+  .about img {
+    width: 368px;
+    height: 368px;
+}
+.about {
+  position: relative;
+  top: -50px;
+}
+.team .center h1.dark-mode{
+  position: relative;
+  top:50px;
+}
+.team{
+  position: relative;
+}
+  
 }
 
 /* ===============================380 media query */
+@media screen and (max-width: 381px) {
 @media screen and (max-width: 381px) {
   .Free-Hit {
     right: 70%;
@@ -524,27 +586,29 @@ body {
   .search_box .input {
     position: absolute;
     width: 100%;
-    height: 80%;
+    height: 77%;
     padding: 10px 20px;
     border-radius: 100px;
     font-size: 18px;
-    background-color: var(--primary-black);
+    background: #f1f1ef;
+    color: var(--primary-black);
+    border: 2px solid var(--primary-black);
   }
 
   .search_box .btn {
     position: absolute;
-    width: 60px;
-    height: 80%;
+    width: 50px;
+    height: 77%;
     background: var(--primary-black);
     z-index: 1;
     cursor: pointer;
     right: 0px;
-    border-radius: 50%;
+    border-radius: 47%;
   }
 
   .about {
     position: relative;
-    top: -60px;
+    top: 60px;
   }
 
   .about .ab1 {
@@ -583,6 +647,8 @@ body {
     margin-left: 1%;
     height: 360px;
     width: 360px;
+    height: 360px;
+    width: 360px;
     order: 2;
   }
 
@@ -593,7 +659,9 @@ body {
 
   .team-content {
     margin-left: 0%;
+    margin-left: 0%;
     grid-template-columns: repeat(1, minmax(280px, 300px));
+    padding: 25px;
     padding: 25px;
   }
 
@@ -621,6 +689,7 @@ body {
 /* ===============================360 media query */
 @media screen and (max-width: 360px) {
   .team-content {
+    margin-left: 0%;
     margin-left: 0%;
   }
 
@@ -660,8 +729,10 @@ body {
 }
 
 /* ===============================310 media query */
-@media screen and (max-width: 310px) {
+@media(max-width: 320px) {
   .search_box {
     width: 150px;
   }
 }
+
+

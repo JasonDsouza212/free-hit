@@ -11,14 +11,16 @@ body {
 .team {
   position: relative;
   width: 100%;
-  height: 70vh;
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  margin-bottom: 100px;
+  /* margin-bottom: 100px; */
   padding: 0% 6%;
   margin-top: 80px;
+  /* margin-bottom: 80px; */
+  bottom: 20px;
 }
 .team-content {
   width: 100%;
@@ -43,7 +45,6 @@ body {
   font-size: 4rem;
   text-align: center;
   text-transform: uppercase;
-  font-weight: 700;
 }
 
 .box {
