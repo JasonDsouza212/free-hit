@@ -1,5 +1,12 @@
 [
   {
+    "productName": "Hi TV",
+    "category": "movies",
+    "image": "https://tinyurl.com/4xhvbctb",
+    "link": "https://www.gohitv.com/",
+    "description": "Binge Latest Korean shows and Movies for free"
+  },
+  {
     "productName": "BlockSite",
     "category": "extensions",
     "image": "https://bit.ly/3XO4Ov6",
