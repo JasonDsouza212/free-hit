@@ -1,71 +1,4 @@
-[
-  {
-    "productName": "BlockSite",
-    "category": "extensions",
-    "image": "https://bit.ly/3XO4Ov6",
-    "link": "https://bit.ly/46GbwXX",
-    "description": "Stay focused and improve productivity"
-  },
-  {
-    "productName": "Slazzer",
-    "category": "ai",
-    "image": "https://tinyurl.com/mryytkp9",
-    "link": "https://www.slazzer.com/",
-    "description": "It is an amazing free tool to remove background from images."
-  },
-
-  {
-    "productName": "Remove.bg",
-    "category": "ai",
-    "image": "https://tinyurl.com/4339cvv4",
-    "link": "https://www.remove.bg/",
-    "description": "An amazing AI tool to remove background from images for free."
-  },
-
-  {
-    "productName": "AdBlocker Ultimate",
-    "category": "extensions",
-    "image": "https://tinyurl.com/3uh79sfd",
-    "link": "https://chrome.google.com/webstore/detail/adblocker-ultimate/ohahllgiabjaoigichmmfljhkcfikeof",
-    "description": "Free and improved AdBlocker Chrome extension. Completely remove ALL ads."
-  },
-
-  {
-    "productName": "Slides Go",
-    "category": "ai",
-    "image": "https://tinyurl.com/mpf29nnv",
-    "link": "https://slidesgo.com/",
-    "description": "AI tool to create presentations for free."
-  },
-
-  {
-    "productName": "JS Remotely",
-    "category": "remote",
-    "image": "https://tinyurl.com/ycyab9eb",
-    "link": "https://jsremotely.com/",
-    "description": "Find remote Javascript jobs."
-  },
-  {
-    "productName": "JavaScript minify",
-    "category": "tools",
-    "image": "https://assets.toptal.io/images?url=https%3A%2F%2Fwww.toptal.com%2Ftoptal-logo.png&width=320",
-    "link": "https://www.toptal.com/developers/javascript-minifier",
-    "description": "Allows lowering the size of the web pages and scripts files to enhance performance."
-  },
-  {
-    "productName": "Hippo Video recorder",
-    "category": "extension",
-    "image": "http://surl.li/ivzco",
-    "link": "https://shorturl.at/mPS03",
-    "description": "Record amazing videos, edit with our powerful video editor, share across multiple platforms and see how your video is performing."
-  },
-  {
-    "productName": "Just Chill",
-    "category": "movies",
-    "image": "https://postimg.cc/KKjFcKcg",
-    "link": "https://www.justchill.tv/?server=2",
-    "description": "Watch latest movies and series for free."
-  },
+[ 
   {
     "productName": "PikaShows",
     "category": "movies",
@@ -73,48 +6,7 @@
     "link": "https://www.pikashows.download/",
     "description": "Download this application for PC and Mobile to stream all types of TV Shows and Movies."
   },
-  {
-    "productName": "Glassdoor",
-    "category": "remote",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Glassdoor_logo.svg",
-    "link": "https://www.glassdoor.co.in/",
-    "description": "One of the best platform searching for jobs, salary information, company reviews, and interview questions."
-  },
-  {
-    "productName": "MidJourney",
-    "category": "ai",
-    "image": "https://tinyurl.com/24hpn3dr",
-    "link": "https://tinyurl.com/e9rvw24w",
-    "description": "Midjourney is a generative artificial intelligence program and service, generates images from natural language descriptions."
-  },
-  {
-    "productName": "Lexica",
-    "category": "ai",
-    "image": "https://tinyurl.com/5n72hdex",
-    "link": "https://tinyurl.com/4watfe5k",
-    "description": "The Stable Diffusion prompt search engine one of the more popular AI art models ."
-  },
-  {
-    "productName": "Framer",
-    "category": "ai",
-    "image": "https://tinyurl.com/yeymmjrc",
-    "link": "https://tinyurl.com/ms9rypky",
-    "description": "AI site generator is an amazing tool that makes it easy to create websites without any coding knowledge."
-  },
-  {
-    "productName": "UberDuck",
-    "category": "ai",
-    "image": "https://app.uberduck.ai/uberduck-neon.jpg",
-    "link": "https://tinyurl.com/rewyj4ee",
-    "description": "Uberduck is a free text-to-speech web app that synthesizes celebrity voices instantly and gets them to say anything you want."
-  },
-  {
-    "productName": "Reddit",
-    "category": "tools",
-    "image": "https://tinyurl.com/3ufmabtk",
-    "link": "https://tinyurl.com/b3ypvdtb",
-    "description": "Reddit is a network of communities where people can dive into their interests, hobbies and passions. There's a community for whatever you're interested in."
-  },
+
   {
     "productName": "Scaler",
     "category": "coding",
@@ -270,7 +162,7 @@
     "description": "Record a video from the camera or capture it from the screen"
   },
   {
-    "productName": "Awesome Screen Capture And Recorder",
+    "productName": "Awesome Screenshot",
     "category": "tools",
     "image": "https://avatars.slack-edge.com/2019-03-29/593781862471_95d3bb4cccb9b58821be_512.png",
     "link": "https://www.awesomescreenshot.com/",
@@ -1677,7 +1569,7 @@
     "link": "https://regexr.com/"
   },
   {
-    "productName": "Unblast UI  Templates",
+    "productName": "Unblast",
     "category": "UI",
     "image": "https://bit.ly/3qlij8V",
     "link": "https://bit.ly/3C51MZ3",
@@ -1698,21 +1590,21 @@
     "description": "UI Design Mockups Available 2d & 3D"
   },
   {
-    "productName": "UI : Muzli Collections",
+    "productName": "Muzli Collections",
     "category": "UI",
     "image": "https://bit.ly/42h8JRq",
     "link": "https://bit.ly/3IOltZ2",
     "description": "Profile Page screen design inspiration"
   },
   {
-    "productName": "Dashboard UI Kit 3.0",
+    "productName": "Dashboard UI Kit",
     "category": "UI",
     "image": "https://bit.ly/3N2secf",
     "link": "https://bit.ly/3N4lGK9",
     "description": "The first and largest design kit for web apps and dashboards developed in React."
   },
   {
-    "productName": "UI Kit : figma, XD, etc",
+    "productName": "Freebies UI",
     "category": "UI",
     "image": "https://bit.ly/45COMri",
     "link": "https://bit.ly/45BOgd8",
@@ -1721,12 +1613,12 @@
   {
     "productName": "3D Icons",
     "category": "UI",
-    "image": "https://shorturl.at/gHPS6",
+    "image": "https://bit.ly/43yR9th",
     "link": "https://bit.ly/43dBe3H",
     "description": "3D icons & 3D characters in high 4K resolution"
   },
   {
-    "productName": "6.5 M+ Designs",
+    "productName": "6.5 M+ Design Assets",
     "category": "UI",
     "image": "https://bit.ly/3C47pH3",
     "link": "https://bit.ly/3P5Hman",
@@ -1938,20 +1830,6 @@
   "description": "Free and open source font families."
 },
 {
-  "productName": "pdfFiller",
-  "category": "tools",
-  "image": "https://th.bing.com/th/id/OIP.cW8UKMnfRximKt-fla5MSAHaHa?w=168&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
-  "link": "https://www.pdffiller.com/?mode=view",
-  "description": "Edit, manage and share documents online."
-},
-{
-  "productName": "Docker",
-  "category": "tools",
-  "image": "https://images.csmonitor.com/csm/2015/05/docker-logo.jpg?alias=standard_900x600",
-  "link": "https://www.docker.com/",
-  "description": "Docker is an open source platform that enables developers to build, deploy, run, update and manage containers."
-},
-{
   "productName": "StackBlitz",
   "category": "Online Code Editor",
   "image": "https://avatars.githubusercontent.com/u/28635252?s=200&v=4",
@@ -1965,14 +1843,6 @@
     "link": "https://www.freecodecamp.org/",
     "description": "freeCodeCamp is a non-profit organization providing free online coding courses and a supportive community."
 },
-{
-  "productName": "Sejda",
-  "category": "tools",
-  "image": "https://www.fullsoftzone.com/wp-content/uploads/2020/03/Sejda-PDF-Desktop.png",
-  "link": "https://www.sejda.com/",
-  "description": "Sejda helps with your PDF tasks. Quick and simple online service, no installation required! Split, merge or convert PDF to images, alternate mix or split scans and many other."
-},
-
 {
   "productName": "Ant Design",
   "category": "tools",
@@ -2007,14 +1877,14 @@
     "category": "remote",
     "image": "https://tinyurl.com/48bja2rc",
     "link": "https://www.crossover.com/",
-    "description": "Find a full time remote job"
+    "description": "Find a full time remote job" 
   },
   {
     "productName": "Foundit",
     "category": "remote",
     "image": "https://bit.ly/3NQbci1",
     "link": "https://www.foundit.in/",
-    "description": "Find the job that is perfect for You"
+    "description": "Find the job that is perfect for You" 
   },
   {
     "productName": "INSIDEA",
@@ -2028,7 +1898,7 @@
     "category": "Online Code Editor",
     "image": "bit.ly/3XasObi",
     "link": "https://replit.com/",
-    "description": "An online IDE that allows users to create, run and share code in a web browser"
+    "description": "An online IDE that allows users to create,run and share code in a web browser"
   },
   {
     "productName": "devChallenges.io",
@@ -2203,7 +2073,7 @@
   "category": "ai",
   "image": "https://tinyurl.com/5n936eaz",
   "link": "https://www.writefull.com/#products",
-  "description": "Assistant designed to help English writing skills"
+  "description": "assistant designed to help English writing skills"
 },
 {
   "productName": "Chakra UI",
@@ -2217,7 +2087,7 @@
   "category": "web",
   "image": "https://www.frontendmentor.io/",
   "link": "https://www.frontendmentor.io/",
-  "description": "A platform providing challenges for frontend developers to sharpen their skills."
+  "description": "A platform providing challenges for frontend developers to sharp their skills."
 },
 {
   "productName": "Class Central",
@@ -2227,32 +2097,11 @@
   "description": "Class Central is a website that lists online courses from top universities and providers."
 },
 {
-  "productName": "Novoresume",
-  "category": "resume",
-  "image": "https://bit.ly/3P09nA5",
-  "link": "https://novoresume.com/",
-  "description": "Online resume builder."
-},
-  {
-  "productName": "Honeypot",
-  "category": "remote",
-  "image": "https://tinyurl.com/rfj43fr5",
-  "link": "https://www.honeypot.io/en/",
-  "description": "Europe's Developer-Focused Job Platform."
-},
-{
-  "productName": "Freedom",
-  "category": "Useful Tools",
-  "image": "https://bit.ly/43YEgtb",
-  "link": "https://freedom.to/",
-  "description": "App and website blocker, used by over 2.5 million people to reclaim focus and productivity."
-},
-{
   "productName": "Talk to Books ",
   "category": "Useful Tools",
   "image": "https://bit.ly/46hqdjP",
   "link": "https://books.google.com/talktobooks/",
-  "description": "Users could ask questions and phrases, and the AI would scan through books to find relevant passages and provide answers."
+  "description": "Users could ask questions, phrases, and the AI would scan through of books to find relevant passages and provide answers."
 },
 {
   "productName": "Exercism",
@@ -2273,7 +2122,7 @@
   "category": "tools",
   "image": "https://bit.ly/4485Unq",
   "link": "https://spinbot.com/",
-  "description": "Spinbot is a text-spinning tool that generates alternative content."
+  "description": "Spinbot a text-spinning tool that generates alternative content."
 },
 {
   "productName": "Free Icons",
@@ -2289,7 +2138,6 @@
   "link": "https://pomofocus.io/app",
   "description": "Pomofocus is a customizable pomodoro timer to help you focus on any task you are working on."
 
-
 },
 {
   "productName": "Codestudio",
@@ -2298,7 +2146,7 @@
   "link": "https://www.codingninjas.com/codestudio",
   "description": "Coding Ninjas Studio Unleash your coding potential with interactive learning and practice."
 },
-{
+{  
   "productName": "Text2SQL AI",
   "category": "ai",
   "image": "bit.ly/3JoQcMD",
@@ -2324,7 +2172,7 @@
   "category": "ai",
   "image": "https://bit.ly/42TQnqc",
   "link": "https://www.poised.com/",
-  "description": "Poised is an AI-powered communication coach."
+  "description": "poised is an AI powered communication coach."
 },
 {
   "productName": "OBS Studio",
@@ -2383,13 +2231,6 @@
   "description":"Create ATS Friendly Resumes Effectively with ATS Score Provides"
 },
 {
-  "productName":"Programiz",
-  "category": "web",
-  "image": "https://rb.gy/xdxd7",
-  "link": "https://www.programiz.com/",
-  "description": "Learn Programming for Free with Frontend Technologies"
-},
-{
   "productName": "Read Aloud",
   "category": "extensions",
   "image": "https://imgur.com/a/qDvJF1n",
@@ -2408,7 +2249,7 @@
   "category": "tools",
   "image": "https://imgur.com/a/kLKlkiv",
   "link": "https://www.imagetotext.info/",
-  "description": "Image to text converter"
+  "description": "Image to text convertor"
 },
 {
   "productName": "USACO",
@@ -2422,14 +2263,14 @@
   "category": "ai",
   "image": "https://bit.ly/44t5SXn",
   "link": "https://www.doubtclear.ai/",
-  "description": "AI-Powered Homework Assistance for All!"
+  "description": "AI Powered Homework Assistance for All!"
 },
 {
   "productName": "GSAP-GreenStock",
   "category": "Useful Tool",
   "image": "https://bit.ly/3NreI0H",
   "link": "https://greensock.com/gsap/",
-  "description": "It's a JavaScript library for some really cool animations without actual javascript codes"
+  "description": "It's JavaScript library for some really cool animations without actual javascript codes"
 },
 {
 "productName": "Codecademy",
@@ -2457,21 +2298,21 @@
   "category": "tools",
   "image": "https://imgur.com/a/FUyjavX",
   "link": "https://www.eventbrite.com/",
-  "description": "Get Coding events and Hackathons update."
+  "description": "Get Coding events and Hackathons update."  
 },
 {
   "productName": "Bing",
   "category": "ai",
   "image": "https://imgur.com/a/AwM4jXQ",
   "link": "https://chrome.google.com/webstore/detail/microsoft-bing-homepage-s/ddojnmkongaimkdddgmcccldlfhokcfb",
-  "description": "Bing Ai extension"
+  "description": "Bing Ai extension"   
 },
 {
   "productName": "Vegamovies",
   "category": "movies",
   "image": "https://apkrabi.com/uploads/2023/4/vegamovies-icon.jpg",
   "link": "https://m.vegamovies.tips/",
-  "description": "Here you can download all the latest movies in top quality"
+  "description": "Here you can download all latest movies in the top quality"  
 },
 {
   "productName": "Bit Warden",
@@ -2485,7 +2326,7 @@
   "category": "tools",
   "image": "bit.ly/3r7vPxi",
   "link": "https://javascript.info/",
-  "description": "Provides comprehensive tutorials and references on JavaScript"
+  "description": "Provides comprehensive tutorials and references on the JavaScript"  
 },
 {
   "productName": "Spline AI",
@@ -2513,7 +2354,7 @@
   "category": "tools",
   "image": "https://iili.io/HidMrXV.png",
   "link": "https://imgur.com/",
-  "description": "Imgur provides the simplest and most convenient means to host your images"
+  "description": "Imgur provides the simplest and most convenient means to host your images"  
 },
 {
   "productName": "Firebase",
@@ -2528,7 +2369,7 @@
   "image": "https://bit.ly/46vxjkU",
   "link": "https://auth0.com",
   "description": "Auth0 is an authentication and authorization platform."
-},
+},  
 {
   "productName": "Google Maps API",
   "category": "tools",
@@ -2731,574 +2572,5 @@
   "image": "https://shorturl.at/dEFHL",
   "link": "https://app.haikei.app/",
   "description": "Generate Blob, Wave, Blurry Gradients, Circle Scatter, Blob Scene, Layered Waves, etc."
-},
-{
-  "productName": "CodeGpt",
-  "category": "ai",
-  "image": "https://tinyurl.com/codegpt",
-  "link": "https://codegpt.co/",
-  "description": "CodeGPT AI-powered coding assistant for efficient programming workflows."
-},
-{
-  "productName": "react-icons",
-  "category": "tools",
-  "image": "http://bit.ly/3rdCqGs",
-  "link": "http://bit.ly/3XzbuNg",
-  "description": "Include popular icons in react projects easily with react-icons, utilizes ES6 imports "
-},
-{
-  "productName": "Honey",
-  "category": "extensions",
-  "image": "https://bit.ly/435V6VH",
-  "link": "https://www.joinhoney.com/",
-  "description": "Save time and money while shopping online with automatic coupon searches and price comparisons."
-},
-{
-  "productName": "Enggsolution",
-  "category":"remote",
-  "image": "https://bit.ly/3NrPjEc",
-  "link": "https://enggsolution.com/",
-  "description": "It is all in one program for engg students where they can explore the great world of engineering."
-},
-{
-  "productName": "PDFZorro",
-  "category": "tools",
-  "image": "https://bit.ly/44doxqs",
-  "link": "https://www.pdfzorro.com/",
-  "description": "Edit PDF with our free Online-PDF-Editor"
-},
-{
-  "productName": "steve AI",
-  "category": "ai",
-  "image": "https://www.steve.ai/assets/img/steveai_logo.svg",
-  "link": "https://www.steve.ai/",
-  "description": "See the MAGIC happen as the AI picks the right creative media assets for your Video."
-},
-{
-  "productName":"Converter App",
-  "category": "tools",
-  "image": "https://imgur.com/a/7GQYPo3",
-  "link": "https://converter.app/pdf-to-latex/",
-  "description": "This tool can convert your PDF files to corresponding LaTeX code."
-},
-{
-  "productName": "CP Algorithms",
-  "category": "coding",
-  "image": "bit.ly/44s0C61",
-  "link": "https://cp-algorithms.com/",
-  "description": "Website where all the algorithm related to competitive programming is present."
-},
-{
-  "productName": "Grid Garden",
-  "category": "tools",
-  "image": "https://shorturl.at/gszLX",
-  "link": "http://cssgridgarden.com/",
-  "description": "Use website to boost the knowledge of CSS Grid property."
-},
-{
-  "productName": "Web Dev - CSS",
-  "category": "tools",
-  "image": "https://shorturl.at/mtxA2",
-  "link": "https://web.dev/learn/css/",
-  "description": "This website can boost the knowledge of CSS properties from the basics to advance. This website is a beginner friendly."
-},
-{
-  "productName": "MovieVerse",
-  "category": "movies",
-  "image": "https://shorturl.at/lpNUX",
-  "link": "https://moviesverse.bet/",
-  "description": "Movieverse is the best site to watch movies, series, animes, and TV series online for free."
-},
-{
-  "productName": "HD Hub4u",
-  "category": "movies",
-  "image": "https://shorturl.at/cfADE",
-  "link": "https://hdhub4u.green/",
-  "description": "HD hub4u is the best site to watch HD movies, series, animes, and TV series online for free."
-},
-{
-  "productName": "Movie Mint",
-  "category": "movies",
-  "image": "https://shorturl.at/evzD8",
-  "link": "https://moviesmint.org/",
-  "description": "Movie mint is the best site to watch new and upcoming movies, series, animes, and TV series online for free."
-},
-{
-  "productName": "i-Top",
-  "category": "tools",
-  "image": "https://shorturl.at/acyCL",
-  "link": "https://recorder.itopvpn.com/",
-  "description": "iTop Screen Recorder is an intuitive & powerful screen recorder that helps capture all your activities and create videos on your PC."
-},
-{
-  "productName": "Bandicam",
-  "category": "tools",
-  "image": "https://shorturl.at/bBHKU",
-  "link": "https://www.bandicam.com/",
-  "description": "Bandicam is a lightweight screen recorder software for Windows that can capture anything on your PC screen as a high-quality video."
-},
-{
-  "productName": "Cam-Studio",
-  "category": "tools",
-  "image": "https://shorturl.at/gkvR3",
-  "link": "https://camstudio.org/",
-  "description": "CamStudio is a desktop software for Windows computers that can record all on-screen video and audio activity."
-},
-{
-  "productName": "Filmora",
-  "category": "tools",
-  "image": "https://shorturl.at/U2567",
-  "link": "https://filmora.wondershare.com/screen-recorder/",
-  "description": "Capture Screen, Web Camera and Audio, Screen Drawing and Mouse Spotlight & Powerful Video Editor with 100+ Resources"
-},
-{
-  "productName": "ScreenCast-O-Matic",
-  "category": "tools",
-  "image": "https://shorturl.at/invCJ",
-  "link": "https://screenpal.com/",
-  "description": "This screen capture tools help you easily create, edit and communicate with videos and images."
-},
-{
-  "productName": "Camtasia",
-  "category": "tools",
-  "image": "https://shorturl.at/ctHZ1",
-  "link": "https://www.techsmith.com/video-editor.html",
-  "description": "Make professional-quality videos quickly and easily with Camtasia."
-},
-{
-  "productName": "ShareX",
-  "category": "tools",
-  "image": "https://shorturl.at/juDOZ",
-  "link": "https://getsharex.com/",
-  "description": "Screen capture, file sharing and productivity tool"
-},
-{
-  "productName": "klap",
-  "category": "ai",
-  "image": "https://bit.ly/46ssokJ",
-  "link": "https://klap.app/",
-  "description": "Get ready-to-publish TikToks, Reels, Shorts from YouTube videos in a click"
-},
-{
-  "productName": "GoTranscript",
-  "category": "tools",
-  "image": "https://bit.ly/3NyezZt",
-  "link": "https://gotranscript.com/",
-  "description": "Freelance: Transcribe audio and video accurately with GoTranscript."
-},
-{
-  "productName": "GradeScope - AI Tool",
-  "category": "tools",
-  "image": "https://shorturl.at/qEM69",
-  "link": "https://www.gradescope.com/",
-  "description": "Gradescope helps you seamlessly administer and grade all of your assessments, whether online or in-class."
-},
-{
-  "productName": "Dragon Education Solutions",
-  "category": "tools",
-  "image": "https://shorturl.at/iry45",
-  "link": "https://shorturl.at/glW18",
-  "description": "This fulfill your potential with speech recognition software that allows you to write as fast and as fluently as you think."
-},
-{
-  "productName": "IVY Quantum Chatbots",
-  "category": "tools",
-  "image": "https://shorturl.at/bmOQX",
-  "link": "https://ivy.ai/",
-  "description": "IvyQuantum™ is an all-in-one platform designed to simplify conversational chatbots."
-},
-{
-  "productName": "Cognii AI Tool",
-  "category": "tools",
-  "image": "https://shorturl.at/cIV38",
-  "link": "https://www.cognii.com/",
-  "description": "Cognii is a leading provider of Artificial Intelligence based educational technologies."
-},
-{
-  "productName": "Knowji",
-  "category": "tools",
-  "image": "https://shorturl.at/alvzE",
-  "link": "https://www.knowji.com/",
-  "description": "Knowji is a new approach to learning vocabulary and combine scientifically proven methodologies with entertaining content."
-},
-{
-  "productName": "Plaito",
-  "category": "tools",
-  "image": "https://shorturl.at/flRS9",
-  "link": "https://www.plaito.ai/",
-  "description": "Plaito acts as a coach giving prompts and suggestions to move students forward as they write & debate in exciting new ways."
-},
-{
-  "productName": "Century AI Tool",
-  "category": "tools",
-  "image": "https://shorturl.at/aBCS1",
-  "link": "https://www.century.tech/",
-  "description": "The AI platform also tracks student progress while pointing out knowledge gaps in the learning."
-},
-{
-  "productName": "Enhancecv",
-  "category": "resume",
-  "image": "https://bit.ly/4302IsZ",
-  "link": "https://enhancv.com/",
-  "description": "Online resume builder for impressive, professional job applications."
-},
-{
-  "productName": "iNeuron",
-  "category": "remote",
-  "image": "https://bit.ly/46BGPD2",
-  "link": "https://ineuron.ai/",
-  "description": "Learning that makes you ready for job."
-},
-{
-  "productName": "10web",
-  "category": "ai",
-  "image": "https://bit.ly/3pnYGwN",
-  "link": "https://10web.io/",
-  "description": "Build or recreate any website in minutes with the power of AI."
-},
-{
-  "productName": "Lovo",
-  "category": "ai",
-  "image": "https://bit.ly/3PzeRlv",
-  "link": "https://lovo.ai/",
-  "description": "Realistic AI voices that capivate your audience."
-},
-{
-  "productName": "Opus Clip",
-  "category": "ai",
-  "image": "https://bit.ly/3PEAv7J",
-  "link": "https://www.opus.pro/",
-  "description": "1 long video, 10 viral clips. Create 10x faster."
-},
-{
-  "productName": "FileCR",
-  "category" : "tools",
-  "image": "https://bit.ly/44tzK5E",
-  "link": "https://filecr.com/",
-  "description": "Free download Windows programs, plugins, codecs, drivers, tools, utilities, gaming tools."
-},
-{
-  "productName": "CSS Challenges",
-  "category" : "tools",
-  "image": "https://tinyurl.com/3wz68vzy",
-  "link": "https://css-challenges.com/",
-  "description": "CSS Challenges is a resource that offers fun and playful ways to practice your CSS skills."
-},
-{
-  "productName": "HANDZ",
-  "category": "tools",
-  "image": "https://shorturl.at/dEFHL",
-  "link": "https://threedeeshop.gumroad.com/l/sGvBh",
-  "description": "A 3D gestures library to create yummy graphic design, you can use them in whatever you want."
-},
-{
-  "productName": "Storybook",
-  "category": "web",
-  "image": "https://avatars.githubusercontent.com/u/22632046?s=280&v=4",
-  "link": "https://storybook.js.org/",
-  "description": "Build UIs without the grunt work"
-},
-{
-  "productName": "BlueWillow",
-  "category": "ai",
-  "image": "https://bit.ly/439wk7g",
-  "link": "https://www.bluewillow.ai/",
-  "description": "From logos and characters to digital artwork and photos,  just describe the image you want"
-},
-{
-  "productName": "Stable Diffusion",
-  "category": "ai",
-  "image": "https://stablediffusionweb.com/logo.png",
-  "link": "https://stablediffusionweb.com/",
-  "description": "Create beautiful art using stable diffusion ONLINE for free."
-},
-{
-  "productName": "Gulp Extension",
-  "category": "extensions",
-  "image": "https://bit.ly/3XAvEXl",
-  "link": "https://gulpjs.com/",
-  "description": "A toolkit to automate & enhance your workflow"
-},
-{
-  "productName": "Coursera",
-  "category": "courses",
-  "image": "https://bit.ly/3NSYoaG",
-  "link": "https://www.coursera.org/",
-  "description": "Free & paid courses from top universities with financial aid option"
-},
-{
-  "productName": "Udemy",
-  "category": "courses",
-  "image": "https://bit.ly/3JYgCoT",
-  "link": "https://www.udemy.com/",
-  "description": "Wide range of courses from various industry experts."
-},
-{
-  "productName": "Edx",
-  "category": "courses",
-  "image": "https://bit.ly/3Nywor8",
-  "link": "https://www.edx.org/",
-  "description": "Free prestigious university courses. Audit for free or pay for a certificate."
-},
-{
-  "productName": "Udacity",
-  "category": "courses",
-  "image": "https://bit.ly/43fzjew",
-  "link": "https://www.udacity.com",
-  "description": "Specializes in offering courses in the field of technology and computer science."
-},
-{
-  "productName": "Khan Academy",
-  "category": "courses",
-  "image": "https://bit.ly/443G6Je",
-  "link": "https://www.khanacademy.org",
-  "description": "A non-profit organization that offers free educational resources and courses for learners of all ages."
-},
-{
-  "productName": "Skillshare",
-  "category": "courses",
-  "image": "https://bit.ly/3NxRKVK",
-  "link": "https://www.skillshare.com",
-  "description": "A platform that primarily focuses on creative skills and offers a wide range of courses in design, photography, writing, and other artistic disciplines."
-},
-{
-  "productName": "LinkedIn Learning",
-  "category": "courses",
-  "image": "https://bit.ly/3NWgMzg",
-  "link": "https://www.linkedin.com/learning/",
-  "description": "Provides a vast library of courses focused on professional development and career advancement."
-},
-{
-  "productName": "Alison",
-  "category": "courses",
-  "image": "https://bit.ly/46q9awl",
-  "link": "https://alison.com/",
-  "description": "A free online learning platform that offers courses in various subjects, including languages, business, health, and more."
-},
-{
-"productName": "heroicons",
-"category": "tools",
-"image": "https://tinyurl.com/2n9henrf",
-"link": "https://heroicons.com/",
-"description": "Beautiful hand-crafted SVG icons"
-},
-{
-  "productName": "web.dev",
-  "category": "tools",
- "image": "http://bit.ly/web-dev-img",
-  "link": "https://web.dev/",
-  "description": "containing web development related course , pattern ( ex- component , header, animation , footer,card )"
-},
-{
-  "productName": "Tweet Hunter",
-  "category": "tools",
-  "image": "https://rb.gy/qirv4",
-  "link": "https://tweethunter.io/",
-  "description": "Tweet Hunter helps you to build and monetize your twitter audience."
-},
-{
-  "productName": "Perplexity",
-  "category": "ai",
-  "image": "https://bit.ly/46x1HLH",
-  "link": "https://www.perplexity.ai/",
-  "description": "Perplexity AI unlocks the power of knowledge with information discovery and sharing."
-},
-{
-  "productName": "Rytr",
-  "category": "ai",
-  "image": "https://bit.ly/3pyqTB6",
-  "link": "https://rytr.me/",
-  "description": "Rytr is an AI writing assistant that helps you create high-quality content, in just a few seconds"
-},
-{
-  "productName": "Sheet+",
-  "category": "ai",
-  "image": "https://sheetplus.ai/assets/img/logo-square.png",
-  "link": "https://sheetplus.ai/",
-  "description": "AI tool for rapid and precise formula generation and explanation in Excel and Google Sheets."
-},
-{
-  "productName": "NightCafe",
-  "category": "ai",
-  "image": "https://bit.ly/3rcgUC1",
-  "link": "https://nightcafe.studio/",
-  "description": "Create beautiful art in seconds with the help of Artificial Intelligence"
-},
-{
-  "productName": "Eightify",
-  "category": "extensions",
-  "image": "https://bit.ly/44t4zHA",
-  "link": "https://eightify.app/",
-  "description": "Save time on long videos — get key ideas instantly"
-},
-{
-  "productName": "ChatPDF",
-  "category": "ai",
-  "image": "https://bit.ly/44a7TI4",
-  "link": "https://www.chatpdf.com/",
-  "description": "AI tool for interactive PDF processing, mimicking human-like interactions."
-},
-{
-  "productName":"Treehouse",
-  "category":"web",
-  "image":"https://rb.gy/xetek",
-  "link":"https://teamtreehouse.com/",
-  "description":"Learn to code, design, and more—all on your own time"
-},
-{
-  "productName":"Resumake",
-  "category":"resume",
-  "image":"https://rb.gy/l7tuu",
-  "link":"https://resumake.io/",
-  "description":"Create Latex Type Resumes with Pre-Built Templates"
-},
-{
-  "productName":"LearnersBucket",
-  "category": "web",
-  "image": "https://rb.gy/x3mi7",
-  "link": "https://learnersbucket.com/",
-  "description":"Learn Front End Development Technologies Deeper"
-},
-{
-  "productName":"Short URL",
-  "category":"tools",
-  "image":"https://contaxter.com/linkshortener/icon.png",
-  "link":"https://www.shorturl.at/shortener.php",
-  "description":"URL Shortening app"
-},
-{
-  "productName":"Vq.pe",
-  "category":"web",
-  "image":"https://vq.pe/owner/frontend/assets/img/logos/vq.png",
-  "link":"https://vq.pe/",
-  "description":"An website maker of your choosed topic in minutes."
-},
-{
-  "productName": "PrepInsta",
-  "category": "courses",
-  "image": "https://bit.ly/3PIJPaV",
-  "link": "https://prepinsta.com/",
-  "description": "Website for Placements Preparation for different companies like TCS, Infosys, Cognizant, etc "
-},
-{
-  "productName": "IndiaBix",
-  "category": "courses",
-  "image": "https://bit.ly/44ezJmp",
-  "link": "https://www.indiabix.com/",
-  "description": "Aptitude questions and answers for your placement interviews and competitive exams!"
-},
-{
-  "productName": "Campusgate",
-  "category": "courses",
-  "image": "https://bit.ly/3pFTTqt",
-  "link": "https://www.campusgate.in/?m=1",
-  "description": "Full length mock tests for TCS and other IT companies."
-},
-{
-  "productName": "good first issue",
-  "category": "coding",
-  "image": "https://goodfirstissue.dev/images/meta.jpg",
-  "link": "https://goodfirstissue.dev/",
-  "description": "This website provides accessible web development projects for novice programmers."
-},
-{
-  "productName": "LearnVern",
-  "category": "courses",
-  "image": "https://bit.ly/3O4Pu9P",
-  "link": "https://www.learnvern.com/",
-  "description": "This website offers complimentary(free) courses for students."
-},
-{
-  "productName": "replit",
-  "category": "coding",
-  "image": "http://surl.li/ixnin",
-  "link": "https://replit.com/~",
-  "description": "Replit, being Software as a Service (SaaS), allows users to create online projects."
-},
-{
-  "productName": "Prettier",
-  "category": "extensions",
-  "image": "https://prettier.io/icon.png",
-  "link": "https://prettier.io/",
-  "description": "An opinionated code formatter, Supports many languages, Integrates with most editors"
-},
-{
-  "productName":"The Odin Project",
-  "category":"web",
-  "image":"https://rb.gy/qjdy7",
-  "link":"https://www.theodinproject.com/",
-  "description":"Your Career in Web Development Starts Here"
-},
-{
-  "productName":"appypie",
-  "category":"tools",
-  "image":"https://l1nq.com/UzOJT",
-  "link":"https://www.appypie.com/design",
-  "description":"Appy Pie Design: AI-Powered No-Code Design Platform"
-},
-{
-  "productName": "Snapinsta",
-  "category": "Tools",
-  "image": "https://freeimage.host/i/HsRsSsI",
-  "link": "https://snapinsta.app/",
-  "description":"Downloads Video Instagram, Photo, Reels, Stories, IGTV online"
-},
-{
-  "productName": "Flexbox Froggy",
-  "category": "coding",
-  "image": "https://bit.ly/3JNEStq",
-  "link": "https://flexboxfroggy.com",
-  "description": "Welcome to Flexbox Froggy, a game where you help Froggy and friends by writing CSS code!"
-},
-{
-  "productName": "Guess-CSS",
-  "category": "coding",
-  "image": "https://img.freepik.com/free-icon/css_318-698167.jpg",
-  "link": "https://www.guess-css.app/",
-  "description": "Guess CSS! HTML & CSS Puzzler Game."
-},
-{
-  "productName": "CSS Speedrun",
-  "category": "coding",
-  "image": "https://bit.ly/44os5WY",
-  "link": "https://css-speedrun.netlify.app/",
-  "description": "A small fun app to test your CSS knowledge."
-},
-{
-  "productName": "Codepip",
-  "category": "coding",
-  "image": "https://bit.ly/44Et8RY",
-  "link": "https://codepip.com/",
-  "description": "Learn to code CSS by playing coding games."
-},
-{
-  "productName": "Css Dinner",
-  "category": "coding",
-  "image": "https://bit.ly/3rnEziZ",
-  "link": "https://flukeout.github.io/",
-  "description": "CSS Diner is a 32 levels game that is used to teach CSS selectors."
-},
-{
-  "productName":"Edabit",
-  "category":"tools",
-  "image":"https://rb.gy/ktnax",
-  "link":"https://edabit.com/",
-  "description":"A Better Way to Learn Programming with Different Exercises"
-},
-
-{
-  "productName":"Codewell",
-  "category":"web",
-  "image":"https://rb.gy/6jkvy",
-  "link":"https://www.codewell.cc/challenges",
-  "description":"Practicing differennt Types Of Front End Projects Much Easier"
-  },
-  {
-  "productName": "Leethub",
-  "category": "extensions",
-  "image": "bit.ly/3XHUlRw",
-  "link": "https://bit.ly/46IGKNU",
-  "description": "Automatically integrate your Leetcode & GeeksforGeeks submissions to GitHub"
-
 }
 ]
