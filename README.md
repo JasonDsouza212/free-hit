@@ -32,7 +32,10 @@ Contributions are welcome! If you have any ideas, suggestions, or bug fixes, ple
 
 
 
+## License
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+Terms and conditions for use, reproduction and distribution are under the [MIT License](https://opensource.org/license/mit/).
 
 ## ✨ Authors(only for GSSoC'23)
 
