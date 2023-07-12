@@ -2572,5 +2572,12 @@
   "image": "https://shorturl.at/dEFHL",
   "link": "https://app.haikei.app/",
   "description": "Generate Blob, Wave, Blurry Gradients, Circle Scatter, Blob Scene, Layered Waves, etc."
+},
+{
+  "productName": "Gitter",
+  "category": "tools",
+  "image": "https://gitter.im/images/logo-text-white-nomargin@2x.png",
+  "link": "https://gitter.im/",
+  "description": "Chat and networking platform that helps to manage, grow and connect communities through messaging, content and discovery"
 }
 ]
