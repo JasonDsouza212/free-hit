@@ -63,6 +63,7 @@ const GridView = ({ currentProducts }) => {
             )}
           </div>
         </article>
+        
       ))}
     </main>
   );

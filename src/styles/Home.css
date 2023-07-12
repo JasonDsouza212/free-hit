@@ -61,18 +61,17 @@ body {
   position: relative;
   min-height: 220px;
   max-width: 350px;
-  border: 1px solid var(--primary-black);
-  box-shadow: 8px 8px 2px 0px var(--primary-black);
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
   background-color: var(--primary-white);
   padding: 15px 30px;
-  border-radius: 20px;
+  border-radius: 10px;
   color: #000;
   font-size: 18px;
   transition: all 0.3s;
 }
 
 .grid>article:hover {
-  box-shadow: 6px 6px 0px 0px var(--primary-black);
+  box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
   transform: scale(1.02);
 }
 
@@ -85,7 +84,7 @@ img {
 .grid>article .btn-cont {
   margin-top: 2rem;
   display: flex;
-  justify-content: center;
+  justify-content: space-around
 }
 
 .grid article p {
@@ -132,11 +131,12 @@ img {
 .btn-cont button {
   background-color: var(--primary-black);
   padding: 7px 25px;
-  border-radius: 8px;
+  border-radius: 6px;
   margin: 2px;
   transition: all 0.3s ease;
   color: var(--primary-white);
 }
+
 
 .btn-cont button a {
   text-decoration: none;
@@ -154,6 +154,7 @@ img {
 
 .btn-cont button:hover {
   transform: scale(1.05);
+   box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
 }
 
 .bookmark {

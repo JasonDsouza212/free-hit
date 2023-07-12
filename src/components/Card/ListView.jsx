@@ -10,9 +10,8 @@ const ListView = ({ currentProducts }) => {
     <Accordion allowToggle className={`list ${darkMode ? 'dark-mode' : ''}`}>
       {currentProducts.map((product, index) => (
         <AccordionItem
-          borderRadius="8px"
-          boxShadow={darkMode ? '8px 8px 2px 0px #ffffff' : '8px 8px 2px 0px #373530'}
-          border={darkMode ? '1px solid #ffffff' : '1px solid #373530'}
+          borderRadius="10px"
+          boxShadow={darkMode ? '0 25px 50px -12px rgb(0 0 0 / 0.25)' : '0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1)'}
           key={index}
           className="accordion_item"
         >
