@@ -287,7 +287,7 @@ nav {
   border-radius: 100px;
   font-size: 18px;
   background: #f1f1ef;
-  color: var(--primary-black);
+  color: black;
   border: 2px solid var(--primary-black);
 }
 
