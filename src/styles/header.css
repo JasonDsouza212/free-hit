@@ -286,7 +286,6 @@ nav {
   position: absolute;
   width: 52px;
   height: 80%;
-  background: var(--primary-black);
   z-index: 1;
   cursor: pointer;
   right: 0px;
@@ -298,7 +297,7 @@ nav {
   right: 5px;
   top: 49%;
   transform: translate(-50%, -50%);
-  color: var(--primary-white);
+  color: var(black);
   font-size: 20px;
 }
 
