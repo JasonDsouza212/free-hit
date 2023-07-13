@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2,
+    "name": "FreeHit",
+    "version": "1.0.0",
+    "description": "Description of the extension",
+    "icons": {
+      "16": "logo16.jpg",
+      "48": "logo48.jpg",
+      "128": "logo128.jpg"
+    },
+    "browser_action": {
+      "default_popup": "index.html",
+      "default_icon": "logo.jpg"
+    },
+    "permissions": [
+      "tabs",
+      "activeTab",
+      "storage"
+    ],
+    "manifest_key": "value"
+  }
+  
