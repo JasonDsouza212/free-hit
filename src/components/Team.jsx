@@ -3,7 +3,7 @@ import con2 from '../assets/1.webp'
 import con3 from '../assets/3.webp'
 import con4 from '../assets/coworking.webp'
 import { useNavigate } from 'react-router-dom'
-import "../styles/Team.css"
+import '../styles/Team.css'
 import { useContext } from 'react';
 import { ToolContext } from '../App';
 
