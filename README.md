@@ -1,4 +1,4 @@
-Welcome 👋
+# Welcome <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px">
 
 Free-Hit is an web application that is used to search for free tools that are both free and helpful for our needs. It is built by the amazing open-source community. Here you will find a list of free tools that can help you in your day-to-day life. You can also contribute to this project by adding more tools to our database.
 
