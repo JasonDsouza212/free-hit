@@ -3300,20 +3300,25 @@
   "description": "Automatically integrate your Leetcode & GeeksforGeeks submissions to GitHub"
 },
 {
-
+  "productName": "Flexbox Defense",
+  "category": "coding",
+  "image": "https://bit.ly/46GyHkR",
+  "link": "http://www.flexboxdefense.com/",
+  "description": "Your job is to stop the incoming enemies from getting past your defenses."
+},
+{
   "productName":"BFE.dev",
   "category":"web",
   "image":"https://rb.gy/6bw6a",
   "link":"https://bigfrontend.dev/",
   "description":"BFE.dev is the platform to practice your Front-End development skills"
 },
-  {
+{
   "productName": "CSS Layout",
   "category": "web",
   "image": "",
   "link": "https://csslayout.io/",
   "description": "A collection of popular layouts and patterns made with CSS."
-
 },
 {
   "productName": "Simplilearn",
@@ -3342,5 +3347,12 @@
   "image":"https://rb.gy/20n1y",
   "link":"https://www.instahyre.com/",
   "description":"Zero Hassle Job Search Website"
+},
+{
+  "productName": "Stylized",
+  "category": "ai",
+  "image": "https://rb.gy/xwgjm",
+  "link": "https://www.stylized.ai/",
+  "description": "Helps e-commerce sellers create professional product photos in seconds."
 }
 ]
