@@ -7,6 +7,8 @@ import NotFound from './pages/NotFound'
 import Community from './pages/Community'
 import Layout from './components/Layout'
 import {Analytics} from '@vercel/analytics/react'
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const ToolContext = createContext()
 const LOCAL_STORAGE_KEY = 'freehit.bookmarks'
@@ -54,6 +56,16 @@ function App() {
       link: bookmark.link,
       description: bookmark.description,
     }
+    toast.success('Bookmarked', {
+      position: "top-center",
+      autoClose: 3000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "light",
+      });
     setBookmarks([...bookmarks, newBookmark])
   }
 
@@ -64,6 +76,16 @@ function App() {
     setBookmarks(
       bookmarks.filter((res) => res.productName !== product.productName)
     )
+    toast.error("Deleted",{
+      position: "top-center",
+      autoClose: 3000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "light",
+      });
   }
 
   // values to pass to context hook s
@@ -95,6 +117,17 @@ function App() {
         </ToolContext.Provider>
       </div>
       <Analytics/>
+      <ToastContainer
+      position="top-center"
+      autoClose={3000}
+      hideProgressBar={false}
+      newestOnTop={false}
+      closeOnClick
+      rtl={false}
+      pauseOnFocusLoss
+      draggable
+      pauseOnHover
+      theme="light" />
     </>
   )
 }
