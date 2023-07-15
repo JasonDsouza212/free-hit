@@ -1,5 +1,12 @@
 [
   {
+    "productName": "Hi TV",
+    "category": "movies",
+    "image": "https://tinyurl.com/4xhvbctb",
+    "link": "https://www.gohitv.com/",
+    "description": "Binge Latest Korean shows and Movies for free"
+  },
+  {
     "productName": "BlockSite",
     "category": "extensions",
     "image": "https://bit.ly/3XO4Ov6",
@@ -3298,6 +3305,15 @@
   "image": "bit.ly/3XHUlRw",
   "link": "https://bit.ly/46IGKNU",
   "description": "Automatically integrate your Leetcode & GeeksforGeeks submissions to GitHub"
+
+  },
+  {
+  "productName": "NPTEL",
+  "category": "courses",
+  "image": "https://storage.googleapis.com/swayam2-node/assets/img/swayam_images/swayam_logo.png",
+  "link": "https://onlinecourses.nptel.ac.in/",
+  "description": "NPTEL is a project of MHRD initiated by 7 IITs along with the IISc, Bangalore in 2003, to provide quality education to anyone interested in learning from the IITs."
+
 },
 {
   "productName": "Flexbox Defense",
@@ -3340,5 +3356,25 @@
   "image": "https://shorturl.at/itKM5",
   "link": "https://goku.sx/home",
   "description": "This website offers animes, movies, cartoons, series, etc. in HD quality"
+},
+{ "productName": "Codementor",
+  "category": "coding", 
+   "image": "https://user-images.githubusercontent.com/84512164/249226971-111a6f09-4c8e-4921-a9f6-4aacdadf1f45.jpg",
+   "link": "https://www.codementor.io/projects",
+   "description": "This platform helps developers to Build JavaScript Projects and also connects them with mentors" 
+},
+{
+  "productName":"Instahyre",
+  "category":"remote",
+  "image":"https://rb.gy/20n1y",
+  "link":"https://www.instahyre.com/",
+  "description":"Zero Hassle Job Search Website"
+},
+{
+  "productName": "Stylized",
+  "category": "ai",
+  "image": "https://rb.gy/xwgjm",
+  "link": "https://www.stylized.ai/",
+  "description": "Helps e-commerce sellers create professional product photos in seconds."
 }
 ]
