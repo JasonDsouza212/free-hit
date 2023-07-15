@@ -15,6 +15,9 @@
 .app{
   background-color: var(--primary-white);
 }
+.app{
+  background-color: var(--primary-white);
+}
 :root {
   --primary-white: #f1f1ef;
   --primary-black: #373530;
@@ -39,8 +42,19 @@
   font-family: 'Space Grotesk', sans-serif;
 }
 
-body {
+
+html, body {
+  height: 100%;
   background-color: var(--primary-white);
+}
+
+.routes-holder{
+  min-height: 67vh;
+}
+
+body {
+  max-width: 100%;
+  overflow-y: scroll;
 }
 
 .routes-holder{
@@ -150,10 +164,6 @@ body {
     top: 3px;
   }
 
-  .free-logo {
-    top: 8px;
-  }
-
   .about {
     margin: 50px 30px;
     padding-left: 0px;
@@ -213,8 +223,7 @@ body {
   }
 
   .free-logo {
-    /* margin-left: 15px; */
-    bottom: 10px;
+    margin-left: 15px;
   }
 
   .about .ab1 p {
@@ -444,10 +453,12 @@ body {
     font-size: 28px;
     bottom: 500px;
     padding: 30px;
+    padding: 30px;
   }
 
   .about .ab1 img {
     margin-top: 50px;
+    margin-left: 1%;
     margin-left: 1%;
   }
 
@@ -456,10 +467,12 @@ body {
     font-size: 28px;
     top: 0%;
     padding: 30px;
+    padding: 30px;
   }
 
   .about .ab2 img {
     margin-top: 0px;
+    margin-left: 1%;
     margin-left: 1%;
     order: 2;
   }
@@ -471,7 +484,9 @@ body {
 
   .team-content {
     margin-left: 0px;
+    margin-left: 0px;
     grid-template-columns: repeat(1, minmax(300px, 320px));
+    padding: 46px;
     padding: 46px;
   }
   .center h1 {
@@ -506,7 +521,6 @@ body {
   .free-logo {
     position: relative;
     left: -23px;
-    top: 5px;
     width: 40px;
     height: 40px;
   }
@@ -517,7 +531,7 @@ body {
   }
 
   .backToTopButton {
-    right: 0.2rem;
+    right: 0.0.2rem;
   }
 
   .nav-container {
@@ -526,12 +540,18 @@ body {
 }
 
 /* ===============================395 media query */
-
 @media screen and (max-width: 401px) {
   .team-content {
     margin-left: 0;
     padding: 25px;
+    margin-left: 0;
+    padding: 25px;
   }
+  .about img {
+    width: 368px;
+    height: 368px;
+}
+  
   .about img {
     width: 368px;
     height: 368px;
@@ -559,22 +579,24 @@ body {
   .search_box .input {
     position: absolute;
     width: 100%;
-    height: 80%;
+    height: 77%;
     padding: 10px 20px;
     border-radius: 100px;
     font-size: 18px;
-    background-color: var(--primary-black);
+    background: #f1f1ef;
+    color: var(--primary-black);
+    border: 2px solid var(--primary-black);
   }
 
   .search_box .btn {
     position: absolute;
-    width: 60px;
-    height: 80%;
+    width: 50px;
+    height: 77%;
     background: var(--primary-black);
     z-index: 1;
     cursor: pointer;
     right: 0px;
-    border-radius: 50%;
+    border-radius: 47%;
   }
 
   .about {
@@ -618,6 +640,8 @@ body {
     margin-left: 1%;
     height: 360px;
     width: 360px;
+    height: 360px;
+    width: 360px;
     order: 2;
   }
 
@@ -628,7 +652,9 @@ body {
 
   .team-content {
     margin-left: 0%;
+    margin-left: 0%;
     grid-template-columns: repeat(1, minmax(280px, 300px));
+    padding: 25px;
     padding: 25px;
   }
 
@@ -656,6 +682,7 @@ body {
 /* ===============================360 media query */
 @media screen and (max-width: 360px) {
   .team-content {
+    margin-left: 0%;
     margin-left: 0%;
   }
 
@@ -700,4 +727,5 @@ body {
     width: 150px;
   }
 }
+
 

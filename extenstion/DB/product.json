@@ -2579,5 +2579,12 @@
   "image": "https://sflix.video/",
   "link": "https://sflix.video/",
   "description": "sflix have old bollywood and hollywood movie which is completely free"
+},
+{
+  "productName": "Gitter",
+  "category": "tools",
+  "image": "https://gitter.im/images/logo-text-white-nomargin@2x.png",
+  "link": "https://gitter.im/",
+  "description": "Chat and networking platform that helps to manage, grow and connect communities through messaging, content and discovery"
 }
 ]
