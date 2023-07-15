@@ -2574,6 +2574,13 @@
   "description": "Generate Blob, Wave, Blurry Gradients, Circle Scatter, Blob Scene, Layered Waves, etc."
 },
 {
+  "productName": "sflix",
+  "category": "movies",
+  "image": "https://sflix.video/",
+  "link": "https://sflix.video/",
+  "description": "sflix have old bollywood and hollywood movie which is completely free"
+},
+{
   "productName": "Gitter",
   "category": "tools",
   "image": "https://gitter.im/images/logo-text-white-nomargin@2x.png",

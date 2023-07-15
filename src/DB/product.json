@@ -1996,7 +1996,7 @@
   "description": "Roadmap.sh is an effort to create roadmaps and guides to help developers in picking up the path"
 },
 {
-    "productName": "felxjobs",
+    "productName": "flexjobs",
     "category": "remote",
     "image": "https://tinyurl.com/ybfchtmw",
     "link": "https://www.flexjobs.com/",
@@ -3378,10 +3378,24 @@
   "description": "Helps e-commerce sellers create professional product photos in seconds."
 },
 {
-  "productName": "Asura Scans",
+  "productName": "Library-genesis",
+  "category": "Online library",
+  "image": "https://bit.ly/44EEZzy",
+  "link": "https://libgen.is/",
+  "description": "Library Genesis is an online library providing free access to a wide range of books, articles, and scientific papers."
+},
+{
+  "productName":"Coding Game",
+  "category":"tools",
+  "image":"https://rb.gy/cdibr",
+  "link":"https://www.codingame.com/start",
+  "description":"The new way to improve your programming skills while having fun and getting noticed"
+},
+  {
+   "productName": "Asura Scans",
   "category": "comics",
   "image": "https://i.postimg.cc/J0zG181C/asurascan.png",
   "link": "https://www.asurascans.com/",
   "description": "Read Mangas, Manhwas and other comics at no cost."
-}
+  }
 ]
