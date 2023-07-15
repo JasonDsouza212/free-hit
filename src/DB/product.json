@@ -3378,6 +3378,13 @@
   "description": "Helps e-commerce sellers create professional product photos in seconds."
 },
 {
+  "productName": "Library-genesis",
+  "category": "Online library",
+  "image": "https://bit.ly/44EEZzy",
+  "link": "https://libgen.is/",
+  "description": "Library Genesis is an online library providing free access to a wide range of books, articles, and scientific papers."
+},
+{
   "productName":"Coding Game",
   "category":"tools",
   "image":"https://rb.gy/cdibr",
