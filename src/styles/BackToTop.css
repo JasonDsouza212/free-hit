@@ -11,19 +11,18 @@
   z-index: 50;
   bottom: 1rem;
   right: 1rem;
-  transition: all;
-  transition-delay: 100ms;
-  transition-duration: 500ms;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1f1f1f;
   width: 2.5rem;
   height: 2.5rem;
   border-radius: 9999px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  border: none;
   cursor: pointer;
-  color: white;
-  background-color: #1f1f1f;
-  animation:animate 4s alternate infinite;
+  font-size: 24px;
+  color: #FCE100;
+  transition: color 0.3s;
 }
 
 .backToTopButton:hover{
@@ -45,10 +44,10 @@
   align-items: center;
   cursor: pointer;
 } */
-
+/* 
 .transition-after:hover {
   transform: scale(1.1);
-}
+} */
 
 /* .top .button.dark-mode{
   background-color:white;
@@ -60,12 +59,16 @@
     width: 3rem;
     height: 3rem;
   }
+}
 
-  .transition-before {
-    transform: translateY(10vh);
+@media screen and (max-width: 600px) {
+  .backToTopButton {
+    bottom: 1rem;
   }
+}
 
-  .transition-after {
-    transform: translateY(0);
+@media screen and (max-width: 450px) {
+  .backToTopButton {
+    bottom: 1rem;
   }
 }

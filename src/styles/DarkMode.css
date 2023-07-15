@@ -2,14 +2,14 @@
   position: fixed;
   z-index: 50;
   bottom: 4.5rem;
-  right: 1.3rem;
+  right: 1rem;
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: #1f1f1f;
-  width: 2rem;
-  height: 2rem;
-  border-radius: 100%;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 9999px;
   border: none;
   cursor: pointer;
   font-size: 24px;
@@ -31,8 +31,8 @@
 
 @media (min-width: 768px) {
   .dark-mode-toggle {
-    width: 2.5rem;
-    height: 2.5rem;
+    width: 3rem;
+    height: 3rem;
     bottom: 5rem;
   }
 }
@@ -40,13 +40,11 @@
 @media screen and (max-width: 600px) {
   .dark-mode-toggle {
     bottom: 6rem;
-    right: 3.2rem;
   }
 }
 
 @media screen and (max-width: 450px) {
   .dark-mode-toggle {
     bottom: 6rem;
-    right: 0.5rem;
   }
 }
