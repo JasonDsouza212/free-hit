@@ -3390,5 +3390,75 @@
   "image":"https://rb.gy/cdibr",
   "link":"https://www.codingame.com/start",
   "description":"The new way to improve your programming skills while having fun and getting noticed"
+},
+{
+  "productName": "Free Learning List",
+  "category": "courses",
+  "image": "https://bit.ly/3D0V6Me",
+  "link": "https://www.freelearninglist.org/",
+  "description": "The internet best education resources collected in one place."
+},
+{
+  "productName": "FilePursuit",
+  "category": "movies",
+  "image": "https://bit.ly/43vYpWF",
+  "link": "https://filepursuit.com/",
+  "description": "Discover Everything. Search the web for files, videos, audios, eBooks & much more."
+},
+{
+  "productName": "AIPRM for ChatGPT",
+  "category": "extensions",
+  "image": "https://bit.ly/3pxL6qL",
+  "link": "https://www.aiprm.com/",
+  "description": "AIPRM is a prompt management tool. Use prompts for ChatGPT, Bard, Midjourney, and DALL-E 2."
+},
+{
+  "productName": "uBlock",
+  "category": "extensions",
+  "image": "https://bit.ly/44y5pTM",
+  "link": "https://ublock.org/",
+  "description": "uBlock is a general-purpose blocker. A no-nonsense ad blocker"
+},
+{
+  "productName": "SaveTube",
+  "category": "Useful Tools",
+  "image": "https://bit.ly/3PN2Toz",
+  "link": "https://save.tube/",
+  "description": "Download YouTube videos in MP4 format for free with SaveTube."
+},
+{
+  "productName": "PowerPoint Hub",
+  "category": "Useful Tools",
+  "image": "https://shrtco.de/K9GhSK",
+  "link": "https://www.powerpointhub.com/",
+  "description": "A free resource for PowerPoint templates and tutorials."
+},
+{
+  "productName": "Cloud Convert",
+  "category": "Useful Tool",
+  "image": "https://shrtco.de/uuKKuT",
+  "link": "https://cloudconvert.com/",
+  "description": "Convert anything to anything - more than 200 different formats supported."
+},
+{
+  "productName": "Search Code",
+  "category": "Searching",
+  "image": "https://shrtco.de/s249fx",
+  "link": "https://searchcode.com/",
+  "description": "Search over 20 billion lines of code."
+},
+{
+  "productName": "Learn Anything",
+  "category": "courses",
+  "image": " https://shrtco.de/E2vrYa",
+  "link": "https://learn-anything.xyz/",
+  "description": "Search Interactive Maps to Learn Anything."
+},
+{
+  "productName": "AiToolMate",
+  "category": "tools",
+  "image": "https://shrtco.de/8opbuj",
+  "link": "https://aitoolmate.com/",
+  "description": "AI ToolMate is a collection of AI tools."
 }
 ]
