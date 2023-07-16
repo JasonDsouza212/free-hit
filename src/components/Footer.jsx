@@ -8,7 +8,7 @@ const Footer = () => {
     <footer>
       <div className="footer-content">
         <h3>
-          <a href="/About" alt="AboutUs-buttom">
+          <a class="home-link" href="/">
           <img className="free-logo-footer" src={freehitlogo} alt="logo" />
             </a>
         </h3>
