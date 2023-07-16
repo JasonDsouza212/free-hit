@@ -11,15 +11,17 @@ const Team = () => {
   const { darkMode } = useContext(ToolContext);
   const navigate = useNavigate();
 
+  const abhishekBoxClass = `box ${darkMode ? 'dark-mode' : ''}`;
+
   return (
     <section className={`team ${darkMode ? 'dark-mode' : ''}`}>
       <div className="center">
         <h1 className={darkMode ? 'dark-mode' : ''}>Our Beloved Contributors</h1>
       </div>
 
-      <div className="team-content">
+      <div className={`team-content ${darkMode ? 'dark-mode' : ''}`}>
         {/* Box 1 */}
-        <div className="box">
+        <div className={abhishekBoxClass}>
           <img src={con1} className="image" alt="Abhishek K" />
           <h3 className={darkMode ? 'dark-mode' : ''}>Abhishek K</h3>
           <h5 className={darkMode ? 'dark-mode' : ''}>Designer</h5>
