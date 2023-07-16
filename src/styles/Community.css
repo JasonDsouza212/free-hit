@@ -1,13 +1,38 @@
-.contributor-heading {
-  text-align: center;
-  margin-top: 2%;
-  font-size: 3rem;
+/*styles/Community.css*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto&display=swap');
+:root {
+  --primary-white: #f1f1ef;
+  --primary-black: #373530;
 }
+
+.all .dark-mode{
+  background-color: var(--primary-white);
+  color: var(--primary-black);
+}
+
+.contributors-list .dark-mode{
+  background-color: var(--primary-white);
+}
+
+.contributor-heading .dark-mode{
+  background-color: var(--primary-white);
+}
+
+.contributor-heading {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  font-size: 3rem;
+  text-align: center;
+  font-weight: 500;
+}
+
 .loading {
-  flex: auto;
+  display: flex;
   justify-content: center;
   align-items: center;
   height: 100%;
+  font-size: 2rem;
 }
 
 .all .contributors-list{
@@ -21,30 +46,44 @@
   flex-wrap: wrap;
   justify-content: center;
   grid-gap: 3rem;
-  /* margin-bottom: 5rem; */
-  margin-top: 4rem;
 }
-
 .contributors-list .contributor-anchor {
-  display: block;
+  display: flex;
   width: 100px;
   height: 100px;
-  border-radius: 100px;
+  border-radius: 50%;
   overflow: hidden;
-  transition: all 0.16s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  justify-content: center;
 }
-.contributors-list .contributor-anchor:hover,
-.contributors-list .contributor-anchor:focus {
+.contributor {
+  border: 3px solid;
+  transition: 0.3s;
+  border-radius: 10px;
+  padding: 4px;
+  background-color: #f1f1ef;
+  cursor: pointer;
+}
+
+.contributor-card {
+  display: flex;
+  justify-content: center;
+  padding: 19px;
+}
+.contributor:hover,
+.contributor:focus {
   box-shadow: 0px -1px 26px 0px rgba(0.59);
   -webkit-box-shadow: 0px -1px 26px 0px rgba(0.59);
   -moz-box-shadow: 0px -1px 26px 0px rgba(0.59);
-  transform: scale(1.2);
+  transform: scale(1.08);
 }
 
 .contributors-list .contributor-anchor .contributor-image {
   width: 100px;
   height: auto;
   filter: grayscale(100%);
+  display: flex;
+  justify-content: space-between;
 }
 
 .contributors-list .contributor-anchor:hover .contributor-image,
@@ -52,55 +91,104 @@
   filter: grayscale(0%);
 }
 
-.all .contributor-image{
-  border:5px solid black;
-  border-radius: 50px;
+.username {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 6px;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  width: 10vw;
 }
-
-/* dark-mode styles */
-
-.all.dark-mode{
-  background-color:var(--primary-white);
+.contributions {
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
 }
-
-.all h2.dark-mode{
-  color:white;
-}
-
 .all .contributor-image.dark-mode{
-  border:5px solid white;
   border-radius: 50px;
 }
 
-@media screen and (max-width: 1024px) {
-  .contributors-list {
+@media screen and (min-width: 569px) and (max-width: 1024px) {
+  .all .contributors-list {
     grid-gap: 2rem;
-  }
-
-  .contributors-list .contributor-anchor {
-    width: 90px;
-    height: 90px;
-    border-radius: 90px;
-  }
-
-  .contributors-list .contributor-anchor .contributor-image {
-    width: 90px;
-  }
-}
-
-@media screen and (max-width: 568px) {
-  .contributors-list {
-    width: 100%;
-    grid-gap: 1rem;
   }
 
   .contributors-list .contributor-anchor {
     width: 80px;
     height: 80px;
     border-radius: 80px;
+    margin: 13px;
+  }
+
+  .contributors-list .contributor-anchor .contributor-image {
+    width: 90px;
+  }
+  .username {
+    font-size: 14px;
+    width: 17.7vw;
+    font-weight: 600;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 360px) and (max-width: 539px) {
+  .all .contributors-list {
+    width: 100%;
+    grid-gap: 1rem;
+  }
+
+  .contributors-list .contributor-anchor {
+    width: 70px;
+    height: 70px;
+    border-radius: 80px;
   }
 
   .contributors-list .contributor-anchor .contributor-image {
     width: 80px;
+  }
+  .username {
+    text-align: center;
+    font-size: 13px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    width: 38vw;
+  }
+}
+
+@media screen and (min-width: 540px) and (max-width: 568px) {
+  .all .contributors-list {
+    width: 100%;
+    grid-gap: 1rem;
+  }
+
+  .contributors-list .contributor-anchor {
+    width: 70px;
+    height: 70px;
+    border-radius: 80px;
+  }
+
+  .contributors-list .contributor-anchor .contributor-image {
+    width: 80px;
+  }
+  .username {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    width: 26.7vw;
+  }
+}
+
+@media screen and (max-width: 359px) {
+  .username {
+    font-size: 13px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    width: 50vw;
+    text-align: center;
+  }
+  .all .contributors-list {
+    width: 100%;
+    grid-gap: 1rem;
   }
 }
