@@ -16,6 +16,7 @@ body {
 .team {
   position: relative;
   width: 100%;
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -24,7 +25,7 @@ body {
   padding: 0% 6%;
   margin-top: 80px;
   /* margin-bottom: 80px; */
-
+  bottom: 20px;
 }
 
 .team-content {
@@ -116,41 +117,97 @@ body {
   transform: translateY(-10px);
 }
 
-/* Media Queries */
-
-/* Reduce font size for mobile devices */
-@media (max-width: 600px) {
+@media (max-width: 1260px) {
+  .team {
+    width: 100%;
+    height: auto;
+    margin-top: 0;
+  }
   .center h1 {
-    font-size: 2.5rem;
+    margin-top: 30px;
+    font-size: 3.8rem;
   }
 }
 
-/* Adjust box layout for mobile devices */
-@media (max-width: 768px) {
-  .team-content {
-    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-    gap: 1rem;
-    margin-top: 2rem;
+@media (max-width: 1240px) {
+  .team {
+    padding: 90px 6%;
+    padding-top: 0;
+    padding-bottom: 0;
   }
-
-  .team-content img {
-    max-width: 80px;
-    height: auto;
+  .center h1 {
+    font-size: 3.5rem;
   }
+}
 
+@media (max-width: 1200px) {
+  .team {
+    padding: 0px 6%;
+    margin-top: -100px;
+  }
+  .center h1 {
+    font-size: 3.3rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  .team {
+    padding: 0px 7.1%;
+    margin-top: -55px;
+    white-space: nowrap;
+  }
+  .center h1 {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 952px) {
+  .team {
+    padding: 0px 8%;
+    margin-top: -30px;
+  }
+  .center h1 {
+    font-size: 2.9rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .team {
+    padding: 0px 20%;
+    margin-top: 20px;
+    white-space: nowrap;
+  }
+  .center h1 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .center h1 {
+    font-size: 1.6rem;
+  }
+}
+
+@media (min-width: 280px) and (max-width: 600px) {
+  .team {
+    margin-top: -120px;
+    padding: 0 2%;
+  }
+  .center {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+  }
+  .center h1 {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 1000px) {
   .box {
-    padding: 15px;
+    padding: 6px;
   }
-
   .box h3 {
-    font-size: 18px;
-  }
-
-  .box h5 {
-    font-size: 12px;
-  }
-
-  .icons i {
-    font-size: 20px;
+    font-size: 21px;
   }
 }
