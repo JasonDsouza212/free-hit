@@ -1176,7 +1176,7 @@
     "productName": "Moviesmod",
     "category": "movies",
     "image": "https://bit.ly/3ZMrGen",
-    "link": "https://moviesmod.net.in/",
+    "link": "https://moviesmod.one/",
     "description": "Download HD quality movies and series"
   },
   {
@@ -3391,11 +3391,19 @@
   "link":"https://www.codingame.com/start",
   "description":"The new way to improve your programming skills while having fun and getting noticed"
 },
-  {
-   "productName": "Asura Scans",
+{
+  "productName":"scrimba",
+  "category":"web",
+  "image":"https://rb.gy/s0ok0",
+  "link":"https://scrimba.com/",
+  "description":"Our Frontend Career Path helps motivated studentsbecome hireable developers for a fraction of the cost"
+},
+{
+  "productName": "Asura Scans",
   "category": "comics",
-  "image": "https://i.postimg.cc/J0zG181C/asurascan.png",
-  "link": "https://www.asurascans.com/",
+  "image": "https://t.ly/jlYZI",
+  "link": "https://t.ly/RbjWn",
   "description": "Read Mangas, Manhwas and other comics at no cost."
-  }
+}
+
 ]
