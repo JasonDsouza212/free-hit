@@ -9,39 +9,38 @@ import { ToolContext } from '../App';
 
 const Team = () => {
   const { darkMode } = useContext(ToolContext);
-  const navigate = useNavigate()
+  const navigate = useNavigate();
+
   return (
     <section className={`team ${darkMode ? 'dark-mode' : ''}`}>
       <div className="center">
-        <h1 className={darkMode ? 'dark-mode' : ''}
-                  activeclassname="active">Our Beloved contributors</h1>
+        <h1 className={darkMode ? 'dark-mode' : ''}>Our Beloved Contributors</h1>
       </div>
 
-      <div className={`team-content ${darkMode ? 'dark-mode' : ''}`}>
-        <div className={`box ${darkMode ? 'dark-mode' : ''}`}>
-          <img src={con1} className={`image ${darkMode ? 'dark-mode' : ''}`}/>
-          <h3 className={darkMode ? 'dark-mode' : ''}
-                  activeclassname="active">Abhishek K</h3>
-          <h5 className={darkMode ? 'dark-mode' : ''}
-                  activeclassname="active">Designer</h5>
-          <div className={`icons ${darkMode ? 'dark-mode' : ''}`}>
-            <a 
+      <div className="team-content">
+        {/* Box 1 */}
+        <div className="box">
+          <img src={con1} className="image" alt="Abhishek K" />
+          <h3 className={darkMode ? 'dark-mode' : ''}>Abhishek K</h3>
+          <h5 className={darkMode ? 'dark-mode' : ''}>Designer</h5>
+          <div className="icons">
+            <a
               aria-label="Follow me on Twitter"
               title="Twitter (External Link)"
               rel="noopener noreferrer"
-              href="https://twitter.com/bobsstwt" 
+              href="https://twitter.com/bobsstwt"
               target="_blank"
             >
-              <i className={`ri-twitter-fill ${darkMode ? 'dark-mode' : ''}`}></i>
+              <i className="ri-twitter-fill"></i>
             </a>
             <a
               aria-label="Follow me on Github"
               title="Github (External Link)"
               rel="noopener noreferrer"
-              href="https://github.com/bobbyy16" 
+              href="https://github.com/bobbyy16"
               target="_blank"
             >
-              <i className={`ri-github-fill ${darkMode ? 'dark-mode' : ''}`}></i>
+              <i className="ri-github-fill"></i>
             </a>
             <a
               aria-label="Follow me on Linkedin"
@@ -50,7 +49,7 @@ const Team = () => {
               href="https://www.linkedin.com/in/abhishek-k-7597771ba/"
               target="_blank"
             >
-              <i className={`ri-linkedin-fill ${darkMode ? 'dark-mode' : ''}`}></i>
+              <i className="ri-linkedin-fill"></i>
             </a>
           </div>
         </div>
@@ -149,4 +148,4 @@ const Team = () => {
   )
 }
 
-export default Team
+export default Team;
