@@ -26,6 +26,9 @@
   gap:0px;
   box-shadow: 8px 8px 2px 0px var(--primary-black);
 }
+.chakra-accordion__item:hover{
+  box-shadow: 2px 2px 5px 1px var(--primary-black);
+}
 
 .list .image {
   display: flex;
@@ -72,6 +75,7 @@
   align-items: center;
   justify-content: flex-end;
   width: 100%;
+  gap: 1rem;
   /* margin-top: 10px; */
 }
 
@@ -86,7 +90,7 @@
   /* flex-direction: column; */
 }
 
-.list .visit:hover{
+/* .list .visit:hover{
   transition: all 0.3s ease-out;
 }
 .list .bookmark:hover{
@@ -94,11 +98,11 @@
 }
 .list .delete:hover{
   transition: all 0.3s ease-out;
-}
+} */
 
 /* dar-mode styles */
 
-.list .down.dark-mode{
+/* .list .down.dark-mode{
   color:white;
 }
 
@@ -116,8 +120,8 @@
 }
 
 .list.dark-mode .accordion_item:hover {
-  box-shadow: 8px 8px 2px 0px #ffffff;
-}
+   box-shadow: 8px 8px 2px 0px #ffffff;
+}*/
 
 @media (max-width: 560px) {
   .list .btn-cont {
@@ -185,3 +189,110 @@
     margin-top: -15px;
   }
 }
+
+.list .visit{
+  background-color: var(--primary-white);
+  color :var(--primary-black);
+  border: 2px solid var(--primary-black);
+  position: relative;
+}
+.list .visit::before{
+  content: "";
+  position: absolute;
+  top:0;
+  bottom:0;
+  left: 0;
+  right:0;
+  z-index: -1;
+  background-color: var(--primary-black);
+  transform-origin: 0;
+  transform:scaleX(0);
+  border-radius:7px;
+  transition-duration: 0.5s;
+}
+.list .visit:hover{
+  color: var(--primary-white);
+}
+.list .visit:hover::before{
+  transform: scaleX(1);
+}
+
+.list .visit.dark-mode{
+  background-color: var(--primary-white);
+  color :var(--primary-black);
+  border: 2px solid var(--primary-black);
+  position: relative;
+}
+.list .visit.dark-mode::before{
+  content: "";
+  position: absolute;
+  top:0;
+  bottom:0;
+  left: 0;
+  right:0;
+  z-index: -1;
+  background-color: var(--primary-black);
+  transform-origin: 0;
+  transform:scaleX(0);
+  border-radius:7px;
+  transition-duration: 0.5s;
+}
+.list .visit.dark-mode:hover{
+  color: var(--primary-white);
+}
+.list .visit.dark-mode:hover::before{
+  transform: scaleX(1);
+}
+.list .bookmark{
+  background-color: var(--primary-white);
+  color :var(--primary-black);
+  border: 2px solid var(--primary-black);
+  position: relative;
+}
+.list .bookmark::before{
+  content: "";
+  position: absolute;
+  top:0;
+  bottom:0;
+  left: 0;
+  right:0;
+  z-index: -1;
+  background-color: var(--primary-black);
+  transform-origin: 0;
+  transform:scaleX(0);
+  border-radius:7px;
+  transition-duration: 0.5s;
+}
+.list .bookmark:hover{
+  color: var(--primary-white);
+}
+.list .bookmark:hover::before{
+  transform: scaleX(1);
+}
+.list .delete {
+  background-color: var(--primary-white);
+  color :var(--primary-black);
+  border: 2px solid var(--primary-black);
+  position: relative;
+}
+.list .delete::before{
+  content: "";
+  position: absolute;
+  top:0;
+  bottom:0;
+  left: 0;
+  right:0;
+  z-index: -1;
+  background-color: var(--primary-black);
+  transform-origin: 0;
+  transform:scaleX(0);
+  border-radius:7px;
+  transition-duration: 0.5s;
+}
+.list .delete:hover{
+  color: var(--primary-white);
+}
+.list .delete:hover::before{
+  transform: scaleX(1);
+}
+
