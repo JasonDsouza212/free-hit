@@ -3375,5 +3375,12 @@
   "image":"https://rb.gy/hfqcr",
   "link":"https://react.dev/",
   "description":"Official Website of React.js and The library for web and native user interfaces"
+},
+{
+  "productName":"Cisco Networking Academy",
+  "category":"web",
+  "image":"https://rb.gy/rif10",
+  "link":"https://www.netacad.com/",
+  "description":"Learn the technology-JavaScript, land your dream job."
 }
 ]
