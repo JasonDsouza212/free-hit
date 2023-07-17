@@ -6,7 +6,7 @@ import BookMarks from './pages/Bookmarks'
 import NotFound from './pages/NotFound'
 import Community from './pages/Community'
 import Layout from './components/Layout'
-import {Analytics} from '@vercel/analytics/react'
+import { Analytics } from '@vercel/analytics/react'
 
 const ToolContext = createContext()
 const LOCAL_STORAGE_KEY = 'freehit.bookmarks'
@@ -18,7 +18,10 @@ function App() {
   const [bookmarks, setBookmarks] = useState([])
 
   // dark mode
-  const [darkMode, setDarkMode] = useState(localStorage.getItem("darkMode") || false);
+  const [darkMode, setDarkMode] = useState(
+    localStorage.getItem('darkMode') ||
+      window.matchMedia('(prefers-color-scheme: dark)').matches
+  )
 
   // initial Storage
   useEffect(() => {
@@ -33,17 +36,14 @@ function App() {
 
   //dark-mode
   useEffect(() => {
-    const darkmodejson = localStorage.getItem("darkMode")
+    const darkmodejson = localStorage.getItem('darkMode')
     if (darkmodejson != null) setDarkMode(JSON.parse(darkmodejson))
     // else setDarkMode([])
   }, [])
-  
-  useEffect(() => {
-    localStorage.setItem("darkMode", JSON.stringify(darkMode))
-  }, [darkMode])
 
-  
-  
+  useEffect(() => {
+    localStorage.setItem('darkMode', JSON.stringify(darkMode))
+  }, [darkMode])
 
   // Add bookmark
   function handelBookmarkAdd(bookmark) {
@@ -56,8 +56,6 @@ function App() {
     }
     setBookmarks([...bookmarks, newBookmark])
   }
-
-  
 
   // Remove Bookmark
   function deleteres(product) {
@@ -93,19 +91,19 @@ function App() {
       <div className="app">
         <ToolContext.Provider value={toolContextValue}>
           <div className="routes-holder">
-              <Routes>
-                <Route path="/" element={<Layout />}>
-                  <Route index element={<Card />} />
-                  <Route path="about" element={<About />} />
-                  <Route path="bookmarks" element={<BookMarks />} />
-                  <Route path="community" element={<Community />} />
-                  <Route path="*" element={<NotFound />} />
-                </Route>
-              </Routes>
+            <Routes>
+              <Route path="/" element={<Layout />}>
+                <Route index element={<Card />} />
+                <Route path="about" element={<About />} />
+                <Route path="bookmarks" element={<BookMarks />} />
+                <Route path="community" element={<Community />} />
+                <Route path="*" element={<NotFound />} />
+              </Route>
+            </Routes>
           </div>
         </ToolContext.Provider>
       </div>
-      <Analytics/>
+      <Analytics />
     </>
   )
 }

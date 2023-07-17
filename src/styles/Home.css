@@ -227,3 +227,10 @@ img {
 .card_container .card-container .not-found-wrapper .no-results.dark-mode {
   color: white;
 }
+
+@media screen and (max-width: 350px) {
+  .top-pagination {
+  
+    margin-left: 0px;
+  }
+}
