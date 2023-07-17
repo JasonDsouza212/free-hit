@@ -9,13 +9,15 @@ import Sidebar from './Sidebar'
 import { ToolContext } from '../App';
 import { useContext } from 'react';
 import mobilelogo from '../assets/mobileview.png'
+import { useState } from 'react'
 
 
 const Header = ({ filteredSuggestions }) => {
   const [searchParams, setSearchParams] = useSearchParams()
-  const { darkMode } = useContext(ToolContext);
+  const { darkMode ,debounce } = useContext(ToolContext);
   const location = useLocation()
   const sideNavRef = useRef(null)
+  const [search ,setSearch]=useState('')
 
   const searchTerm = searchParams.get('q') || ''
 
@@ -46,6 +48,8 @@ const Header = ({ filteredSuggestions }) => {
   const handleChangeInInput = (event) => {
     const val = event.target.value
     setSearchTerm(val)
+    setSearch(val)
+  debounce(setSearchTerm,500)(val);
   }
 
   return (
@@ -76,7 +80,7 @@ const Header = ({ filteredSuggestions }) => {
               type="text"
               className="input"
               placeholder="Search..."
-              value={searchTerm}
+              value={search}
               onChange={(e) => handleChangeInInput(e)}
             />
             <div className="btn btn_common">
