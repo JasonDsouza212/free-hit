@@ -8,35 +8,12 @@
 .grid .card-title{
     color: var(--primary-black);
 }
-
-.grid .visit{
-  background-color:var(--primary-black);
-  color:var(--primary-white);
-  /* border: 2px solid var(--primary-black); */
-}
-
-.grid .bookmark{
-  background-color:var(--primary-black);
-  color:var(--primary-white);
-  /* border: 2px solid var(--primary-black); */
-}
-.grid .visit:hover{
-  transition: all 0.3s ease-out;
-}
-.grid .bookmark:hover{
-  transition: all 0.3s ease-out;
-}
-.grid .delete{
-  background-color:var(--primary-black);
-  color:var(--primary-white);
-  /* border: 2px solid var(--primary-black); */
-}
 .grid .delete:hover{
   transition: all 0.3s ease-out;
 }
 /* Dark mode styles */
   
-  .grid .card-title.dark-mode{
+  /* .grid .card-title.dark-mode{
     color:white;
   }
   
@@ -56,7 +33,7 @@
   .grid .bookmark.dark-mode:hover {
     transition: all 0.3s ease-out;
   }
-
+ */
 
   /* Updated styles */
 
@@ -71,3 +48,108 @@
   white-space: nowrap;
 } */
   
+.grid .visit{
+  background-color: var(--primary-white);
+  color :var(--primary-black);
+  border: 2px solid var(--primary-black);
+  position: relative;
+}
+.grid .visit::before{
+  content: "";
+  position: absolute;
+  top:0;
+  bottom:0;
+  left: 0;
+  right:0;
+  z-index: -1;
+  background-color: var(--primary-black);
+  transform-origin: 0;
+  transform:scaleX(0);
+  border-radius:7px;
+  transition-duration: 0.5s;
+}
+.grid .visit:hover{
+  color: var(--primary-white);
+}
+.grid .visit:hover::before{
+  transform: scaleX(1);
+}
+
+.grid .visit.dark-mode{
+  background-color: var(--primary-white);
+  color :var(--primary-black);
+  border: 2px solid var(--primary-black);
+  position: relative;
+}
+.grid .visit.dark-mode::before{
+  content: "";
+  position: absolute;
+  top:0;
+  bottom:0;
+  left: 0;
+  right:0;
+  z-index: -1;
+  background-color: var(--primary-black);
+  transform-origin: 0;
+  transform:scaleX(0);
+  border-radius:7px;
+  transition-duration: 0.5s;
+}
+.grid .visit.dark-mode:hover{
+  color: var(--primary-white);
+}
+.grid .visit.dark-mode:hover::before{
+  transform: scaleX(1);
+}
+.grid .bookmark{
+  background-color: var(--primary-white);
+  color :var(--primary-black);
+  border: 2px solid var(--primary-black);
+  position: relative;
+}
+.grid .bookmark::before{
+  content: "";
+  position: absolute;
+  top:0;
+  bottom:0;
+  left: 0;
+  right:0;
+  z-index: -1;
+  background-color: var(--primary-black);
+  transform-origin: 0;
+  transform:scaleX(0);
+  border-radius:7px;
+  transition-duration: 0.5s;
+}
+.grid .bookmark:hover{
+  color: var(--primary-white);
+}
+.grid .bookmark:hover::before{
+  transform: scaleX(1);
+}
+.grid .delete {
+  background-color: var(--primary-white);
+  color :var(--primary-black);
+  border: 2px solid var(--primary-black);
+  position: relative;
+}
+.grid .delete::before{
+  content: "";
+  position: absolute;
+  top:0;
+  bottom:0;
+  left: 0;
+  right:0;
+  z-index: -1;
+  background-color: var(--primary-black);
+  transform-origin: 0;
+  transform:scaleX(0);
+  border-radius:7px;
+  transition-duration: 0.5s;
+}
+.grid .delete:hover{
+  color: var(--primary-white);
+}
+.grid .delete:hover::before{
+  transform: scaleX(1);
+}
