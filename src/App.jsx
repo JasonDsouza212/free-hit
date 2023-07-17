@@ -7,6 +7,8 @@ import NotFound from './pages/NotFound'
 import Community from './pages/Community'
 import Layout from './components/Layout'
 import { Analytics } from '@vercel/analytics/react'
+import { ToastContainer, toast } from 'react-toastify'
+import "react-toastify/dist/ReactToastify.css"
 
 const ToolContext = createContext()
 const LOCAL_STORAGE_KEY = 'freehit.bookmarks'
@@ -20,7 +22,7 @@ function App() {
   // dark mode
   const [darkMode, setDarkMode] = useState(
     localStorage.getItem('darkMode') ||
-      window.matchMedia('(prefers-color-scheme: dark)').matches
+    window.matchMedia('(prefers-color-scheme: dark)').matches
   )
 
   // initial Storage
@@ -54,25 +56,39 @@ function App() {
       link: bookmark.link,
       description: bookmark.description,
     }
+    toast.success("Bookmarked", {
+      autoClose: 2000,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      theme: "colored",
+    })
     setBookmarks([...bookmarks, newBookmark])
   }
 
   // Remove Bookmark
   function deleteres(product) {
+    toast.error("Deleted", {
+      autoClose: 2000,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      theme: "colored",
+    })
     setBookmarks(
       bookmarks.filter((res) => res.productName !== product.productName)
     )
   }
 
   //search box debouncing
-  const debounce = (fn, delay) => { 
-  let timerId = null;
-  return (...args) => {
-    if(time)
-      clearTimeout(timerId);
+  const debounce = (fn, delay) => {
+    let timerId = null;
+    return (...args) => {
+      if (time)
+        clearTimeout(timerId);
       timerId = setTimeout(() => fn(...args), delay);
-  };
-}
+    };
+  }
 
   // values to pass to context hook s
   const toolContextValue = {
@@ -104,6 +120,13 @@ function App() {
         </ToolContext.Provider>
       </div>
       <Analytics />
+      <ToastContainer
+        autoClose={2000}
+        closeOnClick={true}
+        pauseOnHover={true}
+        draggable={true}
+        theme="colored"
+      />
     </>
   )
 }
