@@ -11,7 +11,6 @@ const ListView = ({ currentProducts }) => {
       {currentProducts.map((product, index) => (
         <AccordionItem
           borderRadius="8px"
-          boxShadow={darkMode ? '8px 8px 2px 0px #ffffff' : '8px 8px 2px 0px #373530'}
           border={darkMode ? '1px solid #ffffff' : '1px solid #373530'}
           key={index}
           className="accordion_item"
@@ -45,16 +44,16 @@ const ListView = ({ currentProducts }) => {
                     </button>
                   </a>
                   {bookmarks.some((obj) => obj['productName'] === product.productName) ? (
-                    <button className={`delete ${darkMode ? 'dark-mode' : ''}`}
+                    <a><button className={`delete ${darkMode ? 'dark-mode' : ''}`}
                       onClick={(event) => {
                         event.stopPropagation();
                         deleteres(product);
                       }}
                     >
-                    <a>Delete
+                    Delete
                         <i className={`ri-bookmark-fill ${darkMode ? 'dark-mode' : ''}`}></i>
-                      </a>
-                    </button>
+                      
+                    </button></a>
                   ) : (
                     <a>
                       <button
