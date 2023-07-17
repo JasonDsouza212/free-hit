@@ -53,7 +53,7 @@ body {
   grid-template-columns: repeat(auto-fit, minmax(320px, auto));
   align-items: start;
   justify-content: center;
-  gap: 1rem 1rem;
+  gap: 1.5rem 1.5rem;
   margin-top: 1rem;
 }
 
@@ -62,17 +62,16 @@ body {
   min-height: 220px;
   max-width: 350px;
   border: 1px solid var(--primary-black);
-  box-shadow: 8px 8px 2px 0px var(--primary-black);
   background-color: var(--primary-white);
   padding: 15px 30px;
   border-radius: 20px;
   color: #000;
   font-size: 18px;
-  transition: all 0.3s;
+  transition: all 0.5s;
 }
 
 .grid>article:hover {
-  box-shadow: 6px 6px 0px 0px var(--primary-black);
+  box-shadow: 2px 2px 5px 1px var(--primary-black);
   transform: scale(1.02);
 }
 
@@ -85,7 +84,7 @@ img {
 .grid>article .btn-cont {
   margin-top: 2rem;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 .grid article p {
