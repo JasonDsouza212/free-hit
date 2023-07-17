@@ -8,9 +8,9 @@
 .grid .card-title{
     color: var(--primary-black);
 }
-.grid .delete:hover{
+/* .grid .delete:hover{
   transition: all 0.3s ease-out;
-}
+} */
 /* Dark mode styles */
   
   /* .grid .card-title.dark-mode{
