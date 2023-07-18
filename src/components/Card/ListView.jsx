@@ -19,14 +19,16 @@ const ListView = ({ currentProducts }) => {
           <AccordionButton>
             <Box padding={1} py="3px" flex="1" className="image">
               {product.image ? (
-                <img
-                  className={`card-img ${darkMode ? 'dark-mode' : ''}`}
+                <div className='card-img'>
+                  <img
+                  className={`${darkMode ? 'dark-mode' : ''}`}
                   src={product.image}
                   alt=""
                   onError={(e) => {
                     e.target.src = 'https://i.ibb.co/9H0s34n/default-img.jpg';
                   }}
                 />
+                </div>
               ) : (
                 <img
                   className={`card-img ${darkMode ? 'dark-mode' : ''}`}
