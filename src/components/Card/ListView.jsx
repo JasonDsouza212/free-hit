@@ -35,9 +35,9 @@ const ListView = ({ currentProducts }) => {
                 />
               )}
               <div className="accordion_btn">
-                <h3 className={`card-title ${darkMode ? 'dark-mode' : ''}`}>
+                <h2 className={`card-title ${darkMode ? 'dark-mode' : ''}`}>
               {product.productName}
-                </h3>
+                </h2>
                 <div className="btn-cont">
                   <a target="_blank" href={product.link}>
                     <button className={`visit ${darkMode ? 'dark-mode' : ''}`}>

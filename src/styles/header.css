@@ -375,7 +375,7 @@ nav {
 .Free-Hit {
   font-weight: lighters;
   height: 100%;
-  margin-top: 4px;
+  margin-top: 10px;
 }
 
 .nav-link{
@@ -384,18 +384,10 @@ nav {
   height: 100%;
 }
 
-/* .free-logo {
-  top: 1px;
-  height: 40px;
-  margin: 11px;
-  width: 130px;
-} */
-
 .free-logo {
-  width: 220px;
-  height: 55px;
+  width: 210px;
+  height: 58px;
   margin-right: 10px;
-  margin-top: 4px;
 }
 
 .mobile-logo {
@@ -410,7 +402,6 @@ nav {
       margin-top: 8px;
       display: flex;
       width: 46px;
-      height: 46px;
     }
     .mobile-logo.dark-mode{
       border: 2px solid white;
@@ -471,7 +462,6 @@ nav {
     position: relative;
     left: -27px;
     width: 40px;
-    height: 40px;
     top: 5px;
   }
 }

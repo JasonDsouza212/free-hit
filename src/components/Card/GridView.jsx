@@ -11,14 +11,16 @@ const GridView = ({ currentProducts }) => {
         <article key={index}>
           <div className="text_top">
             {product.image ? (
-              <img
-                className={`card-image ${darkMode ? 'dark-mode' : ''}`}
+              <div className='card-image'>
+                <img
+                className={`${darkMode ? 'dark-mode' : ''}`}
                 src={product.image}
-                alt=""
+                alt={product.productName}
                 onError={(e) => {
                   e.target.src = 'https://i.ibb.co/9H0s34n/default-img.jpg';
                 }}
               />
+              </div>
             ) : (
               <img
                 className={`card-image ${darkMode ? 'dark-mode' : ''}`}
@@ -26,7 +28,7 @@ const GridView = ({ currentProducts }) => {
                 alt="Default"
               />
             )}
-            <h3 className={`card-title ${darkMode ? 'dark-mode' : ''}`}>{product.productName}</h3>
+            <h2 className={`card-title ${darkMode ? 'dark-mode' : ''}`}>{product.productName}</h2>
           </div>
           <p className={`card-description ${darkMode ? 'dark-mode' : ''}`}>{product.description}</p>
           <div className="btn-cont">
@@ -45,12 +47,9 @@ const GridView = ({ currentProducts }) => {
                   deleteres(product);
                   }}
                 >
-              <a>
                   Delete<i className={`ri-bookmark-fill ${darkMode ? 'dark-mode' : ''}`}></i>
-              </a>
                 </button>
             ) : (
-              <a>
                 <button
                   className={`bookmark ${darkMode ? 'dark-mode' : ''}`}
                   onClick={() => handelBookmarkAdd(product)}
@@ -59,7 +58,6 @@ const GridView = ({ currentProducts }) => {
                     Bookmark
                   </font>
                 </button>
-              </a>
             )}
           </div>
         </article>

@@ -21,7 +21,7 @@ const BackToTopButton = () => {
   }, [])
 
   return (
-    <Link onClick={handleScroll} to="Top" smooth duration={500} className={`top ${darkMode ? 'dark-mode' : ''}`}>
+    <button onClick={handleScroll} duration={500} className={`top ${darkMode ? 'dark-mode' : ''}`} aria-label='Go to top' >
         <div
           className={` ${
             !btnVisiblity ? 'transition-before' : 'transition-after'
@@ -31,7 +31,7 @@ const BackToTopButton = () => {
           <i className="ri-arrow-up-s-line"></i>
         </div>
       </div>
-    </Link>
+    </button>
   )
 }
 
