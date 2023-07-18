@@ -11,4 +11,5 @@ export const allFilters = [
   'coding',
   'courses',
   'tools',
+  'image generation',
 ]
