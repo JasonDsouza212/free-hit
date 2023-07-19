@@ -1061,7 +1061,7 @@
     "productName": "Moviesmod",
     "category": "movies",
     "image": "https://bit.ly/3ZMrGen",
-    "link": "https://moviesmod.net.in/",
+    "link": "https://moviesmod.one/",
     "description": "Download HD quality movies and series"
   },
   {
@@ -2572,6 +2572,13 @@
   "image": "https://shorturl.at/dEFHL",
   "link": "https://app.haikei.app/",
   "description": "Generate Blob, Wave, Blurry Gradients, Circle Scatter, Blob Scene, Layered Waves, etc."
+},
+{
+  "productName": "sflix",
+  "category": "movies",
+  "image": "https://sflix.video/",
+  "link": "https://sflix.video/",
+  "description": "sflix have old bollywood and hollywood movie which is completely free"
 },
 {
   "productName": "Gitter",

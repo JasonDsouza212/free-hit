@@ -17,22 +17,24 @@ export default function Pagination({ totalPages, atTop }) {
 	return (
 		atTop
 			? <div className="pagination-top top-pagination">
-				{currentPage > 1 && <button className="paginate-nav" onClick={() => handleClick(currentPage - 1)} > &lt;  </button>}
+				{currentPage > 1 && <button className="nextbutton" onClick={() => handleClick(currentPage - 1)} > &lt; </button>}
 				{
 					pageNumbers.slice(currentPage - 2 >= 0 ? currentPage - 2 : 0, currentPage + 1).map(number =>
 						<button className={`paginate-button ${currentPage == number ? 'selected-page' : ''}`} key={number} onClick={() => { handleClick(number) }} >{number}</button>
 					)
 				}
-				{currentPage < totalPages && <button className="paginate-nav" onClick={() => handleClick(currentPage + 1)}> &gt;</button>}
+				{currentPage < totalPages && <button className="nextbutton" onClick={() => handleClick(currentPage + 1)}> &gt;</button>}
 			</div>
 			: <div className="pagination">
-				{currentPage > 1 && <button className="paginate-nav" onClick={() => handleClick(currentPage - 1)} > &lt; Prev</button>}
+			<button className="firstbutton" onClick={() => handleClick(1)}><b>&lt;&lt;</b>&nbsp;</button>
+				{currentPage > 1 && <button className="prevbutton" onClick={() => handleClick(currentPage - 1)} > &lt;</button>}
 				{
 					pageNumbers.slice(currentPage - 2 >= 0 ? currentPage - 2 : 0, currentPage + 1).map(number =>
 						<button className={`paginate-button ${currentPage == number ? 'selected-page' : ''}`} key={number} onClick={() => { handleClick(number) }} >{number}</button>
 					)
 				}
-				{currentPage < totalPages && <button className="paginate-nav" onClick={() => handleClick(currentPage + 1)}>Next &gt;</button>}
+				{currentPage < totalPages && <button className="prevbutton" onClick={() => handleClick(currentPage + 1)}> &gt;</button>}
+			    <button className="lastbutton" onClick={() => handleClick(totalPages)}>&nbsp;<b>&gt;&gt;</b></button>
 			</div>
 
 	)
