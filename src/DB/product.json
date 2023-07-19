@@ -6,6 +6,15 @@
     "link": "https://www.gohitv.com/",
     "description": "Binge Latest Korean shows and Movies for free"
   },
+
+   {
+    "productName": "Appwrite",
+    "category": "tools",
+    "image": "bit.ly/44JAwMJ",
+    "link": "https://appwrite.io/",
+    "description": "backend platform for developing Web, Mobile, and Flutter applications"
+  },
+  
   {
     "productName": "BlockSite",
     "category": "extensions",
@@ -3404,5 +3413,18 @@
   "image":"https://brandeps.com/logo-download/M/Masterclass-logo-vector-01.svg",
   "link":"https://www.masterclass.com/",
   "description":"Online education platform on which students can access tutorials and lectures."
+},
+{
+  "productName": "Asura Scans",
+  "category": "comics",
+  "image": "https://t.ly/jlYZI",
+  "link": "https://t.ly/RbjWn",
+},
+{
+  "productName":"Numerous.ai",
+  "category":"ai",
+  "image":"https://rb.gy/6yq5o",
+  "link":"https://numerous.ai/",
+  "description":"Helps you to extract text, categorize, generate formulas, and use ChatGPT right inside your spreadsheet."
 }
 ]

@@ -1,13 +1,15 @@
-# Welcome <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px">
+<div align="center">
+  <h1>Welcome <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px"></h1>
 
-Free-Hit is an web application that is used to search for free tools that are both free and helpful for our needs. It is built by the amazing open-source community. Here you will find a list of free tools that can help you in your day-to-day life. You can also contribute to this project by adding more tools to our database.
 
+Free-Hit is a website where you can search for free tools that are useful for your daily needs. This application is created by the incredible open-source community. On Free-Hit, you can discover a collection of free tools that can assist you in various aspects of your life. Moreover, you have the opportunity to contribute to this project by adding more tools to the database.</div>
 > You can check out the live project https://free-hit.vercel.app
+
 > ![free-hit](https://github.com/JasonDsouza212/free-hit/assets/88102392/3bd18ef6-fc72-4882-85c3-9591c7d94067)
 
-
-## 💻 Tech Stack
-
+<div align="center">
+<h2>Tech Stack</h2>
+</div>
 - [Reactjs](https://react.dev) - Reactjs is a JavaScript library for building user interfaces.
 - [Vite](https://vitejs.dev) - Vite is a build tool that aims to provide a faster and leaner development experience for modern web projects.
 - [PNPM](https://pnpm.io) - PNPM is a fast, disk space efficient package manager that helps to fetch packages from the registry.
