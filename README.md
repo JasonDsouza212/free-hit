@@ -1,8 +1,8 @@
 # Welcome <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px">
 
-Free-Hit is an web application that is used to search for free tools that are both free and helpful for our needs. It is built by the amazing open-source community. Here you will find a list of free tools that can help you in your day-to-day life. You can also contribute to this project by adding more tools to our database.
+Free-Hit is a web application that is used to search for free tools that are both free and helpful for our needs. It is built by an amazing open-source community. Here you will find a list of free tools that can help you in your day-to-day life. You can also contribute to this project by adding more tools to our database.
 
-> You can check out the live project https://free-hit.vercel.app
+> You can check out the live project at https://free-hit.vercel.app
 > ![free-hit](https://github.com/JasonDsouza212/free-hit/assets/88102392/3bd18ef6-fc72-4882-85c3-9591c7d94067)
 
 
@@ -21,7 +21,7 @@ Contributions are welcome! If you have any ideas, suggestions, or bug fixes, ple
 > **Warning**: Please do not spam the repository with unnecessary PRs. Make sure to follow the project's [code of conduct](/CODE_OF_CONDUCT.md).
 
 - Go through the [CONTRIBUTING.md](/CONTRIBUTING.md) file, where all the guidelines have been mentioned that will guide you to make your contribution.
-- Do checkout the [project issue tracker](https://github.com/JasonDsouza212/free-hit/issues) section.
+- Do check out the [project issue tracker](https://github.com/JasonDsouza212/free-hit/issues) section.
 - Follow conventional commits for commit messages. You can read more about it [here](https://www.conventionalcommits.org/en/v1.0.0/).
 - Make sure to add the issue number in the commit message. For example, `git commit -m "fix: fixed a bug in the navbar #1"`.
 - Make sure to add the issue number in the PR title & description. For example, `fix: fixed a bug in the navbar #1`.
@@ -35,7 +35,7 @@ Contributions are welcome! If you have any ideas, suggestions, or bug fixes, ple
 ## License
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Terms and conditions for use, reproduction and distribution are under the [MIT License](https://opensource.org/license/mit/).
+Terms and conditions for use, reproduction, and distribution are under the [MIT License](https://opensource.org/license/mit/).
 
 ## ✨ Authors(only for GSSoC'23)
 
@@ -48,7 +48,7 @@ Terms and conditions for use, reproduction and distribution are under the [MIT L
 
 Thank you for your interest in contributing to our project! We appreciate any contributions, whether it's bug fixes, new features, or documentation improvements.
 
-We value the time and effort you put into contributing, and we look forward to reviewing and merging your contributions. Join us on this exciting journey of creativity and collaboration, and let your projects shine on Projectshut!
+We value the time and effort you put into contributing, and we look forward to reviewing and merging your contributions. Join us on this exciting journey of creativity and collaboration.
 
 <!-- a big thanks to all the contributors -->
 <details align=center>
