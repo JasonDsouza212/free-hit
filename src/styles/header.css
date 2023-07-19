@@ -291,6 +291,10 @@ nav {
   border: 2px solid var(--primary-black);
 }
 
+.search_box .input[type=text] {
+  color: black;
+}
+
 .search_box .input::placeholder {
   color: rgba(128, 128, 128, 0.8);
 }
