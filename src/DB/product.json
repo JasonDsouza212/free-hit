@@ -3397,5 +3397,12 @@
   "image":"https://rb.gy/s0ok0",
   "link":"https://scrimba.com/",
   "description":"Our Frontend Career Path helps motivated studentsbecome hireable developers for a fraction of the cost"
+},
+{
+  "productName":"Numerous.ai",
+  "category":"ai",
+  "image":"https://rb.gy/6yq5o",
+  "link":"https://numerous.ai/",
+  "description":"Helps you to extract text, categorize, generate formulas, and use ChatGPT right inside your spreadsheet."
 }
 ]
