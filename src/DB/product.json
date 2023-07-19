@@ -6,6 +6,15 @@
     "link": "https://www.gohitv.com/",
     "description": "Binge Latest Korean shows and Movies for free"
   },
+
+   {
+    "productName": "Appwrite",
+    "category": "tools",
+    "image": "bit.ly/44JAwMJ",
+    "link": "https://appwrite.io/",
+    "description": "backend platform for developing Web, Mobile, and Flutter applications"
+  },
+  
   {
     "productName": "BlockSite",
     "category": "extensions",
