@@ -7,9 +7,8 @@ Free-Hit is a website where you can search for free tools that are useful for yo
 
 > ![free-hit](https://github.com/JasonDsouza212/free-hit/assets/88102392/3bd18ef6-fc72-4882-85c3-9591c7d94067)
 
-<div align="center">
-<h2>Tech Stack</h2>
-</div>
+
+## Tech Stack
 - [Reactjs](https://react.dev) - Reactjs is a JavaScript library for building user interfaces.
 - [Vite](https://vitejs.dev) - Vite is a build tool that aims to provide a faster and leaner development experience for modern web projects.
 - [PNPM](https://pnpm.io) - PNPM is a fast, disk space efficient package manager that helps to fetch packages from the registry.
