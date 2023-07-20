@@ -6,7 +6,13 @@
     "link": "https://www.gohitv.com/",
     "description": "Binge Latest Korean shows and Movies for free"
   },
-
+  {
+    "productName": "Chegg Internships",
+    "category": "remote",
+    "image": "https://shorturl.at/etAS3",
+    "link": "https://www.internships.com/",
+    "description": "Searching Remote Level Internship and Other Type of Jobs."
+  },
    {
     "productName": "Appwrite",
     "category": "tools",
