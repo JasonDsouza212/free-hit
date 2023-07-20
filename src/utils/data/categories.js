@@ -74,7 +74,7 @@ const ButtonLinks = [
   {
     id: 13,
     name: 'Image generation tools',
-    category: 'image generation',
+    category: 'image_generation',
     icon: 'ri-tools-fill',
   }
 ]
