@@ -3434,5 +3434,12 @@
   "image":"https://rb.gy/hqxie",
   "link":"https://www.scaler.com/topics/",
   "description":"Scaler Topics provides programming articles related to Python,Java,Data Structure,C/C++ and other popular programming languages"
+},
+{
+  "productName":"Great Learning",
+  "category":"courses",
+  "image":"https://rb.gy/7l10n",
+  "link":"https://www.mygreatlearning.com/academy",
+  "description":"Learn the in-demand skills to advance your career in AI, ML, data science, digital marketing, cloud, software engg & more."
 }
 ]
