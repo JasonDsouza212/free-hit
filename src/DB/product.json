@@ -2413,6 +2413,13 @@
   "description": "Text to speech extension"
 },
 {
+  "productName": "A junior VC",
+  "category": "startup concepts",
+  "image": "https://imgur.com/lznv9sM",
+  "link": "https://ajuniorvc.com/",
+  "description": "Simplified Startup Concepts and Case Studies"
+},
+{
   "productName": "Walkccc",
   "category": "tools",
   "image": "https://imgur.com/a/FBEgUZo",
@@ -3415,6 +3422,13 @@
   "description":"Online education platform on which students can access tutorials and lectures."
 },
 {
+  "productName":"Cisco Networking Academy",
+  "category":"web",
+  "image":"https://rb.gy/rif10",
+  "link":"https://www.netacad.com/",
+  "description":"Learn the technology-JavaScript, land your dream job."
+},
+{
   "productName": "Asura Scans",
   "category": "comics",
   "image": "https://t.ly/jlYZI",
@@ -3427,5 +3441,12 @@
   "image":"https://rb.gy/6yq5o",
   "link":"https://numerous.ai/",
   "description":"Helps you to extract text, categorize, generate formulas, and use ChatGPT right inside your spreadsheet."
+},
+{
+  "productName":"SCALER Topics",
+  "category":"courses",
+  "image":"https://rb.gy/hqxie",
+  "link":"https://www.scaler.com/topics/",
+  "description":"Scaler Topics provides programming articles related to Python,Java,Data Structure,C/C++ and other popular programming languages"
 }
 ]
