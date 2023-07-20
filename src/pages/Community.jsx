@@ -1,9 +1,13 @@
+// community.jsx
 import React, { useState, useEffect } from 'react'
 import Header from '../components/Navbar'
-import "../styles/Community.css"
+import '../styles/Community.css'
 import Loader from '../components/Loader'
+import { useContext } from 'react'
+import { ToolContext } from '../App'
 
 function Community() {
+  const { darkMode } = useContext(ToolContext);
   window.scroll(0, 0)
   const [contributors, setContributors] = useState([])
   const [initialLoading, setInitialLoading] = useState(true)
@@ -27,31 +31,43 @@ function Community() {
   }
 
   return (
-    <div>
+    <div className={`all ${darkMode ? 'dark-mode' : ''}`}>
+      {' '}
       <Header />
-      <h2 className="contributor-heading">Meet Our Contributors</h2>
+      <div className={`contributor-heading ${darkMode ? 'dark-mode' : ''}`}>
+        <h2>Meet Our Contributors</h2>
+      </div>
       {initialLoading ? (
         <Loader />
       ) : (
-        <ul className="contributors-list">
+        <ul className={`contributors-list ${darkMode ? 'dark-mode' : ''}`}>
           {contributors.map(
             (contributor) =>
               contributor &&
               contributor.type !== 'Bot' && ( //to remove bot from the contributors list
-                <li className="contributor" key={contributor.id}>
-                  <a
-                    className="contributor-anchor"
-                    href={contributor.html_url}
-                    target="_blank"
-                    title={`${contributor.login}`}
-                  >
-                    <img
-                      alt={contributor.login}
-                      className="contributor-image"
-                      loading="lazy"
-                      src={contributor.avatar_url}
-                    />
-                  </a>
+                <li className={`contributor ${darkMode ? 'dark-mode' : ''}`} key={contributor.id}>
+                  <div className={`contributor-card ${darkMode ? 'dark-mode' : ''}`}>
+                    <a
+                      rel="noopener noreferrer"
+                      className={`contributor-anchor ${darkMode ? 'dark-mode' : ''}`}
+                      href={contributor.html_url}
+                      target="_blank"
+                      title={`${contributor.login}`}
+                    >
+                      <img
+                        alt={contributor.login}
+                        className={`contributor-image ${darkMode ? 'dark-mode' : ''}`}
+                        loading="lazy"
+                        src={contributor.avatar_url}
+                      />
+                    </a>
+                  </div>
+                  <div className={`username ${darkMode ? 'dark-mode' : ''}`}>
+                    <p>{contributor.login}</p>
+                  </div>
+                  <p className={`contributions ${darkMode ? 'dark-mode' : ''}`}>
+                    {contributor.contributions} commits
+                  </p>
                 </li>
               )
           )}

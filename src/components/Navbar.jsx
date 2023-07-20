@@ -1,22 +1,29 @@
 import React, {useEffect, useRef } from 'react'
 import { FaSearch } from 'react-icons/fa'
-import freehitlogo from '../assets/free-logo.webp'
+import freehitlogo from '../assets/logo.png'
+import freehitlogodark from '../assets/darkmode-logo.png'
 import { useLocation } from 'react-router-dom'
 import { NavLink, useSearchParams } from "react-router-dom"
 import "../styles/header.css"
 import Sidebar from './Sidebar'
+import { ToolContext } from '../App';
+import { useContext } from 'react';
+import mobilelogo from '../assets/mobileview.png'
+import { useState } from 'react'
+
 
 const Header = ({ filteredSuggestions }) => {
   const [searchParams, setSearchParams] = useSearchParams()
-
+  const { darkMode ,debounce } = useContext(ToolContext);
   const location = useLocation()
   const sideNavRef = useRef(null)
+  const [search ,setSearch]=useState('')
 
   const searchTerm = searchParams.get('q') || ''
 
   useEffect(() => {
     document.addEventListener('mousedown', handleClickOutside);
-
+    
     return () => {
       document.removeEventListener('mousedown', handleClickOutside);
     }
@@ -41,18 +48,28 @@ const Header = ({ filteredSuggestions }) => {
   const handleChangeInInput = (event) => {
     const val = event.target.value
     setSearchTerm(val)
+    setSearch(val)
+  debounce(setSearchTerm,500)(val);
   }
 
   return (
-    <nav className="navbar">
-      <div className="nav-container" ref={sideNavRef}>
+    <nav className={`navbar ${darkMode ? 'dark-mode' : ''}`}>
+      <div className={`nav-container ${darkMode ? 'dark-mode' : ''}`} ref={sideNavRef}>
         <Sidebar />
-        <h1 className="Free-Hit">
-          <NavLink to="/about">
-            <img className="free-logo" src={freehitlogo} alt="logo" />
+        <h1 className={`Free-Hit ${darkMode ? 'dark-mode' : ''}`}>
+          <NavLink to="/about" className='nav-link'>
+          <img
+            className={`free-logo ${darkMode ? 'dark-mode' : ''}`}
+            src={darkMode ? freehitlogodark : freehitlogo}
+            alt="logo"
+          />
           </NavLink>
-          <NavLink className="free-word" to="/about">
-            Free-Hit
+          <NavLink to="/about" className='nav-link'>
+          <img
+            className={`mobile-logo ${darkMode ? 'dark-mode' : ''}`}
+            src={darkMode ? mobilelogo : mobilelogo}
+            alt="logo"
+          />
           </NavLink>
         </h1>
       </div>
@@ -63,7 +80,7 @@ const Header = ({ filteredSuggestions }) => {
               type="text"
               className="input"
               placeholder="Search..."
-              value={searchTerm}
+              value={search}
               onChange={(e) => handleChangeInInput(e)}
             />
             <div className="btn btn_common">
@@ -95,10 +112,10 @@ const Header = ({ filteredSuggestions }) => {
           <NavLink to="/">Home</NavLink>
         </li>
         <li>
-          <NavLink to="/bookmarks">Bookmarks</NavLink>
+          <NavLink className="hoverele" to="/bookmarks">Bookmarks</NavLink>
         </li>
         <li>
-          <NavLink to="/about">About</NavLink>
+          <NavLink className="hoverele" to="/about">About</NavLink>
         </li>
       </ul>
     </nav>
