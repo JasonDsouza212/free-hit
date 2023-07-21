@@ -3448,5 +3448,19 @@
   "image":"https://rb.gy/hqxie",
   "link":"https://www.scaler.com/topics/",
   "description":"Scaler Topics provides programming articles related to Python,Java,Data Structure,C/C++ and other popular programming languages"
+},
+{
+  "productName":"Google Certified ML Course",
+  "category":"tools",
+  "image":"https://shorturl.at/bnoxQ",
+  "link":"https://www.coursera.org/learn/foundations-of-data-science",
+  "description":"This is a coursera course offered by Google company to learn machine learning."
+},
+{
+  "productName":"Heroku",
+  "category":"tools",
+  "image":"https://shorturl.at/bnoxQ",
+  "link":"https://www.coursera.org/learn/unsupervised-learning-recommenders-reinforcement-learning",
+  "description":"This is a coursera course offered by Stanford university to learn machine learning."
 }
 ]
