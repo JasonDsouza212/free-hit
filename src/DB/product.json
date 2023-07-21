@@ -13,6 +13,13 @@
     "link": "https://www.internships.com/",
     "description": "Searching Remote Level Internship and Other Type of Jobs."
   },
+  {
+    "productName": "Practity",
+    "category": "web",
+    "image": "https://shorturl.at/atxE5",
+    "link": "https://practity.com/",
+    "description": "Learn and Practice  HTML, CSS, JavaScript with Proper Roadmaps with Bunch of Challenges."
+  },
    {
     "productName": "Appwrite",
     "category": "tools",
