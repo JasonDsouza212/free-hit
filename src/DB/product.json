@@ -139,6 +139,13 @@
     "description": "Scaler is an outcome-focused, ed-tech platform for techies."
   },
   {
+  "productName": "Anaconda",
+  "category": "tools",
+  "image": "https://tinyurl.com/249zpcrd",
+  "link": "https://www.anaconda.com/",
+  "description": "Data science platform that includes tools for Python, R, and distribution management"
+  },
+  {
     "productName": "InterviewBit",
     "category": "coding",
     "image": "https://bit.ly/3NH8dIt",
