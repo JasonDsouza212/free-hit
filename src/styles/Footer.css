@@ -59,17 +59,17 @@ footer {
   transform: scale(1.2);
 }
 
-.socials_twitter:hover{
+.socials_twitter:hover {
   color: #00acee;
 }
 .socials_github:hover {
-  color: cyan;
+  color: #7936a2;
 }
 
-.socials_linkedin:hover{
+.socials_linkedin:hover {
   color: #0e76a8;
 }
-.socials_mail:hover{
+.socials_mail:hover {
   color: rgb(201, 44, 25);
 }
 
@@ -87,9 +87,9 @@ footer {
 }
 .footer-bottom span {
   text-transform: uppercase;
-  opacity: .75;
+  opacity: 0.75;
   font-weight: 400;
-  letter-spacing: .02rem;
+  letter-spacing: 0.02rem;
 }
 .footer-bottom ul {
   margin: 0;
