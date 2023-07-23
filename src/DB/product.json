@@ -3459,6 +3459,7 @@
 },
 {
 
+
   "productName":"Heroku",
   "category":"tools",
   "image":"https://shorturl.at/eHKN8",
@@ -3486,6 +3487,15 @@
   "link":"https://www.dreamhost.com/",
   "description":"On this website, user can deploy their web-development projects and showcase their websites."
 },
+{
+  "productName":"WordPress",
+  "category":"tools",
+  "image":"https://shorturl.at/gkPVZ",
+  "link":"https://wordpress.com/",
+  "description":"On this website, you can develop any website without coding just by editing."
+},
+
+
 {
   "productName":"Great Learning",
   "category":"courses",
