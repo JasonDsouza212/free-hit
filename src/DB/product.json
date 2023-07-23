@@ -7,6 +7,14 @@
     "description": "Binge Latest Korean shows and Movies for free"
   },
 
+  {
+    "productName": "Chegg Internships",
+    "category": "remote",
+    "image": "https://shorturl.at/izNVW",
+    "link": "https://www.internships.com/",
+    "description": "Searching Remote Level Internship and Other Type of Jobs"
+  },
+  
    {
     "productName": "Appwrite",
     "category": "tools",
@@ -3450,10 +3458,20 @@
   "description":"Scaler Topics provides programming articles related to Python,Java,Data Structure,C/C++ and other popular programming languages"
 },
 {
+
   "productName":"WordPress",
   "category":"tools",
   "image":"https://shorturl.at/gkPVZ",
   "link":"https://wordpress.com/",
   "description":"On this website, you can develop any website without coding just by editing."
+},
+
+{
+  "productName":"Great Learning",
+  "category":"courses",
+  "image":"https://rb.gy/7l10n",
+  "link":"https://www.mygreatlearning.com/academy",
+  "description":"Learn the in-demand skills to advance your career in AI, ML, data science, digital marketing, cloud, software engg & more."
+
 }
 ]
