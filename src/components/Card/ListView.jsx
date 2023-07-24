@@ -36,7 +36,7 @@ const ListView = ({ currentProducts }) => {
               )}
               <div className="accordion_btn">
                 <h3 className={`card-title ${darkMode ? 'dark-mode' : ''}`}>
-              {product.productName}
+              {product.productName.charAt(0).toUpperCase()+product.productName.slice(1,)}
                 </h3>
                 <div className="btn-cont">
                   <a target="_blank" href={product.link}>
