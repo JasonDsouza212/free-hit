@@ -67,14 +67,14 @@ const ButtonLinks = [
   },
   {
     id: 12,
-    name: 'Useful Tools',
-    category: 'tools',
+    name: 'Image generation',
+    category: 'image_generation',
     icon: 'ri-tools-fill',
   },
   {
     id: 13,
-    name: 'Image generation tools',
-    category: 'image_generation',
+    name: 'Useful Tools',
+    category: 'tools',
     icon: 'ri-tools-fill',
   }
 ]
