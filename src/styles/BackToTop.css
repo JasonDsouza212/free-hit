@@ -21,9 +21,10 @@
   justify-content: center;
   align-items: center;
   cursor: pointer;
-  color: black;
-  background-color: yellow;
+  color: #373530;
+  background-color: #FCE100;
   animation:animate 4s alternate infinite;
+  border: 3px solid #373530;
 }
 
 .backToTopButton:hover{
@@ -32,6 +33,7 @@
 
 .backToTopButton i {
   font-size: 24px;
+  font-weight: bold;
 }
 
 /* .backToTopButton .button.dark-mode{

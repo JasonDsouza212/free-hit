@@ -403,7 +403,7 @@ body {
     position: fixed;
     z-index: 50;
     bottom: 3rem;
-    right: 3rem;
+    right: 0.5rem;
   }
 
   .transition-before {
@@ -671,7 +671,7 @@ body {
     position: fixed;
     z-index: 50;
     bottom: 3rem;
-    right: 1.5rem;
+    right: 0.5rem;
   }
 
   .transition-before {
@@ -709,7 +709,7 @@ body {
     position: fixed;
     z-index: 50;
     bottom: 3rem;
-    right: 1rem;
+    right: 0.5rem;
   }
 
   .grid > article {
