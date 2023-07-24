@@ -287,8 +287,12 @@ nav {
   border-radius: 100px;
   font-size: 18px;
   background: #f1f1ef;
-  color: var(--primary-black);
+  color: black;
   border: 2px solid var(--primary-black);
+}
+
+.search_box .input[type=text] {
+  color: black;
 }
 
 .search_box .input::placeholder {

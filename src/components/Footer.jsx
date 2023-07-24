@@ -1,6 +1,5 @@
 import freehitlogo from '../assets/footer-logo.png'
 import "../styles/Footer.css"
-
 const Footer = () => {
   // gettin year dynamically
   const date = new Date();
@@ -9,7 +8,9 @@ const Footer = () => {
     <footer>
       <div className="footer-content">
         <h3>
+          <a class="" href="/about">
           <img className="free-logo-footer" src={freehitlogo} alt="logo" />
+            </a>
         </h3>
         <p>
           Find the tools you need without breaking the bank
