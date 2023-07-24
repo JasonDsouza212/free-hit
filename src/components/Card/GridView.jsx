@@ -26,7 +26,7 @@ const GridView = ({ currentProducts }) => {
                 alt="Default"
               />
             )}
-            <h3 className={`card-title ${darkMode ? 'dark-mode' : ''}`}>{product.productName}</h3>
+            <h3 className={`card-title ${darkMode ? 'dark-mode' : ''}`}>{product.productName.charAt(0).toUpperCase()+product.productName.slice(1,)}</h3>
           </div>
           <p className={`card-description ${darkMode ? 'dark-mode' : ''}`}>{product.description}</p>
           <div className="btn-cont">

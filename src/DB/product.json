@@ -3458,8 +3458,6 @@
   "description":"Scaler Topics provides programming articles related to Python,Java,Data Structure,C/C++ and other popular programming languages"
 },
 {
-
-
   "productName":"Heroku",
   "category":"tools",
   "image":"https://shorturl.at/eHKN8",
@@ -3494,8 +3492,6 @@
   "link":"https://wordpress.com/",
   "description":"On this website, you can develop any website without coding just by editing."
 },
-
-
 {
   "productName":"Great Learning",
   "category":"courses",
@@ -3510,6 +3506,12 @@
   "image":"https://rb.gy/94mw9",
   "link":"https://devpractical.com/",
   "description":"Web Development Field Map for Beginners"
-
+},
+{
+  "productName": "particles.js",
+  "category": "UI",
+  "image": "https://particles.js.org/tsParticles-64.png",
+  "link": "https://particles.js.org/",
+  "description": "tsParticles - Easily create highly customizable particles, confetti and fireworks animations and use them as animated backgrounds for your website."
 }
 ]
