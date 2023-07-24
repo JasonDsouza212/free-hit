@@ -3503,5 +3503,12 @@
   "link":"https://www.mygreatlearning.com/academy",
   "description":"Learn the in-demand skills to advance your career in AI, ML, data science, digital marketing, cloud, software engg & more."
 
+},
+{
+  "productName": "particles.js",
+  "category": "UI",
+  "image": "https://particles.js.org/tsParticles-64.png",
+  "link": "https://particles.js.org/",
+  "description": "tsParticles - Easily create highly customizable particles, confetti and fireworks animations and use them as animated backgrounds for your website."
 }
 ]
