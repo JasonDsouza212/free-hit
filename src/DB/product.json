@@ -3389,6 +3389,55 @@
   "description": "This website offers animes, movies, cartoons, series, etc. in HD quality"
 },
 {
+  "productName": "PicFinder",
+  "category": "image_generation",
+  "image": "https://shorturl.at/fqW69",
+  "link": "https://picfinder.ai/",
+  "description": "This website offers infinite image generation using ai."
+},
+{
+  "productName": "CutoutPro",
+  "category": "image_generation",
+  "image": "https://shorturl.at/cdWX0",
+  "link": "https://www.cutout.pro/",
+  "description": "AI powered visual design platform."
+},
+{
+  "productName": "ImagineMe",
+  "category": "image_generation",
+  "image": "https://shorturl.at/FJ249",
+  "link": "https://imagineme.ai/",
+  "description": "AI powered visual design platform."
+},
+{
+  "productName": "Pixray",
+  "category": "image_generation",
+  "image": "https://shorturl.at/aHY49",
+  "link": "https://replicate.com/pixray/text2image",
+  "description": "AI powered visual design platform."
+},
+{
+  "productName": "DeepAI",
+  "category": "image_generation",
+  "image": "https://shorturl.at/ftvCM",
+  "link": "https://deepai.org/machine-learning-model/text2img",
+  "description": "AI powered visual design platform."
+},
+{
+  "productName": "Cariyon",
+  "category": "image_generation",
+  "image": "https://shorturl.at/aszCS",
+  "link": "https://www.craiyon.com/",
+  "description": "Create AI Art with our free AI image generator."
+},
+{
+  "productName": "StarryAI",
+  "category": "image_generation",
+  "image": "https://shorturl.at/bkOQ4",
+  "link": "https://starryai.com/",
+  "description": "Generate art 🎨 simply by describing what you want to see and our Artificial Intelligence transforms your words into art."
+},
+{
   "productName": "Ortus extension",
   "category": "extension",
   "image": "https://ury1.com/4BQuh",

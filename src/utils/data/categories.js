@@ -66,11 +66,17 @@ const ButtonLinks = [
     icon: 'ri-tools-fill',
   },
   {
-    id: 11,
+    id: 12,
+    name: 'Image generation',
+    category: 'image_generation',
+    icon: 'ri-tools-fill',
+  },
+  {
+    id: 13,
     name: 'Useful Tools',
     category: 'tools',
     icon: 'ri-tools-fill',
-  },
+  }
 ]
 
 export default ButtonLinks
