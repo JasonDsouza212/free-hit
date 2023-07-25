@@ -287,7 +287,7 @@ nav {
   border-radius: 100px;
   font-size: 18px;
   background: #f1f1ef;
-  color: var(--primary-black);
+  color: black;
   border: 2px solid var(--primary-black);
 }
 
@@ -399,15 +399,17 @@ nav {
       display: none;
     }
     .mobile-logo{
-      margin-top: 8px;
+      margin-top: 3px;
       display: flex;
       width: 46px;
+      height: 46px;
+      border-radius: 10px;
     }
     .mobile-logo.dark-mode{
       border: 2px solid white;
     }
     .Free-hit{
-      size: 100px
+      size: 100px;
     }
     
 }
@@ -462,7 +464,8 @@ nav {
     position: relative;
     left: -27px;
     width: 40px;
-    top: 5px;
+    height: 40px;
+    top: 2px;
   }
 }
 

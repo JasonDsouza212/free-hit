@@ -210,8 +210,7 @@ body {
 }
 
 .dark-mode .card_view svg {
-  /* fill: var(--primary-white); */
-  color: var(--primary-white);
+  filter: invert(100%);
 }
 
 .dark-mode .no-results {

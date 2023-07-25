@@ -34,6 +34,11 @@ const Header = ({ filteredSuggestions }) => {
       document.getElementById("btn").checked = false;
     }
   }
+  window.addEventListener('scroll', function(){
+    if (sideNavRef.current) {
+      document.getElementById("btn").checked = false;
+    }
+  })
 
   function setSearchTerm(val) {
     setSearchParams(prevParams => {
