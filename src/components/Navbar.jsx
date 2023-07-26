@@ -105,7 +105,7 @@ const Header = ({ filteredSuggestions }) => {
                   }}
                   className="hnav-suggestion"
                 >
-                  {suggestion}
+                  {suggestion.charAt(0).toUpperCase()+suggestion.slice(1,)}
                 </li>
               ))}
             </ul>
