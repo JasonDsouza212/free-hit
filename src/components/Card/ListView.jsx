@@ -6,6 +6,34 @@ import { BsChevronDown } from 'react-icons/bs';
 
 const ListView = ({ currentProducts }) => {
   const { handelBookmarkAdd, bookmarks, deleteres, darkMode } = useContext(ToolContext);
+  const handleShareClick = async (product) => {
+    try {
+      // Check if the Web Share API is available in the browser
+      if (navigator.share) {
+        let customShareLink = `${window.location.href.split('?')[0]}?q=${encodeURIComponent(
+          product.productName
+        )}`;
+
+        await navigator.share({
+          title: product.productName,
+          text: product.description,
+          url: customShareLink,
+        });
+      } else {
+        // Fallback for browsers that do not support the Web Share API
+        const customShareLink = `${window.location.origin}/?q=${encodeURIComponent(
+          product.productName
+        )}`;
+
+        // Copy the link to the clipboard
+        await navigator.clipboard.writeText(customShareLink);
+        alert('Link copied!');
+        console.log("Web Share API is not supported in this browser.")
+      }
+    } catch (error) {
+      console.error('Error sharing:', error);
+    }
+  };
   return (
     <Accordion allowToggle className={`list ${darkMode ? 'dark-mode' : ''}`}>
       {currentProducts.map((product, index) => (
@@ -36,8 +64,18 @@ const ListView = ({ currentProducts }) => {
               )}
               <div className="accordion_btn">
                 <h3 className={`card-title ${darkMode ? 'dark-mode' : ''}`}>
-              {product.productName.charAt(0).toUpperCase()+product.productName.slice(1,)}
+                  {product.productName.charAt(0).toUpperCase() + product.productName.slice(1,)}
+                  <button
+                  className={`share-icon`}
+                  onClick={() => handleShareClick(product)}
+                >
+                  <i
+                    className="ri-share-line"
+                    style={{ color: darkMode ? 'white' : '' , marginLeft:'10px', fontSize:'18px'}}
+                  ></i>
+                </button>
                 </h3>
+                
                 <div className="btn-cont">
                   <a target="_blank" href={product.link}>
                     <button className={`visit ${darkMode ? 'dark-mode' : ''}`}>
@@ -51,7 +89,7 @@ const ListView = ({ currentProducts }) => {
                         deleteres(product);
                       }}
                     >
-                    <a>Delete
+                      <a>Delete
                         <i className={`ri-bookmark-fill ${darkMode ? 'dark-mode' : ''}`}></i>
                       </a>
                     </button>
@@ -76,9 +114,9 @@ const ListView = ({ currentProducts }) => {
           <AccordionPanel py={2} pt={0}>
             <div className="text">
               <div className="accordion_panel">
-              <p>
-                {product.description}
-              </p>
+                <p>
+                  {product.description}
+                </p>
                 <div className="btn-cont ">
                   <a target="_blank" href={product.link}>
                     <button className="visit">
