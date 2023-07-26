@@ -86,7 +86,7 @@ nav {
 }
 #sidebar {
   position: fixed;
-  background-color: #222;
+  /* background-color: #222; */
   top: 70px;
   height: 100%;
   width: 270px;
@@ -116,11 +116,11 @@ nav {
 #sidebar .title {
   line-height: 65px;
   text-align: center;
-  background: #555;
   font-size: 25px;
   font-weight: 600;
-  color: #f2f2f2;
   border-bottom: 1px solid #555;
+  /* background: #555;
+  color: #f2f2f2; */
 }
 
 .pages-sidebar {
@@ -131,13 +131,16 @@ nav {
 }
 
 .pages-sidebar li a:hover {
-  background-color: #f2f2f2;
   border-radius: 10px;
   color: var(--primary-black);
+  background-color: var(--primary-black);
+  color: var(--primary-white);
 }
 
+
 .pages-sidebar li a {
-  color: #f2f2f2;
+  /* color: #f2f2f2; */
+  color: var(--primary-black);
   text-decoration: none;
   font-size: 16px;
   padding: 10px;
@@ -152,7 +155,9 @@ nav {
 
 #sidebar .list-items {
   position: relative;
-  background: #222;
+  /* background: #222; */
+  color: var(--primary-black);
+  background-color: var((--primary-white));
   width: 100%;
   list-style: none;
 }
@@ -171,8 +176,9 @@ nav {
   line-height: 50px;
   transition: all 0.3s ease;
 }
-#sidebar .list-items li:hover {
+#sidebar>.list-items>li:hover>button  {
   background-color: #333;
+  color: white;
 }
 
 .active-filter {
@@ -180,14 +186,14 @@ nav {
   border-bottom: 1px solid transparent;
   box-shadow: 0 0px 10px 3px #222;
 }
-
-#sidebar .list-items li:first-child {
+#sidebar>.list-items>li:first-child>button {
   border-top: none;
   background-color: #333;
-
-}
-#sidebar .list-items li button {
   color: var(--primary-white);
+}
+
+#sidebar .list-items li button {
+  color: var(--primary-black);
   text-decoration: none;
   font-size: 18px;
   font-weight: 500;

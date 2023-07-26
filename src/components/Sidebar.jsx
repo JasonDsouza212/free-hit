@@ -17,7 +17,6 @@ export default function Sidebar() {
 
   const { darkMode } = useContext(ToolContext);
 
-
   const handleAddFilter = (filter, event) => {
     filter = filter.toLowerCase();
     setSearchParams((prevParams) => {
@@ -76,8 +75,8 @@ export default function Sidebar() {
 				</ul>
 			</nav>
       ) : (
-        <nav id="sidebar">
-          <div className="title">
+        <nav id="sidebar" className={darkMode ? 'dark-mode' : ''}>
+          <div className={darkMode ? 'dark-mode title' : 'title'}>
             <ul className="pages-sidebar">
               <li>
                 <NavLink
@@ -99,7 +98,7 @@ export default function Sidebar() {
               </li>
             </ul>
           </div>
-          <ul className="list-items">
+          <ul className={darkMode ? 'dark-mode list-items' : 'list-items'}>
             {ButtonLinks.map((buttonLink) => (
               <li
                 key={buttonLink.id}
