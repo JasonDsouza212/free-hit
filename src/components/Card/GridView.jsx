@@ -14,7 +14,7 @@ const GridView = ({ currentProducts }) => {
               <img
                 className={`card-image ${darkMode ? 'dark-mode' : ''}`}
                 src={product.image}
-                alt=""
+                alt="product-img"
                 onError={(e) => {
                   e.target.src = 'https://i.ibb.co/9H0s34n/default-img.jpg';
                 }}
