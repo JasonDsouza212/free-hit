@@ -3591,5 +3591,12 @@
   "image": "https://rb.gy/ntsy9",
   "link": "https://www.tabnine.com/",
   "description": "AI assistant that speeds up delivery and keeps your code safe"
+},
+{
+  "productName": "Bard AI",
+  "category": "ai",
+  "image": "https://rb.gy/uaw0j",
+  "link": "https://bard.google.com/",
+  "description": "Bard: The AI that can write like you."
 }
 ]
