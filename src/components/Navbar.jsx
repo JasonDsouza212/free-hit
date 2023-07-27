@@ -102,6 +102,7 @@ const Header = ({ filteredSuggestions }) => {
                   key={suggestion}
                   onClick={() => {
                     setSearchTerm(suggestion)
+                    setSearch(suggestion)
                   }}
                   className="hnav-suggestion"
                 >
