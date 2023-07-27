@@ -427,8 +427,9 @@ nav {
     
 }
 
-.free-logo.dark-mode{
-  /* :white; */
+.light-mode {
+  --primary-black: #373530;
+  --primary-white: #f1f1ef;
 }
 
 /* ================================  Free-Hit logo end*/

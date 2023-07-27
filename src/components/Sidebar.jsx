@@ -75,13 +75,13 @@ export default function Sidebar() {
 				</ul>
 			</nav>
       ) : (
-        <nav id="sidebar" className={darkMode ? 'dark-mode' : ''}>
+        <nav id="sidebar" className={darkMode ? 'light-mode' : 'dark-mode'}>
           <div className={darkMode ? 'dark-mode title' : 'title'}>
             <ul className="pages-sidebar">
               <li>
                 <NavLink
                   to="/"
-                  className={darkMode ? 'dark-mode' : ''}
+                  className={darkMode ? 'light-mode' : 'dark-mode'}
                   activeclassname="active"
                 >
                   <i className="ri-home-4-fill"></i> Home
@@ -90,7 +90,7 @@ export default function Sidebar() {
               <li>
                 <NavLink
                   to="/bookmarks"
-                  className={darkMode ? 'dark-mode' : ''}
+                  className={darkMode ? 'light-mode' : 'dark-mode'}
                   activeclassname="active"
                 >
                   <i className="ri-bookmark-fill"></i> Bookmark
@@ -98,7 +98,7 @@ export default function Sidebar() {
               </li>
             </ul>
           </div>
-          <ul className={darkMode ? 'dark-mode list-items' : 'list-items'}>
+          <ul className={darkMode ? 'light-mode list-items' : 'dark-mode list-items'}>
             {ButtonLinks.map((buttonLink) => (
               <li
                 key={buttonLink.id}
@@ -108,7 +108,7 @@ export default function Sidebar() {
                 }
               >
                 <button 
-					          className={darkMode ? 'dark-mode' : ''}
+					          className={darkMode ? 'light-mode' : 'dark-mode'}
                   	onClick={(e) => handleAddFilter(buttonLink.category, e)}
                 >
                   {buttonLink.name}
