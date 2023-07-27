@@ -53,12 +53,14 @@ function Community() {
                       href={contributor.html_url}
                       target="_blank"
                       title={`${contributor.login}`}
+                      aria-label={`${contributor.login}`}
                     >
                       <img
                         alt={contributor.login}
                         className={`contributor-image ${darkMode ? 'dark-mode' : ''}`}
                         loading="lazy"
                         src={contributor.avatar_url}
+                        aria-label='Contributor Avatar'
                       />
                     </a>
                   </div>
