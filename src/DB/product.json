@@ -6,7 +6,6 @@
     "link": "https://www.gohitv.com/",
     "description": "Binge Latest Korean shows and Movies for free"
   },
-
   {
     "productName": "Chegg Internships",
     "category": "remote",
@@ -14,7 +13,6 @@
     "link": "https://www.internships.com/",
     "description": "Searching Remote Level Internship and Other Type of Jobs"
   },
-  
    {
     "productName": "Appwrite",
     "category": "tools",
@@ -22,7 +20,6 @@
     "link": "https://appwrite.io/",
     "description": "backend platform for developing Web, Mobile, and Flutter applications"
   },
-  
   {
     "productName": "BlockSite",
     "category": "extensions",
@@ -37,7 +34,6 @@
     "link": "https://www.slazzer.com/",
     "description": "It is an amazing free tool to remove background from images."
   },
-
   {
     "productName": "Remove.bg",
     "category": "ai",
@@ -45,7 +41,6 @@
     "link": "https://www.remove.bg/",
     "description": "An amazing AI tool to remove background from images for free."
   },
-
   {
     "productName": "AdBlocker Ultimate",
     "category": "extensions",
@@ -53,7 +48,6 @@
     "link": "https://chrome.google.com/webstore/detail/adblocker-ultimate/ohahllgiabjaoigichmmfljhkcfikeof",
     "description": "Free and improved AdBlocker Chrome extension. Completely remove ALL ads."
   },
-
   {
     "productName": "Slides Go",
     "category": "ai",
@@ -61,13 +55,19 @@
     "link": "https://slidesgo.com/",
     "description": "AI tool to create presentations for free."
   },
-
   {
     "productName": "JS Remotely",
     "category": "remote",
     "image": "https://tinyurl.com/ycyab9eb",
     "link": "https://jsremotely.com/",
     "description": "Find remote Javascript jobs."
+  },
+  {
+    "productName": "Excalidraw",
+    "category": "tools",
+     "image": "https://shorturl.at/myBPW",
+    "link": "https://excalidraw.com/",
+    "description": "Virtual whiteboard for sketching hand-drawn diagrams ,very useful for content creation"
   },
   {
     "productName": "JavaScript minify",
@@ -3591,5 +3591,12 @@
   "image": "https://rb.gy/ntsy9",
   "link": "https://www.tabnine.com/",
   "description": "AI assistant that speeds up delivery and keeps your code safe"
+},
+{
+  "productName": "Free3Dicon",
+  "category": "tools",
+  "image": "https://rb.gy/eacfk",
+  "link": "https://free3dicon.com/",
+  "description": "Free3Dicon offers a trendy collection of free 3D icons for your website, app, or projects."
 }
 ]
