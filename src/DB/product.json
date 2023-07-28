@@ -1,5 +1,12 @@
 [
   {
+    "productName": "The Meal DB",
+    "category": "api",
+    "image": "https://www.themealdb.com/images/logo-small.png",
+    "link": "https://www.themealdb.com/api.php",
+    "description": " An open, crowd-sourced database of Recipes from around the world."
+  },
+  {
     "productName": "Hi TV",
     "category": "movies",
     "image": "https://tinyurl.com/4xhvbctb",
