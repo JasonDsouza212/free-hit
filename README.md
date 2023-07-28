@@ -17,10 +17,10 @@ Free-Hit is a website where you can search for free tools that are useful for yo
 
 Contributing to open-source projects like Free-Hit has numerous benefits. It helps you:
 
-- Give back to the community: By contributing, you help grow and improve the tools that you and many others use.
-- Build your portfolio: Your contributions can serve as real-world examples of your work and make you stand out in the job market.
-- Improve existing skills and learn new ones: Working on real-world projects gives you the chance to apply what you've learned and gain more knowledge along the way.
-- Network with professionals: You get to connect and collaborate with professionals around the world, opening up potential job opportunities.
+- **Give back to the community:** By contributing, you help grow and improve the tools that you and many others use.
+- **Build your portfolio:** Your contributions can serve as real-world examples of your work and make you stand out in the job market.
+- **Improve existing skills and learn new ones:** Working on real-world projects gives you the chance to apply what you've learned and gain more knowledge along the way.
+- **Network with professionals:** You get to connect and collaborate with professionals around the world, opening up potential job opportunities.
 
 
 ## 🚀 Quick start
