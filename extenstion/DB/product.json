@@ -967,6 +967,13 @@
     "description": "Integrate Leetcode submission to GitHub"
   },
   {
+    "productName": "Excalidraw",
+    "category": "tools",
+     "image": "https://shorturl.at/myBPW",
+    "link": "https://excalidraw.com/",
+    "description": "Virtual whiteboard for sketching hand-drawn diagrams ,very useful for content creation"
+  },
+  {
     "productName": "Grammarly",
     "category": "extensions",
     "image": "https://bit.ly/3xg1goX",

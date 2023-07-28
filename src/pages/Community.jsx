@@ -17,18 +17,21 @@ function Community() {
   }, [])
 
   const getData = async () => {
-    setInitialLoading(true)
+    setInitialLoading(true);
     await fetch(
-      `https://api.github.com/repos/JasonDsouza212/free-hit/contributors?per_page=100`, {credentials: 'omit'}
+      `https://api.github.com/repos/JasonDsouza212/free-hit/contributors?per_page=100`
     )
       .then((res) => res.json())
       .then((data) => {
-        if (data) {
-          setContributors(data)
-          setInitialLoading(false)
-        }
-      })
-  }
+        setTimeout(() => {
+          if (data) {
+            setContributors(data);
+            setInitialLoading(false);
+          }
+        }, 300);
+      });
+  };
+  
 
   return (
     <div className={`all ${darkMode ? 'dark-mode' : ''}`}>
@@ -53,12 +56,14 @@ function Community() {
                       href={contributor.html_url}
                       target="_blank"
                       title={`${contributor.login}`}
+                      aria-label={`${contributor.login}`}
                     >
                       <img
                         alt={contributor.login}
                         className={`contributor-image ${darkMode ? 'dark-mode' : ''}`}
                         loading="lazy"
                         src={contributor.avatar_url}
+                        aria-label='Contributor Avatar'
                       />
                     </a>
                   </div>

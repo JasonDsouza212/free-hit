@@ -48,10 +48,6 @@ html, body {
   background-color: var(--primary-white);
 }
 
-.routes-holder{
-  min-height: 67vh;
-}
-
 body {
   max-width: 100%;
   overflow-y: scroll;

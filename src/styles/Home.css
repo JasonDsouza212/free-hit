@@ -193,6 +193,7 @@ body {
   flex-direction: column;
   align-items: center;
   width: 100%;
+  min-height: 52vh;
 }
 
 /* card end */
