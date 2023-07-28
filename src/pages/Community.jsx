@@ -18,9 +18,8 @@ function Community() {
 
   const getData = async () => {
     setInitialLoading(true);
-    await fetch(
-      `https://api.github.com/repos/JasonDsouza212/free-hit/contributors?per_page=100`
-    )
+  
+    await fetch(`https://api.github.com/repos/JasonDsouza212/free-hit/contributors?per_page=100`) Temporary merge branch 2
       .then((res) => res.json())
       .then((data) => {
         setTimeout(() => {

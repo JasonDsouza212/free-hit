@@ -66,8 +66,18 @@ const ListView = ({ currentProducts }) => {
               )}
               <div className="accordion_btn">
                 <h2 className={`card-title ${darkMode ? 'dark-mode' : ''}`}>
-              {product.productName.charAt(0).toUpperCase()+product.productName.slice(1,)}
+                  {product.productName.charAt(0).toUpperCase() + product.productName.slice(1,)}
+                  <button
+                  className={`share-icon`}
+                  onClick={() => handleShareClick(product)}
+                >
+                  <i
+                    className="ri-share-line"
+                    style={{ color: darkMode ? 'white' : '' , marginLeft:'10px', fontSize:'18px'}}
+                  ></i>
+                </button>
                 </h2>
+                
                 <div className="btn-cont">
                   <a target="_blank" href={product.link}>
                     <button className={`visit ${darkMode ? 'dark-mode' : ''}`}>

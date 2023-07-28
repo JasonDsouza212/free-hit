@@ -57,7 +57,18 @@ const GridView = ({ currentProducts }) => {
                 alt="Default"
               />
             )}
-            <h2 className={`card-title ${darkMode ? 'dark-mode' : ''}`}>{product.productName.charAt(0).toUpperCase()+product.productName.slice(1,)}</h2>
+            <h2 className={`card-title ${darkMode ? 'dark-mode' : ''}`}>{product.productName.charAt(0).toUpperCase() + product.productName.slice(1,)}</h2>
+
+            {/* Share icon and implement the click event */}
+            <button
+              className={`share-icon`}
+              onClick={() => handleShareClick(product)}
+            >
+              <i
+                className="ri-share-line"
+                style={{ color: darkMode ? 'white' : '' }}
+              ></i>
+            </button>
           </div>
           <p className={`card-description ${darkMode ? 'dark-mode' : ''}`}>{product.description}</p>
           <div className="btn-cont">
@@ -71,13 +82,13 @@ const GridView = ({ currentProducts }) => {
             {bookmarks.some(
               (obj) => obj['productName'] === product.productName
             ) ? (
-                <button className={`delete ${darkMode ? 'dark-mode' : ''}`} onClick={(event) => {
-                  event.stopPropagation();
-                  deleteres(product);
-                  }}
-                >
+              <button className={`delete ${darkMode ? 'dark-mode' : ''}`} onClick={(event) => {
+                event.stopPropagation();
+                deleteres(product);
+              }}
+              >
                   Delete<i className={`ri-bookmark-fill ${darkMode ? 'dark-mode' : ''}`}></i>
-                </button>
+              </button>
             ) : (
                 <button
                   className={`bookmark ${darkMode ? 'dark-mode' : ''}`}
