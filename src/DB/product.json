@@ -3598,5 +3598,33 @@
   "image": "https://rb.gy/eacfk",
   "link": "https://free3dicon.com/",
   "description": "Free3Dicon offers a trendy collection of free 3D icons for your website, app, or projects."
+},
+{
+  "productName": "GitHub Copilot",
+  "category": "extensions",
+  "image": "https://rb.gy/w560d",
+  "link": "https://marketplace.visualstudio.com/items?itemName=GitHub.copilot",
+  "description": "GitHub Copilot VSCode extension provides autocomplete-style suggestions from an AI pair programmer as you code in Visual Studio Code. "
+},
+{
+    "productName": "TailwindCSS IntelliSense",
+    "category": "extensions",
+    "image": "https://rb.gy/li801",
+    "link": "https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss",
+    "description": "VSCode extension enhances the Tailwind development experience by providing Visual Studio Code users with advanced features such as autocomplete, syntax highlighting, and linting."
+},
+{
+  "productName": "Console Ninja",
+  "category": "extensions",
+  "image": "https://rb.gy/bahxv",
+  "link": "https://marketplace.visualstudio.com/items?itemName=WallabyJs.console-ninja",
+  "description": "A VS Code extension that displays console.log output and runtime errors directly in your editor from your running browser or node application."
+},
+{
+"productName": "ZenHub",
+"category": "extensions",
+"image": "https://rb.gy/qfpwe",
+"link": "https://www.zenhub.com/",
+"description": "Zenhub is the only project management tool that integrates natively within GitHub’s user interface."
 }
 ]
