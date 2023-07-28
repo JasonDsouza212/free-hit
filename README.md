@@ -5,6 +5,11 @@ Free-Hit is an web application that is used to search for free tools that are bo
 > You can check out the live project https://free-hit.vercel.app
 > ![free-hit](https://github.com/JasonDsouza212/free-hit/assets/88102392/3bd18ef6-fc72-4882-85c3-9591c7d94067)
 
+## Why to Open Source?
+
+Open Source increases our prospectives and opportunities in contributing to various kinds of projects and engage with different kind of mentors. It helps us to build connections and open a gate to various kinds of open source technologies.
+
+Our website is one such kind which provides a platform to contributors from all over the world give their inputs in the form of useful websites which are free to use. It enables us to get a list of all the websites together at one place thereby saving a lot of time for us. We can find any kind of website here, be it a tool or an education platform. Hence, it is declared as a knowledge sharing platform!
 
 ## 💻 Tech Stack
 
