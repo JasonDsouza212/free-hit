@@ -21,8 +21,8 @@ const Footer = () => {
         <ul className="socials">
           <li>
             <a 
-              aria-label="Follow me on Facebook"
-              title="Facebook (External Link)"
+              aria-label="Follow me on Twitter"
+              title="Twitter (External Link)"
               rel="noopener noreferrer"
               target="_blank" 
               href="https://twitter.com/_Jason_Dsouza"
