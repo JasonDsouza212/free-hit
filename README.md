@@ -11,6 +11,20 @@ Open Source increases our prospectives and opportunities in contributing to vari
 
 Our website is one such kind which provides a platform to contributors from all over the world give their inputs in the form of useful websites which are free to use. It enables us to get a list of all the websites together at one place thereby saving a lot of time for us. We can find any kind of website here, be it a tool or an education platform. Hence, it is declared as a knowledge sharing platform!
 
+## Benefits of Open Source
+
+1. ### Resume Building: 
+We can showcase our contributions and enhance our resume. Your open-source contribution is publicly accessible and the more you contribute, the more you shape the project. You also gain a lot of recognition and sometimes when that recognition reaches a potential employer, you end up landing a wonderful job in a good company.
+
+2. ### It's free of cost: 
+Open source opens up the opportunity for developers to not just learn about software development from the top tech giant sitting around the world but also it gives you enough experience to make a shiny career in programming.
+
+3. ### Increasing Learning curve:
+The learning opportunity is enormous when you work on an open-source project. You collaborate with experts, you get feedback and you work on improving your tasks. Open Source not only provides us a wide range of technologies, it also makes us open to many non-tech contribution works such as documentation which can actually turn into a useful resource.
+
+4. ### A platform for healthy competition
+Open source means helping each other, giving feedbacks to each other and developing skills with everyone. We benefit the whole community! 
+
 ## 💻 Tech Stack
 
 - [Reactjs](https://react.dev) - Reactjs is a JavaScript library for building user interfaces.
