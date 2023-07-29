@@ -5,6 +5,35 @@ import '../../styles/GridView.css';
 const GridView = ({ currentProducts }) => {
   const { handelBookmarkAdd, bookmarks, deleteres, darkMode } = useContext(ToolContext);
 
+  const handleShareClick = async (product) => {
+    try {
+      // Check if the Web Share API is available in the browser
+      if (navigator.share) {
+        let customShareLink = `${window.location.href.split('?')[0]}?q=${encodeURIComponent(
+          product.productName
+        )}`;
+
+        await navigator.share({
+          title: product.productName,
+          text: product.description,
+          url: customShareLink,
+        });
+      } else {
+        // Fallback for browsers that do not support the Web Share API
+        const customShareLink = `${window.location.origin}/?q=${encodeURIComponent(
+          product.productName
+        )}`;
+
+        // Copy the link to the clipboard
+        await navigator.clipboard.writeText(customShareLink);
+        alert('Link copied!');
+        console.log("Web Share API is not supported in this browser.")
+      }
+    } catch (error) {
+      console.error('Error sharing:', error);
+    }
+  };
+
   return (
     <main className={`grid ${darkMode ? 'dark-mode' : ''}`}>
       {currentProducts.map((product, index) => (
@@ -14,7 +43,7 @@ const GridView = ({ currentProducts }) => {
               <img
                 className={`card-image ${darkMode ? 'dark-mode' : ''}`}
                 src={product.image}
-                alt=""
+                alt="product-img"
                 onError={(e) => {
                   e.target.src = 'https://i.ibb.co/9H0s34n/default-img.jpg';
                 }}
@@ -26,7 +55,18 @@ const GridView = ({ currentProducts }) => {
                 alt="Default"
               />
             )}
-            <h3 className={`card-title ${darkMode ? 'dark-mode' : ''}`}>{product.productName.charAt(0).toUpperCase()+product.productName.slice(1,)}</h3>
+            <h3 className={`card-title ${darkMode ? 'dark-mode' : ''}`}>{product.productName.charAt(0).toUpperCase() + product.productName.slice(1,)}</h3>
+
+            {/* Share icon and implement the click event */}
+            <button
+              className={`share-icon`}
+              onClick={() => handleShareClick(product)}
+            >
+              <i
+                className="ri-share-line"
+                style={{ color: darkMode ? 'white' : '' }}
+              ></i>
+            </button>
           </div>
           <p className={`card-description ${darkMode ? 'dark-mode' : ''}`}>{product.description}</p>
           <div className="btn-cont">
@@ -40,15 +80,15 @@ const GridView = ({ currentProducts }) => {
             {bookmarks.some(
               (obj) => obj['productName'] === product.productName
             ) ? (
-                <button className={`delete ${darkMode ? 'dark-mode' : ''}`} onClick={(event) => {
-                  event.stopPropagation();
-                  deleteres(product);
-                  }}
-                >
-              <a>
+              <button className={`delete ${darkMode ? 'dark-mode' : ''}`} onClick={(event) => {
+                event.stopPropagation();
+                deleteres(product);
+              }}
+              >
+                <a>
                   Delete<i className={`ri-bookmark-fill ${darkMode ? 'dark-mode' : ''}`}></i>
-              </a>
-                </button>
+                </a>
+              </button>
             ) : (
               <a>
                 <button
