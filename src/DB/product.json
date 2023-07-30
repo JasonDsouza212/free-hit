@@ -301,7 +301,7 @@
     "description": "Record a video from the camera or capture it from the screen"
   },
   {
-    "productName": "Awesome Screen Capture And Recorder",
+    "productName": "Awesome Screen Capture",
     "category": "tools",
     "image": "https://avatars.slack-edge.com/2019-03-29/593781862471_95d3bb4cccb9b58821be_512.png",
     "link": "https://www.awesomescreenshot.com/",
@@ -3586,7 +3586,7 @@
   "description": "PROJECT BASED LEARNING PUT THEORY INTO PRACTICE"
 },
 {
-  "productName": "youtube-keyword-tool",
+  "productName": "youtube-keyword",
   "category": "web",
   "image": "https://l1nk.dev/9mfZ8",
   "link": "https://ahrefs.com/youtube-keyword-tool",
