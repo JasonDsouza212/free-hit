@@ -11,19 +11,17 @@ Open Source increases our prospectives and opportunities in contributing to vari
 
 Our website is one such kind which provides a platform to contributors from all over the world give their inputs in the form of useful websites which are free to use. It enables us to get a list of all the websites together at one place thereby saving a lot of time for us. We can find any kind of website here, be it a tool or an education platform. Hence, it is declared as a knowledge sharing platform!
 
-## Benefits of Open Source
+## 🌟 Benefits of Contributing to Open-Source
 
-1. ### Resume Building: 
-We can showcase our contributions and enhance our resume. Your open-source contribution is publicly accessible and the more you contribute, the more you shape the project. You also gain a lot of recognition and sometimes when that recognition reaches a potential employer, you end up landing a wonderful job in a good company.
+Contributing to open-source projects like Free-Hit has numerous benefits. It helps you:
 
-2. ### It's free of cost: 
-Open source opens up the opportunity for developers to not just learn about software development from the top tech giant sitting around the world but also it gives you enough experience to make a shiny career in programming.
+1. Give back to the community: By contributing, you help grow and improve the tools that you and many others use.
 
-3. ### Increasing Learning curve:
-The learning opportunity is enormous when you work on an open-source project. You collaborate with experts, you get feedback and you work on improving your tasks. Open Source not only provides us a wide range of technologies, it also makes us open to many non-tech contribution works such as documentation which can actually turn into a useful resource.
+2. Build your portfolio: Your contributions can serve as real-world examples of your work and make you stand out in the job market. These can enhance your resume.
 
-4. ### A platform for healthy competition
-Open source means helping each other, giving feedbacks to each other and developing skills with everyone. We benefit the whole community! 
+3. Improve existing skills and learn new ones: Working on real-world projects gives you the chance to apply what you've learned and gain more knowledge along the way. 
+
+4. Network with professionals: You get to connect and collaborate with professionals around the world, opening up potential job opportunities.
 
 ## 💻 Tech Stack
 
