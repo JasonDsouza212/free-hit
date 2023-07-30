@@ -1,5 +1,61 @@
 [
   {
+    "productName": "Trivia API",
+    "category": "api",
+    "image": "https://tinyurl.com/43nyf95u",
+    "link": "https://opentdb.com/api_config.php",
+    "description": "The Open Trivia Database provides a completely free JSON API for use in programming projects to retrieve trivia questions."
+  },
+  {
+    "productName": "IPinfo",
+    "category": "api",
+    "image": "https://cdn.ipinfo.io/static/images/layout/logo.svg",
+    "link": "https://ipinfo.io/developers",
+    "description": "Comprehensive IP address data, IP geolocation API and database"
+  },
+  {
+    "productName": "Dogs",
+    "category": "api",
+    "image": "https://dog.ceo/img/dog-api-logo.svg",
+    "link": "https://dog.ceo/dog-api/",
+    "description": "Cheer yourself up with random dog images."
+  },
+  {
+    "productName": "icanhazdadjoke.com",
+    "category": "api",
+    "image": "https://icanhazdadjoke.com/static/smile.svg",
+    "link": "https://icanhazdadjoke.com/api",
+    "description": "icanhazdadjoke.com can be used as an API for fetching a random joke, a specific joke, or searching for jokes in a variety of formats."
+  },
+  {
+    "productName": "Meme Generator",
+    "category": "api",
+    "image": "https://tinyurl.com/4paj5xkk",
+    "link": "https://tinyurl.com/4y9c7tud",
+    "description": "A simple meme generator that generates memes by choosing a preloaded image, and short top and bottom text sentences. Memes are served in the JPEG image file format."
+  },
+  {
+    "productName": "News API",
+    "category": "api",
+    "image": "https://tinyurl.com/2yhp5pd3",
+    "link": "https://newsapi.org/",
+    "description": "Access the latest news with this API."
+  },
+  {
+    "productName": "Unsplash API",
+    "category": "api",
+    "image": "https://tinyurl.com/2jawsxpr",
+    "link": " https://unsplash.com/developers",
+    "description": "Use free images in your projects from the largest open collection of high-quality photos."
+  },
+  {
+    "productName": "The Meal DB",
+    "category": "api",
+    "image": "https://www.themealdb.com/images/logo-small.png",
+    "link": "https://www.themealdb.com/api.php",
+    "description": " An open, crowd-sourced database of Recipes from around the world."
+  },
+  {
     "productName": "Hi TV",
     "category": "movies",
     "image": "https://tinyurl.com/4xhvbctb",
@@ -301,7 +357,7 @@
     "description": "Record a video from the camera or capture it from the screen"
   },
   {
-    "productName": "Awesome Screen Capture And Recorder",
+    "productName": "Awesome Screen Capture",
     "category": "tools",
     "image": "https://avatars.slack-edge.com/2019-03-29/593781862471_95d3bb4cccb9b58821be_512.png",
     "link": "https://www.awesomescreenshot.com/",
@@ -3586,6 +3642,20 @@
   "description": "PROJECT BASED LEARNING PUT THEORY INTO PRACTICE"
 },
 {
+  "productName": "youtube-keyword",
+  "category": "web",
+  "image": "https://l1nk.dev/9mfZ8",
+  "link": "https://ahrefs.com/youtube-keyword-tool",
+  "description": "it helps Get more views on YouTube by researching keywords people are searching for."
+},
+{
+  "productName": "amazon-keyword-tool",
+  "category": "web",
+  "image": "https://acesse.one/9mfZ8",
+  "link": "https://ahrefs.com/amazon-keyword-tool",
+  "description": "It helps find what people are searching for on Amazon, and align your product listings with those terms."
+},
+{
   "productName": "Tabnine AI",
   "category": "extensions",
   "image": "https://rb.gy/ntsy9",
@@ -3598,5 +3668,33 @@
   "image": "https://rb.gy/eacfk",
   "link": "https://free3dicon.com/",
   "description": "Free3Dicon offers a trendy collection of free 3D icons for your website, app, or projects."
+},
+{
+  "productName": "GitHub Copilot",
+  "category": "extensions",
+  "image": "https://rb.gy/w560d",
+  "link": "https://marketplace.visualstudio.com/items?itemName=GitHub.copilot",
+  "description": "GitHub Copilot VSCode extension provides autocomplete-style suggestions from an AI pair programmer as you code in Visual Studio Code. "
+},
+{
+    "productName": "TailwindCSS IntelliSense",
+    "category": "extensions",
+    "image": "https://rb.gy/li801",
+    "link": "https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss",
+    "description": "VSCode extension enhances the Tailwind development experience by providing Visual Studio Code users with advanced features such as autocomplete, syntax highlighting, and linting."
+},
+{
+  "productName": "Console Ninja",
+  "category": "extensions",
+  "image": "https://rb.gy/bahxv",
+  "link": "https://marketplace.visualstudio.com/items?itemName=WallabyJs.console-ninja",
+  "description": "A VS Code extension that displays console.log output and runtime errors directly in your editor from your running browser or node application."
+},
+{
+"productName": "ZenHub",
+"category": "extensions",
+"image": "https://rb.gy/qfpwe",
+"link": "https://www.zenhub.com/",
+"description": "Zenhub is the only project management tool that integrates natively within GitHub’s user interface."
 }
 ]

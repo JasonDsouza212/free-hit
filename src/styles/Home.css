@@ -143,6 +143,8 @@ body {
   margin: 2px;
   transition: all 0.3s ease;
   color: var(--primary-white);
+  display: flex;
+  justify-content: center;
 }
 
 .btn-cont button a {
