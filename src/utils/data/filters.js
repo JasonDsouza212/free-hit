@@ -12,4 +12,5 @@ export const allFilters = [
   'courses',
   'tools',
   'image_generation',
+  'api'
 ]
