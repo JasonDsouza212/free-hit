@@ -76,6 +76,12 @@ const ButtonLinks = [
     name: 'Useful Tools',
     category: 'tools',
     icon: 'ri-tools-fill',
+  },
+  {
+    id: 14,
+    name: 'API',
+    category: 'api',
+    icon: 'ri-tools-fill',
   }
 ]
 

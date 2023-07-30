@@ -19,7 +19,7 @@ const Team = () => {
 
       <div className={`team-content ${darkMode ? 'dark-mode' : ''}`}>
         <div className={`box ${darkMode ? 'dark-mode' : ''}`}>
-          <img src={con1} className={`image ${darkMode ? 'dark-mode' : ''}`}/>
+          <img src={con1} alt='profile-4.webp' className={`image ${darkMode ? 'dark-mode' : ''}`}/>
           <h3 className={darkMode ? 'dark-mode' : ''}
                   activeclassname="active">Abhishek K</h3>
           <h5 className={darkMode ? 'dark-mode' : ''}
@@ -56,7 +56,7 @@ const Team = () => {
         </div>
 
         <div className={`box ${darkMode ? 'dark-mode' : ''}`}>
-          <img src={con2} className={`image ${darkMode ? 'dark-mode' : ''}`}/>
+          <img src={con2} alt='profile-1.webp' className={`image ${darkMode ? 'dark-mode' : ''}`}/>
           <h3 className={darkMode ? 'dark-mode' : ''}
                   activeclassname="active">Priyankar</h3>
           <h5 className={darkMode ? 'dark-mode' : ''}
@@ -93,7 +93,7 @@ const Team = () => {
         </div>
 
         <div className={`box ${darkMode ? 'dark-mode' : ''}`}>
-          <img src={con3} className={`image ${darkMode ? 'dark-mode' : ''}`}/>
+          <img src={con3} alt='profile-3.webp' className={`image ${darkMode ? 'dark-mode' : ''}`}/>
           <h3 className={darkMode ? 'dark-mode' : ''}
                   activeclassname="active">Jason Dsouza</h3>
           <h5 className={darkMode ? 'dark-mode' : ''}
@@ -130,7 +130,7 @@ const Team = () => {
         </div>
 
         <div className={`box ${darkMode ? 'dark-mode' : ''}`} onClick={() => navigate('/community')}>
-          <img src={con4} className={`image ${darkMode ? 'dark-mode' : ''}`}/>
+          <img src={con4} alt='profile-coworking.webp' className={`image ${darkMode ? 'dark-mode' : ''}`}/>
           <h3 className={darkMode ? 'dark-mode' : ''}
                   activeclassname="active"> Open-Source</h3>
           <h5 className={darkMode ? 'dark-mode' : ''}
