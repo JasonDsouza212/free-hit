@@ -3703,5 +3703,12 @@
 "image": "https://rb.gy/qfpwe",
 "link": "https://www.zenhub.com/",
 "description": "Zenhub is the only project management tool that integrates natively within GitHub’s user interface."
+},
+{
+"productName": "OpenShot",
+"category": "video editor",
+"image": "https://rb.gy/4cq2a",
+"link": "https://www.openshot.org/download/",
+"description": "Editing videos with OpenShot is extraordinary when you see everything you can do with it. "
 }
 ]
