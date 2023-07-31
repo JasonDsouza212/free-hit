@@ -15,7 +15,7 @@ import { useState } from 'react'
 
 const BookMarks = () => {
   const [gridView, setGridView] = useState(true)
-  const { bookmarks, deleteres } =
+  const { bookmarks } =
     useContext(ToolContext);
 
   const [searchParams] = useSearchParams()

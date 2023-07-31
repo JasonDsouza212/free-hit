@@ -47,14 +47,16 @@ const ListView = ({ currentProducts }) => {
           <AccordionButton>
             <Box padding={1} py="3px" flex="1" className="image">
               {product.image ? (
-                <img
-                  className={`card-img ${darkMode ? 'dark-mode' : ''}`}
+                <div className='card-img'>
+                  <img
+                  className={`${darkMode ? 'dark-mode' : ''}`}
                   src={product.image}
                   alt="product-img"
                   onError={(e) => {
                     e.target.src = 'https://i.ibb.co/9H0s34n/default-img.jpg';
                   }}
                 />
+                </div>
               ) : (
                 <img
                   className={`card-img ${darkMode ? 'dark-mode' : ''}`}
@@ -63,7 +65,7 @@ const ListView = ({ currentProducts }) => {
                 />
               )}
               <div className="accordion_btn">
-                <h3 className={`card-title ${darkMode ? 'dark-mode' : ''}`}>
+                <h2 className={`card-title ${darkMode ? 'dark-mode' : ''}`}>
                   {product.productName.charAt(0).toUpperCase() + product.productName.slice(1,)}
                   <button
                   className={`share-icon`}
@@ -74,7 +76,7 @@ const ListView = ({ currentProducts }) => {
                     style={{ color: darkMode ? 'white' : '' , marginLeft:'10px', fontSize:'18px'}}
                   ></i>
                 </button>
-                </h3>
+                </h2>
                 
                 <div className="btn-cont">
                   <a target="_blank" href={product.link}>
