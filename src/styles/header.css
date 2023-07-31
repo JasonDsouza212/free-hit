@@ -301,13 +301,13 @@ nav {
 
 .search_box .btn {
   position: absolute;
-  width: 52px;
+  width: 50px;
   height: 80%;
-  background: var(--primary-black);
+  background:rgb(41, 41, 41); /* Darker background color */
   z-index: 1;
   cursor: pointer;
-  right: 0px;
-  border-radius: 47%;
+  right: -1px;
+  border-radius: 90px;
 }
 
 .search_box .fas {
@@ -315,7 +315,7 @@ nav {
   right: 5px;
   top: 49%;
   transform: translate(-50%, -50%);
-  color: var(--primary-white);
+  color: #ffffff; /* Lighter text color */
   font-size: 20px;
 }
 
@@ -375,7 +375,7 @@ nav {
 .Free-Hit {
   font-weight: lighters;
   height: 100%;
-  margin-top: 4px;
+  margin-top: 10px;
 }
 
 .nav-link{
@@ -384,16 +384,9 @@ nav {
   height: 100%;
 }
 
-/* .free-logo {
-  top: 1px;
-  height: 40px;
-  margin: 11px;
-  width: 130px;
-} */
-
 .free-logo {
-  width: 220px;
-  height: 55px;
+  width: 210px;
+  height: 58px;
   margin-right: 10px;
   margin-top: 4px;
 }
@@ -407,16 +400,17 @@ nav {
       display: none;
     }
     .mobile-logo{
-      margin-top: 8px;
+      margin-top: 3px;
       display: flex;
       width: 46px;
       height: 46px;
+      border-radius: 10px;
     }
     .mobile-logo.dark-mode{
       border: 2px solid white;
     }
     .Free-hit{
-      size: 100px
+      size: 100px;
     }
     
 }
@@ -472,7 +466,7 @@ nav {
     left: -27px;
     width: 40px;
     height: 40px;
-    top: 5px;
+    top: 2px;
   }
 }
 

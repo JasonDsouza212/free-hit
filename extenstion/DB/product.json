@@ -967,6 +967,13 @@
     "description": "Integrate Leetcode submission to GitHub"
   },
   {
+    "productName": "Excalidraw",
+    "category": "tools",
+     "image": "https://shorturl.at/myBPW",
+    "link": "https://excalidraw.com/",
+    "description": "Virtual whiteboard for sketching hand-drawn diagrams ,very useful for content creation"
+  },
+  {
     "productName": "Grammarly",
     "category": "extensions",
     "image": "https://bit.ly/3xg1goX",
@@ -2203,13 +2210,6 @@
   "description": "Allows to code, run, and debug React code without having to install anything on your computer"
 },
 {
-  "productName": "Uiverse.io",
-  "category": "UI",
-  "image": "http://bit.ly/3X19kpw",
-  "link": "https://uiverse.io/",
-  "description": "Discover and customize free, open-source CSS and HTML UI elements, through this tool"
-},
-{
   "productName": "indeed.com",
   "category": "remote",
   "image": "https://logos-world.net/wp-content/uploads/2021/02/Indeed-Logo.png",
@@ -2586,5 +2586,12 @@
   "image": "https://gitter.im/images/logo-text-white-nomargin@2x.png",
   "link": "https://gitter.im/",
   "description": "Chat and networking platform that helps to manage, grow and connect communities through messaging, content and discovery"
+},
+  {
+  "productName": "AniWatch",
+  "category": "movies",
+  "image": "https://aniwatch.to/images/logo.png",
+  "link": "https://aniwatch.to/",
+  "description": "Watch your favourite Anime here in Sub/Dub"
 }
 ]

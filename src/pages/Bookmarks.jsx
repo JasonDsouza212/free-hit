@@ -15,7 +15,7 @@ import { useState } from 'react'
 
 const BookMarks = () => {
   const [gridView, setGridView] = useState(true)
-  const { bookmarks, deleteres } =
+  const { bookmarks } =
     useContext(ToolContext);
 
   const [searchParams] = useSearchParams()
@@ -46,12 +46,12 @@ const BookMarks = () => {
         <BsFillGridFill
           onClick={() => setGridView(true)}
           size={22}
-          color={gridView ? "#212121" : "#9E9E9E"}
+          color="#212121"
         />
         <BsListUl
           onClick={() => setGridView(false)}
           size={28}
-          color={gridView ? "#9E9E9E" : "#212121"}
+          color="#212121"
         />
       </div>
       <div className="card-container">

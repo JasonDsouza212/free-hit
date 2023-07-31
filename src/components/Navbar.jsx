@@ -1,14 +1,14 @@
 import React, {useEffect, useRef } from 'react'
 import { FaSearch } from 'react-icons/fa'
-import freehitlogo from '../assets/logo.png'
-import freehitlogodark from '../assets/darkmode-logo.png'
+import freehitlogo from '../assets/logo.webp'
+import freehitlogodark from '../assets/darkmode-logo.webp'
 import { useLocation } from 'react-router-dom'
 import { NavLink, useSearchParams } from "react-router-dom"
 import "../styles/header.css"
 import Sidebar from './Sidebar'
 import { ToolContext } from '../App';
 import { useContext } from 'react';
-import mobilelogo from '../assets/mobileview.png'
+import mobilelogo from '../assets/mobileview.webp'
 import { useState } from 'react'
 
 
@@ -34,6 +34,11 @@ const Header = ({ filteredSuggestions }) => {
       document.getElementById("btn").checked = false;
     }
   }
+  window.addEventListener('scroll', function(){
+    if (sideNavRef.current) {
+      document.getElementById("btn").checked = false;
+    }
+  })
 
   function setSearchTerm(val) {
     setSearchParams(prevParams => {
@@ -57,14 +62,14 @@ const Header = ({ filteredSuggestions }) => {
       <div className={`nav-container ${darkMode ? 'dark-mode' : ''}`} ref={sideNavRef}>
         <Sidebar />
         <h1 className={`Free-Hit ${darkMode ? 'dark-mode' : ''}`}>
-          <NavLink to="/about" className='nav-link'>
+          <NavLink to="/about" className='nav-link' aria-label='Go to about page'>
           <img
             className={`free-logo ${darkMode ? 'dark-mode' : ''}`}
             src={darkMode ? freehitlogodark : freehitlogo}
             alt="logo"
           />
           </NavLink>
-          <NavLink to="/about" className='nav-link'>
+          <NavLink to="/about" className='nav-link' aria-label='Go to about page'>
           <img
             className={`mobile-logo ${darkMode ? 'dark-mode' : ''}`}
             src={darkMode ? mobilelogo : mobilelogo}
@@ -82,6 +87,7 @@ const Header = ({ filteredSuggestions }) => {
               placeholder="Search..."
               value={search}
               onChange={(e) => handleChangeInInput(e)}
+              id="search"
             />
             <div className="btn btn_common">
               <i className="fas fa-search">
@@ -97,10 +103,11 @@ const Header = ({ filteredSuggestions }) => {
                   key={suggestion}
                   onClick={() => {
                     setSearchTerm(suggestion)
+                    setSearch(suggestion)
                   }}
                   className="hnav-suggestion"
                 >
-                  {suggestion}
+                  {suggestion.charAt(0).toUpperCase()+suggestion.slice(1,)}
                 </li>
               ))}
             </ul>
