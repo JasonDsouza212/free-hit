@@ -3695,5 +3695,12 @@
 "image": "https://rb.gy/qfpwe",
 "link": "https://www.zenhub.com/",
 "description": "Zenhub is the only project management tool that integrates natively within GitHub’s user interface."
+},
+{
+"productName": "VSDC",
+"category": "tools",
+"image": "https://www.videosoftdev.com/images/video_editor/box.png",
+"link": "http://www.videosoftdev.com/free-video-editor",
+"description": "VSDC is a full-featured free video editing tool that you can install on Windows."
 }
 ]
