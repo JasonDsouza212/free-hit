@@ -3695,5 +3695,12 @@
 "image": "https://rb.gy/qfpwe",
 "link": "https://www.zenhub.com/",
 "description": "Zenhub is the only project management tool that integrates natively within GitHub’s user interface."
+},
+{
+"productName": "Freemake Video Converter",
+"category": "tools",
+"image": "https://static.freemake.com/frm/images/freemake-logo.png",
+"link": "https://www.freemake.com/",
+"description": "Freemake Video Converter is a free video converter with simple and easy-to-use editing features that set it apart from some of the more complex and confusing editors."
 }
 ]
