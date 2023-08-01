@@ -18,7 +18,20 @@ const Header = ({ filteredSuggestions }) => {
   const location = useLocation()
   const sideNavRef = useRef(null)
   const [search ,setSearch]=useState('')
-
+  const[screenWidth,setScreenWidth]=useState(window.innerWidth);
+  const[isScreenSmall,setIsScreenSmall]=useState(false);
+  useEffect(()=>{
+    const changeWidth=()=>{
+      setScreenWidth(window.innerWidth);
+      setIsScreenSmall(window.innerWidth<520);
+    }
+    window.addEventListener('resize',changeWidth);
+    return()=>{
+      window.removeEventListener('resize',changeWidth);
+    }
+  },[screenWidth])
+  console.log(isScreenSmall);
+  
   const searchTerm = searchParams.get('q') || ''
 
   useEffect(() => {
@@ -61,22 +74,28 @@ const Header = ({ filteredSuggestions }) => {
     <nav className={`navbar ${darkMode ? 'dark-mode' : ''}`}>
       <div className={`nav-container ${darkMode ? 'dark-mode' : ''}`} ref={sideNavRef}>
         <Sidebar />
-        <h1 className={`Free-Hit ${darkMode ? 'dark-mode' : ''}`}>
-          <NavLink to="/about" className='nav-link'>
+        
+        <div className={`Free-Hit ${darkMode ? 'dark-mode' : ''}`}>
+          {!isScreenSmall && (  <NavLink to="/about" className='nav-link'>
           <img
             className={`free-logo ${darkMode ? 'dark-mode' : ''}`}
             src={darkMode ? freehitlogodark : freehitlogo}
             alt="logo"
           />
-          </NavLink>
-          <NavLink to="/about" className='nav-link'>
-          <img
-            className={`mobile-logo ${darkMode ? 'dark-mode' : ''}`}
-            src={darkMode ? mobilelogo : mobilelogo}
-            alt="logo"
-          />
-          </NavLink>
-        </h1>
+          </NavLink>)}
+
+          {
+            isScreenSmall && ( <NavLink to="/about" className='nav-link'>
+            <img
+              className={`mobile-logo ${darkMode ? 'dark-mode' : ''}`}
+              src={darkMode ? mobilelogo : mobilelogo}
+              alt="logo"
+            />
+            </NavLink>)
+          }
+        
+         
+        </div>
       </div>
       {location.pathname !== '/about' && location.pathname !== '/community' && (
         <div className="container">

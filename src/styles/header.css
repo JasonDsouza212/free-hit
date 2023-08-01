@@ -28,9 +28,12 @@ nav {
 }
 
 .nav-container {
+  height: 100%;
   display: flex;
   font-size: 28px;
   font-weight: bold;
+  
+  
   float: left;
   color: var(--primary-black);
   text-transform: uppercase;
@@ -397,7 +400,8 @@ nav {
   
   font-weight: lighters;
   height: 100%;
-  margin-top: 4px;
+  /* margin-top: 4px; */
+  
   
 }
 
@@ -405,14 +409,17 @@ nav {
   margin: 0;
   padding: 0;
   height: 100%;
+  display: flex;
+  align-items: center
 }
 
 .free-logo {
   
-  width: 220px;
-  height: 55px;
-  margin-right: 10px;
-  margin-top: 4px;
+  margin-left: 15px;
+  width: 140px;
+  height: 40px;
+  
+  
  
 }
 
@@ -423,9 +430,10 @@ nav {
 @media screen and (max-width: 520px) {
     .free-logo{
       display: none;
+
     }
     .mobile-logo{
-      margin-top: 8px;
+      margin-top: 2px;
       display: flex;
       width: 46px;
       height: 46px;

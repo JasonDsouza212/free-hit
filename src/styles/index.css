@@ -287,7 +287,9 @@ body {
 @media screen and (max-width: 700px) {
   .Free-Hit a:first-child {
     position: relative;
-    top: 30%;
+    display: flex;
+    align-items: center;
+    /* top: 30%; */
     
   }
 
@@ -497,14 +499,13 @@ body {
   }
 
   .wrapper .menu-btn {
-    /* left: 10px; */
+
     top: 65px;
     height: 42px;
     width: 42px;
   }
 
   .mobile-logo{
-    margin-top: 13px;
     display: flex;
     width: 42px;
     height: 42px;
