@@ -179,6 +179,7 @@ nav {
   border-top: 1px solid transparent;
   border-bottom: 1px solid transparent;
   box-shadow: 0 0px 10px 3px #222;
+  background-color: #333;
 }
 
 #sidebar .list-items li:first-child {
@@ -287,7 +288,7 @@ nav {
   border-radius: 100px;
   font-size: 18px;
   background: #f1f1ef;
-  color: black;
+  color: var(--primary-black);
   border: 2px solid var(--primary-black);
 }
 
@@ -301,13 +302,13 @@ nav {
 
 .search_box .btn {
   position: absolute;
-  width: 50px;
+  width: 52px;
   height: 80%;
-  background:rgb(41, 41, 41); /* Darker background color */
+  background: var(--primary-black);
   z-index: 1;
   cursor: pointer;
-  right: -1px;
-  border-radius: 90px;
+  right: 0px;
+  border-radius: 47%;
 }
 
 .search_box .fas {
@@ -315,7 +316,7 @@ nav {
   right: 5px;
   top: 49%;
   transform: translate(-50%, -50%);
-  color: #ffffff; /* Lighter text color */
+  color: var(--primary-white);
   font-size: 20px;
 }
 
@@ -375,7 +376,7 @@ nav {
 .Free-Hit {
   font-weight: lighters;
   height: 100%;
-  margin-top: 10px;
+  margin-top: 4px;
 }
 
 .nav-link{
@@ -384,9 +385,16 @@ nav {
   height: 100%;
 }
 
+/* .free-logo {
+  top: 1px;
+  height: 40px;
+  margin: 11px;
+  width: 130px;
+} */
+
 .free-logo {
-  width: 210px;
-  height: 58px;
+  width: 220px;
+  height: 55px;
   margin-right: 10px;
   margin-top: 4px;
 }
@@ -400,17 +408,16 @@ nav {
       display: none;
     }
     .mobile-logo{
-      margin-top: 3px;
+      margin-top: 8px;
       display: flex;
       width: 46px;
       height: 46px;
-      border-radius: 10px;
     }
     .mobile-logo.dark-mode{
       border: 2px solid white;
     }
     .Free-hit{
-      size: 100px;
+      size: 100px
     }
     
 }
@@ -466,7 +473,7 @@ nav {
     left: -27px;
     width: 40px;
     height: 40px;
-    top: 2px;
+    top: 5px;
   }
 }
 
