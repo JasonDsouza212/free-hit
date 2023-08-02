@@ -11,7 +11,6 @@ function result(productName,category,image,link,description){
     let ele = document.createElement('article')
     ele.classList.add('result')
     ele.addEventListener('click',(e)=>{
-        console.log(e)
         if(ele.classList.contains('expand')){
             ele.classList.remove('expand')
         }else{  
@@ -72,8 +71,9 @@ function filterByCategory(e){
 async function fetchWebsites(results, categoryList) {
     try{
         var websites;
-        const response = await fetch('DB/product.json')
+        const response = await fetch('DB/product.json', {credentials: 'omit'})
         const data = await response.json()
+        
         const categories = new Set()
             data.forEach(element => {
               categories.add(element.category);
@@ -85,8 +85,7 @@ async function fetchWebsites(results, categoryList) {
             websites = data
           return websites    
     }catch(err){
-        // if(err.)
-        console.log(err)
+        console.error(err)
     }
 }
 
@@ -109,7 +108,6 @@ function handleChange(e,websites){
 }
       
 function showCategories(e,categoryList){
-    console.log(e)
     if(categoryList.classList.contains('active')){
         document.querySelector('body').classList.remove('expand')
         categoryList.classList.remove('active')

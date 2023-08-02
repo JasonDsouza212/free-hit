@@ -3156,13 +3156,6 @@
   "description": "A platform that primarily focuses on creative skills and offers a wide range of courses in design, photography, writing, and other artistic disciplines."
 },
 {
-  "productName": "LinkedIn Learning",
-  "category": "courses",
-  "image": "https://bit.ly/3NWgMzg",
-  "link": "https://www.linkedin.com/learning/",
-  "description": "Provides a vast library of courses focused on professional development and career advancement."
-},
-{
   "productName": "Alison",
   "category": "courses",
   "image": "https://bit.ly/46q9awl",
@@ -3423,13 +3416,6 @@
   "link": "https://csslayout.io/",
   "description": "A collection of popular layouts and patterns made with CSS."
 },
-{
-  "productName": "Simplilearn",
-  "category": "courses",
-  "image": "https://www.simplilearn.com/ice9/new_logo.svgz",
-  "link": "https://www.simplilearn.com/",
-  "description": "Simplilearn is the world’s leading digital skills provider, enabling learners across the globe."
- },
  {
   "productName": "Uiverse",
   "category": "web",
@@ -3578,6 +3564,20 @@
   "description":"Scaler Topics provides programming articles related to Python,Java,Data Structure,C/C++ and other popular programming languages"
 },
 {
+  "productName":"Great Learning",
+  "category":"courses",
+  "image":"https://rb.gy/7l10n",
+  "link":"https://www.mygreatlearning.com/academy",
+  "description":"Learn the in-demand skills to advance your career in AI, ML, data science, digital marketing, cloud, software engg & more."
+},
+{
+  "productName":"Fullstack.cafe",
+  "category":"tools",
+  "image":"https://bit.ly/3DqpnnW",
+  "link":"https://www.fullstack.cafe/",
+  "description":"Website that will help you in your tech Interviews."
+},
+{
   "productName":"Heroku",
   "category":"tools",
   "image":"https://shorturl.at/eHKN8",
@@ -3611,14 +3611,6 @@
   "image":"https://shorturl.at/gkPVZ",
   "link":"https://wordpress.com/",
   "description":"On this website, you can develop any website without coding just by editing."
-},
-{
-  "productName":"Great Learning",
-  "category":"courses",
-  "image":"https://rb.gy/7l10n",
-  "link":"https://www.mygreatlearning.com/academy",
-  "description":"Learn the in-demand skills to advance your career in AI, ML, data science, digital marketing, cloud, software engg & more."
-
 },
 {
   "productName":"Devpractical",
@@ -3705,10 +3697,24 @@
 "description": "Zenhub is the only project management tool that integrates natively within GitHub’s user interface."
 },
 {
-"productName": "Movie Maker - Video Editor",
+"productName": "Movie Maker",
 "category": "tools",
 "image": "https://rb.gy/k7pjr",
 "link": "https://apps.microsoft.com/store/detail/movie-maker-video-editor/9MVFQ4LMZ6C9?hl=en-us&gl=us",
 "description": "Movie Maker - Video Editor is the best video editing tool with FULL HD EXPORT and NO WATERMARK"
+},
+{
+"productName": "iMovie",
+"category": "tools",
+"image": "https://rb.gy/6at8a",
+"link": "https://www.apple.com/imovie/",
+"description": "Get cinema-quality videos and let your imagination run wild. Edit videos on the fly or explore iMovie on your Mac. "
+},
+{
+  "productName": "Icon-Icons",
+  "category": "tools",
+  "image": "https://rb.gy/j94i8",
+  "link": "https://icon-icons.com/",
+  "description": "Icon-Icons is a platform that provides a collection of icons in various formats, such as SVG, PNG, and ICO, for use in web design, graphic design, and other digital projects."
 }
 ]
