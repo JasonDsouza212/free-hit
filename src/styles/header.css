@@ -375,7 +375,7 @@ nav {
 .Free-Hit {
   font-weight: lighters;
   height: 100%;
-  margin-top: 4px;
+  margin-top: 10px;
 }
 
 .nav-link{
@@ -385,8 +385,8 @@ nav {
 }
 
 .free-logo {
-  width: 220px;
-  height: 55px;
+  width: 210px;
+  height: 58px;
   margin-right: 10px;
   margin-top: 4px;
 }
@@ -400,17 +400,23 @@ nav {
       display: none;
     }
     .mobile-logo{
-      margin-top: 8px;
+      margin-top: 3px;
       display: flex;
       width: 46px;
       height: 46px;
+      border-radius: 10px;
     }
     .mobile-logo.dark-mode{
       border: 2px solid white;
     }
     .Free-hit{
-      size: 100px
-    }   
+      size: 100px;
+    }
+    
+}
+
+.free-logo.dark-mode{
+  /* :white; */
 }
 
 /* ================================  Free-Hit logo end*/
@@ -460,7 +466,7 @@ nav {
     left: -27px;
     width: 40px;
     height: 40px;
-    top: 5px;
+    top: 2px;
   }
 }
 
