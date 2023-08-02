@@ -3695,5 +3695,40 @@
 "image": "https://rb.gy/qfpwe",
 "link": "https://www.zenhub.com/",
 "description": "Zenhub is the only project management tool that integrates natively within GitHub’s user interface."
+},
+{
+"productName": "VideoPad",
+"category": "tools",
+"image": "https://rb.gy/h6wus",
+"link": "https://www.nchsoftware.com/videopad/",
+"description": "VideoPad supports drag-and-drop, effects, transitions, 3D video editing, text and caption overlay, video stabilization, easy narration, free built-in sound effects, and color control."
+},
+{
+"productName": "OpenShot",
+"category": "tools",
+"image": "https://rb.gy/4cq2a",
+"link": "https://www.openshot.org/download/",
+"description": "Editing videos with OpenShot is extraordinary when you see everything you can do with it. "
+},
+{
+"productName": "Movie Maker",
+"category": "tools",
+"image": "https://rb.gy/k7pjr",
+"link": "https://apps.microsoft.com/store/detail/movie-maker-video-editor/9MVFQ4LMZ6C9?hl=en-us&gl=us",
+"description": "Movie Maker - Video Editor is the best video editing tool with FULL HD EXPORT and NO WATERMARK"
+},
+{
+"productName": "iMovie",
+"category": "tools",
+"image": "https://rb.gy/6at8a",
+"link": "https://www.apple.com/imovie/",
+"description": "Get cinema-quality videos and let your imagination run wild. Edit videos on the fly or explore iMovie on your Mac. "
+},
+{
+  "productName": "Icon-Icons",
+  "category": "tools",
+  "image": "https://rb.gy/j94i8",
+  "link": "https://icon-icons.com/",
+  "description": "Icon-Icons is a platform that provides a collection of icons in various formats, such as SVG, PNG, and ICO, for use in web design, graphic design, and other digital projects."
 }
 ]
