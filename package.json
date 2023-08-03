@@ -11,6 +11,8 @@
     "test": "vitest",
     "preview": "vite preview",
     "preinstall": "npx only-allow pnpm",
+    "commitlint": "commitlint --edit",
+    "prepare": "pnpx husky install",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\""
   },
   "dependencies": {
@@ -27,6 +29,8 @@
     "react-scroll": "^1.8.9"
   },
   "devDependencies": {
+    "@commitlint/cli": "^17.6.7",
+    "@commitlint/config-conventional": "^17.6.7",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^14.0.0",
     "@testing-library/user-event": "^14.4.3",
@@ -38,11 +42,6 @@
     "prettier": "^2.8.8",
     "vite": "^4.3.9",
     "vitest": "^0.32.2"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "pnpm run format"
-    }
   },
   "browserslist": {
     "production": [
