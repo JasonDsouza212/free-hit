@@ -179,6 +179,7 @@ nav {
   border-top: 1px solid transparent;
   border-bottom: 1px solid transparent;
   box-shadow: 0 0px 10px 3px #222;
+  background-color: #333;
 }
 
 #sidebar .list-items li:first-child {
@@ -303,7 +304,7 @@ nav {
   position: absolute;
   width: 50px;
   height: 80%;
-  background:rgb(41, 41, 41); /* Darker background color */
+  background: rgb(41, 41, 41); /* Darker background color */
   z-index: 1;
   cursor: pointer;
   right: -1px;
@@ -383,6 +384,13 @@ nav {
   padding: 0;
   height: 100%;
 }
+
+/* .free-logo {
+  top: 1px;
+  height: 40px;
+  margin: 11px;
+  width: 130px;
+} */
 
 .free-logo {
   width: 210px;

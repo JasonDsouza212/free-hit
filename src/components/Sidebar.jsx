@@ -3,12 +3,13 @@ import { NavLink, useLocation, useSearchParams } from 'react-router-dom';
 import TwitterButton from './TwitterButton';
 import { msg } from '../utils/data/message';
 import ButtonLinks from '../utils/data/categories';
-import { useContext } from 'react';
+import { useContext, useEffect, useState } from 'react';
 import { ToolContext } from '../App';
 
 export default function Sidebar() {
   const location = useLocation();
   const [searchParams, setSearchParams] = useSearchParams();
+  const [activeTab,setActiveTab] = useState("");
   let filters =
     searchParams.getAll('filters').length > 0
       ? searchParams.getAll('filters')
@@ -49,6 +50,11 @@ export default function Sidebar() {
       return prevParams;
     });
   };
+  
+  useEffect(()=>{
+    let currentTab = location.search.slice(location.search.indexOf("=")+1);
+    setActiveTab(currentTab)
+  },[location.search])
 
   return (
     <div className={`wrapper ${darkMode ? 'dark-mode' : ''}`}>
@@ -101,9 +107,10 @@ export default function Sidebar() {
           </div>
           <ul className="list-items">
             {ButtonLinks.map((buttonLink) => (
+              <>
               <li
                 key={buttonLink.id}
-                className={filters.includes(buttonLink.category.toLowerCase())
+                className={activeTab == buttonLink.category
                     ? 'active-filter'
                     : ''
                 }
@@ -115,6 +122,7 @@ export default function Sidebar() {
                   {buttonLink.name}
                 </button>
               </li>
+              </>
             ))}
           </ul>
         </nav>
