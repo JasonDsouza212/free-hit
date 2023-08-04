@@ -192,3 +192,12 @@
     grid-gap: 1rem;
   }
 }
+
+.noResult{
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  font-size: large;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: 800;
+}
