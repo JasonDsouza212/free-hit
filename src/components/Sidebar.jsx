@@ -1,86 +1,84 @@
+import { NavLink, useLocation, useSearchParams } from 'react-router-dom'
+import TwitterButton from './TwitterButton'
+import { msg } from '../utils/data/message'
+import ButtonLinks from '../utils/data/categories'
+import { useContext, useEffect, useState } from 'react'
+import { ToolContext } from '../App'
 
-import { NavLink, useLocation, useSearchParams } from 'react-router-dom';
-import TwitterButton from './TwitterButton';
-import { msg } from '../utils/data/message';
-import ButtonLinks from '../utils/data/categories';
-import { useContext, useEffect, useState } from 'react';
-import { ToolContext } from '../App';
-
-export default function Sidebar() {
-  const location = useLocation();
-  const [searchParams, setSearchParams] = useSearchParams();
-  const [activeTab,setActiveTab] = useState("");
+export default function Sidebar({ setSearch }) {
+  const location = useLocation()
+  const [searchParams, setSearchParams] = useSearchParams()
+  const [activeTab, setActiveTab] = useState('')
   let filters =
     searchParams.getAll('filters').length > 0
       ? searchParams.getAll('filters')
-      : ['all'];
-  filters = filters[0].split(',');
+      : ['all']
+  filters = filters[0].split(',')
 
-  const { darkMode } = useContext(ToolContext);
-
+  const { darkMode } = useContext(ToolContext)
 
   const handleAddFilter = (filter, event) => {
-    filter = filter.toLowerCase();
+    filter = filter.toLowerCase()
     setSearchParams((prevParams) => {
-      prevParams.delete('q');
-      prevParams.delete('page');
-      let options = prevParams.getAll('filters') || [];
+      prevParams.delete('q')
+      prevParams.delete('page')
+      let options = prevParams.getAll('filters') || []
       if (options.length > 0) {
-        options = options[0].split(',');
+        options = options[0].split(',')
       }
       if (options.includes(filter)) {
         if (options.length > 1) {
           prevParams.set(
             'filters',
             [...options].filter((f) => f !== filter)
-          );
+          )
         } else {
-          prevParams.delete('filters');
+          prevParams.delete('filters')
         }
       } else {
         if (event.ctrlKey) {
-          prevParams.set('filters', [
-            ...prevParams.getAll('filters'),
-            filter,
-          ]);
+          prevParams.set('filters', [...prevParams.getAll('filters'), filter])
         } else {
-          prevParams.set('filters', filter);
+          prevParams.set('filters', filter)
         }
       }
-      return prevParams;
-    });
-  };
-  
-  useEffect(()=>{
-    let currentTab = location.search.slice(location.search.indexOf("=")+1);
+      return prevParams
+    })
+  }
+
+  useEffect(() => {
+    let currentTab = location.search.slice(location.search.indexOf('=') + 1)
     setActiveTab(currentTab)
-  },[location.search])
+  }, [location.search])
 
   return (
     <div className={`wrapper ${darkMode ? 'dark-mode' : ''}`}>
       <input type="checkbox" id="btn" hidden />
-      <label htmlFor="btn" className={`menu-btn ${darkMode ? 'dark-mode' : ''}`}>
+      <label
+        htmlFor="btn"
+        className={`menu-btn ${darkMode ? 'dark-mode' : ''}`}
+      >
         <i className="fa ri-menu-fill"></i>
         <i className="fa ri-close-line"></i>
       </label>
       {location.pathname === '/about' || location.pathname === '/community' ? (
         <nav id="sidebar">
-				<ul className="list-items list-item">
-					<li className='about-list'>
-						<NavLink to="/">
-							<i className="ri-home-4-fill"></i> Home
-						</NavLink>
-					</li>
-					<li className='about-list'>
-						<NavLink to="/bookmarks">
-							<i className="ri-bookmark-fill"></i> Bookmarks
-						</NavLink>
-					</li>
-					<li className='about-list'>
-						<TwitterButton message={msg} />
-					</li>
-				</ul>
-			</nav>
+          <ul className="list-items list-item">
+            <li className="about-list">
+              <NavLink to="/">
+                <i className="ri-home-4-fill"></i> Home
+              </NavLink>
+            </li>
+            <li className="about-list">
+              <NavLink to="/bookmarks">
+                <i className="ri-bookmark-fill"></i> Bookmarks
+              </NavLink>
+            </li>
+            <li className="about-list">
+              <TwitterButton message={msg} />
+            </li>
+          </ul>
+        </nav>
       ) : (
         <nav id="sidebar">
           <div className="title">
@@ -108,25 +106,27 @@ export default function Sidebar() {
           <ul className="list-items">
             {ButtonLinks.map((buttonLink) => (
               <>
-              <li
-                key={buttonLink.id}
-                className={activeTab == buttonLink.category
-                    ? 'active-filter'
-                    : ''
-                }
-              >
-                <button 
-					          className={darkMode ? 'dark-mode' : ''}
-                  	onClick={(e) => handleAddFilter(buttonLink.category, e)}
+                <li
+                  key={buttonLink.id}
+                  className={
+                    activeTab == buttonLink.category ? 'active-filter' : ''
+                  }
                 >
-                  {buttonLink.name}
-                </button>
-              </li>
+                  <button
+                    className={darkMode ? 'dark-mode' : ''}
+                    onClick={(e) => {
+                      handleAddFilter(buttonLink.category, e)
+                      setSearch('')
+                    }}
+                  >
+                    {buttonLink.name}
+                  </button>
+                </li>
               </>
             ))}
           </ul>
         </nav>
       )}
     </div>
-  );
+  )
 }
