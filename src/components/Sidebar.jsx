@@ -6,7 +6,7 @@ import ButtonLinks from '../utils/data/categories';
 import { useContext, useEffect, useState } from 'react';
 import { ToolContext } from '../App';
 
-export default function Sidebar() {
+export default function Sidebar({search}) {
   const location = useLocation();
   const [searchParams, setSearchParams] = useSearchParams();
   const [activeTab,setActiveTab] = useState("");
@@ -20,6 +20,7 @@ export default function Sidebar() {
 
 
   const handleAddFilter = (filter, event) => {
+    search("");
     filter = filter.toLowerCase();
     setSearchParams((prevParams) => {
       prevParams.delete('q');

@@ -79,7 +79,7 @@ const Header = ({ filteredSuggestions }) => {
   return (
     <nav className={`navbar ${darkMode ? 'dark-mode' : ''}`}>
       <div className={`nav-container ${darkMode ? 'dark-mode' : ''}`} ref={sideNavRef}>
-        <Sidebar />
+        <Sidebar search={setSearch} />
         <h1 className={`Free-Hit ${darkMode ? 'dark-mode' : ''}`}>
           <NavLink to="/about" className='nav-link' aria-label='Go to about page'>
             <img
