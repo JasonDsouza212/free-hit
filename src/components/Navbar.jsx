@@ -1,4 +1,4 @@
-import React, {useEffect, useRef } from 'react'
+import React, { useEffect, useRef } from 'react'
 import { FaSearch } from 'react-icons/fa'
 import freehitlogo from '../assets/logo.webp'
 import freehitlogodark from '../assets/darkmode-logo.webp'
@@ -14,16 +14,16 @@ import { useState } from 'react'
 
 const Header = ({ filteredSuggestions }) => {
   const [searchParams, setSearchParams] = useSearchParams()
-  const { darkMode ,debounce } = useContext(ToolContext);
+  const { darkMode, debounce } = useContext(ToolContext);
   const location = useLocation()
   const sideNavRef = useRef(null)
-  const [search ,setSearch]=useState('')
+  const [search, setSearch] = useState('')
 
   const searchTerm = searchParams.get('q') || ''
 
   useEffect(() => {
     document.addEventListener('mousedown', handleClickOutside);
-    
+
     return () => {
       document.removeEventListener('mousedown', handleClickOutside);
     }
@@ -34,7 +34,7 @@ const Header = ({ filteredSuggestions }) => {
       document.getElementById("btn").checked = false;
     }
   }
-  window.addEventListener('scroll', function(){
+  window.addEventListener('scroll', function () {
     if (sideNavRef.current) {
       document.getElementById("btn").checked = false;
     }
@@ -54,8 +54,27 @@ const Header = ({ filteredSuggestions }) => {
     const val = event.target.value
     setSearchTerm(val)
     setSearch(val)
-  debounce(setSearchTerm,500)(val);
+    debounce(setSearchTerm, 500)(val);
   }
+
+  // for NavLinks
+
+  const NavLinks = [
+
+    {
+      title: 'Home',
+      url: '/'
+    },
+    {
+      title: 'Bookmarks',
+      url: '/bookmarks'
+    },
+    {
+      title: 'About',
+      url: '/about'
+    }
+  ]
+
 
   return (
     <nav className={`navbar ${darkMode ? 'dark-mode' : ''}`}>
@@ -63,18 +82,18 @@ const Header = ({ filteredSuggestions }) => {
         <Sidebar />
         <h1 className={`Free-Hit ${darkMode ? 'dark-mode' : ''}`}>
           <NavLink to="/about" className='nav-link' aria-label='Go to about page'>
-          <img
-            className={`free-logo ${darkMode ? 'dark-mode' : ''}`}
-            src={darkMode ? freehitlogodark : freehitlogo}
-            alt="logo"
-          />
+            <img
+              className={`free-logo ${darkMode ? 'dark-mode' : ''}`}
+              src={darkMode ? freehitlogodark : freehitlogo}
+              alt="logo"
+            />
           </NavLink>
           <NavLink to="/about" className='nav-link' aria-label='Go to about page'>
-          <img
-            className={`mobile-logo ${darkMode ? 'dark-mode' : ''}`}
-            src={darkMode ? mobilelogo : mobilelogo}
-            alt="logo"
-          />
+            <img
+              className={`mobile-logo ${darkMode ? 'dark-mode' : ''}`}
+              src={darkMode ? mobilelogo : mobilelogo}
+              alt="logo"
+            />
           </NavLink>
         </h1>
       </div>
@@ -107,7 +126,7 @@ const Header = ({ filteredSuggestions }) => {
                   }}
                   className="hnav-suggestion"
                 >
-                  {suggestion.charAt(0).toUpperCase()+suggestion.slice(1,)}
+                  {suggestion.charAt(0).toUpperCase() + suggestion.slice(1,)}
                 </li>
               ))}
             </ul>
@@ -115,17 +134,15 @@ const Header = ({ filteredSuggestions }) => {
         </div>
       )}
       <ul className="pages">
-        <li>
-          <NavLink to="/">Home</NavLink>
-        </li>
-        <li>
-          <NavLink className="hoverele" to="/bookmarks">Bookmarks</NavLink>
-        </li>
-        <li>
-          <NavLink className="hoverele" to="/about">About</NavLink>
-        </li>
+        {NavLinks.map((item, index) => {
+          return (
+            <li key={index}>
+              <NavLink className="hoverele" to={item.url}>{item.title}</NavLink>
+            </li>
+          )
+        })}
       </ul>
-    </nav>
+    </  nav>
   );
 }
 
