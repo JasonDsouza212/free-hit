@@ -10,7 +10,7 @@ export default function searchProducts(products, searchTerm) {
       if (!searchTerm) return true
       const regex = new RegExp(escapeRegExp(searchTerm.trim()), 'gi')
       var found =
-        product.productName.match(regex) ||
+        product.productName.match(regex) 
         product.description.match(regex) ||
         product.category.match(regex)
       if (found) return found
@@ -24,3 +24,4 @@ export default function searchProducts(products, searchTerm) {
     })
   return filteredProducts
 }
+

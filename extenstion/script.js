@@ -22,26 +22,26 @@ function result(productName,category,image,link,description){
         }
     })
     ele.innerHTML = `
-        <div class="result-header">
-            <div class="websiteLogo">
+        <div className="result-header">
+            <div className="websiteLogo">
                 <img src=${image} alt="logo" />
             </div>
-            <div class="result-info">
-                <span class="websiteName">${productName}</span> 
-                <div class="tags">
-                    <span class="tag">${category}</span>
+            <div className="result-info">
+                <span className="websiteName">${productName}</span> 
+                <div className="tags">
+                    <span className="tag">${category}</span>
                 </div>   
             </div>
-            <div class="header-side-icon">
-                <i class="fa-solid fa-angle-down"></i>
+            <div className="header-side-icon">
+                <i className="fa-solid fa-angle-down"></i>
             </div>
         </div>
-        <div class="result-body">
-            <a class="side-link" href=${link}>
-                <i class="fa-solid fa-link"></i>
+        <div className="result-body">
+            <a className="side-link" href=${link}>
+                <i className="fa-solid fa-link"></i>
                     visit
             </a>    
-            <p class="description">${description}</p>  
+            <p className="description">${description}</p>  
         </div>
     `
     return ele
@@ -52,10 +52,10 @@ function changeTheme(e){
     e.target.innerHTML = ""
     if(document.querySelector('body').classList.contains('dark')){
         document.querySelector('body').classList.remove('dark')
-        e.target.innerHTML = `<i class="fa-solid fa-sun"></i>`
+        e.target.innerHTML = `<i className="fa-solid fa-sun"></i>`
     }else{
-        document.querySelector('body').classList.add('dark')
-        e.target.innerHTML = `<i class="fa-solid fa-moon"></i>`
+        document.querySelector('body').classNameList.add('dark')
+        e.target.innerHTML = `<i className="fa-solid fa-moon"></i>`
     }
 }
     
@@ -98,7 +98,7 @@ function handleChange(e,websites){
    ))
    const results = document.querySelector('.results')
    if(filtered_websites.length==0){
-       results.innerHTML = `<h1 class="info-heading">No website with given keyword is found</h1>`
+       results.innerHTML = `<h1 className="info-heading">No website with given keyword is found</h1>`
    }
    else{
        results.innerHTML = ""
