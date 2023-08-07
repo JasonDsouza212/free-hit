@@ -11,7 +11,7 @@
   width: 100%;
   /* height:100%; */
   gap: 20px;
-  padding: 5px 15px;
+  padding: 20px 15px;
   margin-top: 25px;
   /* margin-bottom: 25px; */
 }
@@ -39,6 +39,14 @@
   width: 80px;
   height: 80px;
   object-fit: contain;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.list .image .card-img img{
+  width: 100%;
+  border-radius: 10px;
 }
 
 .list .accordion_btn {

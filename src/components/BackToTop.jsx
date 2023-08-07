@@ -21,7 +21,7 @@ const BackToTopButton = () => {
   }, [])
 
   return (
-    <Link onClick={handleScroll} to="Top" smooth duration={500} className={`top ${darkMode ? 'dark-mode' : ''}`}>
+    <Link onClick={handleScroll} to="Top" smooth duration={500} className={`top ${darkMode ? 'dark-mode' : ''}`}href='#' aria-label='Go to top of website'>
         <div
           className={` ${
             !btnVisiblity ? 'transition-before' : 'transition-after'

@@ -1,6 +1,5 @@
-import freehitlogo from '../assets/footer-logo.png'
+import freehitlogo from '../assets/footer-logo.webp'
 import "../styles/Footer.css"
-
 const Footer = () => {
   // gettin year dynamically
   const date = new Date();
@@ -9,7 +8,9 @@ const Footer = () => {
     <footer>
       <div className="footer-content">
         <h3>
+          <a className="" href="/about">
           <img className="free-logo-footer" src={freehitlogo} alt="logo" />
+            </a>
         </h3>
         <p>
           Find the tools you need without breaking the bank
@@ -20,8 +21,8 @@ const Footer = () => {
         <ul className="socials">
           <li>
             <a 
-              aria-label="Follow me on Facebook"
-              title="Facebook (External Link)"
+              aria-label="Follow me on Twitter"
+              title="Twitter (External Link)"
               rel="noopener noreferrer"
               target="_blank" 
               href="https://twitter.com/_Jason_Dsouza"

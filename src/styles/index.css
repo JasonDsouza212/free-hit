@@ -48,10 +48,6 @@ html, body {
   background-color: var(--primary-white);
 }
 
-.routes-holder{
-  min-height: 67vh;
-}
-
 body {
   max-width: 100%;
   overflow-y: scroll;
@@ -403,7 +399,7 @@ body {
     position: fixed;
     z-index: 50;
     bottom: 3rem;
-    right: 3rem;
+    right: 0.5rem;
   }
 
   .transition-before {
@@ -508,7 +504,7 @@ body {
   }
 
   .mobile-logo{
-    margin-top: 13px;
+    margin-top: 8px;
     display: flex;
     width: 42px;
     height: 42px;
@@ -671,7 +667,7 @@ body {
     position: fixed;
     z-index: 50;
     bottom: 3rem;
-    right: 1.5rem;
+    right: 0.5rem;
   }
 
   .transition-before {
@@ -709,7 +705,7 @@ body {
     position: fixed;
     z-index: 50;
     bottom: 3rem;
-    right: 1rem;
+    right: 0.5rem;
   }
 
   .grid > article {

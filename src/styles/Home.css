@@ -76,9 +76,16 @@ body {
   transform: scale(1.02);
 }
 
-img {
+.card-image {
   width: 40px;
   height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-image img{
+  width: 100%;
   border-radius: 10px;
 }
 
@@ -136,6 +143,8 @@ img {
   margin: 2px;
   transition: all 0.3s ease;
   color: var(--primary-white);
+  display: flex;
+  justify-content: center;
 }
 
 .btn-cont button a {
@@ -186,6 +195,7 @@ img {
   flex-direction: column;
   align-items: center;
   width: 100%;
+  min-height: 52vh;
 }
 
 /* card end */
@@ -203,8 +213,7 @@ img {
 }
 
 .dark-mode .card_view svg {
-  /* fill: var(--primary-white); */
-  color: var(--primary-white);
+  filter: invert(100%);
 }
 
 .dark-mode .no-results {
@@ -226,4 +235,11 @@ img {
 
 .card_container .card-container .not-found-wrapper .no-results.dark-mode {
   color: white;
+}
+
+@media screen and (max-width: 350px) {
+  .top-pagination {
+  
+    margin-left: 0px;
+  }
 }

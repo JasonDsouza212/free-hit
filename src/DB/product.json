@@ -1,10 +1,80 @@
 [
   {
+    "productName": "Trivia API",
+    "category": "api",
+    "image": "https://tinyurl.com/43nyf95u",
+    "link": "https://opentdb.com/api_config.php",
+    "description": "The Open Trivia Database provides a completely free JSON API for use in programming projects to retrieve trivia questions."
+  },
+  {
+    "productName": "IPinfo",
+    "category": "api",
+    "image": "https://cdn.ipinfo.io/static/images/layout/logo.svg",
+    "link": "https://ipinfo.io/developers",
+    "description": "Comprehensive IP address data, IP geolocation API and database"
+  },
+  {
+    "productName": "Dogs",
+    "category": "api",
+    "image": "https://dog.ceo/img/dog-api-logo.svg",
+    "link": "https://dog.ceo/dog-api/",
+    "description": "Cheer yourself up with random dog images."
+  },
+  {
+    "productName": "icanhazdadjoke.com",
+    "category": "api",
+    "image": "https://icanhazdadjoke.com/static/smile.svg",
+    "link": "https://icanhazdadjoke.com/api",
+    "description": "icanhazdadjoke.com can be used as an API for fetching a random joke, a specific joke, or searching for jokes in a variety of formats."
+  },
+  {
+    "productName": "Meme Generator",
+    "category": "api",
+    "image": "https://tinyurl.com/4paj5xkk",
+    "link": "https://tinyurl.com/4y9c7tud",
+    "description": "A simple meme generator that generates memes by choosing a preloaded image, and short top and bottom text sentences. Memes are served in the JPEG image file format."
+  },
+  {
+    "productName": "News API",
+    "category": "api",
+    "image": "https://tinyurl.com/2yhp5pd3",
+    "link": "https://newsapi.org/",
+    "description": "Access the latest news with this API."
+  },
+  {
+    "productName": "Unsplash API",
+    "category": "api",
+    "image": "https://tinyurl.com/2jawsxpr",
+    "link": " https://unsplash.com/developers",
+    "description": "Use free images in your projects from the largest open collection of high-quality photos."
+  },
+  {
+    "productName": "The Meal DB",
+    "category": "api",
+    "image": "https://www.themealdb.com/images/logo-small.png",
+    "link": "https://www.themealdb.com/api.php",
+    "description": " An open, crowd-sourced database of Recipes from around the world."
+  },
+  {
     "productName": "Hi TV",
     "category": "movies",
     "image": "https://tinyurl.com/4xhvbctb",
     "link": "https://www.gohitv.com/",
     "description": "Binge Latest Korean shows and Movies for free"
+  },
+  {
+    "productName": "Chegg Internships",
+    "category": "remote",
+    "image": "https://shorturl.at/izNVW",
+    "link": "https://www.internships.com/",
+    "description": "Searching Remote Level Internship and Other Type of Jobs"
+  },
+   {
+    "productName": "Appwrite",
+    "category": "tools",
+    "image": "bit.ly/44JAwMJ",
+    "link": "https://appwrite.io/",
+    "description": "backend platform for developing Web, Mobile, and Flutter applications"
   },
   {
     "productName": "BlockSite",
@@ -20,7 +90,6 @@
     "link": "https://www.slazzer.com/",
     "description": "It is an amazing free tool to remove background from images."
   },
-
   {
     "productName": "Remove.bg",
     "category": "ai",
@@ -28,7 +97,6 @@
     "link": "https://www.remove.bg/",
     "description": "An amazing AI tool to remove background from images for free."
   },
-
   {
     "productName": "AdBlocker Ultimate",
     "category": "extensions",
@@ -36,7 +104,6 @@
     "link": "https://chrome.google.com/webstore/detail/adblocker-ultimate/ohahllgiabjaoigichmmfljhkcfikeof",
     "description": "Free and improved AdBlocker Chrome extension. Completely remove ALL ads."
   },
-
   {
     "productName": "Slides Go",
     "category": "ai",
@@ -44,13 +111,19 @@
     "link": "https://slidesgo.com/",
     "description": "AI tool to create presentations for free."
   },
-
   {
     "productName": "JS Remotely",
     "category": "remote",
     "image": "https://tinyurl.com/ycyab9eb",
     "link": "https://jsremotely.com/",
     "description": "Find remote Javascript jobs."
+  },
+  {
+    "productName": "Excalidraw",
+    "category": "tools",
+     "image": "https://shorturl.at/myBPW",
+    "link": "https://excalidraw.com/",
+    "description": "Virtual whiteboard for sketching hand-drawn diagrams ,very useful for content creation"
   },
   {
     "productName": "JavaScript minify",
@@ -242,6 +315,13 @@
     "description": "Offers powerful OCR capabilities to transform scanned documents into editable files with high accuracy."
   },
   {
+    "productName": "Envy Proxy",
+    "category": "tools",
+    "image": "https://tinyurl.com/yc42sh5w",
+    "link": "https://www.envyproxy.com/",
+    "description": "Proxy server tool for managing and routing network traffic with enhanced security features."
+  },
+  {
     "productName": "Smallpdf",
     "category": "tools",
     "image": "https://play-lh.googleusercontent.com/6rZArbkYpvNYuTnlcPh3U8KRP4cii_Leptqx_rspIJuYKXeCeHikP2ZPcHhZKicaQeI",
@@ -277,7 +357,7 @@
     "description": "Record a video from the camera or capture it from the screen"
   },
   {
-    "productName": "Awesome Screen Capture And Recorder",
+    "productName": "Awesome Screen Capture",
     "category": "tools",
     "image": "https://avatars.slack-edge.com/2019-03-29/593781862471_95d3bb4cccb9b58821be_512.png",
     "link": "https://www.awesomescreenshot.com/",
@@ -1176,7 +1256,7 @@
     "productName": "Moviesmod",
     "category": "movies",
     "image": "https://bit.ly/3ZMrGen",
-    "link": "https://moviesmod.net.in/",
+    "link": "https://moviesmod.one/",
     "description": "Download HD quality movies and series"
   },
   {
@@ -1996,7 +2076,7 @@
   "description": "Roadmap.sh is an effort to create roadmaps and guides to help developers in picking up the path"
 },
 {
-    "productName": "felxjobs",
+    "productName": "flexjobs",
     "category": "remote",
     "image": "https://tinyurl.com/ybfchtmw",
     "link": "https://www.flexjobs.com/",
@@ -2402,6 +2482,13 @@
   "image": "https://imgur.com/a/qDvJF1n",
   "link": "https://chrome.google.com/webstore/detail/read-aloud-a-text-to-spee/hdhinadidafjejdhmfkjgnolgimiaplp",
   "description": "Text to speech extension"
+},
+{
+  "productName": "A junior VC",
+  "category": "startup concepts",
+  "image": "https://imgur.com/lznv9sM",
+  "link": "https://ajuniorvc.com/",
+  "description": "Simplified Startup Concepts and Case Studies"
 },
 {
   "productName": "Walkccc",
@@ -3069,13 +3156,6 @@
   "description": "A platform that primarily focuses on creative skills and offers a wide range of courses in design, photography, writing, and other artistic disciplines."
 },
 {
-  "productName": "LinkedIn Learning",
-  "category": "courses",
-  "image": "https://bit.ly/3NWgMzg",
-  "link": "https://www.linkedin.com/learning/",
-  "description": "Provides a vast library of courses focused on professional development and career advancement."
-},
-{
   "productName": "Alison",
   "category": "courses",
   "image": "https://bit.ly/46q9awl",
@@ -3336,13 +3416,6 @@
   "link": "https://csslayout.io/",
   "description": "A collection of popular layouts and patterns made with CSS."
 },
-{
-  "productName": "Simplilearn",
-  "category": "courses",
-  "image": "https://www.simplilearn.com/ice9/new_logo.svgz",
-  "link": "https://www.simplilearn.com/",
-  "description": "Simplilearn is the world’s leading digital skills provider, enabling learners across the globe."
- },
  {
   "productName": "Uiverse",
   "category": "web",
@@ -3357,7 +3430,64 @@
   "link": "https://goku.sx/home",
   "description": "This website offers animes, movies, cartoons, series, etc. in HD quality"
 },
-{ "productName": "Codementor",
+{
+  "productName": "PicFinder",
+  "category": "image_generation",
+  "image": "https://shorturl.at/fqW69",
+  "link": "https://picfinder.ai/",
+  "description": "This website offers infinite image generation using ai."
+},
+{
+  "productName": "CutoutPro",
+  "category": "image_generation",
+  "image": "https://shorturl.at/cdWX0",
+  "link": "https://www.cutout.pro/",
+  "description": "AI powered visual design platform."
+},
+{
+  "productName": "ImagineMe",
+  "category": "image_generation",
+  "image": "https://shorturl.at/FJ249",
+  "link": "https://imagineme.ai/",
+  "description": "AI powered visual design platform."
+},
+{
+  "productName": "Pixray",
+  "category": "image_generation",
+  "image": "https://shorturl.at/aHY49",
+  "link": "https://replicate.com/pixray/text2image",
+  "description": "AI powered visual design platform."
+},
+{
+  "productName": "DeepAI",
+  "category": "image_generation",
+  "image": "https://shorturl.at/ftvCM",
+  "link": "https://deepai.org/machine-learning-model/text2img",
+  "description": "AI powered visual design platform."
+},
+{
+  "productName": "Cariyon",
+  "category": "image_generation",
+  "image": "https://shorturl.at/aszCS",
+  "link": "https://www.craiyon.com/",
+  "description": "Create AI Art with our free AI image generator."
+},
+{
+  "productName": "StarryAI",
+  "category": "image_generation",
+  "image": "https://shorturl.at/bkOQ4",
+  "link": "https://starryai.com/",
+  "description": "Generate art 🎨 simply by describing what you want to see and our Artificial Intelligence transforms your words into art."
+},
+{
+  "productName": "Ortus extension",
+  "category": "extension",
+  "image": "https://ury1.com/4BQuh",
+  "link": "https://chrome.google.com/webstore/detail/ortus-your-youtube-ai-bud/jmpepfdhkjkknfpnfohnmnjoceepcbmp",
+  "description": "Enhance browsing with note-taking, task management, and bookmark organization."
+},
+{
+  "productName": "Codementor",
   "category": "coding", 
    "image": "https://user-images.githubusercontent.com/84512164/249226971-111a6f09-4c8e-4921-a9f6-4aacdadf1f45.jpg",
    "link": "https://www.codementor.io/projects",
@@ -3376,5 +3506,245 @@
   "image": "https://rb.gy/xwgjm",
   "link": "https://www.stylized.ai/",
   "description": "Helps e-commerce sellers create professional product photos in seconds."
+},
+{
+  "productName": "Library-genesis",
+  "category": "Online library",
+  "image": "https://bit.ly/44EEZzy",
+  "link": "https://libgen.is/",
+  "description": "Library Genesis is an online library providing free access to a wide range of books, articles, and scientific papers."
+},
+{
+  "productName":"Coding Game",
+  "category":"tools",
+  "image":"https://rb.gy/cdibr",
+  "link":"https://www.codingame.com/start",
+  "description":"The new way to improve your programming skills while having fun and getting noticed"
+},
+{
+  "productName":"scrimba",
+  "category":"web",
+  "image":"https://rb.gy/s0ok0",
+  "link":"https://scrimba.com/",
+  "description":"Our Frontend Career Path helps motivated studentsbecome hireable developers for a fraction of the cost"
+},
+{
+  "productName":"MasterClass",
+  "category":"courses",
+  "image":"https://brandeps.com/logo-download/M/Masterclass-logo-vector-01.svg",
+  "link":"https://www.masterclass.com/",
+  "description":"Online education platform on which students can access tutorials and lectures."
+},
+{
+  "productName":"Cisco Networking Academy",
+  "category":"web",
+  "image":"https://rb.gy/rif10",
+  "link":"https://www.netacad.com/",
+  "description":"Learn the technology-JavaScript, land your dream job."
+},
+{
+  "productName": "Asura Scans",
+  "category": "comics",
+  "image": "https://t.ly/jlYZI",
+  "link": "https://t.ly/RbjWn",
+  "description": "Read Mangas, Manhwas and other comics at no cost."
+},
+{
+  "productName":"Numerous.ai",
+  "category":"ai",
+  "image":"https://rb.gy/6yq5o",
+  "link":"https://numerous.ai/",
+  "description":"Helps you to extract text, categorize, generate formulas, and use ChatGPT right inside your spreadsheet."
+},
+{
+  "productName":"SCALER Topics",
+  "category":"courses",
+  "image":"https://rb.gy/hqxie",
+  "link":"https://www.scaler.com/topics/",
+  "description":"Scaler Topics provides programming articles related to Python,Java,Data Structure,C/C++ and other popular programming languages"
+},
+{
+  "productName":"Great Learning",
+  "category":"courses",
+  "image":"https://rb.gy/7l10n",
+  "link":"https://www.mygreatlearning.com/academy",
+  "description":"Learn the in-demand skills to advance your career in AI, ML, data science, digital marketing, cloud, software engg & more."
+},
+{
+  "productName":"Fullstack.cafe",
+  "category":"tools",
+  "image":"https://bit.ly/3DqpnnW",
+  "link":"https://www.fullstack.cafe/",
+  "description":"Website that will help you in your tech Interviews."
+},
+{
+  "productName":"Heroku",
+  "category":"tools",
+  "image":"https://shorturl.at/eHKN8",
+  "link":"https://www.heroku.com/",
+  "description":"On this website, user can deploy their web-development projects and showcase their websites."
+},
+{
+  "productName":"Vercel",
+  "category":"tools",
+  "image":"https://shorturl.at/dUWX5",
+  "link":"https://vercel.com/",
+  "description":"On this website, user can deploy their web-development projects and showcase their websites."
+},
+{
+  "productName":"BlueHost",
+  "category":"tools",
+  "image":"https://shorturl.at/cnyN8",
+  "link":"https://www.bluehost.in/",
+  "description":"On this website, user can deploy their web-development projects and showcase their websites."
+},
+{
+  "productName":"DreamHost",
+  "category":"tools",
+  "image":"https://shorturl.at/dftU4",
+  "link":"https://www.dreamhost.com/",
+  "description":"On this website, user can deploy their web-development projects and showcase their websites."
+},
+{
+  "productName":"WordPress",
+  "category":"tools",
+  "image":"https://shorturl.at/gkPVZ",
+  "link":"https://wordpress.com/",
+  "description":"On this website, you can develop any website without coding just by editing."
+},
+{
+  "productName":"Devpractical",
+  "category":"web",
+  "image":"https://rb.gy/94mw9",
+  "link":"https://devpractical.com/",
+  "description":"Web Development Field Map for Beginners"
+},
+{
+  "productName": "particles.js",
+  "category": "UI",
+  "image": "https://particles.js.org/tsParticles-64.png",
+  "link": "https://particles.js.org/",
+  "description": "tsParticles - Easily create highly customizable particles, confetti and fireworks animations and use them as animated backgrounds for your website."
+},
+{
+  "productName": "PRACTITY",
+  "category": "web",
+  "image": "https://rb.gy/ab6ja",
+  "link": "https://practity.com/",
+  "description": "PROJECT BASED LEARNING PUT THEORY INTO PRACTICE"
+},
+{
+  "productName": "broken-link-checker",
+  "category": "web",
+  "image": "https://l1nk.dev/9mfZ8",
+  "link": "https://ahrefs.com/broken-link-checker",
+  "description": "It helps check your site for broken inbound and outbound links in seconds."
+},
+{
+  "productName": "youtube-keyword",
+  "category": "web",
+  "image": "https://l1nk.dev/9mfZ8",
+  "link": "https://ahrefs.com/youtube-keyword-tool",
+  "description": "it helps Get more views on YouTube by researching keywords people are searching for."
+},
+{
+  "productName": "amazon-keyword-tool",
+  "category": "web",
+  "image": "https://acesse.one/9mfZ8",
+  "link": "https://ahrefs.com/amazon-keyword-tool",
+  "description": "It helps find what people are searching for on Amazon, and align your product listings with those terms."
+},
+{
+  "productName": "Tabnine AI",
+  "category": "extensions",
+  "image": "https://rb.gy/ntsy9",
+  "link": "https://www.tabnine.com/",
+  "description": "AI assistant that speeds up delivery and keeps your code safe"
+},
+{
+  "productName": "Free3Dicon",
+  "category": "tools",
+  "image": "https://rb.gy/eacfk",
+  "link": "https://free3dicon.com/",
+  "description": "Free3Dicon offers a trendy collection of free 3D icons for your website, app, or projects."
+},
+{
+  "productName": "GitHub Copilot",
+  "category": "extensions",
+  "image": "https://rb.gy/w560d",
+  "link": "https://marketplace.visualstudio.com/items?itemName=GitHub.copilot",
+  "description": "GitHub Copilot VSCode extension provides autocomplete-style suggestions from an AI pair programmer as you code in Visual Studio Code. "
+},
+{
+    "productName": "TailwindCSS IntelliSense",
+    "category": "extensions",
+    "image": "https://rb.gy/li801",
+    "link": "https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss",
+    "description": "VSCode extension enhances the Tailwind development experience by providing Visual Studio Code users with advanced features such as autocomplete, syntax highlighting, and linting."
+},
+{
+  "productName": "Console Ninja",
+  "category": "extensions",
+  "image": "https://rb.gy/bahxv",
+  "link": "https://marketplace.visualstudio.com/items?itemName=WallabyJs.console-ninja",
+  "description": "A VS Code extension that displays console.log output and runtime errors directly in your editor from your running browser or node application."
+},
+{
+"productName": "ZenHub",
+"category": "extensions",
+"image": "https://rb.gy/qfpwe",
+"link": "https://www.zenhub.com/",
+"description": "Zenhub is the only project management tool that integrates natively within GitHub’s user interface."
+},
+{
+"productName": "VideoPad",
+"category": "tools",
+"image": "https://rb.gy/h6wus",
+"link": "https://www.nchsoftware.com/videopad/",
+"description": "VideoPad supports drag-and-drop, effects, transitions, 3D video editing, text and caption overlay, video stabilization, easy narration, free built-in sound effects, and color control."
+},
+{
+"productName": "OpenShot",
+"category": "tools",
+"image": "https://rb.gy/4cq2a",
+"link": "https://www.openshot.org/download/",
+"description": "Editing videos with OpenShot is extraordinary when you see everything you can do with it. "
+},
+{
+"productName": "Movie Maker",
+"category": "tools",
+"image": "https://rb.gy/k7pjr",
+"link": "https://apps.microsoft.com/store/detail/movie-maker-video-editor/9MVFQ4LMZ6C9?hl=en-us&gl=us",
+"description": "Movie Maker - Video Editor is the best video editing tool with FULL HD EXPORT and NO WATERMARK"
+},
+{
+"productName": "iMovie",
+"category": "tools",
+"image": "https://rb.gy/6at8a",
+"link": "https://www.apple.com/imovie/",
+"description": "Get cinema-quality videos and let your imagination run wild. Edit videos on the fly or explore iMovie on your Mac. "
+},
+{
+  "productName": "Icon-Icons",
+  "category": "tools",
+  "image": "https://rb.gy/j94i8",
+  "link": "https://icon-icons.com/",
+  "description": "Icon-Icons is a platform that provides a collection of icons in various formats, such as SVG, PNG, and ICO, for use in web design, graphic design, and other digital projects."
+},
+{
+
+  "productName": "Sketch",
+  "category": "UI",
+  "image": "https://rb.gy/2xnne",
+  "link": "https://www.sketch.com/",
+  "description": "Sketch is the all-in-one platform for digital design — with collaborative design tools, prototyping and developer handoff. Get started for free."
+},
+  {
+  "productName": "Frontend PRO",
+  "category": "web",
+  "image": "https://rb.gy/govez",
+  "link": "https://www.frontendpro.dev/",
+  "description": "Code your way to your dream job with our Frontend Coding Challenges and build real-world Frontend Projects to take your skills to the next level."
+
 }
 ]
