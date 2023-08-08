@@ -392,6 +392,13 @@
     "description": " URL shortening and Generate QR Codes"
   },
   {
+    "productName": "TinyURL",
+    "category": "tools",
+    "image": "https://tinyurl.com/5n766wtt",
+    "link": "https://tinyurl.com/app",
+    "description": " URL shortening with custom short aliases"
+  },
+  {
     "productName": "Contrib Rocks",
     "category": "tools",
     "image": "https://bit.ly/3Z1Fz7L",
