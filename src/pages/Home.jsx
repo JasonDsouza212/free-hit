@@ -63,11 +63,13 @@ const Card = () => {
         <BsFillGridFill
           onClick={() => setGridView(true)}
           size={22}
+          title="Grid"
           color={gridView ? "#212121" : "#9E9E9E"}
         />
         <BsListUl
           onClick={() => setGridView(false)}
           size={28}
+          title="List"
           color={gridView ? "#9E9E9E" : "#212121"}
         />
 
