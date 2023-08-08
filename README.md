@@ -7,6 +7,15 @@ Free-Hit is a website where you can search for free tools that are useful for yo
 
 > ![free-hit](https://github.com/JasonDsouza212/free-hit/assets/88102392/3bd18ef6-fc72-4882-85c3-9591c7d94067)
 
+## Table of Content
+
+- [Why to Open Source?](#Why-to-Open-Source?)
+- [🌟 Benefits of Contributing to Open-Source](#-Benefits-of-Contributing-to-Open-Source)
+- [Tech Stack](#Tech-Stack)
+- [🚀 Quick start](#-Quick-start)
+- [License](#License)
+- [🤝 Our Contributors](#-Our-Contributors)
+
 ## Why to Open Source?
 
 Open Source increases our prospectives and opportunities in contributing to various kinds of projects and engage with different kind of mentors. It helps us to build connections and open a gate to various kinds of open source technologies.
