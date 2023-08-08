@@ -5,6 +5,7 @@ import { msg } from '../utils/data/message';
 import ButtonLinks from '../utils/data/categories';
 import { useContext, useEffect, useState } from 'react';
 import { ToolContext } from '../App';
+import LinkedInButton from './LinkedInButton';
 
 export default function Sidebar({search}) {
   const location = useLocation();
@@ -80,6 +81,9 @@ export default function Sidebar({search}) {
 					<li className='about-list'>
 						<TwitterButton message={msg} />
 					</li>
+          <li className='about-list'>
+            <LinkedInButton />
+          </li>
 				</ul>
 			</nav>
       ) : (
