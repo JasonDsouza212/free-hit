@@ -1,0 +1,9 @@
+.share-model {
+    position: fixed;
+    inset: 0;
+    background: #fff;
+    z-index: 99;
+    color: black;
+    display: grid;
+    place-items: center;
+}
