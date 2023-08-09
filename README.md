@@ -18,9 +18,9 @@ Free-Hit is a website where you can search for free tools that are useful for yo
 
 ## Why to Open Source?
 
-Open Source increases our prospectives and opportunities in contributing to various kinds of projects and engage with different kind of mentors. It helps us to build connections and open a gate to various kinds of open source technologies.
+Open Source increases our prospects and opportunities in contributing to various kinds of projects and engage with different kinds of mentors. It helps us to build connections and open a gate to various kinds of open source technologies.
 
-Our website is one such kind which provides a platform to contributors from all over the world give their inputs in the form of useful websites which are free to use. It enables us to get a list of all the websites together at one place thereby saving a lot of time for us. We can find any kind of website here, be it a tool or an education platform. Hence, it is declared as a knowledge sharing platform!
+Our website is one such kind that provides a platform for contributors from all over the world to give their inputs in the form of useful websites which are free to use. It enables us to get a list of all the websites together in one place thereby saving a lot of time for us. We can find any kind of website here, be it a tool or an education platform. Hence, it is declared a knowledge-sharing platform!
 
 ## 🌟 Benefits of Contributing to Open-Source
 
@@ -30,7 +30,7 @@ Contributing to open-source projects like Free-Hit has numerous benefits. It hel
 
 2. Build your portfolio: Your contributions can serve as real-world examples of your work and make you stand out in the job market. These can enhance your resume.
 
-3. Improve existing skills and learn new ones: Working on real-world projects gives you the chance to apply what you've learned and gain more knowledge along the way. 
+3. Improve existing skills and learn new ones: Working on real-world projects allows you to apply what you've learned and gain more knowledge along the way. 
 
 4. Network with professionals: You get to connect and collaborate with professionals around the world, opening up potential job opportunities.
 
