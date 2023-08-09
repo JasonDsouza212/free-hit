@@ -24,15 +24,13 @@
 }
 
 /* width */
-::-webkit-scrollbar {
-  width: 15px;
-  background-color: var(--primary-white);
-}
+::-webkit-scrollbar{
 
-::-webkit-scrollbar-thumb {
-  background: var(--primary-black);
-  background: var(--primary-black);
-  background: var(--primary-black);
+  width: 12px;
+}
+::-webkit-scrollbar-thumb{
+  background: linear-gradient(transparent,#373530);
+  border-radius: 6px;
 }
 
 * {
