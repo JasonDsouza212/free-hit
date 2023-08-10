@@ -8,7 +8,6 @@ const GridView = ({ currentProducts }) => {
 
   const handleShareClick = async (product) => {
     try {
-      // Check if the Web Share API is available in the browser
       if (navigator.share) {
         let customShareLink = `${
           window.location.href.split('?')[0]

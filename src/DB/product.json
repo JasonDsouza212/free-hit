@@ -42,6 +42,13 @@
     "description": "Access the latest news with this API."
   },
   {
+    "productName": "Rapid API",
+    "category": "api",
+    "image": "https://files.readme.io/3fa0350-small-RapidAPI_Logo_Primary_KO.png",
+    "link": "https://rapidapi.com/hub",
+    "description": "Discover and connect to thousands of APIs."
+  },
+  {
     "productName": "Unsplash API",
     "category": "api",
     "image": "https://tinyurl.com/2jawsxpr",
