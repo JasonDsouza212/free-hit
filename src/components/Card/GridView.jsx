@@ -17,45 +17,30 @@ const GridView = ({ currentProducts }) => {
   const handleShareClick = async (product) => {
     try {
       if (navigator.share) {
-        let customShareLink = `${window.location.href.split('?')[0]}?q=${encodeURIComponent(
-          product.productName
-        )}`;
+        let customShareLink = `${
+          window.location.href.split('?')[0]
+        }?q=${encodeURIComponent(product.productName)}`
 
         await navigator.share({
           title: product.productName,
           text: product.description,
           url: customShareLink,
-        });
+        })
       } else {
-        setCardModalVisibility(true);
-        const link = `${window.location.origin}/?q=${encodeURIComponent(product.productName)}`;
-        setCustomShareLink(link);
-        // await navigator.clipboard.writeText(link);
-        console.log('Link copied!');
-        console.log("Web Share API is not supported in this browser.");
+        // Fallback for browsers that do not support the Web Share API
+        const customShareLink = `${
+          window.location.origin
+        }/?q=${encodeURIComponent(product.productName)}`
+
+        // Copy the link to the clipboard
+        await navigator.clipboard.writeText(customShareLink)
+        alert('Link copied!')
+        console.log('Web Share API is not supported in this browser.')
       }
     } catch (error) {
-      console.error('Error sharing:', error);
+      console.error('Error sharing:', error)
     }
-  };
-
-  const handleCopyLink = () => {
-    try {
-      navigator.clipboard.writeText(customShareLink);
-      console.log('Link copied!');
-
-      setIsCopied(true); // Set the state to indicate link is copied
-      setTimeout(() => {
-        setIsCopied(false); // Reset the state after a delay
-      }, 3000); // Reset after 3 seconds
-    } catch (error) {
-      console.error('Error copying link:', error);
-    }
-  };
-
-  const handleShareModalClose = () => {
-    setCardModalVisibility(false);
-  };
+  }
 
   return (
     <main 
@@ -123,24 +108,15 @@ const GridView = ({ currentProducts }) => {
                   className={`bookmark ${darkMode ? 'dark-mode' : ''}`}
                   onClick={() => {handelBookmarkAdd(product); setShowAlert(true) }}
                 >
-                  <font size="4">
-                    Bookmark
-                  </font>
+                  <font size="4">Bookmark</font>
                 </button>
-            )}
-          </div>
-        </article>
-      ))}
-      <ShareModel
-        isVisible={cardModalVisibility}
-        link={customShareLink}
-        darkMode={darkMode}
-        onClose={handleShareModalClose}
-        onCopy={handleCopyLink}
-        isCopied={isCopied} // Pass the isCopied state
-      />
+              )}
+            </div>
+          </article>
+        )
+      })}
     </main>
-  );
+  )
 }
 
-export default GridView;
+export default GridView
