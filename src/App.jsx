@@ -47,6 +47,7 @@ function App() {
 
   // Add bookmark
   function handelBookmarkAdd(bookmark) {
+    alert("Book Mark Added Successfully")
     const newBookmark = {
       productName: bookmark.productName,
       category: bookmark.category,
@@ -59,6 +60,7 @@ function App() {
 
   // Remove Bookmark
   function deleteres(product) {
+    alert("BookMark Deleted")
     setBookmarks(
       bookmarks.filter((res) => res.productName !== product.productName)
     )
