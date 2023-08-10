@@ -10,8 +10,10 @@
 
 
 .bookmarkModel {
-    text-align: center;
-    padding: 20px;
+  padding: 20px;
+  display: flex;
+  text-align: center;
+  align-items: center;    
   }
   
   .alert-box {
@@ -20,15 +22,21 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
   }
   
   .alert-content {
-    background-color: white;
+    background-color: #c6e6da;
+    position: relative;
     padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
   }
+  .bookmarkDelete{
+    background-color: rgb(255, 170, 170);
+  }
+
+  
