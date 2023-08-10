@@ -2,12 +2,16 @@ import { useContext, useState } from 'react';
 import { ToolContext } from '../../App';
 import ShareModel from './ShareModel';
 import '../../styles/GridView.css';
+import BookMarks from './BookMark';
+
 
 const GridView = ({ currentProducts }) => {
   const [isCopied, setIsCopied] = useState(false); // State to track whether link is copied
   const { handelBookmarkAdd, bookmarks, deleteres, darkMode } = useContext(ToolContext);
   const [cardModalVisibility, setCardModalVisibility] = useState(false);
   const [customShareLink, setCustomShareLink] = useState('');
+  const [showAlert, setShowAlert] = useState(false)
+
 
 
   const handleShareClick = async (product) => {
@@ -103,6 +107,7 @@ const GridView = ({ currentProducts }) => {
                 </font>
               </button>
             </a>
+            <BookMarks showAlert={showAlert} setShowAlert={()=>setShowAlert()}/>
             {bookmarks.some(
               (obj) => obj['productName'] === product.productName
             ) ? (
@@ -116,7 +121,7 @@ const GridView = ({ currentProducts }) => {
             ) : (
                 <button
                   className={`bookmark ${darkMode ? 'dark-mode' : ''}`}
-                  onClick={() => handelBookmarkAdd(product)}
+                  onClick={() => {handelBookmarkAdd(product); setShowAlert(true) }}
                 >
                   <font size="4">
                     Bookmark
