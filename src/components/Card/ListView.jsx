@@ -1,14 +1,33 @@
-import { useContext } from 'react';
+import { useContext, useState } from 'react';
 import { ToolContext } from '../../App';
+import ShareModel from './ShareModel';
 import '../../styles/ListView.css';
 import { Box, Accordion, AccordionButton, AccordionItem, AccordionPanel, AccordionIcon } from '@chakra-ui/react';
 import { BsChevronDown } from 'react-icons/bs';
 
 const ListView = ({ currentProducts }) => {
   const { handelBookmarkAdd, bookmarks, deleteres, darkMode } = useContext(ToolContext);
+  const [cardModelVisibility, setCardModelVisibility] = useState(false);
+  const [customShareLink, setCustomShareLink] = useState('');
+  const [isCopied, setIsCopied] = useState(false); // State to track copied status
+
+  const handleCopyLink = async () => {
+    try {
+      await navigator.clipboard.writeText(customShareLink);
+      setIsCopied(true); // Set copied status to true
+      setTimeout(() => setIsCopied(false), 1500); // Reset copied status after 1.5 seconds
+      console.log('Link copied!');
+    } catch (error) {
+      console.error('Error copying link:', error);
+    }
+  };
+
+  const handleShareModelClose = () => {
+    setCardModelVisibility(false);
+  };
+
   const handleShareClick = async (product) => {
     try {
-      // Check if the Web Share API is available in the browser
       if (navigator.share) {
         let customShareLink = `${window.location.href.split('?')[0]}?q=${encodeURIComponent(
           product.productName
@@ -20,22 +39,20 @@ const ListView = ({ currentProducts }) => {
           url: customShareLink,
         });
       } else {
-        // Fallback for browsers that do not support the Web Share API
-        const customShareLink = `${window.location.origin}/?q=${encodeURIComponent(
-          product.productName
-        )}`;
-
-        // Copy the link to the clipboard
-        await navigator.clipboard.writeText(customShareLink);
-        alert('Link copied!');
-        console.log("Web Share API is not supported in this browser.")
+        setCardModelVisibility(true);
+        const link = `${window.location.origin}/?q=${encodeURIComponent(product.productName)}`;
+        setCustomShareLink(link);
       }
     } catch (error) {
       console.error('Error sharing:', error);
     }
   };
   return (
-    <Accordion allowToggle className={`list ${darkMode ? 'dark-mode' : ''}`}>
+    <Accordion 
+      allowToggle 
+      className={`list ${darkMode ? 'dark-mode' : ''}`}
+      style={{ userSelect: cardModelVisibility ? 'none' : 'auto' }}
+    >
       {currentProducts.map((product, index) => (
         <AccordionItem
           borderRadius="8px"
@@ -147,6 +164,15 @@ const ListView = ({ currentProducts }) => {
           </AccordionPanel>
         </AccordionItem>
       ))}
+      {/* Use the ShareModel component */}
+      <ShareModel
+        isVisible={cardModelVisibility}
+        link={customShareLink}
+        darkMode={darkMode}
+        onClose={handleShareModelClose}
+        onCopy={handleCopyLink}
+        isCopied={isCopied}
+      />
     </Accordion>
   );
 };
