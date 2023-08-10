@@ -107,4 +107,56 @@ body {
   font-weight: bolder;
 }
 
+.text {
+  opacity: 0;
+  transform: translateY(20px) scale(0.9);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.animated .text {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+}
+
+.fade-in {
+  animation: fadeIn 2s forwards;
+}
+
+.slide-up {
+  animation: slideUp 2s forwards;
+}
+
+.scale-in {
+  animation: scaleIn 2s forwards;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  0% {
+    transform: translateY(20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes scaleIn {
+  0% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+
+
 /* about end */
