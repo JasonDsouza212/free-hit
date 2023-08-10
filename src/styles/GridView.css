@@ -4,61 +4,59 @@
   --primary-black: #373530;
 }
 
-.grid .card-title{
-    color: var(--primary-black);
+.grid .card-title {
+  color: var(--primary-black);
 }
 
-.grid .visit{
-  background-color:var(--primary-black);
-  color:var(--primary-white);
+.grid .visit {
+  background-color: var(--primary-black);
+  color: var(--primary-white);
   /* border: 2px solid var(--primary-black); */
 }
 
-.grid .bookmark{
-  background-color:var(--primary-black);
-  color:var(--primary-white);
+.grid .bookmark {
+  background-color: var(--primary-black);
+  color: var(--primary-white);
   /* border: 2px solid var(--primary-black); */
 }
-.grid .visit:hover{
+.grid .visit:hover {
   transition: all 0.3s ease-out;
 }
-.grid .bookmark:hover{
+.grid .bookmark:hover {
   transition: all 0.3s ease-out;
 }
-.grid .delete{
-  background-color:var(--primary-black);
-  color:var(--primary-white);
+.grid .delete {
+  background-color: var(--primary-black);
+  color: var(--primary-white);
   /* border: 2px solid var(--primary-black); */
 }
-.grid .delete:hover{
+.grid .delete:hover {
   transition: all 0.3s ease-out;
 }
 /* Dark mode styles */
-  
-  .grid .card-title.dark-mode{
-    color:white;
-  }
-  
-  .grid .visit.dark-mode {
-    background-color: var(--primary-black);
-    color: var(--primary-white);
-  }
 
-  .grid .visit.dark-mode:hover {
-    transition: all 0.3s ease-out;
-  }
-  
-  .grid .bookmark.dark-mode {
-    background-color: var(--primary-black);
-    color: var(--primary-white);
-  }
-  .grid .bookmark.dark-mode:hover {
-    transition: all 0.3s ease-out;
-  }
+.grid .card-title.dark-mode {
+  color: white;
+}
 
+.grid .visit.dark-mode {
+  background-color: var(--primary-black);
+  color: var(--primary-white);
+}
 
-  /* Updated styles */
+.grid .visit.dark-mode:hover {
+  transition: all 0.3s ease-out;
+}
 
+.grid .bookmark.dark-mode {
+  background-color: var(--primary-black);
+  color: var(--primary-white);
+}
+.grid .bookmark.dark-mode:hover {
+  transition: all 0.3s ease-out;
+}
+
+/* Updated styles */
 
 /* .grid article .text_top {
   height: 100px; 
@@ -70,13 +68,12 @@
   white-space: nowrap;
 } */
 
-.zoomImg{
+.zoomImg {
   width: 100%;
   height: 100%;
+  scale: 1.8;
   object-fit: contain;
 }
-.tag{
-  width: 80px !important;
+.tag {
   height: 30px !important;
 }
-  
