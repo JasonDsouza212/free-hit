@@ -1,5 +1,6 @@
 import { useSearchParams } from "react-router-dom";
 import "../styles/Pagination.css";
+import { useState } from "react";
 
 export default function Pagination({ totalPages, atTop }) {
 	const pageNumbers = Array.from({ length: totalPages }, (_, index) => index + 1);
