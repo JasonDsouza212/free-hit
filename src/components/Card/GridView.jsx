@@ -62,7 +62,7 @@ const GridView = ({ currentProducts }) => {
               {product.image ? (
                 <div className={`card-image ${imageWidth && imageWidth!==null  < 350 && "tag"}`}>
                   <img
-                    className={` ${darkMode ? 'dark-mode' : ''} zoomImg`}
+                    className={` ${darkMode ? 'dark-mode' : ''} ${ imageWidth && imageWidth!==null < 350 && "zoomImg"}`}
                     src={product.image}
                     alt="product-img"
                     onError={(e) => {

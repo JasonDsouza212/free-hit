@@ -385,18 +385,10 @@ nav {
   height: 100%;
 }
 
-/* .free-logo {
-  top: 1px;
-  height: 40px;
-  margin: 11px;
-  width: 130px;
-} */
-
 .free-logo {
   width: 210px;
-  height: 58px;
+  height: 52px;
   margin-right: 10px;
-  margin-top: 4px;
 }
 
 .mobile-logo {
@@ -422,13 +414,6 @@ nav {
     }
     
 }
-
-.free-logo.dark-mode{
-  /* :white; */
-}
-
-/* ================================  Free-Hit logo end*/
-
 .hnav-link {
   position: relative;
 }

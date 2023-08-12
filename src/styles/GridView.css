@@ -4,39 +4,39 @@
   --primary-black: #373530;
 }
 
-.grid .card-title {
+.grid .card-title{
   color: var(--primary-black);
 }
 
-.grid .visit {
-  background-color: var(--primary-black);
-  color: var(--primary-white);
-  /* border: 2px solid var(--primary-black); */
+.grid .visit{
+background-color:var(--primary-black);
+color:var(--primary-white);
+/* border: 2px solid var(--primary-black); */
 }
 
-.grid .bookmark {
-  background-color: var(--primary-black);
-  color: var(--primary-white);
-  /* border: 2px solid var(--primary-black); */
+.grid .bookmark{
+background-color:var(--primary-black);
+color:var(--primary-white);
+/* border: 2px solid var(--primary-black); */
 }
-.grid .visit:hover {
-  transition: all 0.3s ease-out;
+.grid .visit:hover{
+transition: all 0.3s ease-out;
 }
-.grid .bookmark:hover {
-  transition: all 0.3s ease-out;
+.grid .bookmark:hover{
+transition: all 0.3s ease-out;
 }
-.grid .delete {
-  background-color: var(--primary-black);
-  color: var(--primary-white);
-  /* border: 2px solid var(--primary-black); */
+.grid .delete{
+background-color:var(--primary-black);
+color:var(--primary-white);
+/* border: 2px solid var(--primary-black); */
 }
-.grid .delete:hover {
-  transition: all 0.3s ease-out;
+.grid .delete:hover{
+transition: all 0.3s ease-out;
 }
 /* Dark mode styles */
 
-.grid .card-title.dark-mode {
-  color: white;
+.grid .card-title.dark-mode{
+  color:white;
 }
 
 .grid .visit.dark-mode {
@@ -56,22 +56,11 @@
   transition: all 0.3s ease-out;
 }
 
-/* Updated styles */
-
-/* .grid article .text_top {
-  height: 100px; 
-}
-
-.grid article .card-title {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-} */
 
 .zoomImg {
   width: 100%;
   height: 100%;
-  scale: 1.8;
+  scale: 1.4;
   object-fit: contain;
 }
 .tag {
