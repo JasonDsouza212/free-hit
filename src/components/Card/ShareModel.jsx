@@ -69,23 +69,6 @@ const ShareModel = ({ darkMode, isVisible, link, onClose, onCopy, isCopied }) =>
           <button onClick={onCopy} title={'Copy'}>
             <FaRegCopy />
           </button>
-          {isCopied && (
-            <div
-              className="tooltip"
-              style={{
-                position: 'absolute',
-                fontSize: '.75rem',
-                top: '-1.5rem',
-                right: '-0.5rem',
-                background: '#333',
-                color: 'white',
-                padding: '.5rem .75rem',
-                borderRadius: '.75rem',
-              }}
-            >
-              Copied
-            </div>
-          )}
         </div>
         <button
           onClick={onClose}

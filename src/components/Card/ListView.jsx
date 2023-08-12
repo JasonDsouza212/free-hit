@@ -4,6 +4,7 @@ import ShareModel from './ShareModel';
 import '../../styles/ListView.css';
 import { Box, Accordion, AccordionButton, AccordionItem, AccordionPanel, AccordionIcon } from '@chakra-ui/react';
 import { BsChevronDown } from 'react-icons/bs';
+import { toast } from 'react-hot-toast';
 
 const ListView = ({ currentProducts }) => {
   const { handelBookmarkAdd, bookmarks, deleteres, darkMode } = useContext(ToolContext);
@@ -16,8 +17,10 @@ const ListView = ({ currentProducts }) => {
       await navigator.clipboard.writeText(customShareLink);
       setIsCopied(true); // Set copied status to true
       setTimeout(() => setIsCopied(false), 1500); // Reset copied status after 1.5 seconds
+      toast.success('Link copied successfully!')
       console.log('Link copied!');
     } catch (error) {
+      toast.error(error?.message ?? "Something went wrong! Link couldn't be copied");
       console.error('Error copying link:', error);
     }
   };

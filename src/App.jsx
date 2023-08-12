@@ -7,6 +7,7 @@ import NotFound from './pages/NotFound'
 import Community from './pages/Community'
 import Layout from './components/Layout'
 import { Analytics } from '@vercel/analytics/react'
+import { toast } from 'react-hot-toast'
 
 const ToolContext = createContext()
 const LOCAL_STORAGE_KEY = 'freehit.bookmarks'
@@ -47,7 +48,7 @@ function App() {
 
   // Add bookmark
   function handelBookmarkAdd(bookmark) {
-    alert("Book Mark Added Successfully")
+    toast.success("Book Mark Added Successfully!")
     const newBookmark = {
       productName: bookmark.productName,
       category: bookmark.category,
@@ -60,7 +61,7 @@ function App() {
 
   // Remove Bookmark
   function deleteres(product) {
-    alert("BookMark Deleted")
+    toast.success("BookMark Deleted!")
     setBookmarks(
       bookmarks.filter((res) => res.productName !== product.productName)
     )

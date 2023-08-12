@@ -1,6 +1,7 @@
 import { useContext,useEffect,useState } from 'react'
 import { ToolContext } from '../../App'
 import '../../styles/GridView.css'
+import { toast } from 'react-hot-toast'
 
 const GridView = ({ currentProducts }) => {
   const { handelBookmarkAdd, bookmarks, deleteres, darkMode } =
@@ -26,10 +27,11 @@ const GridView = ({ currentProducts }) => {
 
         // Copy the link to the clipboard
         await navigator.clipboard.writeText(customShareLink)
-        alert('Link copied!')
+        toast.success('Link copied!');
         console.log('Web Share API is not supported in this browser.')
       }
     } catch (error) {
+      toast.error(error?.message ?? "Something went wrong! Link couldn't be copied");
       console.error('Error sharing:', error)
     }
   }
