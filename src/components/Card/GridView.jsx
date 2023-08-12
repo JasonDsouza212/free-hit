@@ -107,8 +107,7 @@ const GridView = ({ currentProducts }) => {
               ) ? (
                 <button
                   className={`delete ${darkMode ? 'dark-mode' : ''}`}
-                  onClick={(event) => {
-                    event.stopPropagation()
+                  onClick={() => {
                     deleteres(product)
                   }}
                 >
