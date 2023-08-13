@@ -16,11 +16,11 @@ jobs:
           stale-pr-label: 'no-pr-activity'
           exempt-pr-labels: 'work-in-progress'
           # issue close & warning days
-          days-before-issue-stale: 3
-          days-before-issue-close: 1
+          days-before-issue-stale: 12
+          days-before-issue-close: 7
           # pr close & warning days
-          days-before-pr-stale: 3
-          days-before-pr-close: 1
+          days-before-pr-stale: 12
+          days-before-pr-close: 7
           # stale issue messages
           stale-issue-message: >
             This issue has been automatically marked as stale because it has been open for few days
