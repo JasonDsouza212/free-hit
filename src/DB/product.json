@@ -3760,5 +3760,12 @@
   "link": "https://www.frontendpro.dev/",
   "description": "Code your way to your dream job with our Frontend Coding Challenges and build real-world Frontend Projects to take your skills to the next level."
 
+},
+{
+  "productName": "SummerEyes",
+  "category": "ai",
+  "image": "https://i.ibb.co/R0TScQJ/summereyes.jpg",
+  "link": "https://summereyes.ai/",
+  "description": "SummerEyes lets you summarize any text on the internet in one click. It also has a browser extension."
 }
 ]
