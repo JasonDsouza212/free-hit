@@ -3753,7 +3753,7 @@
   "link": "https://www.sketch.com/",
   "description": "Sketch is the all-in-one platform for digital design — with collaborative design tools, prototyping and developer handoff. Get started for free."
 },
-  {
+{
   "productName": "Frontend PRO",
   "category": "web",
   "image": "https://rb.gy/govez",
@@ -3767,5 +3767,12 @@
   "image": "https://i.ibb.co/R0TScQJ/summereyes.jpg",
   "link": "https://summereyes.ai/",
   "description": "SummerEyes lets you summarize any text on the internet in one click. It also has a browser extension."
+},
+{
+  "productName": "MAPBAN",
+  "category": "eSports",
+  "image": "https://www.mapban.gg/images/header_logo.png",
+  "link": "https://www.mapban.gg/en",
+  "description": "Free, quick and easy way to ban or pick maps in various games such as CS:GO, VALORANT, etc."
 }
 ]
