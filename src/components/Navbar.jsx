@@ -62,6 +62,7 @@ const Header = ({ filteredSuggestions }) => {
     setSearch(val)
     debounce(setSearchTerm, 500)(val);
   }
+  
 
   // for NavLinks
 

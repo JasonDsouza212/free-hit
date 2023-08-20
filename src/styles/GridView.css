@@ -4,6 +4,7 @@
   --primary-black: #373530;
 }
 
+
 .grid .card-title{
   color: var(--primary-black);
 }
@@ -11,25 +12,26 @@
 .grid .visit{
 background-color:var(--primary-black);
 color:var(--primary-white);
-/* border: 2px solid var(--primary-black); */
 }
 
 .grid .bookmark{
 background-color:var(--primary-black);
 color:var(--primary-white);
-/* border: 2px solid var(--primary-black); */
 }
+
 .grid .visit:hover{
 transition: all 0.3s ease-out;
 }
+
 .grid .bookmark:hover{
 transition: all 0.3s ease-out;
 }
+
 .grid .delete{
 background-color:var(--primary-black);
 color:var(--primary-white);
-/* border: 2px solid var(--primary-black); */
 }
+
 .grid .delete:hover{
 transition: all 0.3s ease-out;
 }
@@ -52,6 +54,7 @@ transition: all 0.3s ease-out;
   background-color: var(--primary-black);
   color: var(--primary-white);
 }
+
 .grid .bookmark.dark-mode:hover {
   transition: all 0.3s ease-out;
 }
