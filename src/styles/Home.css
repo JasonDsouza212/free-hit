@@ -62,7 +62,7 @@ body {
   min-height: 220px;
   max-width: 350px;
   border: 1px solid var(--primary-black);
-  box-shadow: 8px 8px 2px 0px var(--primary-black);
+  box-shadow: 8px 8px 0px 0px var(--primary-black);
   background-color: var(--primary-white);
   padding: 15px 30px;
   border-radius: 20px;
@@ -127,16 +127,6 @@ body {
   text-align: left;
 
 }
-
-/* .card-img {
-  transition: .5s;
-}
-
-.text_top:hover .card-img {
-  transform: scale(1.1);
-  box-shadow: 4px 5px 8px rgba(0, 0, 0, 0.447);
-
-} */
 
 .btn-cont button {
   background-color: var(--primary-black);

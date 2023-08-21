@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react'
-import { FaSearch } from 'react-icons/fa'
+import { FaSearch, FaTimes } from 'react-icons/fa'
 import freehitlogo from '../assets/logo.webp'
 import freehitlogodark from '../assets/darkmode-logo.webp'
 import { useLocation } from 'react-router-dom'
@@ -56,6 +56,13 @@ const Header = ({ filteredSuggestions }) => {
     setSearch(val)
     debounce(setSearchTerm, 500)(val);
   }
+  const handleresetInput = () => {
+    const val = ""
+    setSearchTerm(val)
+    setSearch(val)
+    debounce(setSearchTerm, 500)(val);
+  }
+  
 
   // for NavLinks
 
@@ -107,12 +114,20 @@ const Header = ({ filteredSuggestions }) => {
               value={search}
               onChange={(e) => handleChangeInInput(e)}
               id="search"
-            />
-            <div className="btn btn_common">
-              <i className="fas fa-search">
-                <FaSearch />
-              </i>
-            </div>
+            />          
+            {search? (
+              <div className="btn btn_common">
+                <i className="fas fa-search " onClick={()=>handleresetInput()}>
+                  <FaTimes />
+                </i>
+              </div>
+            ) : (
+              <div className="btn btn_common" >
+                <i className="fas fa-search">
+                  <FaSearch />
+                </i>
+              </div>
+            )}            
           </div>
           {(filteredSuggestions.length > 1 || (filteredSuggestions.length > 0 && filteredSuggestions[0] != searchTerm)) && (
             <ul className="hnav-suggestionbar" id="serch-suggestions">

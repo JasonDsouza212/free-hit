@@ -422,13 +422,23 @@ nav {
   position: absolute;
   top: 62%;
   width: 80%;
+  max-height: 50vh;
   background: #353535;
   color: #ffffff;
   border-radius: 5px;
   padding: 10px;
   border: 1px solid #c1c1c1;
-  z-index: 100;
+  z-index: 999;
   line-height: 40px;
+  overflow-y: auto;
+}
+.hnav-suggestionbar::-webkit-scrollbar-thumb {
+  background-color: var(--primary-black);
+  border-radius: 90px;
+}
+.hnav-suggestionbar::-webkit-scrollbar-track {
+  background-color: var(--primary-white);
+  border: 3px solid var(--primary-black);
 }
 .hnav-suggestionbar li {
   list-style: none;
