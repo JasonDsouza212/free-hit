@@ -79,14 +79,14 @@ const ButtonLinks = [
   },
   {
     id: 14,
-    name: 'Useful Tools',
-    category: 'tools',
+    name: 'eSports',
+    category: 'eSports',
     icon: 'ri-tools-fill',
   },
   {
     id: 15,
-    name: 'eSports',
-    category: 'eSports',
+    name: 'Useful Tools',
+    category: 'tools',
     icon: 'ri-tools-fill',
   },
 
