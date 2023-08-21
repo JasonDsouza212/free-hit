@@ -3753,7 +3753,7 @@
   "link": "https://www.sketch.com/",
   "description": "Sketch is the all-in-one platform for digital design — with collaborative design tools, prototyping and developer handoff. Get started for free."
 },
-  {
+{
   "productName": "Frontend PRO",
   "category": "web",
   "image": "https://rb.gy/govez",
@@ -3774,5 +3774,61 @@
   "image": "https://rb.gy/lsqkn",
   "link": "https://www.vondy.com/",
   "description": "AI platform that contains best-in-class tools and apps for content creation, productivity, organization, story writing, travel, and much more."
+},
+{
+  "productName": "MAPBAN",
+  "category": "eSports",
+  "image": "https://www.mapban.gg/images/header_logo.png",
+  "link": "https://www.mapban.gg/en",
+  "description": "Free, quick and easy way to ban or pick maps in various games such as CS:GO, VALORANT, etc."
+},
+{
+  "productName": "Gazoom",
+  "category": "eSports",
+  "image": "https://app.gazoom.gg/favicon.ico",
+  "link": "https://app.gazoom.gg/",
+  "description": "Gazoom is an online platform for strategies, lineups, playbook, etc for CS:GO and VALORANT."
+},
+{
+  "productName": "Tracker Network",
+  "category": "eSports",
+  "image": "https://trackercdn.com/static-files/trackergg/production/dist/client/assets/6d718acb.png",
+  "link": "https://tracker.gg/",
+  "description": "Tracker.gg is a site for tracking video game stats, rankings, and progress in popular multiplayer games."
+},
+{
+  "productName": "FACEIT",
+  "category": "eSports",
+  "image": "https://corporate.faceit.com/wp-content/themes/app-theme/assets/o/images/faceit-flat-logo.png",
+  "link": "https://www.faceit.com/",
+  "description": "FACEIT is a top esports platform with 20M+ users, enabling competitive gaming for players and empowering organizers to build communities."
+},
+{
+  "productName": "BUFF",
+  "category": "eSports",
+  "image": "https://www.buff.game/wp-content/uploads/2022/06/newlogo.svg",
+  "link": "https://www.buff.game/",
+  "description": "Meet Buff, the ideal gamer’s reward program. Game, earn Buffs, get Items, and Capture your Highlights."
+},
+{
+  "productName": "Steam",
+  "category": "eSports",
+  "image": "https://store.cloudflare.steamstatic.com/public/shared/images/header/logo_steam.svg?t=962016",
+  "link": "https://store.steampowered.com/",
+  "description": "Steam is the ultimate destination for playing, discussing, and creating games."
+},
+{
+  "productName": "IGN",
+  "category": "eSports",
+  "image": "https://kraken.ignimgs.com/favicon.ico",
+  "link": "https://ign.com/",
+  "description": "IGN is a top entertainment and gaming website, offering news, reviews, guides, and content about video games, movies, and more."
+},
+{
+  "productName": "Overwolf",
+  "category": "eSports",
+  "image": "https://www.overwolf.com/brand-guidelines/img/logo1.svg",
+  "link": "https://www.overwolf.com/",
+  "description": "A platform that offers various apps and tools to enhance the gaming and esports experience."
 }
 ]
