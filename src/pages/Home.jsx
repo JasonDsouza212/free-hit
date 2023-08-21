@@ -78,7 +78,7 @@ const Card = () => {
         {!isLoading ?
           currentProducts.length === 0 ? (
             <div className="not-found-wrapper">
-              <p className="no-results">
+              <p className={`no-results ${darkMode ? 'dark-mode' : ''}`}>
                 Sorry, our toolbox seems empty for this search term!
               </p>
               <img className="not-found-img" src={noresultimg} alt="not found" />
