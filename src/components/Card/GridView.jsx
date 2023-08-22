@@ -43,7 +43,7 @@ const GridView = ({ currentProducts }) => {
             {product.image ? (
               <div className='card-image'>
                 <img
-                className={`${darkMode ? 'dark-mode' : ''}`}
+                className={`${darkMode ? 'dark-mode' : ''} `}
                 src={product.image}
                 alt="product-img"
                 onError={(e) => {
