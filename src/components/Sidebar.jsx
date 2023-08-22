@@ -50,6 +50,7 @@ export default function Sidebar({search}) {
       }
       return prevParams;
     });
+    // document.getElementById("btn").checked = false;
   };
   
   useEffect(()=>{
@@ -106,7 +107,7 @@ export default function Sidebar({search}) {
               </li>
             </ul>
           </div>
-          <ul className="list-items">
+          <ul className="list-items sidebarfilters">
             {ButtonLinks.map((buttonLink) => (
               <>
               <li

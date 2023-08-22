@@ -92,7 +92,6 @@ nav {
   width: 270px;
   left: -270px;
   transition: all 0.3s ease;
-  overflow-y: auto;
   z-index: 999;
 }
 
@@ -461,8 +460,11 @@ nav {
   display: block;
 }
 .about-list {
-  padding-left: 12px;
+  font-size: 18px;
+  padding-left: 45px;
+  font-weight: 900;
 }
+
 @media screen and (max-width: 421px){
   .free-logo{
     position: relative;
