@@ -3304,13 +3304,6 @@
   "description": "This website offers complimentary(free) courses for students."
 },
 {
-  "productName": "replit",
-  "category": "coding",
-  "image": "http://surl.li/ixnin",
-  "link": "https://replit.com/~",
-  "description": "Replit, being Software as a Service (SaaS), allows users to create online projects."
-},
-{
   "productName": "Prettier",
   "category": "extensions",
   "image": "https://prettier.io/icon.png",
