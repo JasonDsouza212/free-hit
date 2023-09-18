@@ -1,10 +1,9 @@
 import { useContext, useState } from 'react';
 import { ToolContext } from '../../App';
-import ShareModel from './ShareModel';
+import { toast } from 'react-hot-toast'
 import '../../styles/ListView.css';
 import { Box, Accordion, AccordionButton, AccordionItem, AccordionPanel, AccordionIcon } from '@chakra-ui/react';
 import { BsChevronDown } from 'react-icons/bs';
-import { toast } from 'react-hot-toast';
 
 const ListView = ({ currentProducts }) => {
   const { handelBookmarkAdd, bookmarks, deleteres, darkMode } = useContext(ToolContext);
@@ -12,44 +11,34 @@ const ListView = ({ currentProducts }) => {
   const [customShareLink, setCustomShareLink] = useState('');
   const [isCopied, setIsCopied] = useState(false); // State to track copied status
 
-  const handleCopyLink = async () => {
-    try {
-      await navigator.clipboard.writeText(customShareLink);
-      setIsCopied(true); // Set copied status to true
-      setTimeout(() => setIsCopied(false), 1500); // Reset copied status after 1.5 seconds
-      toast.success('Link copied successfully!')
-      console.log('Link copied!');
-    } catch (error) {
-      toast.error(error?.message ?? "Something went wrong! Link couldn't be copied");
-      console.error('Error copying link:', error);
-    }
-  };
-
-  const handleShareModelClose = () => {
-    setCardModelVisibility(false);
-  };
-
   const handleShareClick = async (product) => {
     try {
       if (navigator.share) {
-        let customShareLink = `${window.location.href.split('?')[0]}?q=${encodeURIComponent(
-          product.productName
-        )}`;
+        let customShareLink = `${
+          window.location.href.split('?')[0]
+        }?q=${encodeURIComponent(product.productName)}`
 
         await navigator.share({
           title: product.productName,
           text: product.description,
           url: customShareLink,
-        });
+        })
       } else {
-        setCardModelVisibility(true);
-        const link = `${window.location.origin}/?q=${encodeURIComponent(product.productName)}`;
-        setCustomShareLink(link);
+        // Fallback for browsers that do not support the Web Share API
+        const customShareLink = `${
+          window.location.origin
+        }/?q=${encodeURIComponent(product.productName)}`
+
+        // Copy the link to the clipboard
+        await navigator.clipboard.writeText(customShareLink)
+        toast.success('Link copied!');
+        console.log('Web Share API is not supported in this browser.')
       }
     } catch (error) {
-      console.error('Error sharing:', error);
+      toast.error(error?.message ?? "Something went wrong! Link couldn't be copied");
+      console.error('Error sharing:', error)
     }
-  };
+  }
   return (
     <Accordion 
       allowToggle 
@@ -168,14 +157,6 @@ const ListView = ({ currentProducts }) => {
         </AccordionItem>
       ))}
       {/* Use the ShareModel component */}
-      <ShareModel
-        isVisible={cardModelVisibility}
-        link={customShareLink}
-        darkMode={darkMode}
-        onClose={handleShareModelClose}
-        onCopy={handleCopyLink}
-        isCopied={isCopied}
-      />
     </Accordion>
   );
 };
