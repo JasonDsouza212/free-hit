@@ -17,7 +17,20 @@ git clone https://github.com/your-username/free-hit.git
 cd free-hit
 ```
 
-4. Open CMD in your current directory and install pnpm packages using command.[If pnpm is not installed, you can install it by clicking on this link to [pnpm](https://pnpm.io/installation)]
+4. There are two ways to start your application
+
+- Using Docker Compose
+  - Docker must be installed and running before proceeding.
+  - This is the easiest way to start your application without downloading any dependencies that can alter your local versions.
+  - Below command builds the docker image and starts the container where our app will be running on  `http://localhost:5173/`
+
+```markdown
+    docker compose up
+```
+
+- Normal Installation
+
+  - Open CMD in your current directory and install pnpm packages using command.[If pnpm is not installed, you can install it by clicking on this link to [pnpm](https://pnpm.io/installation)]
 
 ```markdown
 pnpm i
@@ -78,7 +91,9 @@ git push
 ```
 
 7. Create a new pull request from your forked repository (Click the `New Pull Request` button located at the top of your repo)
+
 ### How to Create a PR
+
 1. After you push the changes you need to create a pull request and name the issue and mention the issue number,
 eg: chore: added tool #issuenumber
 2. The tags which can be used for url submission are as follows:
