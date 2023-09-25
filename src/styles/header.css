@@ -88,19 +88,20 @@ nav {
   position: fixed;
   background-color: #222;
   top: 70px;
-  height: 100%;
+  height: 92%;
   width: 270px;
   left: -270px;
   transition: all 0.3s ease;
   z-index: 999;
+  overflow-y: scroll;
 }
 
 #sidebar::-webkit-scrollbar {
-  width: 8px;
+  width: 14px;
 }
 
 #sidebar::-webkit-scrollbar-thumb {
-  background-color: #999;
+  background-color: var(--primary-black);
   border-radius: 10px;
 }
 
