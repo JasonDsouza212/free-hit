@@ -12,7 +12,7 @@ const BackToTopButton = () => {
   }
   useEffect(() => {
     const toggleVisiblity = () => {
-      window.pageYOffset > 250 ? setBtnVisiblity(true) : setBtnVisiblity(false)
+      window.scrollY > 250 ? setBtnVisiblity(true) : setBtnVisiblity(false)
     }
     window.addEventListener('scroll', toggleVisiblity)
     return () => {
@@ -21,12 +21,11 @@ const BackToTopButton = () => {
   }, [])
 
   return (
-    <Link onClick={handleScroll} to="Top" smooth duration={500} className={`top ${darkMode ? 'dark-mode' : ''}`}href='#' aria-label='Go to top of website'>
-        <div
-          className={` ${
-            !btnVisiblity ? 'transition-before' : 'transition-after'
+    <Link onClick={handleScroll} to="Top" smooth duration={500} className={`top ${darkMode ? 'dark-mode' : ''}`} href='#' aria-label='Go to top of website'>
+      <div
+        className={` ${!btnVisiblity ? 'transition-before' : 'transition-after'
           } backToTopButton`}
-        >
+      >
         <div className={`button ${darkMode ? 'dark-mode' : ''}`}>
           <i className="ri-arrow-up-s-line"></i>
         </div>
