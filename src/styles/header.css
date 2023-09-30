@@ -185,7 +185,6 @@ nav {
 #sidebar .list-items li:first-child {
   border-top: none;
   background-color: #333;
-
 }
 #sidebar .list-items li button {
   color: var(--primary-white);
