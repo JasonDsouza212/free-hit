@@ -42,11 +42,13 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  
 }
 
 .list .image .card-img img{
   width: 100%;
   border-radius: 10px;
+  /* border: 2px solid black; */
 }
 
 .list .accordion_btn {
