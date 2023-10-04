@@ -299,6 +299,10 @@ nav {
   color: rgba(128, 128, 128, 0.8);
 }
 
+.search_box .input:focus{
+  outline:none;
+}
+
 .search_box .btn {
   position: absolute;
   width: 50px;
