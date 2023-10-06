@@ -34,7 +34,7 @@ const About = () => {
                 <br />
                 <button>
                   <a href="https://github.com/JasonDsouza212/free-hit" target='_blank'>
-                    Star the repo <strong>★</strong>
+                    New repo <strong>★</strong>
                   </a>
                 </button>
               </p>
