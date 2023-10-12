@@ -3817,5 +3817,12 @@
   "image": "https://www.overwolf.com/brand-guidelines/img/logo1.svg",
   "link": "https://www.overwolf.com/",
   "description": "A platform that offers various apps and tools to enhance the gaming and esports experience."
+},
+{
+  "productName": "Typora",
+  "category": "tools",
+  "image": "https://typora.io/img/icon_256x256.png",
+  "link": "https://typora.io/",
+  "description": "A minimal markdown editor and reader equipped with file conversion feature."
 }
 ]
