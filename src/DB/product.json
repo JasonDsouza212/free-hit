@@ -1,5 +1,12 @@
 [
   {
+    "productName": "Carousel Hero",
+    "category": "tools",
+    "image": "https://i.ibb.co/7rRW6TW/logo-social-large.png",
+    "link": "https://carouselhero.com/",
+    "description": "A free tool for creating social media carousels. No signup required."
+  },
+  {
     "productName": "Whimsical",
     "category": "UI",
     "image": "http://tinyurl.com/whimsical-img",
