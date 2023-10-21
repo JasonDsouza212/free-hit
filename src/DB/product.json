@@ -3831,5 +3831,12 @@
   "image": "https://typora.io/img/icon_256x256.png",
   "link": "https://typora.io/",
   "description": "A minimal markdown editor and reader equipped with file conversion feature."
+},
+{
+  "productName": "Tampermonkey",
+  "category": "tools",
+  "image": "https://lh3.googleusercontent.com/zoY8FwoOqPlBgFxcmFdNSK2Q4CcLmv-gw7vTjF2KMR9cEabwBsGNrHBTEMitn0Ba6OmCVJ0NcLnFGu3N97BP8Phu0g=w128-h128-e365-rj-sc0x00ffffff",
+  "link": "https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo",
+  "description": "Enhances your browsing experience by allowing you to run userscripts on websites."
 }
 ]
